@@ -1,0 +1,22 @@
+{
+  "id": "clock_wall",
+  "name": "Wall Clock",
+  "description": "Round wall-mounted clock. Decorative timepiece for town squares and public spaces.",
+  "purposes": [
+    "decoration"
+  ],
+  "tags": [
+    "outdoor",
+    "decoration",
+    "civic",
+    "clock"
+  ],
+  "solid": false,
+  "layer": "overhead",
+  "spriteId": "clock_wall",
+  "materials": [
+    "wood",
+    "metal"
+  ],
+  "wallVerticalOffset": -1
+}

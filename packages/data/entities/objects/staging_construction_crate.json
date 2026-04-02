@@ -1,0 +1,19 @@
+{
+  "id": "staging_construction_crate",
+  "purposes": [
+    "storage"
+  ],
+  "spriteId": "staging_construction_crate",
+  "name": "Construction Materials",
+  "description": "Crate displayed at a build site while a new place is being generated",
+  "tags": [
+    "common",
+    "staging",
+    "construction",
+    "container"
+  ],
+  "materials": [],
+  "solid": true,
+  "layer": "default",
+  "tintable": false
+}

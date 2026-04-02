@@ -1,0 +1,12 @@
+{
+  "id": "ship_mast",
+  "name": "Ship Mast",
+  "description": "A wooden mast with rigging and sail, rising from the ship's deck",
+  "purposes": ["ship_mast"],
+  "tags": ["ship", "vessel"],
+  "solid": true,
+  "layer": "default",
+  "spriteId": "ship_mast_small",
+  "materials": ["wood"],
+  "tintable": false
+}

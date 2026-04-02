@@ -1,0 +1,59 @@
+{
+  "id": "PLACE_riftwake_landing",
+  "label": "Riftwake Landing",
+  "description": "Riftwake Landing serves as a fortified void-surface dock within Cyrenth Vale, cut into an ash-sheathed escarpment and faced with blast-baffled ferrocrete revetments. Broad mag-clamped aprons and recessed hardpoints define the berthing field, their surfaces scored by centuries of engine wash and shrapnel pitting from orbital debris fall. Tall auspex pylons and shielded beacon masts rise above the loading lanes, throwing cold lumen strips through bruise-hued auroral haze. Sealed cargo galleries and quarantine bays line the inner wall, reflecting the world’s siege economy and the unreliability of transit across the Gloamreach approaches.",
+  "short_description": "fortified void dock",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "harbor",
+    "environment": {
+      "type": "exterior",
+      "hasWeather": true,
+      "temperature": {
+        "enabled": true,
+        "base": null,
+        "modifiersApply": true
+      },
+      "maxDarkness": null
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "world_map_dock",
+      "facing": "south",
+      "layer": "default"
+    },
+    "allowPlayerStart": true,
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/battles/PLACE_riftwake_landing.png?v=1771817019450",
+    "inheritedRequiredTags": null,
+    "timeScale": 1
+  },
+  "position": {
+    "x": 1616,
+    "y": 1120,
+    "width": 96,
+    "height": 48,
+    "parent": "PLACE_cyrenth_vale",
+    "innerWidth": 1760,
+    "innerHeight": 1280
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/places/PLACE_riftwake_landing.png?v=1771817067075",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

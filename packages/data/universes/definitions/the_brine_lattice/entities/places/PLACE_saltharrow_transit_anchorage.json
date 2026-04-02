@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_saltharrow_transit_anchorage",
+  "label": "Saltharrow Transit Anchorage",
+  "description": "Saltharrow Transit Anchorage serves as the system’s principal spaceport, set on a hardened orbital platform aligned to the charted debris-belt lanes. Its architecture favors compact, ribbed hullworks and glare-shielded galleries designed to withstand the primary star’s hard white radiance. Gravitic-reference pylons and lattice-calibrated beacons dominate the superstructure, fixing approach vectors within Saltharrow’s pronounced gradients. Pressurized concourses connect modular berths, customs vaults, and sealed cargo galleries arranged for rapid turnover on deep-lattice schedules.",
+  "short_description": "orbital transit spaceport",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "spaceport",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "spaceport",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/the_brine_lattice/images/battles/PLACE_saltharrow_transit_anchorage.png?v=1772313775577",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 4464,
+    "y": 1984,
+    "width": 32,
+    "height": 32,
+    "parent": "PLACE_saltharrow_system",
+    "innerWidth": 3424,
+    "innerHeight": 2464
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/the_brine_lattice/images/places/PLACE_saltharrow_transit_anchorage.png?v=1772313851072",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

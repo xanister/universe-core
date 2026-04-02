@@ -1,0 +1,1817 @@
+{
+  "id": "CHAR_alaric_morn",
+  "label": "Alaric Morn",
+  "description": "This individual is a young adult human of taupe skinTone, marked by long travel in a lean, hardened frame and a straight-backed bearing. Brown eyeColor sit under heavy brows, giving the face a fixed look of scrutiny that accords with a newcomer measuring unfamiliar ground. Brown hairColor is worn in a practical long style, kept back from the eyes and cut to endure weeks without close attention. The hands show enduring callus and small, clean-healed nicks consistent with frequent packing, climbing, and road work.",
+  "short_description": "male traveling adventurer",
+  "tags": [],
+  "entityType": "character",
+  "info": {
+    "purpose": "player",
+    "aliases": [
+      "The Newcomer",
+      "Roadborn"
+    ],
+    "birthdate": "018.M42",
+    "deathdate": null,
+    "title": null,
+    "birthPlace": "Unknown frontier holding",
+    "eyeColor": "brown",
+    "gender": "male",
+    "hairColor": "brown",
+    "hairStyle": "long",
+    "beardStyle": "stubble",
+    "headType": "human_male",
+    "skinTone": "taupe",
+    "personality": "Restless, observant, and purpose-driven, this traveler enters the Cinderwake as a self-directed seeker of work, danger, and meaning. He favors direct bargains, keeps a careful watch on local custom, and measures people by reliability under pressure. Ambition and curiosity guide his choices more than comfort or status.",
+    "race": "human",
+    "messages": [
+      {
+        "role": "assistant",
+        "action": "milestone",
+        "opts": {
+          "type": "location_entered",
+          "label": "The Riftward Canteen",
+          "subtext": null,
+          "entityId": "PLACE_the_riftward_canteen",
+          "checkDetail": null,
+          "combatData": null
+        },
+        "date": null,
+        "omitFromTranscript": true,
+        "hidden": false
+      },
+      {
+        "role": "assistant",
+        "action": "milestone",
+        "opts": {
+          "type": "location_entered",
+          "label": "Vespera Tertius Nocturnis Bastion",
+          "subtext": null,
+          "entityId": "PLACE_vespera_tertius_nocturnis_bastion",
+          "checkDetail": null,
+          "combatData": null
+        },
+        "date": null,
+        "omitFromTranscript": true,
+        "hidden": false
+      },
+      {
+        "role": "assistant",
+        "action": "milestone",
+        "opts": {
+          "type": "location_entered",
+          "label": "Vespera Tertius",
+          "subtext": null,
+          "entityId": "PLACE_vespera_tertius",
+          "checkDetail": null,
+          "combatData": null
+        },
+        "date": null,
+        "omitFromTranscript": true,
+        "hidden": false
+      },
+      {
+        "role": "assistant",
+        "action": "milestone",
+        "opts": {
+          "type": "location_entered",
+          "label": "Vespera Tertius Nocturnis Bastion",
+          "subtext": null,
+          "entityId": "PLACE_vespera_tertius_nocturnis_bastion",
+          "checkDetail": null,
+          "combatData": null
+        },
+        "date": null,
+        "omitFromTranscript": true,
+        "hidden": false
+      },
+      {
+        "role": "assistant",
+        "action": "milestone",
+        "opts": {
+          "type": "location_entered",
+          "label": "The Riftward Canteen",
+          "subtext": null,
+          "entityId": "PLACE_the_riftward_canteen",
+          "checkDetail": null,
+          "combatData": null
+        },
+        "date": null,
+        "omitFromTranscript": true,
+        "hidden": false
+      },
+      {
+        "role": "user",
+        "action": "input",
+        "opts": {
+          "text": "I wait 480 minutes."
+        },
+        "date": "999.M1 19:59",
+        "omitFromTranscript": false,
+        "hidden": false
+      },
+      {
+        "date": "999.M1 03:59",
+        "omitFromTranscript": false,
+        "hidden": false,
+        "role": "assistant",
+        "action": "narration",
+        "opts": {
+          "text": "The bruise-hued strips keep humming behind their mesh as the canteen slides from late night into the gray edge before dawn; outside, interference makes the basalt bay shiver now and then with a muffled thrum that rattles cups and then dies. Patrons thin to a few hollow-eyed shift stragglers; Salen Aft keeps wiping down and stacking serviceware with the same measured pace, while the tired deckhand lingers until his shoulders sag, then finally slips out through the wooden door into the cloudy dark."
+        }
+      },
+      {
+        "date": null,
+        "omitFromTranscript": true,
+        "hidden": false,
+        "role": "assistant",
+        "action": "wait",
+        "opts": {
+          "durationMs": 1000
+        }
+      },
+      {
+        "role": "user",
+        "action": "input",
+        "opts": {
+          "text": "I wait 480 minutes."
+        },
+        "date": "999.M1 09:16",
+        "omitFromTranscript": false,
+        "hidden": false
+      },
+      {
+        "date": "999.M1 14:44",
+        "omitFromTranscript": false,
+        "hidden": false,
+        "role": "assistant",
+        "action": "narration",
+        "opts": {
+          "text": "Time drags in the Riftward Canteen—shift waves come and go, faces changing like cards in a dirty hand—until the air itself turns wrong. A dry, cold draft threads through the low vault from nowhere, carrying a sharp ozone bite and the faint stink of burned hair; the mesh-baffled lumen strips flicker once, and every piece of wreck-metal plating answers with a brief, synchronized ping, like something testing the hull from the inside.\n\nBehind the counter, Salen Aft stops wiping mid-stroke, rag hovering over the smeared evidence-ledger as if he’s afraid to touch it again. The wooden door gives a soft, inward knock—no hand on the other side—then settles back into its frame with a slow creak, and the room’s murmurs die for a beat as patrons listen to the silence that follows."
+        }
+      },
+      {
+        "date": "999.M1 14:44",
+        "omitFromTranscript": false,
+        "hidden": false,
+        "role": "assistant",
+        "action": "dialog",
+        "opts": {
+          "characterId": "CHAR_salen_aft",
+          "text": "Don’t like that. That’s ship-sound, not weather."
+        }
+      },
+      {
+        "role": "assistant",
+        "action": "dialog",
+        "opts": {
+          "characterId": "CHAR_salen_aft",
+          "text": "Keep your eyes on your papers. Things go missing when folk start staring at the door."
+        },
+        "date": "999.M1 14:44",
+        "omitFromTranscript": false,
+        "hidden": false
+      },
+      {
+        "role": "assistant",
+        "action": "milestone",
+        "opts": {
+          "type": "character_arrived",
+          "label": "Alaric Morn",
+          "subtext": null,
+          "entityId": "CHAR_alaric_morn",
+          "checkDetail": null,
+          "combatData": null
+        },
+        "date": null,
+        "omitFromTranscript": true,
+        "hidden": false
+      },
+      {
+        "date": "999.M1 07:50",
+        "omitFromTranscript": false,
+        "hidden": false,
+        "role": "assistant",
+        "action": "narration",
+        "opts": {
+          "text": "Before the question fully lands on Soren Malrick, the Lantern’s wooden door jolts under a hard knock—then a second, too precise to be drunken. The barman’s blackout slats snap down another notch as the tired male deckhand stiffens at the bar, fingers white on the edge; behind the viewport, armored shadows slide past in a disciplined sweep, and a lone traveler at a side bench turns his cup without drinking, watching the room like it’s a map.\n\nA thin voice from the corridor calls for “routine verification,” but the traveler moves first—quiet, decisive—blocking Malrick’s sightline with his body and letting the deckhand vanish into the bar’s dead angle. He doesn’t draw a weapon; he makes the room believe one exists. The knock comes again, closer to a demand than a request, and the corridor’s lumen-wand glare stripes the cracks around the door like a scan."
+        }
+      },
+      {
+        "date": null,
+        "omitFromTranscript": true,
+        "hidden": false,
+        "role": "assistant",
+        "action": "face",
+        "opts": {
+          "characterId": "CHAR_soren_malrick",
+          "targetCharacterId": "CHAR_severin_ashcombe",
+          "direction": "up"
+        }
+      },
+      {
+        "date": null,
+        "omitFromTranscript": true,
+        "hidden": false,
+        "role": "assistant",
+        "action": "wait",
+        "opts": {
+          "durationMs": 500
+        }
+      },
+      {
+        "date": null,
+        "omitFromTranscript": true,
+        "hidden": false,
+        "role": "assistant",
+        "action": "move",
+        "opts": {
+          "characterId": "CHAR_alaric_morn",
+          "targetCharacterId": "CHAR_severin_ashcombe"
+        }
+      },
+      {
+        "date": "999.M1 07:50",
+        "omitFromTranscript": false,
+        "hidden": false,
+        "role": "assistant",
+        "action": "dialog",
+        "opts": {
+          "characterId": "CHAR_alaric_morn",
+          "text": "Departure word costs more when it’s true. Keep your route small and your mouth smaller—there’s a sweep on paper, not bodies."
+        }
+      },
+      {
+        "role": "assistant",
+        "action": "dialog",
+        "opts": {
+          "characterId": "CHAR_soren_malrick",
+          "text": "Wrong minute to shop for schedules. But coin talks—fast. What kind of off-world, and how loud do you want it?"
+        },
+        "date": "999.M1 07:50",
+        "omitFromTranscript": false,
+        "hidden": false
+      },
+      {
+        "role": "assistant",
+        "action": "dialog",
+        "opts": {
+          "characterId": "CHAR_a_fatigued_deckhand_messenger",
+          "text": "No names. No repeats. If they hear it twice, they write it down."
+        },
+        "date": "999.M1 07:50",
+        "omitFromTranscript": false,
+        "hidden": false
+      },
+      {
+        "role": "assistant",
+        "action": "dialog",
+        "opts": {
+          "characterId": "CHAR_alaric_morn",
+          "text": "If the door opens, you two speak like strangers. I’ll handle the questions."
+        },
+        "date": "999.M1 07:50",
+        "omitFromTranscript": false,
+        "hidden": false
+      },
+      {
+        "role": "assistant",
+        "action": "move_hint",
+        "opts": {
+          "targetId": "CHAR_soren_malrick"
+        },
+        "date": null,
+        "omitFromTranscript": true,
+        "hidden": false
+      },
+      {
+        "role": "user",
+        "action": "input",
+        "opts": {
+          "text": "I’m just here for warmth and a cup, nothing more. I don’t know anyone’s business, and I don’t want it. If there’s ‘verification,’ I’ve got nothing worth writing down."
+        },
+        "date": "999.M1 07:50",
+        "omitFromTranscript": false,
+        "hidden": false
+      },
+      {
+        "date": "999.M1 07:55",
+        "omitFromTranscript": false,
+        "hidden": false,
+        "role": "assistant",
+        "action": "narration",
+        "opts": {
+          "text": "Before the last word leaves your mouth, the wooden door buckles inward under a boot and the corridor’s lumen-wand slices the crack—then the street outside answers with hard, staccato gunfire that hammers closer, turning “routine verification” into a live sweep. The male traveling adventurer snaps a palm down on the bar to steady cups as shockwaves rattle the adamantine plates; the tired male deckhand flinches, a sealed oilskin chit flashing at his belt before he shoves it deeper under his coat.\n\nA burst of rounds chews the arcades outside, sending grit and paint flakes drifting from the ceiling; muffled shouting rides the smoke, and something heavy—armored—runs past the door in disciplined cadence. Behind the bar, Soren Malrick yanks the blackout slats fully shut and gestures for bodies to get low as the barmen reach for emergency latches, sealing the Lantern like a coffin with a tab.\n\nIn the corridor, a vox-hailer barks an order, then a second voice screams—cut short—followed by a wet clang against metal; the whole hall feels suddenly too small, like the fight is about to spill through the door on momentum alone."
+        }
+      },
+      {
+        "date": null,
+        "omitFromTranscript": true,
+        "hidden": false,
+        "role": "assistant",
+        "action": "face",
+        "opts": {
+          "characterId": "CHAR_alaric_morn",
+          "direction": "left"
+        }
+      },
+      {
+        "date": null,
+        "omitFromTranscript": true,
+        "hidden": false,
+        "role": "assistant",
+        "action": "move",
+        "opts": {
+          "characterId": "CHAR_a_fatigued_deckhand_messenger",
+          "targetCharacterId": "CHAR_severin_ashcombe"
+        }
+      },
+      {
+        "date": "999.M1 07:55",
+        "omitFromTranscript": false,
+        "hidden": false,
+        "role": "assistant",
+        "action": "dialog",
+        "opts": {
+          "characterId": "CHAR_a_fatigued_deckhand_messenger",
+          "text": "I’m on docket time. I just need a stamp and out. Don’t make me say it twice."
+        }
+      },
+      {
+        "role": "assistant",
+        "action": "dialog",
+        "opts": {
+          "characterId": "CHAR_soren_malrick",
+          "text": "Down. Everyone down. Slats shut, mouths shut—this is a running fight."
+        },
+        "date": "999.M1 07:55",
+        "omitFromTranscript": false,
+        "hidden": false
+      },
+      {
+        "role": "assistant",
+        "action": "dialog",
+        "opts": {
+          "characterId": "CHAR_alaric_morn",
+          "text": "They’re not here for drinks. When the door goes, move on the second breach, not the first."
+        },
+        "date": "999.M1 07:55",
+        "omitFromTranscript": false,
+        "hidden": false
+      },
+      {
+        "role": "user",
+        "action": "input",
+        "opts": {
+          "text": "Soren Malrick, talk to me. Is this sweep because of that sealed dispatch? I need to know who’s hunting it."
+        },
+        "date": "999.M1 07:55",
+        "omitFromTranscript": false,
+        "hidden": false
+      },
+      {
+        "date": "999.M1 08:00",
+        "omitFromTranscript": false,
+        "hidden": false,
+        "role": "assistant",
+        "action": "narration",
+        "opts": {
+          "text": "Mid-demand for answers, the Lantern shudders again—gunfire walks closer in sharp bursts, and the sealed blackout slats rattle like teeth in a skull. Soren Malrick keeps his body between the bar and the room, one hand on the emergency latch, while the traveling adventurer slides off his stool and angles toward cover; the tired deckhand’s fingers clamp hard over his coat like he’s holding something in place as boots and a dragged armored weight scrape past the corridor outside.\n\nA vox-hailer outside spits clipped commands that echo through the adamantine plates; then comes a second, nearer set of footfalls—too fast, not in cadence—followed by a wet metallic impact against the doorframe. Dust sifts down in pale lines across cups and rivets as something heavy slams the door from the other side, once, testing, then shifts away as if the fight is flowing down the arcade."
+        }
+      },
+      {
+        "date": null,
+        "omitFromTranscript": true,
+        "hidden": false,
+        "role": "assistant",
+        "action": "move",
+        "opts": {
+          "characterId": "CHAR_soren_malrick",
+          "targetCharacterId": "CHAR_severin_ashcombe"
+        }
+      },
+      {
+        "date": "999.M1 08:00",
+        "omitFromTranscript": false,
+        "hidden": false,
+        "role": "assistant",
+        "action": "dialog",
+        "opts": {
+          "characterId": "CHAR_soren_malrick",
+          "text": "It’s a sweep because someone’s bleeding paperwork into the street, not because I want to chat. If you’re carrying anything sealed, keep it sealed and keep it off your tongue."
+        }
+      },
+      {
+        "date": null,
+        "omitFromTranscript": true,
+        "hidden": false,
+        "role": "assistant",
+        "action": "wait",
+        "opts": {
+          "durationMs": 400
+        }
+      },
+      {
+        "date": "999.M1 08:00",
+        "omitFromTranscript": false,
+        "hidden": false,
+        "role": "assistant",
+        "action": "dialog",
+        "opts": {
+          "characterId": "CHAR_a_fatigued_deckhand_messenger",
+          "text": "No names. No repeats. I just need a stamp and out."
+        }
+      },
+      {
+        "date": null,
+        "omitFromTranscript": true,
+        "hidden": false,
+        "role": "assistant",
+        "action": "wait",
+        "opts": {
+          "durationMs": 300
+        }
+      },
+      {
+        "date": null,
+        "omitFromTranscript": true,
+        "hidden": false,
+        "role": "assistant",
+        "action": "wait",
+        "opts": {
+          "durationMs": 300
+        }
+      },
+      {
+        "date": "999.M1 08:00",
+        "omitFromTranscript": false,
+        "hidden": false,
+        "role": "assistant",
+        "action": "dialog",
+        "opts": {
+          "characterId": "CHAR_alaric_morn",
+          "text": "They’re running someone past this hall—listen for the second breach. First hit is noise; second is entry."
+        }
+      },
+      {
+        "role": "assistant",
+        "action": "move_hint",
+        "opts": {
+          "targetId": "CHAR_soren_malrick"
+        },
+        "date": null,
+        "omitFromTranscript": true,
+        "hidden": false
+      },
+      {
+        "role": "assistant",
+        "action": "milestone",
+        "opts": {
+          "type": "location_entered",
+          "label": "Cyrenth Bastion-City",
+          "subtext": null,
+          "entityId": "PLACE_cyrenth_bastioncity",
+          "checkDetail": null,
+          "combatData": null
+        },
+        "date": null,
+        "omitFromTranscript": true,
+        "hidden": false
+      }
+    ],
+    "journal": [
+      {
+        "content": "You stand on the Cinderwake’s grit-scored deck with ash ticking against soot-black plating, your cloak tethered down like everything else in the electrostatic gale. Under shuttered lantern-slit light and a violet storm-glare sky, you move with a traveler’s economy—eyes measuring rigging, crew, and the hard-weather fittings that keep this ship alive under rift-shadow.\n\nYou are here because the Cinderwake takes bodies and skills without asking too many questions, so long as the work is done and the prayers are said correctly. In Imperium Nihilus, even a simple berth feels like a bargain with the dark.",
+        "gameDate": "999.M1 08:41",
+        "facts": [
+          {
+            "placeId": null,
+            "category": "world",
+            "subject": "Current Situation",
+            "subjectId": null,
+            "fact": "The crew follows strict, fearful routines—tools are treated like relics and every task is wrapped in litanies.",
+            "significance": "minor",
+            "important": false
+          },
+          {
+            "placeId": null,
+            "category": "world",
+            "subject": "Current Situation",
+            "subjectId": null,
+            "fact": "The Great Rift has made routes and messages unreliable; out here, delays and silence are normal and blamed on the warp.",
+            "significance": "minor",
+            "important": false
+          },
+          {
+            "placeId": null,
+            "category": "relationship",
+            "subject": "Current Situation",
+            "subjectId": null,
+            "fact": "On this ship, trust is earned by competence under pressure, not by rank or origin.",
+            "significance": "minor",
+            "important": false
+          }
+        ],
+        "image": null,
+        "context": null
+      }
+    ],
+    "sketches": [],
+    "verbosity": 3,
+    "conversationContext": "STORY SO FAR: Alaric Morn remains in the Riftward Canteen as a brewing dispute centers on a ledger and a contested timeline. Sethran Doke, backed by tense staff, suspects deliberate tampering to obscure a disputed entry. A new watch-stamped chit from the gangway tally undermines a previously “too neat” alibi and raises suspicion of coaching or coercion. SCENE STATE: Inside the Riftward Canteen at the counter area during recurring shift-change waves; the ledger is smeared and treated as evidence. Sethran Doke and canteen staff are present and wary, watching reactions and the door. ACTIVE GOAL: Determine who tampered with the ledger and reconcile the gangway tally chit with the claimed timeline to expose the liar. FAILED ATTEMPTS: None. CURRENT MOMENT: A fatigued deckhand delivers a sealed chit; Sethran reads it and confronts an accused person about a two-minute absence and who instructed them to deny leaving.",
+    "storytellerState": {
+      "storytellerId": "STORYTELLER_the_candlewisp_keeper",
+      "voiceId": "callum",
+      "activePlots": [
+        {
+          "id": "plot_1771916301032",
+          "plan": {
+            "label": "Ashes of the Silent Choir",
+            "description": "You find yourself aboard the Cinderwake under rift-shadowed skies, where even prayer feels muffled by ash and static. A crewman dies in a way that reeks of blasphemy, and the ship’s routines—already held together by fear and rope—begin to unravel. Orders arrive under seal, but in Imperium Nihilus a message can be a weapon, and obedience can be a death sentence. The stormfronts are closing, the dock authorities are hungry for scapegoats, and something below decks is listening when you speak the Emperor’s name.",
+            "plot": "Opening hook: a dead sailor is found nailed to the deck fittings with tar-black rosary cord, and a sealed writ has been pushed into his mouth as if the paper itself were a gag. The sealed letter binds Alaric Morn to an urgent task: recover a warding relic and reach a dead astropathic relay before the next electrostatic gale seals the routes. Captain Lysander Quell keeps the Cinderwake afloat through careful brutality and quiet compromises, but the ship’s holds conceal evidence of forbidden trade and a cargo that attracts the wrong kind of attention. As the voyage tightens into paranoia, Cyran Vell—an undead wight that should not exist under the Emperor’s light—appears with fragments of truth and a route into the ash where the relay lies half-buried. The real threat is not the storm but a rust-robed void-preacher who has turned Mechanicus rites into a summoning protocol, using the relay as a beacon and the relic as its key. The twist is that the choir’s “silence” is not simply failure: it is containment—break it the wrong way, and something answers.",
+            "characters": [
+              {
+                "role": "obstacle",
+                "description": "A hard-eyed, hollow-cheeked ship captain with a voice like rasped cordage; he speaks in clipped orders and watches every prayer as if it were a ledger entry.",
+                "publicFace": "The only reason the Cinderwake still sails—an iron pragmatist keeping souls and supplies intact under rift-weather.",
+                "hiddenTruth": "He has tolerated (and profited from) tightly controlled, deniable dealings for ammunition and spare parts; he will sacrifice crew—and the player—rather than let the ship be seized by dock law or inquisitorial audit.",
+                "locationHint": "On the quarterdeck and in the Ashlight Back Chamber when the ship is under stress.",
+                "introductionProgress": 5,
+                "name": "Lysander Quell",
+                "matchHint": "",
+                "entityId": "CHAR_lysander_quell"
+              },
+              {
+                "role": "victim",
+                "description": "A pale, steady-handed helmsman with ink-stained knuckles and a gaze fixed on horizons that aren’t there; his jaw trembles when the storm-glare spikes.",
+                "publicFace": "A loyal wheelman who knows the Cinderwake’s moods and currents better than any chart.",
+                "hiddenTruth": "He has been hearing “course-corrections” in his skull—an invasive signal riding the gales—making him an unwitting vector for the ritual’s navigation math.",
+                "locationHint": "At the wheel during storms; afterward, found near the Ashlight Crew Bunkroom with blood in his ears.",
+                "introductionProgress": 10,
+                "name": "Lucian Greve",
+                "matchHint": "",
+                "entityId": "CHAR_lucian_greve"
+              },
+              {
+                "role": "informant",
+                "description": "A clattering, half-armored skeleton wight whose movements are precise enough to be insulting; its voice is like dry parchment over a vox-grille.",
+                "publicFace": "A warp-unclean abomination that should be destroyed on sight.",
+                "hiddenTruth": "It is bound to an old oath and can guide the player through the relay’s rites and layout—yet every favor it grants risks normalizing the unholy and drawing scrutiny from loyalist authorities.",
+                "locationHint": "Appears in shadowed passages near the Ashbound Stores and wherever the ship’s wards fail.",
+                "introductionProgress": 45,
+                "name": "Cyran Vell",
+                "matchHint": "",
+                "entityId": "CHAR_cyran_vell"
+              },
+              {
+                "role": "antagonist",
+                "description": "A red-robed, incense-reeking officiant with mechadendrites that twitch like anxious fingers; their chanting blends binharic cadence with devotional litanies until neither is recognizable.",
+                "publicFace": "A sanctioned tech-adept assigned to assess the relay site and ‘restore communications’ for the good of the sector.",
+                "hiddenTruth": "A Chaos-corrupted ritualist using correct Mechanicus forms as camouflage; the relay is a summoning focus and the relic is the keystone that makes the beacon audible to the thing in the storm.",
+                "locationHint": "Near the ship’s most sacred machinery and later at the storm-buried relay tower’s inner sanctum.",
+                "introductionProgress": 55,
+                "name": "",
+                "matchHint": "incense-soaked tech-adept preacher with hidden heretek rites"
+              }
+            ],
+            "places": [
+              {
+                "placeId": "PLACE_riftwake_landing",
+                "storyRole": "Transition point to the ash wastes and a chokepoint of bureaucracy—where the player can gain access, be delayed, or be denounced."
+              },
+              {
+                "placeId": "PLACE_the_ironbound_locker",
+                "storyRole": "Investigation hub for uncovering sabotage, smuggling evidence, and the location of the warding relic."
+              },
+              {
+                "placeId": "PLACE_vespera_tertius_shard_basilica",
+                "storyRole": "Final destination and ritual site—where the player must choose what ‘restoring the choir’ truly means under rift conditions."
+              }
+            ],
+            "items": [
+              {
+                "itemId": "sealed_letter",
+                "tint": null,
+                "locationHint": "Found on the dead sailor during the opening incident, transferred into the player’s custody by shipboard authority or by stealth."
+              },
+              {
+                "itemId": "iron_amulet",
+                "tint": null,
+                "locationHint": "Hidden behind replaced purity seals in the Ashbound Stores, packed inside a warded crate marked as ‘spare rigging hardware’."
+              },
+              {
+                "itemId": "bronze_medallion",
+                "tint": null,
+                "locationHint": "On a dockside official’s chain at Ashshelf Dock or locked in the captain’s effects; used as a proof-token for access and leverage."
+              }
+            ],
+            "turningPoints": [
+              {
+                "id": "TP_deadman_writ",
+                "progressTarget": 0,
+                "dramaticRole": "inciting_incident",
+                "involvedCharacter": "Lucian Greve",
+                "triggerOnFlags": null,
+                "essentialInformation": [
+                  "The player learns a crew death is tied to a sealed Imperial order and escalating unnatural interference aboard the ship.",
+                  "The player learns a warding relic on the Cinderwake must be secured before reaching the dock."
+                ],
+                "triggered": true,
+                "triggeredAt": "999.M1 14:44",
+                "triggeredByEventId": "event_1772062092575",
+                "outcome": null,
+                "flagsSet": null
+              },
+              {
+                "id": "TP_stores_evidence",
+                "progressTarget": 40,
+                "dramaticRole": "rising_action",
+                "involvedCharacter": "Lysander Quell",
+                "triggerOnFlags": null,
+                "essentialInformation": [
+                  "The player learns there is evidence of forbidden cargo and tampered wards within the ship’s stores.",
+                  "The player learns someone aboard is actively hunting the warding relic."
+                ],
+                "triggered": false,
+                "triggeredAt": null,
+                "triggeredByEventId": null,
+                "outcome": null,
+                "flagsSet": null
+              },
+              {
+                "id": "TP_wight_route",
+                "progressTarget": 55,
+                "dramaticRole": "midpoint",
+                "involvedCharacter": "Cyran Vell",
+                "triggerOnFlags": null,
+                "essentialInformation": [
+                  "The player learns the true destination is a storm-buried astropathic relay where ‘restoration’ can become a beacon.",
+                  "The player learns there is a narrow time window before the next gale makes the route effectively impassable."
+                ],
+                "triggered": false,
+                "triggeredAt": null,
+                "triggeredByEventId": null,
+                "outcome": null,
+                "flagsSet": null
+              },
+              {
+                "id": "TP_ritual_seizure",
+                "progressTarget": 70,
+                "dramaticRole": "crisis",
+                "involvedCharacter": "Lysander Quell",
+                "triggerOnFlags": null,
+                "essentialInformation": [
+                  "The player learns the relic is the keystone for a summoning protocol disguised as sanctioned rites.",
+                  "The player learns the ship and dock chokepoint can be used to trap the player and isolate witnesses."
+                ],
+                "triggered": false,
+                "triggeredAt": null,
+                "triggeredByEventId": null,
+                "outcome": null,
+                "flagsSet": null
+              },
+              {
+                "id": "TP_relay_final_rite",
+                "progressTarget": 85,
+                "dramaticRole": "climax",
+                "involvedCharacter": "Cyran Vell",
+                "triggerOnFlags": null,
+                "essentialInformation": [
+                  "The player learns that sealing the breach will require destroying or sanctifying critical relay components under fire and storm.",
+                  "The player learns that transmitting a distress call risks amplifying the wrong presence if the corruption is not contained first."
+                ],
+                "triggered": false,
+                "triggeredAt": null,
+                "triggeredByEventId": null,
+                "outcome": null,
+                "flagsSet": null
+              },
+              {
+                "id": "TP_after_action_audit",
+                "progressTarget": 92,
+                "dramaticRole": "resolution",
+                "involvedCharacter": "Lysander Quell",
+                "triggerOnFlags": null,
+                "essentialInformation": [
+                  "The player learns that any outcome triggers an Imperial reckoning: purges, seizures, and competing claims over what remains.",
+                  "The player learns that survival in Nihilus buys time, not peace—consequences will follow the ship’s wake."
+                ],
+                "triggered": false,
+                "triggeredAt": null,
+                "triggeredByEventId": null,
+                "outcome": null,
+                "flagsSet": null
+              }
+            ],
+            "possibleFlags": [
+              {
+                "id": "acquired_sealed_letter",
+                "triggerDescription": "Set when the player obtains the Sealed Letter."
+              },
+              {
+                "id": "used_sealed_letter",
+                "triggerDescription": "Set when the player opens/reads the Sealed Letter."
+              },
+              {
+                "id": "acquired_iron_amulet",
+                "triggerDescription": "Set when the player obtains the Iron Amulet."
+              },
+              {
+                "id": "used_iron_amulet",
+                "triggerDescription": "Set when the player uses the Iron Amulet in a rite, warding, or mechanism."
+              },
+              {
+                "id": "acquired_bronze_medallion",
+                "triggerDescription": "Set when the player obtains the Bronze Medallion."
+              },
+              {
+                "id": "used_bronze_medallion",
+                "triggerDescription": "Set when the player uses the Bronze Medallion to gain access, prove authority, or bargain."
+              },
+              {
+                "id": "smuggling_proven",
+                "triggerDescription": "Set when the player finds conclusive evidence of forbidden trade/smuggling tied to the Cinderwake."
+              },
+              {
+                "id": "captain_arrested",
+                "triggerDescription": "Set when the player successfully detains Lysander Quell for later Imperial judgment."
+              },
+              {
+                "id": "captain_escaped",
+                "triggerDescription": "Set when Lysander Quell evades detention and retains control or flees into the storm/dock."
+              },
+              {
+                "id": "relay_reached",
+                "triggerDescription": "Set when the player reaches the storm-buried astropathic relay tower."
+              },
+              {
+                "id": "breach_sealed",
+                "triggerDescription": "Set when the player successfully seals/contains the warp breach or corrupt beacon at the relay."
+              },
+              {
+                "id": "daemon_loosed",
+                "triggerDescription": "Set when the containment fails and a warp entity manifests or gains stable purchase."
+              },
+              {
+                "id": "distress_sent",
+                "triggerDescription": "Set when the player transmits a distress call successfully from the relay."
+              },
+              {
+                "id": "signal_corrupted",
+                "triggerDescription": "Set when the attempted distress call is tainted, misrouted, or turned into a lure."
+              },
+              {
+                "id": "orders_ignored",
+                "triggerDescription": "Set when the player deliberately refuses to act on the sealed writ’s mission parameters."
+              },
+              {
+                "id": "amulet_taken",
+                "triggerDescription": "Set when the Iron Amulet is stolen or claimed by hostile forces."
+              },
+              {
+                "id": "route_lost_in_storm",
+                "triggerDescription": "Set when the player misses the travel window and the stormfront blocks access to the relay."
+              }
+            ],
+            "goals": [
+              {
+                "id": "GOAL_read_the_writ",
+                "description": "Open the sealed Imperial writ and learn exactly what you have been commanded to do.",
+                "progressBoost": 25,
+                "revealOnFlags": [],
+                "successFlags": [
+                  "used_sealed_letter"
+                ],
+                "failureFlags": [
+                  "orders_ignored"
+                ],
+                "failureDeadlineHours": 24,
+                "hidden": false,
+                "destinationPlaceId": null,
+                "goalType": null,
+                "stakes": null,
+                "personalHook": null,
+                "dramaticQuestion": null,
+                "immediateHint": null,
+                "blockedByFlags": null,
+                "status": "pending",
+                "revealedAt": "999.M1 14:44"
+              },
+              {
+                "id": "GOAL_secure_the_relic",
+                "description": "Locate and secure the warding relic before anyone else aboard can claim it.",
+                "progressBoost": 30,
+                "revealOnFlags": [
+                  "used_sealed_letter"
+                ],
+                "successFlags": [
+                  "acquired_iron_amulet"
+                ],
+                "failureFlags": [
+                  "amulet_taken"
+                ],
+                "failureDeadlineHours": 24,
+                "hidden": false,
+                "destinationPlaceId": null,
+                "goalType": null,
+                "stakes": null,
+                "personalHook": null,
+                "dramaticQuestion": null,
+                "immediateHint": null,
+                "blockedByFlags": null,
+                "status": null,
+                "revealedAt": null
+              },
+              {
+                "id": "GOAL_break_the_smuggling_chain",
+                "description": "Gather proof of forbidden trade and decide whether to use it as leverage or as grounds for arrest.",
+                "progressBoost": 25,
+                "revealOnFlags": [
+                  "used_sealed_letter"
+                ],
+                "successFlags": [
+                  "smuggling_proven"
+                ],
+                "failureFlags": [
+                  "captain_escaped"
+                ],
+                "failureDeadlineHours": 48,
+                "hidden": false,
+                "destinationPlaceId": null,
+                "goalType": null,
+                "stakes": null,
+                "personalHook": null,
+                "dramaticQuestion": null,
+                "immediateHint": null,
+                "blockedByFlags": null,
+                "status": null,
+                "revealedAt": null
+              },
+              {
+                "id": "GOAL_reach_the_relay",
+                "description": "Push through Ashshelf Dock and the ash wastes to reach the storm-buried astropathic relay before the gale seals the route.",
+                "progressBoost": 35,
+                "revealOnFlags": [
+                  "acquired_iron_amulet",
+                  "acquired_bronze_medallion"
+                ],
+                "successFlags": [
+                  "relay_reached"
+                ],
+                "failureFlags": [
+                  "route_lost_in_storm"
+                ],
+                "failureDeadlineHours": 36,
+                "hidden": false,
+                "destinationPlaceId": null,
+                "goalType": null,
+                "stakes": null,
+                "personalHook": null,
+                "dramaticQuestion": null,
+                "immediateHint": null,
+                "blockedByFlags": null,
+                "status": null,
+                "revealedAt": null
+              },
+              {
+                "id": "GOAL_contain_the_breach",
+                "description": "Use the relic and whatever sanctified force you can muster to seal the corrupted beacon and prevent manifestation.",
+                "progressBoost": 45,
+                "revealOnFlags": [
+                  "relay_reached"
+                ],
+                "successFlags": [
+                  "breach_sealed"
+                ],
+                "failureFlags": [
+                  "daemon_loosed"
+                ],
+                "failureDeadlineHours": 6,
+                "hidden": false,
+                "destinationPlaceId": null,
+                "goalType": null,
+                "stakes": null,
+                "personalHook": null,
+                "dramaticQuestion": null,
+                "immediateHint": null,
+                "blockedByFlags": null,
+                "status": null,
+                "revealedAt": null
+              },
+              {
+                "id": "GOAL_send_the_call",
+                "description": "Attempt to send a distress transmission from the relay without turning it into a lure for the warp.",
+                "progressBoost": 30,
+                "revealOnFlags": [
+                  "relay_reached"
+                ],
+                "successFlags": [
+                  "distress_sent"
+                ],
+                "failureFlags": [
+                  "signal_corrupted"
+                ],
+                "failureDeadlineHours": 6,
+                "hidden": false,
+                "destinationPlaceId": null,
+                "goalType": null,
+                "stakes": null,
+                "personalHook": null,
+                "dramaticQuestion": null,
+                "immediateHint": null,
+                "blockedByFlags": null,
+                "status": null,
+                "revealedAt": null
+              },
+              {
+                "id": "GOAL_bind_the_captain",
+                "description": "Bring Captain Lysander Quell under restraint for Imperial judgment—or accept the consequences of letting him walk free.",
+                "progressBoost": 30,
+                "revealOnFlags": [
+                  "smuggling_proven"
+                ],
+                "successFlags": [
+                  "captain_arrested"
+                ],
+                "failureFlags": [
+                  "captain_escaped"
+                ],
+                "failureDeadlineHours": 24,
+                "hidden": false,
+                "destinationPlaceId": null,
+                "goalType": null,
+                "stakes": null,
+                "personalHook": null,
+                "dramaticQuestion": null,
+                "immediateHint": null,
+                "blockedByFlags": null,
+                "status": null,
+                "revealedAt": null
+              }
+            ],
+            "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/plots/plot_1771916247715.png",
+            "plotStartDelay": 4,
+            "endingCards": [
+              {
+                "condition": {
+                  "type": "flag_set",
+                  "flag": "breach_sealed"
+                },
+                "title": "The Choir Remains Silent",
+                "text": "You leave the relay dark and scarred, its ‘voice’ choked behind fresh wards and broken machinery. No hymns return to the void—only the thin relief of a disaster postponed.",
+                "image": null
+              },
+              {
+                "condition": {
+                  "type": "flag_set",
+                  "flag": "daemon_loosed"
+                },
+                "title": "A Name in the Storm",
+                "text": "The gale does not pass; it learns. The Cinderwake’s wake becomes a trail of whispers, and every surviving witness is a liability the Imperium will ‘clean’ in time.",
+                "image": null
+              },
+              {
+                "condition": {
+                  "type": "flag_set",
+                  "flag": "distress_sent"
+                },
+                "title": "A Candle in Nihilus",
+                "text": "A signal escapes—fragmentary, bleeding static and prayer—into a galaxy that may not answer. If help comes, it will arrive with chains, audits, and fire.",
+                "image": null
+              },
+              {
+                "condition": {
+                  "type": "flag_set",
+                  "flag": "captain_arrested"
+                },
+                "title": "The Captain’s Iron Mercy",
+                "text": "Lysander Quell is taken in manacles and spite, and the crew watches as if measuring how quickly justice can become hunger. The ship survives, but its command becomes a battlefield of seals and signatures.",
+                "image": null
+              },
+              {
+                "condition": {
+                  "type": "always",
+                  "flag": ""
+                },
+                "title": "Ashes, Oaths, and Aftermath",
+                "text": "In Imperium Nihilus, victories are local and paperwork is eternal. The storms return, the dead do not rest, and the Emperor’s light reaches you only as a distant order to endure.",
+                "image": null
+              }
+            ],
+            "credits": {
+              "title": "Generated Adventure",
+              "entries": [
+                {
+                  "role": "Plot",
+                  "name": "Storyteller"
+                },
+                {
+                  "role": "World",
+                  "name": "Imperium Nihilus"
+                }
+              ]
+            },
+            "characterCentric": false,
+            "centralDramaticQuestion": null,
+            "dramaticSubQuestions": null
+          },
+          "progressLevel": 24,
+          "storyFlags": [],
+          "nextEventAtGameDate": "999.M1 14:44",
+          "events": [
+            {
+              "id": "event_1772171183203",
+              "type": "ominous sensory omens (sounds, smells, drafts)",
+              "description": "While time passes in the Riftward Canteen, an unnatural cold draft and metallic pinging ripple through the room, and the wooden door knocks without anyone there. Salen Aft warns that it feels like an internal ship-sound and urges focus as the atmosphere turns tense.",
+              "timestamp": "999.M1 14:44",
+              "affectedEntities": [
+                "CHAR_lucian_greve"
+              ],
+              "arcId": null,
+              "placeId": "PLACE_the_riftward_canteen",
+              "sceneSummary": "In The Riftward Canteen: Time drags in the Riftward Canteen—shift waves come and go, faces changing like cards in a dirty hand—until the air itself turns wrong. A dry, cold draft threads through the low vault from nowhere, carrying a sharp ozone bite and the faint stink of burned hair; the mesh-baffled lumen strips flicker ...",
+              "charactersPresent": [
+                "Salen Aft"
+              ]
+            },
+            {
+              "id": "event_1772066989882",
+              "type": "false-alibi reveals",
+              "description": "A stamped gangway tally chit surfaces that contradicts earlier claims, revealing a false alibi: Tavian was recorded on the landing apron during the time he insisted he stayed behind the counter. The bartenders turn on each other as the discrepancy suggests someone coached a too-perfect story.",
+              "timestamp": "999.M1 14:44",
+              "affectedEntities": [
+                "CHAR_lucian_greve"
+              ],
+              "arcId": null,
+              "placeId": "PLACE_the_riftward_canteen",
+              "sceneSummary": "In The Riftward Canteen: As the next long stretch of waiting drags on and the canteen’s shift-waves thin again, a fatigued deckhand leans in at the counter with a folded chit; Sethran Doke breaks the seal and his eyes flick to the smeared ledger like it’s listening. The middle-aged female bartender stops pouring mid-stream,...",
+              "charactersPresent": [
+                "Sethran Doke",
+                "Tamsin Corrow",
+                "Tavian Marrec"
+              ]
+            },
+            {
+              "id": "event_1772062946493",
+              "type": "evidence contamination setbacks",
+              "description": "During the long wait, the canteen ledger’s disputed entry is mysteriously smeared as if by wet fingers, contaminating the evidence. A fresh dark stain appears on Tavian’s wrist, and the staff insist they didn’t tamper with the book.",
+              "timestamp": "999.M1 23:44",
+              "affectedEntities": [
+                "CHAR_lucian_greve"
+              ],
+              "arcId": null,
+              "placeId": "PLACE_the_riftward_canteen",
+              "sceneSummary": "In The Riftward Canteen: Hours bleed away in the bruise-hued gloom as the canteen thins to stale breaths and cold metal; sometime near shift-change, Sethran Doke cracks the ledger again and the middle-aged female bartender watches the door like it might open on a firing squad. A sudden draft snakes under the wooden door and...",
+              "charactersPresent": [
+                "Sethran Doke",
+                "Tamsin Corrow",
+                "Tavian Marrec"
+              ]
+            },
+            {
+              "id": "event_1772062092575",
+              "type": "whodunnit interrogations",
+              "description": "During the extended wait in the Riftward Canteen, the staff fall into a tense interrogation over a ration cask signed out with a broken seal and a suspiciously wet back latch. Their accounts conflict, and a fresh mark on the barman’s wrist and talk of black grit from the drains suggest contamination or staging.",
+              "timestamp": "999.M1 14:44",
+              "affectedEntities": [],
+              "arcId": null,
+              "placeId": "PLACE_the_riftward_canteen",
+              "sceneSummary": "In The Riftward Canteen: As the long wait drags on under the bruise-lit strips, the canteen’s rhythm changes: cups stop clinking, stools stop scraping, and a thin, official silence settles in like wet cloth. Sethran Doke pauses mid-wipe when the service hatch behind the bar rattles; the middle-aged female bartender emerges ...",
+              "charactersPresent": [
+                "Sethran Doke",
+                "Tamsin Corrow",
+                "Tavian Marrec"
+              ]
+            }
+          ],
+          "endedAt": null
+        },
+        {
+          "id": "plot_1772062237645",
+          "plan": {
+            "label": "Wax-Seal in the Voidlight",
+            "description": "You drink beneath failing lumen-strips while the Great Rift groans through bulkheads like a throat trying to speak. A fresh stain appears where no one bled, and a familiar name is whispered by a man who swears he never said it. Every witness has a different story, every footprint points the wrong way, and the most merciful explanation is still heresy. If you keep asking questions, something will notice—and it will start tidying up.",
+            "plot": "At PLACE_the_riftward_canteen, Sethran Doke quietly slides Alaric Morn a sealed wax packet that isn’t on his ledger, insisting a “patron” paid to keep it off-record—then he abruptly denies ever touching it when pressed. The packet’s contents point toward Vespera Tertius Nocturnis Bastion and to Danel Vossik, a restless traveler last seen arguing with unseen company, whose route map has impossible gaps like pages torn from reality. As Alaric follows fragmentary clues—wrong footprints, teeth marks in ration-fruit, a confession overheard from behind a door that opens onto an empty corridor—people who talk get ruined or die, and crime scenes begin to look staged specifically to implicate him. Corvin Rake, a bartender who keeps strict order and sharper tabs on faces, offers a trade: names for protection, but his details contradict themselves in ways that feel practiced. The antagonist, The Masked Confessor, is orchestrating the paranoia: a covert zealot using counterfeit seals and memetic “confession litanies” to trigger self-incrimination, then sending kill-teams to erase the noncompliant and rewrite evidence. The twist: Sethran Doke isn’t merely frightened—he has been made into a repeating mouthpiece, compelled to deliver bait messages he later truly cannot remember, and the “patron” is using Alaric’s scrutiny as a spotlight to flush out hidden suspects. Stakes surge from social annihilation (being branded heretek and hunted) to immediate physical peril as the Confessor closes distance and the Bastion’s doors begin to lock on their own, turning every safe room into a trap.",
+            "characters": [
+              {
+                "name": "Sethran Doke",
+                "role": "informant",
+                "description": "Sethran Doke is a lean, watchful canteen bartender who keeps his hands busy—polishing, stacking, wiping—like motion can drown out thought. Under pressure he becomes brittle, snapping into rehearsed denials and then staring at his own words as if they came from someone else.",
+                "publicFace": "Just a working bartender at PLACE_the_riftward_canteen who knows how to keep soldiers drinking and quiet.",
+                "hiddenTruth": "He is periodically compelled by a memetic confession-cant; he delivers planted instructions with genuine amnesia afterward, and his panic is partially performance to steer suspicion.",
+                "locationHint": "Behind the counter at PLACE_the_riftward_canteen, nearest the door to Vespera Tertius Nocturnis Bastion.",
+                "introductionProgress": 0,
+                "entityId": "CHAR_sethran_doke"
+              },
+              {
+                "name": "Corvin Rake",
+                "role": "informant",
+                "description": "Corvin Rake is a compact, middle-aged bartender with an observer’s stillness and the habit of watching reflections instead of faces. He offers help in clipped, practical terms, but when cornered he contradicts himself with unsettling precision—as if testing which lie the player will accept.",
+                "publicFace": "A strict, dependable barman who ‘hears everything’ and sells rumor like rationed water.",
+                "hiddenTruth": "He is an embedded fixer for off-ledger investigations, feeding selective truths to bait out The Masked Confessor’s network; he will sacrifice an innocent reputation to protect a larger purge.",
+                "locationHint": "Ashlight Back Chamber, where private talk can happen away from crowds.",
+                "introductionProgress": 35,
+                "entityId": "CHAR_corvin_rake"
+              },
+              {
+                "name": "Danel Vossik",
+                "role": "victim",
+                "description": "Danel Vossik is a lean young adult with road-worn restlessness, always poised to leave mid-sentence. He speaks like someone measuring exits, and his guilt leaks out as anger at questions he doesn’t want to answer.",
+                "publicFace": "A newcomer and courier-drifter staying near the Bastion’s threshold, claiming he’s only passing through.",
+                "hiddenTruth": "He carried a counterfeit seal and route-slates for someone else; he didn’t understand they were being used to ‘prove’ confessions and frame targets—until he saw what happened to the last person who asked.",
+                "locationHint": "Vespera Tertius Nocturnis Bastion, near the wooden door and its traffic of whispers.",
+                "introductionProgress": 40,
+                "entityId": "CHAR_danel_vossik"
+              },
+              {
+                "name": "The Masked Confessor",
+                "role": "antagonist",
+                "description": "The Masked Confessor is a hooded zealot who never shows a full face—only a smooth mask scored with devotional script and old burn marks. Their voice is intimate and calm even when describing executions, and they treat fear as evidence of guilt.",
+                "publicFace": "A rumored itinerant confessor offering ‘absolution’ to the Riftward in exchange for secrets.",
+                "hiddenTruth": "They weaponize counterfeit seals and memetic confession-litanies to force self-incrimination, then dispatch killers to erase witnesses and restage scenes to control who gets blamed.",
+                "locationHint": "Wherever panic concentrates—crowds, queues, dim corridors—always close enough to overhear the next mistake.",
+                "introductionProgress": 70,
+                "entityId": null
+              }
+            ],
+            "places": [
+              {
+                "placeId": "PLACE_the_riftward_canteen",
+                "storyRole": "Initial hook, rumor hub, and a place to test witness statements against each other."
+              },
+              {
+                "placeId": "PLACE_ebonwake_transit_spire",
+                "storyRole": "Threshold location for comings-and-goings; a natural choke point to shadow suspects or witness staged evidence."
+              },
+              {
+                "placeId": "PLACE_the_cinder_oath",
+                "storyRole": "A plausible refuge for confidential deals, contradictory testimonies, and coerced bargains."
+              },
+              {
+                "placeId": "PLACE_bastion_quartermaster_vault",
+                "storyRole": "Investigation site for forged seals, missing shipments, and bureaucratic cover-ups tied to the conspiracy."
+              },
+              {
+                "placeId": "PLACE_umbravolt_grotto",
+                "storyRole": "A place to find physical traces (wrong footprints, staged drag marks) and spring abrupt violence or uncanny intrusions during searches."
+              }
+            ],
+            "items": [
+              {
+                "itemId": "sealed_letter",
+                "tint": null,
+                "locationHint": "Obtained from Sethran Doke’s off-ledger wax packet or recovered from a staged scene shortly afterward.",
+                "placement": "ground"
+              },
+              {
+                "itemId": "scroll_of_identify",
+                "tint": null,
+                "locationHint": "Kept in a locked effects crate tied to supply administration; useful to expose hidden marks on wax, seals, and confession text.",
+                "placement": "container"
+              },
+              {
+                "itemId": "bronze_medallion",
+                "tint": null,
+                "locationHint": "A forged authority token planted to implicate an innocent; found near evidence that feels ‘too helpful.’",
+                "placement": "ground"
+              }
+            ],
+            "turningPoints": [
+              {
+                "id": "TP_wax_packet_hook",
+                "progressTarget": 0,
+                "triggerOnFlags": null,
+                "dramaticRole": "inciting_incident",
+                "involvedCharacter": "Sethran Doke",
+                "essentialInformation": [
+                  "The player learns a sealed wax packet has appeared off-ledger and is tied to the Bastion’s traffic.",
+                  "The player learns a witness (Sethran Doke) is already contradicting himself about handling it, implying coercion or tampering.",
+                  "The player learns someone is trying to steer suspicion using forged authority (a seal, a name, or an order)."
+                ],
+                "triggerConditions": null,
+                "conditionTimeoutHours": null,
+                "triggered": false,
+                "triggeredAt": null,
+                "triggeredByEventId": null,
+                "outcome": null,
+                "flagsSet": null,
+                "conditionsEligibleSince": null
+              },
+              {
+                "id": "TP_false_scene_intrusion",
+                "progressTarget": 35,
+                "triggerOnFlags": [
+                  "investigated_wax_packet",
+                  "acquired_sealed_letter"
+                ],
+                "dramaticRole": "rising_action",
+                "involvedCharacter": "Danel Vossik",
+                "essentialInformation": [
+                  "The player learns at least one ‘crime scene’ has been staged to point blame at an innocent target (possibly the player).",
+                  "The player learns Danel Vossik has direct contact with the forged-seal route, but is terrified of naming who paid him.",
+                  "The player learns evidence is being physically manipulated soon after it is discovered, meaning time and discretion now matter."
+                ],
+                "triggerConditions": [
+                  {
+                    "type": "min_hours_since_last_event",
+                    "purposes": null,
+                    "placeStoryRole": null,
+                    "periods": null,
+                    "characterName": null,
+                    "hours": 4
+                  },
+                  {
+                    "type": "not_in_combat",
+                    "purposes": null,
+                    "placeStoryRole": null,
+                    "periods": null,
+                    "characterName": null,
+                    "hours": null
+                  }
+                ],
+                "conditionTimeoutHours": null,
+                "triggered": false,
+                "triggeredAt": null,
+                "triggeredByEventId": null,
+                "outcome": null,
+                "flagsSet": null,
+                "conditionsEligibleSince": null
+              },
+              {
+                "id": "TP_ledgers_and_litanies",
+                "progressTarget": 55,
+                "triggerOnFlags": [
+                  "met_corvin_rake",
+                  "searched_service_crawl"
+                ],
+                "dramaticRole": "midpoint",
+                "involvedCharacter": "Corvin Rake",
+                "essentialInformation": [
+                  "The player learns the conspiracy uses counterfeit seals/ledgers to create ‘official’ guilt and authorize disappearances.",
+                  "The player learns a confession-litany (a memetic chant) is part of how witnesses are compelled, causing true memory gaps.",
+                  "The player learns Corvin Rake can connect names, shipments, and timings—but at a price and with deliberate omissions."
+                ],
+                "triggerConditions": [
+                  {
+                    "type": "min_hours_since_last_event",
+                    "purposes": null,
+                    "placeStoryRole": null,
+                    "periods": null,
+                    "characterName": null,
+                    "hours": 5
+                  },
+                  {
+                    "type": "location_purpose",
+                    "purposes": [
+                      "tavern",
+                      "market"
+                    ],
+                    "placeStoryRole": null,
+                    "periods": null,
+                    "characterName": null,
+                    "hours": null
+                  },
+                  {
+                    "type": "not_in_combat",
+                    "purposes": null,
+                    "placeStoryRole": null,
+                    "periods": null,
+                    "characterName": null,
+                    "hours": null
+                  }
+                ],
+                "conditionTimeoutHours": null,
+                "triggered": false,
+                "triggeredAt": null,
+                "triggeredByEventId": null,
+                "outcome": null,
+                "flagsSet": null,
+                "conditionsEligibleSince": null
+              },
+              {
+                "id": "TP_night_purge_close_distance",
+                "progressTarget": 72,
+                "triggerOnFlags": [
+                  "confronted_danel_vossik",
+                  "gained_corvin_trust"
+                ],
+                "dramaticRole": "crisis",
+                "involvedCharacter": "The Masked Confessor",
+                "essentialInformation": [
+                  "The player learns the antagonist is actively ‘cleaning up’ by killing or discrediting witnesses within hours of contact.",
+                  "The player learns Sethran Doke’s contradictions are consistent with compulsion, not simple lying, and can be used as a baited signal.",
+                  "The player learns the player has been positioned as the visible investigator to draw the purge toward them."
+                ],
+                "triggerConditions": [
+                  {
+                    "type": "min_hours_since_last_event",
+                    "purposes": null,
+                    "placeStoryRole": null,
+                    "periods": null,
+                    "characterName": null,
+                    "hours": 6
+                  },
+                  {
+                    "type": "time_of_day",
+                    "purposes": null,
+                    "placeStoryRole": null,
+                    "periods": [
+                      "evening",
+                      "night"
+                    ],
+                    "characterName": null,
+                    "hours": null
+                  },
+                  {
+                    "type": "not_in_combat",
+                    "purposes": null,
+                    "placeStoryRole": null,
+                    "periods": null,
+                    "characterName": null,
+                    "hours": null
+                  }
+                ],
+                "conditionTimeoutHours": 36,
+                "triggered": false,
+                "triggeredAt": null,
+                "triggeredByEventId": null,
+                "outcome": null,
+                "flagsSet": null,
+                "conditionsEligibleSince": null
+              },
+              {
+                "id": "TP_confessor_unmasked_choice",
+                "progressTarget": 88,
+                "triggerOnFlags": [
+                  "used_scroll_of_identify",
+                  "presented_ledgers_evidence",
+                  "tracked_confessor_signature"
+                ],
+                "dramaticRole": "climax",
+                "involvedCharacter": "The Masked Confessor",
+                "essentialInformation": [
+                  "The player learns the core proof: the seal/ledger chain is forged and the confession-litany is the true weapon.",
+                  "The player learns stopping the scheme requires either exposing the counterfeit authority publicly or breaking the memetic trigger before more ‘authorized’ killings occur.",
+                  "The player learns the antagonist’s network will retaliate immediately if cornered, turning bystanders into shields and evidence into traps."
+                ],
+                "triggerConditions": [
+                  {
+                    "type": "min_hours_since_last_event",
+                    "purposes": null,
+                    "placeStoryRole": null,
+                    "periods": null,
+                    "characterName": null,
+                    "hours": 4
+                  },
+                  {
+                    "type": "not_in_combat",
+                    "purposes": null,
+                    "placeStoryRole": null,
+                    "periods": null,
+                    "characterName": null,
+                    "hours": null
+                  }
+                ],
+                "conditionTimeoutHours": 48,
+                "triggered": false,
+                "triggeredAt": null,
+                "triggeredByEventId": null,
+                "outcome": null,
+                "flagsSet": null,
+                "conditionsEligibleSince": null
+              }
+            ],
+            "possibleFlags": [
+              {
+                "id": "story_introduced",
+                "triggerDescription": "Set when Sethran Doke’s off-ledger wax packet and contradictions establish the mystery and immediate risk."
+              },
+              {
+                "id": "investigated_wax_packet",
+                "triggerDescription": "Set when the player examines the wax packet and links it to forged authority and Bastion traffic."
+              },
+              {
+                "id": "clue_ignored_packet",
+                "triggerDescription": "Set when the player dismisses the wax packet and leaves without investigating, allowing the conspirators to move first."
+              },
+              {
+                "id": "acquired_sealed_letter",
+                "triggerDescription": "Set when the player acquires the Sealed Letter item."
+              },
+              {
+                "id": "scene_staged_discovered",
+                "triggerDescription": "Set when the player identifies a fresh scene as staged (wrong footprints, planted object, or rehearsed testimony)."
+              },
+              {
+                "id": "confronted_danel_vossik",
+                "triggerDescription": "Set when the player confronts Danel Vossik about his route, seals, or patron."
+              },
+              {
+                "id": "danel_silenced",
+                "triggerDescription": "Set when Danel Vossik is killed, disappears, or is otherwise removed before he can provide actionable details."
+              },
+              {
+                "id": "met_corvin_rake",
+                "triggerDescription": "Set when the player meets Corvin Rake and recognizes him as a potential broker of names and timings."
+              },
+              {
+                "id": "searched_service_crawl",
+                "triggerDescription": "Set when the player searches the Service Crawl and finds physical traces indicating evidence tampering."
+              },
+              {
+                "id": "gained_corvin_trust",
+                "triggerDescription": "Set when the player strikes a bargain with Corvin Rake (payment, favor, or leverage) and he agrees to share ledger links."
+              },
+              {
+                "id": "corvin_refused",
+                "triggerDescription": "Set when Corvin Rake withholds cooperation due to mistrust, threat, or a failed bargain."
+              },
+              {
+                "id": "night_purge_survived",
+                "triggerDescription": "Set when the player survives an abrupt purge attempt (attack, abduction attempt, or uncanny intrusion) tied to the investigation."
+              },
+              {
+                "id": "presented_ledgers_evidence",
+                "triggerDescription": "Set when the player presents compiled evidence of counterfeit seals/ledger fraud to an authority or public audience."
+              },
+              {
+                "id": "tracked_confessor_signature",
+                "triggerDescription": "Set when the player identifies a consistent signature pattern of The Masked Confessor’s operations (phrases, wax mix, kill timing) and acts on it."
+              },
+              {
+                "id": "used_scroll_of_identify",
+                "triggerDescription": "Set when the player uses the Scroll of Identify to reveal hidden marks on the seal, wax, or confession text."
+              },
+              {
+                "id": "confessor_defeated",
+                "triggerDescription": "Set when the player stops The Masked Confessor’s scheme (capture, kill, or decisive exposure) and disrupts the purge network."
+              },
+              {
+                "id": "confessor_escaped",
+                "triggerDescription": "Set when The Masked Confessor avoids capture and the purge network remains operational."
+              }
+            ],
+            "goals": [
+              {
+                "id": "GOAL_examine_packet",
+                "description": "Examine the off-ledger wax packet and establish what it connects to before the trail is contaminated.",
+                "progressBoost": 25,
+                "revealOnFlags": [
+                  "story_introduced"
+                ],
+                "successFlags": [
+                  "investigated_wax_packet",
+                  "acquired_sealed_letter"
+                ],
+                "failureFlags": [
+                  "clue_ignored_packet"
+                ],
+                "failureDeadlineHours": 3,
+                "hidden": false,
+                "destinationPlaceId": null,
+                "goalType": null,
+                "stakes": null,
+                "personalHook": null,
+                "dramaticQuestion": null,
+                "immediateHint": null,
+                "blockedByFlags": null,
+                "status": null,
+                "revealedAt": null
+              },
+              {
+                "id": "GOAL_secure_witness_or_testimony",
+                "description": "Secure Danel Vossik’s cooperation or otherwise preserve what he knows before he is silenced.",
+                "progressBoost": 35,
+                "revealOnFlags": [
+                  "scene_staged_discovered",
+                  "confronted_danel_vossik"
+                ],
+                "successFlags": [
+                  "confronted_danel_vossik"
+                ],
+                "failureFlags": [
+                  "danel_silenced"
+                ],
+                "failureDeadlineHours": 6,
+                "hidden": false,
+                "destinationPlaceId": null,
+                "goalType": null,
+                "stakes": null,
+                "personalHook": null,
+                "dramaticQuestion": null,
+                "immediateHint": null,
+                "blockedByFlags": null,
+                "status": null,
+                "revealedAt": null
+              },
+              {
+                "id": "GOAL_break_counterfeit_authority",
+                "description": "Break The Masked Confessor’s counterfeit authority by proving the seal/ledger chain is forged or by revealing the memetic trigger, then confront the source.",
+                "progressBoost": 110,
+                "revealOnFlags": [
+                  "gained_corvin_trust",
+                  "used_scroll_of_identify",
+                  "tracked_confessor_signature"
+                ],
+                "successFlags": [
+                  "confessor_defeated",
+                  "presented_ledgers_evidence"
+                ],
+                "failureFlags": [
+                  "confessor_escaped"
+                ],
+                "failureDeadlineHours": 2,
+                "hidden": false,
+                "destinationPlaceId": null,
+                "goalType": null,
+                "stakes": null,
+                "personalHook": null,
+                "dramaticQuestion": null,
+                "immediateHint": null,
+                "blockedByFlags": null,
+                "status": null,
+                "revealedAt": null
+              }
+            ],
+            "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/plots/plot_1772062187251.png",
+            "plotStartDelay": 12,
+            "endingCards": [
+              {
+                "condition": {
+                  "type": "flag_set",
+                  "flag": "confessor_defeated"
+                },
+                "title": "Absolution Denied",
+                "text": "The purge stalls as counterfeit seals lose their teeth and the confession-litany breaks its hold. The corridors stay dark, but the dark no longer speaks with one voice.",
+                "image": null
+              },
+              {
+                "condition": {
+                  "type": "flag_set",
+                  "flag": "presented_ledgers_evidence"
+                },
+                "title": "Paperwork as a Weapon",
+                "text": "Proof moves faster than bullets—for once—and the wrong people panic in public. Retaliation is inevitable, but now it has a shape and a name.",
+                "image": null
+              },
+              {
+                "condition": {
+                  "type": "flag_set",
+                  "flag": "danel_silenced"
+                },
+                "title": "A Witness Erased",
+                "text": "Danel Vossik vanishes from the story like a line struck from a ledger. What he knew remains, but it will surface in uglier ways.",
+                "image": null
+              },
+              {
+                "condition": {
+                  "type": "flag_not_set",
+                  "flag": "confessor_defeated"
+                },
+                "title": "The Mask Remains",
+                "text": "The Masked Confessor slips away, leaving staged rooms and honest fear behind. Next time, the trap will be built around the player’s habits.",
+                "image": null
+              },
+              {
+                "condition": {
+                  "type": "always",
+                  "flag": ""
+                },
+                "title": "Candlewisp Afterglow",
+                "text": "In Imperium Nihilus, light is rationed and truth is taxed. The player keeps walking anyway, because stopping only makes it easier for the dark to count you.",
+                "image": null
+              }
+            ],
+            "credits": {
+              "title": "Wax-Seal in the Voidlight",
+              "entries": [
+                {
+                  "role": "Plot",
+                  "name": "The Candlewisp Keeper"
+                },
+                {
+                  "role": "World",
+                  "name": "Imperium Nihilus"
+                }
+              ]
+            },
+            "characterCentric": false,
+            "centralDramaticQuestion": null,
+            "dramaticSubQuestions": null
+          },
+          "progressLevel": 0,
+          "storyFlags": [],
+          "nextEventAtGameDate": null,
+          "events": [],
+          "endedAt": null
+        }
+      ],
+      "generationInProgress": false,
+      "eventHistory": [],
+      "storytellerSelectedAt": "999.M1 08:41",
+      "custom": {}
+    },
+    "isPlayer": true,
+    "storyComplete": false,
+    "routine": null,
+    "vesselRoutes": null,
+    "abstractLocation": null,
+    "npcBehavior": null,
+    "physicalState": null,
+    "pendingDeparture": null,
+    "pendingArrival": null,
+    "lastRoutineCheckPeriod": "night",
+    "startingNarrative": "You stand on the Cinderwake’s grit-scored deck with ash ticking against soot-black plating, your cloak tethered down like everything else in the electrostatic gale. Under shuttered lantern-slit light and a violet storm-glare sky, you move with a traveler’s economy—eyes measuring rigging, crew, and the hard-weather fittings that keep this ship alive under rift-shadow.\n\nYou are here because the Cinderwake takes bodies and skills without asking too many questions, so long as the work is done and the prayers are said correctly. In Imperium Nihilus, even a simple berth feels like a bargain with the dark.",
+    "startingCharacterState": "Restless and alert, focused on practical survival and quickly learning who can be relied upon.",
+    "clothing": [
+      {
+        "slot": "torso_under",
+        "itemId": "tunic",
+        "color": "#f5f0e8",
+        "contents": null
+      },
+      {
+        "slot": "torso_over",
+        "itemId": "trenchcoat",
+        "color": "#3a3a3a",
+        "contents": null
+      },
+      {
+        "slot": "legs",
+        "itemId": "cloth_pants",
+        "color": "#8b4513",
+        "contents": null
+      },
+      {
+        "slot": "feet",
+        "itemId": "boots",
+        "color": "#1a1a1a",
+        "contents": null
+      },
+      {
+        "slot": "belt",
+        "itemId": "leather_belt",
+        "color": "#8b4513",
+        "contents": [
+          {
+            "id": "ci_1771954226197_da1ep9",
+            "itemId": "leather_bracers",
+            "name": "Leather bracers",
+            "description": "Leather bracers (hands)",
+            "type": "clothing",
+            "quantity": 1,
+            "color": null,
+            "equipSlot": "hands",
+            "plotId": null
+          }
+        ]
+      },
+      {
+        "slot": "hands",
+        "itemId": "leather_bracers",
+        "color": "#8b4513",
+        "contents": null
+      },
+      {
+        "slot": "head",
+        "itemId": "leather_cap",
+        "color": "#1a1a1a",
+        "contents": null
+      }
+    ],
+    "enabledOverlayLayers": [
+      "eyes",
+      "facial"
+    ],
+    "helmingVesselId": null,
+    "storytellerDisabled": false,
+    "rulesetState": {
+      "stats": {
+        "physical": 50,
+        "mental": 50,
+        "social": 50,
+        "poise": 50,
+        "max_poise": 50,
+        "bloodloss": 0,
+        "anxiety": 0,
+        "fatigue": 0,
+        "hunger": 0
+      },
+      "conditions": [],
+      "statUsage": {
+        "physical": 6
+      },
+      "incapacitation": null,
+      "incapacitatedSince": null
+    },
+    "voiceId": "will",
+    "spriteConfig": {
+      "bodyType": "male",
+      "layers": [
+        {
+          "type": "body",
+          "optionId": "body_base",
+          "tint": 12890264
+        },
+        {
+          "type": "body",
+          "optionId": "body_universal",
+          "tint": 12890264
+        },
+        {
+          "type": "eyes",
+          "optionId": "eyes_eyes",
+          "tint": 7029286
+        },
+        {
+          "type": "facial",
+          "optionId": "facial_beard",
+          "tint": 7029286
+        },
+        {
+          "type": "hair",
+          "optionId": "hair_long",
+          "tint": 7029286
+        },
+        {
+          "type": "torso",
+          "optionId": "torso_formal_trenchcoat_male",
+          "tint": 3815994
+        },
+        {
+          "type": "legs",
+          "optionId": "legs_white_pants_male",
+          "tint": 9127187
+        },
+        {
+          "type": "feet",
+          "optionId": "feet_white_boots_male",
+          "tint": 1710618
+        },
+        {
+          "type": "belt",
+          "optionId": "belt_leather_male",
+          "tint": 9127187
+        },
+        {
+          "type": "hands",
+          "optionId": "hands_leather_bracers_male",
+          "tint": 9127187
+        },
+        {
+          "type": "head",
+          "optionId": "head_leather_cap_male",
+          "tint": 1710618
+        }
+      ],
+      "spriteHash": "3ddb67562638906e",
+      "spriteUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/sprites/generated/3ddb67562638906e.png",
+      "spriteScale": 1
+    }
+  },
+  "position": {
+    "x": 272,
+    "y": 2096,
+    "width": 32,
+    "height": 48,
+    "parent": "PLACE_cyrenth_bastioncity"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/characters/CHAR_alaric_morn.png?v=1771915975562",
+  "faceAnchorY": 0.18,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "talk"
+  },
+  "relationships": [
+    {
+      "targetId": "CHAR_severan_dusk",
+      "type": "acquaintance",
+      "disposition": 0,
+      "familiarity": 40,
+      "context": "Both are currently in the Cinderwake; as a newcomer seeking work and danger, Alaric would plausibly come into contact with a watch-keeper who monitors movement and routine.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_severin_drach",
+      "type": "acquaintance",
+      "disposition": 0,
+      "familiarity": 40,
+      "context": "Both are in the Cinderwake; if Alaric is seeking work aboard/around the vessel, he would likely at least meet or be assessed by the commander who enforces standards and assigns roles.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_severin_ashcombe",
+      "type": null,
+      "familiarity": 20,
+      "disposition": 5,
+      "context": null,
+      "pendingGeneration": false
+    }
+  ],
+  "important": false
+}

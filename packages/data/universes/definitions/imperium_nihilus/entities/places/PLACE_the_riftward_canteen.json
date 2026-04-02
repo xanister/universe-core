@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_the_riftward_canteen",
+  "label": "The Riftward Canteen",
+  "description": "The Riftward Canteen occupies a low-vaulted bay of vitrified basalt set into the bastion’s interlocked tiers, its walls plated with scavenged wreck-metal that dulls the ever-present auroral backwash. Shielded light strips burn behind mesh baffles, giving the interior a permanent bruise-hued gloom that matches the nightside glare outside. A long slagcrete bar and bolted bench-ranks define the floorplan, while enclosed vent-stacks and condenser units keep ash and electrostatic grit from the drinking hall. Vox-suppression panels and heavy door seals reduce the city’s constant interference to a muted thrum, turning the space into a rare pocket of controlled quiet.",
+  "short_description": "dim basalt canteen",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "tavern",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "building_tavern",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/battles/PLACE_the_riftward_canteen.png?v=1771949965890",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 400,
+    "y": 448,
+    "width": 160,
+    "height": 256,
+    "parent": "PLACE_vespera_tertius_nocturnis_bastion",
+    "innerWidth": 1088,
+    "innerHeight": 1472
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/places/PLACE_the_riftward_canteen.png?v=1771950017085",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": true
+}

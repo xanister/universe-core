@@ -1,0 +1,20 @@
+{
+  "id": "pewter_jug_pair",
+  "name": "Pewter Jug Pair",
+  "description": "A pair of tall pewter jugs.",
+  "purposes": [
+    "decoration"
+  ],
+  "tags": [
+    "common",
+    "drinkware",
+    "tavern"
+  ],
+  "solid": false,
+  "layer": "default",
+  "spriteId": "pewter_jug_pair",
+  "materials": [
+    "iron"
+  ],
+  "tintable": false
+}

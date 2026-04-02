@@ -1,0 +1,60 @@
+{
+  "id": "PLACE_the_sealed_locker",
+  "label": "The Sealed Locker",
+  "description": "A pitch-scented storage room set off The Iron-Straked Passage behind a low, iron-braced hatch, its tar-black planking bound with riveted straps to endure shock and sea-swell. Wall racks and chained cradles hold cask staves, coil-ropes, spare strakes, and caulking tins under stamped inventory tags, while a narrow deck-grate keeps goods above bilge damp. Jurisdiction plaques are bolted beside the threshold, and a waist-high line of salt-caked warding nails continues along the interior bulkhead as standard hazard protocol.",
+  "short_description": "tar-dark supply locker",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "storage_room",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.9
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "door_wooden",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/gaardia/images/battles/PLACE_the_sealed_locker.png?v=1772218755568",
+    "inheritedRequiredTags": [
+      "ship"
+    ]
+  },
+  "position": {
+    "x": 176,
+    "y": 160,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_the_ironstraked_passage",
+    "innerWidth": 512,
+    "innerHeight": 640
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": null,
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

@@ -1,0 +1,16 @@
+{
+  "id": "EVENT_visited_the_ashen_zephyr_1771816999520",
+  "date": "999.M1 23:01",
+  "placeId": "PLACE_the_ashen_zephyr",
+  "important": false,
+  "importanceScore": null,
+  "scope": null,
+  "relevantPlaceIds": null,
+  "eventType": "location_visited",
+  "category": "world",
+  "subject": "The Ashen Zephyr",
+  "subjectId": "PLACE_the_ashen_zephyr",
+  "fact": "Visited The Ashen Zephyr",
+  "significance": "minor",
+  "witnessIds": null
+}

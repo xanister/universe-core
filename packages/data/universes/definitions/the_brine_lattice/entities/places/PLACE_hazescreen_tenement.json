@@ -1,0 +1,60 @@
+{
+  "id": "PLACE_hazescreen_tenement",
+  "label": "Haze-Screen Tenement",
+  "description": "Haze-Screen Tenement is a stacked basalt residence set into Brineshade Terminator City’s fused platforms, its outer walls salt-cemented against the planet’s measured tidal stresses. Narrow corridors run beneath shuttered baffles that cut Saltharrow’s hard white glare, leaving the interior in a controlled, even dimness. Vent flues and grit filters line the upper courses, tempering the mineral-laden haze that sweeps the terminator belt. A compact communal cistern and brine-washed stone basins occupy the core, reflecting the city’s disciplined management of water and salt.",
+  "short_description": "baffled basalt tenement",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "residence",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "building_residence",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/the_brine_lattice/images/battles/PLACE_hazescreen_tenement.png?v=1772314201971",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 1520,
+    "y": 1248,
+    "width": 160,
+    "height": 256,
+    "parent": "PLACE_brineshade_terminator_city",
+    "innerWidth": 992,
+    "innerHeight": 704
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/the_brine_lattice/images/places/PLACE_hazescreen_tenement.png?v=1772314250392",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": [
+    "Lamplock Basalt Flat"
+  ],
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

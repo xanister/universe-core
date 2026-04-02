@@ -1,0 +1,21 @@
+{
+  "id": "bed_single_grey",
+  "name": "Single Bed (Grey)",
+  "description": "A single bed with grey-blue linen.",
+  "purposes": [
+    "sleeping"
+  ],
+  "tags": [
+    "common",
+    "furniture",
+    "bedroom"
+  ],
+  "solid": true,
+  "layer": "default",
+  "spriteId": "bed_single_grey",
+  "materials": [
+    "wood",
+    "fabric"
+  ],
+  "tintable": false
+}

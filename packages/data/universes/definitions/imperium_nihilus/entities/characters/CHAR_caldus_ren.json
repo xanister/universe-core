@@ -1,0 +1,211 @@
+{
+  "id": "CHAR_caldus_ren",
+  "label": "Caldus Ren",
+  "description": "This individual is an undead human of The Ossuary Hollow, reduced to a light-skinned frame of exposed bone and dried sinew. Gray eyes sit deep in the sockets, fixed beneath a broken brow ridge that gives the face a permanent, judicial severity. Black hair persists only in sparse, stiff patches along the scalp, leaving the crown largely bare. The mouthline is split by old fractures that lock the jaw into a slight, habitual gape.",
+  "short_description": "undead male bone warden",
+  "tags": [],
+  "entityType": "character",
+  "info": {
+    "purpose": "undead",
+    "aliases": [
+      "Hollow Warden",
+      "The Ledger-Kept"
+    ],
+    "birthdate": "Unknown",
+    "deathdate": null,
+    "title": null,
+    "birthPlace": "",
+    "eyeColor": "gray",
+    "gender": "male",
+    "hairColor": "black",
+    "hairStyle": "unkempt",
+    "beardStyle": null,
+    "headType": "human_male",
+    "skinTone": "light",
+    "personality": "Taciturn and ritual-bound, they enforce the ossuary’s silent order with tireless patience and a grim, custodial exactness. They speak in short, formal phrases, treating every trespass as a matter of inventory and propriety rather than malice.",
+    "race": "human",
+    "messages": [],
+    "journal": [],
+    "sketches": [],
+    "verbosity": 3,
+    "conversationContext": null,
+    "storytellerState": null,
+    "isPlayer": false,
+    "storyComplete": false,
+    "routine": {
+      "schedule": {
+        "dawn": "work",
+        "morning": "work",
+        "afternoon": "work",
+        "evening": "work",
+        "night": "work"
+      },
+      "home": {
+        "placeId": "PLACE_the_ossuary_hollow",
+        "description": "The Ossuary Hollow",
+        "areaHint": null
+      },
+      "work": {
+        "placeId": "PLACE_the_ossuary_hollow",
+        "description": "The Ossuary Hollow",
+        "areaHint": null
+      },
+      "leisure": null,
+      "variance": 0.2,
+      "activities": {
+        "work": "undead_patrol"
+      }
+    },
+    "vesselRoutes": null,
+    "abstractLocation": null,
+    "npcBehavior": null,
+    "physicalState": null,
+    "pendingDeparture": null,
+    "pendingArrival": null,
+    "lastRoutineCheckPeriod": null,
+    "startingNarrative": null,
+    "startingCharacterState": null,
+    "clothing": [
+      {
+        "slot": "torso_under",
+        "itemId": "tunic",
+        "color": "#f5f0e8",
+        "contents": null
+      },
+      {
+        "slot": "torso_over",
+        "itemId": "tattercape",
+        "color": "#3a3a3a",
+        "contents": null
+      },
+      {
+        "slot": "legs",
+        "itemId": "cloth_pants",
+        "color": "#1a1a1a",
+        "contents": null
+      },
+      {
+        "slot": "feet",
+        "itemId": "boots",
+        "color": "#8b4513",
+        "contents": null
+      },
+      {
+        "slot": "belt",
+        "itemId": "rope_belt",
+        "color": "#d2b48c",
+        "contents": [
+          {
+            "id": "ci_1771952231792_tdp4o6",
+            "itemId": "unarmed",
+            "name": "unarmed",
+            "description": null,
+            "type": "weapon",
+            "quantity": 1,
+            "color": null,
+            "equipSlot": "weapon",
+            "plotId": null
+          }
+        ]
+      },
+      {
+        "slot": "hands",
+        "itemId": "cloth_gloves",
+        "color": "#808080",
+        "contents": null
+      }
+    ],
+    "enabledOverlayLayers": [
+      "eyes",
+      "facial"
+    ],
+    "helmingVesselId": null,
+    "storytellerDisabled": false,
+    "rulesetState": {
+      "stats": {
+        "physical": 50,
+        "mental": 50,
+        "social": 50,
+        "poise": 50,
+        "max_poise": 50,
+        "bloodloss": 0,
+        "anxiety": 0,
+        "fatigue": 0,
+        "hunger": 0
+      },
+      "conditions": [],
+      "statUsage": {},
+      "incapacitation": null,
+      "incapacitatedSince": null
+    },
+    "voiceId": "brian",
+    "spriteConfig": {
+      "bodyType": "male",
+      "layers": [
+        {
+          "type": "body",
+          "optionId": "body_base",
+          "tint": 15780008
+        },
+        {
+          "type": "body",
+          "optionId": "body_universal",
+          "tint": 15780008
+        },
+        {
+          "type": "eyes",
+          "optionId": "eyes_eyes",
+          "tint": 8423560
+        },
+        {
+          "type": "hair",
+          "optionId": "hair_unkempt",
+          "tint": 1710618
+        },
+        {
+          "type": "legs",
+          "optionId": "legs_white_pants_male",
+          "tint": 1710618
+        },
+        {
+          "type": "feet",
+          "optionId": "feet_white_boots_male",
+          "tint": 9127187
+        },
+        {
+          "type": "belt",
+          "optionId": "belt_wulax_belt_rope_male",
+          "tint": 13808780
+        },
+        {
+          "type": "hands",
+          "optionId": "hands_white_gloves_male",
+          "tint": 8421504
+        }
+      ],
+      "spriteHash": "5404d12cc7c60bfb",
+      "spriteUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/sprites/generated/5404d12cc7c60bfb.png",
+      "spriteScale": 1
+    }
+  },
+  "position": {
+    "x": 782,
+    "y": 1099,
+    "width": 32,
+    "height": 48,
+    "parent": "PLACE_the_ossuary_hollow"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/characters/CHAR_caldus_ren.png?v=1771952292452",
+  "faceAnchorY": 0.17,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "talk"
+  },
+  "relationships": [],
+  "important": false
+}

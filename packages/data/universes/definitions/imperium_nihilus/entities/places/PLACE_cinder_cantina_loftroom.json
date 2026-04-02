@@ -1,0 +1,65 @@
+{
+  "id": "PLACE_cinder_cantina_loftroom",
+  "label": "Cinder Cantina Loftroom",
+  "description": "Cinder Cantina Loftroom serves as a cramped sleeping chamber partitioned from the tavern’s slagcrete vault by riveted plasteel framing and soot-darkened insulation. A narrow cot and a bolted locker sit beneath low conduit runs, their surfaces perpetually filmed with fine ash tracked in from Ashenward City’s vitrified streets. Bruised violet light-strips leak through a louvered vent, casting hard reflections across basalt blocks and worn stone flags. Shielded vox-baffles and a heavy intake grille maintain a sealed, pressurized stillness that reduces the city’s ash-gales to a distant metallic hush.",
+  "short_description": "cramped ash-dusted room",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "bedroom",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "door_wooden",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/battles/PLACE_cinder_cantina_loftroom.png?v=1771958962067",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 688,
+    "y": 160,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_the_cinder_cantina",
+    "innerWidth": 480,
+    "innerHeight": 448
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/places/PLACE_cinder_cantina_loftroom.png?v=1771959012579",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": [
+    "Cinder Cantina Sleeper Cell",
+    "Cinder Cantina Bunkroom",
+    "Cinder Cantina Ember Chamber",
+    "Cinder Cantina Ashcloak Room",
+    "Cinder Cantina Cinderlock Suite",
+    "Cinder Cantina Quiet Cell"
+  ],
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

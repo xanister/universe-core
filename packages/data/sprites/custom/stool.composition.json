@@ -1,0 +1,16 @@
+{
+  "spriteId": "stool",
+  "gridWidth": 1,
+  "gridHeight": 1,
+  "tileSize": 32,
+  "tiles": [
+    {
+      "tilesetId": "furniture-dark",
+      "srcX": 448,
+      "srcY": 256,
+      "col": 0,
+      "row": 0
+    }
+  ],
+  "updatedAt": "2026-02-20T19:38:45.451Z"
+}

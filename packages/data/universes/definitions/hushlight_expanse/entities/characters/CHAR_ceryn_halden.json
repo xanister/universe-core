@@ -1,0 +1,235 @@
+{
+  "id": "CHAR_ceryn_halden",
+  "label": "Ceryn Halden",
+  "description": "This individual is a shelfborn traveler of early adulthood, lean of frame and long-limbed from sustained roadgoing rather than labor. Brown eyes sit under straight brown brows, and brown hair is kept in a practical, close-cropped style that leaves the face unobstructed. Light skinTone bears the fixed marks of sun and wind exposure, with faint healed abrasions along the knuckles and forearms typical of frequent travel. Their bearing is direct and watchful, shaped by a stated pursuit of adventure and an openly declared need for purpose in unfamiliar country.",
+  "short_description": "young male traveler",
+  "tags": [],
+  "entityType": "character",
+  "info": {
+    "purpose": "player",
+    "aliases": [
+      "Ceryn",
+      "Roadnew Halden"
+    ],
+    "birthdate": "1003-04-19",
+    "deathdate": null,
+    "title": null,
+    "birthPlace": "Shelfway hamlet of Ravel End",
+    "eyeColor": "brown",
+    "gender": "male",
+    "hairColor": "brown",
+    "hairStyle": "plain",
+    "beardStyle": null,
+    "headType": "human_male",
+    "skinTone": "light",
+    "personality": "Newly arrived to the Hushlight Expanse and intent on making a name through honest trials, he shows disciplined curiosity, a readiness to accept unfamiliar customs, and a strong preference for direct commitments over evasive talk. He seeks companions, routes, and causes that offer clear stakes and measurable progress, and he treats oaths and debts as binding once spoken.",
+    "race": "shelfborn",
+    "messages": [
+      {
+        "role": "user",
+        "action": "input",
+        "opts": {
+          "text": "I look around."
+        },
+        "date": "01.01.312 D3 10:00",
+        "omitFromTranscript": false,
+        "hidden": false
+      },
+      {
+        "date": "01.01.312 D3 10:02",
+        "omitFromTranscript": false,
+        "hidden": false,
+        "role": "assistant",
+        "action": "narration",
+        "opts": {
+          "text": "Copper-white morning light breaks into calm color bands through the lensing cistern wall-panels, striping the faceted bar, scattered benches and tables, and the open floor gutters that catch spilled rinsewater in thin, shining lines; above, the mirror-slat ceiling shimmers as if it can’t decide what to reflect. A handful of ordinary patrons nurse cups and trade low talk while staff move behind the bar, and the wooden door back out to Seamglass Meridian stands plainly at the front."
+        }
+      }
+    ],
+    "journal": [
+      {
+        "content": "You step into the Prismatic Draught in Seamglass Meridian, boots ticking on vitrified tile as the aurora’s faint chorus filters through lensing panels and lays color-bands over the bar. You keep your words measured—promises carry weight here—and let the ordered shimmer of mirror slats steady your nerves while you take in the hushlit faces of salvagers and choir-knights at their drinks.",
+        "gameDate": "01.01.312 D3 10:00",
+        "facts": [
+          {
+            "placeId": null,
+            "category": "world",
+            "subject": "Current Situation",
+            "subjectId": null,
+            "fact": "In this city, even casual promises can bind if anyone hears them, so you choose your phrases like you choose your footing.",
+            "significance": "minor",
+            "important": false
+          },
+          {
+            "placeId": null,
+            "category": "world",
+            "subject": "Current Situation",
+            "subjectId": null,
+            "fact": "The Draught’s gutters and glasswork are built for dust and electrostatic fallout, which means the shallows outside have been active lately.",
+            "significance": "minor",
+            "important": false
+          },
+          {
+            "placeId": null,
+            "category": "knowledge",
+            "subject": "Current Situation",
+            "subjectId": null,
+            "fact": "You’ve arrived without a name that carries here yet, and you intend to earn one through trials you can meet cleanly and openly.",
+            "significance": "minor",
+            "important": false
+          }
+        ],
+        "image": null,
+        "context": null
+      }
+    ],
+    "sketches": [],
+    "verbosity": 3,
+    "conversationContext": null,
+    "storytellerState": {
+      "storytellerId": "STORYTELLER_the_saffron_veil_bard",
+      "voiceId": "lily",
+      "activePlots": [],
+      "generationInProgress": true,
+      "eventHistory": [],
+      "storytellerSelectedAt": "01.01.312 D3 10:00",
+      "custom": {}
+    },
+    "isPlayer": true,
+    "storyComplete": false,
+    "routine": null,
+    "vesselRoutes": null,
+    "abstractLocation": null,
+    "npcBehavior": null,
+    "physicalState": null,
+    "pendingDeparture": null,
+    "pendingArrival": null,
+    "lastRoutineCheckPeriod": "morning",
+    "startingNarrative": "You step into the Prismatic Draught in Seamglass Meridian, boots ticking on vitrified tile as the aurora’s faint chorus filters through lensing panels and lays color-bands over the bar. You keep your words measured—promises carry weight here—and let the ordered shimmer of mirror slats steady your nerves while you take in the hushlit faces of salvagers and choir-knights at their drinks.",
+    "startingCharacterState": "Alert, newly arrived, and hungry for purposeful forward motion; careful with speech, but eager to be known for honest follow-through.",
+    "clothing": [
+      {
+        "slot": "torso_under",
+        "itemId": "tunic",
+        "color": "#f5f0e8",
+        "contents": null
+      },
+      {
+        "slot": "torso_over",
+        "itemId": "trenchcoat",
+        "color": "#3a3a3a",
+        "contents": null
+      },
+      {
+        "slot": "legs",
+        "itemId": "cloth_pants",
+        "color": "#8b4513",
+        "contents": null
+      },
+      {
+        "slot": "feet",
+        "itemId": "boots",
+        "color": "#1a1a1a",
+        "contents": null
+      },
+      {
+        "slot": "belt",
+        "itemId": "leather_belt",
+        "color": "#8b4513",
+        "contents": []
+      },
+      {
+        "slot": "behind_body",
+        "itemId": "iverness_cape",
+        "color": "#000080",
+        "contents": []
+      }
+    ],
+    "enabledOverlayLayers": [
+      "eyes",
+      "facial"
+    ],
+    "helmingVesselId": null,
+    "storytellerDisabled": false,
+    "rulesetState": {
+      "stats": {},
+      "conditions": [],
+      "statUsage": {},
+      "incapacitation": null,
+      "incapacitatedSince": null
+    },
+    "voiceId": "will",
+    "spriteConfig": {
+      "bodyType": "male",
+      "layers": [
+        {
+          "type": "body",
+          "optionId": "body_base",
+          "tint": 15780008
+        },
+        {
+          "type": "body",
+          "optionId": "body_universal",
+          "tint": 15780008
+        },
+        {
+          "type": "eyes",
+          "optionId": "eyes_eyes",
+          "tint": 7029286
+        },
+        {
+          "type": "hair",
+          "optionId": "hair_plain",
+          "tint": 7029286
+        },
+        {
+          "type": "torso",
+          "optionId": "torso_formal_trenchcoat_male",
+          "tint": 3815994
+        },
+        {
+          "type": "legs",
+          "optionId": "legs_white_pants_male",
+          "tint": 9127187
+        },
+        {
+          "type": "feet",
+          "optionId": "feet_white_boots_male",
+          "tint": 1710618
+        },
+        {
+          "type": "belt",
+          "optionId": "belt_leather_male",
+          "tint": 9127187
+        },
+        {
+          "type": "behind_body",
+          "optionId": "behind_body_formal_iverness_cape_male",
+          "tint": 128
+        }
+      ],
+      "spriteHash": "f3a03d048423db0a",
+      "spriteUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/sprites/generated/f3a03d048423db0a.png"
+    }
+  },
+  "position": {
+    "x": 240,
+    "y": 672,
+    "width": 32,
+    "height": 48,
+    "parent": "PLACE_the_prismatic_draught"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/hushlight_expanse/images/characters/CHAR_ceryn_halden.png?v=1772518938759",
+  "faceAnchorY": 0.23,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "talk"
+  },
+  "relationships": [],
+  "important": false
+}

@@ -1,0 +1,18 @@
+{
+  "id": "cave_mushroom_cluster",
+  "name": "Cave Mushroom Cluster",
+  "description": "A cluster of pale mushrooms thriving in the damp darkness of a cave.",
+  "purposes": [
+    "cave",
+    "lighting"
+  ],
+  "solid": false,
+  "layer": "default",
+  "spriteId": "cave_mushroom",
+  "materials": [
+    "fungus",
+    "organic"
+  ],
+  "tintable": true,
+  "tags": []
+}

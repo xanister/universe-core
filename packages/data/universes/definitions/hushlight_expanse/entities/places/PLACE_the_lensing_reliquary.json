@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_the_lensing_reliquary",
+  "label": "The Lensing Reliquary",
+  "description": "The Lensing Reliquary is a low, faceted storage chamber sheathed in dust-slick vitrified tile, its surfaces cut to shed electrostatic glass fallouts into grounded gutters. Racked alcoves of fused silicate hold sealed caskets and prismed coffer-slabs, each sized to the temple’s canon of calibrated beams and basin measurements. A narrow mirror-slat lightwell admits the copper-white spectrum as ruled bars that strike fixed datum marks along the floor, turning inventory into a measured rite. The air carries a persistent mineral dryness, and the chamber’s lensing cistern channels reduce every footfall to a softened, refracted echo.",
+  "short_description": "prism-shelved store room",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "storage_room",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.9
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "door_wooden",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/hushlight_expanse/images/battles/PLACE_the_lensing_reliquary.png?v=1772314141825",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 880,
+    "y": 2496,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_temple_of_the_faultlight_canon",
+    "innerWidth": 512,
+    "innerHeight": 640
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/hushlight_expanse/images/places/PLACE_the_lensing_reliquary.png?v=1772314191275",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

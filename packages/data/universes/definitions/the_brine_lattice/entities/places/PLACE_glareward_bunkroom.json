@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_glareward_bunkroom",
+  "label": "Glareward Bunkroom",
+  "description": "Glareward Bunkroom functions as the canteen’s enclosed sleeping quarters, set behind sealed partitions of exposed ribbed hull plating that match the Anchorage’s compact construction. Narrow polarizing slats admit a controlled amber spill from the canteen, maintaining low glare against Saltharrow’s hard white radiance. Stacked berths are bolted directly to the bulkhead, with netted lockers and tether points laid out for rapid turnover on deep-lattice schedules. A small hygiene alcove and air-scrub vents enforce the station’s strict air discipline and noise control.",
+  "short_description": "compact amber bunkroom",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "bedroom",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "door_wooden",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/the_brine_lattice/images/battles/PLACE_glareward_bunkroom.png?v=1772313935330",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 816,
+    "y": 160,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_the_glareward_canteen",
+    "innerWidth": 512,
+    "innerHeight": 512
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/the_brine_lattice/images/places/PLACE_glareward_bunkroom.png?v=1772314032345",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

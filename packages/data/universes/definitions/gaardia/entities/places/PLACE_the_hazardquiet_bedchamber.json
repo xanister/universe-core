@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_the_hazardquiet_bedchamber",
+  "label": "The Hazard-Quiet Bedchamber",
+  "description": "This compact bedchamber occupies an upper bay of The Mortared Rooms, its ceiling carried by smoke-darkened beams and a low, salvaged-ashlar arch stitched to later brick. A slit window with heavy shutters admits a disciplined bar of light over a narrow rope bed, a travel chest, and a wall peg rail worn smooth by long use. The doorframe bears a small civic hazard placard lacquered against grime, and the plasterwork is scarred where old notices have been scraped away. The floor alternates between mismatched flagstone and plank, leveled with mortar fillets that record successive repairs rather than ornament.",
+  "short_description": "shuttered narrow bedchamber",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "bedroom",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "door_wooden",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/gaardia/images/battles/PLACE_the_hazardquiet_bedchamber.png?v=1772208879966",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 720,
+    "y": 160,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_the_mortared_rooms",
+    "innerWidth": 448,
+    "innerHeight": 512
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/gaardia/images/places/PLACE_the_hazardquiet_bedchamber.png?v=1772208927963",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_glareward_stores",
+  "label": "Glareward Stores",
+  "description": "Glareward Stores forms a sealed service compartment set behind the canteen’s salvaged-bulkhead counter, built from the same ribbed hull plating used throughout Saltharrow Transit Anchorage. Narrow shelving bays and strap-lashed lockers line the walls, their fittings rated for orbital vibration and the station’s pronounced gravitic gradients. An amber task strip runs the ceiling length, maintaining the canteen’s glare-tempered illumination without admitting direct stellar radiance. Odor traps and pressure gaskets isolate the room from the adjacent concourse air discipline, preserving the canteen’s controlled atmosphere.",
+  "short_description": "sealed amber storeroom",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "storage_room",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.9
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "door_wooden",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/the_brine_lattice/images/battles/PLACE_glareward_stores.png?v=1772313935803",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 976,
+    "y": 160,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_the_glareward_canteen",
+    "innerWidth": 448,
+    "innerHeight": 640
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/the_brine_lattice/images/places/PLACE_glareward_stores.png?v=1772313997516",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

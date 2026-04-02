@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_gloamreach_system",
+  "label": "Gloamreach System",
+  "description": "The Gloamreach System is a rift-shadowed stellar demesne within Imperium Nihilus, its primary star veiled behind persistent empyrean glare that stains the void with bruise-colored aurorae. Translation margins remain unstable, and plotted warp approaches collapse into narrow, hazardous corridors monitored by intermittent beacon-signals and silence-tainted auspex returns. The system’s inner orbits carry the debris of void-war and neglected infrastructure, forming wide belts of wreckage, frozen fuel, and derelict stations. Long-range vox and astropathic traffic fracture into delayed, corrupted fragments, enforcing isolation as a defining condition of interplanetary transit.",
+  "short_description": "rift-shadowed star system",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "star_system",
+    "environment": {
+      "type": "space",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": false,
+        "base": null,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.6
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "star_sun",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/battles/PLACE_gloamreach_system.png?v=1771302126920",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 1184,
+    "y": 2432,
+    "width": 64,
+    "height": 64,
+    "parent": "PLACE_the_cosmos",
+    "innerWidth": 3808,
+    "innerHeight": 4288
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/places/PLACE_gloamreach_system.png",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

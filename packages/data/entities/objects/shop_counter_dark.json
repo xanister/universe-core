@@ -1,0 +1,21 @@
+{
+  "id": "shop_counter_dark",
+  "name": "Shop Counter",
+  "description": "A dark wood service counter with ornate arched panel lower section.",
+  "purposes": [
+    "workspace"
+  ],
+  "tags": [
+    "common",
+    "furniture",
+    "counter",
+    "shop"
+  ],
+  "solid": true,
+  "layer": "default",
+  "spriteId": "shop_counter_dark",
+  "materials": [
+    "wood"
+  ],
+  "tintable": false
+}

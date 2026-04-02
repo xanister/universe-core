@@ -1,0 +1,22 @@
+{
+  "id": "EVENT_charalaricmorn_jumped_off_placethecinderwake_to_1771916477494",
+  "date": "999.M1 12:08",
+  "placeId": "PLACE_the_cinderwake",
+  "eventType": null,
+  "category": "world",
+  "subject": "The Cinderwake",
+  "subjectId": "PLACE_the_cinderwake",
+  "fact": "CHAR_alaric_morn jumped off PLACE_the_cinderwake to PLACE_vespera_tertius",
+  "significance": "moderate",
+  "witnessIds": [
+    "CHAR_alaric_morn",
+    "CHAR_severan_dusk",
+    "CHAR_severin_drach"
+  ],
+  "important": false,
+  "importanceScore": null,
+  "scope": "local",
+  "relevantPlaceIds": [
+    "PLACE_the_cinderwake"
+  ]
+}

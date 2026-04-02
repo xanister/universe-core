@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_sootlamp_quarters",
+  "label": "Sootlamp Quarters",
+  "description": "Sootlamp Quarters occupies a narrow cell of slagcrete and black basalt set deep within Ashenward City’s bonded hab-block wall, its seams gasketed against ash intrusion. Interior surfaces are sealed with vitrified coatings that catch the bruise-colored auroral glare as cold violet highlights across bare angles and recessed alcoves. A single shielded lumen-strip and a hardwired vox-jack sit behind a grit-filter grille, reflecting the city’s constant interference and relay-dependence. Storage niches and fold-down fittings keep the floor clear for decontamination, with an airlock threshold sized for ash-suit entry and rinse-down.",
+  "short_description": "ash-sealed hab quarters",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "residence",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "building_residence",
+      "facing": "west",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/battles/PLACE_sootlamp_quarters.png?v=1771959067404",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 2864,
+    "y": 2176,
+    "width": 160,
+    "height": 256,
+    "parent": "PLACE_vespera_tertius_ashenward_city",
+    "innerWidth": 832,
+    "innerHeight": 672
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/places/PLACE_sootlamp_quarters.png?v=1771959121562",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

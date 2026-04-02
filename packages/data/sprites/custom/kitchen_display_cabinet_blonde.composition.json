@@ -1,0 +1,65 @@
+{
+  "spriteId": "kitchen_display_cabinet_blonde",
+  "gridWidth": 2,
+  "gridHeight": 4,
+  "tileSize": 32,
+  "tiles": [
+    {
+      "tilesetId": "furniture-blonde",
+      "srcX": 352,
+      "srcY": 0,
+      "col": 0,
+      "row": 0
+    },
+    {
+      "tilesetId": "furniture-blonde",
+      "srcX": 384,
+      "srcY": 0,
+      "col": 1,
+      "row": 0
+    },
+    {
+      "tilesetId": "furniture-blonde",
+      "srcX": 352,
+      "srcY": 32,
+      "col": 0,
+      "row": 1
+    },
+    {
+      "tilesetId": "furniture-blonde",
+      "srcX": 384,
+      "srcY": 32,
+      "col": 1,
+      "row": 1
+    },
+    {
+      "tilesetId": "furniture-blonde",
+      "srcX": 352,
+      "srcY": 64,
+      "col": 0,
+      "row": 2
+    },
+    {
+      "tilesetId": "furniture-blonde",
+      "srcX": 384,
+      "srcY": 64,
+      "col": 1,
+      "row": 2
+    },
+    {
+      "tilesetId": "furniture-blonde",
+      "srcX": 352,
+      "srcY": 96,
+      "col": 0,
+      "row": 3
+    },
+    {
+      "tilesetId": "furniture-blonde",
+      "srcX": 384,
+      "srcY": 96,
+      "col": 1,
+      "row": 3
+    }
+  ],
+  "updatedAt": "2026-03-02T18:00:58.510Z"
+}

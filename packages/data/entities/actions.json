@@ -1,0 +1,297 @@
+{
+  "version": "1.0",
+  "actions": [
+    {
+      "id": "attack",
+      "name": "Attack",
+      "description": "Strike with equipped weapon",
+      "source": "innate",
+      "context": "combat",
+      "stat": "physical",
+      "combat": {
+        "apCost": 1,
+        "poiseCost": 0,
+        "targeting": "single_enemy",
+        "range": 1,
+        "baseDamage": null,
+        "effects": [],
+        "timing": {
+          "baseWindowMs": 300,
+          "successMultiplier": 1.3,
+          "scalingStat": "dexterity"
+        }
+      },
+      "requirements": {
+        "weaponType": null,
+        "minStat": {},
+        "condition": null
+      }
+    },
+    {
+      "id": "defend",
+      "name": "Defend",
+      "description": "Brace for incoming attacks, widening parry window and reducing damage",
+      "source": "innate",
+      "context": "combat",
+      "stat": null,
+      "combat": {
+        "apCost": 1,
+        "poiseCost": 0,
+        "targeting": "self",
+        "range": 1,
+        "baseDamage": null,
+        "effects": [],
+        "timing": null
+      },
+      "requirements": {
+        "weaponType": null,
+        "minStat": {},
+        "condition": null
+      }
+    },
+    {
+      "id": "flee",
+      "name": "Flee",
+      "description": "Attempt to escape combat",
+      "source": "innate",
+      "context": "combat",
+      "stat": "dexterity",
+      "combat": {
+        "apCost": 2,
+        "poiseCost": 8,
+        "targeting": "self",
+        "range": 1,
+        "baseDamage": null,
+        "effects": [
+          { "type": "flee_attempt" }
+        ],
+        "timing": null
+      },
+      "requirements": {
+        "weaponType": null,
+        "minStat": {},
+        "condition": null
+      }
+    },
+    {
+      "id": "use_item",
+      "name": "Use Item",
+      "description": "Use an item from inventory",
+      "source": "innate",
+      "context": "combat",
+      "stat": null,
+      "combat": {
+        "apCost": 1,
+        "poiseCost": 0,
+        "targeting": "self",
+        "range": 1,
+        "baseDamage": null,
+        "effects": [],
+        "timing": null
+      },
+      "requirements": {
+        "weaponType": null,
+        "minStat": {},
+        "condition": null
+      }
+    },
+    {
+      "id": "persuade",
+      "name": "Persuade",
+      "description": "Use social influence to convince or negotiate",
+      "source": "innate",
+      "context": "both",
+      "stat": "social",
+      "combat": null,
+      "requirements": {
+        "weaponType": null,
+        "minStat": {},
+        "condition": null
+      }
+    },
+    {
+      "id": "intimidate",
+      "name": "Intimidate",
+      "description": "Force compliance through threat or display of strength",
+      "source": "innate",
+      "context": "both",
+      "stat": "social",
+      "combat": null,
+      "requirements": {
+        "weaponType": null,
+        "minStat": {},
+        "condition": null
+      }
+    },
+    {
+      "id": "examine",
+      "name": "Examine",
+      "description": "Inspect an object, person, or environment for details",
+      "source": "innate",
+      "context": "exploration",
+      "stat": "mental",
+      "combat": null,
+      "requirements": {
+        "weaponType": null,
+        "minStat": {},
+        "condition": null
+      }
+    },
+    {
+      "id": "lockpick",
+      "name": "Lockpick",
+      "description": "Attempt to open a locked container or door",
+      "source": "innate",
+      "context": "exploration",
+      "stat": "dexterity",
+      "combat": null,
+      "requirements": {
+        "weaponType": null,
+        "minStat": {},
+        "condition": null
+      }
+    },
+    {
+      "id": "sneak",
+      "name": "Sneak",
+      "description": "Move quietly to avoid detection",
+      "source": "innate",
+      "context": "both",
+      "stat": "dexterity",
+      "combat": null,
+      "requirements": {
+        "weaponType": null,
+        "minStat": {},
+        "condition": null
+      }
+    },
+    {
+      "id": "thrust",
+      "name": "Thrust",
+      "description": "A focused blade thrust for high single-target damage",
+      "source": "weapon",
+      "context": "combat",
+      "stat": "physical",
+      "combat": {
+        "apCost": 2,
+        "poiseCost": 5,
+        "targeting": "single_enemy",
+        "range": 1,
+        "baseDamage": 12,
+        "effects": [],
+        "timing": {
+          "baseWindowMs": 250,
+          "successMultiplier": 1.3,
+          "scalingStat": "dexterity"
+        }
+      },
+      "requirements": {
+        "weaponType": "sword",
+        "minStat": {},
+        "condition": null
+      }
+    },
+    {
+      "id": "riposte",
+      "name": "Riposte",
+      "description": "A counter-attack stance — the next melee attacker takes damage",
+      "source": "weapon",
+      "context": "combat",
+      "stat": "dexterity",
+      "combat": {
+        "apCost": 1,
+        "poiseCost": 0,
+        "targeting": "self",
+        "range": 1,
+        "baseDamage": null,
+        "effects": [],
+        "timing": null
+      },
+      "requirements": {
+        "weaponType": "sword",
+        "minStat": {},
+        "condition": null
+      }
+    },
+    {
+      "id": "cleave",
+      "name": "Cleave",
+      "description": "A sweeping axe strike that hits all enemies for reduced damage",
+      "source": "weapon",
+      "context": "combat",
+      "stat": "physical",
+      "combat": {
+        "apCost": 2,
+        "poiseCost": 5,
+        "targeting": "all_enemies",
+        "range": 1,
+        "baseDamage": 7,
+        "effects": [],
+        "timing": {
+          "baseWindowMs": 300,
+          "successMultiplier": 1.3,
+          "scalingStat": "physical"
+        }
+      },
+      "requirements": {
+        "weaponType": "axe",
+        "minStat": {},
+        "condition": null
+      }
+    },
+    {
+      "id": "aimed_shot",
+      "name": "Aimed Shot",
+      "description": "A precise ranged shot with bonus damage",
+      "source": "weapon",
+      "context": "combat",
+      "stat": "dexterity",
+      "combat": {
+        "apCost": 2,
+        "poiseCost": 5,
+        "targeting": "single_enemy",
+        "range": 2,
+        "baseDamage": 8,
+        "effects": [],
+        "timing": {
+          "baseWindowMs": 200,
+          "successMultiplier": 1.4,
+          "scalingStat": "dexterity"
+        }
+      },
+      "requirements": {
+        "weaponType": "bow",
+        "minStat": {},
+        "condition": null
+      }
+    },
+    {
+      "id": "bash",
+      "name": "Bash",
+      "description": "A heavy mace blow that can rattle the target",
+      "source": "weapon",
+      "context": "combat",
+      "stat": "physical",
+      "combat": {
+        "apCost": 1,
+        "poiseCost": 0,
+        "targeting": "single_enemy",
+        "range": 1,
+        "baseDamage": 6,
+        "effects": [
+          { "type": "apply_condition", "conditionId": "rattled", "severity": 1 }
+        ],
+        "timing": {
+          "baseWindowMs": 350,
+          "successMultiplier": 1.2,
+          "scalingStat": "physical"
+        }
+      },
+      "requirements": {
+        "weaponType": "mace",
+        "minStat": {},
+        "condition": null
+      }
+    }
+  ]
+}

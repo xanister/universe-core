@@ -1,0 +1,60 @@
+{
+  "id": "PLACE_basaltwind_quarters",
+  "label": "Basaltwind Quarters",
+  "description": "Basaltwind Quarters constitutes a compact sleeping cabin set off the Basaltwind Saltway, framed by a low pressure door and gasketed seams to preserve the vessel’s sealed interior. The walls and ceiling carry the same corrosion-tolerant plating as the corridor, their surfaces etched with fine salt scoring and interrupted by lidded conduit runs. A built-in berth and recessed lockers are fastened flush to the structure, reducing exposed hardware and limiting surfaces where grit accumulates. Thick-glass lamp housings cast a hard, pale light that keeps the room stark and functional under Brineshade’s abrasive conditions.",
+  "short_description": "stark sealed cabin",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "bedroom",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "door_wooden",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/the_brine_lattice/images/battles/PLACE_basaltwind_quarters.png?v=1772313930025",
+    "inheritedRequiredTags": [
+      "ship"
+    ]
+  },
+  "position": {
+    "x": 272,
+    "y": 160,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_basaltwind_saltway",
+    "innerWidth": 576,
+    "innerHeight": 640
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/the_brine_lattice/images/places/PLACE_basaltwind_quarters.png?v=1772313990401",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

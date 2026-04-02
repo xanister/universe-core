@@ -1,0 +1,235 @@
+{
+  "id": "hushlight_expanse",
+  "name": "Hushlight Expanse",
+  "version": "1.0.0",
+  "description": "The Hushlight Expanse is a sea of floating basalt shelves suspended in a permanent, dim aurora—light that can be heard faintly as a chorus, and sound that can sometimes be seen as ripples in the air. Centuries ago, the world’s sun shattered into seven “Chimes,” and each fragment now drifts on a predictable path, tinting regions with different laws of matter and memory. Cities cling to cliff-edges and underside-caverns, trading in bottled silence, calibrated echoes, and the rare inks that can write on air. People fear the Deep Quiet below the shelves, a lightless drop where words unravel and names fall apart, yet salvage crews still descend chasing relics that hum with the lost daylight.",
+  "custom": {},
+  "rules": "1) Speech has weight: spoken promises become minor binding forces if heard by at least one living witness; breaking them causes a tangible “echo-debt” that attracts predators and bad luck until repaid.\n2) Light is particulate: it can be harvested, stored, diluted, forged into tools, or used as currency; darkness is not mere absence but an active pressure that distorts memory.\n3) Magic is acoustical: all supernatural effects require tone, rhythm, or resonance (sung, tapped, bowed, whistled, or internally hummed). Silence is both shield and hazard—too much of it erases identity.\n4) The seven Chimes shift reality: each region periodically falls under a Chime’s influence (posted like tides). During a Chime’s pass, one physical law becomes unreliable (gravity, heat, time-sense, truthfulness, etc.), but only in specific, learnable ways.\n5) Death is not a doorway but a detuning: the dead linger as \"Off-Key\" impressions; they can be consulted, but every interaction risks exchanging a piece of your memory for theirs.\n6) Firearms and explosions are taboo in most settlements because sharp shockwaves fracture local resonance fields, causing long-term “quiet scarring” that can sterilize music-magic for miles.",
+  "tone": "haunting wonder with tense survival, lyrical horror, and pockets of gallows humor among salvagers and choir-knights",
+  "style": "surreal dark-fantasy with luminous auroras, basalt megastructures, and soundwave motifs; high-contrast painterly lighting with iridescent accents",
+  "mapStyle": null,
+  "image": null,
+  "date": "01.01.312 D3 10:03",
+  "calendar": {
+    "name": "Hushlight Expanse Calendar",
+    "calendarType": "standard",
+    "months": [
+      {
+        "name": "Chime-Tide",
+        "days": 30
+      },
+      {
+        "name": "Aurora-Tide",
+        "days": 30
+      },
+      {
+        "name": "Echo-Tide",
+        "days": 30
+      },
+      {
+        "name": "Drift-Tide",
+        "days": 30
+      },
+      {
+        "name": "Hush-Tide",
+        "days": 30
+      },
+      {
+        "name": "Gloam-Tide",
+        "days": 30
+      },
+      {
+        "name": "Lumenfall",
+        "days": 30
+      },
+      {
+        "name": "Quietfall",
+        "days": 30
+      },
+      {
+        "name": "Deepnight",
+        "days": 30
+      },
+      {
+        "name": "Dawnrest",
+        "days": 30
+      },
+      {
+        "name": "Skyclear",
+        "days": 30
+      },
+      {
+        "name": "Highchord",
+        "days": 30
+      }
+    ],
+    "time": {
+      "hoursPerDay": 24,
+      "minutesPerHour": 60
+    },
+    "eras": [
+      {
+        "id": 1,
+        "name": "First Drift",
+        "shortName": "D1",
+        "backwards": false,
+        "transitionEra": 0
+      },
+      {
+        "id": 2,
+        "name": "Second Drift",
+        "shortName": "D2",
+        "backwards": false,
+        "transitionEra": 0
+      },
+      {
+        "id": 3,
+        "name": "Third Drift",
+        "shortName": "D3",
+        "backwards": false,
+        "transitionEra": 0
+      },
+      {
+        "id": 4,
+        "name": "Fourth Drift",
+        "shortName": "D4",
+        "backwards": false,
+        "transitionEra": 0
+      }
+    ],
+    "defaultEra": 3,
+    "seasons": null,
+    "format": {
+      "dateSeparator": ".",
+      "timeSeparator": ":",
+      "eraPosition": "suffix",
+      "monthDisplay": "number",
+      "yearFirst": false,
+      "use24Hour": false,
+      "yearOnlyTemplate": "",
+      "millenniumPrefix": ""
+    }
+  },
+  "weather": "clear",
+  "weatherSeverity": null,
+  "climate": null,
+  "music": null,
+  "races": [
+    {
+      "id": "shelfborn",
+      "label": "Shelfborn",
+      "description": "Baseline folk adapted to cliff-cities and underside habitats; their culture revolves around oathcraft, echo-currency, and careful speech to avoid echo-debt.",
+      "rarity": "common",
+      "spriteHints": {
+        "humanoidBody": true,
+        "spriteArchetype": "human",
+        "defaultSkinColor": "olive",
+        "allowedSkinColors": [
+          "olive",
+          "light",
+          "brown",
+          "bronze",
+          "taupe"
+        ],
+        "allowedEyeColors": [
+          "brown",
+          "gray",
+          "green",
+          "blue"
+        ],
+        "allowedHairColors": null,
+        "featureLayers": null
+      }
+    },
+    {
+      "id": "choralith",
+      "label": "Choralith",
+      "description": "Resonance-touched beings whose bones grow in harmonic lattices; their voices can split into chords that shape acoustical magic with unusual precision.",
+      "rarity": "uncommon",
+      "spriteHints": {
+        "humanoidBody": true,
+        "spriteArchetype": "elf",
+        "defaultSkinColor": "lavender",
+        "allowedSkinColors": [
+          "lavender",
+          "light",
+          "pale_green"
+        ],
+        "allowedEyeColors": [
+          "purple",
+          "gray",
+          "blue",
+          "green"
+        ],
+        "allowedHairColors": null,
+        "featureLayers": null
+      }
+    },
+    {
+      "id": "duskforged",
+      "label": "Duskforged",
+      "description": "Living constructs assembled from basalt, brass, and captured hush; they navigate silence safely but must periodically “tune” themselves with borrowed music to stay coherent.",
+      "rarity": "uncommon",
+      "spriteHints": {
+        "humanoidBody": false,
+        "spriteArchetype": null,
+        "defaultSkinColor": null,
+        "allowedSkinColors": null,
+        "allowedEyeColors": null,
+        "allowedHairColors": null,
+        "featureLayers": null
+      }
+    },
+    {
+      "id": "gloamkin",
+      "label": "Gloamkin",
+      "description": "Drift-nomads altered by repeated descents toward the Deep Quiet; they see sound as color and can hide their presence by smudging local echoes, at the cost of fraying their own names.",
+      "rarity": "uncommon",
+      "spriteHints": {
+        "humanoidBody": true,
+        "spriteArchetype": "orc",
+        "defaultSkinColor": "dark_green",
+        "allowedSkinColors": [
+          "dark_green",
+          "green"
+        ],
+        "allowedEyeColors": [
+          "yellow",
+          "orange",
+          "red",
+          "green"
+        ],
+        "allowedHairColors": null,
+        "featureLayers": null
+      }
+    },
+    {
+      "id": "tidewhelp",
+      "label": "Tidewhelp",
+      "description": "Amphibious cliff-clingers hatched in underside pools where Chime-light condenses; they breathe thin air well and can store a single spoken phrase in throat-sacs for later release.",
+      "rarity": "rare",
+      "spriteHints": {
+        "humanoidBody": true,
+        "spriteArchetype": "lizard",
+        "defaultSkinColor": "blue",
+        "allowedSkinColors": [
+          "blue",
+          "green",
+          "dark_green"
+        ],
+        "allowedEyeColors": [
+          "yellow",
+          "green",
+          "orange"
+        ],
+        "allowedHairColors": null,
+        "featureLayers": null
+      }
+    }
+  ],
+  "rootPlaceId": "",
+  "rulesetId": null,
+  "defaultStartPlaceId": null,
+  "stagingSpriteTheme": "fantasy",
+  "hungerFatigueEnabled": false
+}

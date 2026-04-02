@@ -1,0 +1,268 @@
+{
+  "id": "CHAR_severin_drach",
+  "label": "Severin Drach",
+  "description": "This individual is a middle-aged human of bronze skin, marked by a long, healed cleft along the left brow that draws the face into a permanent asymmetry. Gray eyes sit deep under heavy orbital ridges, while brown hair is kept in a shortknot that emphasizes a thick neck and broad, ship-hardened shoulders. The nose shows an old break set slightly off-center, and the jawline carries the blunt squareness typical of lifelong exposure to hard labor and close-quarters violence. Overall proportions are compact and powerful, built for command at sea rather than ornament.",
+  "short_description": "male shipboard captain",
+  "tags": [],
+  "entityType": "character",
+  "info": {
+    "purpose": "captain",
+    "aliases": [
+      "Cinderwake Captain",
+      "Drach of the Wake"
+    ],
+    "birthdate": "975.M41",
+    "deathdate": null,
+    "title": "Captain",
+    "birthPlace": "The Cinderwake",
+    "eyeColor": "gray",
+    "gender": "male",
+    "hairColor": "brown",
+    "hairStyle": "shortknot",
+    "beardStyle": "stubble",
+    "headType": "human_male",
+    "skinTone": "bronze",
+    "personality": "A disciplinarian commander who governs by clear orders and strict routine, treating seamanship as a doctrine rather than a trade. He maintains authority through controlled speech, exact standards, and an unembellished sense of duty to vessel and crew. His judgment is practical, risk-aware, and unsentimental, favoring decisive action over debate once a course is chosen.",
+    "race": "human",
+    "messages": [],
+    "journal": [],
+    "sketches": [],
+    "verbosity": 3,
+    "conversationContext": null,
+    "storytellerState": null,
+    "isPlayer": false,
+    "storyComplete": false,
+    "routine": {
+      "schedule": {
+        "dawn": "work",
+        "morning": "work",
+        "afternoon": "leisure",
+        "evening": "home",
+        "night": "home"
+      },
+      "home": {
+        "placeId": "PLACE_the_cinderwake",
+        "description": "The Cinderwake",
+        "areaHint": null
+      },
+      "work": {
+        "placeId": "PLACE_the_cinderwake",
+        "description": "The Cinderwake",
+        "areaHint": null
+      },
+      "leisure": null,
+      "variance": 0.2,
+      "activities": {
+        "work": "vessel_work"
+      }
+    },
+    "vesselRoutes": null,
+    "abstractLocation": null,
+    "npcBehavior": null,
+    "physicalState": null,
+    "pendingDeparture": null,
+    "pendingArrival": null,
+    "lastRoutineCheckPeriod": null,
+    "startingNarrative": null,
+    "startingCharacterState": null,
+    "clothing": [
+      {
+        "slot": "torso_under",
+        "itemId": "formal_shirt",
+        "color": "#f5f0e8",
+        "contents": null
+      },
+      {
+        "slot": "torso_over",
+        "itemId": "trenchcoat",
+        "color": "#000080",
+        "contents": null
+      },
+      {
+        "slot": "legs",
+        "itemId": "formal_pants",
+        "color": "#3a3a3a",
+        "contents": null
+      },
+      {
+        "slot": "feet",
+        "itemId": "boots",
+        "color": "#1a1a1a",
+        "contents": null
+      },
+      {
+        "slot": "belt",
+        "itemId": "leather_belt",
+        "color": "#8b4513",
+        "contents": [
+          {
+            "id": "ci_1771878599573_z03hlo",
+            "itemId": "sash",
+            "name": "sash",
+            "description": null,
+            "type": "weapon",
+            "quantity": 1,
+            "color": "#dc143c",
+            "equipSlot": "weapon",
+            "plotId": null
+          }
+        ]
+      },
+      {
+        "slot": "head",
+        "itemId": "bowler_hat",
+        "color": null,
+        "contents": null
+      },
+      {
+        "slot": "hands",
+        "itemId": "leather_bracers",
+        "color": "#8b4513",
+        "contents": null
+      },
+      {
+        "slot": "neck",
+        "itemId": "necktie",
+        "color": "#800000",
+        "contents": null
+      },
+      {
+        "slot": "accessories",
+        "itemId": "glasses",
+        "color": null,
+        "contents": null
+      }
+    ],
+    "enabledOverlayLayers": [
+      "eyes",
+      "facial"
+    ],
+    "helmingVesselId": null,
+    "storytellerDisabled": false,
+    "rulesetState": {
+      "stats": {
+        "physical": 50,
+        "mental": 50,
+        "social": 50,
+        "poise": 50,
+        "max_poise": 50,
+        "bloodloss": 0,
+        "anxiety": 0,
+        "fatigue": 0,
+        "hunger": 0
+      },
+      "conditions": [],
+      "statUsage": {},
+      "incapacitation": null,
+      "incapacitatedSince": null
+    },
+    "voiceId": "daniel",
+    "spriteConfig": {
+      "bodyType": "male",
+      "layers": [
+        {
+          "type": "body",
+          "optionId": "body_base",
+          "tint": 11373408
+        },
+        {
+          "type": "body",
+          "optionId": "body_universal",
+          "tint": 11373408
+        },
+        {
+          "type": "eyes",
+          "optionId": "eyes_eyes",
+          "tint": 8423560
+        },
+        {
+          "type": "facial",
+          "optionId": "facial_beard",
+          "tint": 7029286
+        },
+        {
+          "type": "hair",
+          "optionId": "hair_shortknot",
+          "tint": 7029286
+        },
+        {
+          "type": "torso",
+          "optionId": "torso_formal_shirt_male",
+          "tint": 16117992
+        },
+        {
+          "type": "torso",
+          "optionId": "torso_formal_trenchcoat_male",
+          "tint": 128
+        },
+        {
+          "type": "legs",
+          "optionId": "legs_formal_pants_male",
+          "tint": 3815994
+        },
+        {
+          "type": "feet",
+          "optionId": "feet_white_boots_male",
+          "tint": 1710618
+        },
+        {
+          "type": "belt",
+          "optionId": "belt_leather_male",
+          "tint": 9127187
+        },
+        {
+          "type": "head",
+          "optionId": "head_formal_bowler_male",
+          "tint": 1710618
+        },
+        {
+          "type": "hands",
+          "optionId": "hands_leather_bracers_male",
+          "tint": 9127187
+        },
+        {
+          "type": "neck",
+          "optionId": "neck_formal_necktie_male",
+          "tint": 8388608
+        },
+        {
+          "type": "accessories",
+          "optionId": "accessories_formal_glasses_male",
+          "tint": 12632256
+        }
+      ],
+      "spriteHash": "ebfd33630e77e791",
+      "spriteUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/sprites/generated/ebfd33630e77e791.png",
+      "spriteScale": 1
+    }
+  },
+  "position": {
+    "x": 976,
+    "y": 704,
+    "width": 32,
+    "height": 48,
+    "parent": "PLACE_the_cinderwake"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/characters/CHAR_severin_drach.png?v=1771878661615",
+  "faceAnchorY": 0.19,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "talk"
+  },
+  "relationships": [
+    {
+      "targetId": "CHAR_severan_dusk",
+      "type": "colleague",
+      "disposition": 10,
+      "familiarity": 50,
+      "context": "Both are based in PLACE_the_cinderwake and share a strongly disciplined, routine-driven seamanship focus; likely serve on the same vessel or in the same local maritime organization (commander vs. watch-keeper roles).",
+      "pendingGeneration": false
+    }
+  ],
+  "important": false
+}

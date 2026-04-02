@@ -1,0 +1,16 @@
+{
+  "id": "EVENT_visited_the_ironband_passage_1771818040510",
+  "date": "999.M1 21:33",
+  "placeId": "PLACE_the_ironband_passage",
+  "important": false,
+  "importanceScore": null,
+  "scope": null,
+  "relevantPlaceIds": null,
+  "eventType": "location_visited",
+  "category": "world",
+  "subject": "The Ironband Passage",
+  "subjectId": "PLACE_the_ironband_passage",
+  "fact": "Visited The Ironband Passage",
+  "significance": "minor",
+  "witnessIds": null
+}

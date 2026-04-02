@@ -1,0 +1,177 @@
+{
+  "id": "CHAR_saltwrit_rat",
+  "label": "Saltwrit Rat",
+  "description": "This individual is a small goblin of vermin caste, bred lean and low-slung with bright_green skin hardened by brine and filth. Black hair grows in sparse, wiry tufts along the crown and nape, framing brown eyes set wide for constant vigilance in tight stone runs. A narrow muzzle, prominent incisors, and long-fingered hands mark an anatomy adapted to gnawing, climbing, and rapid burrowing through refuse. Old nicks along the ears and tail-base record repeated encounters with hooks, boots, and the grotto’s traps.",
+  "short_description": "goblin rat (nonbinary)",
+  "tags": [],
+  "entityType": "character",
+  "info": {
+    "purpose": "rat",
+    "aliases": [
+      "Grotto Rat",
+      "Salt-Rat"
+    ],
+    "birthdate": "Unknown",
+    "deathdate": null,
+    "title": null,
+    "birthPlace": "The Saltwrit Grotto",
+    "eyeColor": "brown",
+    "gender": "nonbinary",
+    "hairColor": "black",
+    "hairStyle": "unkempt",
+    "beardStyle": null,
+    "headType": "orc_male",
+    "skinTone": "bright_green",
+    "personality": "A furtive scavenger that keeps to crevices and drainage cracks, this individual memorizes regular footfalls and feeding habits, emerging only when noise and torchlight recede. It prioritizes survival over conflict, snapping only when cornered and retreating with practiced speed into the grotto’s hidden passages. Its behavior centers on hoarding salt-softened scraps and pilfered cordage for nesting, with an instinctive aversion to open ground and sudden light.",
+    "race": "goblin",
+    "messages": [],
+    "journal": [],
+    "sketches": [],
+    "verbosity": 3,
+    "conversationContext": null,
+    "storytellerState": null,
+    "isPlayer": false,
+    "storyComplete": false,
+    "routine": null,
+    "vesselRoutes": null,
+    "abstractLocation": null,
+    "npcBehavior": null,
+    "physicalState": null,
+    "pendingDeparture": null,
+    "pendingArrival": null,
+    "lastRoutineCheckPeriod": null,
+    "startingNarrative": null,
+    "startingCharacterState": null,
+    "clothing": [],
+    "enabledOverlayLayers": [],
+    "helmingVesselId": null,
+    "storytellerDisabled": false,
+    "rulesetState": {
+      "stats": {
+        "poise": 50,
+        "max_poise": 50
+      },
+      "conditions": [],
+      "statUsage": {},
+      "incapacitation": null,
+      "incapacitatedSince": null
+    },
+    "voiceId": "river",
+    "spriteConfig": {
+      "bodyType": "male",
+      "layers": [
+        {
+          "type": "body",
+          "optionId": "body_base",
+          "tint": 6736964
+        },
+        {
+          "type": "body",
+          "optionId": "body_universal",
+          "tint": 6736964
+        },
+        {
+          "type": "hair",
+          "optionId": "hair_unkempt",
+          "tint": 1710618
+        }
+      ],
+      "spriteHash": "bb82b5918917dac8",
+      "spriteUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/sprites/generated/bb82b5918917dac8.png"
+    },
+    "spriteId": "rat"
+  },
+  "position": {
+    "x": 2320,
+    "y": 2032,
+    "width": 32,
+    "height": 48,
+    "parent": "PLACE_the_saltwrit_grotto"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/gaardia/images/characters/CHAR_saltwrit_rat.png?v=1772437754450",
+  "faceAnchorY": 0.24,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "talk"
+  },
+  "relationships": [
+    {
+      "targetId": "CHAR_saltwrit_scurrier",
+      "type": "rival",
+      "disposition": -20,
+      "familiarity": 50,
+      "context": "Both are vermin-caste scavengers native to the Saltwrit Grotto, likely competing over the same hidden routes, caches, and nesting materials.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_brinewhisk",
+      "type": "rival",
+      "disposition": -20,
+      "familiarity": 50,
+      "context": "Shares the same grotto habitat and scavenging niche; Saltwrit Rat’s hoarding/pilfering would predict frequent competition with a territory-bound rat over scraps and bolt-holes.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_brinescurry",
+      "type": "rival",
+      "disposition": -20,
+      "familiarity": 50,
+      "context": "Brinescurry is explicitly territorial over circuits and caches in the same grotto; Saltwrit Rat’s stealth scavenging makes conflict/competition over routes and nests likely.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_drenic_malrow",
+      "type": "acquaintance",
+      "disposition": 0,
+      "familiarity": 40,
+      "context": "Co-located in the Saltwrit Grotto; a vigilant scavenger would learn and recognize Drenic’s habitual routes and treat it as a known hazard/pattern rather than a stranger.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_iscel_varn",
+      "type": "acquaintance",
+      "disposition": 0,
+      "familiarity": 40,
+      "context": "Also resident in the grotto and rule-bound about boundaries; Saltwrit Rat would likely have learned its patrols and avoid it, implying recognition through repeated encounters.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_ivo_relland",
+      "type": "acquaintance",
+      "disposition": 0,
+      "familiarity": 40,
+      "context": "Shares the same grotto passages; Ivo patrols chokepoints and hoarded debris—areas a scavenger would repeatedly skirt, leading to mutual recognition.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_nareth_quell",
+      "type": "acquaintance",
+      "disposition": 0,
+      "familiarity": 40,
+      "context": "Both inhabit the grotto; Nareth’s repetitive wall-tracing and tally-attention would be a predictable presence that the rat learns to avoid.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_ostel_var",
+      "type": "acquaintance",
+      "disposition": 0,
+      "familiarity": 40,
+      "context": "Same location; Ostel reacts to intrusion with territorial violence, making it a known danger the scavenger would track and avoid over time.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_oswin_saltwrit",
+      "type": "acquaintance",
+      "disposition": 0,
+      "familiarity": 40,
+      "context": "Co-located in the Saltwrit Grotto; as a task-bound labor-remnant, Oswin would be a predictable fixture the rat recognizes and routes around.",
+      "pendingGeneration": false
+    }
+  ],
+  "important": false
+}

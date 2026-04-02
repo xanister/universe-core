@@ -1,0 +1,1613 @@
+{
+  "questions": [
+    {
+      "id": "CLARIFY_plot-validator_orphaned_flag_plot_end_things_with_the_j",
+      "providerId": "plot-validator",
+      "category": "attribute",
+      "question": "Should the unused flag \"party_agrees_to_lie_for_bride\" be removed?",
+      "context": "The flag \"party_agrees_to_lie_for_bride\" is defined in turning point \"TP_crisis_bride_unmasked\" but is never referenced by any goal or ending card.",
+      "options": [
+        {
+          "id": "delete",
+          "label": "Delete the flag",
+          "description": "Remove this unused flag from possibleFlags"
+        },
+        {
+          "id": "keep",
+          "label": "Keep the flag",
+          "description": "The flag may be used in the future"
+        }
+      ],
+      "freeformAllowed": false,
+      "confidence": 0.7,
+      "currentGuess": "delete",
+      "affectedEntityIds": [
+        "PLOT_end_things_with_the_jester"
+      ],
+      "resolutionContext": {
+        "plotId": "PLOT_end_things_with_the_jester",
+        "issueType": "orphaned_flag",
+        "flagId": "party_agrees_to_lie_for_bride",
+        "turningPointId": "TP_crisis_bride_unmasked"
+      },
+      "createdAt": "2026-01-23T00:35:27.384Z",
+      "status": "applied"
+    },
+    {
+      "id": "CLARIFY_plot-validator_orphan_clue_porcelain_grin_tp_inciting_prankfuneral_plot_end_things_with_the_jes",
+      "providerId": "plot-validator",
+      "category": "attribute",
+      "question": "Should the unused flag \"clue_porcelain_grin\" be removed?",
+      "context": "The flag \"clue_porcelain_grin\" is defined in turning point \"TP_inciting_prankfuneral\" but is never referenced by any goal or ending card.",
+      "options": [
+        {
+          "id": "delete",
+          "label": "Delete the flag",
+          "description": "Remove this unused flag from possibleFlags"
+        },
+        {
+          "id": "keep",
+          "label": "Keep the flag",
+          "description": "The flag may be used in the future"
+        }
+      ],
+      "freeformAllowed": false,
+      "confidence": 0.7,
+      "currentGuess": "delete",
+      "affectedEntityIds": [
+        "PLOT_end_things_with_the_jester"
+      ],
+      "resolutionContext": {
+        "plotId": "PLOT_end_things_with_the_jester",
+        "issueType": "orphaned_flag",
+        "flagId": "clue_porcelain_grin",
+        "turningPointId": "TP_inciting_prankfuneral"
+      },
+      "createdAt": "2026-01-23T00:36:25.551Z",
+      "status": "applied"
+    },
+    {
+      "id": "CLARIFY_plot-validator_orphan_victim_saved_tp_inciting_prankfuneral_plot_end_things_with_the_jester",
+      "providerId": "plot-validator",
+      "category": "attribute",
+      "question": "Should the unused flag \"victim_saved\" be removed?",
+      "context": "The flag \"victim_saved\" is defined in turning point \"TP_inciting_prankfuneral\" but is never referenced by any goal or ending card.",
+      "options": [
+        {
+          "id": "delete",
+          "label": "Delete the flag",
+          "description": "Remove this unused flag from possibleFlags"
+        },
+        {
+          "id": "keep",
+          "label": "Keep the flag",
+          "description": "The flag may be used in the future"
+        }
+      ],
+      "freeformAllowed": false,
+      "confidence": 0.7,
+      "currentGuess": "delete",
+      "affectedEntityIds": [
+        "PLOT_end_things_with_the_jester"
+      ],
+      "resolutionContext": {
+        "plotId": "PLOT_end_things_with_the_jester",
+        "issueType": "orphaned_flag",
+        "flagId": "victim_saved",
+        "turningPointId": "TP_inciting_prankfuneral"
+      },
+      "createdAt": "2026-01-23T00:36:32.510Z",
+      "status": "applied"
+    },
+    {
+      "id": "CLARIFY_plot-validator_orphan_clue_forged_letter_tp_rising_blackmailthread_plot_end_things_with_the_jes",
+      "providerId": "plot-validator",
+      "category": "attribute",
+      "question": "Should the unused flag \"clue_forged_letter\" be removed?",
+      "context": "The flag \"clue_forged_letter\" is defined in turning point \"TP_rising_blackmailthread\" but is never referenced by any goal or ending card.",
+      "options": [
+        {
+          "id": "delete",
+          "label": "Delete the flag",
+          "description": "Remove this unused flag from possibleFlags"
+        },
+        {
+          "id": "keep",
+          "label": "Keep the flag",
+          "description": "The flag may be used in the future"
+        }
+      ],
+      "freeformAllowed": false,
+      "confidence": 0.7,
+      "currentGuess": "delete",
+      "affectedEntityIds": [
+        "PLOT_end_things_with_the_jester"
+      ],
+      "resolutionContext": {
+        "plotId": "PLOT_end_things_with_the_jester",
+        "issueType": "orphaned_flag",
+        "flagId": "clue_forged_letter",
+        "turningPointId": "TP_rising_blackmailthread"
+      },
+      "createdAt": "2026-01-23T00:36:33.657Z",
+      "status": "applied"
+    },
+    {
+      "id": "CLARIFY_plot-validator_orphan_theater_ledger_found_tp_rising_blackmailthread_plot_end_things_with_the_j",
+      "providerId": "plot-validator",
+      "category": "attribute",
+      "question": "Should the unused flag \"theater_ledger_found\" be removed?",
+      "context": "The flag \"theater_ledger_found\" is defined in turning point \"TP_rising_blackmailthread\" but is never referenced by any goal or ending card.",
+      "options": [
+        {
+          "id": "delete",
+          "label": "Delete the flag",
+          "description": "Remove this unused flag from possibleFlags"
+        },
+        {
+          "id": "keep",
+          "label": "Keep the flag",
+          "description": "The flag may be used in the future"
+        }
+      ],
+      "freeformAllowed": false,
+      "confidence": 0.7,
+      "currentGuess": "delete",
+      "affectedEntityIds": [
+        "PLOT_end_things_with_the_jester"
+      ],
+      "resolutionContext": {
+        "plotId": "PLOT_end_things_with_the_jester",
+        "issueType": "orphaned_flag",
+        "flagId": "theater_ledger_found",
+        "turningPointId": "TP_rising_blackmailthread"
+      },
+      "createdAt": "2026-01-23T00:36:34.323Z",
+      "status": "applied"
+    },
+    {
+      "id": "CLARIFY_plot-validator_orphan_deal_considered_tp_midpoint_dealwithdevil_plot_end_things_with_the_jester",
+      "providerId": "plot-validator",
+      "category": "attribute",
+      "question": "Should the unused flag \"deal_considered\" be removed?",
+      "context": "The flag \"deal_considered\" is defined in turning point \"TP_midpoint_dealwithdevil\" but is never referenced by any goal or ending card.",
+      "options": [
+        {
+          "id": "delete",
+          "label": "Delete the flag",
+          "description": "Remove this unused flag from possibleFlags"
+        },
+        {
+          "id": "keep",
+          "label": "Keep the flag",
+          "description": "The flag may be used in the future"
+        }
+      ],
+      "freeformAllowed": false,
+      "confidence": 0.7,
+      "currentGuess": "delete",
+      "affectedEntityIds": [
+        "PLOT_end_things_with_the_jester"
+      ],
+      "resolutionContext": {
+        "plotId": "PLOT_end_things_with_the_jester",
+        "issueType": "orphaned_flag",
+        "flagId": "deal_considered",
+        "turningPointId": "TP_midpoint_dealwithdevil"
+      },
+      "createdAt": "2026-01-23T00:36:35.579Z",
+      "status": "applied"
+    },
+    {
+      "id": "CLARIFY_plot-validator_orphan_jester_spared_now_tp_midpoint_dealwithdevil_plot_end_things_with_the_jest",
+      "providerId": "plot-validator",
+      "category": "attribute",
+      "question": "Should the unused flag \"jester_spared_now\" be removed?",
+      "context": "The flag \"jester_spared_now\" is defined in turning point \"TP_midpoint_dealwithdevil\" but is never referenced by any goal or ending card.",
+      "options": [
+        {
+          "id": "delete",
+          "label": "Delete the flag",
+          "description": "Remove this unused flag from possibleFlags"
+        },
+        {
+          "id": "keep",
+          "label": "Keep the flag",
+          "description": "The flag may be used in the future"
+        }
+      ],
+      "freeformAllowed": false,
+      "confidence": 0.7,
+      "currentGuess": "delete",
+      "affectedEntityIds": [
+        "PLOT_end_things_with_the_jester"
+      ],
+      "resolutionContext": {
+        "plotId": "PLOT_end_things_with_the_jester",
+        "issueType": "orphaned_flag",
+        "flagId": "jester_spared_now",
+        "turningPointId": "TP_midpoint_dealwithdevil"
+      },
+      "createdAt": "2026-01-23T00:36:36.050Z",
+      "status": "applied"
+    },
+    {
+      "id": "CLARIFY_plot-validator_climax_tension_tp_climax_vowcurse_gala_plot_end_things_with_the_jester",
+      "providerId": "plot-validator",
+      "category": "attribute",
+      "question": "How should the climax tension issue be resolved?",
+      "context": "The climax \"TP_climax_vowcurse_gala\" has tension 85, but \"TP_resolution_afterlaughter\" has higher tension. The climax should typically be the highest point of dramatic tension.",
+      "options": [
+        {
+          "id": "raise_climax",
+          "label": "Raise climax tension to 90",
+          "description": "Set \"TP_climax_vowcurse_gala\" tensionTarget to 90"
+        },
+        {
+          "id": "lower_TP_resolution_afterlaughter",
+          "label": "Lower \"TP_resolution_afterlaughter\" tension",
+          "description": "Reduce \"TP_resolution_afterlaughter\" from 90 to 80"
+        },
+        {
+          "id": "make_climax_TP_resolution_afterlaughter",
+          "label": "Make \"TP_resolution_afterlaughter\" the climax instead",
+          "description": "Change \"TP_resolution_afterlaughter\" to climax and \"TP_climax_vowcurse_gala\" to crisis"
+        }
+      ],
+      "freeformAllowed": false,
+      "confidence": 0.5,
+      "currentGuess": "raise_climax",
+      "affectedEntityIds": [
+        "PLOT_end_things_with_the_jester"
+      ],
+      "resolutionContext": {
+        "plotId": "PLOT_end_things_with_the_jester",
+        "issueType": "climax_not_highest_tension",
+        "climaxId": "TP_climax_vowcurse_gala",
+        "climaxTension": 85,
+        "maxTension": 90,
+        "higherTPs": [
+          {
+            "id": "TP_resolution_afterlaughter",
+            "tension": 90
+          }
+        ]
+      },
+      "createdAt": "2026-01-23T00:45:50.035Z",
+      "status": "applied"
+    },
+    {
+      "id": "CLARIFY_plot-validator_rename_journey_failed_plot_the_long_passage",
+      "providerId": "plot-validator",
+      "category": "attribute",
+      "question": "How should the flag \"journey_failed\" be renamed?",
+      "context": "Flags should use affirmative naming - describe what happened, not what didn't. For example, use \"merchant_died\" instead of \"not_saved_merchant\".",
+      "options": [
+        {
+          "id": "suggested",
+          "label": "journey_lost",
+          "description": "Use the suggested affirmative name"
+        },
+        {
+          "id": "keep",
+          "label": "journey_failed",
+          "description": "Keep the current name (not recommended)"
+        }
+      ],
+      "freeformAllowed": true,
+      "confidence": 0.6,
+      "currentGuess": "journey_lost",
+      "affectedEntityIds": [
+        "PLOT_the_long_passage"
+      ],
+      "resolutionContext": {
+        "plotId": "PLOT_the_long_passage",
+        "issueType": "negative_flag",
+        "flagId": "journey_failed",
+        "suggestedName": "journey_lost"
+      },
+      "createdAt": "2026-01-23T01:50:40.074Z",
+      "status": "applied"
+    },
+    {
+      "id": "CLARIFY_plot-validator_climax_tension_tp_climax_due_hour_plot_generated_1769134950373",
+      "providerId": "plot-validator",
+      "category": "attribute",
+      "question": "How should the climax tension issue be resolved?",
+      "context": "The climax \"TP_climax_due_hour\" has tension 85, but \"TP_resolution_after_ink\" has higher tension. The climax should typically be the highest point of dramatic tension.",
+      "options": [
+        {
+          "id": "raise_climax",
+          "label": "Raise climax tension to 95",
+          "description": "Set \"TP_climax_due_hour\" tensionTarget to 95"
+        },
+        {
+          "id": "lower_TP_resolution_after_ink",
+          "label": "Lower \"TP_resolution_after_ink\" tension",
+          "description": "Reduce \"TP_resolution_after_ink\" from 95 to 80"
+        },
+        {
+          "id": "make_climax_TP_resolution_after_ink",
+          "label": "Make \"TP_resolution_after_ink\" the climax instead",
+          "description": "Change \"TP_resolution_after_ink\" to climax and \"TP_climax_due_hour\" to crisis"
+        }
+      ],
+      "freeformAllowed": false,
+      "confidence": 0.5,
+      "currentGuess": "raise_climax",
+      "affectedEntityIds": [
+        "PLOT_generated_1769134950373"
+      ],
+      "resolutionContext": {
+        "plotId": "PLOT_generated_1769134950373",
+        "issueType": "climax_not_highest_tension",
+        "climaxId": "TP_climax_due_hour",
+        "climaxTension": 85,
+        "maxTension": 95,
+        "higherTPs": [
+          {
+            "id": "TP_resolution_after_ink",
+            "tension": 95
+          }
+        ]
+      },
+      "createdAt": "2026-01-23T02:22:30.379Z",
+      "status": "answered"
+    },
+    {
+      "id": "CLARIFY_plot-validator_orphan_brand_broken_tp_crisis_clause_hunt_plot_generated_1769134950373",
+      "providerId": "plot-validator",
+      "category": "attribute",
+      "question": "Should the unused flag \"brand_broken\" be removed?",
+      "context": "The flag \"brand_broken\" is defined in turning point \"TP_crisis_clause_hunt\" but is never referenced by any goal or ending card.",
+      "options": [
+        {
+          "id": "delete",
+          "label": "Delete the flag",
+          "description": "Remove this unused flag from possibleFlags"
+        },
+        {
+          "id": "keep",
+          "label": "Keep the flag",
+          "description": "The flag may be used in the future"
+        }
+      ],
+      "freeformAllowed": false,
+      "confidence": 0.7,
+      "currentGuess": "delete",
+      "affectedEntityIds": [
+        "PLOT_generated_1769134950373"
+      ],
+      "resolutionContext": {
+        "plotId": "PLOT_generated_1769134950373",
+        "issueType": "orphaned_flag",
+        "flagId": "brand_broken",
+        "turningPointId": "TP_crisis_clause_hunt"
+      },
+      "createdAt": "2026-01-23T02:22:30.379Z",
+      "status": "answered"
+    },
+    {
+      "id": "CLARIFY_plot-validator_vague_description_plot_the_long_passage_tp_journey_begins",
+      "providerId": "plot-validator",
+      "category": "attribute",
+      "question": "Rewrite vague description for turning point \"TP_journey_begins\"?",
+      "context": "The current description is vague and may not clearly communicate the scene to the narrative system.\n\nCURRENT DESCRIPTION:\n\"The message arrives with urgency: the ancient fort awaits, and time may be running short. The player must decide how to make the long journey—on foot through hazardous terrain, by booking passage on a vessel, or by joining a caravan. The Passage Broker can provide options and advice.\"\n\nSUGGESTED REWRITE:\n\"In the dockside countinghouse, the Passage Broker presses a rain-spotted note into your hand: “Ancient Fort Kharos—what you seek is there. Gates may seal by the next moon.” He offers three routes: harsh overland, a hired vessel, or a guarded caravan.\"\n\nPlease provide a concrete scene-based description with:\n- Specific actors (WHO)\n- Clear player address using \"you/your\" (TO WHOM)\n- Concrete actions and events (WHAT happens)\n- Location context (WHERE)",
+      "options": [
+        {
+          "id": "accept",
+          "label": "Use suggested rewrite",
+          "description": "In the dockside countinghouse, the Passage Broker presses a rain-spotted note into your hand: “Ancient Fort Kharos—what you seek is there. Gates may seal by the next moon.” He offers three routes: harsh overland, a hired vessel, or a guarded caravan."
+        },
+        {
+          "id": "keep",
+          "label": "Keep original",
+          "description": "The message arrives with urgency: the ancient fort awaits, and time may be running short. The player must decide how to make the long journey—on foot through hazardous terrain, by booking passage on a vessel, or by joining a caravan. The Passage Broker can provide options and advice."
+        }
+      ],
+      "freeformAllowed": true,
+      "confidence": 0.7,
+      "currentGuess": "The message arrives with urgency: the ancient fort awaits, and time may be running short. The player must decide how to make the long journey—on foot through hazardous terrain, by booking passage on a vessel, or by joining a caravan. The Passage Broker can provide options and advice.",
+      "affectedEntityIds": [
+        "PLOT_the_long_passage"
+      ],
+      "resolutionContext": {
+        "plotId": "PLOT_the_long_passage",
+        "turningPointId": "TP_journey_begins",
+        "issueType": "vague_description",
+        "suggestedDescription": "In the dockside countinghouse, the Passage Broker presses a rain-spotted note into your hand: “Ancient Fort Kharos—what you seek is there. Gates may seal by the next moon.” He offers three routes: harsh overland, a hired vessel, or a guarded caravan.",
+        "originalDescription": "The message arrives with urgency: the ancient fort awaits, and time may be running short. The player must decide how to make the long journey—on foot through hazardous terrain, by booking passage on a vessel, or by joining a caravan. The Passage Broker can provide options and advice."
+      },
+      "createdAt": "2026-01-23T18:59:31.758Z",
+      "status": "applied"
+    },
+    {
+      "id": "CLARIFY_plot-validator_vague_description_plot_the_long_passage_tp_waypoint_reached",
+      "providerId": "plot-validator",
+      "category": "attribute",
+      "question": "Rewrite vague description for turning point \"TP_waypoint_reached\"?",
+      "context": "The current description is vague and may not clearly communicate the scene to the narrative system.\n\nCURRENT DESCRIPTION:\n\"The Waypoint appears—a welcome sight after the rigors of travel. Here the player can rest, resupply, and gather final intelligence about what lies between them and the ancient fort. Fellow travelers share news: the final leg of the journey is the most dangerous.\"\n\nSUGGESTED REWRITE:\n\"At dusk you crest a stony rise and spot Wayfarer’s Well—fires, tents, a low palisade. A grizzled quartermaster sells you dried rations as caravan folk hiss warnings: the last stretch to the ancient fort is a killing ground.\"\n\nPlease provide a concrete scene-based description with:\n- Specific actors (WHO)\n- Clear player address using \"you/your\" (TO WHOM)\n- Concrete actions and events (WHAT happens)\n- Location context (WHERE)",
+      "options": [
+        {
+          "id": "accept",
+          "label": "Use suggested rewrite",
+          "description": "At dusk you crest a stony rise and spot Wayfarer’s Well—fires, tents, a low palisade. A grizzled quartermaster sells you dried rations as caravan folk hiss warnings: the last stretch to the ancient fort is a killing ground."
+        },
+        {
+          "id": "keep",
+          "label": "Keep original",
+          "description": "The Waypoint appears—a welcome sight after the rigors of travel. Here the player can rest, resupply, and gather final intelligence about what lies between them and the ancient fort. Fellow travelers share news: the final leg of the journey is the most dangerous."
+        }
+      ],
+      "freeformAllowed": true,
+      "confidence": 0.7,
+      "currentGuess": "The Waypoint appears—a welcome sight after the rigors of travel. Here the player can rest, resupply, and gather final intelligence about what lies between them and the ancient fort. Fellow travelers share news: the final leg of the journey is the most dangerous.",
+      "affectedEntityIds": [
+        "PLOT_the_long_passage"
+      ],
+      "resolutionContext": {
+        "plotId": "PLOT_the_long_passage",
+        "turningPointId": "TP_waypoint_reached",
+        "issueType": "vague_description",
+        "suggestedDescription": "At dusk you crest a stony rise and spot Wayfarer’s Well—fires, tents, a low palisade. A grizzled quartermaster sells you dried rations as caravan folk hiss warnings: the last stretch to the ancient fort is a killing ground.",
+        "originalDescription": "The Waypoint appears—a welcome sight after the rigors of travel. Here the player can rest, resupply, and gather final intelligence about what lies between them and the ancient fort. Fellow travelers share news: the final leg of the journey is the most dangerous."
+      },
+      "createdAt": "2026-01-23T19:00:01.932Z",
+      "status": "applied"
+    },
+    {
+      "id": "CLARIFY_plot-validator_orphan_advice_taken_plot_feature_test",
+      "providerId": "plot-validator",
+      "category": "attribute",
+      "question": "Should the unused flag \"advice_taken\" be removed?",
+      "context": "The flag \"advice_taken\" is defined in possibleFlags but is never referenced by any goal or ending card.",
+      "options": [
+        {
+          "id": "delete",
+          "label": "Delete the flag",
+          "description": "Remove this unused flag from possibleFlags"
+        },
+        {
+          "id": "keep",
+          "label": "Keep the flag",
+          "description": "The flag may be used in the future"
+        }
+      ],
+      "freeformAllowed": false,
+      "confidence": 0.7,
+      "currentGuess": "delete",
+      "affectedEntityIds": [
+        "PLOT_feature_test"
+      ],
+      "resolutionContext": {
+        "plotId": "PLOT_feature_test",
+        "issueType": "orphaned_flag",
+        "flagId": "advice_taken"
+      },
+      "createdAt": "2026-01-23T20:22:12.296Z",
+      "status": "applied"
+    },
+    {
+      "id": "CLARIFY_plot-validator_orphan_investigation_begun_plot_end_things_with_the_jester",
+      "providerId": "plot-validator",
+      "category": "attribute",
+      "question": "Should the unused flag \"investigation_begun\" be removed?",
+      "context": "The flag \"investigation_begun\" is defined in possibleFlags but is never referenced by any goal or ending card.",
+      "options": [
+        {
+          "id": "delete",
+          "label": "Delete the flag",
+          "description": "Remove this unused flag from possibleFlags"
+        },
+        {
+          "id": "keep",
+          "label": "Keep the flag",
+          "description": "The flag may be used in the future"
+        }
+      ],
+      "freeformAllowed": false,
+      "confidence": 0.7,
+      "currentGuess": "delete",
+      "affectedEntityIds": [
+        "PLOT_end_things_with_the_jester"
+      ],
+      "resolutionContext": {
+        "plotId": "PLOT_end_things_with_the_jester",
+        "issueType": "orphaned_flag",
+        "flagId": "investigation_begun"
+      },
+      "createdAt": "2026-01-23T20:22:23.924Z",
+      "status": "answered"
+    },
+    {
+      "id": "CLARIFY_plot-validator_vague_description_plot_end_things_with_the_jester_tp_inciting_prankfuneral",
+      "providerId": "plot-validator",
+      "category": "attribute",
+      "question": "Rewrite vague description for turning point \"TP_inciting_prankfuneral\"?",
+      "context": "The current description is vague and may not clearly communicate the scene to the narrative system.\n\nCURRENT DESCRIPTION:\n\"At a palace salon, a 'comic' performance ends with a courtier choking on enchanted confetti shaped like wedding veils; the victim gasps the bride's name before collapsing, and a porcelain grin is found in the punch bowl.\"\n\nSUGGESTED REWRITE:\n\"In the palace salon, the Court Jester showers you with veil-shaped confetti. It turns razor-slick in your throat; a courtier beside you chokes, rasping the Noble Bride’s name as he falls. A porcelain grin bobs in the punch.\"\n\nPlease provide a concrete scene-based description with:\n- Specific actors (WHO)\n- Clear player address using \"you/your\" (TO WHOM)\n- Concrete actions and events (WHAT happens)\n- Location context (WHERE)",
+      "options": [
+        {
+          "id": "accept",
+          "label": "Use suggested rewrite",
+          "description": "In the palace salon, the Court Jester showers you with veil-shaped confetti. It turns razor-slick in your throat; a courtier beside you chokes, rasping the Noble Bride’s name as he falls. A porcelain grin bobs in the punch."
+        },
+        {
+          "id": "keep",
+          "label": "Keep original",
+          "description": "At a palace salon, a 'comic' performance ends with a courtier choking on enchanted confetti shaped like wedding veils; the victim gasps the bride's name before collapsing, and a porcelain grin is found in the punch bowl."
+        }
+      ],
+      "freeformAllowed": true,
+      "confidence": 0.7,
+      "currentGuess": "At a palace salon, a 'comic' performance ends with a courtier choking on enchanted confetti shaped like wedding veils; the victim gasps the bride's name before collapsing, and a porcelain grin is found in the punch bowl.",
+      "affectedEntityIds": [
+        "PLOT_end_things_with_the_jester"
+      ],
+      "resolutionContext": {
+        "plotId": "PLOT_end_things_with_the_jester",
+        "turningPointId": "TP_inciting_prankfuneral",
+        "issueType": "vague_description",
+        "suggestedDescription": "In the palace salon, the Court Jester showers you with veil-shaped confetti. It turns razor-slick in your throat; a courtier beside you chokes, rasping the Noble Bride’s name as he falls. A porcelain grin bobs in the punch.",
+        "originalDescription": "At a palace salon, a 'comic' performance ends with a courtier choking on enchanted confetti shaped like wedding veils; the victim gasps the bride's name before collapsing, and a porcelain grin is found in the punch bowl."
+      },
+      "createdAt": "2026-01-23T20:22:37.031Z",
+      "status": "applied"
+    },
+    {
+      "id": "CLARIFY_plot-validator_climax_tension_tp_climax_ritual_heartchain_plot_velvet_vowfire",
+      "providerId": "plot-validator",
+      "category": "attribute",
+      "question": "How should the climax tension issue be resolved?",
+      "context": "The climax \"TP_climax_ritual_heartchain\" has tension 85, but \"TP_resolution_cost_of_desire\" has higher tension. The climax should typically be the highest point of dramatic tension.",
+      "options": [
+        {
+          "id": "raise_climax",
+          "label": "Raise climax tension to 95",
+          "description": "Set \"TP_climax_ritual_heartchain\" tensionTarget to 95"
+        },
+        {
+          "id": "lower_TP_resolution_cost_of_desire",
+          "label": "Lower \"TP_resolution_cost_of_desire\" tension",
+          "description": "Reduce \"TP_resolution_cost_of_desire\" from 95 to 80"
+        },
+        {
+          "id": "make_climax_TP_resolution_cost_of_desire",
+          "label": "Make \"TP_resolution_cost_of_desire\" the climax instead",
+          "description": "Change \"TP_resolution_cost_of_desire\" to climax and \"TP_climax_ritual_heartchain\" to crisis"
+        }
+      ],
+      "freeformAllowed": false,
+      "confidence": 0.5,
+      "currentGuess": "raise_climax",
+      "affectedEntityIds": [
+        "PLOT_velvet_vowfire"
+      ],
+      "resolutionContext": {
+        "plotId": "PLOT_velvet_vowfire",
+        "issueType": "climax_not_highest_tension",
+        "climaxId": "TP_climax_ritual_heartchain",
+        "climaxTension": 85,
+        "maxTension": 95,
+        "higherTPs": [
+          {
+            "id": "TP_resolution_cost_of_desire",
+            "tension": 95
+          }
+        ]
+      },
+      "createdAt": "2026-01-23T20:22:48.780Z",
+      "status": "applied"
+    },
+    {
+      "id": "CLARIFY_plot-validator_vague_description_plot_velvet_vowfire_tp_climax_ritual_heartchain",
+      "providerId": "plot-validator",
+      "category": "attribute",
+      "question": "Rewrite vague description for turning point \"TP_climax_ritual_heartchain\"?",
+      "context": "The current description is vague and may not clearly communicate the scene to the narrative system.\n\nCURRENT DESCRIPTION:\n\"In a sealed chamber beneath The Gilded Palace, the relic is revealed as the ritual's keystone; The Velvet Courtesan begins the final draw while The Oathbound Inquisitor blocks the exits under oath-magic, torn between duty, shame, and fear of the blight outside.\"\n\nSUGGESTED REWRITE:\n\"In a locked vault beneath the Gilded Palace, the Velvet Courtesan snaps open the sealed case—your relic throbs like a heart. She slices her gloved palm to the sigil. The Oathbound Inquisitor slams the doors shut with oath-light, shaking as distant rot-winds howl.\"\n\nPlease provide a concrete scene-based description with:\n- Specific actors (WHO)\n- Clear player address using \"you/your\" (TO WHOM)\n- Concrete actions and events (WHAT happens)\n- Location context (WHERE)",
+      "options": [
+        {
+          "id": "accept",
+          "label": "Use suggested rewrite",
+          "description": "In a locked vault beneath the Gilded Palace, the Velvet Courtesan snaps open the sealed case—your relic throbs like a heart. She slices her gloved palm to the sigil. The Oathbound Inquisitor slams the doors shut with oath-light, shaking as distant rot-winds howl."
+        },
+        {
+          "id": "keep",
+          "label": "Keep original",
+          "description": "In a sealed chamber beneath The Gilded Palace, the relic is revealed as the ritual's keystone; The Velvet Courtesan begins the final draw while The Oathbound Inquisitor blocks the exits under oath-magic, torn between duty, shame, and fear of the blight outside."
+        }
+      ],
+      "freeformAllowed": true,
+      "confidence": 0.7,
+      "currentGuess": "In a sealed chamber beneath The Gilded Palace, the relic is revealed as the ritual's keystone; The Velvet Courtesan begins the final draw while The Oathbound Inquisitor blocks the exits under oath-magic, torn between duty, shame, and fear of the blight outside.",
+      "affectedEntityIds": [
+        "PLOT_velvet_vowfire"
+      ],
+      "resolutionContext": {
+        "plotId": "PLOT_velvet_vowfire",
+        "turningPointId": "TP_climax_ritual_heartchain",
+        "issueType": "vague_description",
+        "suggestedDescription": "In a locked vault beneath the Gilded Palace, the Velvet Courtesan snaps open the sealed case—your relic throbs like a heart. She slices her gloved palm to the sigil. The Oathbound Inquisitor slams the doors shut with oath-light, shaking as distant rot-winds howl.",
+        "originalDescription": "In a sealed chamber beneath The Gilded Palace, the relic is revealed as the ritual's keystone; The Velvet Courtesan begins the final draw while The Oathbound Inquisitor blocks the exits under oath-magic, torn between duty, shame, and fear of the blight outside."
+      },
+      "createdAt": "2026-01-23T20:23:00.799Z",
+      "status": "applied"
+    },
+    {
+      "id": "CLARIFY_plot-validator_climax_tension_tp_final_exchange_plot_the_sealed_burden",
+      "providerId": "plot-validator",
+      "category": "attribute",
+      "question": "How should the climax tension issue be resolved?",
+      "context": "The climax \"TP_final_exchange\" has tension 85, but \"TP_cost_of_choice\" has higher tension. The climax should typically be the highest point of dramatic tension.",
+      "options": [
+        {
+          "id": "raise_climax",
+          "label": "Raise climax tension to 95",
+          "description": "Set \"TP_final_exchange\" tensionTarget to 95"
+        },
+        {
+          "id": "lower_TP_cost_of_choice",
+          "label": "Lower \"TP_cost_of_choice\" tension",
+          "description": "Reduce \"TP_cost_of_choice\" from 95 to 80"
+        },
+        {
+          "id": "make_climax_TP_cost_of_choice",
+          "label": "Make \"TP_cost_of_choice\" the climax instead",
+          "description": "Change \"TP_cost_of_choice\" to climax and \"TP_final_exchange\" to crisis"
+        }
+      ],
+      "freeformAllowed": false,
+      "confidence": 0.5,
+      "currentGuess": "raise_climax",
+      "affectedEntityIds": [
+        "PLOT_the_sealed_burden"
+      ],
+      "resolutionContext": {
+        "plotId": "PLOT_the_sealed_burden",
+        "issueType": "climax_not_highest_tension",
+        "climaxId": "TP_final_exchange",
+        "climaxTension": 85,
+        "maxTension": 95,
+        "higherTPs": [
+          {
+            "id": "TP_cost_of_choice",
+            "tension": 95
+          }
+        ]
+      },
+      "createdAt": "2026-01-24T07:03:51.130Z",
+      "status": "pending"
+    },
+    {
+      "id": "CLARIFY_plot-validator_vague_description_plot_the_sealed_burden_tp_job_offered",
+      "providerId": "plot-validator",
+      "category": "attribute",
+      "question": "Rewrite vague description for turning point \"TP_job_offered\"?",
+      "context": "The current description is vague and may not clearly communicate the scene to the narrative system.\n\nCURRENT DESCRIPTION:\n\"A tense negotiation ends with a sealed object changing hands, and the player notices a small detail that contradicts the stated origin of the cargo.\"\n\nSUGGESTED REWRITE:\n\"In the back room of the Gilded Scale shop, merchant Halven presses a lead-sealed reliquary into your hands, pleading you carry it unopened to Greywatch Stronghold. As he pays, you spot the wax crest—Greywatch’s mark, not his.\"\n\nPlease provide a concrete scene-based description with:\n- Specific actors (WHO)\n- Clear player address using \"you/your\" (TO WHOM)\n- Concrete actions and events (WHAT happens)\n- Location context (WHERE)",
+      "options": [
+        {
+          "id": "accept",
+          "label": "Use suggested rewrite",
+          "description": "In the back room of the Gilded Scale shop, merchant Halven presses a lead-sealed reliquary into your hands, pleading you carry it unopened to Greywatch Stronghold. As he pays, you spot the wax crest—Greywatch’s mark, not his."
+        },
+        {
+          "id": "keep",
+          "label": "Keep original",
+          "description": "A tense negotiation ends with a sealed object changing hands, and the player notices a small detail that contradicts the stated origin of the cargo."
+        }
+      ],
+      "freeformAllowed": true,
+      "confidence": 0.7,
+      "currentGuess": "A tense negotiation ends with a sealed object changing hands, and the player notices a small detail that contradicts the stated origin of the cargo.",
+      "affectedEntityIds": [
+        "PLOT_the_sealed_burden"
+      ],
+      "resolutionContext": {
+        "plotId": "PLOT_the_sealed_burden",
+        "turningPointId": "TP_job_offered",
+        "issueType": "vague_description",
+        "suggestedDescription": "In the back room of the Gilded Scale shop, merchant Halven presses a lead-sealed reliquary into your hands, pleading you carry it unopened to Greywatch Stronghold. As he pays, you spot the wax crest—Greywatch’s mark, not his.",
+        "originalDescription": "A tense negotiation ends with a sealed object changing hands, and the player notices a small detail that contradicts the stated origin of the cargo."
+      },
+      "createdAt": "2026-01-24T03:57:46.344Z",
+      "status": "applied"
+    },
+    {
+      "id": "CLARIFY_plot-validator_route_seal_stabilized_plot_the_sealed_delivery",
+      "providerId": "plot-validator",
+      "category": "relationship",
+      "question": "Which turning point should be able to set the flag \"seal_stabilized\"?",
+      "context": "The ending card requires flag \"seal_stabilized\" but no goal can set it. Select which turning point should have this flag added to its possibleFlags and goals.",
+      "options": [
+        {
+          "id": "TP_pressure_to_betray",
+          "label": "TP_pressure_to_betray",
+          "description": "The player is offered safety, money, or absolution in exchange for breaking the seal, while the environment grows harsher as if reacting to indecision."
+        },
+        {
+          "id": "TP_handoff_confrontation",
+          "label": "TP_handoff_confrontation",
+          "description": "At the moment the delivery can be completed, opposing forces collide; the player must choose between honoring the contract, opening the package for power or proof, or losing it to those who will open it anyway."
+        }
+      ],
+      "freeformAllowed": false,
+      "confidence": 0.4,
+      "affectedEntityIds": [
+        "PLOT_the_sealed_delivery"
+      ],
+      "resolutionContext": {
+        "plotId": "PLOT_the_sealed_delivery",
+        "issueType": "unreachable_ending_flag",
+        "flagId": "seal_stabilized",
+        "turningPointIds": [
+          "TP_pressure_to_betray",
+          "TP_handoff_confrontation"
+        ]
+      },
+      "createdAt": "2026-01-24T04:27:01.873Z",
+      "status": "pending"
+    },
+    {
+      "id": "CLARIFY_plot-validator_route_antagonist_escaped_plot_the_sealed_delivery",
+      "providerId": "plot-validator",
+      "category": "relationship",
+      "question": "Which turning point should be able to set the flag \"antagonist_escaped\"?",
+      "context": "The ending card requires flag \"antagonist_escaped\" but no goal can set it. Select which turning point should have this flag added to its possibleFlags and goals.",
+      "options": [
+        {
+          "id": "TP_pressure_to_betray",
+          "label": "TP_pressure_to_betray",
+          "description": "The player is offered safety, money, or absolution in exchange for breaking the seal, while the environment grows harsher as if reacting to indecision."
+        },
+        {
+          "id": "TP_handoff_confrontation",
+          "label": "TP_handoff_confrontation",
+          "description": "At the moment the delivery can be completed, opposing forces collide; the player must choose between honoring the contract, opening the package for power or proof, or losing it to those who will open it anyway."
+        }
+      ],
+      "freeformAllowed": false,
+      "confidence": 0.4,
+      "affectedEntityIds": [
+        "PLOT_the_sealed_delivery"
+      ],
+      "resolutionContext": {
+        "plotId": "PLOT_the_sealed_delivery",
+        "issueType": "unreachable_ending_flag",
+        "flagId": "antagonist_escaped",
+        "turningPointIds": [
+          "TP_pressure_to_betray",
+          "TP_handoff_confrontation"
+        ]
+      },
+      "createdAt": "2026-01-24T04:27:01.873Z",
+      "status": "pending"
+    },
+    {
+      "id": "CLARIFY_plot-validator_orphan_mark_of_release_gained_plot_the_sealed_delivery",
+      "providerId": "plot-validator",
+      "category": "attribute",
+      "question": "Should the unused flag \"mark_of_release_gained\" be removed?",
+      "context": "The flag \"mark_of_release_gained\" is defined in possibleFlags but is never referenced by any goal or ending card.",
+      "options": [
+        {
+          "id": "delete",
+          "label": "Delete the flag",
+          "description": "Remove this unused flag from possibleFlags"
+        },
+        {
+          "id": "keep",
+          "label": "Keep the flag",
+          "description": "The flag may be used in the future"
+        }
+      ],
+      "freeformAllowed": false,
+      "confidence": 0.7,
+      "currentGuess": "delete",
+      "affectedEntityIds": [
+        "PLOT_the_sealed_delivery"
+      ],
+      "resolutionContext": {
+        "plotId": "PLOT_the_sealed_delivery",
+        "issueType": "orphaned_flag",
+        "flagId": "mark_of_release_gained"
+      },
+      "createdAt": "2026-01-24T04:27:01.873Z",
+      "status": "pending"
+    },
+    {
+      "id": "CLARIFY_plot-validator_orphan_reality_distortion_event_plot_the_sealed_delivery",
+      "providerId": "plot-validator",
+      "category": "attribute",
+      "question": "Should the unused flag \"reality_distortion_event\" be removed?",
+      "context": "The flag \"reality_distortion_event\" is defined in possibleFlags but is never referenced by any goal or ending card.",
+      "options": [
+        {
+          "id": "delete",
+          "label": "Delete the flag",
+          "description": "Remove this unused flag from possibleFlags"
+        },
+        {
+          "id": "keep",
+          "label": "Keep the flag",
+          "description": "The flag may be used in the future"
+        }
+      ],
+      "freeformAllowed": false,
+      "confidence": 0.7,
+      "currentGuess": "delete",
+      "affectedEntityIds": [
+        "PLOT_the_sealed_delivery"
+      ],
+      "resolutionContext": {
+        "plotId": "PLOT_the_sealed_delivery",
+        "issueType": "orphaned_flag",
+        "flagId": "reality_distortion_event"
+      },
+      "createdAt": "2026-01-24T04:27:01.873Z",
+      "status": "pending"
+    },
+    {
+      "id": "CLARIFY_plot-validator_orphan_antagonist_defeated_plot_the_sealed_delivery",
+      "providerId": "plot-validator",
+      "category": "attribute",
+      "question": "Should the unused flag \"antagonist_defeated\" be removed?",
+      "context": "The flag \"antagonist_defeated\" is defined in possibleFlags but is never referenced by any goal or ending card.",
+      "options": [
+        {
+          "id": "delete",
+          "label": "Delete the flag",
+          "description": "Remove this unused flag from possibleFlags"
+        },
+        {
+          "id": "keep",
+          "label": "Keep the flag",
+          "description": "The flag may be used in the future"
+        }
+      ],
+      "freeformAllowed": false,
+      "confidence": 0.7,
+      "currentGuess": "delete",
+      "affectedEntityIds": [
+        "PLOT_the_sealed_delivery"
+      ],
+      "resolutionContext": {
+        "plotId": "PLOT_the_sealed_delivery",
+        "issueType": "orphaned_flag",
+        "flagId": "antagonist_defeated"
+      },
+      "createdAt": "2026-01-24T04:27:01.873Z",
+      "status": "pending"
+    },
+    {
+      "id": "CLARIFY_plot-validator_orphan_package_recovered_plot_the_sealed_delivery",
+      "providerId": "plot-validator",
+      "category": "attribute",
+      "question": "Should the unused flag \"package_recovered\" be removed?",
+      "context": "The flag \"package_recovered\" is defined in possibleFlags but is never referenced by any goal or ending card.",
+      "options": [
+        {
+          "id": "delete",
+          "label": "Delete the flag",
+          "description": "Remove this unused flag from possibleFlags"
+        },
+        {
+          "id": "keep",
+          "label": "Keep the flag",
+          "description": "The flag may be used in the future"
+        }
+      ],
+      "freeformAllowed": false,
+      "confidence": 0.7,
+      "currentGuess": "delete",
+      "affectedEntityIds": [
+        "PLOT_the_sealed_delivery"
+      ],
+      "resolutionContext": {
+        "plotId": "PLOT_the_sealed_delivery",
+        "issueType": "orphaned_flag",
+        "flagId": "package_recovered"
+      },
+      "createdAt": "2026-01-24T04:27:01.873Z",
+      "status": "pending"
+    },
+    {
+      "id": "CLARIFY_plot-validator_orphan_attempted_bribe_taken_plot_the_sealed_delivery",
+      "providerId": "plot-validator",
+      "category": "attribute",
+      "question": "Should the unused flag \"attempted_bribe_taken\" be removed?",
+      "context": "The flag \"attempted_bribe_taken\" is defined in possibleFlags but is never referenced by any goal or ending card.",
+      "options": [
+        {
+          "id": "delete",
+          "label": "Delete the flag",
+          "description": "Remove this unused flag from possibleFlags"
+        },
+        {
+          "id": "keep",
+          "label": "Keep the flag",
+          "description": "The flag may be used in the future"
+        }
+      ],
+      "freeformAllowed": false,
+      "confidence": 0.7,
+      "currentGuess": "delete",
+      "affectedEntityIds": [
+        "PLOT_the_sealed_delivery"
+      ],
+      "resolutionContext": {
+        "plotId": "PLOT_the_sealed_delivery",
+        "issueType": "orphaned_flag",
+        "flagId": "attempted_bribe_taken"
+      },
+      "createdAt": "2026-01-24T04:27:01.873Z",
+      "status": "pending"
+    },
+    {
+      "id": "CLARIFY_plot-validator_orphan_allied_warder_plot_the_sealed_delivery",
+      "providerId": "plot-validator",
+      "category": "attribute",
+      "question": "Should the unused flag \"allied_warder\" be removed?",
+      "context": "The flag \"allied_warder\" is defined in possibleFlags but is never referenced by any goal or ending card.",
+      "options": [
+        {
+          "id": "delete",
+          "label": "Delete the flag",
+          "description": "Remove this unused flag from possibleFlags"
+        },
+        {
+          "id": "keep",
+          "label": "Keep the flag",
+          "description": "The flag may be used in the future"
+        }
+      ],
+      "freeformAllowed": false,
+      "confidence": 0.7,
+      "currentGuess": "delete",
+      "affectedEntityIds": [
+        "PLOT_the_sealed_delivery"
+      ],
+      "resolutionContext": {
+        "plotId": "PLOT_the_sealed_delivery",
+        "issueType": "orphaned_flag",
+        "flagId": "allied_warder"
+      },
+      "createdAt": "2026-01-24T04:27:01.873Z",
+      "status": "pending"
+    },
+    {
+      "id": "CLARIFY_plot-validator_orphan_innocents_harmed_plot_the_sealed_delivery",
+      "providerId": "plot-validator",
+      "category": "attribute",
+      "question": "Should the unused flag \"innocents_harmed\" be removed?",
+      "context": "The flag \"innocents_harmed\" is defined in possibleFlags but is never referenced by any goal or ending card.",
+      "options": [
+        {
+          "id": "delete",
+          "label": "Delete the flag",
+          "description": "Remove this unused flag from possibleFlags"
+        },
+        {
+          "id": "keep",
+          "label": "Keep the flag",
+          "description": "The flag may be used in the future"
+        }
+      ],
+      "freeformAllowed": false,
+      "confidence": 0.7,
+      "currentGuess": "delete",
+      "affectedEntityIds": [
+        "PLOT_the_sealed_delivery"
+      ],
+      "resolutionContext": {
+        "plotId": "PLOT_the_sealed_delivery",
+        "issueType": "orphaned_flag",
+        "flagId": "innocents_harmed"
+      },
+      "createdAt": "2026-01-24T04:27:01.873Z",
+      "status": "pending"
+    },
+    {
+      "id": "CLARIFY_plot-validator_orphan_tainted_delivery_plot_the_sealed_delivery",
+      "providerId": "plot-validator",
+      "category": "attribute",
+      "question": "Should the unused flag \"tainted_delivery\" be removed?",
+      "context": "The flag \"tainted_delivery\" is defined in possibleFlags but is never referenced by any goal or ending card.",
+      "options": [
+        {
+          "id": "delete",
+          "label": "Delete the flag",
+          "description": "Remove this unused flag from possibleFlags"
+        },
+        {
+          "id": "keep",
+          "label": "Keep the flag",
+          "description": "The flag may be used in the future"
+        }
+      ],
+      "freeformAllowed": false,
+      "confidence": 0.7,
+      "currentGuess": "delete",
+      "affectedEntityIds": [
+        "PLOT_the_sealed_delivery"
+      ],
+      "resolutionContext": {
+        "plotId": "PLOT_the_sealed_delivery",
+        "issueType": "orphaned_flag",
+        "flagId": "tainted_delivery"
+      },
+      "createdAt": "2026-01-24T04:27:01.873Z",
+      "status": "pending"
+    },
+    {
+      "id": "CLARIFY_plot-validator_vague_description_plot_the_sealed_delivery_tp_job_offered",
+      "providerId": "plot-validator",
+      "category": "attribute",
+      "question": "Rewrite vague description for turning point \"TP_job_offered\"?",
+      "context": "The current description is vague and may not clearly communicate the scene to the narrative system.\n\nCURRENT DESCRIPTION:\n\"A discreet meeting turns into a business proposition, and the package is placed within the player’s reach with explicit warnings and unusually generous pay.\"\n\nSUGGESTED REWRITE:\n\"In a rain-soaked alley behind the inkhouse, Courier‑Master Vellin, gloves black with ink, presses a wax-sealed parcel into your hands. “Deliver to the fortified sanctuary. Never open it.” He counts out an absurd advance.\"\n\nPlease provide a concrete scene-based description with:\n- Specific actors (WHO)\n- Clear player address using \"you/your\" (TO WHOM)\n- Concrete actions and events (WHAT happens)\n- Location context (WHERE)",
+      "options": [
+        {
+          "id": "accept",
+          "label": "Use suggested rewrite",
+          "description": "In a rain-soaked alley behind the inkhouse, Courier‑Master Vellin, gloves black with ink, presses a wax-sealed parcel into your hands. “Deliver to the fortified sanctuary. Never open it.” He counts out an absurd advance."
+        },
+        {
+          "id": "keep",
+          "label": "Keep original",
+          "description": "A discreet meeting turns into a business proposition, and the package is placed within the player’s reach with explicit warnings and unusually generous pay."
+        }
+      ],
+      "freeformAllowed": true,
+      "confidence": 0.7,
+      "currentGuess": "A discreet meeting turns into a business proposition, and the package is placed within the player’s reach with explicit warnings and unusually generous pay.",
+      "affectedEntityIds": [
+        "PLOT_the_sealed_delivery"
+      ],
+      "resolutionContext": {
+        "plotId": "PLOT_the_sealed_delivery",
+        "turningPointId": "TP_job_offered",
+        "issueType": "vague_description",
+        "suggestedDescription": "In a rain-soaked alley behind the inkhouse, Courier‑Master Vellin, gloves black with ink, presses a wax-sealed parcel into your hands. “Deliver to the fortified sanctuary. Never open it.” He counts out an absurd advance.",
+        "originalDescription": "A discreet meeting turns into a business proposition, and the package is placed within the player’s reach with explicit warnings and unusually generous pay."
+      },
+      "createdAt": "2026-01-24T04:27:03.769Z",
+      "status": "pending"
+    },
+    {
+      "id": "CLARIFY_plot-validator_climax_tension_tp_final_claim_plot_sealed_deliverance",
+      "providerId": "plot-validator",
+      "category": "attribute",
+      "question": "How should the climax tension issue be resolved?",
+      "context": "The climax \"TP_final_claim\" has tension 85, but \"TP_delivery_and_consequence\" has higher tension. The climax should typically be the highest point of dramatic tension.",
+      "options": [
+        {
+          "id": "raise_climax",
+          "label": "Raise climax tension to 95",
+          "description": "Set \"TP_final_claim\" tensionTarget to 95"
+        },
+        {
+          "id": "lower_TP_delivery_and_consequence",
+          "label": "Lower \"TP_delivery_and_consequence\" tension",
+          "description": "Reduce \"TP_delivery_and_consequence\" from 95 to 80"
+        },
+        {
+          "id": "make_climax_TP_delivery_and_consequence",
+          "label": "Make \"TP_delivery_and_consequence\" the climax instead",
+          "description": "Change \"TP_delivery_and_consequence\" to climax and \"TP_final_claim\" to crisis"
+        }
+      ],
+      "freeformAllowed": false,
+      "confidence": 0.5,
+      "currentGuess": "raise_climax",
+      "affectedEntityIds": [
+        "PLOT_sealed_deliverance"
+      ],
+      "resolutionContext": {
+        "plotId": "PLOT_sealed_deliverance",
+        "issueType": "climax_not_highest_tension",
+        "climaxId": "TP_final_claim",
+        "climaxTension": 85,
+        "maxTension": 95,
+        "higherTPs": [
+          {
+            "id": "TP_delivery_and_consequence",
+            "tension": 95
+          }
+        ]
+      },
+      "createdAt": "2026-01-24T04:47:08.630Z",
+      "status": "pending"
+    },
+    {
+      "id": "CLARIFY_plot-validator_orphan_patrol_bribed_or_evaded_plot_sealed_deliverance",
+      "providerId": "plot-validator",
+      "category": "attribute",
+      "question": "Should the unused flag \"patrol_bribed_or_evaded\" be removed?",
+      "context": "The flag \"patrol_bribed_or_evaded\" is defined in possibleFlags but is never referenced by any goal or ending card.",
+      "options": [
+        {
+          "id": "delete",
+          "label": "Delete the flag",
+          "description": "Remove this unused flag from possibleFlags"
+        },
+        {
+          "id": "keep",
+          "label": "Keep the flag",
+          "description": "The flag may be used in the future"
+        }
+      ],
+      "freeformAllowed": false,
+      "confidence": 0.7,
+      "currentGuess": "delete",
+      "affectedEntityIds": [
+        "PLOT_sealed_deliverance"
+      ],
+      "resolutionContext": {
+        "plotId": "PLOT_sealed_deliverance",
+        "issueType": "orphaned_flag",
+        "flagId": "patrol_bribed_or_evaded"
+      },
+      "createdAt": "2026-01-24T04:47:08.630Z",
+      "status": "pending"
+    },
+    {
+      "id": "CLARIFY_plot-validator_orphan_patrol_forced_conflict_plot_sealed_deliverance",
+      "providerId": "plot-validator",
+      "category": "attribute",
+      "question": "Should the unused flag \"patrol_forced_conflict\" be removed?",
+      "context": "The flag \"patrol_forced_conflict\" is defined in possibleFlags but is never referenced by any goal or ending card.",
+      "options": [
+        {
+          "id": "delete",
+          "label": "Delete the flag",
+          "description": "Remove this unused flag from possibleFlags"
+        },
+        {
+          "id": "keep",
+          "label": "Keep the flag",
+          "description": "The flag may be used in the future"
+        }
+      ],
+      "freeformAllowed": false,
+      "confidence": 0.7,
+      "currentGuess": "delete",
+      "affectedEntityIds": [
+        "PLOT_sealed_deliverance"
+      ],
+      "resolutionContext": {
+        "plotId": "PLOT_sealed_deliverance",
+        "issueType": "orphaned_flag",
+        "flagId": "patrol_forced_conflict"
+      },
+      "createdAt": "2026-01-24T04:47:08.630Z",
+      "status": "pending"
+    },
+    {
+      "id": "CLARIFY_plot-validator_vague_description_plot_the_sealed_delivery_tp_contract_offered",
+      "providerId": "plot-validator",
+      "category": "attribute",
+      "question": "Rewrite vague description for turning point \"TP_contract_offered\"?",
+      "context": "The current description is vague and may not clearly communicate the scene to the narrative system.\n\nCURRENT DESCRIPTION:\n\"A soft-spoken patron with ink-stained fingers approaches the player character, sets a sealed parcel on the nearest surface, and slides a contract forward while emphasizing—twice—that the player must not open it.\"\n\nSUGGESTED REWRITE:\n\"In the back booth of the Candlewisp Inn, Seln the scrivener—soft-voiced, fingers black with ink—sets a warm wax-sealed parcel beside your mug, slides a signed contract over, and repeats: “Deliver it. Do not open it.”\"\n\nPlease provide a concrete scene-based description with:\n- Specific actors (WHO)\n- Clear player address using \"you/your\" (TO WHOM)\n- Concrete actions and events (WHAT happens)\n- Location context (WHERE)",
+      "options": [
+        {
+          "id": "accept",
+          "label": "Use suggested rewrite",
+          "description": "In the back booth of the Candlewisp Inn, Seln the scrivener—soft-voiced, fingers black with ink—sets a warm wax-sealed parcel beside your mug, slides a signed contract over, and repeats: “Deliver it. Do not open it.”"
+        },
+        {
+          "id": "keep",
+          "label": "Keep original",
+          "description": "A soft-spoken patron with ink-stained fingers approaches the player character, sets a sealed parcel on the nearest surface, and slides a contract forward while emphasizing—twice—that the player must not open it."
+        }
+      ],
+      "freeformAllowed": true,
+      "confidence": 0.7,
+      "currentGuess": "A soft-spoken patron with ink-stained fingers approaches the player character, sets a sealed parcel on the nearest surface, and slides a contract forward while emphasizing—twice—that the player must not open it.",
+      "affectedEntityIds": [
+        "PLOT_the_sealed_delivery"
+      ],
+      "resolutionContext": {
+        "plotId": "PLOT_the_sealed_delivery",
+        "turningPointId": "TP_contract_offered",
+        "issueType": "vague_description",
+        "suggestedDescription": "In the back booth of the Candlewisp Inn, Seln the scrivener—soft-voiced, fingers black with ink—sets a warm wax-sealed parcel beside your mug, slides a signed contract over, and repeats: “Deliver it. Do not open it.”",
+        "originalDescription": "A soft-spoken patron with ink-stained fingers approaches the player character, sets a sealed parcel on the nearest surface, and slides a contract forward while emphasizing—twice—that the player must not open it."
+      },
+      "createdAt": "2026-01-24T05:05:05.560Z",
+      "status": "pending"
+    },
+    {
+      "id": "CLARIFY_plot-validator_climax_tension_tp_final_choice_plot_the_sealed_burden",
+      "providerId": "plot-validator",
+      "category": "attribute",
+      "question": "How should the climax tension issue be resolved?",
+      "context": "The climax \"TP_final_choice\" has tension 85, but \"TP_aftermath\" has higher tension. The climax should typically be the highest point of dramatic tension.",
+      "options": [
+        {
+          "id": "raise_climax",
+          "label": "Raise climax tension to 95",
+          "description": "Set \"TP_final_choice\" tensionTarget to 95"
+        },
+        {
+          "id": "lower_TP_aftermath",
+          "label": "Lower \"TP_aftermath\" tension",
+          "description": "Reduce \"TP_aftermath\" from 95 to 80"
+        },
+        {
+          "id": "make_climax_TP_aftermath",
+          "label": "Make \"TP_aftermath\" the climax instead",
+          "description": "Change \"TP_aftermath\" to climax and \"TP_final_choice\" to crisis"
+        }
+      ],
+      "freeformAllowed": false,
+      "confidence": 0.5,
+      "currentGuess": "raise_climax",
+      "affectedEntityIds": [
+        "PLOT_the_sealed_burden"
+      ],
+      "resolutionContext": {
+        "plotId": "PLOT_the_sealed_burden",
+        "issueType": "climax_not_highest_tension",
+        "climaxId": "TP_final_choice",
+        "climaxTension": 85,
+        "maxTension": 95,
+        "higherTPs": [
+          {
+            "id": "TP_aftermath",
+            "tension": 95
+          }
+        ]
+      },
+      "createdAt": "2026-01-24T17:15:36.779Z",
+      "status": "pending"
+    },
+    {
+      "id": "CLARIFY_plot-validator_orphan_checkpoint_bribed_plot_the_sealed_burden",
+      "providerId": "plot-validator",
+      "category": "attribute",
+      "question": "Should the unused flag \"checkpoint_bribed\" be removed?",
+      "context": "The flag \"checkpoint_bribed\" is defined in possibleFlags but is never referenced by any goal or ending card.",
+      "options": [
+        {
+          "id": "delete",
+          "label": "Delete the flag",
+          "description": "Remove this unused flag from possibleFlags"
+        },
+        {
+          "id": "keep",
+          "label": "Keep the flag",
+          "description": "The flag may be used in the future"
+        }
+      ],
+      "freeformAllowed": false,
+      "confidence": 0.7,
+      "currentGuess": "delete",
+      "affectedEntityIds": [
+        "PLOT_the_sealed_burden"
+      ],
+      "resolutionContext": {
+        "plotId": "PLOT_the_sealed_burden",
+        "issueType": "orphaned_flag",
+        "flagId": "checkpoint_bribed"
+      },
+      "createdAt": "2026-01-24T05:34:22.436Z",
+      "status": "pending"
+    },
+    {
+      "id": "CLARIFY_plot-validator_orphan_hunters_encountered_plot_the_sealed_burden",
+      "providerId": "plot-validator",
+      "category": "attribute",
+      "question": "Should the unused flag \"hunters_encountered\" be removed?",
+      "context": "The flag \"hunters_encountered\" is defined in possibleFlags but is never referenced by any goal or ending card.",
+      "options": [
+        {
+          "id": "delete",
+          "label": "Delete the flag",
+          "description": "Remove this unused flag from possibleFlags"
+        },
+        {
+          "id": "keep",
+          "label": "Keep the flag",
+          "description": "The flag may be used in the future"
+        }
+      ],
+      "freeformAllowed": false,
+      "confidence": 0.7,
+      "currentGuess": "delete",
+      "affectedEntityIds": [
+        "PLOT_the_sealed_burden"
+      ],
+      "resolutionContext": {
+        "plotId": "PLOT_the_sealed_burden",
+        "issueType": "orphaned_flag",
+        "flagId": "hunters_encountered"
+      },
+      "createdAt": "2026-01-24T07:03:51.130Z",
+      "status": "pending"
+    },
+    {
+      "id": "CLARIFY_plot-validator_orphan_hunters_evaded_plot_the_sealed_burden",
+      "providerId": "plot-validator",
+      "category": "attribute",
+      "question": "Should the unused flag \"hunters_evaded\" be removed?",
+      "context": "The flag \"hunters_evaded\" is defined in possibleFlags but is never referenced by any goal or ending card.",
+      "options": [
+        {
+          "id": "delete",
+          "label": "Delete the flag",
+          "description": "Remove this unused flag from possibleFlags"
+        },
+        {
+          "id": "keep",
+          "label": "Keep the flag",
+          "description": "The flag may be used in the future"
+        }
+      ],
+      "freeformAllowed": false,
+      "confidence": 0.7,
+      "currentGuess": "delete",
+      "affectedEntityIds": [
+        "PLOT_the_sealed_burden"
+      ],
+      "resolutionContext": {
+        "plotId": "PLOT_the_sealed_burden",
+        "issueType": "orphaned_flag",
+        "flagId": "hunters_evaded"
+      },
+      "createdAt": "2026-01-24T07:03:51.130Z",
+      "status": "pending"
+    },
+    {
+      "id": "CLARIFY_plot-validator_inciting_selection_plot_test",
+      "providerId": "plot-validator",
+      "category": "classification",
+      "question": "Which turning point should be the inciting incident?",
+      "context": "A plot must have at least one inciting incident - the event that starts the story in motion. Select the turning point that kicks off the narrative.",
+      "options": [
+        {
+          "id": "TP_candidate1",
+          "label": "TP_candidate1 (crisis)",
+          "description": "No information (progress: 90)"
+        }
+      ],
+      "freeformAllowed": false,
+      "confidence": 0.5,
+      "affectedEntityIds": [
+        "PLOT_test"
+      ],
+      "resolutionContext": {
+        "plotId": "PLOT_test",
+        "issueType": "missing_inciting",
+        "candidateIds": [
+          "TP_candidate1"
+        ]
+      },
+      "createdAt": "2026-01-25T22:09:25.646Z",
+      "status": "pending"
+    },
+    {
+      "id": "CLARIFY_plot-validator_orphan_flag_victory_plot_test",
+      "providerId": "plot-validator",
+      "category": "attribute",
+      "question": "Should the unused flag \"FLAG_victory\" be removed?",
+      "context": "The flag \"FLAG_victory\" is defined in possibleFlags but is never referenced by any goal or ending card.",
+      "options": [
+        {
+          "id": "delete",
+          "label": "Delete the flag",
+          "description": "Remove this unused flag from possibleFlags"
+        },
+        {
+          "id": "keep",
+          "label": "Keep the flag",
+          "description": "The flag may be used in the future"
+        }
+      ],
+      "freeformAllowed": false,
+      "confidence": 0.7,
+      "currentGuess": "delete",
+      "affectedEntityIds": [
+        "PLOT_test"
+      ],
+      "resolutionContext": {
+        "plotId": "PLOT_test",
+        "issueType": "orphaned_flag",
+        "flagId": "FLAG_victory"
+      },
+      "createdAt": "2026-01-25T22:09:25.637Z",
+      "status": "pending"
+    },
+    {
+      "id": "CLARIFY_plot-validator_orphan_flag_good_name_plot_test",
+      "providerId": "plot-validator",
+      "category": "attribute",
+      "question": "Should the unused flag \"FLAG_good_name\" be removed?",
+      "context": "The flag \"FLAG_good_name\" is defined in possibleFlags but is never referenced by any goal or ending card.",
+      "options": [
+        {
+          "id": "delete",
+          "label": "Delete the flag",
+          "description": "Remove this unused flag from possibleFlags"
+        },
+        {
+          "id": "keep",
+          "label": "Keep the flag",
+          "description": "The flag may be used in the future"
+        }
+      ],
+      "freeformAllowed": false,
+      "confidence": 0.7,
+      "currentGuess": "delete",
+      "affectedEntityIds": [
+        "PLOT_test"
+      ],
+      "resolutionContext": {
+        "plotId": "PLOT_test",
+        "issueType": "orphaned_flag",
+        "flagId": "FLAG_good_name"
+      },
+      "createdAt": "2026-01-25T22:09:25.642Z",
+      "status": "pending"
+    },
+    {
+      "id": "CLARIFY_plot-validator_orphan_flag_keep_plot_test",
+      "providerId": "plot-validator",
+      "category": "attribute",
+      "question": "Should the unused flag \"FLAG_keep\" be removed?",
+      "context": "The flag \"FLAG_keep\" is defined in possibleFlags but is never referenced by any goal or ending card.",
+      "options": [
+        {
+          "id": "delete",
+          "label": "Delete the flag",
+          "description": "Remove this unused flag from possibleFlags"
+        },
+        {
+          "id": "keep",
+          "label": "Keep the flag",
+          "description": "The flag may be used in the future"
+        }
+      ],
+      "freeformAllowed": false,
+      "confidence": 0.7,
+      "currentGuess": "delete",
+      "affectedEntityIds": [
+        "PLOT_test"
+      ],
+      "resolutionContext": {
+        "plotId": "PLOT_test",
+        "issueType": "orphaned_flag",
+        "flagId": "FLAG_keep"
+      },
+      "createdAt": "2026-01-25T22:09:25.644Z",
+      "status": "pending"
+    },
+    {
+      "id": "CLARIFY_plot-validator_orphan_protection_started_plot_the_three_day_custody",
+      "providerId": "plot-validator",
+      "category": "attribute",
+      "question": "Should the unused flag \"protection_started\" be removed?",
+      "context": "The flag \"protection_started\" is defined in possibleFlags but is never referenced by any goal or ending card.",
+      "options": [
+        {
+          "id": "delete",
+          "label": "Delete the flag",
+          "description": "Remove this unused flag from possibleFlags"
+        },
+        {
+          "id": "keep",
+          "label": "Keep the flag",
+          "description": "The flag may be used in the future"
+        }
+      ],
+      "freeformAllowed": false,
+      "confidence": 0.7,
+      "currentGuess": "delete",
+      "affectedEntityIds": [
+        "PLOT_the_three_day_custody"
+      ],
+      "resolutionContext": {
+        "plotId": "PLOT_the_three_day_custody",
+        "issueType": "orphaned_flag",
+        "flagId": "protection_started"
+      },
+      "createdAt": "2026-02-21T03:05:17.536Z",
+      "status": "pending"
+    }
+  ],
+  "answers": [
+    {
+      "questionId": "CLARIFY_plot-validator_orphaned_flag_plot_end_things_with_the_j",
+      "selectedOptionId": "delete",
+      "answeredAt": "2026-01-24T00:20:53.292Z"
+    },
+    {
+      "questionId": "CLARIFY_plot-validator_orphan_clue_porcelain_grin_tp_inciting_prankfuneral_plot_end_things_with_the_jes",
+      "selectedOptionId": "delete",
+      "answeredAt": "2026-01-23T00:36:32.506Z"
+    },
+    {
+      "questionId": "CLARIFY_plot-validator_orphan_victim_saved_tp_inciting_prankfuneral_plot_end_things_with_the_jester",
+      "selectedOptionId": "delete",
+      "answeredAt": "2026-01-23T00:36:33.654Z"
+    },
+    {
+      "questionId": "CLARIFY_plot-validator_orphan_clue_forged_letter_tp_rising_blackmailthread_plot_end_things_with_the_jes",
+      "selectedOptionId": "delete",
+      "answeredAt": "2026-01-23T00:36:34.320Z"
+    },
+    {
+      "questionId": "CLARIFY_plot-validator_orphan_theater_ledger_found_tp_rising_blackmailthread_plot_end_things_with_the_j",
+      "selectedOptionId": "delete",
+      "answeredAt": "2026-01-23T00:36:35.576Z"
+    },
+    {
+      "questionId": "CLARIFY_plot-validator_orphan_deal_considered_tp_midpoint_dealwithdevil_plot_end_things_with_the_jester",
+      "selectedOptionId": "delete",
+      "answeredAt": "2026-01-23T00:36:36.047Z"
+    },
+    {
+      "questionId": "CLARIFY_plot-validator_orphan_jester_spared_now_tp_midpoint_dealwithdevil_plot_end_things_with_the_jest",
+      "selectedOptionId": "delete",
+      "answeredAt": "2026-01-23T00:36:37.527Z"
+    },
+    {
+      "questionId": "CLARIFY_plot-validator_climax_tension_tp_climax_vowcurse_gala_plot_end_things_with_the_jester",
+      "selectedOptionId": "raise_climax",
+      "answeredAt": "2026-01-23T00:46:12.573Z"
+    },
+    {
+      "questionId": "CLARIFY_plot-validator_rename_journey_failed_plot_the_long_passage",
+      "selectedOptionId": "suggested",
+      "answeredAt": "2026-01-23T01:51:39.495Z"
+    },
+    {
+      "questionId": "CLARIFY_plot-validator_climax_tension_tp_climax_due_hour_plot_generated_1769134950373",
+      "selectedOptionId": "raise_climax",
+      "answeredAt": "2026-01-23T18:42:07.471Z"
+    },
+    {
+      "questionId": "CLARIFY_plot-validator_orphan_brand_broken_tp_crisis_clause_hunt_plot_generated_1769134950373",
+      "selectedOptionId": "delete",
+      "answeredAt": "2026-01-23T18:45:58.443Z"
+    },
+    {
+      "questionId": "CLARIFY_plot-validator_vague_description_plot_the_long_passage_tp_journey_begins",
+      "selectedOptionId": "accept",
+      "answeredAt": "2026-01-23T18:59:57.438Z"
+    },
+    {
+      "questionId": "CLARIFY_plot-validator_vague_description_plot_the_long_passage_tp_waypoint_reached",
+      "selectedOptionId": "accept",
+      "answeredAt": "2026-01-23T19:00:05.725Z"
+    },
+    {
+      "questionId": "CLARIFY_plot-validator_orphan_advice_taken_plot_feature_test",
+      "selectedOptionId": "delete",
+      "answeredAt": "2026-01-23T20:22:20.867Z"
+    },
+    {
+      "questionId": "CLARIFY_plot-validator_orphan_investigation_begun_plot_end_things_with_the_jester",
+      "selectedOptionId": "delete",
+      "answeredAt": "2026-01-23T20:22:32.134Z"
+    },
+    {
+      "questionId": "CLARIFY_plot-validator_vague_description_plot_end_things_with_the_jester_tp_inciting_prankfuneral",
+      "selectedOptionId": "accept",
+      "answeredAt": "2026-01-23T20:22:44.606Z"
+    },
+    {
+      "questionId": "CLARIFY_plot-validator_climax_tension_tp_climax_ritual_heartchain_plot_velvet_vowfire",
+      "selectedOptionId": "raise_climax",
+      "answeredAt": "2026-01-23T20:22:56.026Z"
+    },
+    {
+      "questionId": "CLARIFY_plot-validator_vague_description_plot_velvet_vowfire_tp_climax_ritual_heartchain",
+      "selectedOptionId": "accept",
+      "answeredAt": "2026-01-23T20:23:02.656Z"
+    },
+    {
+      "questionId": "CLARIFY_plot-validator_vague_description_plot_the_sealed_burden_tp_job_offered",
+      "selectedOptionId": "accept",
+      "answeredAt": "2026-01-24T05:49:14.125Z"
+    }
+  ],
+  "lastUpdated": "2026-02-21T03:05:17.537Z"
+}

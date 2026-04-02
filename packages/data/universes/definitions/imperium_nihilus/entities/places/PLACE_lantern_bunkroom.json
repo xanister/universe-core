@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_lantern_bunkroom",
+  "label": "Lantern Bunkroom",
+  "description": "Lantern Bunkroom forms a narrow, cell-like chamber set behind the tavern’s low-vaulted ferrocrete ribs, its surfaces sealed with utilitarian paint and edged with blast-rated trim. Two tiers of bolted bunks line the long walls, their frames chained to the deck and separated by clipped lockers designed for rapid inspection. Hooded lumen strips cast a regulated, pallid light that never reaches full warmth, while vent grilles and exposed auspex conduit carry the enclave’s constant hum through the room. A pressure door with layered gasket seals and stenciled blackout markings affirms its function as secured lodging within siege discipline.",
+  "short_description": "cold fortified bunkroom",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "bedroom",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "door_wooden",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/battles/PLACE_lantern_bunkroom.png?v=1771996332950",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 880,
+    "y": 160,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_the_pallid_lantern",
+    "innerWidth": 448,
+    "innerHeight": 512
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/places/PLACE_lantern_bunkroom.png?v=1771996383622",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

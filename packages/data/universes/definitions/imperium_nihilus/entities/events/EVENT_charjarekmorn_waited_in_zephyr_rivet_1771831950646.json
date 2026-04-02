@@ -1,0 +1,18 @@
+{
+  "id": "EVENT_charjarekmorn_waited_in_zephyr_rivet_1771831950646",
+  "date": "999.M1 09:09",
+  "placeId": "PLACE_zephyr_rivet_passage",
+  "eventType": "turning_point",
+  "category": "world",
+  "subject": "Zephyr Rivet Passage",
+  "subjectId": "PLACE_zephyr_rivet_passage",
+  "fact": "CHAR_jarek_morn waited in Zephyr Rivet Passage; an injured deckhand was dragged from a service hatch and refused assistance while a safety petty-officer demanded procedural compliance",
+  "significance": "major",
+  "witnessIds": null,
+  "important": true,
+  "importanceScore": null,
+  "scope": "local",
+  "relevantPlaceIds": [
+    "PLACE_zephyr_rivet_passage"
+  ]
+}

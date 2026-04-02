@@ -1,0 +1,20 @@
+{
+  "id": "EVENT_charalaricmorn_shouted_to_the_area_1772175321363",
+  "date": "999.M1 15:41",
+  "placeId": "PLACE_vespera_tertius_nocturnis_bastion",
+  "eventType": "turning_point",
+  "category": "world",
+  "subject": "Vespera Tertius Nocturnis Bastion",
+  "subjectId": "PLACE_vespera_tertius_nocturnis_bastion",
+  "fact": "CHAR_alaric_morn shouted to the area; an uncanny, relay-like repetition of his voice returned with tar-and-incense odor and a cold draft in Vespera Tertius Nocturnis Bastion, witnessed by CHAR_a_fatigued_deckhand_messenger, CHAR_danel_vossik, CHAR_iscar_venn, and CHAR_kaelen_vos.",
+  "significance": "major",
+  "witnessIds": [
+    "CHAR_alaric_morn"
+  ],
+  "important": true,
+  "importanceScore": null,
+  "scope": "local",
+  "relevantPlaceIds": [
+    "PLACE_vespera_tertius_nocturnis_bastion"
+  ]
+}

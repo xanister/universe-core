@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_the_chromatic_stores",
+  "label": "The Chromatic Stores",
+  "description": "The Chromatic Stores forms a narrow service chamber behind the prismatic public hall of The Refraction Cask, its walls faced in matte dark crystal to suppress scatter and preserve the tavern’s disciplined quiet. Tiered shelving of fused shardglass rises in strict meridian alignment, each level etched with angular measure marks used to sort stock by hue-band and refractive cut. Crates of glassbound spirits and wrapped prismware sit within louvered cubbies that admit only thin, fixed ribbons of light from the glare corridor. The floor is laid in gridded crystalline tiles that catch spillage without spreading sheen, keeping the room’s surfaces optically clean and precisely ordered.",
+  "short_description": "ordered prism stockroom",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "storage_room",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.9
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "door_wooden",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/the_hollow_lattice/images/battles/PLACE_the_chromatic_stores.png?v=1772314089134",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 688,
+    "y": 160,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_the_refraction_cask",
+    "innerWidth": 448,
+    "innerHeight": 640
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/the_hollow_lattice/images/places/PLACE_the_chromatic_stores.png?v=1772314143354",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

@@ -1,0 +1,20 @@
+{
+  "id": "double_bed",
+  "name": "Double Bed",
+  "description": "A comfortable double bed with a sturdy frame and soft bedding.",
+  "purposes": [
+    "sleeping",
+    "bedroom",
+    "residence"
+  ],
+  "solid": true,
+  "layer": "default",
+  "spriteId": "double_bed_yellow",
+  "materials": [
+    "wood",
+    "linen",
+    "cotton"
+  ],
+  "tintable": false,
+  "tags": []
+}

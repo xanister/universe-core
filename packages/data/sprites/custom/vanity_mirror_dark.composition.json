@@ -1,0 +1,30 @@
+{
+  "spriteId": "vanity_mirror_dark",
+  "gridWidth": 1,
+  "gridHeight": 3,
+  "tileSize": 32,
+  "tiles": [
+    {
+      "tilesetId": "furniture-dark",
+      "srcX": 96,
+      "srcY": 608,
+      "col": 0,
+      "row": 0
+    },
+    {
+      "tilesetId": "furniture-dark",
+      "srcX": 96,
+      "srcY": 640,
+      "col": 0,
+      "row": 1
+    },
+    {
+      "tilesetId": "furniture-dark",
+      "srcX": 96,
+      "srcY": 672,
+      "col": 0,
+      "row": 2
+    }
+  ],
+  "updatedAt": "2026-03-02T16:01:54.060Z"
+}

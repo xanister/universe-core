@@ -1,0 +1,18 @@
+{
+  "id": "EVENT_visited_ashmark_scriptorium_1772432668959",
+  "date": "07.01.11 4A 14:37",
+  "placeId": "PLACE_ashmark_scriptorium",
+  "important": false,
+  "importanceScore": null,
+  "scope": null,
+  "relevantPlaceIds": null,
+  "eventType": "location_visited",
+  "category": "world",
+  "subject": "Ashmark Scriptorium",
+  "subjectId": "PLACE_ashmark_scriptorium",
+  "fact": "Visited Ashmark Scriptorium",
+  "significance": "minor",
+  "witnessIds": [
+    "CHAR_perrin_halvay"
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "id": "asteroid",
+  "name": "Asteroid",
+  "description": "A rocky asteroid with possible mineral deposits or hidden caves",
+  "purposes": [
+    "asteroid"
+  ],
+  "spriteId": "asteroid",
+  "variants": [
+    {
+      "id": "A",
+      "scale": "feet",
+      "environment": {
+        "type": "interior",
+        "hasWeather": false,
+        "temperature": {
+          "enabled": true,
+          "base": 18,
+          "modifiersApply": false
+        },
+        "maxDarkness": 0.5
+      },
+      "slots": [
+        {
+          "positionAlgorithm": "random",
+          "min": 0,
+          "max": 1,
+          "nearPurpose": null,
+          "inheritableTags": null,
+          "distribution": "even",
+          "forbiddenTags": null,
+          "purpose": "exit",
+          "slotSize": null,
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "preferDistrict": null,
+          "distributionGroup": null,
+          "requiredTags": null
+        }
+      ],
+      "description": "A small rocky asteroid, possibly hollowed out",
+      "weight": 1,
+      "width": {
+        "min": 20,
+        "max": 60
+      },
+      "height": {
+        "min": 20,
+        "max": 60
+      },
+      "terrainLayers": [
+        {
+          "id": "layer_0",
+          "tilesetId": "terrain-cobble-black",
+          "renderOrder": 0,
+          "blocking": "blocks",
+          "terrain": "land",
+          "procedural": false,
+          "fill": [
+            0,
+            46,
+            48,
+            49
+          ],
+          "type": "fill",
+          "inheritable": true
+        },
+        {
+          "id": "layer_1",
+          "tilesetId": "terrain-cobble-gray",
+          "renderOrder": 1,
+          "blocking": "unblocks",
+          "terrain": "land",
+          "procedural": false,
+          "fill": [],
+          "type": "noise_patch",
+          "shapePreset": "clearing",
+          "autotileAgainst": [],
+          "withinTerrain": null,
+          "autotilePreset": "canonical",
+          "inheritable": false
+        }
+      ],
+      "defaultBlocked": false
+    }
+  ],
+  "characterScale": 1,
+  "timeScale": 1,
+  "interactionZone": null
+}

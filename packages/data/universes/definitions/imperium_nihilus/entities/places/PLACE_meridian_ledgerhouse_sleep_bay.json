@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_meridian_ledgerhouse_sleep_bay",
+  "label": "Meridian Ledgerhouse Sleep Bay",
+  "description": "Meridian Ledgerhouse Sleep Bay is a narrow, enclosed compartment partitioned from the habitation suite by a sliding plasteel bulkhead with a gasketed seal. Fixed bunks are recessed into the walls and secured with restraint webbing, their frames integrated into the paneling scored by service numerals and maintenance stencils. Low lumen strip-lighting runs along the ceiling conduit trunk, producing an even, blackout-suitable glow across scuffed deck plating. A vented grille and armored junction box dominate one corner, asserting the room’s dependence on filtered circulation and redundant life-support routing.",
+  "short_description": "narrow bunk-lined bay",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "bedroom",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "door_wooden",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/battles/PLACE_meridian_ledgerhouse_sleep_bay.png?v=1771996331074",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 656,
+    "y": 160,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_meridian_ledgerhouse",
+    "innerWidth": 480,
+    "innerHeight": 480
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/places/PLACE_meridian_ledgerhouse_sleep_bay.png?v=1771996383208",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

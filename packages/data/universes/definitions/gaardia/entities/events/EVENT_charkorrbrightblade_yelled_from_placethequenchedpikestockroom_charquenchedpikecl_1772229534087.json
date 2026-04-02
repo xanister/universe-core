@@ -1,0 +1,20 @@
+{
+  "id": "EVENT_charkorrbrightblade_yelled_from_placethequenchedpikestockroom_charquenchedpikecl_1772229534087",
+  "date": "02.01.11 4A 08:53",
+  "placeId": "PLACE_the_quenched_pike_stockroom",
+  "eventType": null,
+  "category": "world",
+  "subject": "The Quenched Pike Stockroom",
+  "subjectId": "PLACE_the_quenched_pike_stockroom",
+  "fact": "CHAR_korr_brightblade yelled from PLACE_the_quenched_pike_stockroom; CHAR_quenched_pike_clerk_01 responded from PLACE_the_quenched_pike",
+  "significance": "moderate",
+  "witnessIds": [
+    "CHAR_korr_brightblade"
+  ],
+  "important": false,
+  "importanceScore": null,
+  "scope": "local",
+  "relevantPlaceIds": [
+    "PLACE_the_quenched_pike_stockroom"
+  ]
+}

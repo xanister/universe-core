@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_the_ledgerbound_exchange",
+  "label": "The Ledgerbound Exchange",
+  "description": "The Ledgerbound Exchange operates as a licensed countinghouse and mercantile shop set into Varric Holdfast’s steep-laned inner ward, its facade built of salvaged ashlar patched with newer brick. Inside, iron-grilled counters and lockable pigeonholes divide the public floor from record alcoves, while a wall of posted tariffs and city ordinances asserts the primacy of codified trade law. Wax-sealed chests, calibrated scales, and ink-stained desks define a space designed for audited transactions rather than casual barter. A recessed niche displays current interdiction notices and hazard placards for breach-sites beyond the gates, binding commerce to the city’s perimeter anxieties.",
+  "short_description": "licensed countinghouse shop",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "shop",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "building_shop",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/gaardia/images/battles/PLACE_the_ledgerbound_exchange.png?v=1772208416159",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 2864,
+    "y": 384,
+    "width": 160,
+    "height": 256,
+    "parent": "PLACE_varric_holdfast",
+    "innerWidth": 1696,
+    "innerHeight": 960
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/gaardia/images/places/PLACE_the_ledgerbound_exchange.png?v=1772208467057",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

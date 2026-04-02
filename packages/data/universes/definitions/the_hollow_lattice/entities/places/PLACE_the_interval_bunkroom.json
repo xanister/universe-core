@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_the_interval_bunkroom",
+  "label": "The Interval Bunkroom",
+  "description": "The Interval Bunkroom forms a compact lodging cell carved behind the Null Cantina’s sound-baffling panels, its glass-dark composite walls scored with the Anchorage’s repeating grids. A recessed sleeping niche is set into the latticework, bounded by matte partitions that absorb glare and enforce the room’s measured geometry. Rectilinear filaments run in a tight ceiling course, casting hard-edged light that subdivides the floor into strict intervals. A narrow slit-aperture of mooring-view glass admits the disciplined mural of void-channels without breaking the room’s controlled quiet.",
+  "short_description": "lattice-lit bunk cell",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "bedroom",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "door_wooden",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/the_hollow_lattice/images/battles/PLACE_the_interval_bunkroom.png?v=1772313934276",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 624,
+    "y": 160,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_the_null_cantina",
+    "innerWidth": 544,
+    "innerHeight": 640
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/the_hollow_lattice/images/places/PLACE_the_interval_bunkroom.png?v=1772314019989",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

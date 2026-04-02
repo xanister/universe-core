@@ -1,0 +1,30 @@
+{
+  "id": "candle_taper",
+  "name": "Taper Candle",
+  "description": "A thin taper candle in a small dark holder.",
+  "purposes": [
+    "lighting",
+    "surface_item"
+  ],
+  "tags": [
+    "common",
+    "lighting",
+    "tavern"
+  ],
+  "solid": false,
+  "layer": "default",
+  "spriteId": "candle_taper",
+  "materials": [],
+  "tintable": false,
+  "animated": true,
+  "lightSource": {
+    "radius": 40,
+    "color": 16755268,
+    "intensity": 0.25,
+    "flicker": true,
+    "flickerSpeed": 200,
+    "flickerRange": 0.15,
+    "offsetX": 0,
+    "offsetY": -8
+  }
+}

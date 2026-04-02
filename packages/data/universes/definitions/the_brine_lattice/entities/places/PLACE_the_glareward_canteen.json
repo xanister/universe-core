@@ -1,0 +1,60 @@
+{
+  "id": "PLACE_the_glareward_canteen",
+  "label": "The Glareward Canteen",
+  "description": "The Glareward Canteen occupies a pressurized corner off the Anchorage’s glare-shielded galleries, its ribbed hull plating left exposed as a deliberate echo of the station’s compact structural style. Narrow light-baffles and polarizing panels temper Saltharrow’s hard white radiance into a steady amber wash across bolted tables and recessed booths. A central service counter is built into a salvaged bulkhead section, while sealed vents and odor traps maintain strict air discipline against the adjacent cargo concourses. Wall placards display lane timetables and gravitic-reference advisories, fixing the room’s identity to deep-lattice turnover and precise approach vectors.",
+  "short_description": "dim amber canteen",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "tavern",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "building_tavern",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/the_brine_lattice/images/battles/PLACE_the_glareward_canteen.png?v=1772313849242",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 3376,
+    "y": 1568,
+    "width": 160,
+    "height": 256,
+    "parent": "PLACE_saltharrow_transit_anchorage",
+    "innerWidth": 1088,
+    "innerHeight": 1472
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/the_brine_lattice/images/places/PLACE_the_glareward_canteen.png?v=1772313934690",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": [
+    "Canteen Bunk Niche"
+  ],
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

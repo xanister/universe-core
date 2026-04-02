@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_the_sealed_stores",
+  "label": "The Sealed Stores",
+  "description": "The Sealed Stores forms the tavern’s controlled backroom, built of salvaged ashlar footings and close-set timber studs that blunt sound from the public hall. Numbered shelves and lidded bins line the walls, their faces marked with wax-seal impressions and ledger slates consistent with Varric Holdfast’s licensing regime. Iron-banded casks rest in chocked rows beneath a low soot-dark ceiling, while a limewashed section of wall bears posted inventory ordinances and interdiction notices. The air remains dry and sharp with grain dust, pitch, and the sour trace of old ale soaked into the boards.",
+  "short_description": "sealed storeroom",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "storage_room",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.9
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "door_wooden",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/gaardia/images/battles/PLACE_the_sealed_stores.png?v=1772218902378",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 752,
+    "y": 160,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_the_writ_and_tankard",
+    "innerWidth": 448,
+    "innerHeight": 768
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": null,
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

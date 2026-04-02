@@ -1,0 +1,59 @@
+{
+  "id": "PLACE_the_cinderwatch_ruins",
+  "label": "The Cinderwatch Ruins",
+  "description": "The Cinderwatch Ruins consist of shattered ferrocrete casemates and collapsed curtain walls strewn across an ash-limed saddle in Cyrenth Vale. Rift-born aurorae bruise the daylight, casting cold bands of color over scorched masonry and the stumps of void-hardened pylons. Broken transit culverts and half-buried conduit runs mark the site’s former integration into the planet’s sealed corridor network. Wind-driven fallout packs into firing slits and breached vault mouths, preserving the ruin as a permanent monument to siege and abandonment.",
+  "short_description": "rift-shadowed ruins",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "ruins",
+    "environment": {
+      "type": "exterior",
+      "hasWeather": true,
+      "temperature": {
+        "enabled": true,
+        "base": null,
+        "modifiersApply": true
+      },
+      "maxDarkness": null
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "stone_arch_ruins",
+      "facing": "south",
+      "layer": "default"
+    },
+    "allowPlayerStart": false,
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/battles/PLACE_the_cinderwatch_ruins.png?v=1771817487351",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 224,
+    "y": 2208,
+    "width": 48,
+    "height": 48,
+    "parent": "PLACE_cyrenth_vale",
+    "innerWidth": 4640,
+    "innerHeight": 1824
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/places/PLACE_the_cinderwatch_ruins.png?v=1771817538515",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

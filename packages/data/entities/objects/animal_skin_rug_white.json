@@ -1,0 +1,21 @@
+{
+  "id": "animal_skin_rug_white",
+  "name": "White Animal Skin Rug",
+  "description": "A white animal skin rug spread on the floor.",
+  "purposes": [
+    "floor_covering"
+  ],
+  "tags": [
+    "common",
+    "decoration",
+    "floor",
+    "tavern"
+  ],
+  "solid": false,
+  "layer": "floor",
+  "spriteId": "animal_skin_rug_white",
+  "materials": [
+    "leather"
+  ],
+  "tintable": false
+}

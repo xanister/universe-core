@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_anglemark_sleeping_alcove",
+  "label": "Anglemark Sleeping Alcove",
+  "description": "Anglemark Sleeping Alcove is a compact chamber recessed behind the shop’s stepped glass ribs, positioned where the shadow interval remains unbroken by meridian glare. Its walls are lined with rectilinear frames that double as shelving and structural braces, all set to the tensile geometry that governs the Confluence. A low sleeping platform of dark crystalline stone sits beneath a laminar glass pane scored with angle-marks, turning the ceiling into a permanent instrument of color and incidence. Latticed light-channels admit only disciplined caustic bars, fixing illumination into stable bands that never wander across the floor.",
+  "short_description": "prismatic shadowed alcove",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "bedroom",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "door_wooden",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/the_hollow_lattice/images/battles/PLACE_anglemark_sleeping_alcove.png?v=1772314086488",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 464,
+    "y": 160,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_the_caustic_loom",
+    "innerWidth": 640,
+    "innerHeight": 608
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/the_hollow_lattice/images/places/PLACE_anglemark_sleeping_alcove.png?v=1772314137690",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

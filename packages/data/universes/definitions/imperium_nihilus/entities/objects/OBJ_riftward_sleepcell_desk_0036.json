@@ -1,0 +1,52 @@
+{
+  "id": "OBJ_riftward_sleepcell_desk_0036",
+  "label": "Desk",
+  "description": "A writing desk",
+  "important": false,
+  "short_description": "desk",
+  "tags": [
+    "common",
+    "furniture",
+    "workspace"
+  ],
+  "entityType": "object",
+  "info": {
+    "purpose": "workspace",
+    "solid": true,
+    "layer": "default",
+    "isStructural": false,
+    "material": null,
+    "tint": null,
+    "spriteConfig": {
+      "spriteId": "desk",
+      "frame": null,
+      "animationKey": null,
+      "animated": false,
+      "facing": "south"
+    },
+    "hp": null,
+    "maxHp": null,
+    "state": null,
+    "contents": null,
+    "lightSource": null,
+    "itemId": null,
+    "plotId": null
+  },
+  "position": {
+    "x": 368,
+    "y": 384,
+    "width": 32,
+    "height": 96,
+    "parent": "PLACE_riftward_sleepcell"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "relationships": [],
+  "image": null,
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": null
+}

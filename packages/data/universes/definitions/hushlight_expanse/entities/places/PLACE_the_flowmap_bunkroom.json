@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_the_flowmap_bunkroom",
+  "label": "The Flowmap Bunkroom",
+  "description": "The Flowmap Bunkroom forms a narrow sleep cell set into The Lumen Sump’s recessed pressure-well, its walls clad in the same matte, light-absorbing composite scored with navigational hashmarks. A single berth and fold-down desk are bolted to ribbed bulkheads, while vibration baffles and sound-deadening panels preserve the tavern’s engineered quiet. Recessed guidance lamps project the hushlit particulate stream as slow ceiling flow-maps, calibrated as both nightlight and orientation aid. A compact air-scrub cabinet and sealed storage niches reflect Radiance Current Port’s decontamination standards and vacuum-rated resilience.",
+  "short_description": "quiet bunkroom",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "bedroom",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "door_wooden",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/hushlight_expanse/images/battles/PLACE_the_flowmap_bunkroom.png?v=1772313774628",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 496,
+    "y": 160,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_the_lumen_sump",
+    "innerWidth": 576,
+    "innerHeight": 608
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/hushlight_expanse/images/places/PLACE_the_flowmap_bunkroom.png?v=1772313822749",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

@@ -1,0 +1,23 @@
+{
+  "spriteId": "lamp_table_gold",
+  "gridWidth": 1,
+  "gridHeight": 2,
+  "tileSize": 32,
+  "tiles": [
+    {
+      "tilesetId": "furniture-upholstery",
+      "srcX": 0,
+      "srcY": 64,
+      "col": 0,
+      "row": 0
+    },
+    {
+      "tilesetId": "furniture-upholstery",
+      "srcX": 0,
+      "srcY": 96,
+      "col": 0,
+      "row": 1
+    }
+  ],
+  "updatedAt": "2026-03-02T19:24:09.621Z"
+}

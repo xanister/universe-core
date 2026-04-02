@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_the_lumen_sump",
+  "label": "The Lumen Sump",
+  "description": "The Lumen Sump occupies a recessed pressure-well off Radiance Current Port’s matte-clad concourses, its walls faced in light-absorbing composite scored with navigation hashmarks. Low guidance lamps sink into ribbed bulkheads, translating the hushlit particulate stream into slow, readable flow-maps across the ceiling. Booths and standing rails are built directly into the structure’s docking-frame geometry, with vibration baffles and sound-deadening panels that enforce the port’s characteristic quiet. A sealed service bar of dark ceramic and plated conduits dominates the interior, its fittings engineered for vacuum-rated resilience and rapid decontamination.",
+  "short_description": "quiet hushlit tavern",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "tavern",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "building_tavern",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/hushlight_expanse/images/battles/PLACE_the_lumen_sump.png?v=1772313715516",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 48,
+    "y": 1376,
+    "width": 160,
+    "height": 256,
+    "parent": "PLACE_radiance_current_port",
+    "innerWidth": 1184,
+    "innerHeight": 896
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/hushlight_expanse/images/places/PLACE_the_lumen_sump.png?v=1772313765611",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_saltflux_stockroom",
+  "label": "Saltflux Stockroom",
+  "description": "Saltflux Stockroom forms a sealed storage chamber adjoining the precision floor of the Saltflux Instrument Shop, constructed in dressed basalt with joints packed in salt-cement to resist the brine-laden air. Wall-to-wall shelving holds standardized bins and padded cases, each face labeled for optical components, calibration weights, and corrosion-sensitive alloys. Louvered baffles and mineral haze filters maintain a low-glare, dust-controlled environment aligned with the city’s optical discipline under Saltharrow’s hard white radiance. The floor rests on vibration-damped pads that preserve instrument integrity against Brineshade’s measurable tidal stresses.",
+  "short_description": "sealed instrument stock",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "storage_room",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.9
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "door_wooden",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/the_brine_lattice/images/battles/PLACE_saltflux_stockroom.png?v=1772314148205",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 816,
+    "y": 1408,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_the_saltflux_instrument_shop",
+    "innerWidth": 512,
+    "innerHeight": 704
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/the_brine_lattice/images/places/PLACE_saltflux_stockroom.png?v=1772314201585",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

@@ -1,0 +1,260 @@
+{
+  "id": "CHAR_veynor_kelm",
+  "label": "Veynor Kelm",
+  "description": "This individual is a broad-shouldered human man of middle years with brown eyes set beneath heavy lids and a square jaw worn smooth by age. Brown hair is kept in a close, practical cut that leaves the temples tidy and the crown slightly uneven. Bronze skin shows longstanding exposure to smoke and lamplight, with ingrained calluses across the palms and a thickening of the knuckles consistent with repetitive work. The voice carries a steady, controlled cadence that suits a house accustomed to confidential accounts and close-pressed crowds.",
+  "short_description": "aproned male bartender",
+  "tags": [],
+  "entityType": "character",
+  "info": {
+    "purpose": "bartender",
+    "aliases": [
+      "Ledgerpour",
+      "Kelm of the Backbar"
+    ],
+    "birthdate": "1023-09-14",
+    "deathdate": null,
+    "title": null,
+    "birthPlace": "Gaardia",
+    "eyeColor": "brown",
+    "gender": "male",
+    "hairColor": "brown",
+    "hairStyle": "plain",
+    "beardStyle": "stubble",
+    "headType": "human_male",
+    "skinTone": "bronze",
+    "personality": "Orderly and discreet, he runs the bar by rule and measure, keeping a precise memory for faces, tabs, and favors without tolerating disorder at the counter. He speaks sparingly, asks pointed questions when necessary, and enforces house boundaries with practiced restraint rather than threats.",
+    "race": "human",
+    "messages": [],
+    "journal": [],
+    "sketches": [],
+    "verbosity": 3,
+    "conversationContext": null,
+    "storytellerState": null,
+    "isPlayer": false,
+    "storyComplete": false,
+    "routine": {
+      "schedule": {
+        "dawn": "home",
+        "morning": "work",
+        "afternoon": "work",
+        "evening": "work",
+        "night": "home"
+      },
+      "home": {
+        "placeId": "PLACE_ledgerhouse_bedchamber",
+        "description": "Quarters near The Black Ledger",
+        "areaHint": null
+      },
+      "work": {
+        "placeId": "PLACE_the_black_ledger",
+        "description": "The Black Ledger",
+        "areaHint": null
+      },
+      "leisure": null,
+      "variance": 0.2,
+      "activities": {
+        "work": "tavern_work"
+      }
+    },
+    "vesselRoutes": null,
+    "abstractLocation": null,
+    "npcBehavior": null,
+    "physicalState": null,
+    "pendingDeparture": null,
+    "pendingArrival": null,
+    "lastRoutineCheckPeriod": null,
+    "startingNarrative": null,
+    "startingCharacterState": null,
+    "clothing": [
+      {
+        "slot": "torso_under",
+        "itemId": "formal_shirt",
+        "color": "#f5f0e8",
+        "contents": null
+      },
+      {
+        "slot": "torso_mid",
+        "itemId": "apron",
+        "color": "#1a1a1a",
+        "contents": null
+      },
+      {
+        "slot": "torso_over",
+        "itemId": "formal_jacket",
+        "color": null,
+        "contents": null
+      },
+      {
+        "slot": "legs",
+        "itemId": "formal_pants",
+        "color": "#3a3a3a",
+        "contents": null
+      },
+      {
+        "slot": "feet",
+        "itemId": "shoes",
+        "color": "#1a1a1a",
+        "contents": null
+      },
+      {
+        "slot": "belt",
+        "itemId": "leather_belt",
+        "color": "#8b4513",
+        "contents": []
+      },
+      {
+        "slot": "accessories",
+        "itemId": "glasses",
+        "color": null,
+        "contents": null
+      }
+    ],
+    "enabledOverlayLayers": [
+      "eyes",
+      "facial"
+    ],
+    "helmingVesselId": null,
+    "storytellerDisabled": false,
+    "rulesetState": {
+      "stats": {
+        "poise": 50,
+        "max_poise": 50
+      },
+      "conditions": [],
+      "statUsage": {},
+      "incapacitation": null,
+      "incapacitatedSince": null
+    },
+    "voiceId": "eric",
+    "spriteConfig": {
+      "bodyType": "male",
+      "layers": [
+        {
+          "type": "body",
+          "optionId": "body_base",
+          "tint": 11373408
+        },
+        {
+          "type": "body",
+          "optionId": "body_universal",
+          "tint": 11373408
+        },
+        {
+          "type": "eyes",
+          "optionId": "eyes_eyes",
+          "tint": 7029286
+        },
+        {
+          "type": "facial",
+          "optionId": "facial_beard",
+          "tint": 7029286
+        },
+        {
+          "type": "hair",
+          "optionId": "hair_plain",
+          "tint": 7029286
+        },
+        {
+          "type": "torso",
+          "optionId": "torso_formal_shirt_male",
+          "tint": 16117992
+        },
+        {
+          "type": "torso",
+          "optionId": "torso_white_apron_male",
+          "tint": 1710618
+        },
+        {
+          "type": "torso",
+          "optionId": "torso_formal_jacket_male",
+          "tint": 9127187
+        },
+        {
+          "type": "legs",
+          "optionId": "legs_formal_pants_male",
+          "tint": 3815994
+        },
+        {
+          "type": "feet",
+          "optionId": "feet_white_shoes_male",
+          "tint": 1710618
+        },
+        {
+          "type": "belt",
+          "optionId": "belt_leather_male",
+          "tint": 9127187
+        },
+        {
+          "type": "accessories",
+          "optionId": "accessories_formal_glasses_male",
+          "tint": 12632256
+        }
+      ],
+      "spriteHash": "264e1fb6eaf32181",
+      "spriteUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/sprites/generated/264e1fb6eaf32181.png"
+    },
+    "assignedWorkspaceId": "OBJ_the_black_ledger_desk_0044",
+    "assignedWorkspacePurpose": "workspace"
+  },
+  "position": {
+    "x": 272,
+    "y": 176,
+    "width": 32,
+    "height": 48,
+    "parent": "PLACE_ledgerhouse_bedchamber"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/gaardia/images/characters/CHAR_veynor_kelm.png?v=1772328747201",
+  "faceAnchorY": 0.16,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "talk"
+  },
+  "relationships": [
+    {
+      "targetId": "CHAR_bramwell_nace",
+      "type": "acquaintance",
+      "disposition": 0,
+      "familiarity": 40,
+      "context": "Both are methodical, ledger-minded public-house/bar operators from Gaardia; likely to know of each other through trade talk or shared regulars despite different venues.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_hollis_berane",
+      "type": "acquaintance",
+      "disposition": 0,
+      "familiarity": 40,
+      "context": "Hollis keeps accounts and enforces house rules at The Attested Loft; Veynor runs a similarly rule-bound bar, making a likely professional acquaintance via licensing/ledger networks.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_lenora_quist",
+      "type": "colleague",
+      "disposition": 10,
+      "familiarity": 50,
+      "context": "Lenora is located in Ledgerhouse spaces and is explicitly a keeper of house rules and debts; Veynor runs The Black Ledger, suggesting shared employment within the same house/ledger organization.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_marek_dael",
+      "type": "colleague",
+      "disposition": 10,
+      "familiarity": 50,
+      "context": "Marek is located in Ledgerkeep chambers and operates with similar confidential, rule-and-measure discipline; likely part of the same ledger/house apparatus as Veynor.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_rowan_sutter",
+      "type": "acquaintance",
+      "disposition": 0,
+      "familiarity": 40,
+      "context": "Rowan is a practiced public-house professional at The Attested Loft; plausible to have met Veynor through overlapping patrons, suppliers, or local house-rule enforcement norms.",
+      "pendingGeneration": false
+    }
+  ],
+  "important": false
+}

@@ -1,0 +1,51 @@
+{
+  "id": "OBJ_the_cinderwake_ship_mast_1020",
+  "label": "Ship Mast",
+  "description": "A wooden mast with rigging and sail, rising from the ship's deck",
+  "important": false,
+  "short_description": "ship mast",
+  "tags": [
+    "ship",
+    "vessel"
+  ],
+  "entityType": "object",
+  "info": {
+    "purpose": "ship_mast",
+    "solid": true,
+    "layer": "default",
+    "isStructural": false,
+    "material": null,
+    "tint": null,
+    "spriteConfig": {
+      "spriteId": "ship_mast_small",
+      "frame": null,
+      "animationKey": null,
+      "animated": false,
+      "facing": "south"
+    },
+    "hp": null,
+    "maxHp": null,
+    "state": null,
+    "contents": null,
+    "lightSource": null,
+    "itemId": null,
+    "plotId": null
+  },
+  "position": {
+    "x": 528,
+    "y": 1024,
+    "width": 96,
+    "height": 416,
+    "parent": "PLACE_the_cinderwake"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "relationships": [],
+  "image": null,
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": null
+}

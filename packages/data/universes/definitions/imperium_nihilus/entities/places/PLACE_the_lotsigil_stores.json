@@ -1,0 +1,60 @@
+{
+  "id": "PLACE_the_lotsigil_stores",
+  "label": "The Lot-Sigil Stores",
+  "description": "The Lot-Sigil Stores serves as the enclosed storage room of The Iron Catechism, built in ribbed ferrocrete with void-black adamantine reinforcements that mirror the counter’s austere frontage. Numbered shelving bays and sealed transit crates stand in strict rows, each face tagged with Munitorum lot-sigils, quarantine tallies, and inventory stamps. The air carries a persistent metallic dryness from desiccant canisters and filtered vents, while red auspex indicators and hard lumen-strips keep the chamber in perpetual inspection brightness. A grated deck and drain channels emphasize containment practice, prioritizing discipline, separation, and rapid issue under siege protocol.",
+  "short_description": "sealed arms stockroom",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "storage_room",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.9
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "door_wooden",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/battles/PLACE_the_lotsigil_stores.png?v=1771995900434",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 80,
+    "y": 1024,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_the_iron_catechism",
+    "innerWidth": 448,
+    "innerHeight": 544
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/places/PLACE_the_lotsigil_stores.png?v=1771995951952",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": [
+    "The Lot-Sigil Store"
+  ],
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

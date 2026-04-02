@@ -1,0 +1,18 @@
+{
+  "id": "EVENT_name_revealed_severin_ashcombe_soren_malrick_1772177117448",
+  "date": "999.M1 07:55",
+  "placeId": null,
+  "important": false,
+  "importanceScore": null,
+  "scope": null,
+  "relevantPlaceIds": null,
+  "eventType": "name_revealed",
+  "category": "knowledge",
+  "subject": "Soren Malrick",
+  "subjectId": "CHAR_soren_malrick",
+  "fact": "Learned the name \"Soren Malrick\"",
+  "significance": "minor",
+  "witnessIds": [
+    "CHAR_severin_ashcombe"
+  ]
+}

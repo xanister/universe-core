@@ -1,0 +1,22 @@
+{
+  "id": "trunk_storage",
+  "name": "Storage Trunk (Closed)",
+  "description": "A flat-top wooden storage trunk commonly placed at the foot of a bed.",
+  "purposes": [
+    "storage"
+  ],
+  "tags": [
+    "common",
+    "furniture",
+    "bedroom"
+  ],
+  "solid": true,
+  "layer": "default",
+  "spriteId": "trunk_storage",
+  "materials": [
+    "wood",
+    "metal"
+  ],
+  "tintable": false,
+  "interactable": true
+}

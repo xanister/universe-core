@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_the_bunk_alcove",
+  "label": "The Bunk Alcove",
+  "description": "The Bunk Alcove is a narrow sleeping compartment carved into the canteen’s vitrified basalt shell, its surfaces faced with scavenged wreck-metal to match the drinking hall’s utilitarian finish. A single stacked bunk-frame and a bolt-down locker occupy most of the floor, leaving a tight passage along the wall. Shielded luminaires behind mesh baffles cast the same bruise-hued gloom as the canteen, while the air carries the steady breath of condenser units filtering ash and electrostatic grit. Heavy door seals and vox-suppression lining reduce the bastion’s interference to a subdued vibration, preserving a controlled, durable quiet.",
+  "short_description": "cramped metal bunkroom",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "bedroom",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "door_wooden",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/battles/PLACE_the_bunk_alcove.png?v=1771950028918",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 592,
+    "y": 160,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_the_riftward_canteen",
+    "innerWidth": 512,
+    "innerHeight": 512
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/places/PLACE_the_bunk_alcove.png?v=1771950079322",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

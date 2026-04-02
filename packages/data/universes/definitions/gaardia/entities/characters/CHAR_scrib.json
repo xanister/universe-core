@@ -1,0 +1,231 @@
+{
+  "id": "CHAR_scrib",
+  "label": "Scrib",
+  "description": "This individual is a goblin-shaped ratter of small stature, with bright_green skin marked by grime-stained creases from constant burrowing through refuse and glass-dust. Black hair grows in an unkempt mat that traps grit, framing brown eyes set wide for rapid scanning in low light. The muzzle is blunt and rodentlike, with prominent incisors and a torn upper ear that never heals cleanly. Hands and feet show thickened pads and crooked nails, formed by lifelong scrabbling across broken cullet and tunnel stone.",
+  "short_description": "ratlike goblin (male)",
+  "tags": [],
+  "entityType": "character",
+  "info": {
+    "purpose": "rat",
+    "aliases": [
+      "Hollow Rat",
+      "Cullet-Scratcher"
+    ],
+    "birthdate": "1301-02-18",
+    "deathdate": null,
+    "title": null,
+    "birthPlace": "The Glassvein Hollow",
+    "eyeColor": "brown",
+    "gender": "male",
+    "hairColor": "black",
+    "hairStyle": "unkempt",
+    "beardStyle": null,
+    "headType": "orc_male",
+    "skinTone": "bright_green",
+    "personality": "A location-bound scavenger that navigates by scent and habit, defending feeding runs with sudden aggression and retreating instantly from open flame and loud metal strike. It hoards string, wax, and dried fat in concealed pockets of rubble, returning to the same caches with strict regularity. It learns routes quickly, avoids torchlit corridors, and responds to offerings with wary, transactional tolerance rather than trust.",
+    "race": "goblin",
+    "messages": [],
+    "journal": [],
+    "sketches": [],
+    "verbosity": 3,
+    "conversationContext": null,
+    "storytellerState": null,
+    "isPlayer": false,
+    "storyComplete": false,
+    "routine": null,
+    "vesselRoutes": null,
+    "abstractLocation": null,
+    "npcBehavior": null,
+    "physicalState": null,
+    "pendingDeparture": null,
+    "pendingArrival": null,
+    "lastRoutineCheckPeriod": null,
+    "startingNarrative": null,
+    "startingCharacterState": null,
+    "clothing": [
+      {
+        "slot": "torso_under",
+        "itemId": "tunic",
+        "color": "#3a3a3a",
+        "contents": null
+      },
+      {
+        "slot": "legs",
+        "itemId": "cloth_pants",
+        "color": "#8b4513",
+        "contents": null
+      },
+      {
+        "slot": "feet",
+        "itemId": "boots",
+        "color": "#1a1a1a",
+        "contents": null
+      },
+      {
+        "slot": "belt",
+        "itemId": "rope_belt",
+        "color": "#d2b48c",
+        "contents": []
+      },
+      {
+        "slot": "head",
+        "itemId": "cloth_hood",
+        "color": "#3a3a3a",
+        "contents": null
+      }
+    ],
+    "enabledOverlayLayers": [],
+    "helmingVesselId": null,
+    "storytellerDisabled": false,
+    "rulesetState": {
+      "stats": {
+        "poise": 50,
+        "max_poise": 50
+      },
+      "conditions": [],
+      "statUsage": {},
+      "incapacitation": null,
+      "incapacitatedSince": null
+    },
+    "voiceId": "callum",
+    "spriteConfig": {
+      "bodyType": "male",
+      "layers": [
+        {
+          "type": "body",
+          "optionId": "body_base",
+          "tint": 6736964
+        },
+        {
+          "type": "body",
+          "optionId": "body_universal",
+          "tint": 6736964
+        },
+        {
+          "type": "legs",
+          "optionId": "legs_white_pants_male",
+          "tint": 9127187
+        },
+        {
+          "type": "feet",
+          "optionId": "feet_white_boots_male",
+          "tint": 1710618
+        },
+        {
+          "type": "belt",
+          "optionId": "belt_wulax_belt_rope_male",
+          "tint": 13808780
+        },
+        {
+          "type": "head",
+          "optionId": "head_cloth_hood_male",
+          "tint": 3815994
+        }
+      ],
+      "spriteHash": "282ef095291c6452",
+      "spriteUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/sprites/generated/282ef095291c6452.png"
+    },
+    "spriteId": "rat"
+  },
+  "position": {
+    "x": 1200,
+    "y": 592,
+    "width": 32,
+    "height": 48,
+    "parent": "PLACE_the_glassvein_hollow"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/gaardia/images/characters/CHAR_scrib.png?v=1772438124351",
+  "faceAnchorY": 0.2,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "talk"
+  },
+  "relationships": [
+    {
+      "targetId": "CHAR_glassvein_rat",
+      "type": "rival",
+      "disposition": -20,
+      "familiarity": 50,
+      "context": "Both are territorial scavenger/hoarder types operating on overlapping scent-trails and caches within the Glassvein Hollow, making competition for food and stash sites likely.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_glassvein_rat_1",
+      "type": "rival",
+      "disposition": -20,
+      "familiarity": 50,
+      "context": "Another territorial rat maintaining strict runs and hoards in the same location; Scrib would plausibly compete with it over feeding routes and hiding niches.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_skit",
+      "type": "rival",
+      "disposition": -20,
+      "familiarity": 50,
+      "context": "Skit is an opportunistic, territorial tunnel-scavenger in the same hollow; overlapping routes and resources make a competitive relationship likely.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_skitters",
+      "type": "rival",
+      "disposition": -20,
+      "familiarity": 50,
+      "context": "Skitters is a territorial scavenger with similar hoarding and route-fixation in the same place; likely to contest caches and safe cracks.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_calder_hurne",
+      "type": "enemy",
+      "disposition": -60,
+      "familiarity": 50,
+      "context": "Calder Hurne’s rigid, intrusion-reactive patrol behavior would likely bring it into repeated hostile encounters with a location-bound scavenger like Scrib who relies on the same corridors and thresholds.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_caldus_rein",
+      "type": "enemy",
+      "disposition": -60,
+      "familiarity": 50,
+      "context": "A slow, inexorable revenant reacting to intrusion in confined passages would predictably threaten Scrib during feeding runs, creating a consistent hostile dynamic.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_isarn_vell",
+      "type": "enemy",
+      "disposition": -60,
+      "familiarity": 50,
+      "context": "Isarn Vell shows ritualized hostility toward intruders on patrol routes; Scrib’s habitual scavenging paths in the same hollow make hostile encounters likely.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_sable_wynth",
+      "type": "enemy",
+      "disposition": -60,
+      "familiarity": 50,
+      "context": "Sable Wynth lunges at nearby living bodies and reacts with hostility to sound/light; Scrib’s movement through the corridors would likely trigger repeated attacks.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_silex_corven",
+      "type": "enemy",
+      "disposition": -60,
+      "familiarity": 50,
+      "context": "Silex Corven patrols narrow passages and responds to disturbance with repetitive aggression; Scrib’s preference for confined routes makes them likely to clash.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_verrin_halst",
+      "type": "enemy",
+      "disposition": -60,
+      "familiarity": 50,
+      "context": "Verrin Halst is territorial and reflexively hostile on fixed circuits; Scrib’s routine returns to the same areas would cause recurring hostile contact.",
+      "pendingGeneration": false
+    }
+  ],
+  "important": false
+}

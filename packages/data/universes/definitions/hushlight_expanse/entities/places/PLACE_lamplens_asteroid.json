@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_lamplens_asteroid",
+  "label": "Lamplens Asteroid",
+  "description": "Lamplens Asteroid occupies a stable arc within Vesperglass System’s vitrified debris belt, its exterior fused into glassy planes that hold the star’s copper-white attenuation as hard reflections. A persistent electrostatic charge runs along fracture seams, organizing drifting dust into thin, luminous filaments that map the surrounding radiance currents. Impact terraces and melt-scar basins give the body a faceted, architectural profile, as if cut to serve the system’s orderly geometry. Navigation charts mark it as a reliable visual reference against the mirror-halo’s long twilight gradients.",
+  "short_description": "charged glassy asteroid",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "asteroid",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "asteroid",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/hushlight_expanse/images/battles/PLACE_lamplens_asteroid.png?v=1772313657412",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 2256,
+    "y": 2624,
+    "width": 32,
+    "height": 32,
+    "parent": "PLACE_vesperglass_system",
+    "innerWidth": 1376,
+    "innerHeight": 1376
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/hushlight_expanse/images/places/PLACE_lamplens_asteroid.png?v=1772313709619",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

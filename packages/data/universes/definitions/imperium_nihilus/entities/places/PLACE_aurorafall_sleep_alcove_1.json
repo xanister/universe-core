@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_aurorafall_sleep_alcove_1",
+  "label": "Aurorafall Sleep Alcove",
+  "description": "Aurorafall Sleep Alcove is a narrow bedroom partitioned from the habcell’s central aisle by a sliding slagcrete-panel screen and a gasketed threshold lip. A recessed bunk niche is set into the vitrified wall facing, with fold-down storage bays and a restraint rail fixed for use under impact tremors and pressure-lock protocol. The low ceiling carries bundled service conduits and insulated vox cabling, their housings boxed to reduce auroral backwash interference. Armored, washable surfaces and a filtered vent grille keep ash grit from settling into bedding and fixtures.",
+  "short_description": "sealed bunk alcove",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "bedroom",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "door_wooden",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/battles/PLACE_aurorafall_sleep_alcove_1.png?v=1771950544573",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 464,
+    "y": 160,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_aurorafall_habcell",
+    "innerWidth": 480,
+    "innerHeight": 448
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/places/PLACE_aurorafall_sleep_alcove_1.png?v=1771950598543",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

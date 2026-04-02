@@ -1,0 +1,56 @@
+{
+  "id": "OBJ_auroraweld_atelier_barrel_0026",
+  "label": "Barrel",
+  "description": "A sturdy wooden barrel",
+  "important": false,
+  "short_description": "barrel",
+  "tags": [
+    "common",
+    "storage",
+    "ship"
+  ],
+  "entityType": "object",
+  "info": {
+    "purpose": "storage",
+    "solid": true,
+    "layer": "default",
+    "isStructural": false,
+    "material": null,
+    "tint": null,
+    "spriteConfig": {
+      "spriteId": "barrel",
+      "frame": null,
+      "animationKey": null,
+      "animated": false,
+      "facing": "south"
+    },
+    "hp": null,
+    "maxHp": null,
+    "state": null,
+    "contents": [
+      "coin_pouch"
+    ],
+    "lightSource": null,
+    "itemId": null,
+    "plotId": null
+  },
+  "position": {
+    "x": 1168,
+    "y": 512,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_auroraweld_atelier"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "relationships": [],
+  "image": null,
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "search"
+  }
+}

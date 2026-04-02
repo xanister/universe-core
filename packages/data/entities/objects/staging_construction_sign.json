@@ -1,0 +1,20 @@
+{
+  "id": "staging_construction_sign",
+  "purposes": [
+    "staging_construction",
+    "staging_construction_door"
+  ],
+  "spriteId": "staging_construction_sign",
+  "name": "Under Construction Sign",
+  "description": "Red pennant displayed at the entry to a place being built",
+  "tags": [
+    "common",
+    "staging",
+    "construction",
+    "sign"
+  ],
+  "materials": [],
+  "solid": true,
+  "layer": "default",
+  "tintable": false
+}

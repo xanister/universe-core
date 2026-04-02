@@ -1,0 +1,18 @@
+{
+  "id": "plate_grilled_fish",
+  "name": "Grilled Fish Plate",
+  "description": "A plate with a whole grilled fish and garnish.",
+  "purposes": [
+    "decoration"
+  ],
+  "tags": [
+    "common",
+    "food",
+    "tavern"
+  ],
+  "solid": false,
+  "layer": "default",
+  "spriteId": "plate_grilled_fish",
+  "materials": [],
+  "tintable": false
+}

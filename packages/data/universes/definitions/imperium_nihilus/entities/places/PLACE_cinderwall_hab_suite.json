@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_cinderwall_hab_suite",
+  "label": "Cinderwall Hab Suite",
+  "description": "This compact residence occupies a recessed bay within Ashenward City’s basalt-and-slagcrete hab-blocks, its loadbearing ribs fused into the continuous windbreak mass of the tiered walls. Sealed shutters and gasketed vent-grilles keep ash infiltration to a dull film across rough plascrete floors and soot-darkened fittings. A narrow alcove shrine and a hardwired vox niche sit beneath layered insulation and shielding panels, built to endure the city’s persistent atmospheric interference. Lighting remains low and violet-tinged, reflecting off vitrified wall patches where stormlight and industrial heat have glassed the surface.",
+  "short_description": "sealed ashproof dwelling",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "residence",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "building_residence",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/battles/PLACE_cinderwall_hab_suite.png?v=1771958857222",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 2512,
+    "y": 2048,
+    "width": 160,
+    "height": 256,
+    "parent": "PLACE_vespera_tertius_ashenward_city",
+    "innerWidth": 1056,
+    "innerHeight": 1248
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/places/PLACE_cinderwall_hab_suite.png?v=1771958910237",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

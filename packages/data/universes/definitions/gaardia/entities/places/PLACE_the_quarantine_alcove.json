@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_the_quarantine_alcove",
+  "label": "The Quarantine Alcove",
+  "description": "The Quarantine Alcove serves as the sleeping chamber of Licensor's Hearth, partitioned from the main residence by a heavy plank screen pinned with iron strapwork. A narrow bedframe of riveted iron stands beneath soot-dark rafters, its linens stored in a built-in wall niche sized to the residence’s austere shelving. The slit window’s reinforced shutter admits a measured strip of light and keeps alignment with Cindervale’s quarantine ordinances, with a chalked clearance line marking the sill for inspection. The air holds the dry bite of ash and oiled metal, and the chamber’s fittings emphasize lawful restraint over comfort.",
+  "short_description": "spare iron-framed bedroom",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "bedroom",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "door_wooden",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/gaardia/images/battles/PLACE_the_quarantine_alcove.png?v=1772216483022",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 80,
+    "y": 160,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_licensors_hearth",
+    "innerWidth": 512,
+    "innerHeight": 512
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": null,
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

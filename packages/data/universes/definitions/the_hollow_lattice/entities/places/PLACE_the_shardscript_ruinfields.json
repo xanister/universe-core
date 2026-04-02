@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_the_shardscript_ruinfields",
+  "label": "The Shardscript Ruinfields",
+  "description": "The Shardscript Ruinfields comprise a rectilinear expanse of collapsed prism-architecture embedded in Kharion’s vitreous crust, where fractured walls stand as sharp-edged planes rather than weathered curves. Inscribed glass monoliths lie broken across the grid, their interior striations trapping Vesper Node’s meridian glare into fixed bands that slide along the ground with the planet’s laminar shears. Long corridors of absolute shadow cut between tilted facets, preserving mirrorsmooth floors and knife-clean rubble in enduring stillness. The site’s geometry aligns precisely to the lattice-imposed axes, rendering the ruins as a readable diagram of the world’s tensile order.",
+  "short_description": "faceted glass ruins",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "ruins",
+    "environment": {
+      "type": "exterior",
+      "hasWeather": true,
+      "temperature": {
+        "enabled": true,
+        "base": null,
+        "modifiersApply": true
+      },
+      "maxDarkness": null
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "stone_arch_ruins",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/the_hollow_lattice/images/battles/PLACE_the_shardscript_ruinfields.png?v=1772314405136",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 2880,
+    "y": 1248,
+    "width": 48,
+    "height": 48,
+    "parent": "PLACE_kharion_prismworld",
+    "innerWidth": 4864,
+    "innerHeight": 3968
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": null,
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

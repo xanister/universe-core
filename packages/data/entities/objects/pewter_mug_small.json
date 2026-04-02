@@ -1,0 +1,20 @@
+{
+  "id": "pewter_mug_small",
+  "name": "Small Pewter Mug",
+  "description": "A small dark pewter mug with a handle.",
+  "purposes": [
+    "decoration"
+  ],
+  "tags": [
+    "common",
+    "drinkware",
+    "tavern"
+  ],
+  "solid": false,
+  "layer": "default",
+  "spriteId": "pewter_mug_small",
+  "materials": [
+    "iron"
+  ],
+  "tintable": false
+}

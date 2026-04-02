@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_cinderwall_sleep_niche_1",
+  "label": "Cinderwall Sleep Niche",
+  "description": "Cinderwall Sleep Niche forms a narrow, gasketed chamber set behind a pressure-tight interior door, its walls clad in soot-darkened insulation panels to blunt storm-cold and vox bleed. A recessed bunk-frame and lockable storage voids are built directly into the slagcrete ribs, their edges chipped and polished by constant use. Sealed shutter slats over a slit window admit bruise-colored auroral light in thin bands that stain the plascrete floor violet. The air carries a persistent mineral dryness, and ash residue gathers as a fine grey line along the base seals despite the suite’s filtration.",
+  "short_description": "sealed violet-lit bunk",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "bedroom",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "door_wooden",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/battles/PLACE_cinderwall_sleep_niche_1.png?v=1771958955880",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 272,
+    "y": 160,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_cinderwall_hab_suite",
+    "innerWidth": 480,
+    "innerHeight": 512
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/places/PLACE_cinderwall_sleep_niche_1.png?v=1771959007063",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

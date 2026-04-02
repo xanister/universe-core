@@ -1,0 +1,55 @@
+{
+  "id": "OBJ_emberwatch_rowhouse_ceramic_jar_ornate_0006",
+  "label": "Ornate Ceramic Jar",
+  "description": "A large ornate ceramic storage jar.",
+  "important": false,
+  "short_description": "ornate ceramic jar",
+  "tags": [
+    "common",
+    "container",
+    "storage",
+    "tavern"
+  ],
+  "entityType": "object",
+  "info": {
+    "purpose": "storage",
+    "solid": true,
+    "layer": "default",
+    "isStructural": false,
+    "material": null,
+    "tint": null,
+    "spriteConfig": {
+      "spriteId": "ceramic_jar_ornate",
+      "frame": null,
+      "animationKey": null,
+      "animated": false,
+      "facing": "south"
+    },
+    "hp": null,
+    "maxHp": null,
+    "state": null,
+    "contents": null,
+    "lightSource": null,
+    "itemId": null,
+    "plotId": null
+  },
+  "position": {
+    "x": 368,
+    "y": 416,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_emberwatch_rowhouse"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "relationships": [],
+  "image": null,
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "search"
+  }
+}

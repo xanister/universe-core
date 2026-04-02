@@ -1,0 +1,21 @@
+{
+  "id": "curtain_window_open",
+  "name": "Curtains (Open)",
+  "description": "Tall gold window curtains falling open and tied back at mid-height.",
+  "purposes": [
+    "decoration"
+  ],
+  "tags": [
+    "common",
+    "furniture",
+    "curtain",
+    "bedroom"
+  ],
+  "solid": false,
+  "layer": "overhead",
+  "spriteId": "curtain_window_open",
+  "materials": [
+    "fabric"
+  ],
+  "tintable": false
+}

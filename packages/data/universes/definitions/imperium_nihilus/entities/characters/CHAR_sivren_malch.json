@@ -1,0 +1,208 @@
+{
+  "id": "CHAR_sivren_malch",
+  "label": "Sivren Malch",
+  "description": "This individual is an undead human of spare frame, with pallid light skin drawn tight over prominent cheekbones and a narrow jaw. Brown eyes sit deep beneath a heavy brow ridge, fixed in an unblinking, funerary stare. Black hair grows in thinning, uneven tufts along the scalp, leaving broad patches of exposed skin that emphasize the corpse-like cranial shape. The mouth is set with receded lips and stained teeth, giving the face a permanent rictus consistent with prolonged decay.",
+  "short_description": "undead male grotto corpse",
+  "tags": [],
+  "entityType": "character",
+  "info": {
+    "purpose": "undead",
+    "aliases": [
+      "The Umbravolt Corpse-Sentinel"
+    ],
+    "birthdate": "Unknown",
+    "deathdate": null,
+    "title": null,
+    "birthPlace": "",
+    "eyeColor": "brown",
+    "gender": "male",
+    "hairColor": "black",
+    "hairStyle": "unkempt",
+    "beardStyle": null,
+    "headType": "human_male",
+    "skinTone": "light",
+    "personality": "This undead serves as a tenacious sentinel within the grotto’s passages, responding to intrusion with rote persistence rather than intellect. It exhibits a fixed, ritualized hostility, advancing in direct lines and returning to the same patrol paths when thwarted. Its manner is silent and compulsive, driven by residual instinct and place-bound obligation rather than speech or strategy.",
+    "race": "human",
+    "messages": [],
+    "journal": [],
+    "sketches": [],
+    "verbosity": 3,
+    "conversationContext": null,
+    "storytellerState": null,
+    "isPlayer": false,
+    "storyComplete": false,
+    "routine": {
+      "schedule": {
+        "dawn": "work",
+        "morning": "work",
+        "afternoon": "work",
+        "evening": "work",
+        "night": "work"
+      },
+      "home": {
+        "placeId": "PLACE_umbravolt_grotto",
+        "description": "Umbravolt Grotto",
+        "areaHint": null
+      },
+      "work": {
+        "placeId": "PLACE_umbravolt_grotto",
+        "description": "Umbravolt Grotto",
+        "areaHint": null
+      },
+      "leisure": null,
+      "variance": 0.2,
+      "activities": {
+        "work": "undead_patrol"
+      }
+    },
+    "vesselRoutes": null,
+    "abstractLocation": null,
+    "npcBehavior": null,
+    "physicalState": null,
+    "pendingDeparture": null,
+    "pendingArrival": null,
+    "lastRoutineCheckPeriod": null,
+    "startingNarrative": null,
+    "startingCharacterState": null,
+    "clothing": [
+      {
+        "slot": "torso_under",
+        "itemId": "tunic",
+        "color": "#3a3a3a",
+        "contents": null
+      },
+      {
+        "slot": "torso_over",
+        "itemId": "tattercape",
+        "color": "#1a1a1a",
+        "contents": null
+      },
+      {
+        "slot": "legs",
+        "itemId": "cloth_pants",
+        "color": "#808080",
+        "contents": null
+      },
+      {
+        "slot": "feet",
+        "itemId": "boots",
+        "color": "#8b4513",
+        "contents": null
+      },
+      {
+        "slot": "belt",
+        "itemId": "rope_belt",
+        "color": "#d2b48c",
+        "contents": [
+          {
+            "id": "ci_1771952390270_gklzaa",
+            "itemId": "unarmed",
+            "name": "unarmed",
+            "description": null,
+            "type": "weapon",
+            "quantity": 1,
+            "color": null,
+            "equipSlot": "weapon",
+            "plotId": null
+          }
+        ]
+      }
+    ],
+    "enabledOverlayLayers": [
+      "eyes",
+      "facial"
+    ],
+    "helmingVesselId": null,
+    "storytellerDisabled": false,
+    "rulesetState": {
+      "stats": {
+        "physical": 50,
+        "mental": 50,
+        "social": 50,
+        "poise": 50,
+        "max_poise": 50,
+        "bloodloss": 0,
+        "anxiety": 0,
+        "fatigue": 0,
+        "hunger": 0
+      },
+      "conditions": [],
+      "statUsage": {},
+      "incapacitation": null,
+      "incapacitatedSince": null
+    },
+    "voiceId": "brian",
+    "spriteConfig": {
+      "bodyType": "male",
+      "layers": [
+        {
+          "type": "body",
+          "optionId": "body_base",
+          "tint": 15780008
+        },
+        {
+          "type": "body",
+          "optionId": "body_universal",
+          "tint": 15780008
+        },
+        {
+          "type": "eyes",
+          "optionId": "eyes_eyes",
+          "tint": 7029286
+        },
+        {
+          "type": "hair",
+          "optionId": "hair_unkempt",
+          "tint": 1710618
+        },
+        {
+          "type": "legs",
+          "optionId": "legs_white_pants_male",
+          "tint": 8421504
+        },
+        {
+          "type": "feet",
+          "optionId": "feet_white_boots_male",
+          "tint": 9127187
+        },
+        {
+          "type": "belt",
+          "optionId": "belt_wulax_belt_rope_male",
+          "tint": 13808780
+        }
+      ],
+      "spriteHash": "e107a1422dc7197f",
+      "spriteUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/sprites/generated/e107a1422dc7197f.png",
+      "spriteScale": 1
+    }
+  },
+  "position": {
+    "x": 1040,
+    "y": 784,
+    "width": 32,
+    "height": 48,
+    "parent": "PLACE_umbravolt_grotto"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/characters/CHAR_sivren_malch.png?v=1771952448858",
+  "faceAnchorY": 0.19,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "talk"
+  },
+  "relationships": [
+    {
+      "targetId": "CHAR_odran_vilt",
+      "type": "colleague",
+      "disposition": 10,
+      "familiarity": 50,
+      "context": "Both are undead sentinels stationed in PLACE_umbravolt_grotto, likely serving the same defensive/patrol function within the grotto’s passages.",
+      "pendingGeneration": false
+    }
+  ],
+  "important": false
+}

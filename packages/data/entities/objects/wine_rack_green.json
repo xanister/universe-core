@@ -1,0 +1,23 @@
+{
+  "id": "wine_rack_green",
+  "name": "Wine Rack (Green Bottles)",
+  "description": "A tall wine rack filled with green bottles.",
+  "purposes": [
+    "storage",
+    "decoration"
+  ],
+  "tags": [
+    "common",
+    "furniture",
+    "storage",
+    "tavern",
+    "bar"
+  ],
+  "solid": true,
+  "layer": "default",
+  "spriteId": "wine_rack_green",
+  "materials": [
+    "wood"
+  ],
+  "tintable": false
+}

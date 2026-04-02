@@ -1,0 +1,21 @@
+{
+  "id": "EVENT_charkorrbrightblade_questioned_chartavianroake_at_placethequenchedpike_1772607070490",
+  "date": "11.01.11 4A 08:19",
+  "placeId": "PLACE_the_quenched_pike",
+  "eventType": null,
+  "category": "relationship",
+  "subject": "Tavian Roake",
+  "subjectId": "CHAR_tavian_roake",
+  "fact": "CHAR_korr_brightblade questioned CHAR_tavian_roake at PLACE_the_quenched_pike",
+  "significance": "moderate",
+  "witnessIds": [
+    "CHAR_korr_brightblade",
+    "CHAR_tavian_roake"
+  ],
+  "important": false,
+  "importanceScore": null,
+  "scope": "local",
+  "relevantPlaceIds": [
+    "PLACE_the_quenched_pike"
+  ]
+}

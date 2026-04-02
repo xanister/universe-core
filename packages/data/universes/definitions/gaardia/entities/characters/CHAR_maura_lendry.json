@@ -1,0 +1,201 @@
+{
+  "id": "CHAR_maura_lendry",
+  "label": "Maura Lendry",
+  "description": "This individual is a human woman of early middle years, of medium build and practiced steadiness in posture. Brown eyes sit under straight brown hair worn in a parted style, framing a broad face marked by long familiarity with smoke and lamplight. Taupe skin and strong, work-hardened hands define a trade built on constant handling of casks, glass, and coin. Their manner is controlled and attentive, maintaining order through concise speech and an exact memory for measures and tabs.",
+  "short_description": "aproned female bartender",
+  "tags": [],
+  "entityType": "character",
+  "info": {
+    "purpose": "bartender",
+    "aliases": [
+      "Maura of the Ledger",
+      "The Ledgerkeep"
+    ],
+    "birthdate": "1192-10-14",
+    "deathdate": null,
+    "title": null,
+    "birthPlace": "Dockward tenements",
+    "eyeColor": "brown",
+    "gender": "female",
+    "hairColor": "brown",
+    "hairStyle": "parted",
+    "beardStyle": null,
+    "headType": "human_female",
+    "skinTone": "taupe",
+    "personality": "Measured and exacting, they keep the house’s accounts as strictly as its pours, using calm authority to defuse disputes and a disciplined memory to manage tabs, regulars, and supplies without display.",
+    "race": "human",
+    "messages": [],
+    "journal": [],
+    "sketches": [],
+    "verbosity": 3,
+    "conversationContext": null,
+    "storytellerState": null,
+    "isPlayer": false,
+    "storyComplete": false,
+    "routine": {
+      "schedule": {
+        "dawn": "home",
+        "morning": "work",
+        "afternoon": "work",
+        "evening": "work",
+        "night": "home"
+      },
+      "home": {
+        "placeId": "PLACE_ledgerhouse_bedchamber",
+        "description": "Quarters near The Black Ledger",
+        "areaHint": null
+      },
+      "work": {
+        "placeId": "PLACE_the_black_ledger",
+        "description": "The Black Ledger",
+        "areaHint": null
+      },
+      "leisure": null,
+      "variance": 0.2,
+      "activities": {
+        "work": "tavern_work"
+      }
+    },
+    "vesselRoutes": null,
+    "abstractLocation": null,
+    "npcBehavior": null,
+    "physicalState": null,
+    "pendingDeparture": null,
+    "pendingArrival": null,
+    "lastRoutineCheckPeriod": null,
+    "startingNarrative": null,
+    "startingCharacterState": null,
+    "clothing": [
+      {
+        "slot": "torso_under",
+        "itemId": "shortsleeve",
+        "color": "#f5f0e8",
+        "contents": null
+      },
+      {
+        "slot": "torso_mid",
+        "itemId": "apron",
+        "color": "#1a1a1a",
+        "contents": null
+      },
+      {
+        "slot": "torso_over",
+        "itemId": "jacket",
+        "color": "#3a3a3a",
+        "contents": null
+      },
+      {
+        "slot": "legs",
+        "itemId": "cloth_pants",
+        "color": "#8b4513",
+        "contents": null
+      },
+      {
+        "slot": "feet",
+        "itemId": "boots",
+        "color": "#1a1a1a",
+        "contents": null
+      },
+      {
+        "slot": "belt",
+        "itemId": "leather_belt",
+        "color": "#1a1a1a",
+        "contents": []
+      }
+    ],
+    "enabledOverlayLayers": [
+      "eyes",
+      "facial"
+    ],
+    "helmingVesselId": null,
+    "storytellerDisabled": false,
+    "rulesetState": {
+      "stats": {
+        "poise": 50,
+        "max_poise": 50
+      },
+      "conditions": [],
+      "statUsage": {},
+      "incapacitation": null,
+      "incapacitatedSince": null
+    },
+    "voiceId": "bella",
+    "spriteConfig": {
+      "bodyType": "female",
+      "layers": [
+        {
+          "type": "body",
+          "optionId": "body_base",
+          "tint": 12890264
+        },
+        {
+          "type": "body",
+          "optionId": "body_universal",
+          "tint": 12890264
+        },
+        {
+          "type": "eyes",
+          "optionId": "eyes_eyes",
+          "tint": 7029286
+        },
+        {
+          "type": "hair",
+          "optionId": "hair_parted",
+          "tint": 7029286
+        },
+        {
+          "type": "torso",
+          "optionId": "torso_white_shortsleeve_female",
+          "tint": 16117992
+        },
+        {
+          "type": "torso",
+          "optionId": "torso_white_apron_female",
+          "tint": 1710618
+        },
+        {
+          "type": "torso",
+          "optionId": "torso_jacket_female",
+          "tint": 3815994
+        },
+        {
+          "type": "legs",
+          "optionId": "legs_white_pants_female",
+          "tint": 9127187
+        },
+        {
+          "type": "feet",
+          "optionId": "feet_white_boots_female",
+          "tint": 1710618
+        },
+        {
+          "type": "belt",
+          "optionId": "belt_leather_female",
+          "tint": 1710618
+        }
+      ],
+      "spriteHash": "12992fbaaa668942",
+      "spriteUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/sprites/generated/12992fbaaa668942.png"
+    }
+  },
+  "position": {
+    "x": 112,
+    "y": 368,
+    "width": 32,
+    "height": 48,
+    "parent": "PLACE_ledgerhouse_bedchamber"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/gaardia/images/characters/CHAR_maura_lendry.png?v=1772417656197",
+  "faceAnchorY": 0.15,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "talk"
+  },
+  "relationships": [],
+  "important": false
+}

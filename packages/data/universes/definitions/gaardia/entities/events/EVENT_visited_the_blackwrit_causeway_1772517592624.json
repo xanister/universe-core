@@ -1,0 +1,16 @@
+{
+  "id": "EVENT_visited_the_blackwrit_causeway_1772517592624",
+  "date": "08.01.11 4A 01:49",
+  "placeId": "PLACE_the_blackwrit_causeway",
+  "important": false,
+  "importanceScore": null,
+  "scope": null,
+  "relevantPlaceIds": null,
+  "eventType": "location_visited",
+  "category": "world",
+  "subject": "The Blackwrit Causeway",
+  "subjectId": "PLACE_the_blackwrit_causeway",
+  "fact": "Visited The Blackwrit Causeway",
+  "significance": "minor",
+  "witnessIds": null
+}

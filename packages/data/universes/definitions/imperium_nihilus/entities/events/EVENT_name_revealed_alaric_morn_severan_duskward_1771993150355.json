@@ -1,0 +1,18 @@
+{
+  "id": "EVENT_name_revealed_alaric_morn_severan_duskward_1771993150355",
+  "date": "999.M1 16:38",
+  "placeId": null,
+  "important": false,
+  "importanceScore": null,
+  "scope": null,
+  "relevantPlaceIds": null,
+  "eventType": "name_revealed",
+  "category": "knowledge",
+  "subject": "Severan Duskward",
+  "subjectId": "CHAR_severan_duskward",
+  "fact": "Learned the name \"Severan Duskward\"",
+  "significance": "minor",
+  "witnessIds": [
+    "CHAR_alaric_morn"
+  ]
+}

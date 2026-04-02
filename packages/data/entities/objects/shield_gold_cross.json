@@ -1,0 +1,22 @@
+{
+  "id": "shield_gold_cross",
+  "name": "Gold Cross Shield",
+  "description": "A white shield with a gold cross emblem.",
+  "purposes": [
+    "decoration",
+    "tavern",
+    "residence"
+  ],
+  "tags": [
+    "tavern",
+    "wall"
+  ],
+  "solid": false,
+  "layer": "overhead",
+  "spriteId": "shield_gold_cross",
+  "materials": [
+    "iron"
+  ],
+  "tintable": false,
+  "wallVerticalOffset": -1
+}

@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_lantern_guest_cell",
+  "label": "Lantern Guest Cell",
+  "description": "Lantern Guest Cell is a narrow sleeping chamber cut into the Pallid Lantern’s ferrocrete gallery wall, its surfaces ribbed with exposed bracing and sealed service seams. A built-in bunk and plasteel locker occupy opposite sides, their edges rounded and bolted in accordance with the enclave’s impact and fire protocols. Hooded lumen slits cast a cold, regulated light that leaves corners in deliberate shadow, while the air carries a constant draft from the tavern’s vent grilles. A thick, gasketed door and an internal vox-call plate emphasize the room’s function as secured lodging under siege discipline.",
+  "short_description": "cold fortified bedroom",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "bedroom",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "door_wooden",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/battles/PLACE_lantern_guest_cell.png?v=1771996329699",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 336,
+    "y": 160,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_the_pallid_lantern",
+    "innerWidth": 448,
+    "innerHeight": 512
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/places/PLACE_lantern_guest_cell.png?v=1771996381671",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

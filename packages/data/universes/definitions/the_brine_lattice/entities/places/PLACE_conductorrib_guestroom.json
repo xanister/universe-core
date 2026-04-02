@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_conductorrib_guestroom",
+  "label": "Conductor-Rib Guestroom",
+  "description": "Conductor-Rib Guestroom is a pressure-rated sleeping chamber inset into the Index Lantern’s black composite structure, its curved outer wall following the Anchorage ring. Transit indices are etched as permanent datum lines along the ceiling and bunk frame, matching the tavern’s inlaid navigational ornament. Furnishings remain strictly modular: a narrow berth, a folding desk, and a sealed wash niche built into conductor-metal panels. Steady low lighting holds a uniform gloom, unaffected by the engineered gradients of time and inertia beyond the bulkhead.",
+  "short_description": "pressure-rated guest room",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "bedroom",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "door_wooden",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/the_brine_lattice/images/battles/PLACE_conductorrib_guestroom.png?v=1772313941695",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 144,
+    "y": 160,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_the_index_lantern",
+    "innerWidth": 640,
+    "innerHeight": 608
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/the_brine_lattice/images/places/PLACE_conductorrib_guestroom.png?v=1772314007833",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

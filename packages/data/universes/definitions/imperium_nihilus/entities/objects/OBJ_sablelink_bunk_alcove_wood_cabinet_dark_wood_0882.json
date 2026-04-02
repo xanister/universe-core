@@ -1,0 +1,52 @@
+{
+  "id": "OBJ_sablelink_bunk_alcove_wood_cabinet_dark_wood_0882",
+  "label": "Dark wood cabinet",
+  "description": "Dark wood cabinet",
+  "important": false,
+  "short_description": "dark wood cabinet",
+  "tags": [
+    "ship"
+  ],
+  "entityType": "object",
+  "info": {
+    "purpose": "storage",
+    "solid": true,
+    "layer": "default",
+    "isStructural": false,
+    "material": null,
+    "tint": null,
+    "spriteConfig": {
+      "spriteId": "cabinet_dark_wood",
+      "frame": null,
+      "animationKey": null,
+      "animated": false,
+      "facing": "south"
+    },
+    "hp": null,
+    "maxHp": null,
+    "state": null,
+    "contents": null,
+    "lightSource": null,
+    "itemId": null,
+    "plotId": null
+  },
+  "position": {
+    "x": 240,
+    "y": 224,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_sablelink_bunk_alcove"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "relationships": [],
+  "image": null,
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "search"
+  }
+}

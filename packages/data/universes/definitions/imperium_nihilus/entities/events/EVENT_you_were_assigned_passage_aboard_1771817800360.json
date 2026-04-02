@@ -1,0 +1,16 @@
+{
+  "id": "EVENT_you_were_assigned_passage_aboard_1771817800360",
+  "date": null,
+  "placeId": null,
+  "eventType": null,
+  "category": "world",
+  "subject": "Background",
+  "subjectId": null,
+  "fact": "You were assigned passage aboard the Ashen Lateen as part of a sanctioned, charter-bound transit through Cyrenth Vale’s river routes.",
+  "significance": "major",
+  "important": true,
+  "witnessIds": null,
+  "importanceScore": null,
+  "scope": null,
+  "relevantPlaceIds": null
+}

@@ -1,0 +1,16 @@
+{
+  "id": "EVENT_a_major_catastrophe_created_the_1772209199301",
+  "date": null,
+  "placeId": null,
+  "eventType": "catastrophe",
+  "category": "world",
+  "subject": "Catastrophe",
+  "subjectId": null,
+  "fact": "A major catastrophe created the Crater in western Gaardia; explanations vary across scholarship and local tradition, and later reports associate the region with anomalous effects on magic and law.",
+  "significance": "major",
+  "important": true,
+  "witnessIds": null,
+  "importanceScore": null,
+  "scope": "regional",
+  "relevantPlaceIds": null
+}

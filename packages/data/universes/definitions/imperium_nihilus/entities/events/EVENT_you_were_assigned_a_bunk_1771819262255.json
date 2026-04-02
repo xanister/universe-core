@@ -1,0 +1,16 @@
+{
+  "id": "EVENT_you_were_assigned_a_bunk_1771819262255",
+  "date": null,
+  "placeId": null,
+  "eventType": null,
+  "category": "world",
+  "subject": "Background",
+  "subjectId": null,
+  "fact": "You were assigned a bunk, a station on deck, and briefed on storm protocol before the ship cast off into Vespera Tertius’ ashwinds.",
+  "significance": "moderate",
+  "important": true,
+  "witnessIds": null,
+  "importanceScore": null,
+  "scope": null,
+  "relevantPlaceIds": null
+}

@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_cosmos",
+  "label": "Cosmos",
+  "description": "The root of existence in the Hollow Lattice, ordered as an immense interlocking web of void-channels and luminous filaments that define all distance and boundary. Its structure obeys a strict geometry of repeating cells, each bearing strata of lightless interval and radiance that serve as the fundamental medium of space. Far-off horizons resolve into nested lattices rather than empty darkness, and every region is marked by the persistent presence of tensile lines that anchor matter, motion, and time.",
+  "short_description": "interlinked void lattice",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "cosmos",
+    "environment": {
+      "type": "space",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": false,
+        "base": null,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.6
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "star_sun",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/the_hollow_lattice/images/battles/PLACE_cosmos.png?v=1772313734990",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 0,
+    "y": 0,
+    "width": 64,
+    "height": 64,
+    "parent": null,
+    "innerWidth": 7808,
+    "innerHeight": 8768
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/the_hollow_lattice/images/places/PLACE_cosmos.png?v=1772313787335",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": true
+}

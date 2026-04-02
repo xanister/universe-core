@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_prismsleeper_cell",
+  "label": "Prism-Sleeper Cell",
+  "description": "Prism-Sleeper Cell serves as a private bedchamber carved into the temple’s basalt thickness, its walls faced with slagcrete panels scored by ash abrasion. A low sleeping dais of black stone stands beneath a narrow auroraglass slit, which casts violet bands across copper grounding strips set into the floor. Vox-silencing insulation and gasketed vents keep the chamber unnaturally still despite the electrostatic storms outside. Recessed niches for devotional tokens and sealed storage are cut directly into the masonry, maintaining the temple’s austere, relay-minded order.",
+  "short_description": "violet-lit basalt cell",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "bedroom",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "door_wooden",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/battles/PLACE_prismsleeper_cell.png?v=1771972146082",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 944,
+    "y": 1824,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_temple_of_the_riftvigil",
+    "innerWidth": 512,
+    "innerHeight": 448
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/places/PLACE_prismsleeper_cell.png?v=1771972191954",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

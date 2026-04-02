@@ -1,0 +1,240 @@
+{
+  "id": "CHAR_tired_male_deckhand",
+  "label": "Tired Male Deckhand",
+  "description": "This individual is a human male of working age, marked by a bronze skinTone set deep with fatigue lines from long exposure to wind and spray. Brown eyes sit heavy-lidded beneath salt-roughened brows, and black hair is kept in a plain, utilitarian cut that shows ingrained grime at the roots. The hands are broad and callused, with one forearm bearing a fresh, poorly cleaned wound that readily bleeds under pressure. The overall build is wiry and sea-hardened, with shoulders and back shaped by repetitive shipboard labor.",
+  "short_description": "tired male deckhand",
+  "tags": [],
+  "entityType": "character",
+  "info": {
+    "purpose": "player",
+    "aliases": [
+      "Deckhand"
+    ],
+    "birthdate": "Unknown",
+    "deathdate": null,
+    "title": null,
+    "birthPlace": "",
+    "eyeColor": "brown",
+    "gender": "male",
+    "hairColor": "black",
+    "hairStyle": "plain",
+    "beardStyle": "stubble",
+    "headType": "human_male",
+    "skinTone": "bronze",
+    "personality": "A disciplined shiphand accustomed to hard routines and strict hierarchies, direct in speech and sparing with sentiment. He endures discomfort without complaint until injury forces confession, and he treats orders as obligations rather than suggestions.",
+    "race": "human",
+    "messages": [],
+    "journal": [],
+    "sketches": [],
+    "verbosity": 3,
+    "conversationContext": null,
+    "storytellerState": null,
+    "isPlayer": false,
+    "storyComplete": false,
+    "routine": null,
+    "vesselRoutes": null,
+    "abstractLocation": null,
+    "npcBehavior": null,
+    "physicalState": null,
+    "pendingDeparture": null,
+    "pendingArrival": null,
+    "lastRoutineCheckPeriod": null,
+    "startingNarrative": null,
+    "startingCharacterState": null,
+    "clothing": [
+      {
+        "slot": "torso_under",
+        "itemId": "longsleeve",
+        "color": "#f5f0e8",
+        "contents": null
+      },
+      {
+        "slot": "torso_over",
+        "itemId": "trenchcoat",
+        "color": "#3a3a3a",
+        "contents": null
+      },
+      {
+        "slot": "legs",
+        "itemId": "cloth_pants",
+        "color": "#000080",
+        "contents": null
+      },
+      {
+        "slot": "feet",
+        "itemId": "boots",
+        "color": "#8b4513",
+        "contents": null
+      },
+      {
+        "slot": "belt",
+        "itemId": "rope_belt",
+        "color": "#d2b48c",
+        "contents": [
+          {
+            "id": "ci_1772162112345_jxp8bp",
+            "itemId": "unarmed",
+            "name": "unarmed",
+            "description": null,
+            "type": "weapon",
+            "quantity": 1,
+            "color": null,
+            "equipSlot": "weapon",
+            "plotId": null
+          }
+        ]
+      }
+    ],
+    "enabledOverlayLayers": [
+      "eyes",
+      "facial"
+    ],
+    "helmingVesselId": null,
+    "storytellerDisabled": false,
+    "rulesetState": {
+      "stats": {
+        "physical": 49,
+        "mental": 50,
+        "social": 50,
+        "poise": 49,
+        "max_poise": 49,
+        "bloodloss": 0,
+        "anxiety": 0,
+        "fatigue": 0,
+        "hunger": 0
+      },
+      "conditions": [],
+      "statUsage": {},
+      "incapacitation": null,
+      "incapacitatedSince": null
+    },
+    "voiceId": "chris",
+    "spriteConfig": {
+      "bodyType": "male",
+      "layers": [
+        {
+          "type": "body",
+          "optionId": "body_base",
+          "tint": 11373408
+        },
+        {
+          "type": "body",
+          "optionId": "body_universal",
+          "tint": 11373408
+        },
+        {
+          "type": "eyes",
+          "optionId": "eyes_eyes",
+          "tint": 7029286
+        },
+        {
+          "type": "facial",
+          "optionId": "facial_beard",
+          "tint": 1710618
+        },
+        {
+          "type": "hair",
+          "optionId": "hair_plain",
+          "tint": 1710618
+        },
+        {
+          "type": "torso",
+          "optionId": "torso_white_longsleeve",
+          "tint": 16117992
+        },
+        {
+          "type": "torso",
+          "optionId": "torso_formal_trenchcoat_male",
+          "tint": 3815994
+        },
+        {
+          "type": "legs",
+          "optionId": "legs_white_pants_male",
+          "tint": 128
+        },
+        {
+          "type": "feet",
+          "optionId": "feet_white_boots_male",
+          "tint": 9127187
+        },
+        {
+          "type": "belt",
+          "optionId": "belt_wulax_belt_rope_male",
+          "tint": 13808780
+        }
+      ],
+      "spriteHash": "d5c06eebce427efe",
+      "spriteUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/sprites/generated/d5c06eebce427efe.png",
+      "spriteScale": 1
+    }
+  },
+  "position": {
+    "x": 880,
+    "y": 336,
+    "width": 32,
+    "height": 48,
+    "parent": "PLACE_the_gloam_lantern"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/characters/CHAR_tired_male_deckhand.png?v=1772162168333",
+  "faceAnchorY": 0.17,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "talk"
+  },
+  "relationships": [
+    {
+      "targetId": "CHAR_a_fatigued_deckhand_messenger",
+      "type": "colleague",
+      "disposition": 10,
+      "familiarity": 50,
+      "context": "Both are deckhands aboard/attached to PLACE_the_gloam_lantern, with similar dutiful, procedure-first shipboard routines; likely know each other through shared ship labor and rotations.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_sevrin_halcott",
+      "type": "acquaintance",
+      "disposition": 0,
+      "familiarity": 40,
+      "context": "As a working deckhand frequenting or passing through the establishment, he would likely know the bar staff member at PLACE_the_gloam_lantern on a transactional basis (orders, tabs, house rules).",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_sevrin_halden",
+      "type": "acquaintance",
+      "disposition": 0,
+      "familiarity": 40,
+      "context": "Bar staff at the same location; a shiphand is likely to have routine, professional contact when eating/drinking or when order is enforced.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_sevrin_lasko",
+      "type": "acquaintance",
+      "disposition": 0,
+      "familiarity": 40,
+      "context": "Same venue; likely a known face to staff due to shiphand patronage and the staff’s ledger-keeping/order enforcement.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_sevrin_malco",
+      "type": "acquaintance",
+      "disposition": 0,
+      "familiarity": 40,
+      "context": "Same location; probable repeated, practical interactions across the counter as a working deckhand comes in off shift.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_tavian_lork",
+      "type": "acquaintance",
+      "disposition": 0,
+      "familiarity": 40,
+      "context": "Same location; likely brief, professional interactions typical between regular ship crew and counter staff.",
+      "pendingGeneration": false
+    }
+  ],
+  "important": false
+}

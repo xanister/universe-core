@@ -1,0 +1,241 @@
+{
+  "id": "CHAR_varos_khyne",
+  "label": "Varos Khyne",
+  "description": "An emaciated undead of indeterminate age, this individual bears pale skinTone stretched tight over prominent cheekbones and a sharpened jawline. Gray eyes sit deep in the sockets, fixed beneath heavy, smoke-darkened lids that never fully relax. White hair, worn in an unkempt style, clings in wiry strands to a scalp marked by long fissures and healed breaks. The hands are elongated and knotted, with rigid fingers and split nails that attest to prolonged burial and damp cavern air.",
+  "short_description": "undead male grotto wight",
+  "tags": [],
+  "entityType": "character",
+  "info": {
+    "purpose": "undead",
+    "aliases": [
+      "The Umbravolt Wight",
+      "Cavern-Bound Dead"
+    ],
+    "birthdate": "Unknown",
+    "deathdate": null,
+    "title": null,
+    "birthPlace": "",
+    "eyeColor": "gray",
+    "gender": "male",
+    "hairColor": "white",
+    "hairStyle": "unkempt",
+    "beardStyle": null,
+    "headType": "human_male",
+    "skinTone": "amber",
+    "personality": "Taciturn and ritualistic, this undead retains a compulsive attachment to place, circling familiar passages and reacting with immediate hostility to disturbances of the grotto’s stillness. It follows simple, repetitive behaviors—guarding narrow approaches, lingering at water-worn thresholds, and returning to the same stone alcoves as if compelled by residual duty. Speech is absent; communication is limited to rasping breath and low, grinding vocalizations that intensify when intruders draw near.",
+    "race": "human",
+    "messages": [],
+    "journal": [],
+    "sketches": [],
+    "verbosity": 3,
+    "conversationContext": null,
+    "storytellerState": null,
+    "isPlayer": false,
+    "storyComplete": false,
+    "routine": {
+      "schedule": {
+        "dawn": "work",
+        "morning": "work",
+        "afternoon": "work",
+        "evening": "work",
+        "night": "work"
+      },
+      "home": {
+        "placeId": "PLACE_umbravolt_grotto",
+        "description": "Umbravolt Grotto",
+        "areaHint": null
+      },
+      "work": {
+        "placeId": "PLACE_umbravolt_grotto",
+        "description": "Umbravolt Grotto",
+        "areaHint": null
+      },
+      "leisure": null,
+      "variance": 0.2,
+      "activities": {
+        "work": "undead_patrol"
+      }
+    },
+    "vesselRoutes": null,
+    "abstractLocation": null,
+    "npcBehavior": null,
+    "physicalState": null,
+    "pendingDeparture": null,
+    "pendingArrival": null,
+    "lastRoutineCheckPeriod": null,
+    "startingNarrative": null,
+    "startingCharacterState": null,
+    "clothing": [
+      {
+        "slot": "torso_under",
+        "itemId": "tunic",
+        "color": "#3a3a3a",
+        "contents": null
+      },
+      {
+        "slot": "torso_over",
+        "itemId": "trenchcoat",
+        "color": "#1a1a1a",
+        "contents": null
+      },
+      {
+        "slot": "legs",
+        "itemId": "cloth_pants",
+        "color": "#808080",
+        "contents": null
+      },
+      {
+        "slot": "feet",
+        "itemId": "boots",
+        "color": "#8b4513",
+        "contents": null
+      },
+      {
+        "slot": "hands",
+        "itemId": "cloth_gloves",
+        "color": "#1a1a1a",
+        "contents": null
+      },
+      {
+        "slot": "belt",
+        "itemId": "rope_belt",
+        "color": "#d2b48c",
+        "contents": [
+          {
+            "id": "ci_1771952465964_cx44rf",
+            "itemId": "unarmed",
+            "name": "unarmed",
+            "description": null,
+            "type": "weapon",
+            "quantity": 1,
+            "color": null,
+            "equipSlot": "weapon",
+            "plotId": null
+          }
+        ]
+      }
+    ],
+    "enabledOverlayLayers": [
+      "eyes",
+      "facial"
+    ],
+    "helmingVesselId": null,
+    "storytellerDisabled": false,
+    "rulesetState": {
+      "stats": {
+        "physical": 50,
+        "mental": 50,
+        "social": 50,
+        "poise": 50,
+        "max_poise": 50,
+        "bloodloss": 0,
+        "anxiety": 0,
+        "fatigue": 0,
+        "hunger": 0
+      },
+      "conditions": [],
+      "statUsage": {},
+      "incapacitation": null,
+      "incapacitatedSince": null
+    },
+    "voiceId": "brian",
+    "spriteConfig": {
+      "bodyType": "male",
+      "layers": [
+        {
+          "type": "body",
+          "optionId": "body_base",
+          "tint": 13936490
+        },
+        {
+          "type": "body",
+          "optionId": "body_universal",
+          "tint": 13936490
+        },
+        {
+          "type": "eyes",
+          "optionId": "eyes_eyes",
+          "tint": 8423560
+        },
+        {
+          "type": "hair",
+          "optionId": "hair_unkempt",
+          "tint": 15262944
+        },
+        {
+          "type": "torso",
+          "optionId": "torso_formal_trenchcoat_male",
+          "tint": 1710618
+        },
+        {
+          "type": "legs",
+          "optionId": "legs_white_pants_male",
+          "tint": 8421504
+        },
+        {
+          "type": "feet",
+          "optionId": "feet_white_boots_male",
+          "tint": 9127187
+        },
+        {
+          "type": "hands",
+          "optionId": "hands_white_gloves_male",
+          "tint": 1710618
+        },
+        {
+          "type": "belt",
+          "optionId": "belt_wulax_belt_rope_male",
+          "tint": 13808780
+        }
+      ],
+      "spriteHash": "27b770b2e52053e2",
+      "spriteUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/sprites/generated/27b770b2e52053e2.png",
+      "spriteScale": 1
+    }
+  },
+  "position": {
+    "x": 1746,
+    "y": 534,
+    "width": 32,
+    "height": 48,
+    "parent": "PLACE_umbravolt_grotto"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/characters/CHAR_varos_khyne.png?v=1771952523200",
+  "faceAnchorY": 0.18,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "talk"
+  },
+  "relationships": [
+    {
+      "targetId": "CHAR_odran_vilt",
+      "type": "acquaintance",
+      "disposition": 0,
+      "familiarity": 40,
+      "context": "Both are place-bound undead occupying the Umbravolt Grotto, likely aware of each other’s patrol routes and territorial boundaries.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_sivren_malch",
+      "type": "acquaintance",
+      "disposition": 0,
+      "familiarity": 40,
+      "context": "Both function as silent, ritualized sentinels within the same grotto passages, making incidental familiarity likely.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_malthus_kerevin",
+      "type": "acquaintance",
+      "disposition": 0,
+      "familiarity": 40,
+      "context": "Shared location and similar ritual patrol/guard behavior in the Umbravolt Grotto suggests they recognize and tolerate each other as co-haunting sentinels.",
+      "pendingGeneration": false
+    }
+  ],
+  "important": false
+}

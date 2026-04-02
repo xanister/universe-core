@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_halo_quietus_port",
+  "label": "Halo Quietus Port",
+  "description": "Halo Quietus Port serves as the primary deep-field spaceport within Vesperglass System, anchored along the mirrorlike heliopause halo where particulate radiance densifies into stable navigational gradients. Its docking ring is plated in black-ceramic composites and segmented with polarized reflectors that tame the system’s copper-white twilight into precise approach lines. Traffic control relies on the geometry of hushlit reflections, with beacon pylons calibrated to the charged arcs of the vitrified debris belt and set to suppress stray glare. Pressurized concourses present sealed observation galleries and instrument bays designed for long-haul servicing under cold, low-light conditions.",
+  "short_description": "hushlit halo spaceport",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "spaceport",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "spaceport",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/hushlight_expanse/images/battles/PLACE_halo_quietus_port.png?v=1772313770542",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 2384,
+    "y": 1184,
+    "width": 32,
+    "height": 32,
+    "parent": "PLACE_vesperglass_system",
+    "innerWidth": 2912,
+    "innerHeight": 3040
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/hushlight_expanse/images/places/PLACE_halo_quietus_port.png?v=1772313822122",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

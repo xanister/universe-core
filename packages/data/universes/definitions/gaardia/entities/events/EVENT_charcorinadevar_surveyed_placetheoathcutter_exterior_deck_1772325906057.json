@@ -1,0 +1,21 @@
+{
+  "id": "EVENT_charcorinadevar_surveyed_placetheoathcutter_exterior_deck_1772325906057",
+  "date": "04.01.11 4A 07:26",
+  "placeId": "PLACE_the_oathcutter",
+  "eventType": null,
+  "category": "world",
+  "subject": "The Oathcutter",
+  "subjectId": "PLACE_the_oathcutter",
+  "fact": "CHAR_corin_adevar surveyed PLACE_the_oathcutter exterior deck",
+  "significance": "moderate",
+  "witnessIds": [
+    "CHAR_cassian_rowe",
+    "CHAR_jorren_talwick"
+  ],
+  "important": false,
+  "importanceScore": null,
+  "scope": "local",
+  "relevantPlaceIds": [
+    "PLACE_the_oathcutter"
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "id": "OBJ_ruinward_bondstore_ceramic_jar_plain_0016",
+  "label": "Ceramic Storage Jar",
+  "description": "A large plain ceramic storage jar.",
+  "important": false,
+  "short_description": "ceramic storage jar",
+  "tags": [
+    "common",
+    "container",
+    "storage",
+    "tavern"
+  ],
+  "entityType": "object",
+  "info": {
+    "purpose": "storage",
+    "solid": true,
+    "layer": "default",
+    "isStructural": false,
+    "material": null,
+    "tint": null,
+    "spriteConfig": {
+      "spriteId": "ceramic_jar_plain",
+      "frame": null,
+      "animationKey": null,
+      "animated": false,
+      "facing": "south"
+    },
+    "hp": null,
+    "maxHp": null,
+    "state": null,
+    "contents": null,
+    "lightSource": null,
+    "itemId": null,
+    "plotId": null
+  },
+  "position": {
+    "x": 1520,
+    "y": 320,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_ruinward_bondstore"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "relationships": [],
+  "image": null,
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "search"
+  }
+}

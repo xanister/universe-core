@@ -1,0 +1,18 @@
+{
+  "id": "EVENT_visited_the_tallyhouse_stores_1772606816788",
+  "date": "11.01.11 4A 07:53",
+  "placeId": "PLACE_the_tallyhouse_stores",
+  "important": false,
+  "importanceScore": null,
+  "scope": null,
+  "relevantPlaceIds": null,
+  "eventType": "location_visited",
+  "category": "world",
+  "subject": "The Tallyhouse Stores",
+  "subjectId": "PLACE_the_tallyhouse_stores",
+  "fact": "Visited The Tallyhouse Stores",
+  "significance": "minor",
+  "witnessIds": [
+    "CHAR_korr_brightblade"
+  ]
+}

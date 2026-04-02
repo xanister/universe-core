@@ -1,0 +1,21 @@
+{
+  "id": "EVENT_charkorrbrightblade_greeted_charperrinhalvay_at_placecindervale_1772605560462",
+  "date": "11.01.11 4A 07:37",
+  "placeId": "PLACE_cindervale",
+  "eventType": null,
+  "category": "relationship",
+  "subject": "Perrin Halvay",
+  "subjectId": "CHAR_perrin_halvay",
+  "fact": "CHAR_korr_brightblade greeted CHAR_perrin_halvay at PLACE_cindervale",
+  "significance": "moderate",
+  "witnessIds": [
+    "CHAR_korr_brightblade",
+    "CHAR_perrin_halvay"
+  ],
+  "important": false,
+  "importanceScore": null,
+  "scope": "local",
+  "relevantPlaceIds": [
+    "PLACE_cindervale"
+  ]
+}

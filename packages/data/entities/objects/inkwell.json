@@ -1,0 +1,20 @@
+{
+  "id": "inkwell",
+  "name": "Inkwell and Quill",
+  "description": "A glass ink bottle with a feather quill pen.",
+  "purposes": [
+    "decoration"
+  ],
+  "tags": [
+    "common",
+    "writing",
+    "tavern"
+  ],
+  "solid": false,
+  "layer": "default",
+  "spriteId": "inkwell",
+  "materials": [
+    "glass"
+  ],
+  "tintable": false
+}

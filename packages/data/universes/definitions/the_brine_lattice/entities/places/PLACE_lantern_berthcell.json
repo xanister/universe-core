@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_lantern_berthcell",
+  "label": "Lantern Berthcell",
+  "description": "Lantern Berthcell forms a compact sleeping chamber recessed behind pressure-rated bulkheads within The Index Lantern’s modular shell. The walls carry fine transit-index inlay continued from the tavern vaulting, while radiant conductor-ribs frame a narrow berth and a fold-down work ledge. Acoustic baffles and gasketed seams suppress the station’s docking-gallery vibration, preserving the tavern’s engineered, unvarying gloom. A sealed wash niche and stowage recesses emphasize short-layover function within Continuum Anchorage’s causality-safe regime.",
+  "short_description": "sealed berth in gloom",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "bedroom",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "door_wooden",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/the_brine_lattice/images/battles/PLACE_lantern_berthcell.png?v=1772313752444",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 560,
+    "y": 160,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_the_index_lantern",
+    "innerWidth": 544,
+    "innerHeight": 640
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/the_brine_lattice/images/places/PLACE_lantern_berthcell.png?v=1772313807868",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

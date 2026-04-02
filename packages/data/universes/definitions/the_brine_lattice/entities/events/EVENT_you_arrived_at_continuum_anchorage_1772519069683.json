@@ -1,0 +1,16 @@
+{
+  "id": "EVENT_you_arrived_at_continuum_anchorage_1772519069683",
+  "date": null,
+  "placeId": null,
+  "eventType": null,
+  "category": "world",
+  "subject": "Background",
+  "subjectId": null,
+  "fact": "You arrived at Continuum Anchorage on a scheduled passage and were directed to the Index Lantern to wait out the next safe routing window.",
+  "significance": "moderate",
+  "important": true,
+  "witnessIds": null,
+  "importanceScore": null,
+  "scope": null,
+  "relevantPlaceIds": null
+}

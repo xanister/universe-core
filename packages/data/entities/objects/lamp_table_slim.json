@@ -1,0 +1,30 @@
+{
+  "id": "lamp_table_slim",
+  "name": "Table Lamp (Slim Shade)",
+  "description": "A gold table lamp with a slim, bell-shaped lampshade.",
+  "purposes": [
+    "lighting"
+  ],
+  "tags": [
+    "common",
+    "furniture",
+    "lighting",
+    "bedroom"
+  ],
+  "solid": false,
+  "layer": "default",
+  "spriteId": "lamp_table_slim",
+  "materials": [
+    "metal",
+    "fabric"
+  ],
+  "tintable": false,
+  "lightSource": {
+    "radius": 72,
+    "color": "0xFFE4B5",
+    "intensity": 0.7,
+    "flicker": false,
+    "offsetX": 0,
+    "offsetY": -8
+  }
+}

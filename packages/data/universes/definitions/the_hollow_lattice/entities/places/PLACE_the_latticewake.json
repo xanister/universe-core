@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_the_latticewake",
+  "label": "The Latticewake",
+  "description": "The Latticewake is a vitreous-hulled sailing ship engineered for Kharion Prismworld’s laminar skies, its faceted planking cut into prismatic panels that lock to the planet’s fixed meridian glare. A rig of tensioned filament-spars carries sailcloth threaded with reflective dust, aligning to the Hollow Lattice’s tensile lines to maintain steady, angular tacks. The deck is laid in dark crystalline tiles scored with rectilinear grids, marking standard bearings against Kharion’s polyhedral horizons. Storage wells and mast steps are sealed under glass collars to resist the abrasive shear fronts that divide the repeating weather bands.",
+  "short_description": "vitreous sky-sailing ship",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "sailing_ship",
+    "environment": {
+      "type": "exterior",
+      "hasWeather": true,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": null
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "sailing_ship_sloop",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/the_hollow_lattice/images/battles/PLACE_the_latticewake.png?v=1772313959988",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 2768,
+    "y": 544,
+    "width": 64,
+    "height": 64,
+    "parent": "PLACE_kharion_prismworld",
+    "innerWidth": 1280,
+    "innerHeight": 1280
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/the_hollow_lattice/images/places/PLACE_the_latticewake.png?v=1772314026325",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

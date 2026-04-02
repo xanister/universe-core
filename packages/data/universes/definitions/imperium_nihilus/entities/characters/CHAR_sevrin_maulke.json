@@ -1,0 +1,286 @@
+{
+  "id": "CHAR_sevrin_maulke",
+  "label": "Sevrin Maulke",
+  "description": "This individual is a broad-shouldered human of middle years, marked by bronze skin and steady brown eyes set beneath heavy, work-worn brows. Black hair is kept in a plain, practical cut that leaves the face unobstructed and emphasizes a square jawline. Thickened fingers and prominent knuckles attest to long service in manual trade, while fine creases at the mouth and eyes record a life spent in close conversation and low light. The overall impression is durable, attentive, and accustomed to maintaining order at arm’s reach.",
+  "short_description": "male canteen barkeep",
+  "tags": [],
+  "entityType": "character",
+  "info": {
+    "purpose": "bartender",
+    "aliases": [
+      "Lantern Pourman",
+      "Maulke"
+    ],
+    "birthdate": "040.M41",
+    "deathdate": null,
+    "title": null,
+    "birthPlace": "Imperium Nihilus",
+    "eyeColor": "brown",
+    "gender": "male",
+    "hairColor": "black",
+    "hairStyle": "plain",
+    "beardStyle": "stubble",
+    "headType": "human_male",
+    "skinTone": "bronze",
+    "personality": "Measured and service-minded, this bartender maintains strict routines of cleanliness, portions, and credit, enforcing house order with a steady voice and an unblinking memory for faces. He favors brief, practical speech, listens more than he answers, and keeps patrons moving along without open confrontation. His manner remains controlled under provocation, reserving warmth for regulars who respect the bar’s rules.",
+    "race": "human",
+    "messages": [],
+    "journal": [],
+    "sketches": [],
+    "verbosity": 3,
+    "conversationContext": null,
+    "storytellerState": null,
+    "isPlayer": false,
+    "storyComplete": false,
+    "routine": {
+      "schedule": {
+        "dawn": "home",
+        "morning": "work",
+        "afternoon": "work",
+        "evening": "work",
+        "night": "home"
+      },
+      "home": {
+        "placeId": "PLACE_lantern_bunkroom",
+        "description": "Quarters near The Pallid Lantern",
+        "areaHint": null
+      },
+      "work": {
+        "placeId": "PLACE_the_pallid_lantern",
+        "description": "The Pallid Lantern",
+        "areaHint": null
+      },
+      "leisure": null,
+      "variance": 0.2,
+      "activities": {
+        "work": "tavern_work"
+      }
+    },
+    "vesselRoutes": null,
+    "abstractLocation": null,
+    "npcBehavior": null,
+    "physicalState": null,
+    "pendingDeparture": null,
+    "pendingArrival": null,
+    "lastRoutineCheckPeriod": null,
+    "startingNarrative": null,
+    "startingCharacterState": null,
+    "clothing": [
+      {
+        "slot": "torso_under",
+        "itemId": "shortsleeve",
+        "color": "#f5f0e8",
+        "contents": null
+      },
+      {
+        "slot": "torso_mid",
+        "itemId": "apron",
+        "color": "#8b4513",
+        "contents": null
+      },
+      {
+        "slot": "torso_over",
+        "itemId": "formal_jacket",
+        "color": "#3a3a3a",
+        "contents": null
+      },
+      {
+        "slot": "legs",
+        "itemId": "cloth_pants",
+        "color": "#1a1a1a",
+        "contents": null
+      },
+      {
+        "slot": "feet",
+        "itemId": "shoes",
+        "color": "#8b4513",
+        "contents": null
+      },
+      {
+        "slot": "belt",
+        "itemId": "leather_belt",
+        "color": "#8b4513",
+        "contents": [
+          {
+            "id": "ci_1772170929551_bmqvsw",
+            "itemId": "unarmed",
+            "name": "unarmed",
+            "description": null,
+            "type": "weapon",
+            "quantity": 1,
+            "color": null,
+            "equipSlot": "weapon",
+            "plotId": null
+          }
+        ]
+      },
+      {
+        "slot": "accessories",
+        "itemId": "glasses",
+        "color": null,
+        "contents": null
+      }
+    ],
+    "enabledOverlayLayers": [
+      "eyes",
+      "facial"
+    ],
+    "helmingVesselId": null,
+    "storytellerDisabled": false,
+    "rulesetState": {
+      "stats": {
+        "physical": 50,
+        "mental": 50,
+        "social": 50,
+        "poise": 50,
+        "max_poise": 50,
+        "bloodloss": 0,
+        "anxiety": 0,
+        "fatigue": 0,
+        "hunger": 0
+      },
+      "conditions": [],
+      "statUsage": {},
+      "incapacitation": null,
+      "incapacitatedSince": null
+    },
+    "voiceId": "eric",
+    "spriteConfig": {
+      "bodyType": "male",
+      "layers": [
+        {
+          "type": "body",
+          "optionId": "body_base",
+          "tint": 11373408
+        },
+        {
+          "type": "body",
+          "optionId": "body_universal",
+          "tint": 11373408
+        },
+        {
+          "type": "eyes",
+          "optionId": "eyes_eyes",
+          "tint": 7029286
+        },
+        {
+          "type": "facial",
+          "optionId": "facial_beard",
+          "tint": 1710618
+        },
+        {
+          "type": "hair",
+          "optionId": "hair_plain",
+          "tint": 1710618
+        },
+        {
+          "type": "torso",
+          "optionId": "torso_white_shortsleeve_male",
+          "tint": 16117992
+        },
+        {
+          "type": "torso",
+          "optionId": "torso_white_apron_male",
+          "tint": 9127187
+        },
+        {
+          "type": "torso",
+          "optionId": "torso_formal_jacket_male",
+          "tint": 3815994
+        },
+        {
+          "type": "legs",
+          "optionId": "legs_white_pants_male",
+          "tint": 1710618
+        },
+        {
+          "type": "feet",
+          "optionId": "feet_white_shoes_male",
+          "tint": 9127187
+        },
+        {
+          "type": "belt",
+          "optionId": "belt_leather_male",
+          "tint": 9127187
+        },
+        {
+          "type": "accessories",
+          "optionId": "accessories_formal_glasses_male",
+          "tint": 12632256
+        }
+      ],
+      "spriteHash": "8a092cbea03a8c2f",
+      "spriteUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/sprites/generated/8a092cbea03a8c2f.png",
+      "spriteScale": 1
+    }
+  },
+  "position": {
+    "x": 272,
+    "y": 240,
+    "width": 32,
+    "height": 48,
+    "parent": "PLACE_lantern_bunkroom"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/characters/CHAR_sevrin_maulke.png?v=1772170985485",
+  "faceAnchorY": 0.2,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "talk"
+  },
+  "relationships": [
+    {
+      "targetId": "CHAR_serren_malque",
+      "type": "colleague",
+      "disposition": 10,
+      "familiarity": 50,
+      "context": "Both are disciplined publicans/bartenders operating within The Pallid Lantern; likely work the same house and coordinate routines, tabs, and order enforcement.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_sevrin_ansel",
+      "type": "colleague",
+      "disposition": 10,
+      "familiarity": 50,
+      "context": "Both are bartenders/publicans tied to The Pallid Lantern locations (Pallid Lantern / lantern bunkroom), suggesting shared staff duties and overlapping shifts.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_sevrin_halcott",
+      "type": "colleague",
+      "disposition": 10,
+      "familiarity": 50,
+      "context": "Halcott is based in the Lanternkeepers’ quarters and runs the bar’s tempo; Sevrin Maulke works at The Pallid Lantern—likely same establishment staff.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_sevrin_lasko",
+      "type": "colleague",
+      "disposition": 10,
+      "familiarity": 50,
+      "context": "Lasko is stationed in the Lanternkeepers’ quarters with a bartender/publican profile; Maulke is a Lantern bartender—likely coworkers within the Lantern.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_sevrin_malko",
+      "type": "colleague",
+      "disposition": 10,
+      "familiarity": 50,
+      "context": "Malko is in the Lantern bunkroom and is a bartender; Maulke works the Pallid Lantern—suggesting shared employment and coordination.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_sevrin_palk",
+      "type": "colleague",
+      "disposition": 10,
+      "familiarity": 50,
+      "context": "Palk is in the Lantern bunkroom and is a disciplined bartender; Maulke is at The Pallid Lantern—likely colleagues in the same venue.",
+      "pendingGeneration": false
+    }
+  ],
+  "important": false
+}

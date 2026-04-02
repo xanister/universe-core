@@ -1,0 +1,16 @@
+{
+  "id": "EVENT_you_arrived_at_the_ashen_1771819262255",
+  "date": null,
+  "placeId": null,
+  "eventType": null,
+  "category": "world",
+  "subject": "Background",
+  "subjectId": null,
+  "fact": "You arrived at the Ashen Zephyr with mission-bound credentials and were accepted aboard as crew support after a curt inspection of your kit and seals.",
+  "significance": "major",
+  "important": true,
+  "witnessIds": null,
+  "importanceScore": null,
+  "scope": null,
+  "relevantPlaceIds": null
+}

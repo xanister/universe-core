@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_catenary_lensworks",
+  "label": "Catenary Lensworks",
+  "description": "Catenary Lensworks is a faultside workshop built of low, faceted bays clad in vitrified tile, its roofline tensioned by exposed cable arches that resist Lacrymara’s glass-dust loading. Interior benches align along a calibrated radiance trough, where the copper-white twilight is split by fixed baffles into measurement bands used to lap, polar-score, and edge-seal mirror glass. Grounded gutters and lensing cisterns collect electrostatically charged fallouts, feeding slurry channels that keep abrasives at uniform charge and grain. Wall niches hold standardized jigs and angular gauges keyed to Seamglass Meridian’s auroral track, ensuring every finished optic indexes cleanly to the city’s navigation geometry.",
+  "short_description": "glass lens workshop",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "workshop",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "building_shop",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/hushlight_expanse/images/battles/PLACE_catenary_lensworks.png?v=1772314031622",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 1616,
+    "y": 1824,
+    "width": 160,
+    "height": 256,
+    "parent": "PLACE_seamglass_meridian",
+    "innerWidth": 1952,
+    "innerHeight": 2272
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/hushlight_expanse/images/places/PLACE_catenary_lensworks.png?v=1772314082273",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

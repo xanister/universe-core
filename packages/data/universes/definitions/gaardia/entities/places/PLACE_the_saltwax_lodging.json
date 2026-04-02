@@ -1,0 +1,60 @@
+{
+  "id": "PLACE_the_saltwax_lodging",
+  "label": "The Saltwax Lodging",
+  "description": "The Saltwax Lodging occupies a narrow, three-story brick infill house built against a salvaged ashlar retaining wall of Varric Holdfast’s inner rampart. Its interior is organized around a steep central stair and two compact floors of chambers, each fitted with iron-hasped doors, limewashed plaster, and shuttered slit windows meant to deter both theft and night-glare from the wards below. A soot-dark hearth and built-in benches dominate the common room, while a locked cupboard for papers and seals reflects the city’s fixation on licensed records and enforceable contracts. Wall plaques reproduce interdiction symbols and hazard codes in plain script, embedding frontier warnings into domestic routine.",
+  "short_description": "wary brick lodginghouse",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "residence",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "building_residence",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/gaardia/images/battles/PLACE_the_saltwax_lodging.png?v=1772208722944",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 624,
+    "y": 1088,
+    "width": 160,
+    "height": 256,
+    "parent": "PLACE_varric_holdfast",
+    "innerWidth": 992,
+    "innerHeight": 704
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/gaardia/images/places/PLACE_the_saltwax_lodging.png?v=1772208772597",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": [
+    "The Latchmere Flat"
+  ],
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

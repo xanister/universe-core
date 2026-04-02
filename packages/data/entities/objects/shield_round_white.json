@@ -1,0 +1,22 @@
+{
+  "id": "shield_round_white",
+  "name": "White Round Shield",
+  "description": "A small white round shield or buckler.",
+  "purposes": [
+    "decoration",
+    "tavern",
+    "residence"
+  ],
+  "tags": [
+    "tavern",
+    "wall"
+  ],
+  "solid": false,
+  "layer": "overhead",
+  "spriteId": "shield_round_white",
+  "materials": [
+    "iron"
+  ],
+  "tintable": false,
+  "wallVerticalOffset": -1
+}

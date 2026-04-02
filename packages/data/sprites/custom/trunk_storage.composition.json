@@ -1,0 +1,23 @@
+{
+  "spriteId": "trunk_storage",
+  "gridWidth": 2,
+  "gridHeight": 1,
+  "tileSize": 32,
+  "tiles": [
+    {
+      "tilesetId": "container-generic",
+      "srcX": 64,
+      "srcY": 256,
+      "col": 0,
+      "row": 0
+    },
+    {
+      "tilesetId": "container-generic",
+      "srcX": 96,
+      "srcY": 256,
+      "col": 1,
+      "row": 0
+    }
+  ],
+  "updatedAt": "2026-03-02T16:05:10.603Z"
+}

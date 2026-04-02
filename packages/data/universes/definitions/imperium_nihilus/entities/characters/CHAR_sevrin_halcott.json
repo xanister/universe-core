@@ -1,0 +1,243 @@
+{
+  "id": "CHAR_sevrin_halcott",
+  "label": "Sevrin Halcott",
+  "description": "This individual is a middle-aged human of bronze skinTone and a compact, work-hardened build shaped by long years of service behind a bar. Brown eyes sit deep beneath a broad brow, giving a steady, appraising regard that rarely shifts in company. Brown hair, kept in a short and practical style, frames a square face marked by permanent smile-lines and a clearly set jaw. The hands are notably thick-fingered and calloused, a defining sign of repetitive labor and frequent handling of heavy casks and glassware.",
+  "short_description": "male tavern bartender",
+  "tags": [],
+  "entityType": "character",
+  "info": {
+    "purpose": "bartender",
+    "aliases": [
+      "Sev",
+      "The Lantern Pour"
+    ],
+    "birthdate": "986.M41",
+    "deathdate": null,
+    "title": null,
+    "birthPlace": "Imperium Nihilus",
+    "eyeColor": "brown",
+    "gender": "male",
+    "hairColor": "brown",
+    "hairStyle": "parted",
+    "beardStyle": "stubble",
+    "headType": "human_male",
+    "skinTone": "bronze",
+    "personality": "Measured and attentive, he maintains strict control of the bar’s tempo through economical speech, quick arithmetic, and an exact memory for regulars’ preferences. He enforces house order without theatrics, relying on calm authority, a practiced reading of moods, and a refusal to be hurried. In conversation he trades in plain facts and fair terms, cultivating discretion as a professional standard rather than a personal affectation.",
+    "race": "human",
+    "messages": [],
+    "journal": [],
+    "sketches": [],
+    "verbosity": 3,
+    "conversationContext": null,
+    "storytellerState": null,
+    "isPlayer": false,
+    "storyComplete": false,
+    "routine": {
+      "schedule": {
+        "dawn": "home",
+        "morning": "work",
+        "afternoon": "work",
+        "evening": "work",
+        "night": "home"
+      },
+      "home": {
+        "placeId": "PLACE_lanternkeepers_quarters",
+        "description": "Quarters near The Gloam Lantern",
+        "areaHint": null
+      },
+      "work": {
+        "placeId": "PLACE_the_gloam_lantern",
+        "description": "The Gloam Lantern",
+        "areaHint": null
+      },
+      "leisure": null,
+      "variance": 0.2,
+      "activities": {
+        "work": "tavern_work"
+      }
+    },
+    "vesselRoutes": null,
+    "abstractLocation": null,
+    "npcBehavior": null,
+    "physicalState": null,
+    "pendingDeparture": null,
+    "pendingArrival": null,
+    "lastRoutineCheckPeriod": null,
+    "startingNarrative": null,
+    "startingCharacterState": null,
+    "clothing": [
+      {
+        "slot": "torso_under",
+        "itemId": "formal_shirt",
+        "color": "#f5f0e8",
+        "contents": null
+      },
+      {
+        "slot": "torso_mid",
+        "itemId": "apron",
+        "color": "#3a3a3a",
+        "contents": null
+      },
+      {
+        "slot": "torso_over",
+        "itemId": "formal_jacket",
+        "color": null,
+        "contents": null
+      },
+      {
+        "slot": "legs",
+        "itemId": "formal_pants",
+        "color": "#1a1a1a",
+        "contents": null
+      },
+      {
+        "slot": "feet",
+        "itemId": "shoes",
+        "color": null,
+        "contents": null
+      },
+      {
+        "slot": "belt",
+        "itemId": "leather_belt",
+        "color": "#8b4513",
+        "contents": [
+          {
+            "id": "ci_1772085005022_v9excp",
+            "itemId": "unarmed",
+            "name": "unarmed",
+            "description": null,
+            "type": "weapon",
+            "quantity": 1,
+            "color": null,
+            "equipSlot": "weapon",
+            "plotId": null
+          }
+        ]
+      }
+    ],
+    "enabledOverlayLayers": [
+      "eyes",
+      "facial"
+    ],
+    "helmingVesselId": null,
+    "storytellerDisabled": false,
+    "rulesetState": {
+      "stats": {
+        "physical": 50,
+        "mental": 50,
+        "social": 50,
+        "poise": 50,
+        "max_poise": 50,
+        "bloodloss": 0,
+        "anxiety": 0,
+        "fatigue": 0,
+        "hunger": 0
+      },
+      "conditions": [],
+      "statUsage": {},
+      "incapacitation": null,
+      "incapacitatedSince": null
+    },
+    "voiceId": "eric",
+    "spriteConfig": {
+      "bodyType": "male",
+      "layers": [
+        {
+          "type": "body",
+          "optionId": "body_base",
+          "tint": 11373408
+        },
+        {
+          "type": "body",
+          "optionId": "body_universal",
+          "tint": 11373408
+        },
+        {
+          "type": "eyes",
+          "optionId": "eyes_eyes",
+          "tint": 7029286
+        },
+        {
+          "type": "facial",
+          "optionId": "facial_beard",
+          "tint": 7029286
+        },
+        {
+          "type": "hair",
+          "optionId": "hair_parted",
+          "tint": 7029286
+        },
+        {
+          "type": "torso",
+          "optionId": "torso_formal_shirt_male",
+          "tint": 16117992
+        },
+        {
+          "type": "torso",
+          "optionId": "torso_white_apron_male",
+          "tint": 3815994
+        },
+        {
+          "type": "torso",
+          "optionId": "torso_formal_jacket_male",
+          "tint": 9127187
+        },
+        {
+          "type": "legs",
+          "optionId": "legs_formal_pants_male",
+          "tint": 1710618
+        },
+        {
+          "type": "feet",
+          "optionId": "feet_white_shoes_male",
+          "tint": 9127187
+        },
+        {
+          "type": "belt",
+          "optionId": "belt_leather_male",
+          "tint": 9127187
+        }
+      ],
+      "spriteHash": "4ac598e8b1b9cbbe",
+      "spriteUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/sprites/generated/4ac598e8b1b9cbbe.png",
+      "spriteScale": 1
+    }
+  },
+  "position": {
+    "x": 304,
+    "y": 176,
+    "width": 32,
+    "height": 48,
+    "parent": "PLACE_lanternkeepers_quarters"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/characters/CHAR_sevrin_halcott.png?v=1772085063600",
+  "faceAnchorY": 0.17,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "talk"
+  },
+  "relationships": [
+    {
+      "targetId": "CHAR_sevrin_malko",
+      "type": "colleague",
+      "disposition": 10,
+      "familiarity": 50,
+      "context": "Both are bartenders associated with the Lantern; Sevrin Halcott at the Gloam Lantern and Sevrin Malko in the Lantern bunkroom suggests shared staff/operations.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_sevrin_palk",
+      "type": "colleague",
+      "disposition": 10,
+      "familiarity": 50,
+      "context": "Both are bartenders tied to the Lantern (Gloam Lantern vs Lantern bunkroom), making a shared workplace network likely.",
+      "pendingGeneration": false
+    }
+  ],
+  "important": false
+}

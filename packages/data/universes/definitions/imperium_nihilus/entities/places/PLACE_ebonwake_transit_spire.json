@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_ebonwake_transit_spire",
+  "label": "Ebonwake Transit Spire",
+  "description": "Ebonwake Transit Spire functions as a fortified void-traffic nexus in Imperium Nihilus, built as a basalt-clad arcology around a narrow launch shaft and armored docking collars. Its interior concourses follow strict Imperial transit geometry, with sainted lintels, numbered bulkhead-seals, and vox-pylons hardwired to rationed emergency channels. Shielded gallery windows overlook blast-scarred aprons where landing lights burn through persistent empyrean haze, and the air remains metallic with promethium residue. Checkpoints, quarantine screens, and chapel-bay shrines define the circulation of all cargo and passengers under constant threat of raider incursion and warp-born contamination.",
+  "short_description": "fortified void transit hub",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "spaceport",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "spaceport",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/battles/PLACE_ebonwake_transit_spire.png?v=1772058881935",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 11952,
+    "y": 2016,
+    "width": 32,
+    "height": 32,
+    "parent": "PLACE_the_cosmos",
+    "innerWidth": 4288,
+    "innerHeight": 3264
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/places/PLACE_ebonwake_transit_spire.png?v=1772058936214",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

@@ -1,0 +1,24 @@
+{
+  "id": "trophy_deer",
+  "name": "Deer Trophy",
+  "description": "A mounted deer head with antlers on a wooden shield plaque.",
+  "purposes": [
+    "decoration",
+    "tavern",
+    "residence"
+  ],
+  "tags": [
+    "tavern",
+    "wall"
+  ],
+  "solid": false,
+  "layer": "overhead",
+  "spriteId": "trophy_deer",
+  "materials": [
+    "wood",
+    "leather",
+    "bone"
+  ],
+  "tintable": false,
+  "wallVerticalOffset": -1
+}

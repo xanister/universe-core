@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_varric_holdfast",
+  "label": "Varric Holdfast",
+  "description": "Varric Holdfast stands as a refounded walled city on the scarred frontiers of Muraii, its outer wards laid over ruinfields left by the continent-scale catastrophe. Layered ramparts of salvaged ashlar and newer brick enclose steep lanes, magistrates’ courts, and licensed countinghouses, reflecting a civic order built on codified law and contested lineage. Ecclesiastical enclaves occupy fortified precincts, their competing orthodoxies marked by rival bell towers and shuttered scriptoria that regulate records and doctrine. Interdiction posts and hazard placards ring the old breach-sites beyond the gates, where anomalies tied to Ahm’a and the deeper liminal strata define the city’s uneasy perimeter.",
+  "short_description": "refounded walled city",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "city",
+    "environment": {
+      "type": "exterior",
+      "hasWeather": true,
+      "temperature": {
+        "enabled": true,
+        "base": null,
+        "modifiersApply": true
+      },
+      "maxDarkness": null
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "small_walled_town",
+      "facing": "south",
+      "layer": "floor"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/gaardia/images/battles/PLACE_varric_holdfast.png?v=1772208355919",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 1440,
+    "y": 2208,
+    "width": 48,
+    "height": 48,
+    "parent": "PLACE_anslem",
+    "innerWidth": 3488,
+    "innerHeight": 3136
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/gaardia/images/places/PLACE_varric_holdfast.png?v=1772208408172",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

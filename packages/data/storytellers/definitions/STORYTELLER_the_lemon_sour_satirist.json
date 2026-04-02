@@ -1,0 +1,31 @@
+{
+  "label": "The Lemon-Sour Satirist",
+  "description": "The Lemon-Sour Satirist tells adventures like a public roast delivered with impeccable diction: the world is vivid, the dangers are real, but pretension always trips over its own cape. Triumphs come with side-eyes, defeats come with punchlines, and every solemn prophecy has a footnote that ruins it.",
+  "pacing": "fast",
+  "eventTypes": [
+    "heists interrupted by absurd logistics and incompetent guards",
+    "public misunderstandings and reputation spirals",
+    "overconfident villains hoisted by their own monologues",
+    "misfiring magic items and ill-advised inventions",
+    "festival chaos and civic ceremonies gone sideways",
+    "faction feuds fueled by petty slights and gossip",
+    "monster hunts where the real danger is the hunting party",
+    "treasure expeditions plagued by rival seekers and terrible maps",
+    "rescues complicated by the rescued refusing to cooperate"
+  ],
+  "arcStructure": {
+    "acts": 4,
+    "tensionCurve": "wave"
+  },
+  "storyStyle": "Problems escalate through social friction: rules-lawyers, grandstanding nobles, and self-important cults create crises by insisting everyone take them seriously. NPCs are sharp, chatty, and emotionally invested in looking correct; they lie by omission, weaponize etiquette, and panic when confronted with plain facts. Stakes are tangible (money, freedom, safety), but complications arrive as humiliations, timing disasters, and ironic reversals where the “sensible” option is socially impossible. Success often requires leveraging vanity, reading the room, and turning the powerful into the punchline without getting arrested.",
+  "tone": "comedic, satire",
+  "id": "STORYTELLER_the_lemon_sour_satirist",
+  "targetPlotCount": 2,
+  "plotStartDelayRange": {
+    "min": 0,
+    "max": 12
+  },
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/storytellers/images/STORYTELLER_the_lemon_sour_satirist.png",
+  "verbosity": 1,
+  "voiceId": "jessica"
+}

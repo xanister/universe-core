@@ -1,0 +1,373 @@
+{
+  "spriteId": "building_shop",
+  "gridWidth": 5,
+  "gridHeight": 8,
+  "tileSize": 32,
+  "tiles": [
+    {
+      "tilesetId": "building-cityscape",
+      "srcX": 0,
+      "srcY": 256,
+      "col": 0,
+      "row": 1
+    },
+    {
+      "tilesetId": "building-cityscape",
+      "srcX": 0,
+      "srcY": 288,
+      "col": 0,
+      "row": 2
+    },
+    {
+      "tilesetId": "building-cityscape",
+      "srcX": 0,
+      "srcY": 320,
+      "col": 0,
+      "row": 3
+    },
+    {
+      "tilesetId": "building-cityscape",
+      "srcX": 224,
+      "srcY": 128,
+      "col": 0,
+      "row": 4
+    },
+    {
+      "tilesetId": "building-cityscape",
+      "srcX": 0,
+      "srcY": 352,
+      "col": 0,
+      "row": 4
+    },
+    {
+      "tilesetId": "building-cityscape",
+      "srcX": 192,
+      "srcY": 128,
+      "col": 0,
+      "row": 5
+    },
+    {
+      "tilesetId": "building-cityscape",
+      "srcX": 128,
+      "srcY": 224,
+      "col": 0,
+      "row": 5
+    },
+    {
+      "tilesetId": "building-cityscape",
+      "srcX": 192,
+      "srcY": 128,
+      "col": 0,
+      "row": 6
+    },
+    {
+      "tilesetId": "building-cityscape",
+      "srcX": 192,
+      "srcY": 160,
+      "col": 0,
+      "row": 7
+    },
+    {
+      "tilesetId": "building-cityscape",
+      "srcX": 32,
+      "srcY": 224,
+      "col": 1,
+      "row": 0
+    },
+    {
+      "tilesetId": "building-cityscape",
+      "srcX": 32,
+      "srcY": 256,
+      "col": 1,
+      "row": 1
+    },
+    {
+      "tilesetId": "building-cityscape",
+      "srcX": 32,
+      "srcY": 288,
+      "col": 1,
+      "row": 2
+    },
+    {
+      "tilesetId": "building-cityscape",
+      "srcX": 192,
+      "srcY": 96,
+      "col": 1,
+      "row": 3
+    },
+    {
+      "tilesetId": "building-cityscape",
+      "srcX": 32,
+      "srcY": 320,
+      "col": 1,
+      "row": 3
+    },
+    {
+      "tilesetId": "building-cityscape",
+      "srcX": 224,
+      "srcY": 128,
+      "col": 1,
+      "row": 4
+    },
+    {
+      "tilesetId": "building-cityscape",
+      "srcX": 32,
+      "srcY": 352,
+      "col": 1,
+      "row": 4
+    },
+    {
+      "tilesetId": "building-cityscape",
+      "srcX": 224,
+      "srcY": 128,
+      "col": 1,
+      "row": 5
+    },
+    {
+      "tilesetId": "building-cityscape",
+      "srcX": 224,
+      "srcY": 128,
+      "col": 1,
+      "row": 6
+    },
+    {
+      "tilesetId": "building-cityscape",
+      "srcX": 672,
+      "srcY": 0,
+      "col": 1,
+      "row": 6
+    },
+    {
+      "tilesetId": "building-cityscape",
+      "srcX": 224,
+      "srcY": 160,
+      "col": 1,
+      "row": 7
+    },
+    {
+      "tilesetId": "building-cityscape",
+      "srcX": 672,
+      "srcY": 32,
+      "col": 1,
+      "row": 7
+    },
+    {
+      "tilesetId": "building-cityscape",
+      "srcX": 64,
+      "srcY": 224,
+      "col": 2,
+      "row": 0
+    },
+    {
+      "tilesetId": "building-cityscape",
+      "srcX": 64,
+      "srcY": 256,
+      "col": 2,
+      "row": 1
+    },
+    {
+      "tilesetId": "building-cityscape",
+      "srcX": 64,
+      "srcY": 288,
+      "col": 2,
+      "row": 2
+    },
+    {
+      "tilesetId": "building-cityscape",
+      "srcX": 224,
+      "srcY": 96,
+      "col": 2,
+      "row": 3
+    },
+    {
+      "tilesetId": "building-cityscape",
+      "srcX": 64,
+      "srcY": 320,
+      "col": 2,
+      "row": 3
+    },
+    {
+      "tilesetId": "building-cityscape",
+      "srcX": 224,
+      "srcY": 128,
+      "col": 2,
+      "row": 4
+    },
+    {
+      "tilesetId": "building-cityscape",
+      "srcX": 64,
+      "srcY": 352,
+      "col": 2,
+      "row": 4
+    },
+    {
+      "tilesetId": "building-cityscape",
+      "srcX": 192,
+      "srcY": 224,
+      "col": 2,
+      "row": 4
+    },
+    {
+      "tilesetId": "building-cityscape",
+      "srcX": 256,
+      "srcY": 128,
+      "col": 2,
+      "row": 5
+    },
+    {
+      "tilesetId": "building-cityscape",
+      "srcX": 224,
+      "srcY": 128,
+      "col": 2,
+      "row": 6
+    },
+    {
+      "tilesetId": "building-cityscape",
+      "srcX": 224,
+      "srcY": 160,
+      "col": 2,
+      "row": 7
+    },
+    {
+      "tilesetId": "building-cityscape",
+      "srcX": 96,
+      "srcY": 224,
+      "col": 3,
+      "row": 0
+    },
+    {
+      "tilesetId": "building-cityscape",
+      "srcX": 96,
+      "srcY": 256,
+      "col": 3,
+      "row": 1
+    },
+    {
+      "tilesetId": "building-cityscape",
+      "srcX": 96,
+      "srcY": 288,
+      "col": 3,
+      "row": 2
+    },
+    {
+      "tilesetId": "building-cityscape",
+      "srcX": 256,
+      "srcY": 96,
+      "col": 3,
+      "row": 3
+    },
+    {
+      "tilesetId": "building-cityscape",
+      "srcX": 96,
+      "srcY": 320,
+      "col": 3,
+      "row": 3
+    },
+    {
+      "tilesetId": "building-cityscape",
+      "srcX": 224,
+      "srcY": 128,
+      "col": 3,
+      "row": 4
+    },
+    {
+      "tilesetId": "building-cityscape",
+      "srcX": 96,
+      "srcY": 352,
+      "col": 3,
+      "row": 4
+    },
+    {
+      "tilesetId": "building-cityscape",
+      "srcX": 224,
+      "srcY": 128,
+      "col": 3,
+      "row": 5
+    },
+    {
+      "tilesetId": "building-cityscape",
+      "srcX": 224,
+      "srcY": 128,
+      "col": 3,
+      "row": 6
+    },
+    {
+      "tilesetId": "building-cityscape",
+      "srcX": 640,
+      "srcY": 64,
+      "col": 3,
+      "row": 6
+    },
+    {
+      "tilesetId": "building-cityscape",
+      "srcX": 224,
+      "srcY": 160,
+      "col": 3,
+      "row": 7
+    },
+    {
+      "tilesetId": "building-cityscape",
+      "srcX": 128,
+      "srcY": 256,
+      "col": 4,
+      "row": 1
+    },
+    {
+      "tilesetId": "building-cityscape",
+      "srcX": 128,
+      "srcY": 288,
+      "col": 4,
+      "row": 2
+    },
+    {
+      "tilesetId": "building-cityscape",
+      "srcX": 128,
+      "srcY": 320,
+      "col": 4,
+      "row": 3
+    },
+    {
+      "tilesetId": "building-cityscape",
+      "srcX": 224,
+      "srcY": 128,
+      "col": 4,
+      "row": 4
+    },
+    {
+      "tilesetId": "building-cityscape",
+      "srcX": 128,
+      "srcY": 352,
+      "col": 4,
+      "row": 4
+    },
+    {
+      "tilesetId": "building-cityscape",
+      "srcX": 256,
+      "srcY": 128,
+      "col": 4,
+      "row": 5
+    },
+    {
+      "tilesetId": "building-cityscape",
+      "srcX": 256,
+      "srcY": 224,
+      "col": 4,
+      "row": 5
+    },
+    {
+      "tilesetId": "building-cityscape",
+      "srcX": 256,
+      "srcY": 128,
+      "col": 4,
+      "row": 6
+    },
+    {
+      "tilesetId": "building-cityscape",
+      "srcX": 256,
+      "srcY": 160,
+      "col": 4,
+      "row": 7
+    }
+  ],
+  "updatedAt": "2026-02-24T17:06:07.612Z"
+}

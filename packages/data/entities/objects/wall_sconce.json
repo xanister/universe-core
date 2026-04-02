@@ -1,0 +1,32 @@
+{
+  "id": "wall_sconce",
+  "name": "Wall Sconce",
+  "description": "A wall-mounted iron torch bracket with a burning flame.",
+  "purposes": [
+    "lighting"
+  ],
+  "tags": [
+    "common",
+    "lighting",
+    "tavern",
+    "wall"
+  ],
+  "solid": false,
+  "layer": "overhead",
+  "spriteId": "wall_sconce",
+  "materials": [
+    "iron"
+  ],
+  "tintable": false,
+  "animated": true,
+  "lightSource": {
+    "radius": 96,
+    "color": 16755268,
+    "intensity": 0.4,
+    "flicker": true,
+    "flickerSpeed": 150,
+    "flickerRange": 0.12,
+    "offsetX": 0,
+    "offsetY": -4
+  }
+}

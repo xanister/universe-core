@@ -1,0 +1,16 @@
+{
+  "id": "EVENT_you_boarded_after_a_long_1771817800360",
+  "date": null,
+  "placeId": null,
+  "eventType": null,
+  "category": "world",
+  "subject": "Background",
+  "subjectId": null,
+  "fact": "You boarded after a long stretch of overland travel, turning in your travel marks and submitting to the ship’s basic checks and onboard rules.",
+  "significance": "moderate",
+  "important": true,
+  "witnessIds": null,
+  "importanceScore": null,
+  "scope": null,
+  "relevantPlaceIds": null
+}

@@ -1,0 +1,219 @@
+{
+  "id": "CHAR_oswin_saltwrit",
+  "label": "Oswin Saltwrit",
+  "description": "This individual is an undead figure preserved by brine exposure, bearing brown skin that has hardened into a salt-cured, fissured texture. Gray eyes sit deep beneath heavy, collapsed lids, and gray hair grows in sparse, brittle strands across a shrunken scalp. The mouthline is set in a permanent retraction that exposes darkened teeth, while the hands remain permanently warped into grasping hooks by long desiccation. The frame is narrow and ropey, with joints fixed in angles that reflect years of cramped immobility in wet stone hollows.",
+  "short_description": "undead male grotto husk",
+  "tags": [],
+  "entityType": "character",
+  "info": {
+    "purpose": "undead",
+    "aliases": [
+      "Saltwrit Husk",
+      "Brine-Warden's Remnant"
+    ],
+    "birthdate": "Unknown",
+    "deathdate": null,
+    "title": null,
+    "birthPlace": "",
+    "eyeColor": "gray",
+    "gender": "male",
+    "hairColor": "gray",
+    "hairStyle": "unkempt",
+    "beardStyle": "stubble",
+    "headType": "human_male",
+    "skinTone": "brown",
+    "personality": "Silent and compliant under direct command, this undead persists as a salt-preserved labor-remnant that responds to simple gestures and repeated spoken cues. It shows no curiosity and maintains a fixed, task-bound attention, returning to habitual motions when left without instruction. Its presence reinforces the grotto’s economy of concealment, where bodies are treated as tools and the living measure authority by control of the dead.",
+    "race": "human",
+    "messages": [],
+    "journal": [],
+    "sketches": [],
+    "verbosity": 3,
+    "conversationContext": null,
+    "storytellerState": null,
+    "isPlayer": false,
+    "storyComplete": false,
+    "routine": {
+      "schedule": {
+        "dawn": "work",
+        "morning": "work",
+        "afternoon": "work",
+        "evening": "work",
+        "night": "work"
+      },
+      "home": {
+        "placeId": "PLACE_the_saltwrit_grotto",
+        "description": "The Saltwrit Grotto",
+        "areaHint": null
+      },
+      "work": {
+        "placeId": "PLACE_the_saltwrit_grotto",
+        "description": "The Saltwrit Grotto",
+        "areaHint": null
+      },
+      "leisure": null,
+      "variance": 0.2,
+      "activities": {
+        "work": "undead_patrol"
+      }
+    },
+    "vesselRoutes": null,
+    "abstractLocation": null,
+    "npcBehavior": null,
+    "physicalState": null,
+    "pendingDeparture": null,
+    "pendingArrival": null,
+    "lastRoutineCheckPeriod": null,
+    "startingNarrative": null,
+    "startingCharacterState": null,
+    "clothing": [
+      {
+        "slot": "torso_under",
+        "itemId": "tunic",
+        "color": "#f5f0e8",
+        "contents": null
+      },
+      {
+        "slot": "torso_over",
+        "itemId": "tattercape",
+        "color": "#3a3a3a",
+        "contents": null
+      },
+      {
+        "slot": "legs",
+        "itemId": "cloth_pants",
+        "color": "#808080",
+        "contents": null
+      },
+      {
+        "slot": "feet",
+        "itemId": "boots",
+        "color": "#8b4513",
+        "contents": null
+      },
+      {
+        "slot": "belt",
+        "itemId": "rope_belt",
+        "color": "#d2b48c",
+        "contents": []
+      },
+      {
+        "slot": "hands",
+        "itemId": "cloth_gloves",
+        "color": "#f5f0e8",
+        "contents": null
+      },
+      {
+        "slot": "head",
+        "itemId": "cloth_hood",
+        "color": "#3a3a3a",
+        "contents": null
+      }
+    ],
+    "enabledOverlayLayers": [
+      "eyes",
+      "facial"
+    ],
+    "helmingVesselId": null,
+    "storytellerDisabled": false,
+    "rulesetState": {
+      "stats": {
+        "poise": 50,
+        "max_poise": 50
+      },
+      "conditions": [],
+      "statUsage": {},
+      "incapacitation": null,
+      "incapacitatedSince": null
+    },
+    "voiceId": "brian",
+    "spriteConfig": {
+      "bodyType": "male",
+      "layers": [
+        {
+          "type": "body",
+          "optionId": "body_base",
+          "tint": 7029286
+        },
+        {
+          "type": "body",
+          "optionId": "body_universal",
+          "tint": 7029286
+        },
+        {
+          "type": "eyes",
+          "optionId": "eyes_eyes",
+          "tint": 8423560
+        },
+        {
+          "type": "facial",
+          "optionId": "facial_beard",
+          "tint": 8421504
+        },
+        {
+          "type": "legs",
+          "optionId": "legs_white_pants_male",
+          "tint": 8421504
+        },
+        {
+          "type": "feet",
+          "optionId": "feet_white_boots_male",
+          "tint": 9127187
+        },
+        {
+          "type": "belt",
+          "optionId": "belt_wulax_belt_rope_male",
+          "tint": 13808780
+        },
+        {
+          "type": "hands",
+          "optionId": "hands_white_gloves_male",
+          "tint": 16117992
+        },
+        {
+          "type": "head",
+          "optionId": "head_cloth_hood_male",
+          "tint": 3815994
+        }
+      ],
+      "spriteHash": "0c5aeb90f94424f7",
+      "spriteUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/sprites/generated/0c5aeb90f94424f7.png"
+    }
+  },
+  "position": {
+    "x": 1552,
+    "y": 2002,
+    "width": 32,
+    "height": 48,
+    "parent": "PLACE_the_saltwrit_grotto"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/gaardia/images/portrait-pool/undead/1.png",
+  "faceAnchorY": 0.18,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "talk"
+  },
+  "relationships": [
+    {
+      "targetId": "CHAR_nareth_quell",
+      "type": "colleague",
+      "disposition": 10,
+      "familiarity": 50,
+      "context": "Both are undead labor-remnants operating in PLACE_the_saltwrit_grotto, likely assigned parallel maintenance/concealment tasks within the same work environment.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_nareth_quell",
+      "type": "acquaintance",
+      "disposition": 0,
+      "familiarity": 40,
+      "context": "They inhabit the same grotto and would plausibly be aware of each other through repeated proximity during routine labor.",
+      "pendingGeneration": false
+    }
+  ],
+  "important": false
+}

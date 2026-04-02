@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_rafter_bedroom",
+  "label": "Rafter Bedroom",
+  "description": "Rafter Bedroom forms the loft’s enclosed sleeping room beneath soot-dark rafters, its ceiling pitched so low that the beams dominate the space. A narrow cot-platform and a built-in chest occupy the wall opposite a slit window, whose deep embrasure is scored with measurement marks and stained by wax and lamp soot. The plastered lath walls bear repairs in mismatched limewash, and iron strap-bracing remains exposed where the ancient masonry shifts under the bastion load. The air retains lime dust and smoke, consistent with Cindervale’s regulated, record-bound frontier life.",
+  "short_description": "low raftered bedroom",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "bedroom",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "door_wooden",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/gaardia/images/battles/PLACE_rafter_bedroom.png?v=1772416808047",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 176,
+    "y": 160,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_the_surveyors_loft",
+    "innerWidth": 512,
+    "innerHeight": 544
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/gaardia/images/places/PLACE_rafter_bedroom.png?v=1772416857277",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

@@ -1,0 +1,18 @@
+{
+  "id": "plate_kebab",
+  "name": "Kebab Plate",
+  "description": "A plate with grilled meat on a skewer.",
+  "purposes": [
+    "decoration"
+  ],
+  "tags": [
+    "common",
+    "food",
+    "tavern"
+  ],
+  "solid": false,
+  "layer": "default",
+  "spriteId": "plate_kebab",
+  "materials": [],
+  "tintable": false
+}

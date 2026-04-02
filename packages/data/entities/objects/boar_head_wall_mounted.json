@@ -1,0 +1,26 @@
+{
+  "id": "boar_head_wall_mounted",
+  "name": "Wall-Mounted Boar Head",
+  "description": "A taxidermied boar head mounted on a wooden plaque; a rustic trophy decoration.",
+  "purposes": [
+    "decoration",
+    "tavern",
+    "residence"
+  ],
+  "solid": false,
+  "layer": "overhead",
+  "wallVerticalOffset": -1,
+  "spriteId": "boar_head",
+  "materials": [
+    "wood",
+    "leather",
+    "bone"
+  ],
+  "tintable": false,
+  "tags": [
+    "ship",
+    "tavern",
+    "wall"
+  ],
+  "lightSource": null
+}

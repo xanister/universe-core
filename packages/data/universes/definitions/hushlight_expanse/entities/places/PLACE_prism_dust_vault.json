@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_prism_dust_vault",
+  "label": "Prism Dust Vault",
+  "description": "Prism Dust Vault is a sealed interior chamber lined with grounded vitrified tile and copper-mesh skirting, built to suppress static bloom from Lacrymara’s charged glass fallouts. Deep shelves of blackened silicate hold graded abrasive powders in stoppered canisters, each bay marked by the Lensworks’ radiance-band scale for repeatable slurry charge and grain. A narrow floor sump connects to the workshop’s slurry channels, keeping stored media at uniform humidity and preventing electrostatic clumping. The ceiling’s cable-arch ties descend into insulated hang points that suspend delicate blanks and offcuts clear of the dustline.",
+  "short_description": "sealed abrasive vault",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "storage_room",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.9
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "door_wooden",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/hushlight_expanse/images/battles/PLACE_prism_dust_vault.png?v=1772314096337",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 1104,
+    "y": 544,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_catenary_lensworks",
+    "innerWidth": 448,
+    "innerHeight": 704
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/hushlight_expanse/images/places/PLACE_prism_dust_vault.png?v=1772314146536",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

@@ -1,0 +1,54 @@
+{
+  "id": "OBJ_cinderwall_hab_suite_wardrobe_0364",
+  "label": "Wardrobe",
+  "description": "A tall wooden wardrobe",
+  "important": false,
+  "short_description": "wardrobe",
+  "tags": [
+    "common",
+    "furniture",
+    "storage"
+  ],
+  "entityType": "object",
+  "info": {
+    "purpose": "storage",
+    "solid": true,
+    "layer": "default",
+    "isStructural": false,
+    "material": null,
+    "tint": null,
+    "spriteConfig": {
+      "spriteId": "wardrobe",
+      "frame": null,
+      "animationKey": null,
+      "animated": false,
+      "facing": "south"
+    },
+    "hp": null,
+    "maxHp": null,
+    "state": null,
+    "contents": null,
+    "lightSource": null,
+    "itemId": null,
+    "plotId": null
+  },
+  "position": {
+    "x": 672,
+    "y": 640,
+    "width": 64,
+    "height": 96,
+    "parent": "PLACE_cinderwall_hab_suite"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "relationships": [],
+  "image": null,
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "search"
+  }
+}

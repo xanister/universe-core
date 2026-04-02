@@ -1,0 +1,56 @@
+{
+  "id": "PLACE_prismcell_storeroom",
+  "label": "Prismcell Storeroom",
+  "description": "Prismcell Storeroom serves as the secure back-of-house reserve for The Polarized Cask, sealed behind black-ceramic bulkheads that match Halo Quietus Port’s concourse plating. Stack-racks of polarized crates and vitrified glass kegs line the walls in disciplined rows, each shelf marked with charge-safe placards to prevent stray interference from the tavern’s threaded channels. A low, prismatic service lamp casts narrow bands of copper-white light that preserve the establishment’s hushlit aesthetic while keeping contents legible. Sound-damping ribs and overbuilt pressure latches maintain a near-anechoic quiet, isolating inventory from the concourse’s mechanical vibration and approach-line glare.",
+  "short_description": "quiet prismatic storeroom",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "storage_room",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.9
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "door_wooden",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 1008,
+    "y": 160,
+    "width": 32,
+    "height": 32,
+    "parent": "PLACE_the_polarized_cask"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": null,
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

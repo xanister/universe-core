@@ -1,0 +1,18 @@
+{
+  "id": "EVENT_name_revealed_korr_brightblade_tavian_roake_1772607084006",
+  "date": "11.01.11 4A 08:26",
+  "placeId": null,
+  "important": false,
+  "importanceScore": null,
+  "scope": null,
+  "relevantPlaceIds": null,
+  "eventType": "name_revealed",
+  "category": "knowledge",
+  "subject": "Tavian Roake",
+  "subjectId": "CHAR_tavian_roake",
+  "fact": "Learned the name \"Tavian Roake\"",
+  "significance": "minor",
+  "witnessIds": [
+    "CHAR_korr_brightblade"
+  ]
+}

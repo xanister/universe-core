@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_ashvault_stores_niche",
+  "label": "Ashvault Stores Niche",
+  "description": "Ashvault Stores Niche serves as the sealed stowage annex of Ashvault Hab-Cell, constructed as a shallow ferrocrete recess framed by void-black bracing. Ration tins, sealed water canisters, and standardized equipment bins occupy numbered shelves behind a gasketed panel door, each bay fitted with tally slates for strict inventory control. Recessed lumen strips provide a cold, even illumination that emphasizes scoured, decontamination-ready surfaces and the absence of decorative finish. The air remains dry with recycled filtration, and the only fittings are utilitarian restraints, tool hooks, and a narrow floor channel for washdown runoff.",
+  "short_description": "sealed ration stowage",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "storage_room",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.9
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "door_wooden",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/battles/PLACE_ashvault_stores_niche.png?v=1771995721218",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 624,
+    "y": 160,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_ashvault_habcell",
+    "innerWidth": 480,
+    "innerHeight": 736
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/places/PLACE_ashvault_stores_niche.png?v=1771995780440",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

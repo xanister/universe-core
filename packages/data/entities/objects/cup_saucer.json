@@ -1,0 +1,21 @@
+{
+  "id": "cup_saucer",
+  "name": "Cup and Saucer",
+  "description": "A dark metal teacup on a saucer.",
+  "purposes": [
+    "decoration",
+    "surface_item"
+  ],
+  "tags": [
+    "common",
+    "drinkware",
+    "tavern"
+  ],
+  "solid": false,
+  "layer": "default",
+  "spriteId": "cup_saucer",
+  "materials": [
+    "iron"
+  ],
+  "tintable": false
+}

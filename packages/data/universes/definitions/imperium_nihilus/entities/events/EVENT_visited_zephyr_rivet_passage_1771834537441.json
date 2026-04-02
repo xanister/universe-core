@@ -1,0 +1,16 @@
+{
+  "id": "EVENT_visited_zephyr_rivet_passage_1771834537441",
+  "date": "999.M1 23:00",
+  "placeId": "PLACE_zephyr_rivet_passage",
+  "important": false,
+  "importanceScore": null,
+  "scope": null,
+  "relevantPlaceIds": null,
+  "eventType": "location_visited",
+  "category": "world",
+  "subject": "Zephyr Rivet Passage",
+  "subjectId": "PLACE_zephyr_rivet_passage",
+  "fact": "Visited Zephyr Rivet Passage",
+  "significance": "minor",
+  "witnessIds": null
+}

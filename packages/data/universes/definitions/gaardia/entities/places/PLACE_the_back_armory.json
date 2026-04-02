@@ -1,0 +1,56 @@
+{
+  "id": "PLACE_the_back_armory",
+  "label": "The Back Armory",
+  "description": "The Back Armory occupies a low, stone-walled recess behind The Quenched Pike’s sales floor, where Cindervale’s fractured older masonry is squared and braced with riveted iron bands. Rank upon rank of locked weapon racks and bundled hafts lines the walls, interspersed with oiled chests for bolts, fittings, and spare heads wrapped against damp. License-stones are set beside an inventory shelf, their carved toll classes and interdictions repeated as permanent shop policy. The air holds a settled mixture of quenched steel, lamp oil, and char, and the plank floor bears deep grooves from long storage and shifting weight.",
+  "short_description": "locked weapon storage",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "storage_room",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.9
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "door_wooden",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 1648,
+    "y": 576,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_the_quenched_pike"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": null,
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

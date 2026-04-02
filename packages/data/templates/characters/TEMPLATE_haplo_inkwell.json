@@ -1,0 +1,23 @@
+{
+  "id": "TEMPLATE_haplo_inkwell",
+  "label": "Haplo Inkwell",
+  "description": "A travel-worn man with light gray hair and beard. He has a calm, appraising gaze, and hands marked by old ink-stains and small, tidy scars. His hair is kept back in a practical tie, and a faint crescent-shaped mark sits near one temple, as if from a long-ago impact or ritual. He moves with unhurried confidence, carrying himself like someone who’s learned to read danger before it speaks.",
+  "short_description": "mysterious traveler",
+  "personality": "Haplo is charming in a quiet, deliberate way—more courteous than flashy, with a steady humor that puts others at ease. He keeps a personal code: he won’t betray a promise, won’t take advantage of the helpless, and prefers clean outcomes over easy ones, even when no one is watching. Curious to the point of restlessness, he asks careful questions, listens longer than expected, and tends to walk toward the unknown when others turn back.",
+  "backstoryThemes": [
+    "lost home",
+    "exploration and mapping the unknown",
+    "honor-bound promises",
+    "secrets carried for protection"
+  ],
+  "physicalTraits": {
+    "gender": "male",
+    "eyeColor": "gray-blue",
+    "hairColor": "black",
+    "hairStyle": "longknot",
+    "race": "human",
+    "raceAdaptation": "human-like"
+  },
+  "image": "/api/admin/templates/images/TEMPLATE_haplo_inkwell.png",
+  "voiceId": "adam"
+}

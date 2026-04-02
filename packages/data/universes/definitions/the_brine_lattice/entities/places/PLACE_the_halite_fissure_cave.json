@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_the_halite_fissure_cave",
+  "label": "The Halite Fissure Cave",
+  "description": "The Halite Fissure Cave cuts into the Cairnspire Massif as a narrow basalt corridor split along a long tidal microfracture. Pale halite veins lace the walls in sharp, crystalline bands that catch and return Saltharrow’s hard white light from the entrance as cold glare. The floor slopes over broken talus and salt-crusted rubble, while the air holds a thin mineral haze that settles as rime in recessed pockets. Deeper chambers tighten into angular squeezes where black rock and white salt interlock in rigid, striated planes.",
+  "short_description": "salt-veined basalt cave",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "cave",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.9
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "stone_arch_ruins",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/the_brine_lattice/images/battles/PLACE_the_halite_fissure_cave.png?v=1772314195928",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 1376,
+    "y": 160,
+    "width": 48,
+    "height": 48,
+    "parent": "PLACE_cairnspire_massif",
+    "innerWidth": 3104,
+    "innerHeight": 1376
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/the_brine_lattice/images/places/PLACE_the_halite_fissure_cave.png?v=1772314245172",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

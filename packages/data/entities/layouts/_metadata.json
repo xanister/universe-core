@@ -1,0 +1,4 @@
+{
+  "version": "1.0.0",
+  "description": "Layout Templates - define internal structure (slots) for places. Only entities with layout templates are 'places' (can be entered)."
+}

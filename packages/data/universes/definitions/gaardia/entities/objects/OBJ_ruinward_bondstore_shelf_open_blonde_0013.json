@@ -1,0 +1,55 @@
+{
+  "id": "OBJ_ruinward_bondstore_shelf_open_blonde_0013",
+  "label": "Open Display Shelf (Blonde)",
+  "description": "A blonde wood shelf unit with open interior shelves.",
+  "important": false,
+  "short_description": "open display shelf (blonde)",
+  "tags": [
+    "common",
+    "furniture",
+    "display",
+    "shop"
+  ],
+  "entityType": "object",
+  "info": {
+    "purpose": "storage",
+    "solid": true,
+    "layer": "default",
+    "isStructural": false,
+    "material": null,
+    "tint": null,
+    "spriteConfig": {
+      "spriteId": "shelf_open_blonde",
+      "frame": null,
+      "animationKey": null,
+      "animated": false,
+      "facing": "south"
+    },
+    "hp": null,
+    "maxHp": null,
+    "state": null,
+    "contents": null,
+    "lightSource": null,
+    "itemId": null,
+    "plotId": null
+  },
+  "position": {
+    "x": 496,
+    "y": 1248,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_ruinward_bondstore"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "relationships": [],
+  "image": null,
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "search"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "altar_white",
+  "name": "Altar Table (White)",
+  "description": "A wide white-painted wood altar table — a simple communion table for the focal point of a temple or chapel.",
+  "purposes": [
+    "anchor"
+  ],
+  "tags": [
+    "furniture",
+    "altar",
+    "temple"
+  ],
+  "solid": true,
+  "layer": "default",
+  "spriteId": "altar_white",
+  "materials": [
+    "wood"
+  ],
+  "tintable": false
+}

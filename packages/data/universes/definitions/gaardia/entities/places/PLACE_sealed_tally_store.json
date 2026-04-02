@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_sealed_tally_store",
+  "label": "Sealed Tally Store",
+  "description": "The Sealed Tally Store serves as the Ledgerbound Exchange’s controlled storage, walled in salvaged ashlar and newer brick and closed behind an iron-banded door with a city-seal hasp. Numbered shelving and tarred pigeon-cubbies hold ledger bundles, wax-stoppered ink, and stamped weight-sets, each space keyed to a posted inventory slate. Rope-slung chests rest on raised planks to keep contents above damp rising from the ruin-laid foundations of Varric Holdfast. Hazard placards and interdiction broadsides are filed in a dedicated rack, preserving official notices as retained evidence of compliance.",
+  "short_description": "sealed merchant store",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "storage_room",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.9
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "door_wooden",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/gaardia/images/battles/PLACE_sealed_tally_store.png?v=1772208477218",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 1456,
+    "y": 736,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_the_ledgerbound_exchange",
+    "innerWidth": 480,
+    "innerHeight": 704
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/gaardia/images/places/PLACE_sealed_tally_store.png?v=1772208528632",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

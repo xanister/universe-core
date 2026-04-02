@@ -1,0 +1,53 @@
+{
+  "id": "OBJ_heliopause_parlor_exit_wooden_door_1859",
+  "label": "Seamline Concord",
+  "description": "Exit to Seamline Concord",
+  "important": false,
+  "short_description": "wooden door",
+  "tags": [
+    "ship",
+    "wall"
+  ],
+  "entityType": "object",
+  "info": {
+    "purpose": "exit",
+    "solid": false,
+    "layer": "wall",
+    "isStructural": false,
+    "material": null,
+    "tint": null,
+    "spriteConfig": {
+      "spriteId": "door_wooden",
+      "frame": null,
+      "animationKey": null,
+      "animated": false,
+      "facing": "east"
+    },
+    "hp": null,
+    "maxHp": null,
+    "state": null,
+    "contents": null,
+    "lightSource": null,
+    "itemId": null,
+    "plotId": null
+  },
+  "position": {
+    "x": 368,
+    "y": 704,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_heliopause_parlor"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "relationships": [],
+  "image": null,
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "nightstand_dark_wood",
+  "name": "Nightstand (Dark Wood)",
+  "description": "A simple dark wood bedside table with a single drawer.",
+  "purposes": [
+    "side_table",
+    "decoration",
+    "storage"
+  ],
+  "tags": ["common", "furniture", "bedroom"],
+  "solid": true,
+  "layer": "default",
+  "spriteId": "nightstand_dark_wood",
+  "materials": ["wood"],
+  "tintable": false
+}

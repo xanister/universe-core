@@ -1,0 +1,22 @@
+{
+  "id": "shield_dark_cross",
+  "name": "Dark Heraldic Cross Shield",
+  "description": "A dark navy shield with a gold cross design.",
+  "purposes": [
+    "decoration",
+    "tavern",
+    "residence"
+  ],
+  "tags": [
+    "tavern",
+    "wall"
+  ],
+  "solid": false,
+  "layer": "overhead",
+  "spriteId": "shield_dark_cross",
+  "materials": [
+    "iron"
+  ],
+  "tintable": false,
+  "wallVerticalOffset": -1
+}

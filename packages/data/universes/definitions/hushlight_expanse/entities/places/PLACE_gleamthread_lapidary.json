@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_gleamthread_lapidary",
+  "label": "Gleamthread Lapidary",
+  "description": "Gleamthread Lapidary is a basalt-glass workshop set into Seamline Concord’s escarpment terraces, its walls lined with mirror-slag panels that preserve the city’s calibrated sightlines under perpetual twilight. Bench bays hold lathes and abrasion tables whose gutters collect electrostatically pinned glass dust, sorted into graded drifts like mineral strata. A narrow lightwell admits Lacrymara’s copper-white gradient, refracted through suspended particulates into steady bands used for precision alignment. The floor is scored with seam-line datum marks that tie every cut, polish, and facet to the Concord’s navigational geometry.",
+  "short_description": "glass-dusted lapidary shop",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "workshop",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "building_shop",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/hushlight_expanse/images/battles/PLACE_gleamthread_lapidary.png?v=1772314061371",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 432,
+    "y": 896,
+    "width": 160,
+    "height": 256,
+    "parent": "PLACE_seamline_concord",
+    "innerWidth": 2560,
+    "innerHeight": 1344
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/hushlight_expanse/images/places/PLACE_gleamthread_lapidary.png?v=1772314109287",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

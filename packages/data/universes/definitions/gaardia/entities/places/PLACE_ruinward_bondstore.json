@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_ruinward_bondstore",
+  "label": "Ruinward Bondstore",
+  "description": "Ruinward Bondstore serves as a licensed warehouse of Cindervale, erected against a surviving strip of ancient ashlar and reinforced with blackened brick buttresses and riveted iron strapping. Its interior is organized by numbered bays of heavy timber racks and chained pallet-stalls, with a central tally-aisle designed for inspection under civic seal. Wall niches hold fixed lamp brackets and lockboxes for bond-tags, while a painted ordinance band repeats quarantine and interdiction notices mandated at the city’s license-stones. A narrow counting alcove of barred lattice overlooks the floor, emphasizing controlled custody over open commerce.",
+  "short_description": "licensed bonded warehouse",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "warehouse",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "building_warehouse",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/gaardia/images/battles/PLACE_ruinward_bondstore.png?v=1772606925492",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 2480,
+    "y": 704,
+    "width": 160,
+    "height": 256,
+    "parent": "PLACE_cindervale",
+    "innerWidth": 2976,
+    "innerHeight": 2528
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/gaardia/images/places/PLACE_ruinward_bondstore.png?v=1772606978335",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

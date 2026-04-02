@@ -1,0 +1,16 @@
+{
+  "id": "EVENT_visited_the_ashen_lateen_1771869997286",
+  "date": "999.M1 15:02",
+  "placeId": "PLACE_the_ashen_lateen",
+  "important": false,
+  "importanceScore": null,
+  "scope": null,
+  "relevantPlaceIds": null,
+  "eventType": "location_visited",
+  "category": "world",
+  "subject": "The Ashen Lateen",
+  "subjectId": "PLACE_the_ashen_lateen",
+  "fact": "Visited The Ashen Lateen",
+  "significance": "minor",
+  "witnessIds": null
+}

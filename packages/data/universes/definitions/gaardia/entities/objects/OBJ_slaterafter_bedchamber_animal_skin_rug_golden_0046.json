@@ -1,0 +1,53 @@
+{
+  "id": "OBJ_slaterafter_bedchamber_animal_skin_rug_golden_0046",
+  "label": "Golden Animal Skin Rug",
+  "description": "A golden-brown animal skin rug spread on the floor.",
+  "important": false,
+  "short_description": "golden animal skin rug",
+  "tags": [
+    "common",
+    "decoration",
+    "floor",
+    "tavern"
+  ],
+  "entityType": "object",
+  "info": {
+    "purpose": "floor_covering",
+    "solid": false,
+    "layer": "floor",
+    "isStructural": false,
+    "material": null,
+    "tint": null,
+    "spriteConfig": {
+      "spriteId": "animal_skin_rug_golden",
+      "frame": null,
+      "animationKey": null,
+      "animated": false,
+      "facing": "south"
+    },
+    "hp": null,
+    "maxHp": null,
+    "state": null,
+    "contents": null,
+    "lightSource": null,
+    "itemId": null,
+    "plotId": null
+  },
+  "position": {
+    "x": 432,
+    "y": 288,
+    "width": 96,
+    "height": 64,
+    "parent": "PLACE_slaterafter_bedchamber"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "relationships": [],
+  "image": null,
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": null
+}

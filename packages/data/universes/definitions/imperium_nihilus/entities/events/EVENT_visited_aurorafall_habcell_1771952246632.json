@@ -1,0 +1,18 @@
+{
+  "id": "EVENT_visited_aurorafall_habcell_1771952246632",
+  "date": "999.M1 17:24",
+  "placeId": "PLACE_aurorafall_habcell",
+  "important": false,
+  "importanceScore": null,
+  "scope": null,
+  "relevantPlaceIds": null,
+  "eventType": "location_visited",
+  "category": "world",
+  "subject": "Aurorafall Habcell",
+  "subjectId": "PLACE_aurorafall_habcell",
+  "fact": "Visited Aurorafall Habcell",
+  "significance": "minor",
+  "witnessIds": [
+    "CHAR_alaric_morn"
+  ]
+}

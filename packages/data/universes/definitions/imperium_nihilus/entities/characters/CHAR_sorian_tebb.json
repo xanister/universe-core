@@ -1,0 +1,226 @@
+{
+  "id": "CHAR_sorian_tebb",
+  "label": "Sorian Tebb",
+  "description": "This individual is a human of middle years, distinguished by bronze skin marked with ingrained work-wear at the knuckles and along the forearms. Brown eyes sit beneath heavy lids and a straight brow ridge, giving the face a steady, appraising cast. Brown hair is kept in a plain, close-cropped style that leaves the ears exposed and the hairline sharply defined. A trimmed beard frames a broad jaw and reinforces an overall impression of durable health and long habituation to hard service.",
+  "short_description": "male cantina bartender",
+  "tags": [],
+  "entityType": "character",
+  "info": {
+    "purpose": "bartender",
+    "aliases": [
+      "Tebb",
+      "The Cinder Pour"
+    ],
+    "birthdate": "Unknown",
+    "deathdate": null,
+    "title": null,
+    "birthPlace": "",
+    "eyeColor": "brown",
+    "gender": "male",
+    "hairColor": "brown",
+    "hairStyle": "plain",
+    "beardStyle": "trimmed",
+    "headType": "human_male",
+    "skinTone": "bronze",
+    "personality": "A disciplined, even-tempered publican who maintains strict standards of cleanliness, measure, and payment. He keeps conversations brief, listens more than he speaks, and enforces house order with practiced calm rather than spectacle. Regulars value his reliability and his refusal to indulge drunken bravado or private quarrels.",
+    "race": "human",
+    "messages": [],
+    "journal": [],
+    "sketches": [],
+    "verbosity": 3,
+    "conversationContext": null,
+    "storytellerState": null,
+    "isPlayer": false,
+    "storyComplete": false,
+    "routine": {
+      "schedule": {
+        "dawn": "home",
+        "morning": "work",
+        "afternoon": "work",
+        "evening": "work",
+        "night": "home"
+      },
+      "home": {
+        "placeId": "PLACE_cinder_cantina_loftroom",
+        "description": "Quarters near The Cinder Cantina",
+        "areaHint": null
+      },
+      "work": {
+        "placeId": "PLACE_the_cinder_cantina",
+        "description": "The Cinder Cantina",
+        "areaHint": null
+      },
+      "leisure": null,
+      "variance": 0.2,
+      "activities": {
+        "work": "tavern_work"
+      }
+    },
+    "vesselRoutes": null,
+    "abstractLocation": null,
+    "npcBehavior": null,
+    "physicalState": null,
+    "pendingDeparture": null,
+    "pendingArrival": null,
+    "lastRoutineCheckPeriod": null,
+    "startingNarrative": null,
+    "startingCharacterState": null,
+    "clothing": [
+      {
+        "slot": "torso_under",
+        "itemId": "shortsleeve",
+        "color": "#f5f0e8",
+        "contents": null
+      },
+      {
+        "slot": "torso_mid",
+        "itemId": "apron",
+        "color": "#3a3a3a",
+        "contents": null
+      },
+      {
+        "slot": "torso_over",
+        "itemId": "jacket",
+        "color": "#8b4513",
+        "contents": null
+      },
+      {
+        "slot": "legs",
+        "itemId": "cloth_pants",
+        "color": "#1a1a1a",
+        "contents": null
+      },
+      {
+        "slot": "feet",
+        "itemId": "boots",
+        "color": "#8b4513",
+        "contents": null
+      },
+      {
+        "slot": "belt",
+        "itemId": "leather_belt",
+        "color": "#8b4513",
+        "contents": [
+          {
+            "id": "ci_1772152071205_yi4up2",
+            "itemId": "unarmed",
+            "name": "unarmed",
+            "description": null,
+            "type": "weapon",
+            "quantity": 1,
+            "color": null,
+            "equipSlot": "weapon",
+            "plotId": null
+          }
+        ]
+      }
+    ],
+    "enabledOverlayLayers": [
+      "eyes",
+      "facial"
+    ],
+    "helmingVesselId": null,
+    "storytellerDisabled": false,
+    "rulesetState": {
+      "stats": {
+        "physical": 50,
+        "mental": 50,
+        "social": 50,
+        "poise": 50,
+        "max_poise": 50,
+        "bloodloss": 0,
+        "anxiety": 0,
+        "fatigue": 0,
+        "hunger": 0
+      },
+      "conditions": [],
+      "statUsage": {},
+      "incapacitation": null,
+      "incapacitatedSince": null
+    },
+    "voiceId": "eric",
+    "spriteConfig": {
+      "bodyType": "male",
+      "layers": [
+        {
+          "type": "body",
+          "optionId": "body_base",
+          "tint": 11373408
+        },
+        {
+          "type": "body",
+          "optionId": "body_universal",
+          "tint": 11373408
+        },
+        {
+          "type": "eyes",
+          "optionId": "eyes_eyes",
+          "tint": 7029286
+        },
+        {
+          "type": "facial",
+          "optionId": "facial_trimmed",
+          "tint": 7029286
+        },
+        {
+          "type": "hair",
+          "optionId": "hair_plain",
+          "tint": 7029286
+        },
+        {
+          "type": "torso",
+          "optionId": "torso_white_shortsleeve_male",
+          "tint": 16117992
+        },
+        {
+          "type": "torso",
+          "optionId": "torso_white_apron_male",
+          "tint": 3815994
+        },
+        {
+          "type": "torso",
+          "optionId": "torso_jacket_male",
+          "tint": 9127187
+        },
+        {
+          "type": "legs",
+          "optionId": "legs_white_pants_male",
+          "tint": 1710618
+        },
+        {
+          "type": "feet",
+          "optionId": "feet_white_boots_male",
+          "tint": 9127187
+        },
+        {
+          "type": "belt",
+          "optionId": "belt_leather_male",
+          "tint": 9127187
+        }
+      ],
+      "spriteHash": "473a95125e47ebc7",
+      "spriteUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/sprites/generated/473a95125e47ebc7.png",
+      "spriteScale": 1
+    }
+  },
+  "position": {
+    "x": 265.3,
+    "y": 311.6,
+    "width": 32,
+    "height": 48,
+    "parent": "PLACE_cinder_cantina_loftroom"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/characters/CHAR_sorian_tebb.png?v=1772152123709",
+  "faceAnchorY": 0.15,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "talk"
+  },
+  "relationships": [],
+  "important": false
+}

@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_the_refraction_house",
+  "label": "The Refraction House",
+  "description": "The Refraction House constitutes a private dwelling embedded within Kharion Meridian Confluence’s stepped glass terraces, its walls cut as a disciplined array of angled panes that split the meridian glare into fixed interior ribbons. A central atrium rises through the structure as a prismatic lightwell, calibrated to the laminar sky-sheets and sealed by a faceted oculus that admits only lattice-aligned illumination. Living chambers occupy alternating bands of radiance and engineered absolute shadow, their thresholds marked by narrow light-bridges whose color shifts with angle rather than time. Floors of dark crystalline tile preserve the city’s rectilinear grid in miniature, casting sharp-edged reflections that stabilize orientation within the house.",
+  "short_description": "prismatic glass residence",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "residence",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "building_residence",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/the_hollow_lattice/images/battles/PLACE_the_refraction_house.png?v=1772313985132",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 912,
+    "y": 928,
+    "width": 160,
+    "height": 256,
+    "parent": "PLACE_kharion_meridian_confluence",
+    "innerWidth": 832,
+    "innerHeight": 800
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/the_hollow_lattice/images/places/PLACE_the_refraction_house.png?v=1772314038110",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

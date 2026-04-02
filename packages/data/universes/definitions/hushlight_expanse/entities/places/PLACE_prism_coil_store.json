@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_prism_coil_store",
+  "label": "Prism Coil Store",
+  "description": "Prism Coil Store serves as the atelier’s secured storage vault, constructed in the same faceted vitrified tile and set behind a charge-bled threshold that prevents glass-dust arcing. Shelving bays are latticed with ceramic ribs and numbered lens-cases, while deep bins hold silicate ingots wrapped in conductive foil to preserve calibrated radiance states. A low ceiling grid of shuttered slats admits only measured copper-white bands, which pass through fixed prisms to mark inventory lines on the floor’s drainage channels. Sealed cistern mouths occupy the corners, collecting glittering runoff and keeping the room’s electrostatic load grounded to the gutter run below.",
+  "short_description": "measured radiance storeroom",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "storage_room",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.9
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "door_wooden",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/hushlight_expanse/images/battles/PLACE_prism_coil_store.png?v=1772314398040",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 560,
+    "y": 320,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_gleamweld_atelier",
+    "innerWidth": 448,
+    "innerHeight": 672
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": null,
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

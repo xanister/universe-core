@@ -1,0 +1,21 @@
+{
+  "id": "storage_trunk_blonde",
+  "name": "Storage Trunk (Blonde)",
+  "description": "A large blonde wood storage trunk.",
+  "purposes": [
+    "storage"
+  ],
+  "tags": [
+    "common",
+    "furniture",
+    "storage",
+    "shop"
+  ],
+  "solid": true,
+  "layer": "default",
+  "spriteId": "storage_trunk_blonde",
+  "materials": [
+    "wood"
+  ],
+  "tintable": false
+}

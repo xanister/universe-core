@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_auroral_sump_house",
+  "label": "Auroral Sump House",
+  "description": "Auroral Sump House is a low, faceted residence set on a fused-silicate plinth above Seamglass Meridian’s shallow reflective shallows. Its vitrified tile skin is scored into grounded gutters that draw electrostatic glass dust into a central lensing cistern, leaving the exterior perpetually clean-lined and light-reactive. Interior partitions are formed from translucent slagglass panels that refract the city’s calibrated twilight bands into strict, navigational color bars. A narrow roofwalk mounts fixed mirror slats aligned to the outer ring of pylons, integrating the dwelling into the city’s auroral timekeeping regimen.",
+  "short_description": "facet-tiled twilight home",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "residence",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "building_residence",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/hushlight_expanse/images/battles/PLACE_auroral_sump_house.png?v=1772313777866",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 2672,
+    "y": 1984,
+    "width": 160,
+    "height": 256,
+    "parent": "PLACE_seamglass_meridian",
+    "innerWidth": 640,
+    "innerHeight": 704
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/hushlight_expanse/images/places/PLACE_auroral_sump_house.png?v=1772313830706",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

@@ -1,0 +1,60 @@
+{
+  "id": "PLACE_sablelink_skyway_flat",
+  "label": "Sablelink Skyway Flat",
+  "description": "Sablelink Skyway Flat is a narrow residence inset into the hab-stack face where an enclosed skyway meets the shielded causeways of Nocturnis Bastion. Its walls are poured slagcrete clad in black vitrystone tiles, scored by abrasive stormfall and sealed with thick gaskets against ash ingress and electrostatic discharge. Narrow, slit-like viewports are fitted with layered shutters and vox-dampening mesh to blunt auroral backwash and signal interference. Built-in bunks, storage niches, and a recessed wash alcove reduce the dwelling to essential functions, with service conduits running in exposed, overarmored channels along the ceiling line.",
+  "short_description": "sealed hab-stack flat",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "residence",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "building_residence",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/battles/PLACE_sablelink_skyway_flat.png?v=1771950843278",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 176,
+    "y": 224,
+    "width": 160,
+    "height": 256,
+    "parent": "PLACE_vespera_tertius_nocturnis_bastion",
+    "innerWidth": 832,
+    "innerHeight": 960
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/places/PLACE_sablelink_skyway_flat.png?v=1771950896286",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": [
+    "Voxshade Tenement"
+  ],
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

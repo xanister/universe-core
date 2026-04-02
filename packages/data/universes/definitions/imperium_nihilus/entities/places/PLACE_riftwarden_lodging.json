@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_riftwarden_lodging",
+  "label": "Riftwarden Lodging",
+  "description": "Riftwarden Lodging is a compact residence embedded within Pale Meridian Enclave’s stepped ferrocrete terraces, its load-bearing walls poured_phi-reinforced and scored with service condu_classics for heat and air filtration. The interior is organized around a single vaulted living cell with sealed partition shutters, built to maintain blackout discipline under the bruise-hued aurorae and intermittent alarm",
+  "short_description": "sealed terrace dwelling",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "residence",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "building_residence",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/battles/PLACE_riftwarden_lodging.png?v=1771996591968",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 1776,
+    "y": 2912,
+    "width": 160,
+    "height": 256,
+    "parent": "PLACE_pale_meridian_enclave",
+    "innerWidth": 800,
+    "innerHeight": 672
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/places/PLACE_riftwarden_lodging.png?v=1771996645199",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

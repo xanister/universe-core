@@ -1,0 +1,401 @@
+{
+  "id": "PLOT_shards_of_the_dusk",
+  "label": "Shards of the Dusk",
+  "description": "A blood-stained clue pulls you into a world-spanning scavenger hunt for relic fragments that should never be reunited. Every step toward the prize forces a choice: who pays the cost for your progress—strangers, friends, or you.",
+  "plot": "Opening hook: the player notices a fresh corpse laid out like an offering, with a scrap of vellum-map stitched to its skin and the same sigil burned into nearby stones. A gaunt relic appraiser with ink-stained fingers hires the player to retrieve three ancient fragments scattered across distant regions, promising answers and coin but insisting the hunt remain quiet. A soft-spoken pilgrim who tends roadside shrines shadows the trail, turning each destination into a moral trap by offering desperate locals “mercies” that always demand someone else’s suffering. As the player assembles clues, they learn the scavenger hunt is designed to make them do the dangerous work: each recovered fragment strengthens a coming rite that drinks fear and grief from entire communities. A scarred caravan guide with a broken horn helps translate the fragments’ markings, but their knowledge carries the stink of past complicity and half-buried guilt. Midway through the hunt, the player discovers the appraiser’s true stake: the fragments can rewrite a personal curse at the price of many lives, and the appraiser is prepared to pay it. In the end, an oathbound investigator wearing ritual wards corners the player at the final site, forcing a choice between ruthless prevention, compromised salvation, or letting the pilgrim’s rite complete and watching the world darken in exchange for a single life spared.",
+  "characters": [
+    {
+      "role": "client",
+      "description": "Thin, sleepless, and meticulous; their hands are always ink-stained and faintly trembling, and they speak in careful bargains rather than requests.",
+      "publicFace": "A well-connected expert in old relics who funds expeditions to keep dangerous artifacts out of worse hands.",
+      "hiddenTruth": "They are cursed and believe the fragments can transfer the affliction into other souls; they hired the player to assemble what they cannot safely gather themselves.",
+      "locationHint": "often found in a rented back room above a reputable shop, surrounded by ledgers and sealed specimen boxes",
+      "introductionProgress": 0,
+      "matchHint": "gaunt relic appraiser with ink-stained fingers"
+    },
+    {
+      "role": "antagonist",
+      "description": "Soft-voiced and unnervingly calm, dressed in travel-worn devotional cloth; their presence makes people confess things they did not intend to say.",
+      "publicFace": "A harmless pilgrim offering blessings, shelter, and simple rites to grieving communities.",
+      "hiddenTruth": "They orchestrate the scavenger hunt to awaken a rite that feeds on despair; they guide the player through “helpful” coincidences and staged tragedies.",
+      "locationHint": "typically encountered along roads near shrines, mass graves, or places where people gather to mourn",
+      "introductionProgress": 15,
+      "matchHint": "soft-spoken pilgrim who tends roadside shrines"
+    },
+    {
+      "role": "informant",
+      "description": "Broad-shouldered with old blade scars and a cracked horn or bone charm worn as penance; they laugh too loudly when afraid.",
+      "publicFace": "A pragmatic guide who knows routes, smugglers, and how to survive cursed weather and worse people.",
+      "hiddenTruth": "They once carried messages for the pilgrim’s network and are trying to atone by undermining the hunt without getting caught.",
+      "locationHint": "found at traveler waystations, caravan camps, and border checkpoints where bribes are cheaper than questions",
+      "introductionProgress": 25,
+      "matchHint": "scarred caravan guide with a broken horn"
+    },
+    {
+      "role": "obstacle",
+      "description": "Rigid posture, warded armor or clothing etched with protective script; their gaze evaluates people like evidence.",
+      "publicFace": "A principled investigator hunting relic-trafficking and trying to prevent a catastrophe.",
+      "hiddenTruth": "They will sacrifice innocents and burn entire districts to deny the rite its fuel, believing cruelty now prevents greater horror later.",
+      "locationHint": "seen near confiscation sites, sealed crime scenes, and the entrances to restricted archives",
+      "introductionProgress": 60,
+      "matchHint": "oathbound investigator wearing ritual wards"
+    }
+  ],
+  "places": [
+    {
+      "description": "A choking maze of tar, incense, and wet wood where illicit relics sit beside ordinary goods; every alley has a watcher and every bargain has a consequence.",
+      "storyRole": "The first major lead appears here, and the player learns the hunt is already leaving bodies behind.",
+      "matchHint": "crowded dockside bazaar where cursed trinkets change hands"
+    },
+    {
+      "description": "Wind-carved stone and collapsed altars marked by old warding cuts; the air tastes metallic, and whispers seem to echo before you speak.",
+      "storyRole": "A fragment is hidden here behind defenses that demand sacrifice, revealing the fragments respond to suffering.",
+      "matchHint": "ruined hilltop sanctum etched with warding runes"
+    },
+    {
+      "description": "A cold, silent underworld of cataloged bones, censored chronicles, and locked drawers; the sanctified above-ground prayers do not reach this depth.",
+      "storyRole": "Holds the truth about what the fragments do and why reuniting them empowers the final rite.",
+      "matchHint": "subterranean archive beneath a consecrated hall"
+    }
+  ],
+  "items": [],
+  "turningPoints": [
+    {
+      "id": "TP_inciting_stitched_clue",
+      "progressTarget": 0,
+      "dramaticRole": "inciting_incident",
+      "involvedCharacter": "gaunt relic appraiser with ink-stained fingers",
+      "essentialInformation": [
+        "the player learns a world-spanning scavenger hunt is underway for three relic fragments",
+        "the player learns someone is murdering along the trail to send messages and shape the search",
+        "the player learns reuniting the fragments could trigger a catastrophe, not just reveal treasure"
+      ],
+      "triggerOnFlags": [],
+      "triggerConditions": null,
+      "conditionTimeoutHours": null,
+      "conditionsEligibleSince": null
+    },
+    {
+      "id": "TP_rising_first_fragment_cost",
+      "progressTarget": 40,
+      "dramaticRole": "rising_action",
+      "involvedCharacter": "scarred caravan guide with a broken horn",
+      "essentialInformation": [
+        "the player learns each clue or ward demands a moral cost, not just skill or strength",
+        "the player learns the first fragment carries instructions that point toward the next site",
+        "the player learns the hunt is being watched and guided by an unseen hand"
+      ],
+      "triggerOnFlags": [],
+      "triggerConditions": null,
+      "conditionTimeoutHours": null,
+      "conditionsEligibleSince": null
+    },
+    {
+      "id": "TP_midpoint_map_is_curse",
+      "progressTarget": 55,
+      "dramaticRole": "midpoint",
+      "involvedCharacter": "soft-spoken pilgrim who tends roadside shrines",
+      "essentialInformation": [
+        "the player learns assembling fragments strengthens a coming rite rather than preventing it",
+        "the player learns the scavenger hunt is a deliberate mechanism designed to make the player gather what others cannot",
+        "the player learns the client’s stated purpose is incomplete or misleading"
+      ],
+      "triggerOnFlags": [],
+      "triggerConditions": null,
+      "conditionTimeoutHours": null,
+      "conditionsEligibleSince": null
+    },
+    {
+      "id": "TP_crisis_deadline_and_choice",
+      "progressTarget": 70,
+      "dramaticRole": "crisis",
+      "involvedCharacter": "oathbound investigator wearing ritual wards",
+      "essentialInformation": [
+        "the player learns a specific deadline is approaching for the rite to be attempted",
+        "the player learns powerful factions will respond with extreme measures if the fragments keep moving",
+        "the player learns neutrality is no longer possible: someone will be condemned by the player’s next alliance or betrayal"
+      ],
+      "triggerOnFlags": [],
+      "triggerConditions": null,
+      "conditionTimeoutHours": null,
+      "conditionsEligibleSince": null
+    },
+    {
+      "id": "TP_climax_rite_at_final_site",
+      "progressTarget": 85,
+      "dramaticRole": "climax",
+      "involvedCharacter": "soft-spoken pilgrim who tends roadside shrines",
+      "essentialInformation": [
+        "the player learns stopping the rite requires a decisive choice about the fragments (destroy, hide, or misuse)",
+        "the player learns the client’s fate is bound to the rite’s outcome",
+        "the player learns the antagonist’s power comes from cultivated despair, not brute force alone"
+      ],
+      "triggerOnFlags": [],
+      "triggerConditions": null,
+      "conditionTimeoutHours": null,
+      "conditionsEligibleSince": null
+    },
+    {
+      "id": "TP_resolution_aftertaste",
+      "progressTarget": 92,
+      "dramaticRole": "resolution",
+      "involvedCharacter": "scarred caravan guide with a broken horn",
+      "essentialInformation": [
+        "the player learns the world’s immediate consequences reflect the costs they chose to pay",
+        "the player learns surviving fragments or knowledge remain tempting and dangerous",
+        "the player learns trust and guilt linger among the living, even after the rite is settled"
+      ],
+      "triggerOnFlags": [],
+      "triggerConditions": null,
+      "conditionTimeoutHours": null,
+      "conditionsEligibleSince": null
+    }
+  ],
+  "goals": [
+    {
+      "id": "GOAL_take_commission",
+      "description": "Decide whether to accept the scavenger hunt and take the first lead before the trail goes cold.",
+      "progressBoost": 20,
+      "revealOnFlags": [
+        "hook_noticed"
+      ],
+      "successFlags": [
+        "accepted_hunt"
+      ],
+      "failureFlags": [
+        "commission_refused"
+      ],
+      "failureDeadlineHours": 24
+    },
+    {
+      "id": "GOAL_recover_first_fragment",
+      "description": "Find and secure the first relic fragment from the initial trail of clues and corpses.",
+      "progressBoost": 25,
+      "revealOnFlags": [
+        "accepted_hunt"
+      ],
+      "successFlags": [
+        "fragment_one_secured"
+      ],
+      "failureFlags": [
+        "fragment_one_lost"
+      ],
+      "failureDeadlineHours": 72
+    },
+    {
+      "id": "GOAL_recover_second_fragment",
+      "description": "Follow the fragment’s guidance to the next region and claim the second fragment before rivals do.",
+      "progressBoost": 25,
+      "revealOnFlags": [
+        "fragment_one_secured"
+      ],
+      "successFlags": [
+        "fragment_two_secured"
+      ],
+      "failureFlags": [
+        "fragment_two_lost"
+      ],
+      "failureDeadlineHours": 96
+    },
+    {
+      "id": "GOAL_recover_third_fragment",
+      "description": "Cross the last distance and secure the final fragment needed to reach the endgame site.",
+      "progressBoost": 25,
+      "revealOnFlags": [
+        "fragment_two_secured"
+      ],
+      "successFlags": [
+        "fragment_three_secured"
+      ],
+      "failureFlags": [
+        "fragment_three_lost"
+      ],
+      "failureDeadlineHours": 96
+    },
+    {
+      "id": "GOAL_uncover_client_truth",
+      "description": "Determine what the client truly intends to do with the reunited fragments—and who will pay the price.",
+      "progressBoost": 20,
+      "revealOnFlags": [
+        "fragment_one_secured",
+        "fragment_two_secured"
+      ],
+      "successFlags": [
+        "client_secret_exposed"
+      ],
+      "failureFlags": [
+        "client_secret_hidden"
+      ],
+      "failureDeadlineHours": 120
+    },
+    {
+      "id": "GOAL_inquisitor_alignment",
+      "description": "Choose how to deal with the relentless investigator: ally, deceive, or make an enemy.",
+      "progressBoost": 20,
+      "revealOnFlags": [
+        "fragment_two_secured"
+      ],
+      "successFlags": [
+        "inquisitor_allied"
+      ],
+      "failureFlags": [
+        "inquisitor_angered"
+      ],
+      "failureDeadlineHours": 72
+    },
+    {
+      "id": "GOAL_stop_the_rite",
+      "description": "Confront the pilgrim’s plan at the final site and prevent the rite from consuming the region’s grief.",
+      "progressBoost": 40,
+      "revealOnFlags": [
+        "fragment_three_secured"
+      ],
+      "successFlags": [
+        "ritual_stopped"
+      ],
+      "failureFlags": [
+        "ritual_completed"
+      ],
+      "failureDeadlineHours": 48
+    },
+    {
+      "id": "GOAL_fate_of_client",
+      "description": "Decide the client’s fate once the truth is known and the endgame demands payment.",
+      "progressBoost": 30,
+      "revealOnFlags": [
+        "client_secret_exposed",
+        "ritual_stopped",
+        "ritual_completed"
+      ],
+      "successFlags": [
+        "client_saved"
+      ],
+      "failureFlags": [
+        "client_sacrificed"
+      ],
+      "failureDeadlineHours": 24
+    }
+  ],
+  "possibleFlags": [
+    {
+      "id": "hook_noticed",
+      "triggerDescription": "Set when the player investigates the early stitched clue/corpse marker and realizes it points to a larger pattern."
+    },
+    {
+      "id": "accepted_hunt",
+      "triggerDescription": "Set when the player agrees to pursue the relic fragments and takes the first actionable lead."
+    },
+    {
+      "id": "commission_refused",
+      "triggerDescription": "Set when the player refuses the commission or abandons it before taking the first lead."
+    },
+    {
+      "id": "fragment_one_secured",
+      "triggerDescription": "Set when the player obtains the first relic fragment and escapes immediate retaliation."
+    },
+    {
+      "id": "fragment_one_lost",
+      "triggerDescription": "Set when the first relic fragment is taken from the player, destroyed, or claimed by a rival before it can be used."
+    },
+    {
+      "id": "fragment_two_secured",
+      "triggerDescription": "Set when the player obtains the second relic fragment."
+    },
+    {
+      "id": "fragment_two_lost",
+      "triggerDescription": "Set when the second relic fragment is taken, destroyed, or claimed by a rival."
+    },
+    {
+      "id": "fragment_three_secured",
+      "triggerDescription": "Set when the player obtains the third relic fragment or reaches the final site with enough means to attempt the endgame."
+    },
+    {
+      "id": "fragment_three_lost",
+      "triggerDescription": "Set when the third relic fragment is taken, destroyed prematurely, or otherwise removed from play before the final confrontation."
+    },
+    {
+      "id": "client_secret_exposed",
+      "triggerDescription": "Set when the player uncovers proof of the client’s true motive and the personal bargain tied to the fragments."
+    },
+    {
+      "id": "client_secret_hidden",
+      "triggerDescription": "Set when the player reaches the endgame without uncovering (or chooses to ignore/bury) the client’s true motive."
+    },
+    {
+      "id": "inquisitor_allied",
+      "triggerDescription": "Set when the player cooperates with the investigator’s plan, shares evidence, or accepts their protection/resources."
+    },
+    {
+      "id": "inquisitor_angered",
+      "triggerDescription": "Set when the player thwarts, deceives, or publicly humiliates the investigator, causing them to escalate."
+    },
+    {
+      "id": "ritual_stopped",
+      "triggerDescription": "Set when the player prevents the rite from completing, by force, sabotage, or a substitute solution."
+    },
+    {
+      "id": "ritual_completed",
+      "triggerDescription": "Set when the rite completes, whether by the antagonist’s success or the player choosing the outcome."
+    },
+    {
+      "id": "client_saved",
+      "triggerDescription": "Set when the client survives the endgame and is not used as payment or fuel for the rite."
+    },
+    {
+      "id": "client_sacrificed",
+      "triggerDescription": "Set when the client dies or is used as payment/fuel as part of stopping or completing the rite."
+    }
+  ],
+  "endingCards": [
+    {
+      "condition": {
+        "type": "flag_set",
+        "flag": "ritual_stopped"
+      },
+      "title": "the rite breaks",
+      "text": "The air lightens, but it does not become clean; the harm you prevented leaves scars in people who will never know what almost happened. Rumors spread of what you destroyed—or what you kept."
+    },
+    {
+      "condition": {
+        "type": "flag_set",
+        "flag": "ritual_completed"
+      },
+      "title": "the world pays",
+      "text": "A new shadow settles over the land, subtle at first: harsher dreams, colder mercy, quieter laughter. Survivors search for someone to blame, and your footsteps are among the first tracks they follow."
+    },
+    {
+      "condition": {
+        "type": "flag_set",
+        "flag": "client_saved"
+      },
+      "title": "a life spared",
+      "text": "The client lives, but survival is not absolution; gratitude and guilt twist together until neither looks honest. Whatever curse drove them does not vanish—it simply changes shape."
+    },
+    {
+      "condition": {
+        "type": "flag_set",
+        "flag": "client_sacrificed"
+      },
+      "title": "the price is a person",
+      "text": "Their absence becomes a silence that follows you from town to town. Even if the world is safer, you are left to wonder whether you stopped evil—or merely chose which evil was permitted."
+    },
+    {
+      "condition": {
+        "type": "always",
+        "flag": ""
+      },
+      "title": "shards still whisper",
+      "text": "Whether hidden, broken, or misused, the fragments’ story does not end neatly. In dark places, someone is already collecting rumors, and the scavenger hunt waits for a new hand to pick up the trail."
+    }
+  ],
+  "credits": {
+    "title": "shards of the dusk",
+    "entries": [
+      {
+        "role": "Plot",
+        "name": "Storyteller"
+      }
+    ]
+  },
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/plots/images/PLOT_shards_of_the_dusk.png"
+}

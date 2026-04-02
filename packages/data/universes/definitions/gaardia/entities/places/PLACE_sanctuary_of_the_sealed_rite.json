@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_sanctuary_of_the_sealed_rite",
+  "label": "Sanctuary of the Sealed Rite",
+  "description": "The Sanctuary of the Sealed Rite occupies a refitted span of ancient stonework braced by later blackened brick and riveted iron, its façade engraved with interdiction clauses and quarantine ordinances. Inside, a narrow nave of soot-dark pillars leads to an altar dais screened by iron lattice and wax-sealed plaques that codify permitted liturgies and censured invocations. Reliquary niches are set behind grilles and numbered as if in an archive, reflecting Cindervale’s fusion of devotion with licensed custody. Lantern light is deliberately subdued, emphasizing the temple’s function as a controlled threshold against breaches associated with Ahm’a and Limbo.",
+  "short_description": "sealed frontier temple",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "temple",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "world_map_temple",
+      "facing": "south",
+      "layer": "floor"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/gaardia/images/battles/PLACE_sanctuary_of_the_sealed_rite.png?v=1772208629024",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 2448,
+    "y": 1888,
+    "width": 96,
+    "height": 96,
+    "parent": "PLACE_cindervale",
+    "innerWidth": 1984,
+    "innerHeight": 4544
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/gaardia/images/places/PLACE_sanctuary_of_the_sealed_rite.png?v=1772208680254",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

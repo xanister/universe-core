@@ -1,0 +1,276 @@
+{
+  "id": "CHAR_tamsin_werrick",
+  "label": "Tamsin Werrick",
+  "description": "This individual is a broad-shouldered human woman of early middle years, bearing brown eyes set beneath heavy lids and a direct, appraising gaze. Brown hair is kept in a practical, close-bound style that exposes a square jaw and a prominent nose shaped by old breaks. Taupe skin shows ingrained stain at the fingers and faint heat-marks along the forearms, consistent with a life spent at a busy tap. The voice carries the measured cadence of regulated houses, and the expression settles into an even, serviceable neutrality suited to steady trade.",
+  "short_description": "aproned female bartender",
+  "tags": [],
+  "entityType": "character",
+  "info": {
+    "purpose": "bartender",
+    "aliases": [
+      "Tam",
+      "Werrick"
+    ],
+    "birthdate": "1202-09-17",
+    "deathdate": null,
+    "title": null,
+    "birthPlace": "Gaardia",
+    "eyeColor": "brown",
+    "gender": "female",
+    "hairColor": "brown",
+    "hairStyle": "shortknot",
+    "beardStyle": null,
+    "headType": "human_female",
+    "skinTone": "taupe",
+    "personality": "Orderly and transaction-minded, she runs the bar by posted measure and house rule, keeping accounts by memory as readily as by slate. She enforces boundaries without theatrics, favors quiet efficiency over conviviality, and treats gossip as a commodity to be priced and controlled. Loyal to the inn’s legal posture, she refuses unlicensed rites, concealed blades, and credit without surety.",
+    "race": "human",
+    "messages": [],
+    "journal": [],
+    "sketches": [],
+    "verbosity": 3,
+    "conversationContext": null,
+    "storytellerState": null,
+    "isPlayer": false,
+    "storyComplete": false,
+    "routine": {
+      "schedule": {
+        "dawn": "home",
+        "morning": "work",
+        "afternoon": "work",
+        "evening": "work",
+        "night": "home"
+      },
+      "home": {
+        "placeId": "PLACE_the_attested_loft",
+        "description": "Quarters near The Writ and Tankard",
+        "areaHint": null
+      },
+      "work": {
+        "placeId": "PLACE_the_writ_and_tankard",
+        "description": "The Writ and Tankard",
+        "areaHint": null
+      },
+      "leisure": null,
+      "variance": 0.2,
+      "activities": {
+        "work": "tavern_work"
+      }
+    },
+    "vesselRoutes": null,
+    "abstractLocation": null,
+    "npcBehavior": null,
+    "physicalState": null,
+    "pendingDeparture": null,
+    "pendingArrival": null,
+    "lastRoutineCheckPeriod": null,
+    "startingNarrative": null,
+    "startingCharacterState": null,
+    "clothing": [
+      {
+        "slot": "torso_under",
+        "itemId": "blouse",
+        "color": "#f5f0e8",
+        "contents": null
+      },
+      {
+        "slot": "torso_mid",
+        "itemId": "apron",
+        "color": "#d2b48c",
+        "contents": null
+      },
+      {
+        "slot": "legs",
+        "itemId": "cloth_pants",
+        "color": "#3a3a3a",
+        "contents": null
+      },
+      {
+        "slot": "feet",
+        "itemId": "shoes",
+        "color": "#8b4513",
+        "contents": null
+      },
+      {
+        "slot": "belt",
+        "itemId": "leather_belt",
+        "color": "#8b4513",
+        "contents": []
+      }
+    ],
+    "enabledOverlayLayers": [
+      "eyes",
+      "facial"
+    ],
+    "helmingVesselId": null,
+    "storytellerDisabled": false,
+    "rulesetState": {
+      "stats": {},
+      "conditions": [],
+      "statUsage": {},
+      "incapacitation": null,
+      "incapacitatedSince": null
+    },
+    "voiceId": "bella",
+    "spriteConfig": {
+      "bodyType": "female",
+      "layers": [
+        {
+          "type": "body",
+          "optionId": "body_base",
+          "tint": 12890264
+        },
+        {
+          "type": "body",
+          "optionId": "body_universal",
+          "tint": 12890264
+        },
+        {
+          "type": "eyes",
+          "optionId": "eyes_eyes",
+          "tint": 7029286
+        },
+        {
+          "type": "hair",
+          "optionId": "hair_shortknot",
+          "tint": 7029286
+        },
+        {
+          "type": "torso",
+          "optionId": "torso_white_blouse_female",
+          "tint": 16117992
+        },
+        {
+          "type": "torso",
+          "optionId": "torso_white_apron_female",
+          "tint": 13808780
+        },
+        {
+          "type": "legs",
+          "optionId": "legs_white_pants_female",
+          "tint": 3815994
+        },
+        {
+          "type": "feet",
+          "optionId": "feet_white_shoes_female",
+          "tint": 9127187
+        },
+        {
+          "type": "belt",
+          "optionId": "belt_leather_female",
+          "tint": 9127187
+        }
+      ],
+      "spriteHash": "572625fa29c9faae",
+      "spriteUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/sprites/generated/572625fa29c9faae.png"
+    }
+  },
+  "position": {
+    "x": 176,
+    "y": 208,
+    "width": 32,
+    "height": 48,
+    "parent": "PLACE_the_attested_loft"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/gaardia/images/characters/CHAR_tamsin_werrick.png?v=1772574418600",
+  "faceAnchorY": 0.17,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "talk"
+  },
+  "relationships": [
+    {
+      "targetId": "CHAR_bramwell_nace",
+      "type": "colleague",
+      "disposition": 10,
+      "familiarity": 50,
+      "context": "Both are rule-bound taproom professionals with strict measure/tab discipline; likely know each other through regulated-house trade practice despite working at different establishments.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_gideon_marr",
+      "type": "colleague",
+      "disposition": 10,
+      "familiarity": 50,
+      "context": "Both keep accounts by memory and enforce strict patron/house boundaries; likely overlap via local licensed-house/ledger culture.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_hollis_berane",
+      "type": "colleague",
+      "disposition": 10,
+      "familiarity": 50,
+      "context": "Procedural public-house worker with similar enforcement style; likely professional peer.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_lenora_quist",
+      "type": "colleague",
+      "disposition": 10,
+      "familiarity": 50,
+      "context": "Both are disciplined keepers of house rules focused on receipts/settlement; plausible professional peer connection.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_lysander_broach",
+      "type": "acquaintance",
+      "disposition": 0,
+      "familiarity": 40,
+      "context": "As a regulated innkeeper, she would plausibly know (and enforce boundaries with) a nearby licensed weaponseller to prevent concealed blades and licensing trouble.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_marek_dael",
+      "type": "colleague",
+      "disposition": 10,
+      "familiarity": 50,
+      "context": "Shared public-house/ledgerkeep discipline and calm authority; plausible peer relationship in the same trade milieu.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_merris_kade",
+      "type": "colleague",
+      "disposition": 10,
+      "familiarity": 50,
+      "context": "Both are disciplined house bartenders with strict measures and procedural dispute handling; plausible peer connection.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_rowan_sutter",
+      "type": "colleague",
+      "disposition": 10,
+      "familiarity": 50,
+      "context": "Both are practiced public-house professionals prioritizing license safety, tabs, and quiet de-escalation; likely peers.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_sabin_tallow",
+      "type": "colleague",
+      "disposition": 10,
+      "familiarity": 50,
+      "context": "Both are institution-minded publicans enforcing rigorous measure and debt recording; likely professional peers.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_tamsin_korrow",
+      "type": "colleague",
+      "disposition": 10,
+      "familiarity": 50,
+      "context": "Near-identical style—ledger-of-favors, strict rules, quiet efficiency—strongly suggests professional peers who would recognize each other’s methods.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_veynor_kelm",
+      "type": "colleague",
+      "disposition": 10,
+      "familiarity": 50,
+      "context": "Both run bars by rule/measure with discretion and firm boundaries; plausible professional peer connection.",
+      "pendingGeneration": false
+    }
+  ],
+  "important": false
+}

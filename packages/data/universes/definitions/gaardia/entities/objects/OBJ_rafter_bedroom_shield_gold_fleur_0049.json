@@ -1,0 +1,51 @@
+{
+  "id": "OBJ_rafter_bedroom_shield_gold_fleur_0049",
+  "label": "Fleur-de-lis Shield",
+  "description": "A white shield with a gold fleur-de-lis emblem.",
+  "important": false,
+  "short_description": "fleur-de-lis shield",
+  "tags": [
+    "tavern",
+    "wall"
+  ],
+  "entityType": "object",
+  "info": {
+    "purpose": "decoration",
+    "solid": false,
+    "layer": "overhead",
+    "isStructural": false,
+    "material": null,
+    "tint": null,
+    "spriteConfig": {
+      "spriteId": "shield_gold_fleur",
+      "frame": null,
+      "animationKey": null,
+      "animated": false,
+      "facing": "south"
+    },
+    "hp": null,
+    "maxHp": null,
+    "state": null,
+    "contents": null,
+    "lightSource": null,
+    "itemId": null,
+    "plotId": null
+  },
+  "position": {
+    "x": 208,
+    "y": 128,
+    "width": 32,
+    "height": 32,
+    "parent": "PLACE_rafter_bedroom"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "relationships": [],
+  "image": null,
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": null
+}

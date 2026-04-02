@@ -1,0 +1,18 @@
+{
+  "id": "plate_raw_meat",
+  "name": "Raw Meat Plate",
+  "description": "A plate with a cut of raw red meat.",
+  "purposes": [
+    "decoration"
+  ],
+  "tags": [
+    "common",
+    "food",
+    "tavern"
+  ],
+  "solid": false,
+  "layer": "default",
+  "spriteId": "plate_raw_meat",
+  "materials": [],
+  "tintable": false
+}

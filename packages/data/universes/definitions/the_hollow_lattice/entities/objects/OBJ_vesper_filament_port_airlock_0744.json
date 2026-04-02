@@ -1,0 +1,54 @@
+{
+  "id": "OBJ_vesper_filament_port_airlock_0744",
+  "label": "Airlock",
+  "description": "An airlock",
+  "important": false,
+  "short_description": "airlock",
+  "tags": [
+    "scifi",
+    "exit",
+    "wall"
+  ],
+  "entityType": "object",
+  "info": {
+    "purpose": "airlock",
+    "solid": true,
+    "layer": "default",
+    "isStructural": false,
+    "material": null,
+    "tint": null,
+    "spriteConfig": {
+      "spriteId": "wall_panel_vent_grille",
+      "frame": null,
+      "animationKey": null,
+      "animated": false,
+      "facing": "south"
+    },
+    "hp": null,
+    "maxHp": null,
+    "state": null,
+    "contents": null,
+    "lightSource": null,
+    "itemId": null,
+    "plotId": null
+  },
+  "position": {
+    "x": 1328,
+    "y": 160,
+    "width": 32,
+    "height": 32,
+    "parent": "PLACE_vesper_filament_port"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "relationships": [],
+  "image": null,
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "dock_enter"
+  }
+}

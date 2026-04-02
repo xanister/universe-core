@@ -1,0 +1,54 @@
+{
+  "id": "OBJ_ruinward_bondstore_bottle_crate_amber_0009",
+  "label": "Amber Bottle Crate",
+  "description": "A wooden crate packed with amber and dark bottles.",
+  "important": false,
+  "short_description": "amber bottle crate",
+  "tags": [
+    "common",
+    "storage",
+    "tavern"
+  ],
+  "entityType": "object",
+  "info": {
+    "purpose": "storage",
+    "solid": true,
+    "layer": "default",
+    "isStructural": false,
+    "material": null,
+    "tint": null,
+    "spriteConfig": {
+      "spriteId": "bottle_crate_amber",
+      "frame": null,
+      "animationKey": null,
+      "animated": false,
+      "facing": "south"
+    },
+    "hp": null,
+    "maxHp": null,
+    "state": null,
+    "contents": null,
+    "lightSource": null,
+    "itemId": null,
+    "plotId": null
+  },
+  "position": {
+    "x": 2800,
+    "y": 2400,
+    "width": 32,
+    "height": 32,
+    "parent": "PLACE_ruinward_bondstore"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "relationships": [],
+  "image": null,
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "search"
+  }
+}

@@ -1,0 +1,263 @@
+{
+  "id": "CHAR_torren_auvray",
+  "label": "Torren Auvray",
+  "description": "This individual is a broad-shouldered human of early middle years, with olive skin weathered by prolonged exposure to grit and smoke. Brown eyes sit deep beneath a pronounced brow ridge, and a broken line of the nose lends a permanently severe cast to the face. Brown hair is kept in a shortknot, leaving the jawline clear and emphasizing a square chin and thick neck. The hands show enduring callus and old knuckle scarring consistent with routine drill and sustained use of spear and shield.",
+  "short_description": "citywatch male guard",
+  "tags": [],
+  "entityType": "character",
+  "info": {
+    "purpose": "guard",
+    "aliases": [
+      "Ashgate Warder"
+    ],
+    "birthdate": "1007-04-18",
+    "deathdate": null,
+    "title": null,
+    "birthPlace": "Cindervale",
+    "eyeColor": "brown",
+    "gender": "male",
+    "hairColor": "brown",
+    "hairStyle": "shortknot",
+    "beardStyle": "stubble",
+    "headType": "human_male",
+    "skinTone": "olive",
+    "personality": "Procedural and unyielding in matters of cordon, curfew, and search, he treats orders as instruments of civic survival rather than personal preference. He favors clear warnings, documented infractions, and public compliance, and he maintains strict separation between private sympathy and official duty.",
+    "race": "human",
+    "messages": [],
+    "journal": [],
+    "sketches": [],
+    "verbosity": 3,
+    "conversationContext": null,
+    "storytellerState": null,
+    "isPlayer": false,
+    "storyComplete": false,
+    "routine": {
+      "schedule": {
+        "dawn": "work",
+        "morning": "work",
+        "afternoon": "work",
+        "evening": "leisure",
+        "night": "home"
+      },
+      "home": {
+        "placeId": null,
+        "description": "Quarters near Cindervale",
+        "areaHint": "Anslem area"
+      },
+      "work": {
+        "placeId": "PLACE_cindervale",
+        "description": "Cindervale",
+        "areaHint": null
+      },
+      "leisure": {
+        "favoriteSpot": null,
+        "preferredTagIds": [
+          "TAG_workplace_tavern"
+        ]
+      },
+      "variance": 0.2,
+      "activities": {
+        "work": "guard_duty"
+      }
+    },
+    "vesselRoutes": null,
+    "abstractLocation": null,
+    "npcBehavior": null,
+    "physicalState": null,
+    "pendingDeparture": null,
+    "pendingArrival": null,
+    "lastRoutineCheckPeriod": null,
+    "startingNarrative": null,
+    "startingCharacterState": null,
+    "clothing": [
+      {
+        "slot": "torso_under",
+        "itemId": "tunic",
+        "color": "#3a3a3a",
+        "contents": null
+      },
+      {
+        "slot": "torso_over",
+        "itemId": "leather_armor",
+        "color": "#8b4513",
+        "contents": null
+      },
+      {
+        "slot": "torso_top",
+        "itemId": "leather_armor_shoulders",
+        "color": "#8b4513",
+        "contents": null
+      },
+      {
+        "slot": "legs",
+        "itemId": "cloth_pants",
+        "color": "#808080",
+        "contents": null
+      },
+      {
+        "slot": "feet",
+        "itemId": "boots",
+        "color": "#1a1a1a",
+        "contents": null
+      },
+      {
+        "slot": "belt",
+        "itemId": "leather_belt",
+        "color": "#1a1a1a",
+        "contents": [
+          {
+            "id": "ci_1772641954423_aet1ho",
+            "itemId": "steel_bracers",
+            "name": "steel_bracers",
+            "description": null,
+            "type": "weapon",
+            "quantity": 1,
+            "color": null,
+            "equipSlot": "weapon",
+            "plotId": null
+          }
+        ]
+      },
+      {
+        "slot": "hands",
+        "itemId": "leather_bracers",
+        "color": "#8b4513",
+        "contents": null
+      },
+      {
+        "slot": "head",
+        "itemId": "leather_cap",
+        "color": "#1a1a1a",
+        "contents": null
+      }
+    ],
+    "enabledOverlayLayers": [
+      "eyes",
+      "facial"
+    ],
+    "helmingVesselId": null,
+    "storytellerDisabled": false,
+    "rulesetState": {
+      "stats": {},
+      "conditions": [],
+      "statUsage": {},
+      "incapacitation": null,
+      "incapacitatedSince": null
+    },
+    "voiceId": "daniel",
+    "spriteConfig": {
+      "bodyType": "male",
+      "layers": [
+        {
+          "type": "body",
+          "optionId": "body_base",
+          "tint": 10136938
+        },
+        {
+          "type": "body",
+          "optionId": "body_universal",
+          "tint": 10136938
+        },
+        {
+          "type": "eyes",
+          "optionId": "eyes_eyes",
+          "tint": 7029286
+        },
+        {
+          "type": "facial",
+          "optionId": "facial_beard",
+          "tint": 7029286
+        },
+        {
+          "type": "hair",
+          "optionId": "hair_shortknot",
+          "tint": 7029286
+        },
+        {
+          "type": "torso",
+          "optionId": "torso_white_leather_armor_male",
+          "tint": 9127187
+        },
+        {
+          "type": "torso",
+          "optionId": "torso_wulax_leather_armor_shoulders_male",
+          "tint": 9127187
+        },
+        {
+          "type": "legs",
+          "optionId": "legs_white_pants_male",
+          "tint": 8421504
+        },
+        {
+          "type": "feet",
+          "optionId": "feet_white_boots_male",
+          "tint": 1710618
+        },
+        {
+          "type": "belt",
+          "optionId": "belt_leather_male",
+          "tint": 1710618
+        },
+        {
+          "type": "hands",
+          "optionId": "hands_leather_bracers_male",
+          "tint": 9127187
+        },
+        {
+          "type": "head",
+          "optionId": "head_leather_cap_male",
+          "tint": 1710618
+        }
+      ],
+      "spriteHash": "653c98cba173a5c3",
+      "spriteUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/sprites/generated/653c98cba173a5c3.png"
+    },
+    "assignedWorkspaceId": "OBJ_cindervale_exit_wooden_door_0003",
+    "assignedWorkspacePurpose": "exit"
+  },
+  "position": {
+    "x": 1072,
+    "y": 272,
+    "width": 32,
+    "height": 48,
+    "parent": "PLACE_cindervale"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/gaardia/images/characters/CHAR_torren_auvray.png?v=1772642008192",
+  "faceAnchorY": 0.15,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "talk"
+  },
+  "relationships": [
+    {
+      "targetId": "CHAR_alaric_fenrow",
+      "type": "colleague",
+      "disposition": 10,
+      "familiarity": 50,
+      "context": "Both appear to be procedure-driven watch/guard figures from Cindervale, making it likely they have worked the same civic enforcement apparatus (cordon/curfew/gate control) at some point.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_rovan_kest",
+      "type": "colleague",
+      "disposition": 10,
+      "familiarity": 50,
+      "context": "Rovan and Torren share a disciplined, ordinance-enforcement profile and are both based in Cindervale, suggesting they serve in the same guard/watch organization.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_perrin_halvay",
+      "type": "acquaintance",
+      "disposition": 0,
+      "familiarity": 40,
+      "context": "Perrin operates locally in Cindervale and keeps close to proclamations, tolls, and licensed crossings; Torren’s enforcement role makes casual official contact (warnings, checks, questions) plausible without implying a close bond.",
+      "pendingGeneration": false
+    }
+  ],
+  "important": false
+}

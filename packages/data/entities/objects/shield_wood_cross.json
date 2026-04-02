@@ -1,0 +1,23 @@
+{
+  "id": "shield_wood_cross",
+  "name": "Wooden Cross Shield",
+  "description": "A wooden kite shield with a cross pattern.",
+  "purposes": [
+    "decoration",
+    "tavern",
+    "residence"
+  ],
+  "tags": [
+    "tavern",
+    "wall"
+  ],
+  "solid": false,
+  "layer": "overhead",
+  "spriteId": "shield_wood_cross",
+  "materials": [
+    "wood",
+    "iron"
+  ],
+  "tintable": false,
+  "wallVerticalOffset": -1
+}

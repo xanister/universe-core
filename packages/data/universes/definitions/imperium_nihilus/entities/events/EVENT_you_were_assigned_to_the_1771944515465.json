@@ -1,0 +1,16 @@
+{
+  "id": "EVENT_you_were_assigned_to_the_1771944515465",
+  "date": null,
+  "placeId": null,
+  "eventType": null,
+  "category": "world",
+  "subject": "Background",
+  "subjectId": null,
+  "fact": "You were assigned to the Cinderwake as part of a sanctioned, mission-bound Imperial party requiring transport across Vespera Tertius’ ash-choked routes.",
+  "significance": "major",
+  "important": true,
+  "witnessIds": null,
+  "importanceScore": null,
+  "scope": null,
+  "relevantPlaceIds": null
+}

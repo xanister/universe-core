@@ -1,0 +1,613 @@
+{
+  "name": "@dmnpc/studio",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "DMNPC content management -- validation, repairs, scenarios, templates",
+  "exports": {
+    "./clarification/clarification-resolver.js": {
+      "types": "./dist/clarification/clarification-resolver.d.ts",
+      "import": "./dist/clarification/clarification-resolver.js",
+      "default": "./dist/clarification/clarification-resolver.js"
+    },
+    "./clarification/clarification-resolver": {
+      "types": "./dist/clarification/clarification-resolver.d.ts",
+      "import": "./dist/clarification/clarification-resolver.js",
+      "default": "./dist/clarification/clarification-resolver.js"
+    },
+    "./clarification/index.js": {
+      "types": "./dist/clarification/index.d.ts",
+      "import": "./dist/clarification/index.js",
+      "default": "./dist/clarification/index.js"
+    },
+    "./clarification/index": {
+      "types": "./dist/clarification/index.d.ts",
+      "import": "./dist/clarification/index.js",
+      "default": "./dist/clarification/index.js"
+    },
+    "./integrity/apply-repairs.js": {
+      "types": "./dist/integrity/apply-repairs.d.ts",
+      "import": "./dist/integrity/apply-repairs.js",
+      "default": "./dist/integrity/apply-repairs.js"
+    },
+    "./integrity/apply-repairs": {
+      "types": "./dist/integrity/apply-repairs.d.ts",
+      "import": "./dist/integrity/apply-repairs.js",
+      "default": "./dist/integrity/apply-repairs.js"
+    },
+    "./integrity/batch-scanner.js": {
+      "types": "./dist/integrity/batch-scanner.d.ts",
+      "import": "./dist/integrity/batch-scanner.js",
+      "default": "./dist/integrity/batch-scanner.js"
+    },
+    "./integrity/batch-scanner": {
+      "types": "./dist/integrity/batch-scanner.d.ts",
+      "import": "./dist/integrity/batch-scanner.js",
+      "default": "./dist/integrity/batch-scanner.js"
+    },
+    "./integrity/index.js": {
+      "types": "./dist/integrity/index.d.ts",
+      "import": "./dist/integrity/index.js",
+      "default": "./dist/integrity/index.js"
+    },
+    "./integrity/index": {
+      "types": "./dist/integrity/index.d.ts",
+      "import": "./dist/integrity/index.js",
+      "default": "./dist/integrity/index.js"
+    },
+    "./integrity/integrity-helpers.js": {
+      "types": "./dist/integrity/integrity-helpers.d.ts",
+      "import": "./dist/integrity/integrity-helpers.js",
+      "default": "./dist/integrity/integrity-helpers.js"
+    },
+    "./integrity/integrity-helpers": {
+      "types": "./dist/integrity/integrity-helpers.d.ts",
+      "import": "./dist/integrity/integrity-helpers.js",
+      "default": "./dist/integrity/integrity-helpers.js"
+    },
+    "./integrity/integrity-types.js": {
+      "types": "./dist/integrity/integrity-types.d.ts",
+      "import": "./dist/integrity/integrity-types.js",
+      "default": "./dist/integrity/integrity-types.js"
+    },
+    "./integrity/integrity-types": {
+      "types": "./dist/integrity/integrity-types.d.ts",
+      "import": "./dist/integrity/integrity-types.js",
+      "default": "./dist/integrity/integrity-types.js"
+    },
+    "./integrity/plot-validation-types.js": {
+      "types": "./dist/integrity/plot-validation-types.d.ts",
+      "import": "./dist/integrity/plot-validation-types.js",
+      "default": "./dist/integrity/plot-validation-types.js"
+    },
+    "./integrity/plot-validation-types": {
+      "types": "./dist/integrity/plot-validation-types.d.ts",
+      "import": "./dist/integrity/plot-validation-types.js",
+      "default": "./dist/integrity/plot-validation-types.js"
+    },
+    "./integrity/plot-validation.js": {
+      "types": "./dist/integrity/plot-validation.d.ts",
+      "import": "./dist/integrity/plot-validation.js",
+      "default": "./dist/integrity/plot-validation.js"
+    },
+    "./integrity/plot-validation": {
+      "types": "./dist/integrity/plot-validation.d.ts",
+      "import": "./dist/integrity/plot-validation.js",
+      "default": "./dist/integrity/plot-validation.js"
+    },
+    "./integrity/plot-validator-runner.js": {
+      "types": "./dist/integrity/plot-validator-runner.d.ts",
+      "import": "./dist/integrity/plot-validator-runner.js",
+      "default": "./dist/integrity/plot-validator-runner.js"
+    },
+    "./integrity/plot-validator-runner": {
+      "types": "./dist/integrity/plot-validator-runner.d.ts",
+      "import": "./dist/integrity/plot-validator-runner.js",
+      "default": "./dist/integrity/plot-validator-runner.js"
+    },
+    "./integrity/repair-entity.js": {
+      "types": "./dist/integrity/repair-entity.d.ts",
+      "import": "./dist/integrity/repair-entity.js",
+      "default": "./dist/integrity/repair-entity.js"
+    },
+    "./integrity/repair-entity": {
+      "types": "./dist/integrity/repair-entity.d.ts",
+      "import": "./dist/integrity/repair-entity.js",
+      "default": "./dist/integrity/repair-entity.js"
+    },
+    "./integrity/repairs/battle-background-repairs.js": {
+      "types": "./dist/integrity/repairs/battle-background-repairs.d.ts",
+      "import": "./dist/integrity/repairs/battle-background-repairs.js",
+      "default": "./dist/integrity/repairs/battle-background-repairs.js"
+    },
+    "./integrity/repairs/battle-background-repairs": {
+      "types": "./dist/integrity/repairs/battle-background-repairs.d.ts",
+      "import": "./dist/integrity/repairs/battle-background-repairs.js",
+      "default": "./dist/integrity/repairs/battle-background-repairs.js"
+    },
+    "./integrity/repairs/character-sprite-repairs.js": {
+      "types": "./dist/integrity/repairs/character-sprite-repairs.d.ts",
+      "import": "./dist/integrity/repairs/character-sprite-repairs.js",
+      "default": "./dist/integrity/repairs/character-sprite-repairs.js"
+    },
+    "./integrity/repairs/character-sprite-repairs": {
+      "types": "./dist/integrity/repairs/character-sprite-repairs.d.ts",
+      "import": "./dist/integrity/repairs/character-sprite-repairs.js",
+      "default": "./dist/integrity/repairs/character-sprite-repairs.js"
+    },
+    "./integrity/repairs/deterministic-repairs.js": {
+      "types": "./dist/integrity/repairs/deterministic-repairs.d.ts",
+      "import": "./dist/integrity/repairs/deterministic-repairs.js",
+      "default": "./dist/integrity/repairs/deterministic-repairs.js"
+    },
+    "./integrity/repairs/deterministic-repairs": {
+      "types": "./dist/integrity/repairs/deterministic-repairs.d.ts",
+      "import": "./dist/integrity/repairs/deterministic-repairs.js",
+      "default": "./dist/integrity/repairs/deterministic-repairs.js"
+    },
+    "./integrity/repairs/duplicate-merge.js": {
+      "types": "./dist/integrity/repairs/duplicate-merge.d.ts",
+      "import": "./dist/integrity/repairs/duplicate-merge.js",
+      "default": "./dist/integrity/repairs/duplicate-merge.js"
+    },
+    "./integrity/repairs/duplicate-merge": {
+      "types": "./dist/integrity/repairs/duplicate-merge.d.ts",
+      "import": "./dist/integrity/repairs/duplicate-merge.js",
+      "default": "./dist/integrity/repairs/duplicate-merge.js"
+    },
+    "./integrity/repairs/image-repairs.js": {
+      "types": "./dist/integrity/repairs/image-repairs.d.ts",
+      "import": "./dist/integrity/repairs/image-repairs.js",
+      "default": "./dist/integrity/repairs/image-repairs.js"
+    },
+    "./integrity/repairs/image-repairs": {
+      "types": "./dist/integrity/repairs/image-repairs.d.ts",
+      "import": "./dist/integrity/repairs/image-repairs.js",
+      "default": "./dist/integrity/repairs/image-repairs.js"
+    },
+    "./integrity/repairs/index.js": {
+      "types": "./dist/integrity/repairs/index.d.ts",
+      "import": "./dist/integrity/repairs/index.js",
+      "default": "./dist/integrity/repairs/index.js"
+    },
+    "./integrity/repairs/index": {
+      "types": "./dist/integrity/repairs/index.d.ts",
+      "import": "./dist/integrity/repairs/index.js",
+      "default": "./dist/integrity/repairs/index.js"
+    },
+    "./integrity/repairs/layout-repairs.js": {
+      "types": "./dist/integrity/repairs/layout-repairs.d.ts",
+      "import": "./dist/integrity/repairs/layout-repairs.js",
+      "default": "./dist/integrity/repairs/layout-repairs.js"
+    },
+    "./integrity/repairs/layout-repairs": {
+      "types": "./dist/integrity/repairs/layout-repairs.d.ts",
+      "import": "./dist/integrity/repairs/layout-repairs.js",
+      "default": "./dist/integrity/repairs/layout-repairs.js"
+    },
+    "./integrity/repairs/llm-repairs.js": {
+      "types": "./dist/integrity/repairs/llm-repairs.d.ts",
+      "import": "./dist/integrity/repairs/llm-repairs.js",
+      "default": "./dist/integrity/repairs/llm-repairs.js"
+    },
+    "./integrity/repairs/llm-repairs": {
+      "types": "./dist/integrity/repairs/llm-repairs.d.ts",
+      "import": "./dist/integrity/repairs/llm-repairs.js",
+      "default": "./dist/integrity/repairs/llm-repairs.js"
+    },
+    "./integrity/universe-validator-runner.js": {
+      "types": "./dist/integrity/universe-validator-runner.d.ts",
+      "import": "./dist/integrity/universe-validator-runner.js",
+      "default": "./dist/integrity/universe-validator-runner.js"
+    },
+    "./integrity/universe-validator-runner": {
+      "types": "./dist/integrity/universe-validator-runner.d.ts",
+      "import": "./dist/integrity/universe-validator-runner.js",
+      "default": "./dist/integrity/universe-validator-runner.js"
+    },
+    "./integrity/validate-entity.js": {
+      "types": "./dist/integrity/validate-entity.d.ts",
+      "import": "./dist/integrity/validate-entity.js",
+      "default": "./dist/integrity/validate-entity.js"
+    },
+    "./integrity/validate-entity": {
+      "types": "./dist/integrity/validate-entity.d.ts",
+      "import": "./dist/integrity/validate-entity.js",
+      "default": "./dist/integrity/validate-entity.js"
+    },
+    "./integrity/validator-registry.js": {
+      "types": "./dist/integrity/validator-registry.d.ts",
+      "import": "./dist/integrity/validator-registry.js",
+      "default": "./dist/integrity/validator-registry.js"
+    },
+    "./integrity/validator-registry": {
+      "types": "./dist/integrity/validator-registry.d.ts",
+      "import": "./dist/integrity/validator-registry.js",
+      "default": "./dist/integrity/validator-registry.js"
+    },
+    "./integrity/validators/date-format.js": {
+      "types": "./dist/integrity/validators/date-format.d.ts",
+      "import": "./dist/integrity/validators/date-format.js",
+      "default": "./dist/integrity/validators/date-format.js"
+    },
+    "./integrity/validators/date-format": {
+      "types": "./dist/integrity/validators/date-format.d.ts",
+      "import": "./dist/integrity/validators/date-format.js",
+      "default": "./dist/integrity/validators/date-format.js"
+    },
+    "./integrity/validators/duplicate-entities.js": {
+      "types": "./dist/integrity/validators/duplicate-entities.d.ts",
+      "import": "./dist/integrity/validators/duplicate-entities.js",
+      "default": "./dist/integrity/validators/duplicate-entities.js"
+    },
+    "./integrity/validators/duplicate-entities": {
+      "types": "./dist/integrity/validators/duplicate-entities.d.ts",
+      "import": "./dist/integrity/validators/duplicate-entities.js",
+      "default": "./dist/integrity/validators/duplicate-entities.js"
+    },
+    "./integrity/validators/index.js": {
+      "types": "./dist/integrity/validators/index.d.ts",
+      "import": "./dist/integrity/validators/index.js",
+      "default": "./dist/integrity/validators/index.js"
+    },
+    "./integrity/validators/index": {
+      "types": "./dist/integrity/validators/index.d.ts",
+      "import": "./dist/integrity/validators/index.js",
+      "default": "./dist/integrity/validators/index.js"
+    },
+    "./integrity/validators/internal-conflicts.js": {
+      "types": "./dist/integrity/validators/internal-conflicts.d.ts",
+      "import": "./dist/integrity/validators/internal-conflicts.js",
+      "default": "./dist/integrity/validators/internal-conflicts.js"
+    },
+    "./integrity/validators/internal-conflicts": {
+      "types": "./dist/integrity/validators/internal-conflicts.d.ts",
+      "import": "./dist/integrity/validators/internal-conflicts.js",
+      "default": "./dist/integrity/validators/internal-conflicts.js"
+    },
+    "./integrity/validators/location-consistency.js": {
+      "types": "./dist/integrity/validators/location-consistency.d.ts",
+      "import": "./dist/integrity/validators/location-consistency.js",
+      "default": "./dist/integrity/validators/location-consistency.js"
+    },
+    "./integrity/validators/location-consistency": {
+      "types": "./dist/integrity/validators/location-consistency.d.ts",
+      "import": "./dist/integrity/validators/location-consistency.js",
+      "default": "./dist/integrity/validators/location-consistency.js"
+    },
+    "./integrity/validators/minimum-hierarchy.js": {
+      "types": "./dist/integrity/validators/minimum-hierarchy.d.ts",
+      "import": "./dist/integrity/validators/minimum-hierarchy.js",
+      "default": "./dist/integrity/validators/minimum-hierarchy.js"
+    },
+    "./integrity/validators/minimum-hierarchy": {
+      "types": "./dist/integrity/validators/minimum-hierarchy.d.ts",
+      "import": "./dist/integrity/validators/minimum-hierarchy.js",
+      "default": "./dist/integrity/validators/minimum-hierarchy.js"
+    },
+    "./integrity/validators/missing-battle-background.js": {
+      "types": "./dist/integrity/validators/missing-battle-background.d.ts",
+      "import": "./dist/integrity/validators/missing-battle-background.js",
+      "default": "./dist/integrity/validators/missing-battle-background.js"
+    },
+    "./integrity/validators/missing-battle-background": {
+      "types": "./dist/integrity/validators/missing-battle-background.d.ts",
+      "import": "./dist/integrity/validators/missing-battle-background.js",
+      "default": "./dist/integrity/validators/missing-battle-background.js"
+    },
+    "./integrity/validators/missing-character-sprite.js": {
+      "types": "./dist/integrity/validators/missing-character-sprite.d.ts",
+      "import": "./dist/integrity/validators/missing-character-sprite.js",
+      "default": "./dist/integrity/validators/missing-character-sprite.js"
+    },
+    "./integrity/validators/missing-character-sprite": {
+      "types": "./dist/integrity/validators/missing-character-sprite.d.ts",
+      "import": "./dist/integrity/validators/missing-character-sprite.js",
+      "default": "./dist/integrity/validators/missing-character-sprite.js"
+    },
+    "./integrity/validators/missing-exit.js": {
+      "types": "./dist/integrity/validators/missing-exit.d.ts",
+      "import": "./dist/integrity/validators/missing-exit.js",
+      "default": "./dist/integrity/validators/missing-exit.js"
+    },
+    "./integrity/validators/missing-exit": {
+      "types": "./dist/integrity/validators/missing-exit.d.ts",
+      "import": "./dist/integrity/validators/missing-exit.js",
+      "default": "./dist/integrity/validators/missing-exit.js"
+    },
+    "./integrity/validators/missing-fields.js": {
+      "types": "./dist/integrity/validators/missing-fields.d.ts",
+      "import": "./dist/integrity/validators/missing-fields.js",
+      "default": "./dist/integrity/validators/missing-fields.js"
+    },
+    "./integrity/validators/missing-fields": {
+      "types": "./dist/integrity/validators/missing-fields.d.ts",
+      "import": "./dist/integrity/validators/missing-fields.js",
+      "default": "./dist/integrity/validators/missing-fields.js"
+    },
+    "./integrity/validators/missing-image.js": {
+      "types": "./dist/integrity/validators/missing-image.d.ts",
+      "import": "./dist/integrity/validators/missing-image.js",
+      "default": "./dist/integrity/validators/missing-image.js"
+    },
+    "./integrity/validators/missing-image": {
+      "types": "./dist/integrity/validators/missing-image.d.ts",
+      "import": "./dist/integrity/validators/missing-image.js",
+      "default": "./dist/integrity/validators/missing-image.js"
+    },
+    "./integrity/validators/missing-sprite.js": {
+      "types": "./dist/integrity/validators/missing-sprite.d.ts",
+      "import": "./dist/integrity/validators/missing-sprite.js",
+      "default": "./dist/integrity/validators/missing-sprite.js"
+    },
+    "./integrity/validators/missing-sprite": {
+      "types": "./dist/integrity/validators/missing-sprite.d.ts",
+      "import": "./dist/integrity/validators/missing-sprite.js",
+      "default": "./dist/integrity/validators/missing-sprite.js"
+    },
+    "./integrity/validators/orphaned-refs.js": {
+      "types": "./dist/integrity/validators/orphaned-refs.d.ts",
+      "import": "./dist/integrity/validators/orphaned-refs.js",
+      "default": "./dist/integrity/validators/orphaned-refs.js"
+    },
+    "./integrity/validators/orphaned-refs": {
+      "types": "./dist/integrity/validators/orphaned-refs.d.ts",
+      "import": "./dist/integrity/validators/orphaned-refs.js",
+      "default": "./dist/integrity/validators/orphaned-refs.js"
+    },
+    "./integrity/validators/parent-chain.js": {
+      "types": "./dist/integrity/validators/parent-chain.d.ts",
+      "import": "./dist/integrity/validators/parent-chain.js",
+      "default": "./dist/integrity/validators/parent-chain.js"
+    },
+    "./integrity/validators/parent-chain": {
+      "types": "./dist/integrity/validators/parent-chain.d.ts",
+      "import": "./dist/integrity/validators/parent-chain.js",
+      "default": "./dist/integrity/validators/parent-chain.js"
+    },
+    "./integrity/validators/place-environment.js": {
+      "types": "./dist/integrity/validators/place-environment.d.ts",
+      "import": "./dist/integrity/validators/place-environment.js",
+      "default": "./dist/integrity/validators/place-environment.js"
+    },
+    "./integrity/validators/place-environment": {
+      "types": "./dist/integrity/validators/place-environment.d.ts",
+      "import": "./dist/integrity/validators/place-environment.js",
+      "default": "./dist/integrity/validators/place-environment.js"
+    },
+    "./integrity/validators/place-label.js": {
+      "types": "./dist/integrity/validators/place-label.d.ts",
+      "import": "./dist/integrity/validators/place-label.js",
+      "default": "./dist/integrity/validators/place-label.js"
+    },
+    "./integrity/validators/place-label": {
+      "types": "./dist/integrity/validators/place-label.d.ts",
+      "import": "./dist/integrity/validators/place-label.js",
+      "default": "./dist/integrity/validators/place-label.js"
+    },
+    "./integrity/validators/place-layout.js": {
+      "types": "./dist/integrity/validators/place-layout.d.ts",
+      "import": "./dist/integrity/validators/place-layout.js",
+      "default": "./dist/integrity/validators/place-layout.js"
+    },
+    "./integrity/validators/place-layout": {
+      "types": "./dist/integrity/validators/place-layout.d.ts",
+      "import": "./dist/integrity/validators/place-layout.js",
+      "default": "./dist/integrity/validators/place-layout.js"
+    },
+    "./integrity/validators/place-size.js": {
+      "types": "./dist/integrity/validators/place-size.d.ts",
+      "import": "./dist/integrity/validators/place-size.js",
+      "default": "./dist/integrity/validators/place-size.js"
+    },
+    "./integrity/validators/place-size": {
+      "types": "./dist/integrity/validators/place-size.d.ts",
+      "import": "./dist/integrity/validators/place-size.js",
+      "default": "./dist/integrity/validators/place-size.js"
+    },
+    "./integrity/validators/plot/index.js": {
+      "types": "./dist/integrity/validators/plot/index.d.ts",
+      "import": "./dist/integrity/validators/plot/index.js",
+      "default": "./dist/integrity/validators/plot/index.js"
+    },
+    "./integrity/validators/plot/index": {
+      "types": "./dist/integrity/validators/plot/index.d.ts",
+      "import": "./dist/integrity/validators/plot/index.js",
+      "default": "./dist/integrity/validators/plot/index.js"
+    },
+    "./integrity/validators/plot/plot-consistency.js": {
+      "types": "./dist/integrity/validators/plot/plot-consistency.d.ts",
+      "import": "./dist/integrity/validators/plot/plot-consistency.js",
+      "default": "./dist/integrity/validators/plot/plot-consistency.js"
+    },
+    "./integrity/validators/plot/plot-consistency": {
+      "types": "./dist/integrity/validators/plot/plot-consistency.d.ts",
+      "import": "./dist/integrity/validators/plot/plot-consistency.js",
+      "default": "./dist/integrity/validators/plot/plot-consistency.js"
+    },
+    "./integrity/validators/plot/plot-descriptions.js": {
+      "types": "./dist/integrity/validators/plot/plot-descriptions.d.ts",
+      "import": "./dist/integrity/validators/plot/plot-descriptions.js",
+      "default": "./dist/integrity/validators/plot/plot-descriptions.js"
+    },
+    "./integrity/validators/plot/plot-descriptions": {
+      "types": "./dist/integrity/validators/plot/plot-descriptions.d.ts",
+      "import": "./dist/integrity/validators/plot/plot-descriptions.js",
+      "default": "./dist/integrity/validators/plot/plot-descriptions.js"
+    },
+    "./integrity/validators/plot/plot-flags.js": {
+      "types": "./dist/integrity/validators/plot/plot-flags.d.ts",
+      "import": "./dist/integrity/validators/plot/plot-flags.js",
+      "default": "./dist/integrity/validators/plot/plot-flags.js"
+    },
+    "./integrity/validators/plot/plot-flags": {
+      "types": "./dist/integrity/validators/plot/plot-flags.d.ts",
+      "import": "./dist/integrity/validators/plot/plot-flags.js",
+      "default": "./dist/integrity/validators/plot/plot-flags.js"
+    },
+    "./integrity/validators/plot/plot-progress.js": {
+      "types": "./dist/integrity/validators/plot/plot-progress.d.ts",
+      "import": "./dist/integrity/validators/plot/plot-progress.js",
+      "default": "./dist/integrity/validators/plot/plot-progress.js"
+    },
+    "./integrity/validators/plot/plot-progress": {
+      "types": "./dist/integrity/validators/plot/plot-progress.d.ts",
+      "import": "./dist/integrity/validators/plot/plot-progress.js",
+      "default": "./dist/integrity/validators/plot/plot-progress.js"
+    },
+    "./integrity/validators/plot/plot-quality.js": {
+      "types": "./dist/integrity/validators/plot/plot-quality.d.ts",
+      "import": "./dist/integrity/validators/plot/plot-quality.js",
+      "default": "./dist/integrity/validators/plot/plot-quality.js"
+    },
+    "./integrity/validators/plot/plot-quality": {
+      "types": "./dist/integrity/validators/plot/plot-quality.d.ts",
+      "import": "./dist/integrity/validators/plot/plot-quality.js",
+      "default": "./dist/integrity/validators/plot/plot-quality.js"
+    },
+    "./integrity/validators/plot/plot-structure.js": {
+      "types": "./dist/integrity/validators/plot/plot-structure.d.ts",
+      "import": "./dist/integrity/validators/plot/plot-structure.js",
+      "default": "./dist/integrity/validators/plot/plot-structure.js"
+    },
+    "./integrity/validators/plot/plot-structure": {
+      "types": "./dist/integrity/validators/plot/plot-structure.d.ts",
+      "import": "./dist/integrity/validators/plot/plot-structure.js",
+      "default": "./dist/integrity/validators/plot/plot-structure.js"
+    },
+    "./integrity/validators/plot/plot-tension.js": {
+      "types": "./dist/integrity/validators/plot/plot-tension.d.ts",
+      "import": "./dist/integrity/validators/plot/plot-tension.js",
+      "default": "./dist/integrity/validators/plot/plot-tension.js"
+    },
+    "./integrity/validators/plot/plot-tension": {
+      "types": "./dist/integrity/validators/plot/plot-tension.d.ts",
+      "import": "./dist/integrity/validators/plot/plot-tension.js",
+      "default": "./dist/integrity/validators/plot/plot-tension.js"
+    },
+    "./integrity/validators/region-scale.js": {
+      "types": "./dist/integrity/validators/region-scale.d.ts",
+      "import": "./dist/integrity/validators/region-scale.js",
+      "default": "./dist/integrity/validators/region-scale.js"
+    },
+    "./integrity/validators/region-scale": {
+      "types": "./dist/integrity/validators/region-scale.d.ts",
+      "import": "./dist/integrity/validators/region-scale.js",
+      "default": "./dist/integrity/validators/region-scale.js"
+    },
+    "./integrity/validators/relationship-symmetry.js": {
+      "types": "./dist/integrity/validators/relationship-symmetry.d.ts",
+      "import": "./dist/integrity/validators/relationship-symmetry.js",
+      "default": "./dist/integrity/validators/relationship-symmetry.js"
+    },
+    "./integrity/validators/relationship-symmetry": {
+      "types": "./dist/integrity/validators/relationship-symmetry.d.ts",
+      "import": "./dist/integrity/validators/relationship-symmetry.js",
+      "default": "./dist/integrity/validators/relationship-symmetry.js"
+    },
+    "./integrity/validators/travel-coordinates.js": {
+      "types": "./dist/integrity/validators/travel-coordinates.d.ts",
+      "import": "./dist/integrity/validators/travel-coordinates.js",
+      "default": "./dist/integrity/validators/travel-coordinates.js"
+    },
+    "./integrity/validators/travel-coordinates": {
+      "types": "./dist/integrity/validators/travel-coordinates.d.ts",
+      "import": "./dist/integrity/validators/travel-coordinates.js",
+      "default": "./dist/integrity/validators/travel-coordinates.js"
+    },
+    "./integrity/validators/vessel-crew-consistency.js": {
+      "types": "./dist/integrity/validators/vessel-crew-consistency.d.ts",
+      "import": "./dist/integrity/validators/vessel-crew-consistency.js",
+      "default": "./dist/integrity/validators/vessel-crew-consistency.js"
+    },
+    "./integrity/validators/vessel-crew-consistency": {
+      "types": "./dist/integrity/validators/vessel-crew-consistency.d.ts",
+      "import": "./dist/integrity/validators/vessel-crew-consistency.js",
+      "default": "./dist/integrity/validators/vessel-crew-consistency.js"
+    },
+    "./integrity/validators/vessel-hierarchy.js": {
+      "types": "./dist/integrity/validators/vessel-hierarchy.d.ts",
+      "import": "./dist/integrity/validators/vessel-hierarchy.js",
+      "default": "./dist/integrity/validators/vessel-hierarchy.js"
+    },
+    "./integrity/validators/vessel-hierarchy": {
+      "types": "./dist/integrity/validators/vessel-hierarchy.d.ts",
+      "import": "./dist/integrity/validators/vessel-hierarchy.js",
+      "default": "./dist/integrity/validators/vessel-hierarchy.js"
+    },
+    "./integrity/validators/vessel-routes.js": {
+      "types": "./dist/integrity/validators/vessel-routes.d.ts",
+      "import": "./dist/integrity/validators/vessel-routes.js",
+      "default": "./dist/integrity/validators/vessel-routes.js"
+    },
+    "./integrity/validators/vessel-routes": {
+      "types": "./dist/integrity/validators/vessel-routes.d.ts",
+      "import": "./dist/integrity/validators/vessel-routes.js",
+      "default": "./dist/integrity/validators/vessel-routes.js"
+    },
+    "./templates/index.js": {
+      "types": "./dist/templates/index.d.ts",
+      "import": "./dist/templates/index.js",
+      "default": "./dist/templates/index.js"
+    },
+    "./templates/index": {
+      "types": "./dist/templates/index.d.ts",
+      "import": "./dist/templates/index.js",
+      "default": "./dist/templates/index.js"
+    },
+    "./templates/template-generator.js": {
+      "types": "./dist/templates/template-generator.d.ts",
+      "import": "./dist/templates/template-generator.js",
+      "default": "./dist/templates/template-generator.js"
+    },
+    "./templates/template-generator": {
+      "types": "./dist/templates/template-generator.d.ts",
+      "import": "./dist/templates/template-generator.js",
+      "default": "./dist/templates/template-generator.js"
+    },
+    "./templates/template-image-generator.js": {
+      "types": "./dist/templates/template-image-generator.d.ts",
+      "import": "./dist/templates/template-image-generator.js",
+      "default": "./dist/templates/template-image-generator.js"
+    },
+    "./templates/template-image-generator": {
+      "types": "./dist/templates/template-image-generator.d.ts",
+      "import": "./dist/templates/template-image-generator.js",
+      "default": "./dist/templates/template-image-generator.js"
+    }
+  },
+  "files": [
+    "src",
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint src",
+    "lint:fix": "eslint src --fix",
+    "format": "prettier --write src",
+    "format:check": "prettier --check src",
+    "test": "vitest run",
+    "test:coverage": "vitest run --coverage",
+    "test:unit": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@dmnpc/core": "workspace:*",
+    "@dmnpc/data": "workspace:*",
+    "@dmnpc/generation": "workspace:*",
+    "@dmnpc/types": "workspace:*"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.2",
+    "@types/node": "^25.0.3",
+    "eslint": "^9.39.2",
+    "eslint-config-prettier": "^10.1.8",
+    "prettier": "^3.7.4",
+    "typescript": "^5.9.3",
+    "dotenv": "^16.3.1",
+    "typescript-eslint": "^8.52.0",
+    "@vitest/coverage-v8": "^3.2.4",
+    "vite-tsconfig-paths": "^5.1.4",
+    "vitest": "^3.2.4"
+  }
+}

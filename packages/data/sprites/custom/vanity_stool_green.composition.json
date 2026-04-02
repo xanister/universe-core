@@ -1,0 +1,23 @@
+{
+  "spriteId": "vanity_stool_green",
+  "gridWidth": 1,
+  "gridHeight": 2,
+  "tileSize": 32,
+  "tiles": [
+    {
+      "tilesetId": "furniture-green",
+      "srcX": 64,
+      "srcY": 640,
+      "col": 0,
+      "row": 0
+    },
+    {
+      "tilesetId": "furniture-green",
+      "srcX": 64,
+      "srcY": 672,
+      "col": 0,
+      "row": 1
+    }
+  ],
+  "updatedAt": "2026-03-02T16:01:56.008Z"
+}

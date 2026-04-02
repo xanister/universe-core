@@ -1,0 +1,16 @@
+{
+  "id": "EVENT_gaardia_and_duras_entered_a_1772209199302",
+  "date": null,
+  "placeId": null,
+  "eventType": "treaty",
+  "category": "world",
+  "subject": "Treaty",
+  "subjectId": null,
+  "fact": "Gaardia and Duras entered a prolonged trade standoff (the Quiet Salt War) that ended through the Salt Revels Concord, while leaving persistent tensions over autonomy and tariffs.",
+  "significance": "moderate",
+  "important": false,
+  "witnessIds": null,
+  "importanceScore": null,
+  "scope": "regional",
+  "relevantPlaceIds": null
+}

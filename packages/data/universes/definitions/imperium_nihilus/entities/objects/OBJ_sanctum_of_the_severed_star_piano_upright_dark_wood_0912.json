@@ -1,0 +1,52 @@
+{
+  "id": "OBJ_sanctum_of_the_severed_star_piano_upright_dark_wood_0912",
+  "label": "Upright Piano",
+  "description": "A dark wooden upright piano with a visible keyboard, suitable for interior rooms like parlors or music halls.",
+  "important": false,
+  "short_description": "upright piano",
+  "tags": [
+    "common",
+    "furniture",
+    "decoration"
+  ],
+  "entityType": "object",
+  "info": {
+    "purpose": "decoration",
+    "solid": true,
+    "layer": "default",
+    "isStructural": false,
+    "material": null,
+    "tint": null,
+    "spriteConfig": {
+      "spriteId": "piano_upright_dark_wood",
+      "frame": null,
+      "animationKey": null,
+      "animated": false,
+      "facing": "south"
+    },
+    "hp": null,
+    "maxHp": null,
+    "state": null,
+    "contents": null,
+    "lightSource": null,
+    "itemId": null,
+    "plotId": null
+  },
+  "position": {
+    "x": 224,
+    "y": 1280,
+    "width": 64,
+    "height": 96,
+    "parent": "PLACE_sanctum_of_the_severed_star"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "relationships": [],
+  "image": null,
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": null
+}

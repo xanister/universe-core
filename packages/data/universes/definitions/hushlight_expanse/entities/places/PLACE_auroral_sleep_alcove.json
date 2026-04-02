@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_auroral_sleep_alcove",
+  "label": "Auroral Sleep Alcove",
+  "description": "Auroral Sleep Alcove is a sealed bedroom recessed into the faceted wedge of the Stillhouse, its walls faced in dust-slick vitrified tile and crossed by grounded gutter channels. A shallow lensing basin set above the bed refracts Lacrymara’s copper-white twilight into stable, banded illumination calibrated to the city’s timekeeping gradients. Refractive privacy screens divide the alcove from the adjoining niche while preserving the Stillhouse’s continuous light geometry. An insulated floor plinth and screened vents limit electrostatic glass ingress without disrupting the house’s collection pathways.",
+  "short_description": "sealed bandlit alcove",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "bedroom",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "door_wooden",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/hushlight_expanse/images/battles/PLACE_auroral_sleep_alcove.png?v=1772314386372",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 688,
+    "y": 160,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_seamglass_meridian_stillhouse",
+    "innerWidth": 608,
+    "innerHeight": 512
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": null,
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

@@ -1,0 +1,21 @@
+{
+  "id": "statue_monk",
+  "name": "Monk Statue",
+  "description": "Stone statue of a robed monk on a round pedestal.",
+  "purposes": [
+    "decoration"
+  ],
+  "tags": [
+    "outdoor",
+    "decoration",
+    "stone",
+    "statue",
+    "temple"
+  ],
+  "solid": true,
+  "layer": "default",
+  "spriteId": "statue_monk",
+  "materials": [
+    "stone"
+  ]
+}

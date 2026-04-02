@@ -1,0 +1,56 @@
+{
+  "id": "PLACE_auroraglass_stores",
+  "label": "Auroraglass Stores",
+  "description": "Auroraglass Stores serves as the sealed stockroom of the Auroraglass Artificery, enclosed in vitrified stone and banded with grounded copper strakes that dissipate the bastion’s electrostatic surges. Narrow aisles of ferrocrete shelving hold instrument caskets, calibration weights, and shock-foamed component crates, all tagged for hardline inventory rather than vox query. Hooded lumen strips cast a muted violet light over dust-gasketed cabinets and desiccant lockers, while ash-trap grates and a filtered vent manifold keep abrasive stormfall residue out of packaged precision goods.",
+  "short_description": "sealed parts stockroom",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "storage_room",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.9
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "door_wooden",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 2544,
+    "y": 352,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_auroraglass_artificery"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": null,
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

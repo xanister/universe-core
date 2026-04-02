@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_the_shardbound_arsenal",
+  "label": "The Shardbound Arsenal",
+  "description": "The Shardbound Arsenal is a compact, faceted shopfront clad in dust-slick vitrified tiles, its seams traced with grounded gutters that tame Lacrymara’s charged glass fallouts. Interior walls are lined with angled racks and magnetized cradles for razor-edged glasssteel blades, hushlit coil-slingers, and counterweighted faultline pikes engineered for the city’s fused-silicate causeways. A central lensing counter sits beneath a suspended lattice of mirror vanes that calibrate edge geometry and sighting marks against Seamglass Meridian’s copper-white twilight bands. The air carries a persistent dry rasp of glass dust, held in check by inset floor grates leading to sealed cisterns.",
+  "short_description": "glasslit weapon shop",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "weapon_shop",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "building_shop",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/hushlight_expanse/images/battles/PLACE_the_shardbound_arsenal.png?v=1772314156194",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 1200,
+    "y": 1792,
+    "width": 160,
+    "height": 256,
+    "parent": "PLACE_seamglass_meridian",
+    "innerWidth": 1088,
+    "innerHeight": 1216
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/hushlight_expanse/images/places/PLACE_the_shardbound_arsenal.png?v=1772314213388",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_the_sump_ledgerroom",
+  "label": "The Sump Ledgerroom",
+  "description": "The Sump Ledgerroom serves as The Lumen Sump’s sealed storage and inventory chamber, sunk behind the tavern’s ribbed bulkheads to preserve the port’s enforced quiet. Matte, light-absorbing composite surfaces bear stenciled tally grids and navigation hashmarks, while recessed guidance lamps render slow flow-maps across the ceiling for consistent orientation in attenuated light. Vacuum-rated shelving and strapped crate-racks line the walls in precise bays, separated by a narrow service aisle set with grated decking and drainage channels for decontamination runoff. A dark ceramic utility counter with plated conduit couplings anchors one end, integrating power, seal checks, and dust filtration into the room’s permanent fittings.",
+  "short_description": "sealed stock chamber",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "storage_room",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.9
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "door_wooden",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/hushlight_expanse/images/battles/PLACE_the_sump_ledgerroom.png?v=1772313777455",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 848,
+    "y": 160,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_the_lumen_sump",
+    "innerWidth": 512,
+    "innerHeight": 672
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/hushlight_expanse/images/places/PLACE_the_sump_ledgerroom.png?v=1772313838156",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

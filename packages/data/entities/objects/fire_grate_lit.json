@@ -1,0 +1,22 @@
+{
+  "id": "fire_grate_lit",
+  "name": "Burning Fire Grate",
+  "description": "An iron fire grate with roaring flames — suitable for temple braziers or hearths.",
+  "purposes": [
+    "decoration"
+  ],
+  "tags": [
+    "common",
+    "fireplace",
+    "temple",
+    "lighting",
+    "decoration"
+  ],
+  "solid": true,
+  "layer": "default",
+  "spriteId": "fire_grate_lit",
+  "materials": [
+    "iron"
+  ],
+  "tintable": false
+}

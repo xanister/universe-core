@@ -1,0 +1,20 @@
+{
+  "id": "EVENT_charalaricmorn_witnessed_evidence_bundle_seals_1772062936542",
+  "date": "999.M1 15:44",
+  "placeId": "PLACE_the_riftward_canteen",
+  "eventType": "turning_point",
+  "category": "world",
+  "subject": "The Riftward Canteen",
+  "subjectId": "PLACE_the_riftward_canteen",
+  "fact": "CHAR_alaric_morn witnessed evidence bundle seals appear disturbed and heard a Riftward intake enforcer accuse canteen staff of chain-of-custody contamination in the Riftward Canteen",
+  "significance": "major",
+  "witnessIds": [
+    "CHAR_alaric_morn"
+  ],
+  "important": true,
+  "importanceScore": null,
+  "scope": "local",
+  "relevantPlaceIds": [
+    "PLACE_the_riftward_canteen"
+  ]
+}

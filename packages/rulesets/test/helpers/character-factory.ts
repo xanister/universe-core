@@ -1,0 +1,73 @@
+import type { Character } from '@dmnpc/types/entity';
+
+/**
+ * Creates a minimal Character for ruleset tests with the given stats.
+ * Defaults to a player character; override info fields via `infoOverrides`.
+ */
+export function createTestCharacter(
+  stats: Record<string, number>,
+  infoOverrides?: Partial<Character['info']>
+): Character {
+  return {
+    id: 'CHAR_test',
+    label: 'Test',
+    description: '',
+    short_description: '',
+    important: false,
+    tags: [],
+    entityType: 'character',
+    position: { x: 0, y: 0, parent: 'PLACE_test' },
+    destinationPlaceId: null,
+    travelPath: null,
+    travelSegmentIndex: null,
+    relationships: [],
+    image: null,
+    faceAnchorY: null,
+    omitFromPlot: false,
+    aliases: null,
+    displayName: null,
+    interaction: null,
+    info: {
+      purpose: 'player',
+      aliases: [],
+      birthdate: '',
+      birthPlace: '',
+      deathdate: null,
+      eyeColor: '',
+      gender: '',
+      hairColor: '',
+      hairStyle: 'long',
+      headType: 'human_male',
+      skinTone: '',
+      personality: '',
+      race: 'Human',
+      title: null,
+      messages: [],
+      conversationContext: null,
+      journal: [],
+      sketches: [],
+      storytellerState: null,
+      isPlayer: true,
+      verbosity: 3,
+      storyComplete: false,
+      voiceId: '',
+      routine: null,
+      vesselRoutes: null,
+      abstractLocation: null,
+      npcBehavior: null,
+      physicalState: null,
+      pendingDeparture: null,
+      pendingArrival: null,
+      lastRoutineCheckPeriod: null,
+      startingNarrative: null,
+      startingCharacterState: null,
+      clothing: [],
+      enabledOverlayLayers: [],
+      helmingVesselId: null,
+      storytellerDisabled: false,
+      rulesetState: { stats, conditions: [], statUsage: {}, incapacitation: null, incapacitatedSince: null },
+      spriteConfig: { bodyType: 'male', layers: [], spriteHash: null, spriteUrl: null, spriteScale: 1 },
+      ...infoOverrides,
+    },
+  } satisfies Character;
+}

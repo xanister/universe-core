@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_quarantine_strongroom",
+  "label": "Quarantine Strongroom",
+  "description": "The Quarantine Strongroom forms the secured storage chamber of The Gloam Reliquary, built of poured ferrocrete faced with void-black adamantine plates. Shelving bays and sealed transit crates stand in regimented rows beneath cold lumen strips, each position stenciled with lot codes and dated purity seals. A decontamination threshold and drain-scored flooring impose containment discipline, keeping the air sharp with antiseptic and recirculated filtration. Auspex housings, tamper-evident locks, and numbered restraint hoops define the room’s function as controlled custody rather than mere storage.",
+  "short_description": "sealed antiseptic store",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "storage_room",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.9
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "door_wooden",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/battles/PLACE_quarantine_strongroom.png?v=1771995719008",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 240,
+    "y": 1152,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_the_gloam_reliquary",
+    "innerWidth": 480,
+    "innerHeight": 768
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/places/PLACE_quarantine_strongroom.png?v=1771995774435",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

@@ -1,0 +1,18 @@
+{
+  "id": "EVENT_the_watcher_order_formed_to_1772209199301",
+  "date": null,
+  "placeId": null,
+  "eventType": "founding",
+  "category": "world",
+  "subject": "Founding",
+  "subjectId": null,
+  "fact": "The Watcher Order formed to protect sacred sites and their associated arcane holdings amid growing instability and conflict.",
+  "significance": "moderate",
+  "important": false,
+  "witnessIds": null,
+  "importanceScore": null,
+  "scope": "regional",
+  "relevantPlaceIds": [
+    "PLACE_anslem"
+  ]
+}

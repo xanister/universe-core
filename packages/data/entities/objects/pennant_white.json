@@ -1,0 +1,22 @@
+{
+  "id": "pennant_white",
+  "name": "White Pennant",
+  "description": "A small white triangular pennant flag.",
+  "purposes": [
+    "decoration"
+  ],
+  "tags": [
+    "common",
+    "decoration",
+    "tavern",
+    "wall"
+  ],
+  "solid": false,
+  "layer": "overhead",
+  "spriteId": "pennant_white",
+  "materials": [
+    "cloth"
+  ],
+  "tintable": false,
+  "wallVerticalOffset": -1
+}

@@ -1,0 +1,53 @@
+{
+  "id": "OBJ_bafflelit_sleeping_cell_exit_wooden_door_1540",
+  "label": "Haze-Screen Tenement",
+  "description": "Exit to Haze-Screen Tenement",
+  "important": false,
+  "short_description": "wooden door",
+  "tags": [
+    "ship",
+    "wall"
+  ],
+  "entityType": "object",
+  "info": {
+    "purpose": "exit",
+    "solid": false,
+    "layer": "wall",
+    "isStructural": false,
+    "material": null,
+    "tint": null,
+    "spriteConfig": {
+      "spriteId": "door_wooden",
+      "frame": null,
+      "animationKey": null,
+      "animated": false,
+      "facing": "east"
+    },
+    "hp": null,
+    "maxHp": null,
+    "state": null,
+    "contents": null,
+    "lightSource": null,
+    "itemId": null,
+    "plotId": null
+  },
+  "position": {
+    "x": 272,
+    "y": 480,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_bafflelit_sleeping_cell"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "relationships": [],
+  "image": null,
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  }
+}

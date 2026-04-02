@@ -1,0 +1,815 @@
+{
+  "id": "CHAR_tamsin_roe",
+  "label": "Tamsin Roe",
+  "description": "This individual is a young groutkin traveler with an olive skinTone and a compact, broad-shouldered build typical of tunnel-adapted folk. Brown eyes sit beneath heavy brows, and brown hair is worn in a practical, travel-kept style that keeps the face clear. The hands show ingrained callus and faint mineral staining consistent with frequent contact with stone and sealant paste. A small, clean scar crosses one knuckle, marking early experience with rough work and road hazards.",
+  "short_description": "young woman traveler",
+  "tags": [],
+  "entityType": "character",
+  "info": {
+    "purpose": "player",
+    "aliases": [
+      "Tam",
+      "Latticewake Newcomer"
+    ],
+    "birthdate": "1004-09-18",
+    "deathdate": null,
+    "title": null,
+    "birthPlace": "The Latticewake",
+    "eyeColor": "brown",
+    "gender": "female",
+    "hairColor": "brown",
+    "hairStyle": "parted",
+    "beardStyle": null,
+    "headType": "orc_female",
+    "skinTone": "olive",
+    "personality": "An itinerant newcomer to the Latticewake who measures people quickly and commits readily to uncertain roads. They pursue adventure as a discipline, collecting tasks and debts of honor as a means of finding purpose. They prefer direct bargains, steady routines of travel, and tangible signs of progress such as repaired gear, mapped routes, and completed favors.",
+    "race": "groutkin",
+    "messages": [
+      {
+        "role": "user",
+        "action": "input",
+        "opts": {
+          "text": "I look around."
+        },
+        "date": "01.01.19 P.S. 10:00",
+        "omitFromTranscript": false,
+        "hidden": false
+      },
+      {
+        "date": "01.01.19 P.S. 10:02",
+        "omitFromTranscript": false,
+        "hidden": false,
+        "role": "assistant",
+        "action": "narration",
+        "opts": {
+          "text": "Cloud-muted morning light slides across the Latticewake’s vitreous hull panels, each prismatic facet set hard to the meridian; above, tensioned filament-spars hold sailcloth threaded with reflective dust that dull-glitters even under the overcast. Underfoot, dark crystalline deck tiles are scored with rectilinear bearing grids, interrupted by sealed, glass-collared storage wells and squat mast steps built to take abrasive shear fronts—beyond the rail, the polyhedral horizon sits unnaturally still."
+        }
+      }
+    ],
+    "journal": [
+      {
+        "content": "You stand on the Latticewake’s dark, gridded deck as the ship holds a hard, angular tack through Kharion’s laminar skies. The prismatic planks catch the meridian glare in shards, and you keep your lantern hooded—down here, even the thought of brightness can make architecture remember you too vividly.\n\nYou check the glass-collared storage wells and the sealant paste at your belt by touch, listening for the ship’s hush-signals and the safe chime patterns that keep doors and latches obedient. The air tastes of grit and polish; every sound you don’t need stays trapped behind your teeth.",
+        "gameDate": "01.01.19 P.S. 10:00",
+        "facts": [
+          {
+            "placeId": null,
+            "category": "world",
+            "subject": "Current Situation",
+            "subjectId": null,
+            "fact": "If you stare, measure, or name things too clearly, the Lattice tends to reshape itself around that certainty—sometimes against you.",
+            "significance": "minor",
+            "important": false
+          },
+          {
+            "placeId": null,
+            "category": "world",
+            "subject": "Current Situation",
+            "subjectId": null,
+            "fact": "The ship’s locks, wells, and wards answer to tone and rhythm; careless noise is treated like a structural risk.",
+            "significance": "minor",
+            "important": false
+          },
+          {
+            "placeId": null,
+            "category": "knowledge",
+            "subject": "Current Situation",
+            "subjectId": null,
+            "fact": "Your hands know stone and sealant better than speeches, and routine work keeps you from giving the corridors too much of your attention.",
+            "significance": "minor",
+            "important": false
+          }
+        ],
+        "image": null,
+        "context": null
+      }
+    ],
+    "sketches": [],
+    "verbosity": 3,
+    "conversationContext": null,
+    "storytellerState": {
+      "storytellerId": "STORYTELLER_the_candlewisp_keeper",
+      "voiceId": "callum",
+      "activePlots": [
+        {
+          "id": "plot_1772519088033",
+          "plan": {
+            "label": "The Letter That Listens",
+            "description": "You wake aboard The Latticewake to a chime you don’t recognize—too steady, too personal—threaded through the ship’s hush-signals like a heartbeat pretending to be yours. A Sealed Letter waits where no courier could have walked, its wax warm as skin, its folds arranged as if they’ve been watched being opened. Below the deck-glass, the sky’s glare fractures into strict angles, but the soundlines under the hull bend wrong, as though the underworld has begun to hum along. If you measure the mistake too carefully, the Lattice will correct you—by rewriting you.",
+            "plot": "Opening hook: a hush-chime on The Latticewake repeats a cadence that matches Tamsin Roe’s private work-rhythm, and a Sealed Letter appears near her bunk with a seal she’s seen only in old salvage ledgers. The letter draws Tamsin toward the Filament Gallery, where a Namewright is harvesting true names by baiting expeditioners into speaking corrections aloud—then letting the Lattice imitate those names as tracking beacons. A soft-voiced chime-tuner offers practical help and silence protocols, but the aid comes with gaps that feel like missing days, hinting they’re not entirely original anymore. As Tamsin follows the sound-infrastructure deeper, the corridors begin to “know” her: stone grows familiar phrases, and doors form around memories she tries not to revisit. Midway, Tamsin discovers the Namewright’s real aim is not theft but authorship—turning a living person into a reusable navigation key by crystallizing their regrets into a pylon-tune. The only stable countermeasure lies at Axiomshade Lake, where a resonance sink can be retuned—yet doing so demands either a spoken true name (powerful, costly, and traceable) or a deliberate sacrifice of something Tamsin cannot afford to lose. In the climax, Tamsin must hold a silence protocol under pressure to stop the Namewright’s copy from finishing, while the Lattice reshapes the confrontation into an intimate biography written in stone.",
+            "characters": [
+              {
+                "role": "ally",
+                "description": "A compact, careful figure with ink-stained fingertips and a throat scar that suggests old tone-work. They speak softly, counting beats under their breath, and keep their eyes lowered as if direct attention could trigger a collapse.",
+                "publicFace": "A shipboard chime-tuner who wants to keep The Latticewake safe and the crew alive by enforcing hush-signals and clean rhythms.",
+                "hiddenTruth": "They are partially a skill-echo—some of their expertise is an imprint copied from a dead expeditioner, and the Lattice can ‘skip’ them like a familiar page if they draw too much focus.",
+                "locationHint": "Near the ship’s tone-rigging and any place with operating chimes or locks.",
+                "introductionProgress": 10,
+                "name": "",
+                "matchHint": "soft-voiced ship’s chime-tuner with ink-stained fingers"
+              },
+              {
+                "role": "antagonist",
+                "description": "Immaculate clothing that never seems dusted, a smile that arrives a beat late, and a collection of thin stone slivers worn like notes on a cord. Their voice is trained to sound like agreement even when it’s a hook.",
+                "publicFace": "A helpful salvage cartographer offering ‘safer frequencies’ and promising to guide the crew to profitable history.",
+                "hiddenTruth": "A Namewright who provokes spoken true names and records them into stone; the Lattice then uses those names to track, imitate, and rewrite the named person into a controllable route-key.",
+                "locationHint": "Where corridors amplify whispers—gallery-like passages, resonance pylons, and meeting spots marked by repeating echoes.",
+                "introductionProgress": 40,
+                "name": "",
+                "matchHint": "charismatic namewright who records voices onto stone slivers"
+              },
+              {
+                "role": "victim",
+                "description": "Not a body, but a persistent pressure in the walls—like knuckles pressed from the inside. When silence falls, faint gestures appear in mineral bloom, mimicking forgotten hand-signals.",
+                "publicFace": "A dangerous haunting that makes certain doors jam and certain routes loop.",
+                "hiddenTruth": "A regret-imprint from a previous expedition leader; their ‘unfinished instruction’ can be salvaged as a warning about the Namewright’s method—if approached with narrow light and minimal naming.",
+                "locationHint": "At the edges of sealed compartments and along older repairs in the hull’s lower lattice-bracing.",
+                "introductionProgress": 55,
+                "name": "",
+                "matchHint": "regret-imprint of a past expedition leader embedded in repaired hull-stone"
+              }
+            ],
+            "places": [
+              {
+                "placeId": "PLACE_facetlock_store",
+                "storyRole": "supply_cache"
+              },
+              {
+                "placeId": "PLACE_filament_gallery",
+                "storyRole": "meeting_corridor"
+              },
+              {
+                "placeId": "PLACE_axiomshade_lake",
+                "storyRole": "resonance_sink"
+              }
+            ],
+            "items": [
+              {
+                "itemId": "sealed_letter",
+                "tint": null,
+                "locationHint": "On the floor beside Tamsin Roe’s bunk area in the Anglemark Sleeping Alcove, placed as if it fell from a pocket that was never there.",
+                "placement": "ground"
+              },
+              {
+                "itemId": "iron_amulet",
+                "tint": null,
+                "locationHint": "Hidden inside a padded compartment in the Facetlock Store, wrapped to prevent accidental clinking.",
+                "placement": "container"
+              },
+              {
+                "itemId": "scroll_of_identify",
+                "tint": null,
+                "locationHint": "In a sealed glass-collar drawer within the Facetlock Store, stored among tactile inventory cords.",
+                "placement": "container"
+              },
+              {
+                "itemId": "bronze_medallion",
+                "tint": null,
+                "locationHint": "Wedged in a facet seam along the Filament Gallery, catching stray narrow-beams like a blink.",
+                "placement": "ground"
+              }
+            ],
+            "turningPoints": [
+              {
+                "id": "TP_false_chime_letter",
+                "progressTarget": 0,
+                "dramaticRole": "inciting_incident",
+                "involvedCharacter": "soft-voiced ship’s chime-tuner with ink-stained fingers",
+                "triggerOnFlags": null,
+                "essentialInformation": [
+                  "The player learns a hush-chime aboard The Latticewake is broadcasting a personal cadence that can be used to track them through sound-infrastructure.",
+                  "The player learns a Sealed Letter has appeared in a place that should be inaccessible, implying deliberate intrusion or Lattice manipulation.",
+                  "The player learns the letter points toward a rendezvous route associated with the Filament Gallery."
+                ],
+                "triggerConditions": null,
+                "conditionTimeoutHours": null,
+                "triggered": false,
+                "triggeredAt": null,
+                "triggeredByEventId": null,
+                "outcome": null,
+                "flagsSet": null,
+                "conditionsEligibleSince": null
+              },
+              {
+                "id": "TP_tools_against_attention",
+                "progressTarget": 38,
+                "dramaticRole": "rising_action",
+                "involvedCharacter": "regret-imprint of a past expedition leader embedded in repaired hull-stone",
+                "triggerOnFlags": null,
+                "essentialInformation": [
+                  "The player learns that deliberate measurement/naming is causing nearby architecture to ‘set’ into a hostile interpretation of them.",
+                  "The player learns there are practical countermeasures (dampening and narrow-beam protocol) that reduce Lattice response but limit information and comfort.",
+                  "The player learns the Sealed Letter contains hidden name-syntax that can be safely read only with indirect methods."
+                ],
+                "triggerConditions": [
+                  {
+                    "type": "min_hours_since_last_event",
+                    "purposes": null,
+                    "placeStoryRole": null,
+                    "periods": null,
+                    "characterName": null,
+                    "hours": 4
+                  },
+                  {
+                    "type": "specific_location",
+                    "purposes": null,
+                    "placeStoryRole": "supply_cache",
+                    "periods": null,
+                    "characterName": null,
+                    "hours": null
+                  },
+                  {
+                    "type": "not_in_combat",
+                    "purposes": null,
+                    "placeStoryRole": null,
+                    "periods": null,
+                    "characterName": null,
+                    "hours": null
+                  }
+                ],
+                "conditionTimeoutHours": 48,
+                "triggered": false,
+                "triggeredAt": null,
+                "triggeredByEventId": null,
+                "outcome": null,
+                "flagsSet": null,
+                "conditionsEligibleSince": null
+              },
+              {
+                "id": "TP_meeting_in_filament",
+                "progressTarget": 55,
+                "dramaticRole": "midpoint",
+                "involvedCharacter": "charismatic namewright who records voices onto stone slivers",
+                "triggerOnFlags": null,
+                "essentialInformation": [
+                  "The player learns someone is harvesting spoken true names by baiting corrections and recording voice patterns into stone.",
+                  "The player learns the immediate target is to make Tamsin’s identity ‘legible’ to the Lattice so routes will reconfigure around her.",
+                  "The player learns access to a stabilizing retune lies at Axiomshade Lake, but the approach must avoid bright light and uncontrolled noise."
+                ],
+                "triggerConditions": [
+                  {
+                    "type": "min_hours_since_last_event",
+                    "purposes": null,
+                    "placeStoryRole": null,
+                    "periods": null,
+                    "characterName": null,
+                    "hours": 6
+                  },
+                  {
+                    "type": "specific_location",
+                    "purposes": null,
+                    "placeStoryRole": "meeting_corridor",
+                    "periods": null,
+                    "characterName": null,
+                    "hours": null
+                  },
+                  {
+                    "type": "not_in_combat",
+                    "purposes": null,
+                    "placeStoryRole": null,
+                    "periods": null,
+                    "characterName": null,
+                    "hours": null
+                  }
+                ],
+                "conditionTimeoutHours": 48,
+                "triggered": false,
+                "triggeredAt": null,
+                "triggeredByEventId": null,
+                "outcome": null,
+                "flagsSet": null,
+                "conditionsEligibleSince": null
+              },
+              {
+                "id": "TP_name_in_the_stone",
+                "progressTarget": 70,
+                "dramaticRole": "crisis",
+                "involvedCharacter": "soft-voiced ship’s chime-tuner with ink-stained fingers",
+                "triggerOnFlags": null,
+                "essentialInformation": [
+                  "The player learns their identity is beginning to crystallize into the environment, creating both shortcuts and traps keyed to personal memory.",
+                  "The player learns that speaking a true name now would grant leverage but sharply increase the Lattice’s ability to track and imitate.",
+                  "The player learns time pressure: once the crystallization reaches a resonance sink, it becomes much harder to undo."
+                ],
+                "triggerConditions": [
+                  {
+                    "type": "min_hours_since_last_event",
+                    "purposes": null,
+                    "placeStoryRole": null,
+                    "periods": null,
+                    "characterName": null,
+                    "hours": 6
+                  },
+                  {
+                    "type": "time_of_day",
+                    "purposes": null,
+                    "placeStoryRole": null,
+                    "periods": [
+                      "evening",
+                      "night"
+                    ],
+                    "characterName": null,
+                    "hours": null
+                  }
+                ],
+                "conditionTimeoutHours": 48,
+                "triggered": false,
+                "triggeredAt": null,
+                "triggeredByEventId": null,
+                "outcome": null,
+                "flagsSet": null,
+                "conditionsEligibleSince": null
+              },
+              {
+                "id": "TP_retune_at_axiomshade",
+                "progressTarget": 85,
+                "dramaticRole": "climax",
+                "involvedCharacter": "charismatic namewright who records voices onto stone slivers",
+                "triggerOnFlags": null,
+                "essentialInformation": [
+                  "The player learns the retune can sever the Namewright’s tracking—if performed under a strict silence protocol while the confrontation unfolds.",
+                  "The player learns the retune requires a ‘price’ (a spoken true name, or a deliberately surrendered regret-imprint) and each option has lasting consequences."
+                ],
+                "triggerConditions": [
+                  {
+                    "type": "min_hours_since_last_event",
+                    "purposes": null,
+                    "placeStoryRole": null,
+                    "periods": null,
+                    "characterName": null,
+                    "hours": 4
+                  },
+                  {
+                    "type": "specific_location",
+                    "purposes": null,
+                    "placeStoryRole": "resonance_sink",
+                    "periods": null,
+                    "characterName": null,
+                    "hours": null
+                  }
+                ],
+                "conditionTimeoutHours": 48,
+                "triggered": false,
+                "triggeredAt": null,
+                "triggeredByEventId": null,
+                "outcome": null,
+                "flagsSet": null,
+                "conditionsEligibleSince": null
+              },
+              {
+                "id": "TP_aftertone",
+                "progressTarget": 93,
+                "dramaticRole": "resolution",
+                "involvedCharacter": "regret-imprint of a past expedition leader embedded in repaired hull-stone",
+                "triggerOnFlags": null,
+                "essentialInformation": [
+                  "The player learns what the Lattice now ‘remembers’ about them, based on how the retune was paid.",
+                  "The player learns whether The Latticewake’s route is newly protected or permanently marked by an imitated cadence."
+                ],
+                "triggerConditions": [
+                  {
+                    "type": "min_hours_since_last_event",
+                    "purposes": null,
+                    "placeStoryRole": null,
+                    "periods": null,
+                    "characterName": null,
+                    "hours": 2
+                  },
+                  {
+                    "type": "not_in_combat",
+                    "purposes": null,
+                    "placeStoryRole": null,
+                    "periods": null,
+                    "characterName": null,
+                    "hours": null
+                  }
+                ],
+                "conditionTimeoutHours": 48,
+                "triggered": false,
+                "triggeredAt": null,
+                "triggeredByEventId": null,
+                "outcome": null,
+                "flagsSet": null,
+                "conditionsEligibleSince": null
+              }
+            ],
+            "possibleFlags": [
+              {
+                "id": "acquired_sealed_letter",
+                "triggerDescription": "Set when the player picks up or receives the Sealed Letter."
+              },
+              {
+                "id": "used_sealed_letter",
+                "triggerDescription": "Set when the player opens/uses the Sealed Letter as an actionable object (e.g., breaks the wax, presents it, or performs a required interaction with it)."
+              },
+              {
+                "id": "acquired_iron_amulet",
+                "triggerDescription": "Set when the player picks up or receives the Iron Amulet."
+              },
+              {
+                "id": "used_iron_amulet",
+                "triggerDescription": "Set when the player uses the Iron Amulet to damp attention or stabilize a route segment."
+              },
+              {
+                "id": "acquired_scroll_of_identify",
+                "triggerDescription": "Set when the player picks up or receives the Scroll of Identify."
+              },
+              {
+                "id": "used_scroll_of_identify",
+                "triggerDescription": "Set when the player uses the Scroll of Identify to read hidden name-syntax or reveal a disguised resonance pattern."
+              },
+              {
+                "id": "acquired_bronze_medallion",
+                "triggerDescription": "Set when the player picks up or receives the Bronze Medallion."
+              },
+              {
+                "id": "used_bronze_medallion",
+                "triggerDescription": "Set when the player uses the Bronze Medallion to access/prime a tone-lock or pylon interface."
+              },
+              {
+                "id": "chime_investigated",
+                "triggerDescription": "Set when the player traces the false hush-chime to its source and secures immediate shipboard silence protocols."
+              },
+              {
+                "id": "ship_reconfigured",
+                "triggerDescription": "Set when the ship’s internal routes shift dangerously due to prolonged deliberate observation/noise, blocking safe access to key areas."
+              },
+              {
+                "id": "letter_deciphered",
+                "triggerDescription": "Set when the player successfully interprets the Sealed Letter’s hidden name-syntax without speaking a true name aloud."
+              },
+              {
+                "id": "name_spoken_aloud",
+                "triggerDescription": "Set when the player speaks a true name aloud during the investigation, empowering command but making tracking/imitation easier."
+              },
+              {
+                "id": "supply_cache_compromised",
+                "triggerDescription": "Set when the Facetlock Store is breached/emptied or rendered unusable before the player can secure needed tools."
+              },
+              {
+                "id": "crest_lost_to_namewright",
+                "triggerDescription": "Set when the Bronze Medallion is taken or invalidated by the Namewright’s interference."
+              },
+              {
+                "id": "pylon_retuned",
+                "triggerDescription": "Set when the player completes the retune at Axiomshade Lake, severing or scrambling the tracking cadence."
+              },
+              {
+                "id": "namewright_stopped",
+                "triggerDescription": "Set when the player prevents the Namewright from completing the copy/record and ends their immediate threat (by defeat, exile, or binding silence protocol)."
+              },
+              {
+                "id": "namewright_escaped",
+                "triggerDescription": "Set when the Namewright survives with enough of the recorded pattern to remain a future threat."
+              },
+              {
+                "id": "tamsin_imprinted",
+                "triggerDescription": "Set when the Lattice successfully crystallizes Tamsin’s identity into a controllable navigation key or recurring architectural feature."
+              }
+            ],
+            "goals": [
+              {
+                "id": "GOAL_trace_false_chime",
+                "description": "Trace the false hush-chime aboard The Latticewake and secure a clean silence protocol before the ship ‘sets’ around the mistake.",
+                "progressBoost": 25,
+                "revealOnFlags": [],
+                "successFlags": [
+                  "chime_investigated"
+                ],
+                "failureFlags": [
+                  "ship_reconfigured"
+                ],
+                "failureDeadlineHours": 24,
+                "hidden": false,
+                "destinationPlaceId": null,
+                "goalType": null,
+                "stakes": null,
+                "personalHook": null,
+                "dramaticQuestion": null,
+                "immediateHint": null,
+                "blockedByFlags": null,
+                "status": null,
+                "revealedAt": null
+              },
+              {
+                "id": "GOAL_decode_the_letter",
+                "description": "Decode the Sealed Letter’s hidden message without speaking a true name aloud or feeding the Lattice a clean interpretation.",
+                "progressBoost": 25,
+                "revealOnFlags": [
+                  "acquired_sealed_letter"
+                ],
+                "successFlags": [
+                  "letter_deciphered"
+                ],
+                "failureFlags": [
+                  "name_spoken_aloud"
+                ],
+                "failureDeadlineHours": 36,
+                "hidden": false,
+                "destinationPlaceId": null,
+                "goalType": null,
+                "stakes": null,
+                "personalHook": null,
+                "dramaticQuestion": null,
+                "immediateHint": null,
+                "blockedByFlags": null,
+                "status": null,
+                "revealedAt": null
+              },
+              {
+                "id": "GOAL_secure_dampening_tools",
+                "description": "Secure tools that reduce attention-response and allow indirect reading of name-syntax (the Iron Amulet and the Scroll of Identify).",
+                "progressBoost": 30,
+                "revealOnFlags": [
+                  "letter_deciphered"
+                ],
+                "successFlags": [
+                  "acquired_iron_amulet",
+                  "acquired_scroll_of_identify"
+                ],
+                "failureFlags": [
+                  "supply_cache_compromised"
+                ],
+                "failureDeadlineHours": 36,
+                "hidden": false,
+                "destinationPlaceId": null,
+                "goalType": null,
+                "stakes": null,
+                "personalHook": null,
+                "dramaticQuestion": null,
+                "immediateHint": null,
+                "blockedByFlags": null,
+                "status": null,
+                "revealedAt": null
+              },
+              {
+                "id": "GOAL_obtain_access_crest",
+                "description": "Recover the crest-token needed to interface with deeper tone-locks before the Namewright can claim it.",
+                "progressBoost": 20,
+                "revealOnFlags": [
+                  "letter_deciphered"
+                ],
+                "successFlags": [
+                  "acquired_bronze_medallion"
+                ],
+                "failureFlags": [
+                  "crest_lost_to_namewright"
+                ],
+                "failureDeadlineHours": 36,
+                "hidden": false,
+                "destinationPlaceId": null,
+                "goalType": null,
+                "stakes": null,
+                "personalHook": null,
+                "dramaticQuestion": null,
+                "immediateHint": null,
+                "blockedByFlags": null,
+                "status": null,
+                "revealedAt": null
+              },
+              {
+                "id": "GOAL_retune_and_end_copy",
+                "description": "Reach Axiomshade Lake, retune the resonance sink, and stop the Namewright from finishing the copy of you into stone.",
+                "progressBoost": 50,
+                "revealOnFlags": [
+                  "acquired_bronze_medallion"
+                ],
+                "successFlags": [
+                  "pylon_retuned",
+                  "namewright_stopped"
+                ],
+                "failureFlags": [
+                  "tamsin_imprinted",
+                  "namewright_escaped"
+                ],
+                "failureDeadlineHours": 48,
+                "hidden": false,
+                "destinationPlaceId": null,
+                "goalType": null,
+                "stakes": null,
+                "personalHook": null,
+                "dramaticQuestion": null,
+                "immediateHint": null,
+                "blockedByFlags": null,
+                "status": null,
+                "revealedAt": null
+              }
+            ],
+            "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/the_hollow_lattice/images/plots/plot_1772519039016.png",
+            "plotStartDelay": 12,
+            "endingCards": [
+              {
+                "condition": {
+                  "type": "flag_set",
+                  "flag": "namewright_stopped"
+                },
+                "title": "Silence Holds",
+                "text": "The recorded cadence fractures, and the corridors stop trying to finish your sentences. For now, the Lattice can’t quite agree on who you are.",
+                "image": null
+              },
+              {
+                "condition": {
+                  "type": "flag_set",
+                  "flag": "pylon_retuned"
+                },
+                "title": "Axiomshade Retuned",
+                "text": "The lake drinks the stray harmonics and returns only clean angles. Routes stop snapping to your attention—navigation becomes work again, not autobiography.",
+                "image": null
+              },
+              {
+                "condition": {
+                  "type": "flag_set",
+                  "flag": "namewright_escaped"
+                },
+                "title": "A Pattern Still Walking",
+                "text": "Somewhere in the ribs of the underworld, a voice like yours practices being more convincing. The next time you hear your own cadence coming from stone, you won’t know who started it.",
+                "image": null
+              },
+              {
+                "condition": {
+                  "type": "flag_set",
+                  "flag": "tamsin_imprinted"
+                },
+                "title": "Keyed Into Stone",
+                "text": "Doors begin to recognize you before you touch them, and corridors offer you ‘help’ you never asked for. In exchange, the Lattice expects you to keep being readable.",
+                "image": null
+              },
+              {
+                "condition": {
+                  "type": "always",
+                  "flag": ""
+                },
+                "title": "Aftertone on the Deck",
+                "text": "The Latticewake sails on under its hard meridian glare, each line of rigging a reminder that sound is a tool—and a trail. What you didn’t say matters as much as what you did.",
+                "image": null
+              }
+            ],
+            "credits": {
+              "title": "Generated Adventure",
+              "entries": [
+                {
+                  "role": "Plot",
+                  "name": "Storyteller"
+                },
+                {
+                  "role": "World",
+                  "name": "The Hollow Lattice"
+                }
+              ]
+            },
+            "characterCentric": false,
+            "centralDramaticQuestion": null,
+            "dramaticSubQuestions": null
+          },
+          "progressLevel": 0,
+          "storyFlags": [],
+          "nextEventAtGameDate": "01.01.19 P.S. 22:03",
+          "events": [],
+          "endedAt": null
+        }
+      ],
+      "generationInProgress": false,
+      "eventHistory": [],
+      "storytellerSelectedAt": "01.01.19 P.S. 10:00",
+      "custom": {}
+    },
+    "isPlayer": true,
+    "storyComplete": false,
+    "routine": null,
+    "vesselRoutes": null,
+    "abstractLocation": null,
+    "npcBehavior": null,
+    "physicalState": null,
+    "pendingDeparture": null,
+    "pendingArrival": null,
+    "lastRoutineCheckPeriod": "morning",
+    "startingNarrative": "You stand on the Latticewake’s dark, gridded deck as the ship holds a hard, angular tack through Kharion’s laminar skies. The prismatic planks catch the meridian glare in shards, and you keep your lantern hooded—down here, even the thought of brightness can make architecture remember you too vividly.\n\nYou check the glass-collared storage wells and the sealant paste at your belt by touch, listening for the ship’s hush-signals and the safe chime patterns that keep doors and latches obedient. The air tastes of grit and polish; every sound you don’t need stays trapped behind your teeth.",
+    "startingCharacterState": "Alert and purposeful, steadying yourself with routine and tangible checks while keeping your attention deliberately soft.",
+    "clothing": [
+      {
+        "slot": "torso_under",
+        "itemId": "tunic",
+        "color": "#d2b48c",
+        "contents": null
+      },
+      {
+        "slot": "torso_over",
+        "itemId": "jacket",
+        "color": "#8b4513",
+        "contents": null
+      },
+      {
+        "slot": "legs",
+        "itemId": "cloth_pants",
+        "color": "#3a3a3a",
+        "contents": null
+      },
+      {
+        "slot": "feet",
+        "itemId": "boots",
+        "color": "#8b4513",
+        "contents": null
+      },
+      {
+        "slot": "belt",
+        "itemId": "leather_belt",
+        "color": "#8b4513",
+        "contents": []
+      },
+      {
+        "slot": "hands",
+        "itemId": "leather_bracers",
+        "color": "#8b4513",
+        "contents": null
+      },
+      {
+        "slot": "behind_body",
+        "itemId": "iverness_cape",
+        "color": "#000080",
+        "contents": []
+      }
+    ],
+    "enabledOverlayLayers": [],
+    "helmingVesselId": null,
+    "storytellerDisabled": false,
+    "rulesetState": {
+      "stats": {},
+      "conditions": [],
+      "statUsage": {},
+      "incapacitation": null,
+      "incapacitatedSince": null
+    },
+    "voiceId": "jessica",
+    "spriteConfig": {
+      "bodyType": "female",
+      "layers": [
+        {
+          "type": "body",
+          "optionId": "body_base",
+          "tint": 10136938
+        },
+        {
+          "type": "body",
+          "optionId": "body_universal",
+          "tint": 10136938
+        },
+        {
+          "type": "hair",
+          "optionId": "hair_parted",
+          "tint": 7029286
+        },
+        {
+          "type": "torso",
+          "optionId": "torso_white_tunic",
+          "tint": 13808780
+        },
+        {
+          "type": "torso",
+          "optionId": "torso_jacket_female",
+          "tint": 9127187
+        },
+        {
+          "type": "legs",
+          "optionId": "legs_white_pants_female",
+          "tint": 3815994
+        },
+        {
+          "type": "feet",
+          "optionId": "feet_white_boots_female",
+          "tint": 9127187
+        },
+        {
+          "type": "belt",
+          "optionId": "belt_leather_female",
+          "tint": 9127187
+        },
+        {
+          "type": "hands",
+          "optionId": "hands_leather_bracers_female",
+          "tint": 9127187
+        }
+      ],
+      "spriteHash": "e2bd926eaddb8fc4",
+      "spriteUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/sprites/generated/e2bd926eaddb8fc4.png"
+    }
+  },
+  "position": {
+    "x": 368,
+    "y": 720,
+    "width": 32,
+    "height": 48,
+    "parent": "PLACE_the_latticewake"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/the_hollow_lattice/images/characters/CHAR_tamsin_roe.png?v=1772518805146",
+  "faceAnchorY": 0.22,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "talk"
+  },
+  "relationships": [],
+  "important": false
+}

@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_the_cinder_cantina",
+  "label": "The Cinder Cantina",
+  "description": "The Cinder Cantina occupies a slagcrete vault cut into Ashenward City’s basaltic windbreak mass, its low ceiling ribbed with reinforcement and soot-blackened conduit. Vitrified paving gives way to cracked stone flags dusted with perpetual ash, while narrow light-strips cast bruised violet reflections that echo the city’s auroral glare. A long, scarred counter of riveted plasteel divides the room from a wall of caged burners and insulated taps designed to function amid constant atmospheric interference. Shielded vox-baffles and heavy intake grilles lend the interior a sealed, pressurized character, muting the ash-gales outside into a distant, metallic hush.",
+  "short_description": "ash-lit basalt tavern",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "tavern",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "building_tavern",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/battles/PLACE_the_cinder_cantina.png?v=1771958889450",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 2896,
+    "y": 2592,
+    "width": 160,
+    "height": 256,
+    "parent": "PLACE_vespera_tertius_ashenward_city",
+    "innerWidth": 1152,
+    "innerHeight": 1088
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/places/PLACE_the_cinder_cantina.png?v=1771958939793",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": true
+}

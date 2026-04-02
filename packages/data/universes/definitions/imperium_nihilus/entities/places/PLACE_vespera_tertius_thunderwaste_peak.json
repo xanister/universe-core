@@ -1,0 +1,60 @@
+{
+  "id": "PLACE_vespera_tertius_thunderwaste_peak",
+  "label": "Vespera Tertius Thunderwaste Peak",
+  "description": "Vespera Tertius Thunderwaste Peak is a solitary basalt mountain rising from ash-choked basins, its flanks cut into vitrified ribs by recurrent electrostatic storms. The summit ridge bears sheets of black rift-glass fused from impact heat, fractured into knife-edged plates that ring faintly under wind and static discharge. Violet lightning routinely crawls along exposed strata, leaving scorched runnels that channel ash into permanent leeward drifts. The bruise-colored auroral glow of the empyrean-stained sky stains the upper slopes, rendering the peak a fixed landmark against the planet’s null-lit horizons.",
+  "short_description": "storm-scarred basalt peak",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "mountain",
+    "environment": {
+      "type": "exterior",
+      "hasWeather": true,
+      "temperature": {
+        "enabled": true,
+        "base": null,
+        "modifiersApply": true
+      },
+      "maxDarkness": null
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "world_map_mountain",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/battles/PLACE_vespera_tertius_thunderwaste_peak.png?v=1771874121245",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 1744,
+    "y": 1408,
+    "width": 96,
+    "height": 96,
+    "parent": "PLACE_vespera_tertius",
+    "innerWidth": 5760,
+    "innerHeight": 6048
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/places/PLACE_vespera_tertius_thunderwaste_peak.png?v=1771874174590",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": [
+    "Vespera Tertius Nightscar Massif"
+  ],
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

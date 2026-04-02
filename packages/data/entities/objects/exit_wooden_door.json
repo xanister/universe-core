@@ -1,0 +1,18 @@
+{
+  "id": "exit_wooden_door",
+  "name": "Wooden door",
+  "description": "A wooden door",
+  "purposes": [
+    "exit"
+  ],
+  "solid": false,
+  "layer": "default",
+  "spriteId": "door_wooden",
+  "materials": [],
+  "tintable": false,
+  "tags": [
+    "ship",
+    "wall"
+  ],
+  "lightSource": null
+}

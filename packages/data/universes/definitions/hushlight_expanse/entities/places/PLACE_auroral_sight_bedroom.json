@@ -1,0 +1,60 @@
+{
+  "id": "PLACE_auroral_sight_bedroom",
+  "label": "Auroral Sight Bedroom",
+  "description": "Auroral Sight Bedroom is a narrow sleeping chamber cut from vitrified stone, its high walls bearing the loft’s permanent grit of electrostatically pinned glass dust. A slit window continues Cinderveil Loft’s calibrated alignment, admitting copper-white twilight in a sharply bounded band that traces the mirror-halo geometry across the floor. Mirror-slag inlays form a restrained grid around a low built-in sleeping platform, turning reflected radiance into a stable, navigational pattern at close range. Recessed alcoves and lidded niches are carved into the basalt-glass, limiting furnishings to integrated storage and preserving the residence’s austere civic order.",
+  "short_description": "twilight-aligned bedchamber",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "bedroom",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "door_wooden",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/hushlight_expanse/images/battles/PLACE_auroral_sight_bedroom.png?v=1772314333885",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 432,
+    "y": 160,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_cinderveil_loft",
+    "innerWidth": 576,
+    "innerHeight": 576
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/hushlight_expanse/images/places/PLACE_auroral_sight_bedroom.png?v=1772314383150",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": [
+    "Auroral Sightline Bedroom"
+  ],
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

@@ -1,0 +1,275 @@
+{
+  "id": "CHAR_sevrin_malloch",
+  "label": "Sevrin Malloch",
+  "description": "This individual presents as an undead human corpse preserved by arid air and mineral-laden seepage, with brown skin stretched taut over prominent cheekbones and jaw. Gray eyes sit deep in the sockets beneath a heavy brow, giving the face a fixed, unblinking severity. Gray hair grows in sparse, uneven clumps along the scalp, leaving broad patches of exposed skin. The mouth shows chronic desiccation and fissuring at the lips, a hallmark of long interment in hollowed, stony ground.",
+  "short_description": "undead male hollow warden",
+  "tags": [],
+  "entityType": "character",
+  "info": {
+    "purpose": "undead",
+    "aliases": [
+      "The Fulgurite Hollow Warden"
+    ],
+    "birthdate": "Unknown",
+    "deathdate": null,
+    "title": null,
+    "birthPlace": "Unknown",
+    "eyeColor": "gray",
+    "gender": "male",
+    "hairColor": "gray",
+    "hairStyle": "unkempt",
+    "beardStyle": "stubble",
+    "headType": "human_male",
+    "skinTone": "brown",
+    "personality": "Taciturn and territorial, they adhere to repetitive patrol-like circuits and respond to intrusion with rigid, ritualized violence typical of hollow-haunting dead.",
+    "race": "human",
+    "messages": [],
+    "journal": [],
+    "sketches": [],
+    "verbosity": 3,
+    "conversationContext": null,
+    "storytellerState": null,
+    "isPlayer": false,
+    "storyComplete": false,
+    "routine": {
+      "schedule": {
+        "dawn": "work",
+        "morning": "work",
+        "afternoon": "work",
+        "evening": "work",
+        "night": "work"
+      },
+      "home": {
+        "placeId": "PLACE_fulgurite_hollow",
+        "description": "Fulgurite Hollow",
+        "areaHint": null
+      },
+      "work": {
+        "placeId": "PLACE_fulgurite_hollow",
+        "description": "Fulgurite Hollow",
+        "areaHint": null
+      },
+      "leisure": null,
+      "variance": 0.2,
+      "activities": {
+        "work": "undead_patrol"
+      }
+    },
+    "vesselRoutes": null,
+    "abstractLocation": null,
+    "npcBehavior": null,
+    "physicalState": null,
+    "pendingDeparture": null,
+    "pendingArrival": null,
+    "lastRoutineCheckPeriod": null,
+    "startingNarrative": null,
+    "startingCharacterState": null,
+    "clothing": [
+      {
+        "slot": "torso_under",
+        "itemId": "tunic",
+        "color": "#3a3a3a",
+        "contents": null
+      },
+      {
+        "slot": "torso_over",
+        "itemId": "trenchcoat",
+        "color": "#8b4513",
+        "contents": null
+      },
+      {
+        "slot": "legs",
+        "itemId": "cloth_pants",
+        "color": "#1a1a1a",
+        "contents": null
+      },
+      {
+        "slot": "feet",
+        "itemId": "boots",
+        "color": "#8b4513",
+        "contents": null
+      },
+      {
+        "slot": "hands",
+        "itemId": "cloth_gloves",
+        "color": "#1a1a1a",
+        "contents": null
+      },
+      {
+        "slot": "belt",
+        "itemId": "rope_belt",
+        "color": "#d2b48c",
+        "contents": [
+          {
+            "id": "ci_1772084840215_qvtvfn",
+            "itemId": "leather_bracers",
+            "name": "leather_bracers",
+            "description": null,
+            "type": "weapon",
+            "quantity": 1,
+            "color": "#8b4513",
+            "equipSlot": "weapon",
+            "plotId": null
+          }
+        ]
+      },
+      {
+        "slot": "head",
+        "itemId": "cloth_hood",
+        "color": "#3a3a3a",
+        "contents": null
+      }
+    ],
+    "enabledOverlayLayers": [
+      "eyes",
+      "facial"
+    ],
+    "helmingVesselId": null,
+    "storytellerDisabled": false,
+    "rulesetState": {
+      "stats": {
+        "physical": 50,
+        "mental": 50,
+        "social": 50,
+        "poise": 50,
+        "max_poise": 50,
+        "bloodloss": 0,
+        "anxiety": 0,
+        "fatigue": 0,
+        "hunger": 0
+      },
+      "conditions": [],
+      "statUsage": {},
+      "incapacitation": null,
+      "incapacitatedSince": null
+    },
+    "voiceId": "brian",
+    "spriteConfig": {
+      "bodyType": "male",
+      "layers": [
+        {
+          "type": "body",
+          "optionId": "body_base",
+          "tint": 7029286
+        },
+        {
+          "type": "body",
+          "optionId": "body_universal",
+          "tint": 7029286
+        },
+        {
+          "type": "eyes",
+          "optionId": "eyes_eyes",
+          "tint": 8423560
+        },
+        {
+          "type": "facial",
+          "optionId": "facial_beard",
+          "tint": 8421504
+        },
+        {
+          "type": "torso",
+          "optionId": "torso_formal_trenchcoat_male",
+          "tint": 9127187
+        },
+        {
+          "type": "legs",
+          "optionId": "legs_white_pants_male",
+          "tint": 1710618
+        },
+        {
+          "type": "feet",
+          "optionId": "feet_white_boots_male",
+          "tint": 9127187
+        },
+        {
+          "type": "hands",
+          "optionId": "hands_white_gloves_male",
+          "tint": 1710618
+        },
+        {
+          "type": "belt",
+          "optionId": "belt_wulax_belt_rope_male",
+          "tint": 13808780
+        },
+        {
+          "type": "head",
+          "optionId": "head_cloth_hood_male",
+          "tint": 3815994
+        }
+      ],
+      "spriteHash": "dda3a1a91c0ecf2c",
+      "spriteUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/sprites/generated/dda3a1a91c0ecf2c.png",
+      "spriteScale": 1
+    }
+  },
+  "position": {
+    "x": 976,
+    "y": 1616,
+    "width": 32,
+    "height": 48,
+    "parent": "PLACE_fulgurite_hollow"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/portrait-pool/undead/2.png",
+  "faceAnchorY": 0.17,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "talk"
+  },
+  "relationships": [
+    {
+      "targetId": "CHAR_sereth_varn",
+      "type": "acquaintance",
+      "disposition": 0,
+      "familiarity": 40,
+      "context": "Both are territorial, patrol-bound undead haunting nearby fulgurite cave/hollow sites; likely to have encountered each other at boundary passages or during overlapping circuits.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_severan_duskward_1",
+      "type": "acquaintance",
+      "disposition": 0,
+      "familiarity": 40,
+      "context": "Same broader fulgurite cave network (echo cavern vs hollow) and similar sentinel behavior makes incidental contact plausible at shared routes/thresholds.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_severin_drahl_2",
+      "type": "acquaintance",
+      "disposition": 0,
+      "familiarity": 40,
+      "context": "Both occupy the fulgurite region and exhibit ritualized, jurisdiction-like territorial patrols; likely to recognize each other as neighboring hazards.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_sevran_olt",
+      "type": "acquaintance",
+      "disposition": 0,
+      "familiarity": 40,
+      "context": "Echo-guided sentinel in the nearby fulgurite echo cavern could plausibly cross paths with Sevrin Malloch along connecting corridors or sound-carrying passages.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_sevrin_halor",
+      "type": "acquaintance",
+      "disposition": 0,
+      "familiarity": 40,
+      "context": "Both are fulgurite-area undead sentinels with boundary-mark/patrol compulsions; likely to have a wary recognition if their patrol ranges abut.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_sevrin_halq",
+      "type": "acquaintance",
+      "disposition": 0,
+      "familiarity": 40,
+      "context": "Nearby fulgurite echo-chamber haunt with sound/vibration fixation could plausibly detect and track Malloch’s movements through connected stone hollows, implying occasional encounters.",
+      "pendingGeneration": false
+    }
+  ],
+  "important": false
+}

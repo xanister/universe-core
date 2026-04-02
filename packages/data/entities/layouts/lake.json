@@ -1,0 +1,155 @@
+{
+  "id": "lake",
+  "name": "Lake",
+  "description": "A body of water",
+  "purposes": [
+    "lake"
+  ],
+  "spriteId": "world_map_pond",
+  "variants": [
+    {
+      "id": "A",
+      "scale": "feet",
+      "environment": {
+        "type": "exterior",
+        "hasWeather": true,
+        "temperature": {
+          "enabled": true,
+          "base": null,
+          "modifiersApply": true
+        },
+        "maxDarkness": null
+      },
+      "slots": [
+        {
+          "positionAlgorithm": "random",
+          "min": 0,
+          "max": 1,
+          "nearPurpose": null,
+          "inheritableTags": null,
+          "distribution": "even",
+          "forbiddenTags": null,
+          "purpose": "exit",
+          "slotSize": null,
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "preferDistrict": null,
+          "distributionGroup": null,
+          "requiredTags": null
+        },
+        {
+          "max": 1,
+          "positionAlgorithm": "random_valid",
+          "nearPurpose": null,
+          "inheritableTags": null,
+          "distribution": "even",
+          "forbiddenTags": null,
+          "purpose": "harbor",
+          "min": 0,
+          "slotSize": null,
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "preferDistrict": null,
+          "distributionGroup": null,
+          "requiredTags": null
+        },
+        {
+          "max": 4,
+          "positionAlgorithm": "random_valid",
+          "nearPurpose": null,
+          "inheritableTags": null,
+          "distribution": "even",
+          "forbiddenTags": null,
+          "purpose": "decoration",
+          "min": 0,
+          "slotSize": null,
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "preferDistrict": null,
+          "distributionGroup": null,
+          "requiredTags": null
+        }
+      ],
+      "description": "A body of water or pond",
+      "weight": 1,
+      "width": {
+        "min": 100,
+        "max": 350
+      },
+      "height": {
+        "min": 80,
+        "max": 280
+      },
+      "terrainLayers": [
+        {
+          "id": "water",
+          "tilesetId": "terrain-ocean",
+          "renderOrder": 0,
+          "blocking": "blocks",
+          "terrain": "water",
+          "procedural": false,
+          "fill": [
+            46,
+            47,
+            48
+          ],
+          "type": "fill",
+          "inheritable": true
+        },
+        {
+          "id": "water_waves",
+          "tilesetId": "terrain-ocean",
+          "renderOrder": 0,
+          "type": "animated_overlay",
+          "fill": [
+            46,
+            47,
+            48
+          ],
+          "frames": [
+            46,
+            47,
+            48
+          ],
+          "tickMs": 400,
+          "density": 8,
+          "blocking": null,
+          "terrain": "void",
+          "procedural": false,
+          "inheritable": true
+        },
+        {
+          "id": "land",
+          "tilesetId": "terrain-beach",
+          "renderOrder": 1,
+          "blocking": "unblocks",
+          "terrain": "land",
+          "procedural": false,
+          "fill": [],
+          "type": "noise_patch",
+          "shapePreset": "island",
+          "autotileAgainst": [],
+          "withinTerrain": null,
+          "autotilePreset": "canonical",
+          "inheritable": false
+        }
+      ],
+      "defaultBlocked": false
+    }
+  ],
+  "characterScale": 1,
+  "timeScale": 1,
+  "interactionZone": null
+}

@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_the_chroma_sleeper",
+  "label": "The Chroma Sleeper",
+  "description": "The Chroma Sleeper is a compact lodging chamber set behind the tavern’s faceted service wall, sealed by vitrified tile and scored metalwork to resist Lacrymara’s abrasive glass dust. A shallow prism-pane over the bed refracts the copper-white twilight into fixed bands, while grounded floor gutters draw stray charge into a narrow drain-channel cut through fused silicate. Built-in storage niches are faced with mirror slats aligned to Seamglass Meridian’s auroral geometry, keeping the room’s light orderly and navigationally regular. Furnishings favor slab-stone and riveted metal with easily cleaned edges, emphasizing durability over softness in the hushlit climate.",
+  "short_description": "prism-lit lodging room",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "bedroom",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "door_wooden",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/hushlight_expanse/images/battles/PLACE_the_chroma_sleeper.png?v=1772314013890",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 784,
+    "y": 160,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_the_prismatic_draught",
+    "innerWidth": 640,
+    "innerHeight": 608
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/hushlight_expanse/images/places/PLACE_the_chroma_sleeper.png?v=1772314063465",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

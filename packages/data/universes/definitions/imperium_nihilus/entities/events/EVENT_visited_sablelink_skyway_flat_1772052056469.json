@@ -1,0 +1,18 @@
+{
+  "id": "EVENT_visited_sablelink_skyway_flat_1772052056469",
+  "date": "999.M1 17:51",
+  "placeId": "PLACE_sablelink_skyway_flat",
+  "important": false,
+  "importanceScore": null,
+  "scope": null,
+  "relevantPlaceIds": null,
+  "eventType": "location_visited",
+  "category": "world",
+  "subject": "Sablelink Skyway Flat",
+  "subjectId": "PLACE_sablelink_skyway_flat",
+  "fact": "Visited Sablelink Skyway Flat",
+  "significance": "minor",
+  "witnessIds": [
+    "CHAR_alaric_morn"
+  ]
+}

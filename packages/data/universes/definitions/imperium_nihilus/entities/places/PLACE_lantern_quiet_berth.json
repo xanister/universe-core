@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_lantern_quiet_berth",
+  "label": "Lantern Quiet Berth",
+  "description": "Lantern Quiet Berth is a narrow sleeping chamber set within The Pallid Lantern’s ferrocrete ribbing, its corners squared by blast-braced pilasters and a low, vault-curved ceiling. A recessed cot niche and bolted locker occupy opposing walls, their plasteel faces scuffed by long use under enclave ration discipline. Hooded lumen strips cast a regulated pallor that leaves the room’s edges in controlled shadow, while exposed vent grilles carry the tavern’s constant, filtered airflow. Sound-damping panels and a sealable inner hatch preserve the enclave’s blackout protocol and keep the space austerely self-contained.",
+  "short_description": "spartan private berth",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "bedroom",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "door_wooden",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/battles/PLACE_lantern_quiet_berth.png?v=1771996441797",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 976,
+    "y": 160,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_the_pallid_lantern",
+    "innerWidth": 448,
+    "innerHeight": 512
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/places/PLACE_lantern_quiet_berth.png?v=1771996490301",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

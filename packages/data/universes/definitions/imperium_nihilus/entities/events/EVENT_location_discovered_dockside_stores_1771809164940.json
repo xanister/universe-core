@@ -1,0 +1,18 @@
+{
+  "id": "EVENT_location_discovered_dockside_stores_1771809164940",
+  "date": "999.M1 07:51",
+  "placeId": null,
+  "important": false,
+  "importanceScore": null,
+  "scope": null,
+  "relevantPlaceIds": null,
+  "eventType": "location_discovered",
+  "category": "knowledge",
+  "subject": "Dockside Stores",
+  "subjectId": "PLACE_dockside_stores",
+  "fact": "Learned about Dockside Stores",
+  "significance": "minor",
+  "witnessIds": [
+    "CHAR_alden_sorell"
+  ]
+}

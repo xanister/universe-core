@@ -1,0 +1,20 @@
+{
+  "id": "platter_oval",
+  "name": "Oval Platter",
+  "description": "A wide oval serving platter.",
+  "purposes": [
+    "decoration"
+  ],
+  "tags": [
+    "common",
+    "tableware",
+    "tavern"
+  ],
+  "solid": false,
+  "layer": "default",
+  "spriteId": "platter_oval",
+  "materials": [
+    "iron"
+  ],
+  "tintable": false
+}

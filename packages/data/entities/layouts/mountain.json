@@ -1,0 +1,133 @@
+{
+  "id": "mountain",
+  "name": "Mountain",
+  "description": "A mountain, peak, or highland",
+  "purposes": [
+    "mountain"
+  ],
+  "spriteId": "world_map_mountain",
+  "variants": [
+    {
+      "id": "A",
+      "scale": "feet",
+      "environment": {
+        "type": "exterior",
+        "hasWeather": true,
+        "temperature": {
+          "enabled": true,
+          "base": null,
+          "modifiersApply": true
+        },
+        "maxDarkness": null
+      },
+      "slots": [
+        {
+          "positionAlgorithm": "random",
+          "min": 0,
+          "max": 1,
+          "nearPurpose": null,
+          "inheritableTags": null,
+          "distribution": "even",
+          "forbiddenTags": null,
+          "purpose": "exit",
+          "slotSize": null,
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "preferDistrict": null,
+          "distributionGroup": null,
+          "requiredTags": null
+        },
+        {
+          "max": 2,
+          "positionAlgorithm": "random_valid",
+          "nearPurpose": null,
+          "inheritableTags": null,
+          "distribution": "even",
+          "forbiddenTags": null,
+          "purpose": "cave",
+          "min": 0,
+          "slotSize": null,
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "preferDistrict": null,
+          "distributionGroup": null,
+          "requiredTags": null
+        },
+        {
+          "max": 4,
+          "positionAlgorithm": "random_valid",
+          "nearPurpose": null,
+          "inheritableTags": null,
+          "distribution": "even",
+          "forbiddenTags": null,
+          "purpose": "decoration",
+          "min": 0,
+          "slotSize": null,
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "preferDistrict": null,
+          "distributionGroup": null,
+          "requiredTags": null
+        }
+      ],
+      "description": "A mountain, peak, or highland",
+      "weight": 1,
+      "width": {
+        "min": 80,
+        "max": 300
+      },
+      "height": {
+        "min": 70,
+        "max": 250
+      },
+      "terrainLayers": [
+        {
+          "id": "rock",
+          "tilesetId": "terrain-cobble-slate",
+          "renderOrder": 0,
+          "blocking": "blocks",
+          "terrain": "wall",
+          "procedural": false,
+          "fill": [
+            46,
+            47,
+            48
+          ],
+          "type": "fill",
+          "inheritable": true
+        },
+        {
+          "id": "clearing",
+          "tilesetId": "terrain-dirt-path",
+          "renderOrder": 1,
+          "blocking": "unblocks",
+          "terrain": "land",
+          "procedural": false,
+          "fill": [],
+          "type": "noise_patch",
+          "shapePreset": "clearing",
+          "autotileAgainst": [],
+          "withinTerrain": null,
+          "autotilePreset": "canonical",
+          "inheritable": false
+        }
+      ],
+      "defaultBlocked": false
+    }
+  ],
+  "characterScale": 1,
+  "timeScale": 1,
+  "interactionZone": null
+}

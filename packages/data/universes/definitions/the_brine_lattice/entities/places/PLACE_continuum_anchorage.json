@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_continuum_anchorage",
+  "label": "Continuum Anchorage",
+  "description": "Continuum Anchorage functions as an interstitial spaceport set directly within the Brine Lattice’s interlinked continua, where engineered gradients of time and inertia permit controlled approach. Its docking galleries form a ring of black composite and radiant conductor-ribs, inscribed with transit indices that align arrivals to causality-safe vectors. Navigation pylons extend into the surrounding darkness and radiance, fixing local motion against the wider fields that define the Cosmos. Cargo concourses and pressure-sealed transit halls emphasize modular construction, enabling rapid reconfiguration as lattice conditions shift.",
+  "short_description": "interstitial spaceport",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "spaceport",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "spaceport",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/the_brine_lattice/images/battles/PLACE_continuum_anchorage.png?v=1772313627862",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 9936,
+    "y": 2336,
+    "width": 32,
+    "height": 32,
+    "parent": "PLACE_cosmos",
+    "innerWidth": 2688,
+    "innerHeight": 1888
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/the_brine_lattice/images/places/PLACE_continuum_anchorage.png?v=1772313677716",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

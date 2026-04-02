@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_terminus_shutterhouse",
+  "label": "Terminus Shutterhouse",
+  "description": "Terminus Shutterhouse is a compact basalt residence built into the salt-cemented fabric of Brineshade Terminator City, its exterior defined by deep-set apertures and layered glare-baffles tuned to Saltharrow’s hard white radiance. The interior plan follows a narrow axial hall with low lintels and thick partition walls that stabilize temperature against the mineral-laden haze and constant terminator contrast. Polished saltstone thresholds and recessed storage niches are cut directly into the fused basalt, minimizing loose fittings under persistent tidal stresses. A roofline service terrace carries fixed anchor points and screened vents aligned to the city’s charted corridors and beacon sightlines.",
+  "short_description": "shuttered basalt home",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "residence",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "building_residence",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/the_brine_lattice/images/battles/PLACE_terminus_shutterhouse.png?v=1772314263094",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 304,
+    "y": 1120,
+    "width": 160,
+    "height": 256,
+    "parent": "PLACE_brineshade_terminator_city",
+    "innerWidth": 672,
+    "innerHeight": 704
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/the_brine_lattice/images/places/PLACE_terminus_shutterhouse.png?v=1772314311267",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

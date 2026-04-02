@@ -1,0 +1,224 @@
+{
+  "id": "CHAR_lysander_quay",
+  "label": "Lysander Quay",
+  "description": "This individual is a young adult of shoalborn stock, marked by a light skinTone and the wind-lean build common to long coastal passages. blue eyes sit deep beneath a straight brow, giving the face a focused, searching cast that holds steady under scrutiny. brown hair is kept in a practical shortknot, exposing a high forehead and the salt-dried texture of frequent travel. The hands show early callus and healed nicks at the knuckles, consistent with regular rope-work and pack-carrying rather than settled craft.",
+  "short_description": "male traveling newcomer",
+  "tags": [],
+  "entityType": "character",
+  "info": {
+    "purpose": "player",
+    "aliases": [
+      "Quay",
+      "Lantern-Newcomer"
+    ],
+    "birthdate": "1003-06-18",
+    "deathdate": null,
+    "title": null,
+    "birthPlace": "Tidewalk Platforms",
+    "eyeColor": "blue",
+    "gender": "male",
+    "hairColor": "brown",
+    "hairStyle": "shortknot",
+    "beardStyle": null,
+    "headType": "human_male",
+    "skinTone": "light",
+    "personality": "Restless and purpose-driven, this newcomer pursues clear objectives and measures worth in hard-won experience rather than reputation. He speaks plainly, asks direct questions, and treats every unfamiliar custom as a lesson to be mastered. Curiosity governs his choices, and he commits quickly once a course is chosen, preferring decisive action over protracted debate.",
+    "race": "shoalborn",
+    "messages": [
+      {
+        "role": "user",
+        "action": "input",
+        "opts": {
+          "text": "I look around."
+        },
+        "date": "C 01.01.8127 10:03",
+        "omitFromTranscript": false,
+        "hidden": false
+      },
+      {
+        "date": "C 01.01.8127 10:05",
+        "omitFromTranscript": false,
+        "hidden": false,
+        "role": "assistant",
+        "action": "narration",
+        "opts": {
+          "text": "Cloud-muted morning light can’t quite argue with the Lantern’s engineered fixtures, so the room sits in its usual politely unvarying gloom: a central polished conductor-metal bar, partitioned seating bays broken up by bulkheads and acoustic baffles, and transit-index inlays crawling across walls and ceiling like navigation notes trying to look decorative. Low conversations, glass clinks, and the station’s steady hum fill the gaps; the wooden door marked for Continuum Anchorage (OBJ_the_index_lantern_exit_wooden_door_0017) is the obvious way back out."
+        }
+      }
+    ],
+    "journal": [
+      {
+        "content": "You sit in a pressure-baffled seating bay of the Index Lantern, Continuum Anchorage’s licensed tavern—where tide-calendars become wall art and everyone pretends that makes the ocean negotiable. The light never wavers, the air tastes faintly of brine-resin and old ceramic, and the polished conductor-metal bar throws your own focused stare back at you like an invoice.\n\nYou’re here because movement between platforms always requires waiting for the Lattice to agree with your plans, and this is where the waiting is regulated, priced, and politely supervised. The room hums with measured voices and timed departures: commerce, caution, and the soft contempt of people who think punctual tides count as civilization.",
+        "gameDate": "C 01.01.8127 10:03",
+        "facts": [
+          {
+            "placeId": null,
+            "category": "world",
+            "subject": "Current Situation",
+            "subjectId": null,
+            "fact": "The Lantern’s inlaid transit indices match the Anchorage’s official route-boards, so people here trust numbers more than rumors.",
+            "significance": "minor",
+            "important": false
+          },
+          {
+            "placeId": null,
+            "category": "world",
+            "subject": "Current Situation",
+            "subjectId": null,
+            "fact": "Untreated metal doesn’t last in the Brine Lattice; the bar’s conductor sheen means it’s either protected or replaced often—both expensive.",
+            "significance": "minor",
+            "important": false
+          },
+          {
+            "placeId": null,
+            "category": "knowledge",
+            "subject": "Current Situation",
+            "subjectId": null,
+            "fact": "If you miss the next timing window, you don’t just lose time—you risk losing the route entirely when the sea decides to hold a new shape.",
+            "significance": "minor",
+            "important": false
+          }
+        ],
+        "image": null,
+        "context": null
+      }
+    ],
+    "sketches": [],
+    "verbosity": 3,
+    "conversationContext": null,
+    "storytellerState": {
+      "storytellerId": "STORYTELLER_the_lemon_sour_satirist",
+      "voiceId": "jessica",
+      "activePlots": [],
+      "generationInProgress": true,
+      "eventHistory": [],
+      "storytellerSelectedAt": "C 01.01.8127 10:03",
+      "custom": {}
+    },
+    "isPlayer": true,
+    "storyComplete": false,
+    "routine": null,
+    "vesselRoutes": null,
+    "abstractLocation": null,
+    "npcBehavior": null,
+    "physicalState": null,
+    "pendingDeparture": null,
+    "pendingArrival": null,
+    "lastRoutineCheckPeriod": "morning",
+    "startingNarrative": "You sit in a pressure-baffled seating bay of the Index Lantern, Continuum Anchorage’s licensed tavern—where tide-calendars become wall art and everyone pretends that makes the ocean negotiable. The light never wavers, the air tastes faintly of brine-resin and old ceramic, and the polished conductor-metal bar throws your own focused stare back at you like an invoice.\n\nYou’re here because movement between platforms always requires waiting for the Lattice to agree with your plans, and this is where the waiting is regulated, priced, and politely supervised. The room hums with measured voices and timed departures: commerce, caution, and the soft contempt of people who think punctual tides count as civilization.",
+    "startingCharacterState": "Restless but controlled, alert to patterns and impatient with delay.",
+    "clothing": [
+      {
+        "slot": "torso_under",
+        "itemId": "tunic",
+        "color": "#f5f0e8",
+        "contents": null
+      },
+      {
+        "slot": "torso_over",
+        "itemId": "trenchcoat",
+        "color": "#000080",
+        "contents": null
+      },
+      {
+        "slot": "legs",
+        "itemId": "cloth_pants",
+        "color": "#3a3a3a",
+        "contents": null
+      },
+      {
+        "slot": "feet",
+        "itemId": "boots",
+        "color": "#8b4513",
+        "contents": null
+      },
+      {
+        "slot": "belt",
+        "itemId": "leather_belt",
+        "color": "#8b4513",
+        "contents": []
+      }
+    ],
+    "enabledOverlayLayers": [
+      "eyes",
+      "facial"
+    ],
+    "helmingVesselId": null,
+    "storytellerDisabled": false,
+    "rulesetState": {
+      "stats": {},
+      "conditions": [],
+      "statUsage": {},
+      "incapacitation": null,
+      "incapacitatedSince": null
+    },
+    "voiceId": "will",
+    "spriteConfig": {
+      "bodyType": "male",
+      "layers": [
+        {
+          "type": "body",
+          "optionId": "body_base",
+          "tint": 15780008
+        },
+        {
+          "type": "body",
+          "optionId": "body_universal",
+          "tint": 15780008
+        },
+        {
+          "type": "eyes",
+          "optionId": "eyes_eyes",
+          "tint": 4491485
+        },
+        {
+          "type": "hair",
+          "optionId": "hair_shortknot",
+          "tint": 7029286
+        },
+        {
+          "type": "torso",
+          "optionId": "torso_formal_trenchcoat_male",
+          "tint": 128
+        },
+        {
+          "type": "legs",
+          "optionId": "legs_white_pants_male",
+          "tint": 3815994
+        },
+        {
+          "type": "feet",
+          "optionId": "feet_white_boots_male",
+          "tint": 9127187
+        },
+        {
+          "type": "belt",
+          "optionId": "belt_leather_male",
+          "tint": 9127187
+        }
+      ],
+      "spriteHash": "5cbc6fdf0128d36f",
+      "spriteUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/sprites/generated/5cbc6fdf0128d36f.png"
+    }
+  },
+  "position": {
+    "x": 176,
+    "y": 704,
+    "width": 32,
+    "height": 48,
+    "parent": "PLACE_the_index_lantern"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/the_brine_lattice/images/characters/CHAR_lysander_quay.png?v=1772519055613",
+  "faceAnchorY": 0.16,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "talk"
+  },
+  "relationships": [],
+  "important": false
+}

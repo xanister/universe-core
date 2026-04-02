@@ -1,0 +1,21 @@
+{
+  "id": "fire_grate",
+  "name": "Fire Grate",
+  "description": "A small iron fire grate.",
+  "purposes": [
+    "decoration"
+  ],
+  "tags": [
+    "common",
+    "furniture",
+    "fireplace",
+    "small"
+  ],
+  "solid": false,
+  "layer": "default",
+  "spriteId": "fire_grate",
+  "materials": [
+    "wood"
+  ],
+  "tintable": false
+}

@@ -1,0 +1,21 @@
+{
+  "id": "bed_double_gold",
+  "name": "Double Bed (Gold)",
+  "description": "A wide double bed with blue-white pillows and a gold coverlet.",
+  "purposes": [
+    "sleeping"
+  ],
+  "tags": [
+    "common",
+    "furniture",
+    "bedroom"
+  ],
+  "solid": true,
+  "layer": "default",
+  "spriteId": "bed_double_gold",
+  "materials": [
+    "wood",
+    "fabric"
+  ],
+  "tintable": false
+}

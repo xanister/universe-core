@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_aurorashade_hab",
+  "label": "Aurorashade Hab",
+  "description": "Aurorashade Hab is a prefabricated basaltcrete residence set beneath a low, ash-sealed roofline, its exterior sheathing vitrified by windblown grit and electrostatic discharge. The interior is arranged as a narrow sequence of pressure-tight chambers, with soot-scored bulkheads and a permanent haze of dust trapped by overworked filtration baffles. Shielded lumen strips cast a cold, steady light over utilitarian fittings, while lead-lined shutters blunt the bruise-colored auroral glare that dominates Vespera Tertius nights. A recessed vox alcove and redundant power couplings reflect the planet’s fixed condition of fractured transmission and unreliable supply.",
+  "short_description": "ash-sealed prefab hab",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "residence",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "building_residence",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/battles/PLACE_aurorashade_hab.png?v=1771873246329",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 832,
+    "y": 1728,
+    "width": 160,
+    "height": 256,
+    "parent": "PLACE_vespera_tertius",
+    "innerWidth": 768,
+    "innerHeight": 864
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/places/PLACE_aurorashade_hab.png?v=1771873300881",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

@@ -1,0 +1,55 @@
+{
+  "id": "OBJ_ruinward_bondstore_sack_pile_0010",
+  "label": "Sack Pile",
+  "description": "A pile of burlap grain sacks.",
+  "important": false,
+  "short_description": "sack pile",
+  "tags": [
+    "common",
+    "container",
+    "storage",
+    "tavern"
+  ],
+  "entityType": "object",
+  "info": {
+    "purpose": "storage",
+    "solid": true,
+    "layer": "default",
+    "isStructural": false,
+    "material": null,
+    "tint": null,
+    "spriteConfig": {
+      "spriteId": "sack_pile",
+      "frame": null,
+      "animationKey": null,
+      "animated": false,
+      "facing": "south"
+    },
+    "hp": null,
+    "maxHp": null,
+    "state": null,
+    "contents": null,
+    "lightSource": null,
+    "itemId": null,
+    "plotId": null
+  },
+  "position": {
+    "x": 752,
+    "y": 1472,
+    "width": 64,
+    "height": 64,
+    "parent": "PLACE_ruinward_bondstore"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "relationships": [],
+  "image": null,
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "search"
+  }
+}

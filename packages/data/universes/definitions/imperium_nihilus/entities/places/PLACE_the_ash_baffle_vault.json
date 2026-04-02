@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_the_ash_baffle_vault",
+  "label": "The Ash Baffle Vault",
+  "description": "The Ash Baffle Vault serves as a sealed storage chamber set behind layered basalt bulkheads and slagcrete ribs, designed to resist Ashenward City’s abrasive gales that infiltrate lesser interiors. Soot-black pillars and copper grounding lattices continue through the room, tying its fabric into the temple’s electrostatic bleed and storm-hardening systems. Narrow auroraglass prisms admit bruise-colored light that stripes stacked crates, ceramite lockers, and tar-sealed casks arranged in disciplined aisles. Vox-dampening insulation and gasketed vents render the air still and muffled, preserving supplies under the planet’s constant interference and charge-laden weather.",
+  "short_description": "sealed basalt storeroom",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "storage_room",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.9
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "door_wooden",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/battles/PLACE_the_ash_baffle_vault.png?v=1771972038995",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 1168,
+    "y": 1120,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_temple_of_the_riftvigil",
+    "innerWidth": 480,
+    "innerHeight": 608
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/places/PLACE_the_ash_baffle_vault.png?v=1771972086492",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

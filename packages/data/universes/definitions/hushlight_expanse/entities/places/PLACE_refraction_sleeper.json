@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_refraction_sleeper",
+  "label": "Refraction Sleeper",
+  "description": "Refraction Sleeper functions as a compact lodging cell recessed behind The Polarized Cask’s sound-damping ribs, sealed by a pressure-rated bulkhead faced in prismatic laminate. The berth is built into the wall as a narrow alcove, with vitrified-glass shelving and a fold-down work surface cut along strict, geometric lines. Polarized mirror slits admit the port’s copper-white twilight as thin, disciplined bands, preventing glare while preserving the sense of the heliopause approach lines outside. Air-handling channels run flush to the panels and maintain the tavern’s characteristic hush, leaving the space defined by controlled light and orderly reflections.",
+  "short_description": "hushed prismatic sleep cell",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "bedroom",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "door_wooden",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/hushlight_expanse/images/battles/PLACE_refraction_sleeper.png?v=1772313975613",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 816,
+    "y": 160,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_the_polarized_cask",
+    "innerWidth": 544,
+    "innerHeight": 544
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/hushlight_expanse/images/places/PLACE_refraction_sleeper.png?v=1772314028197",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

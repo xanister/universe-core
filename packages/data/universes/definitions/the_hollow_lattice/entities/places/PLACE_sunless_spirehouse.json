@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_sunless_spirehouse",
+  "label": "Sunless Spirehouse",
+  "description": "Sunless Spirehouse stands embedded in the city’s engineered shadow interval, its prismatic glass skin cut to angles that drink the meridian glare rather than return it. The interior is organized as a vertical sequence of narrow chambers around a dark crystalline spine, each floor segmented by rectilinear ribs that echo the fracture-belt grid beneath the Confluence. Light enters only through slit-apertures of smoked vitreous, casting fixed bands of muted color that serve as permanent measures of hour and season. Venting fins and resonance plates are set into the walls to harmonize with the laminar sky-sheets, keeping the air still and the acoustics sharply bounded.",
+  "short_description": "sunless prismatic home",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "residence",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "building_residence",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/the_hollow_lattice/images/battles/PLACE_sunless_spirehouse.png?v=1772314408540",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 400,
+    "y": 416,
+    "width": 160,
+    "height": 256,
+    "parent": "PLACE_kharion_meridian_confluence",
+    "innerWidth": 1248,
+    "innerHeight": 992
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": null,
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

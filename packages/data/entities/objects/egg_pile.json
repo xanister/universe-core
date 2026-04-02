@@ -1,0 +1,18 @@
+{
+  "id": "egg_pile",
+  "name": "Egg Pile",
+  "description": "A clutch of fresh eggs.",
+  "purposes": [
+    "decoration"
+  ],
+  "tags": [
+    "common",
+    "food",
+    "kitchen"
+  ],
+  "solid": false,
+  "layer": "default",
+  "spriteId": "egg_pile",
+  "materials": [],
+  "tintable": false
+}

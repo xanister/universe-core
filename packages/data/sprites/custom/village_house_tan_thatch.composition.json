@@ -1,0 +1,16 @@
+{
+  "spriteId": "village_house_tan_thatch",
+  "gridWidth": 1,
+  "gridHeight": 1,
+  "tileSize": 48,
+  "tiles": [
+    {
+      "tilesetId": "world-map",
+      "srcX": 96,
+      "srcY": 720,
+      "col": 0,
+      "row": 0
+    }
+  ],
+  "updatedAt": "2026-02-24T14:37:51.032Z"
+}

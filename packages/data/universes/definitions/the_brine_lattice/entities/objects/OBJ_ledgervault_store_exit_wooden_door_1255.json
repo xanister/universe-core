@@ -1,0 +1,53 @@
+{
+  "id": "OBJ_ledgervault_store_exit_wooden_door_1255",
+  "label": "The Basalt Arsenal",
+  "description": "Exit to The Basalt Arsenal",
+  "important": false,
+  "short_description": "wooden door",
+  "tags": [
+    "ship",
+    "wall"
+  ],
+  "entityType": "object",
+  "info": {
+    "purpose": "exit",
+    "solid": false,
+    "layer": "wall",
+    "isStructural": false,
+    "material": null,
+    "tint": null,
+    "spriteConfig": {
+      "spriteId": "door_wooden",
+      "frame": null,
+      "animationKey": null,
+      "animated": false,
+      "facing": "west"
+    },
+    "hp": null,
+    "maxHp": null,
+    "state": null,
+    "contents": null,
+    "lightSource": null,
+    "itemId": null,
+    "plotId": null
+  },
+  "position": {
+    "x": 496,
+    "y": 480,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_ledgervault_store"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "relationships": [],
+  "image": null,
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "id": "OBJ_the_basaltwind_ship_wheel_0089",
+  "label": "Ship's Wheel",
+  "description": "A wooden captain's wheel for steering a sailing vessel",
+  "important": false,
+  "short_description": "ship's wheel",
+  "tags": [
+    "common",
+    "ship",
+    "helm",
+    "vessel",
+    "navigation",
+    "wall"
+  ],
+  "entityType": "object",
+  "info": {
+    "purpose": "vessel_helm",
+    "solid": true,
+    "layer": "default",
+    "isStructural": false,
+    "material": null,
+    "tint": null,
+    "spriteConfig": {
+      "spriteId": "ship_wheel",
+      "frame": null,
+      "animationKey": null,
+      "animated": false,
+      "facing": "south"
+    },
+    "hp": null,
+    "maxHp": null,
+    "state": null,
+    "contents": null,
+    "lightSource": null,
+    "itemId": null,
+    "plotId": null
+  },
+  "position": {
+    "x": 944,
+    "y": 640,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_the_basaltwind"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "relationships": [],
+  "image": null,
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "helm"
+  }
+}

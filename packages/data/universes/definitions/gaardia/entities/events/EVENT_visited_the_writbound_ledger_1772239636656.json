@@ -1,0 +1,18 @@
+{
+  "id": "EVENT_visited_the_writbound_ledger_1772239636656",
+  "date": "02.01.11 4A 09:16",
+  "placeId": "PLACE_the_writbound_ledger",
+  "important": false,
+  "importanceScore": null,
+  "scope": null,
+  "relevantPlaceIds": null,
+  "eventType": "location_visited",
+  "category": "world",
+  "subject": "The Writbound Ledger",
+  "subjectId": "PLACE_the_writbound_ledger",
+  "fact": "Visited The Writbound Ledger",
+  "significance": "minor",
+  "witnessIds": [
+    "CHAR_korr_brightblade"
+  ]
+}

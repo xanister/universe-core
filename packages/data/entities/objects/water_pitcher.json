@@ -1,0 +1,20 @@
+{
+  "id": "water_pitcher",
+  "name": "Water Pitcher",
+  "description": "A small blue glass pitcher filled with water.",
+  "purposes": [
+    "decoration"
+  ],
+  "tags": [
+    "common",
+    "drinkware",
+    "tavern"
+  ],
+  "solid": false,
+  "layer": "default",
+  "spriteId": "water_pitcher",
+  "materials": [
+    "glass"
+  ],
+  "tintable": false
+}

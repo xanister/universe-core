@@ -1,0 +1,22 @@
+{
+  "id": "fireplace_mantle_stone_white",
+  "name": "Stone Fireplace Mantle (White)",
+  "description": "An ornate stone and white wood fireplace with a cream-coloured arched mantle surround.",
+  "purposes": [
+    "decoration"
+  ],
+  "tags": [
+    "furniture",
+    "decoration",
+    "temple",
+    "fireplace"
+  ],
+  "solid": true,
+  "layer": "default",
+  "spriteId": "fireplace_mantle_stone_white",
+  "materials": [
+    "stone",
+    "wood"
+  ],
+  "tintable": false
+}

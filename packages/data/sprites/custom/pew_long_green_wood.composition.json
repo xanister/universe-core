@@ -1,0 +1,93 @@
+{
+  "spriteId": "pew_long_green_wood",
+  "gridWidth": 6,
+  "gridHeight": 2,
+  "tileSize": 32,
+  "tiles": [
+    {
+      "tilesetId": "furniture-green",
+      "srcX": 0,
+      "srcY": 288,
+      "col": 0,
+      "row": 0
+    },
+    {
+      "tilesetId": "furniture-green",
+      "srcX": 32,
+      "srcY": 288,
+      "col": 1,
+      "row": 0
+    },
+    {
+      "tilesetId": "furniture-green",
+      "srcX": 64,
+      "srcY": 288,
+      "col": 2,
+      "row": 0
+    },
+    {
+      "tilesetId": "furniture-green",
+      "srcX": 96,
+      "srcY": 288,
+      "col": 3,
+      "row": 0
+    },
+    {
+      "tilesetId": "furniture-green",
+      "srcX": 128,
+      "srcY": 288,
+      "col": 4,
+      "row": 0
+    },
+    {
+      "tilesetId": "furniture-green",
+      "srcX": 160,
+      "srcY": 288,
+      "col": 5,
+      "row": 0
+    },
+    {
+      "tilesetId": "furniture-green",
+      "srcX": 0,
+      "srcY": 320,
+      "col": 0,
+      "row": 1
+    },
+    {
+      "tilesetId": "furniture-green",
+      "srcX": 32,
+      "srcY": 320,
+      "col": 1,
+      "row": 1
+    },
+    {
+      "tilesetId": "furniture-green",
+      "srcX": 64,
+      "srcY": 320,
+      "col": 2,
+      "row": 1
+    },
+    {
+      "tilesetId": "furniture-green",
+      "srcX": 96,
+      "srcY": 320,
+      "col": 3,
+      "row": 1
+    },
+    {
+      "tilesetId": "furniture-green",
+      "srcX": 128,
+      "srcY": 320,
+      "col": 4,
+      "row": 1
+    },
+    {
+      "tilesetId": "furniture-green",
+      "srcX": 160,
+      "srcY": 320,
+      "col": 5,
+      "row": 1
+    }
+  ],
+  "updatedAt": "2026-03-02T21:32:06.643Z"
+}

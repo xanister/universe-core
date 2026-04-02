@@ -1,0 +1,18 @@
+{
+  "id": "hanging_garlic",
+  "name": "Hanging Garlic",
+  "description": "A string of garlic bulbs hung to dry.",
+  "purposes": [
+    "decoration"
+  ],
+  "tags": [
+    "common",
+    "food",
+    "tavern"
+  ],
+  "solid": false,
+  "layer": "overhead",
+  "spriteId": "hanging_garlic",
+  "materials": [],
+  "tintable": false
+}

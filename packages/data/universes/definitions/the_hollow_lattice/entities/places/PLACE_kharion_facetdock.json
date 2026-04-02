@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_kharion_facetdock",
+  "label": "Kharion Facetdock",
+  "description": "Kharion Facetdock occupies a rectilinear cut into the planet’s vitreous crust, its berthing faces polished to mirror the meridian bands that cross the glass horizon. Prismatic pylons rise in strict lattice alignment, their embedded filaments casting fixed corridors of glare and absolute shadow across the landing aprons. The dock’s approaches follow hard-angled causeways laid along fracture-belts, where exposed dark crystalline strata provide traction and anchorage points. Laminar atmospheric sheets skim the open bays in steady, repeating fronts, confining exhaust and dust into disciplined, planar veils.",
+  "short_description": "prismatic glass dock",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "harbor",
+    "environment": {
+      "type": "exterior",
+      "hasWeather": true,
+      "temperature": {
+        "enabled": true,
+        "base": null,
+        "modifiersApply": true
+      },
+      "maxDarkness": null
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "world_map_dock",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/the_hollow_lattice/images/battles/PLACE_kharion_facetdock.png?v=1772314057555",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 1072,
+    "y": 1472,
+    "width": 96,
+    "height": 48,
+    "parent": "PLACE_kharion_prismworld",
+    "innerWidth": 1888,
+    "innerHeight": 1184
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/the_hollow_lattice/images/places/PLACE_kharion_facetdock.png?v=1772314108791",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

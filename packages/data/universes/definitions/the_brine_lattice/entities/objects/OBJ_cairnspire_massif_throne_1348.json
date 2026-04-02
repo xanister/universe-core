@@ -1,0 +1,53 @@
+{
+  "id": "OBJ_cairnspire_massif_throne_1348",
+  "label": "Throne",
+  "description": "A Throne",
+  "important": false,
+  "short_description": "throne",
+  "tags": [
+    "common",
+    "furniture",
+    "seating",
+    "royal"
+  ],
+  "entityType": "object",
+  "info": {
+    "purpose": "decoration",
+    "solid": true,
+    "layer": "default",
+    "isStructural": false,
+    "material": null,
+    "tint": null,
+    "spriteConfig": {
+      "spriteId": "throne",
+      "frame": null,
+      "animationKey": null,
+      "animated": false,
+      "facing": "south"
+    },
+    "hp": null,
+    "maxHp": null,
+    "state": null,
+    "contents": null,
+    "lightSource": null,
+    "itemId": null,
+    "plotId": null
+  },
+  "position": {
+    "x": 2704,
+    "y": 224,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_cairnspire_massif"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "relationships": [],
+  "image": null,
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": null
+}

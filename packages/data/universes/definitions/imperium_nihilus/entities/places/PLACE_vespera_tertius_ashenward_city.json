@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_vespera_tertius_ashenward_city",
+  "label": "Vespera Tertius Ashenward City",
+  "description": "Vespera Tertius Ashenward City stands as a compact fortress-metropolis raised from black basalt and slagcrete, its tiered hab-blocks bonded into continuous windbreak walls against the planet’s ash-laden gales. Bruise-colored auroral glare and electrostatic stormlight turn its streets into hard-edged corridors of violet reflection across vitrified paving and soot-darkened facades. Vox masts, beacon pylons, and shielded relay housings punctuate the skyline, engineered to endure constant atmospheric interference and the world’s corrupted long-range transmissions. Perimeter causeways and barricaded service trenches define the city’s limits, separating controlled precincts from the surrounding glassy impact fields and ash-choked basins.",
+  "short_description": "rift-shadowed ash city",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "city",
+    "environment": {
+      "type": "exterior",
+      "hasWeather": true,
+      "temperature": {
+        "enabled": true,
+        "base": null,
+        "modifiersApply": true
+      },
+      "maxDarkness": null
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "small_walled_town",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/battles/PLACE_vespera_tertius_ashenward_city.png?v=1771958793540",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 3680,
+    "y": 1248,
+    "width": 48,
+    "height": 48,
+    "parent": "PLACE_vespera_tertius",
+    "innerWidth": 3072,
+    "innerHeight": 3104
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/places/PLACE_vespera_tertius_ashenward_city.png?v=1771958843078",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

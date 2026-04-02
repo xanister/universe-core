@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_seamglass_bower",
+  "label": "Seamglass Bower",
+  "description": "Seamglass Bower forms along a fault-limned basin where Lacrymara’s escarpments concentrate the copper-white twilight into steady seam-lines across the canopy. Slender silicate-barked trunks rise in ordered stands, their surfaces perpetually filmed with electrostatically charged glass dust that holds reflective motes against the grain. The understory consists of dark, spongey mats and shardleaf thickets that ring when disturbed, producing a soft chime that carries in the hushlit air. Above, the auroral girdle intermittently refracts through the dusted branches, laying mirrorlike bands across the forest floor.",
+  "short_description": "glass-dusted twilight wood",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "forest",
+    "environment": {
+      "type": "exterior",
+      "hasWeather": true,
+      "temperature": {
+        "enabled": true,
+        "base": null,
+        "modifiersApply": true
+      },
+      "maxDarkness": null
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "tree_canopy_small",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/hushlight_expanse/images/battles/PLACE_seamglass_bower.png?v=1772313720210",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 1216,
+    "y": 384,
+    "width": 48,
+    "height": 48,
+    "parent": "PLACE_lacrymara",
+    "innerWidth": 7040,
+    "innerHeight": 5792
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/hushlight_expanse/images/places/PLACE_seamglass_bower.png?v=1772313768675",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

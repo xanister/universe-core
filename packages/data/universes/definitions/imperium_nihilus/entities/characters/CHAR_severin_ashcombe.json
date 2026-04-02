@@ -1,0 +1,2124 @@
+{
+  "id": "CHAR_severin_ashcombe",
+  "label": "Severin Ashcombe",
+  "description": "This individual is a young adult human of light skinTone, marked by a lean, travel-hardened frame and the upright carriage of one who has spent long weeks on foot. Brown eyeColor set beneath straight brows gives the face a watchful, searching cast, while brown hairColor worn in a parted hairStyle frames high cheekbones and a narrow jaw. The hands show permanent callus and small, healed cuts consistent with rope-work and frequent packing, and the mouth carries a settled firmness that reads as resolve rather than ease. Overall proportions remain balanced and unexaggerated, presenting the durable physique typical of an itinerant wayfarer newly arrived to unfamiliar shores.",
+  "short_description": "male dockside traveler",
+  "tags": [],
+  "entityType": "character",
+  "info": {
+    "purpose": "player",
+    "aliases": [
+      "Sev",
+      "The Newcomer"
+    ],
+    "birthdate": "801.M41",
+    "deathdate": null,
+    "title": null,
+    "birthPlace": "Voidborne transit-ship berth",
+    "eyeColor": "brown",
+    "gender": "male",
+    "hairColor": "brown",
+    "hairStyle": "parted",
+    "beardStyle": null,
+    "headType": "human_male",
+    "skinTone": "light",
+    "personality": "Restless and purpose-driven, this traveler pursues fresh horizons with disciplined curiosity and a plainspoken manner. He reads people quickly, keeps his ambitions close, and measures opportunities by the routes they open rather than the comforts they offer. New to the Ashshelf Dock milieu, he treats the port as a proving ground where contacts, passage, and hard-earned reputation convert wandering into direction.",
+    "race": "human",
+    "messages": [
+      {
+        "role": "user",
+        "action": "input",
+        "opts": {
+          "text": "I look around."
+        },
+        "date": "999.M1 17:21",
+        "omitFromTranscript": false,
+        "hidden": false
+      },
+      {
+        "date": "999.M1 17:23",
+        "omitFromTranscript": false,
+        "hidden": false,
+        "role": "assistant",
+        "action": "narration",
+        "opts": {
+          "text": "Evening gloom sits heavy under a clouded sky; Ashshelf Dock’s blackened ferrocrete and salvage-plating glints dully, mooring rings and cleats furred with corrosion, the edges crusted in pale ash and scored by repeated scour. Faded-number flood-control pylons stand like blunt teeth over oil-sheened chop, bruise-hued aurora staining the water—no people nearby, no immediate threats visible, and the only obvious way onward is the wooden door leading out toward Bruiseglass Lake."
+        }
+      },
+      {
+        "role": "assistant",
+        "action": "milestone",
+        "opts": {
+          "type": "location_entered",
+          "label": "Bruiseglass Lake",
+          "subtext": null,
+          "entityId": "PLACE_bruiseglass_lake",
+          "checkDetail": null,
+          "combatData": null
+        },
+        "date": null,
+        "omitFromTranscript": true,
+        "hidden": false
+      },
+      {
+        "role": "assistant",
+        "action": "milestone",
+        "opts": {
+          "type": "location_entered",
+          "label": "Cyrenth Vale",
+          "subtext": null,
+          "entityId": "PLACE_cyrenth_vale",
+          "checkDetail": null,
+          "combatData": null
+        },
+        "date": null,
+        "omitFromTranscript": true,
+        "hidden": false
+      },
+      {
+        "role": "assistant",
+        "action": "milestone",
+        "opts": {
+          "type": "location_entered",
+          "label": "Riftwake Landing",
+          "subtext": null,
+          "entityId": "PLACE_riftwake_landing",
+          "checkDetail": null,
+          "combatData": null
+        },
+        "date": null,
+        "omitFromTranscript": true,
+        "hidden": false
+      },
+      {
+        "role": "assistant",
+        "action": "milestone",
+        "opts": {
+          "type": "location_entered",
+          "label": "Cyrenth Vale",
+          "subtext": null,
+          "entityId": "PLACE_cyrenth_vale",
+          "checkDetail": null,
+          "combatData": null
+        },
+        "date": null,
+        "omitFromTranscript": true,
+        "hidden": false
+      },
+      {
+        "role": "assistant",
+        "action": "milestone",
+        "opts": {
+          "type": "location_entered",
+          "label": "Cyrenth Bastion-City",
+          "subtext": null,
+          "entityId": "PLACE_cyrenth_bastioncity",
+          "checkDetail": null,
+          "combatData": null
+        },
+        "date": null,
+        "omitFromTranscript": true,
+        "hidden": false
+      },
+      {
+        "role": "assistant",
+        "action": "milestone",
+        "opts": {
+          "type": "location_entered",
+          "label": "The Gloam Lantern",
+          "subtext": null,
+          "entityId": "PLACE_the_gloam_lantern",
+          "checkDetail": null,
+          "combatData": null
+        },
+        "date": null,
+        "omitFromTranscript": true,
+        "hidden": false
+      },
+      {
+        "role": "user",
+        "action": "input",
+        "opts": {
+          "text": "I wait 480 minutes."
+        },
+        "date": "999.M1 13:48",
+        "omitFromTranscript": false,
+        "hidden": false
+      },
+      {
+        "role": "assistant",
+        "action": "milestone",
+        "opts": {
+          "type": "character_arrived",
+          "label": "tired male deckhand",
+          "subtext": null,
+          "entityId": "CHAR_a_fatigued_deckhand_messenger",
+          "checkDetail": null,
+          "combatData": null
+        },
+        "date": null,
+        "omitFromTranscript": true,
+        "hidden": false
+      },
+      {
+        "date": "999.M1 21:48",
+        "omitFromTranscript": false,
+        "hidden": false,
+        "role": "assistant",
+        "action": "narration",
+        "opts": {
+          "text": "Hours into the wait, The Gloam Lantern’s regimented light-bands stutter as the wooden door slams open; a tired male deckhand staggers in, salt-stained and shaking, one hand clamped over a blood-wet tear at his side while the other keeps a sealed, waxed dispatch pressed to his chest like a relic.\n\nThe male canteen barman snaps a shutter over the nearest lumen and jerks his chin toward the back, suddenly all business; the messenger’s eyes keep flicking to the door as if expecting someone to follow, and the red smear he leaves on the adamantine floor says this wasn’t a simple brawl—this was an interception."
+        }
+      },
+      {
+        "date": null,
+        "omitFromTranscript": true,
+        "hidden": false,
+        "role": "assistant",
+        "action": "move",
+        "opts": {
+          "characterId": "CHAR_a_fatigued_deckhand_messenger",
+          "targetCharacterId": "CHAR_severin_ashcombe"
+        }
+      },
+      {
+        "date": "999.M1 21:48",
+        "omitFromTranscript": false,
+        "hidden": false,
+        "role": "assistant",
+        "action": "dialog",
+        "opts": {
+          "characterId": "CHAR_a_fatigued_deckhand_messenger",
+          "text": "Sealed dispatch—don’t let it leave your hands. It can trigger an emergency audit at the Ashfall Ledgerhouse, the kind that brings boots and sigils down hard."
+        }
+      },
+      {
+        "date": "999.M1 21:48",
+        "omitFromTranscript": false,
+        "hidden": false,
+        "role": "assistant",
+        "action": "dialog",
+        "opts": {
+          "characterId": "CHAR_a_fatigued_deckhand_messenger",
+          "text": "They’re taking out runners on the docks—anyone tied to the missing tithes. I wasn’t the first."
+        }
+      },
+      {
+        "role": "assistant",
+        "action": "dialog",
+        "opts": {
+          "characterId": "CHAR_tavian_lork",
+          "text": "Back wall, now. Keep it out of sight—if they’re hunting messengers, they’ll come asking polite before they come with blades."
+        },
+        "date": "999.M1 21:48",
+        "omitFromTranscript": false,
+        "hidden": false
+      },
+      {
+        "role": "assistant",
+        "action": "milestone",
+        "opts": {
+          "type": "quest_received",
+          "label": "New Quest",
+          "entityId": "plot_1772151661526",
+          "subtext": null,
+          "checkDetail": null,
+          "combatData": null
+        },
+        "date": null,
+        "omitFromTranscript": true,
+        "hidden": false
+      },
+      {
+        "role": "assistant",
+        "action": "milestone",
+        "opts": {
+          "type": "goal_revealed",
+          "label": "Secure the sealed dispatch and keep it out of hostile hands long enough to learn why people are dying for it.",
+          "subtext": null,
+          "entityId": "GOAL_secure_dispatch",
+          "checkDetail": null,
+          "combatData": null
+        },
+        "date": null,
+        "omitFromTranscript": true,
+        "hidden": false
+      },
+      {
+        "role": "user",
+        "action": "input",
+        "opts": {
+          "text": "I wait 480 minutes."
+        },
+        "date": "999.M1 13:17",
+        "omitFromTranscript": false,
+        "hidden": false
+      },
+      {
+        "date": "999.M1 21:17",
+        "omitFromTranscript": false,
+        "hidden": false,
+        "role": "assistant",
+        "action": "narration",
+        "opts": {
+          "text": "Minutes into the renewed wait, the Gloam Lantern’s muffled calm fractures into motion: boots hammer past the armored arcades outside, then a burst of autogun fire rattles the adamantine plates and showers rust-dust from the ceiling seams. The tired male deckhand flinches hard and shoves the sealed, waxed dispatch deeper under his coat, while the male canteen bar barman kills another lumen band and drags a bench sideways to break sightlines to the wooden door; somewhere beyond it, a pursuit screams closer—orders barked, a body slamming into rail, then the wet cough of someone trying not to die on a stair.\n\nA shape blurs across the Lantern’s narrow viewport—armored silhouettes sweeping the corridor with lumen-wands—then a second group, less uniform, moving too fast and too quiet. The deckhand’s blood drip accelerates as he braces himself against the bar, eyes locked on the door’s threshold like it’s a firing line; the barman’s hand stays under the counter where a service-shotgun would live in any honest canteen."
+        }
+      },
+      {
+        "date": null,
+        "omitFromTranscript": true,
+        "hidden": false,
+        "role": "assistant",
+        "action": "wait",
+        "opts": {
+          "durationMs": 500
+        }
+      },
+      {
+        "date": null,
+        "omitFromTranscript": true,
+        "hidden": false,
+        "role": "assistant",
+        "action": "face",
+        "opts": {
+          "characterId": "CHAR_sevrin_halden",
+          "targetCharacterId": "CHAR_severin_ashcombe",
+          "direction": "up"
+        }
+      },
+      {
+        "date": "999.M1 21:17",
+        "omitFromTranscript": false,
+        "hidden": false,
+        "role": "assistant",
+        "action": "dialog",
+        "opts": {
+          "characterId": "CHAR_tavian_lork",
+          "text": "We’re shuttering down; anyone comes through that door, they get one warning and a mouthful of buckshot."
+        }
+      },
+      {
+        "date": "999.M1 21:17",
+        "omitFromTranscript": false,
+        "hidden": false,
+        "role": "assistant",
+        "action": "dialog",
+        "opts": {
+          "characterId": "CHAR_a_fatigued_deckhand_messenger",
+          "text": "Running fight—right outside. They’re sweeping for paper, not purse. If they pin me, they’ll pin the dispatch."
+        }
+      },
+      {
+        "role": "assistant",
+        "action": "dialog",
+        "opts": {
+          "characterId": "CHAR_sevrin_halberd",
+          "text": "No windows. No heroics. If they ask, you saw nothing and you heard less."
+        },
+        "date": "999.M1 21:17",
+        "omitFromTranscript": false,
+        "hidden": false
+      },
+      {
+        "role": "user",
+        "action": "input",
+        "opts": {
+          "text": "I need a route off this choke-point, and I know schedules rot faster than prayers. Who sells the truest departure word here?",
+          "classifiedActions": [
+            {
+              "type": "Dialogue",
+              "intent": "greet male canteen barman",
+              "targetRef": null,
+              "targetId": "CHAR_soren_malrick",
+              "suggestedDifficulty": "trivial",
+              "suggestedStat": null,
+              "opposedBy": null,
+              "actionId": null,
+              "combatInitiated": false
+            }
+          ]
+        },
+        "date": "999.M1 07:45",
+        "omitFromTranscript": false,
+        "hidden": false
+      },
+      {
+        "role": "assistant",
+        "action": "milestone",
+        "opts": {
+          "type": "character_arrived",
+          "label": "Alaric Morn",
+          "subtext": null,
+          "entityId": "CHAR_alaric_morn",
+          "checkDetail": null,
+          "combatData": null
+        },
+        "date": null,
+        "omitFromTranscript": true,
+        "hidden": false
+      },
+      {
+        "date": "999.M1 07:50",
+        "omitFromTranscript": false,
+        "hidden": false,
+        "role": "assistant",
+        "action": "narration",
+        "opts": {
+          "text": "Before the question fully lands on Soren Malrick, the Lantern’s wooden door jolts under a hard knock—then a second, too precise to be drunken. The barman’s blackout slats snap down another notch as the tired male deckhand stiffens at the bar, fingers white on the edge; behind the viewport, armored shadows slide past in a disciplined sweep, and a lone traveler at a side bench turns his cup without drinking, watching the room like it’s a map.\n\nA thin voice from the corridor calls for “routine verification,” but the traveler moves first—quiet, decisive—blocking Malrick’s sightline with his body and letting the deckhand vanish into the bar’s dead angle. He doesn’t draw a weapon; he makes the room believe one exists. The knock comes again, closer to a demand than a request, and the corridor’s lumen-wand glare stripes the cracks around the door like a scan."
+        }
+      },
+      {
+        "date": null,
+        "omitFromTranscript": true,
+        "hidden": false,
+        "role": "assistant",
+        "action": "face",
+        "opts": {
+          "characterId": "CHAR_soren_malrick",
+          "targetCharacterId": "CHAR_severin_ashcombe",
+          "direction": "up"
+        }
+      },
+      {
+        "date": null,
+        "omitFromTranscript": true,
+        "hidden": false,
+        "role": "assistant",
+        "action": "wait",
+        "opts": {
+          "durationMs": 500
+        }
+      },
+      {
+        "date": null,
+        "omitFromTranscript": true,
+        "hidden": false,
+        "role": "assistant",
+        "action": "move",
+        "opts": {
+          "characterId": "CHAR_alaric_morn",
+          "targetCharacterId": "CHAR_severin_ashcombe"
+        }
+      },
+      {
+        "date": "999.M1 07:50",
+        "omitFromTranscript": false,
+        "hidden": false,
+        "role": "assistant",
+        "action": "dialog",
+        "opts": {
+          "characterId": "CHAR_alaric_morn",
+          "text": "Departure word costs more when it’s true. Keep your route small and your mouth smaller—there’s a sweep on paper, not bodies."
+        }
+      },
+      {
+        "role": "assistant",
+        "action": "dialog",
+        "opts": {
+          "characterId": "CHAR_soren_malrick",
+          "text": "Wrong minute to shop for schedules. But coin talks—fast. What kind of off-world, and how loud do you want it?"
+        },
+        "date": "999.M1 07:50",
+        "omitFromTranscript": false,
+        "hidden": false
+      },
+      {
+        "role": "assistant",
+        "action": "dialog",
+        "opts": {
+          "characterId": "CHAR_a_fatigued_deckhand_messenger",
+          "text": "No names. No repeats. If they hear it twice, they write it down."
+        },
+        "date": "999.M1 07:50",
+        "omitFromTranscript": false,
+        "hidden": false
+      },
+      {
+        "role": "assistant",
+        "action": "dialog",
+        "opts": {
+          "characterId": "CHAR_alaric_morn",
+          "text": "If the door opens, you two speak like strangers. I’ll handle the questions."
+        },
+        "date": "999.M1 07:50",
+        "omitFromTranscript": false,
+        "hidden": false
+      },
+      {
+        "role": "assistant",
+        "action": "move_hint",
+        "opts": {
+          "targetId": "CHAR_soren_malrick"
+        },
+        "date": null,
+        "omitFromTranscript": true,
+        "hidden": false
+      },
+      {
+        "role": "user",
+        "action": "input",
+        "opts": {
+          "text": "I’m just here for warmth and a cup, nothing more. I don’t know anyone’s business, and I don’t want it. If there’s ‘verification,’ I’ve got nothing worth writing down."
+        },
+        "date": "999.M1 07:50",
+        "omitFromTranscript": false,
+        "hidden": false
+      },
+      {
+        "date": "999.M1 07:55",
+        "omitFromTranscript": false,
+        "hidden": false,
+        "role": "assistant",
+        "action": "narration",
+        "opts": {
+          "text": "Before the last word leaves your mouth, the wooden door buckles inward under a boot and the corridor’s lumen-wand slices the crack—then the street outside answers with hard, staccato gunfire that hammers closer, turning “routine verification” into a live sweep. The male traveling adventurer snaps a palm down on the bar to steady cups as shockwaves rattle the adamantine plates; the tired male deckhand flinches, a sealed oilskin chit flashing at his belt before he shoves it deeper under his coat.\n\nA burst of rounds chews the arcades outside, sending grit and paint flakes drifting from the ceiling; muffled shouting rides the smoke, and something heavy—armored—runs past the door in disciplined cadence. Behind the bar, Soren Malrick yanks the blackout slats fully shut and gestures for bodies to get low as the barmen reach for emergency latches, sealing the Lantern like a coffin with a tab.\n\nIn the corridor, a vox-hailer barks an order, then a second voice screams—cut short—followed by a wet clang against metal; the whole hall feels suddenly too small, like the fight is about to spill through the door on momentum alone."
+        }
+      },
+      {
+        "date": null,
+        "omitFromTranscript": true,
+        "hidden": false,
+        "role": "assistant",
+        "action": "face",
+        "opts": {
+          "characterId": "CHAR_alaric_morn",
+          "direction": "left"
+        }
+      },
+      {
+        "date": null,
+        "omitFromTranscript": true,
+        "hidden": false,
+        "role": "assistant",
+        "action": "move",
+        "opts": {
+          "characterId": "CHAR_a_fatigued_deckhand_messenger",
+          "targetCharacterId": "CHAR_severin_ashcombe"
+        }
+      },
+      {
+        "date": "999.M1 07:55",
+        "omitFromTranscript": false,
+        "hidden": false,
+        "role": "assistant",
+        "action": "dialog",
+        "opts": {
+          "characterId": "CHAR_a_fatigued_deckhand_messenger",
+          "text": "I’m on docket time. I just need a stamp and out. Don’t make me say it twice."
+        }
+      },
+      {
+        "role": "assistant",
+        "action": "dialog",
+        "opts": {
+          "characterId": "CHAR_soren_malrick",
+          "text": "Down. Everyone down. Slats shut, mouths shut—this is a running fight."
+        },
+        "date": "999.M1 07:55",
+        "omitFromTranscript": false,
+        "hidden": false
+      },
+      {
+        "role": "assistant",
+        "action": "dialog",
+        "opts": {
+          "characterId": "CHAR_alaric_morn",
+          "text": "They’re not here for drinks. When the door goes, move on the second breach, not the first."
+        },
+        "date": "999.M1 07:55",
+        "omitFromTranscript": false,
+        "hidden": false
+      },
+      {
+        "role": "user",
+        "action": "input",
+        "opts": {
+          "text": "Soren Malrick, talk to me. Is this sweep because of that sealed dispatch? I need to know who’s hunting it."
+        },
+        "date": "999.M1 07:55",
+        "omitFromTranscript": false,
+        "hidden": false
+      },
+      {
+        "date": "999.M1 08:00",
+        "omitFromTranscript": false,
+        "hidden": false,
+        "role": "assistant",
+        "action": "narration",
+        "opts": {
+          "text": "Mid-demand for answers, the Lantern shudders again—gunfire walks closer in sharp bursts, and the sealed blackout slats rattle like teeth in a skull. Soren Malrick keeps his body between the bar and the room, one hand on the emergency latch, while the traveling adventurer slides off his stool and angles toward cover; the tired deckhand’s fingers clamp hard over his coat like he’s holding something in place as boots and a dragged armored weight scrape past the corridor outside.\n\nA vox-hailer outside spits clipped commands that echo through the adamantine plates; then comes a second, nearer set of footfalls—too fast, not in cadence—followed by a wet metallic impact against the doorframe. Dust sifts down in pale lines across cups and rivets as something heavy slams the door from the other side, once, testing, then shifts away as if the fight is flowing down the arcade."
+        }
+      },
+      {
+        "date": null,
+        "omitFromTranscript": true,
+        "hidden": false,
+        "role": "assistant",
+        "action": "move",
+        "opts": {
+          "characterId": "CHAR_soren_malrick",
+          "targetCharacterId": "CHAR_severin_ashcombe"
+        }
+      },
+      {
+        "date": "999.M1 08:00",
+        "omitFromTranscript": false,
+        "hidden": false,
+        "role": "assistant",
+        "action": "dialog",
+        "opts": {
+          "characterId": "CHAR_soren_malrick",
+          "text": "It’s a sweep because someone’s bleeding paperwork into the street, not because I want to chat. If you’re carrying anything sealed, keep it sealed and keep it off your tongue."
+        }
+      },
+      {
+        "date": null,
+        "omitFromTranscript": true,
+        "hidden": false,
+        "role": "assistant",
+        "action": "wait",
+        "opts": {
+          "durationMs": 400
+        }
+      },
+      {
+        "date": "999.M1 08:00",
+        "omitFromTranscript": false,
+        "hidden": false,
+        "role": "assistant",
+        "action": "dialog",
+        "opts": {
+          "characterId": "CHAR_a_fatigued_deckhand_messenger",
+          "text": "No names. No repeats. I just need a stamp and out."
+        }
+      },
+      {
+        "date": null,
+        "omitFromTranscript": true,
+        "hidden": false,
+        "role": "assistant",
+        "action": "wait",
+        "opts": {
+          "durationMs": 300
+        }
+      },
+      {
+        "date": null,
+        "omitFromTranscript": true,
+        "hidden": false,
+        "role": "assistant",
+        "action": "wait",
+        "opts": {
+          "durationMs": 300
+        }
+      },
+      {
+        "date": "999.M1 08:00",
+        "omitFromTranscript": false,
+        "hidden": false,
+        "role": "assistant",
+        "action": "dialog",
+        "opts": {
+          "characterId": "CHAR_alaric_morn",
+          "text": "They’re running someone past this hall—listen for the second breach. First hit is noise; second is entry."
+        }
+      },
+      {
+        "role": "assistant",
+        "action": "move_hint",
+        "opts": {
+          "targetId": "CHAR_soren_malrick"
+        },
+        "date": null,
+        "omitFromTranscript": true,
+        "hidden": false
+      }
+    ],
+    "journal": [
+      {
+        "content": "You step onto Ashshelf Dock with your kit tight to your shoulders, boots ringing on blackened plating slick with lake-mist and oil-sheen. Cold aurora light from Cyrenth Vale washes the basin bruise-purple; mooring rings and corroded cleats line the edge in strict intervals, and half-buried flood-control pylons stare down the approach with numbers worn nearly flat.\n\nYou keep your head low and your eyes moving—Administratum clerks, dock enforcers, and Mechanicus-riveted laborers all sharing the same hard, suspicious pace. In Imperium Nihilus, passage is never simply bought; it is certified, stamped, prayed over, and paid for in time, favors, or blood.",
+        "gameDate": "999.M1 17:21",
+        "facts": [
+          {
+            "placeId": null,
+            "category": "world",
+            "subject": "Current Situation",
+            "subjectId": null,
+            "fact": "This dock is a controlled choke-point: anyone without a chit or escort draws enforcer attention fast.",
+            "significance": "minor",
+            "important": false
+          },
+          {
+            "placeId": null,
+            "category": "world",
+            "subject": "Current Situation",
+            "subjectId": null,
+            "fact": "Warp routes and schedules here are unreliable; departures shift without warning and information is often outdated the moment you hear it.",
+            "significance": "minor",
+            "important": false
+          },
+          {
+            "placeId": null,
+            "category": "knowledge",
+            "subject": "Current Situation",
+            "subjectId": null,
+            "fact": "Your hands and gear mark you as someone used to rope-work and travel, not local labor—people will read you as an outsider immediately.",
+            "significance": "minor",
+            "important": false
+          }
+        ],
+        "image": null,
+        "context": null
+      },
+      {
+        "content": "999.M1 — End-watch\n\nThey call this place the Gloam Lantern, and the name fits. I spent the early hours under its bands of engineered light, propped against a ferrocrete pillar while the air-scrubbers purred like a slow respirator. The shrine-niche with its stamped aquilae watches the ration counter as if piety could score out who gets food; curtained windows, brass vents, auspex lamps that blinked with perfunctory warning—each detail tells you what the Bastion values: order, quotas, and an extra eye for trouble. I did not talk much. I waited—long enough to mark the patterns: who comes through, who leaves markless, what trades in furtive gestures and what looks like official business. Waiting is work when you know how to use it. I took the measure of faces, the angles of gait, and filed them away as possible routes or dead ends.\n\nMid-afternoon I walked the Vale and found the water they call Bruiseglass. The surface is a bruise in the sky’s reflection, oily and cold, the sort of water that takes the warmth from your hands and gives you questions in return. I walked the shore and felt the mooring rings underfoot—old work, fresh corrosion—and I thought about passage. The Dock at Ashshelf is a proving ground that does not forgive mistakes: blackened ferrocrete, cleats furred with ash, pylons like blunt teeth. There’s a",
+        "gameDate": "999.M1 21:48",
+        "facts": [],
+        "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/journal/journal_CHAR_severin_ashcombe_1772162089366.png",
+        "context": null
+      }
+    ],
+    "sketches": [],
+    "verbosity": 3,
+    "conversationContext": null,
+    "storytellerState": {
+      "storytellerId": "STORYTELLER_the_ironwind_herald",
+      "voiceId": "river",
+      "activePlots": [
+        {
+          "id": "plot_1772151661526",
+          "plan": {
+            "label": "Beacon Under Ashwater",
+            "description": "You arrive at Ashshelf Dock beneath Cyrenth Vale’s bruise-lit aurorae, where the lake’s oil-sheen laps like a wound that refuses to clot. A fatigued deckhand presses through the riveted crowd with a death-pale urgency, insisting that the Emperor’s paperwork can kill as surely as any blade. Tithes have gone missing, astropathic traffic has turned to static, and the dockside faithful whisper that something below the water is listening. In Imperium Nihilus, every shortage becomes a sermon—and every sermon becomes a weapon. Opening Hook: the dock’s flood-control pylons pulse with faint, unscheduled lumen-blinks in a pattern that looks uncomfortably like a cog-and-skull.",
+            "plot": "Severin Ashcombe becomes entangled in a tithe-dispute turned heresy when a Fatigued Deckhand Messenger collapses at Ashshelf Dock carrying a sealed dispatch meant to trigger an emergency audit of the Ashfall Ledgerhouse. As the player investigates, Corvin Rake—dockside canteen barkeep—quietly points to forged manifests and a string of “accidents” tied to workers who asked about the missing cargo. The true antagonist is a hidden logistics-cult embedded in the Ledgerhouse’s tallymen, using a stolen Mechanicus activation-rite to awaken a submerged beacon-pump shrine beneath the lake shelves and broadcast a warp-sweet signal through the Rift’s noise. Midway through, the player learns the sealed dispatch is not merely evidence but an authentication cipher: it can either authorize a loyalist distress-beacon or unlock the cult’s corrupted transmission, depending on how it is used. Alaric Morn appears as a hard-eyed traveler with a private charter, offering assistance that is useful but self-serving, forcing the player to choose between speed, secrecy, and doctrinal purity. The story culminates at the drowned shrine where the cult attempts ignition; stopping it averts immediate catastrophe, but any “clean” solution still spreads blood across the ledger pages and invites ruthless reprisals from competing Imperial authorities.",
+            "characters": [
+              {
+                "role": "victim",
+                "description": "A tired, salt-stained dockhand with cracked lips and hands trembling from sleepless runs; he speaks in clipped bursts as if reciting a catechism against panic.",
+                "publicFace": "A simple messenger trying to deliver paperwork before the Administratum’s deadlines crush him.",
+                "hiddenTruth": "He has already been exposed to a memetic cipher embedded in the dispatch; even dying, he fears repeating certain phrases aloud.",
+                "locationHint": "Ashshelf Dock’s mooring rings and flood-control pylons, weaving between crews and cargo.",
+                "introductionProgress": 0,
+                "name": "A Fatigued Deckhand Messenger",
+                "matchHint": "",
+                "entityId": "CHAR_a_fatigued_deckhand_messenger"
+              },
+              {
+                "role": "informant",
+                "description": "A lean barkeep with watchful eyes and a habit of wiping already-clean metal; his voice stays low, as if the air itself files reports.",
+                "publicFace": "A canteen man who hears everything and sells only watered amasec and silence.",
+                "hiddenTruth": "He has been paying in favors to keep a single worker’s family off the next ‘exemplary’ ration purge; he will betray the player only if cornered by authority.",
+                "locationHint": "Near the dockside canteen traffic—where crews drink before shifts and confess without realizing.",
+                "introductionProgress": 20,
+                "name": "Corvin Rake",
+                "matchHint": "",
+                "entityId": "CHAR_corvin_rake"
+              },
+              {
+                "role": "ally",
+                "description": "A weathered traveler with practical kit, scarred knuckles, and the calm of someone who has survived bureaucrats and battle alike.",
+                "publicFace": "A fellow mission-bound operative offering muscle and route-knowledge through ash-choked infrastructure.",
+                "hiddenTruth": "He is chasing the same beacon-site for a private contract; he will help, but he will also secure whatever proof profits him first.",
+                "locationHint": "Dock approaches and transit chokepoints—always near the next exit.",
+                "introductionProgress": 35,
+                "name": "Alaric Morn",
+                "matchHint": "",
+                "entityId": "CHAR_alaric_morn"
+              },
+              {
+                "role": "antagonist",
+                "description": "A meticulous tallyman in stained robe-leathers and ink-black gloves; his speech is devotional, but the devotion is wrong by half a syllable.",
+                "publicFace": "A dutiful quartermaster-accountant keeping the Ledgerhouse running in a time of shortages.",
+                "hiddenTruth": "He leads a logistics-cult that treats ration math as sacred numerology, feeding bodies and promises into a submerged shrine to ‘balance the Emperor’s deficit’ with warp-credit.",
+                "locationHint": "Ashfall Ledgerhouse counting galleries and sealed storage aisles.",
+                "introductionProgress": 50,
+                "name": "",
+                "matchHint": "ink-stained imperial tallyman secretly leading a dockside logistics-cult"
+              }
+            ],
+            "places": [
+              {
+                "placeId": "PLACE_ashfall_ledgerhouse",
+                "storyRole": "tithe_warehouse"
+              },
+              {
+                "placeId": "PLACE_meridian_ledgerhouse",
+                "storyRole": "crew_quarters"
+              },
+              {
+                "placeId": "PLACE_bruiseglass_lake",
+                "storyRole": "final_confrontation"
+              }
+            ],
+            "items": [
+              {
+                "itemId": "sealed_letter",
+                "tint": null,
+                "locationHint": "On the Fatigued Deckhand Messenger at Ashshelf Dock, clutched under his coat and slick with lake-oil.",
+                "placement": "ground"
+              },
+              {
+                "itemId": "bronze_medallion",
+                "tint": null,
+                "locationHint": "Hidden inside a sealed crate in the Ashfall Ledgerhouse among falsified manifests and tally-slates.",
+                "placement": "container"
+              },
+              {
+                "itemId": "golden_key",
+                "tint": null,
+                "locationHint": "In Ashglass Quarters, tucked into a vent-crawl cache behind a scratched litany panel.",
+                "placement": "container"
+              },
+              {
+                "itemId": "iron_amulet",
+                "tint": null,
+                "locationHint": "Kept behind the canteen counter where Corvin Rake stores ‘superstitions’ that sometimes work.",
+                "placement": "container"
+              },
+              {
+                "itemId": "antidote_vial",
+                "tint": null,
+                "locationHint": "In Ashlight Stores among gasketed supplies labeled for ‘industrial exposure,’ not for people.",
+                "placement": "container"
+              }
+            ],
+            "turningPoints": [
+              {
+                "id": "TP_inciting_dispatch",
+                "progressTarget": 0,
+                "dramaticRole": "inciting_incident",
+                "involvedCharacter": "A Fatigued Deckhand Messenger",
+                "triggerOnFlags": null,
+                "essentialInformation": [
+                  "The player learns a sealed dispatch must be safeguarded because it can trigger powerful Imperial action.",
+                  "The player learns someone at the docks is intercepting or killing messengers tied to missing tithes."
+                ],
+                "triggerConditions": null,
+                "conditionTimeoutHours": null,
+                "triggered": true,
+                "triggeredAt": "999.M1 21:48",
+                "triggeredByEventId": "event_1772162173843",
+                "outcome": null,
+                "flagsSet": null,
+                "conditionsEligibleSince": null
+              },
+              {
+                "id": "TP_rising_ledgers",
+                "progressTarget": 35,
+                "dramaticRole": "rising_action",
+                "involvedCharacter": "Corvin Rake",
+                "triggerOnFlags": null,
+                "essentialInformation": [
+                  "The player learns the tithe shortfall is being concealed with forged manifests and staged ‘accidents.’",
+                  "The player learns the Ashfall Ledgerhouse’s internal chain of custody points to an organized faction, not random theft."
+                ],
+                "triggerConditions": [
+                  {
+                    "type": "min_hours_since_last_event",
+                    "purposes": null,
+                    "placeStoryRole": null,
+                    "periods": null,
+                    "characterName": null,
+                    "hours": 4
+                  },
+                  {
+                    "type": "specific_location",
+                    "purposes": null,
+                    "placeStoryRole": "tithe_warehouse",
+                    "periods": null,
+                    "characterName": null,
+                    "hours": null
+                  },
+                  {
+                    "type": "not_in_combat",
+                    "purposes": null,
+                    "placeStoryRole": null,
+                    "periods": null,
+                    "characterName": null,
+                    "hours": null
+                  }
+                ],
+                "conditionTimeoutHours": 48,
+                "triggered": false,
+                "triggeredAt": null,
+                "triggeredByEventId": null,
+                "outcome": null,
+                "flagsSet": null,
+                "conditionsEligibleSince": null
+              },
+              {
+                "id": "TP_midpoint_cipher",
+                "progressTarget": 55,
+                "dramaticRole": "midpoint",
+                "involvedCharacter": "Alaric Morn",
+                "triggerOnFlags": null,
+                "essentialInformation": [
+                  "The player learns the sealed dispatch contains an authentication cipher that can unlock a restricted signal system.",
+                  "The player learns the cipher’s true destination is a submerged machine-shrine beneath the lake shelves."
+                ],
+                "triggerConditions": [
+                  {
+                    "type": "min_hours_since_last_event",
+                    "purposes": null,
+                    "placeStoryRole": null,
+                    "periods": null,
+                    "characterName": null,
+                    "hours": 6
+                  },
+                  {
+                    "type": "specific_location",
+                    "purposes": null,
+                    "placeStoryRole": "crew_quarters",
+                    "periods": null,
+                    "characterName": null,
+                    "hours": null
+                  },
+                  {
+                    "type": "not_in_combat",
+                    "purposes": null,
+                    "placeStoryRole": null,
+                    "periods": null,
+                    "characterName": null,
+                    "hours": null
+                  }
+                ],
+                "conditionTimeoutHours": 48,
+                "triggered": false,
+                "triggeredAt": null,
+                "triggeredByEventId": null,
+                "outcome": null,
+                "flagsSet": null,
+                "conditionsEligibleSince": null
+              },
+              {
+                "id": "TP_crisis_whispers",
+                "progressTarget": 70,
+                "dramaticRole": "crisis",
+                "involvedCharacter": "Corvin Rake",
+                "triggerOnFlags": null,
+                "essentialInformation": [
+                  "The player learns the beacon-site is already ‘warming’ and will fully ignite soon if not interrupted.",
+                  "The player learns exposure to the cipher and shrine-signal risks spiritual and psychic contamination, even for the faithful."
+                ],
+                "triggerConditions": [
+                  {
+                    "type": "min_hours_since_last_event",
+                    "purposes": null,
+                    "placeStoryRole": null,
+                    "periods": null,
+                    "characterName": null,
+                    "hours": 6
+                  },
+                  {
+                    "type": "time_of_day",
+                    "purposes": null,
+                    "placeStoryRole": null,
+                    "periods": [
+                      "evening",
+                      "night"
+                    ],
+                    "characterName": null,
+                    "hours": null
+                  },
+                  {
+                    "type": "not_in_combat",
+                    "purposes": null,
+                    "placeStoryRole": null,
+                    "periods": null,
+                    "characterName": null,
+                    "hours": null
+                  }
+                ],
+                "conditionTimeoutHours": 48,
+                "triggered": false,
+                "triggeredAt": null,
+                "triggeredByEventId": null,
+                "outcome": null,
+                "flagsSet": null,
+                "conditionsEligibleSince": null
+              },
+              {
+                "id": "TP_climax_drowned_beacon",
+                "progressTarget": 85,
+                "dramaticRole": "climax",
+                "involvedCharacter": "Alaric Morn",
+                "triggerOnFlags": null,
+                "essentialInformation": [
+                  "The player learns the cult is using the shrine to broadcast a warp-sweet signal that will draw predation to Cyrenth Vale.",
+                  "The player learns the cipher can be used to either sabotage the shrine’s ignition or complete it."
+                ],
+                "triggerConditions": [
+                  {
+                    "type": "min_hours_since_last_event",
+                    "purposes": null,
+                    "placeStoryRole": null,
+                    "periods": null,
+                    "characterName": null,
+                    "hours": 4
+                  },
+                  {
+                    "type": "specific_location",
+                    "purposes": null,
+                    "placeStoryRole": "final_confrontation",
+                    "periods": null,
+                    "characterName": null,
+                    "hours": null
+                  }
+                ],
+                "conditionTimeoutHours": 48,
+                "triggered": false,
+                "triggeredAt": null,
+                "triggeredByEventId": null,
+                "outcome": null,
+                "flagsSet": null,
+                "conditionsEligibleSince": null
+              },
+              {
+                "id": "TP_resolution_audit_fallout",
+                "progressTarget": 93,
+                "dramaticRole": "resolution",
+                "involvedCharacter": "Corvin Rake",
+                "triggerOnFlags": null,
+                "essentialInformation": [
+                  "The player learns that whatever outcome occurred, Imperial authorities will interpret it through rivalry—punishment and purges will follow.",
+                  "The player learns that survival in Nihilus has a price that will be collected later, with interest."
+                ],
+                "triggerConditions": [
+                  {
+                    "type": "min_hours_since_last_event",
+                    "purposes": null,
+                    "placeStoryRole": null,
+                    "periods": null,
+                    "characterName": null,
+                    "hours": 4
+                  },
+                  {
+                    "type": "not_in_combat",
+                    "purposes": null,
+                    "placeStoryRole": null,
+                    "periods": null,
+                    "characterName": null,
+                    "hours": null
+                  }
+                ],
+                "conditionTimeoutHours": 48,
+                "triggered": false,
+                "triggeredAt": null,
+                "triggeredByEventId": null,
+                "outcome": null,
+                "flagsSet": null,
+                "conditionsEligibleSince": null
+              }
+            ],
+            "possibleFlags": [
+              {
+                "id": "acquired_sealed_letter",
+                "triggerDescription": "Set when the player obtains the Sealed Letter from the messenger or another source."
+              },
+              {
+                "id": "used_sealed_letter",
+                "triggerDescription": "Set when the player uses the Sealed Letter as an authentication cipher at a device, terminal, or ritual interface."
+              },
+              {
+                "id": "acquired_bronze_medallion",
+                "triggerDescription": "Set when the player finds or takes the Bronze Medallion linked to the ledger-cult."
+              },
+              {
+                "id": "used_bronze_medallion",
+                "triggerDescription": "Set when the player presents or uses the Bronze Medallion to bypass a cult-held checkpoint or access warded storage."
+              },
+              {
+                "id": "acquired_golden_key",
+                "triggerDescription": "Set when the player acquires the Golden Key needed to open a secured access point to the submerged shrine route."
+              },
+              {
+                "id": "used_golden_key",
+                "triggerDescription": "Set when the player uses the Golden Key to open the shrine access hatch or equivalent lock."
+              },
+              {
+                "id": "acquired_iron_amulet",
+                "triggerDescription": "Set when the player obtains the Iron Amulet used as a crude ward against the shrine’s influence."
+              },
+              {
+                "id": "used_iron_amulet",
+                "triggerDescription": "Set when the player uses the Iron Amulet to resist, disrupt, or safely approach the shrine-signal."
+              },
+              {
+                "id": "acquired_antidote_vial",
+                "triggerDescription": "Set when the player acquires the Antidote Vial from stores or a cache."
+              },
+              {
+                "id": "used_antidote_vial",
+                "triggerDescription": "Set when the player uses the Antidote Vial to treat poison, taint-sickness, or chemical exposure."
+              },
+              {
+                "id": "ledgerhouse_investigated",
+                "triggerDescription": "Set when the player uncovers and confirms evidence of forged manifests or staged accidents at the Ashfall Ledgerhouse."
+              },
+              {
+                "id": "cult_exposed",
+                "triggerDescription": "Set when the player identifies the missing-tithe operation as an organized heretical faction and not mere theft."
+              },
+              {
+                "id": "access_route_found",
+                "triggerDescription": "Set when the player locates the route/access point leading to the submerged pump-shrine beneath the lake shelves."
+              },
+              {
+                "id": "cult_leader_defeated",
+                "triggerDescription": "Set when the player defeats or captures the cult’s leader at the final confrontation."
+              },
+              {
+                "id": "beacon_sabotaged",
+                "triggerDescription": "Set when the player prevents ignition and disables the corrupted beacon/shrine transmission."
+              },
+              {
+                "id": "beacon_activated",
+                "triggerDescription": "Set when the corrupted beacon successfully ignites or the player enables its transmission."
+              },
+              {
+                "id": "corruption_marked",
+                "triggerDescription": "Set when the player becomes spiritually/psychically compromised by the cipher or shrine-signal (possession, taint, or formal suspicion)."
+              },
+              {
+                "id": "purity_maintained",
+                "triggerDescription": "Set when the player contains exposure and preserves doctrinal/psychic integrity (through wards, restraint, or sanctioned procedure)."
+              },
+              {
+                "id": "letter_lost",
+                "triggerDescription": "Set when the Sealed Letter is destroyed, stolen, or otherwise becomes unusable before the final confrontation."
+              }
+            ],
+            "goals": [
+              {
+                "id": "GOAL_secure_dispatch",
+                "description": "Secure the sealed dispatch and keep it out of hostile hands long enough to learn why people are dying for it.",
+                "progressBoost": 30,
+                "revealOnFlags": [],
+                "successFlags": [
+                  "acquired_sealed_letter"
+                ],
+                "failureFlags": [
+                  "letter_lost"
+                ],
+                "failureDeadlineHours": 36,
+                "hidden": false,
+                "destinationPlaceId": null,
+                "goalType": null,
+                "stakes": null,
+                "personalHook": null,
+                "dramaticQuestion": null,
+                "immediateHint": null,
+                "blockedByFlags": null,
+                "status": "pending",
+                "revealedAt": "999.M1 21:48"
+              },
+              {
+                "id": "GOAL_break_ledgerhouse_lie",
+                "description": "Investigate the Ashfall Ledgerhouse and uncover how the missing tithes are being hidden.",
+                "progressBoost": 25,
+                "revealOnFlags": [
+                  "acquired_sealed_letter"
+                ],
+                "successFlags": [
+                  "ledgerhouse_investigated",
+                  "cult_exposed"
+                ],
+                "failureFlags": [
+                  "beacon_activated"
+                ],
+                "failureDeadlineHours": 72,
+                "hidden": false,
+                "destinationPlaceId": null,
+                "goalType": null,
+                "stakes": null,
+                "personalHook": null,
+                "dramaticQuestion": null,
+                "immediateHint": null,
+                "blockedByFlags": null,
+                "status": null,
+                "revealedAt": null
+              },
+              {
+                "id": "GOAL_reach_drowned_shrine",
+                "description": "Find the access route to the submerged pump-shrine before it fully ignites.",
+                "progressBoost": 25,
+                "revealOnFlags": [
+                  "ledgerhouse_investigated",
+                  "acquired_bronze_medallion"
+                ],
+                "successFlags": [
+                  "access_route_found",
+                  "used_golden_key"
+                ],
+                "failureFlags": [
+                  "beacon_activated"
+                ],
+                "failureDeadlineHours": 72,
+                "hidden": false,
+                "destinationPlaceId": null,
+                "goalType": null,
+                "stakes": null,
+                "personalHook": null,
+                "dramaticQuestion": null,
+                "immediateHint": null,
+                "blockedByFlags": null,
+                "status": null,
+                "revealedAt": null
+              },
+              {
+                "id": "GOAL_stop_the_signal",
+                "description": "Stop the corrupted beacon-signal and end the cult’s ignition rite at the drowned shrine.",
+                "progressBoost": 40,
+                "revealOnFlags": [
+                  "access_route_found"
+                ],
+                "successFlags": [
+                  "beacon_sabotaged",
+                  "cult_leader_defeated"
+                ],
+                "failureFlags": [
+                  "beacon_activated"
+                ],
+                "failureDeadlineHours": 12,
+                "hidden": false,
+                "destinationPlaceId": null,
+                "goalType": null,
+                "stakes": null,
+                "personalHook": null,
+                "dramaticQuestion": null,
+                "immediateHint": null,
+                "blockedByFlags": null,
+                "status": null,
+                "revealedAt": null
+              },
+              {
+                "id": "GOAL_hold_the_line_within",
+                "description": "Survive the shrine’s influence without becoming marked by corruption—or at least ensure you can still function under Imperial scrutiny.",
+                "progressBoost": 20,
+                "revealOnFlags": [
+                  "used_sealed_letter",
+                  "access_route_found"
+                ],
+                "successFlags": [
+                  "purity_maintained"
+                ],
+                "failureFlags": [
+                  "corruption_marked"
+                ],
+                "failureDeadlineHours": 96,
+                "hidden": false,
+                "destinationPlaceId": null,
+                "goalType": null,
+                "stakes": null,
+                "personalHook": null,
+                "dramaticQuestion": null,
+                "immediateHint": null,
+                "blockedByFlags": null,
+                "status": null,
+                "revealedAt": null
+              }
+            ],
+            "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/plots/plot_1772151609624.png",
+            "plotStartDelay": 2,
+            "endingCards": [
+              {
+                "condition": {
+                  "type": "flag_set",
+                  "flag": "beacon_sabotaged"
+                },
+                "title": "Signal Choked in the Dark",
+                "text": "The drowned shrine’s rhythm dies to a dead-metal silence, and the lake stops answering in patterns. The sector survives another week—long enough for new orders, new shortages, and new graves.",
+                "image": null
+              },
+              {
+                "condition": {
+                  "type": "flag_set",
+                  "flag": "beacon_activated"
+                },
+                "title": "A Light That Hunts",
+                "text": "The beacon ignites wrong, and the void-lanes around Cyrenth Vale grow hungry with attention. Somewhere beyond the Rift’s roar, something hears its name spoken clearly for the first time in years.",
+                "image": null
+              },
+              {
+                "condition": {
+                  "type": "flag_set",
+                  "flag": "cult_leader_defeated"
+                },
+                "title": "Ledger Paid in Blood",
+                "text": "The cult’s hand is cut off, but the wound it leaves in the workforce will fester into reprisals and ration-punishments. The Administratum will demand neat numbers, and the Ecclesiarchy will demand louder prayers.",
+                "image": null
+              },
+              {
+                "condition": {
+                  "type": "flag_set",
+                  "flag": "corruption_marked"
+                },
+                "title": "Innocence Proves Nothing",
+                "text": "You leave with victory’s residue under your skin—subtle, deniable, and lethal in the wrong interrogation chamber. In Nihilus, survival is evidence, and evidence invites execution.",
+                "image": null
+              },
+              {
+                "condition": {
+                  "type": "always",
+                  "flag": ""
+                },
+                "title": "Imperium Nihilus Endures",
+                "text": "No matter what you chose, the Great Rift still yawns overhead and the chain of command still tightens like a noose. You have won something small, and the galaxy has noticed.",
+                "image": null
+              }
+            ],
+            "credits": {
+              "title": "Generated Adventure",
+              "entries": [
+                {
+                  "role": "Plot",
+                  "name": "Storyteller"
+                },
+                {
+                  "role": "World",
+                  "name": "Imperium Nihilus"
+                }
+              ]
+            },
+            "characterCentric": false,
+            "centralDramaticQuestion": null,
+            "dramaticSubQuestions": null
+          },
+          "progressLevel": 30,
+          "storyFlags": [],
+          "nextEventAtGameDate": "999.M1 00:24",
+          "events": [
+            {
+              "id": "event_1772177356681",
+              "type": "running_battles",
+              "description": "A running battle closes in on The Gloam Lantern as gunfire and armored boots sweep past the door, threatening a breach. Soren warns that sealed matters are being hunted and orders silence while a messenger insists on a stamp and the traveler cues everyone to brace for a second entry attempt.",
+              "timestamp": "999.M1 08:00",
+              "affectedEntities": [
+                "CHAR_a_fatigued_deckhand_messenger"
+              ],
+              "arcId": null,
+              "placeId": "PLACE_the_gloam_lantern",
+              "sceneSummary": "In The Gloam Lantern: Mid-demand for answers, the Lantern shudders again—gunfire walks closer in sharp bursts, and the sealed blackout slats rattle like teeth in a skull. Soren Malrick keeps his body between the bar and the room, one hand on the emergency latch, while the traveling adventurer slides off his stool and ang...",
+              "charactersPresent": [
+                "Alaric Morn",
+                "A Fatigued Deckhand Messenger",
+                "Sevrin Halberd",
+                "Sevrin Halcott",
+                "Sevrin Lasko",
+                "Sevrin Malco",
+                "Soren Malrick",
+                "Tavian Lork",
+                "Tired Male Deckhand"
+              ]
+            },
+            {
+              "id": "event_1772177115741",
+              "type": "running_battles",
+              "description": "Gunfire and a disciplined sweep erupt outside The Gloam Lantern, turning a verification knock into a running battle about to spill indoors. Malrick seals the bar while the traveling adventurer and the fatigued deckhand react under pressure, hinting at time-critical paperwork.",
+              "timestamp": "999.M1 07:55",
+              "affectedEntities": [
+                "CHAR_a_fatigued_deckhand_messenger"
+              ],
+              "arcId": null,
+              "placeId": "PLACE_the_gloam_lantern",
+              "sceneSummary": "In The Gloam Lantern: Before the last word leaves your mouth, the wooden door buckles inward under a boot and the corridor’s lumen-wand slices the crack—then the street outside answers with hard, staccato gunfire that hammers closer, turning “routine verification” into a live sweep. The male traveling adventurer snaps a ...",
+              "charactersPresent": [
+                "Alaric Morn",
+                "A Fatigued Deckhand Messenger",
+                "Sevrin Halberd",
+                "Sevrin Halcott",
+                "Sevrin Lasko",
+                "Sevrin Malco",
+                "Soren Malrick",
+                "Tavian Lork",
+                "Tired Male Deckhand"
+              ]
+            },
+            {
+              "id": "event_1772177047825",
+              "type": "rival_interventions",
+              "description": "A disciplined corridor sweep interrupts negotiations for departure intel as a hard-eyed traveler intervenes, shielding the fatigued deckhand and warning that authorities are searching for paperwork, not contraband.",
+              "timestamp": "999.M1 07:50",
+              "affectedEntities": [
+                "CHAR_a_fatigued_deckhand_messenger"
+              ],
+              "arcId": null,
+              "placeId": "PLACE_the_gloam_lantern",
+              "sceneSummary": "In The Gloam Lantern: Before the question fully lands on Soren Malrick, the Lantern’s wooden door jolts under a hard knock—then a second, too precise to be drunken. The barman’s blackout slats snap down another notch as the tired male deckhand stiffens at the bar, fingers white on the edge; behind the viewport, armored s...",
+              "charactersPresent": [
+                "Alaric Morn",
+                "A Fatigued Deckhand Messenger",
+                "Sevrin Halberd",
+                "Sevrin Halcott",
+                "Sevrin Lasko",
+                "Sevrin Malco",
+                "Soren Malrick",
+                "Tavian Lork",
+                "Tired Male Deckhand"
+              ]
+            },
+            {
+              "id": "event_1772172390482",
+              "type": "running_battles",
+              "description": "Gunfire and a running battle surge past The Gloam Lantern as searchers sweep the corridors for messengers and documents. The wounded deckhand hides the sealed dispatch while the barman blacks out the room and prepares for an armed confrontation at the door.",
+              "timestamp": "999.M1 21:17",
+              "affectedEntities": [
+                "CHAR_a_fatigued_deckhand_messenger"
+              ],
+              "arcId": null,
+              "placeId": "PLACE_the_gloam_lantern",
+              "sceneSummary": "In The Gloam Lantern: Minutes into the renewed wait, the Gloam Lantern’s muffled calm fractures into motion: boots hammer past the armored arcades outside, then a burst of autogun fire rattles the adamantine plates and showers rust-dust from the ceiling seams. The tired male deckhand flinches hard and shoves the sealed, ...",
+              "charactersPresent": [
+                "A Fatigued Deckhand Messenger",
+                "Sevrin Halberd",
+                "Sevrin Halcott",
+                "Sevrin Halden",
+                "Sevrin Lasko",
+                "Sevrin Malco",
+                "Tavian Lork",
+                "Tired Male Deckhand"
+              ]
+            },
+            {
+              "id": "event_1772162173843",
+              "type": "timeboxed_objectives",
+              "description": "A wounded Fatigued Deckhand Messenger burst into The Gloam Lantern clutching a sealed dispatch, warning it must be safeguarded because it can trigger an emergency audit of the Ashfall Ledgerhouse. He also revealed someone at the docks is intercepting or killing messengers connected to missing tithes.",
+              "timestamp": "999.M1 21:48",
+              "affectedEntities": [
+                "CHAR_a_fatigued_deckhand_messenger"
+              ],
+              "arcId": null,
+              "placeId": "PLACE_the_gloam_lantern",
+              "sceneSummary": "In The Gloam Lantern: Hours into the wait, The Gloam Lantern’s regimented light-bands stutter as the wooden door slams open; a tired male deckhand staggers in, salt-stained and shaking, one hand clamped over a blood-wet tear at his side while the other keeps a sealed, waxed dispatch pressed to his chest like a relic.\n\nTh...",
+              "charactersPresent": [
+                "A Fatigued Deckhand Messenger",
+                "Sevrin Halcott",
+                "Sevrin Halden",
+                "Sevrin Lasko",
+                "Sevrin Malco",
+                "Tavian Lork"
+              ]
+            }
+          ],
+          "endedAt": null
+        },
+        {
+          "id": "plot_1772162176623",
+          "plan": {
+            "label": "Ash-Writ in the Dark",
+            "description": "You hit the Gloam Lantern at a dead sprint—boots slick with soot, throat full of recycled incense, and the room already primed for trouble. A patron’s sudden collapse turns the bar into a kill-zone as armed strangers push in, demanding something you don’t have yet but are somehow already blamed for. Every answer you get comes with a deadline, every route out is a moving target, and the only way to stay alive is to keep advancing. If you slow down, the sector’s hungry bureaucracy will label you the culprit and bury you in paperwork and bullets.",
+            "plot": "Severin Ashcombe is mistaken for a courier of the “Ash-Writ,” a sealed authorization that can redirect a void-ship’s tithes—and its guns—during Rift-dark emergencies, and armed operatives begin tearing through whatever room he’s in to recover it. Corvin Rake, a canteen bartender with an eye for uniforms and lies, identifies the attackers as a splinter cell using Ecclesiarchy seals as camouflage and points Severin toward the only person who tracks their movements: Alaric Morn, a restless traveler who reads supply routes like scripture. The splinter cell’s handler—The Corrupt Magistrate—plans to use the Ash-Writ to legally commandeer a relief flotilla and “misroute” it into a dead zone where it will be stripped and quietly erased from records, plunging multiple hab-blocks into famine and panic. Midway through the chase, the twist hits: the Ash-Writ is genuine, but it was issued in Severin’s name weeks ago via a forged biometrical attestation—meaning someone has already weaponized his identity and the Imperium’s own mechanisms will hunt him as the author of the theft. As raids escalate into open street-purges and press-gangs, Severin must choose a win condition under fire: expose the paper-trail to topple the Magistrate, or seize the Ash-Writ and force the flotilla to land where the starving masses can actually reach it. The final confrontation isn’t just a firefight—it’s a race to broadcast proof before the Magistrate’s sanction squads seal the channel and rewrite the truth.",
+            "characters": [
+              {
+                "name": "Corvin Rake",
+                "role": "informant",
+                "description": "Corvin Rake is a compact, middle-aged bartender with a practiced stillness, the kind that watches hands more than faces. He keeps order with clipped phrases and a glare that makes drunk soldiers remember their oaths.",
+                "publicFace": "A steady canteen man who ‘doesn’t get involved’ and keeps his counter clean.",
+                "hiddenTruth": "He keeps a private ledger of insignia, unit patches, and irregular requisitions—because he’s seen too many ‘official’ atrocities to trust seals.",
+                "locationHint": "The Ashlight Canteen, near the counter and back shelves.",
+                "introductionProgress": 10,
+                "entityId": "CHAR_corvin_rake"
+              },
+              {
+                "name": "Alaric Morn",
+                "role": "ally",
+                "description": "Alaric Morn is a young adult traveler with road-dust in every seam and a mind that never stops measuring. Restless, observant, and purpose-driven, he speaks in fast conclusions and expects others to keep up.",
+                "publicFace": "A self-directed seeker who maps what the Imperium refuses to name.",
+                "hiddenTruth": "He has already traced the splinter cell’s supply chain and can put Severin on an interception course—if Severin commits to decisive action, not theory.",
+                "locationHint": "Vespera Tertius Nocturnis Bastion, moving between checkpoints and transit locks.",
+                "introductionProgress": 35,
+                "entityId": "CHAR_alaric_morn"
+              },
+              {
+                "name": "A Fatigued Deckhand Messenger",
+                "role": "victim",
+                "description": "A Fatigued Deckhand Messenger is a lean voidhand with cracked lips and ink-stained fingers, duty holding him upright more than strength. He speaks only what he must, like every word costs air.",
+                "publicFace": "A shipboard runner trusted with sealed chits and time-sensitive orders.",
+                "hiddenTruth": "He carried a duplicate routing chit for the relief flotilla and was marked for erasure the moment it left his hands.",
+                "locationHint": "The Riftward Canteen, hovering near staff corridors and the service hatch.",
+                "introductionProgress": 0,
+                "entityId": "CHAR_a_fatigued_deckhand_messenger"
+              },
+              {
+                "name": "The Corrupt Magistrate",
+                "role": "antagonist",
+                "description": "The Corrupt Magistrate is a hard-voiced bureaucrat in sanctified robes over armor, moving with the certainty of someone who believes forms are weapons. They are decisive, punitive, and always surrounded by people who call them ‘my lord’ while holding rifles.",
+                "publicFace": "A righteous administrator ‘restoring order’ in the shadow of the Great Rift.",
+                "hiddenTruth": "They run a splinter cell that forges Ecclesiarchy warrants to legally seize assets, then wipes witnesses and records to sell whole convoys into oblivion.",
+                "locationHint": "The Gilded Docket-Hall, wherever petitions become sentences.",
+                "introductionProgress": 60,
+                "entityId": null
+              }
+            ],
+            "places": [
+              {
+                "placeId": "PLACE_ebonwake_transit_spire",
+                "storyRole": "A pressure-cooker refuge where fights, bargains, and sudden raids can erupt without warning."
+              },
+              {
+                "placeId": "PLACE_the_gloam_lantern",
+                "storyRole": "A place to catch rumors, recognize uniforms, and get ‘quiet’ answers in public."
+              },
+              {
+                "placeId": "PLACE_riftwake_landing",
+                "storyRole": "A crossroads for intercepting convoys, chasing leads, or getting boxed in by official checkpoints."
+              },
+              {
+                "placeId": "PLACE_the_cinderwrit_exchange",
+                "storyRole": "A place to raid for records, plant evidence, or broadcast an accusation before it’s ‘processed’ out of existence."
+              }
+            ],
+            "items": [
+              {
+                "itemId": "sealed_letter",
+                "tint": null,
+                "locationHint": "On the collapsed courier or wedged under a fallen serving tray amid the first chaos; the wax bears a bureaucratic docket mark.",
+                "placement": "ground"
+              },
+              {
+                "itemId": "bronze_medallion",
+                "tint": null,
+                "locationHint": "Carried by a downed splinter-cell enforcer as a chain-of-custody token stamped with a relief-flotilla crest.",
+                "placement": "ground"
+              },
+              {
+                "itemId": "golden_key",
+                "tint": null,
+                "locationHint": "Hidden in a locked administrative drawer or strongbox near docket cages—meant for a specific sealed compartment.",
+                "placement": "container"
+              }
+            ],
+            "turningPoints": [
+              {
+                "id": "TP_ashfall_collapse",
+                "progressTarget": 0,
+                "triggerOnFlags": null,
+                "dramaticRole": "inciting_incident",
+                "involvedCharacter": "A Fatigued Deckhand Messenger",
+                "essentialInformation": [
+                  "The player learns armed operatives are actively hunting an item tied to emergency authority called the “Ash-Writ.”",
+                  "The player learns the operatives believe the player is the courier and will escalate to lethal force immediately.",
+                  "The player learns there is a short window to act before a wider lockdown and identity-scrub turns the player into the official culprit."
+                ],
+                "triggerConditions": null,
+                "conditionTimeoutHours": null,
+                "triggered": false,
+                "triggeredAt": null,
+                "triggeredByEventId": null,
+                "outcome": null,
+                "flagsSet": null,
+                "conditionsEligibleSince": null
+              },
+              {
+                "id": "TP_ashfall_collapse",
+                "progressTarget": 0,
+                "triggerOnFlags": null,
+                "dramaticRole": "inciting_incident",
+                "involvedCharacter": "A Fatigued Deckhand Messenger",
+                "essentialInformation": [
+                  "The player learns armed operatives are actively hunting an item tied to emergency authority called the “Ash-Writ.”",
+                  "The player learns the operatives believe the player is the courier and will escalate to lethal force immediately.",
+                  "The player learns there is a short window to act before a wider lockdown and identity-scrub turns the player into the official culprit."
+                ],
+                "triggerConditions": null,
+                "conditionTimeoutHours": null,
+                "triggered": false,
+                "triggeredAt": null,
+                "triggeredByEventId": null,
+                "outcome": null,
+                "flagsSet": null,
+                "conditionsEligibleSince": null
+              },
+              {
+                "id": "TP_counterintel_at_the_bar",
+                "progressTarget": 35,
+                "triggerOnFlags": [
+                  "clue_investigated",
+                  "met_corvin_rake"
+                ],
+                "dramaticRole": "rising_action",
+                "involvedCharacter": "Corvin Rake",
+                "essentialInformation": [
+                  "The player learns the attackers are using forged Ecclesiarchy authority and a splinter cell logistics chain to move fast.",
+                  "The player learns there is a time-sensitive route to intercept the Ash-Writ before it is logged into a magistrate’s docket system.",
+                  "The player learns a reliable route-reader (Alaric Morn) can put the player on the interception vector if contacted quickly."
+                ],
+                "triggerConditions": [
+                  {
+                    "type": "min_hours_since_last_event",
+                    "purposes": null,
+                    "placeStoryRole": null,
+                    "periods": null,
+                    "characterName": null,
+                    "hours": 4
+                  },
+                  {
+                    "type": "not_in_combat",
+                    "purposes": null,
+                    "placeStoryRole": null,
+                    "periods": null,
+                    "characterName": null,
+                    "hours": null
+                  }
+                ],
+                "conditionTimeoutHours": null,
+                "triggered": false,
+                "triggeredAt": null,
+                "triggeredByEventId": null,
+                "outcome": null,
+                "flagsSet": null,
+                "conditionsEligibleSince": null
+              },
+              {
+                "id": "TP_name_on_the_warrant",
+                "progressTarget": 55,
+                "triggerOnFlags": [
+                  "ally_contacted",
+                  "acquired_sealed_letter"
+                ],
+                "dramaticRole": "midpoint",
+                "involvedCharacter": "Alaric Morn",
+                "essentialInformation": [
+                  "The player learns the Ash-Writ was issued in the player’s name via a forged attestation, making the player the paper-trail’s ‘author.’",
+                  "The player learns the Corrupt Magistrate’s endgame is to legally commandeer a relief flotilla and erase it in a dead zone.",
+                  "The player learns proof exists as cross-referenced docket numbers and routing chits that can be broadcast or physically seized."
+                ],
+                "triggerConditions": [
+                  {
+                    "type": "min_hours_since_last_event",
+                    "purposes": null,
+                    "placeStoryRole": null,
+                    "periods": null,
+                    "characterName": null,
+                    "hours": 5
+                  },
+                  {
+                    "type": "location_purpose",
+                    "purposes": [
+                      "tavern",
+                      "market"
+                    ],
+                    "placeStoryRole": null,
+                    "periods": null,
+                    "characterName": null,
+                    "hours": null
+                  },
+                  {
+                    "type": "not_in_combat",
+                    "purposes": null,
+                    "placeStoryRole": null,
+                    "periods": null,
+                    "characterName": null,
+                    "hours": null
+                  }
+                ],
+                "conditionTimeoutHours": 48,
+                "triggered": false,
+                "triggeredAt": null,
+                "triggeredByEventId": null,
+                "outcome": null,
+                "flagsSet": null,
+                "conditionsEligibleSince": null
+              },
+              {
+                "id": "TP_purge_order",
+                "progressTarget": 72,
+                "triggerOnFlags": [
+                  "broadcast_attempted",
+                  "docket_infiltrated"
+                ],
+                "dramaticRole": "crisis",
+                "involvedCharacter": "The Corrupt Magistrate",
+                "essentialInformation": [
+                  "The player learns a purge-order has been issued that will turn local enforcers and zealots into a closing net within hours.",
+                  "The player learns the Magistrate is moving the Ash-Writ into a locked docket system where it becomes ‘truth’ by procedure.",
+                  "The player learns the player must choose a decisive objective: seize the Ash-Writ, or broadcast the proof before channels are sealed."
+                ],
+                "triggerConditions": [
+                  {
+                    "type": "min_hours_since_last_event",
+                    "purposes": null,
+                    "placeStoryRole": null,
+                    "periods": null,
+                    "characterName": null,
+                    "hours": 6
+                  },
+                  {
+                    "type": "time_of_day",
+                    "purposes": null,
+                    "placeStoryRole": null,
+                    "periods": [
+                      "evening",
+                      "night"
+                    ],
+                    "characterName": null,
+                    "hours": null
+                  }
+                ],
+                "conditionTimeoutHours": 36,
+                "triggered": false,
+                "triggeredAt": null,
+                "triggeredByEventId": null,
+                "outcome": null,
+                "flagsSet": null,
+                "conditionsEligibleSince": null
+              },
+              {
+                "id": "TP_docket_run_finale",
+                "progressTarget": 88,
+                "triggerOnFlags": [
+                  "seized_ash_writ",
+                  "proof_broadcast"
+                ],
+                "dramaticRole": "climax",
+                "involvedCharacter": "The Corrupt Magistrate",
+                "essentialInformation": [
+                  "The player learns the Magistrate’s authority collapses if the Ash-Writ is taken out of docket control or its issuance fraud is proven to witnesses.",
+                  "The player learns the relief flotilla’s fate hinges on immediate action: reroute it to safety or let it vanish into a sanctioned ‘loss.’"
+                ],
+                "triggerConditions": [
+                  {
+                    "type": "min_hours_since_last_event",
+                    "purposes": null,
+                    "placeStoryRole": null,
+                    "periods": null,
+                    "characterName": null,
+                    "hours": 4
+                  },
+                  {
+                    "type": "not_in_combat",
+                    "purposes": null,
+                    "placeStoryRole": null,
+                    "periods": null,
+                    "characterName": null,
+                    "hours": null
+                  }
+                ],
+                "conditionTimeoutHours": 48,
+                "triggered": false,
+                "triggeredAt": null,
+                "triggeredByEventId": null,
+                "outcome": null,
+                "flagsSet": null,
+                "conditionsEligibleSince": null
+              }
+            ],
+            "possibleFlags": [
+              {
+                "id": "story_introduced",
+                "triggerDescription": "Set when narrative context about the Ash-Writ hunt and immediate danger is delivered"
+              },
+              {
+                "id": "clue_investigated",
+                "triggerDescription": "Set when the player searches the collapsed messenger and the immediate area for identifiers, seals, or routing marks"
+              },
+              {
+                "id": "clue_missed",
+                "triggerDescription": "Set when the player lets the first window close and the attackers recover key traces, forcing a harsher pursuit"
+              },
+              {
+                "id": "met_corvin_rake",
+                "triggerDescription": "Set when the player makes contact with Corvin Rake and he acknowledges the situation"
+              },
+              {
+                "id": "corvin_route_shared",
+                "triggerDescription": "Set when Corvin Rake provides actionable route intel about the splinter cell’s movements"
+              },
+              {
+                "id": "corvin_refused_help",
+                "triggerDescription": "Set when Corvin Rake shuts the player down or the player alienates him, losing his intel"
+              },
+              {
+                "id": "ally_contacted",
+                "triggerDescription": "Set when the player reaches Alaric Morn and he agrees to move with the player"
+              },
+              {
+                "id": "ally_secured",
+                "triggerDescription": "Set when Alaric Morn is convinced to commit fully, providing a concrete interception plan"
+              },
+              {
+                "id": "ally_lost",
+                "triggerDescription": "Set when Alaric Morn is driven off, captured, or refuses commitment due to the player’s choices"
+              },
+              {
+                "id": "docket_infiltrated",
+                "triggerDescription": "Set when the player penetrates administrative security far enough to access docket cages or routing logs"
+              },
+              {
+                "id": "broadcast_attempted",
+                "triggerDescription": "Set when the player attempts to transmit proof through public or semi-secure channels"
+              },
+              {
+                "id": "seized_ash_writ",
+                "triggerDescription": "Set when the player physically takes possession of the Ash-Writ evidence packet"
+              },
+              {
+                "id": "proof_broadcast",
+                "triggerDescription": "Set when the player successfully gets the fraud proof out to witnesses beyond the Magistrate’s control"
+              },
+              {
+                "id": "magistrate_defeated",
+                "triggerDescription": "Set when the Corrupt Magistrate is neutralized or their command structure is broken"
+              },
+              {
+                "id": "magistrate_escaped",
+                "triggerDescription": "Set when the Corrupt Magistrate survives with enough authority to continue the scheme"
+              },
+              {
+                "id": "acquired_sealed_letter",
+                "triggerDescription": "Set when the player acquires the Sealed Letter"
+              },
+              {
+                "id": "used_sealed_letter",
+                "triggerDescription": "Set when the player uses the Sealed Letter to unlock cooperation, bypass procedure, or force a confrontation"
+              },
+              {
+                "id": "acquired_bronze_medallion",
+                "triggerDescription": "Set when the player acquires the Bronze Medallion"
+              },
+              {
+                "id": "used_bronze_medallion",
+                "triggerDescription": "Set when the player uses the Bronze Medallion as proof of identity, clearance, or chain-of-custody"
+              },
+              {
+                "id": "acquired_golden_key",
+                "triggerDescription": "Set when the player acquires the Golden Key"
+              },
+              {
+                "id": "used_golden_key",
+                "triggerDescription": "Set when the player uses the Golden Key to open a locked docket cage or secured container"
+              }
+            ],
+            "goals": [
+              {
+                "id": "GOAL_confirm_the_hunt",
+                "description": "Confirm what the attackers want and secure the first usable lead before the lockdown tightens.",
+                "progressBoost": 25,
+                "revealOnFlags": [
+                  "story_introduced"
+                ],
+                "successFlags": [
+                  "clue_investigated"
+                ],
+                "failureFlags": [
+                  "clue_missed"
+                ],
+                "failureDeadlineHours": 2,
+                "hidden": false,
+                "destinationPlaceId": null,
+                "goalType": null,
+                "stakes": null,
+                "personalHook": null,
+                "dramaticQuestion": null,
+                "immediateHint": null,
+                "blockedByFlags": null,
+                "status": null,
+                "revealedAt": null
+              },
+              {
+                "id": "GOAL_get_corvins_vector",
+                "description": "Get Corvin Rake to share the splinter cell’s route so you can move faster than the purge-net.",
+                "progressBoost": 35,
+                "revealOnFlags": [
+                  "met_corvin_rake"
+                ],
+                "successFlags": [
+                  "corvin_route_shared"
+                ],
+                "failureFlags": [
+                  "corvin_refused_help"
+                ],
+                "failureDeadlineHours": 4,
+                "hidden": false,
+                "destinationPlaceId": null,
+                "goalType": null,
+                "stakes": null,
+                "personalHook": null,
+                "dramaticQuestion": null,
+                "immediateHint": null,
+                "blockedByFlags": null,
+                "status": null,
+                "revealedAt": null
+              },
+              {
+                "id": "GOAL_secure_alarics_commitment",
+                "description": "Lock in Alaric Morn’s commitment and take his interception plan before the Magistrate’s docket system closes.",
+                "progressBoost": 40,
+                "revealOnFlags": [
+                  "ally_contacted",
+                  "acquired_sealed_letter"
+                ],
+                "successFlags": [
+                  "ally_secured"
+                ],
+                "failureFlags": [
+                  "ally_lost"
+                ],
+                "failureDeadlineHours": 6,
+                "hidden": false,
+                "destinationPlaceId": null,
+                "goalType": null,
+                "stakes": null,
+                "personalHook": null,
+                "dramaticQuestion": null,
+                "immediateHint": null,
+                "blockedByFlags": null,
+                "status": null,
+                "revealedAt": null
+              },
+              {
+                "id": "GOAL_break_the_magistrate",
+                "description": "End the scheme by seizing the Ash-Writ or broadcasting proof, then break the Corrupt Magistrate’s command before the relief flotilla is erased.",
+                "progressBoost": 110,
+                "revealOnFlags": [
+                  "docket_infiltrated",
+                  "broadcast_attempted",
+                  "seized_ash_writ",
+                  "proof_broadcast"
+                ],
+                "successFlags": [
+                  "magistrate_defeated"
+                ],
+                "failureFlags": [
+                  "magistrate_escaped"
+                ],
+                "failureDeadlineHours": 2,
+                "hidden": false,
+                "destinationPlaceId": null,
+                "goalType": null,
+                "stakes": null,
+                "personalHook": null,
+                "dramaticQuestion": null,
+                "immediateHint": null,
+                "blockedByFlags": null,
+                "status": null,
+                "revealedAt": null
+              }
+            ],
+            "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/plots/plot_1772162108513.png",
+            "plotStartDelay": 5,
+            "endingCards": [
+              {
+                "condition": {
+                  "type": "flag_set",
+                  "flag": "magistrate_defeated"
+                },
+                "title": "Docket Broken, Blood Paid",
+                "text": "The Corrupt Magistrate’s authority fractures in public view, and the scheme can’t survive daylight—yet the bodies and burned records remain as the true tithe.",
+                "image": null
+              },
+              {
+                "condition": {
+                  "type": "flag_set",
+                  "flag": "proof_broadcast"
+                },
+                "title": "Truth, Loud Enough",
+                "text": "Your proof escapes the docket-hall’s teeth; witnesses carry it faster than bullets, and the relief flotilla’s ‘loss’ becomes a scandal the Imperium can’t quietly file away.",
+                "image": null
+              },
+              {
+                "condition": {
+                  "type": "flag_set",
+                  "flag": "seized_ash_writ"
+                },
+                "title": "Authority in Your Hands",
+                "text": "With the Ash-Writ in hand, you redirect fate by force of procedure—an ugly miracle of ink and steel that saves lives while painting a target on your name.",
+                "image": null
+              },
+              {
+                "condition": {
+                  "type": "flag_not_set",
+                  "flag": "magistrate_defeated"
+                },
+                "title": "Processed Into Silence",
+                "text": "The Magistrate lives, and the system does what it does best: it stamps a new truth over the old one, and whole neighborhoods learn what hunger means in the dark.",
+                "image": null
+              },
+              {
+                "condition": {
+                  "type": "always",
+                  "flag": ""
+                },
+                "title": "The Gale Keeps Moving",
+                "text": "In Imperium Nihilus, heroism is just momentum with consequences—so you keep moving, because stopping is how the void catches up.",
+                "image": null
+              }
+            ],
+            "credits": {
+              "title": "Ash-Writ in the Dark",
+              "entries": [
+                {
+                  "role": "Plot",
+                  "name": "The Ironwind Herald"
+                },
+                {
+                  "role": "World",
+                  "name": "Imperium Nihilus"
+                }
+              ]
+            },
+            "characterCentric": false,
+            "centralDramaticQuestion": null,
+            "dramaticSubQuestions": null
+          },
+          "progressLevel": 0,
+          "storyFlags": [],
+          "nextEventAtGameDate": null,
+          "events": [],
+          "endedAt": null
+        }
+      ],
+      "generationInProgress": false,
+      "eventHistory": [],
+      "storytellerSelectedAt": "999.M1 17:21",
+      "custom": {}
+    },
+    "isPlayer": true,
+    "storyComplete": false,
+    "routine": null,
+    "vesselRoutes": null,
+    "abstractLocation": null,
+    "npcBehavior": null,
+    "physicalState": null,
+    "pendingDeparture": null,
+    "pendingArrival": null,
+    "lastRoutineCheckPeriod": "morning",
+    "startingNarrative": "You step onto Ashshelf Dock with your kit tight to your shoulders, boots ringing on blackened plating slick with lake-mist and oil-sheen. Cold aurora light from Cyrenth Vale washes the basin bruise-purple; mooring rings and corroded cleats line the edge in strict intervals, and half-buried flood-control pylons stare down the approach with numbers worn nearly flat.\n\nYou keep your head low and your eyes moving—Administratum clerks, dock enforcers, and Mechanicus-riveted laborers all sharing the same hard, suspicious pace. In Imperium Nihilus, passage is never simply bought; it is certified, stamped, prayed over, and paid for in time, favors, or blood.",
+    "startingCharacterState": "Restless and focused, alert to scrutiny, measuring routes and people with disciplined caution.",
+    "clothing": [
+      {
+        "slot": "torso_under",
+        "itemId": "tunic",
+        "color": "#f5f0e8",
+        "contents": null
+      },
+      {
+        "slot": "torso_over",
+        "itemId": "trenchcoat",
+        "color": "#3a3a3a",
+        "contents": null
+      },
+      {
+        "slot": "legs",
+        "itemId": "cloth_pants",
+        "color": "#8b4513",
+        "contents": null
+      },
+      {
+        "slot": "feet",
+        "itemId": "boots",
+        "color": "#1a1a1a",
+        "contents": null
+      },
+      {
+        "slot": "belt",
+        "itemId": "leather_belt",
+        "color": "#8b4513",
+        "contents": []
+      },
+      {
+        "slot": "head",
+        "itemId": "leather_cap",
+        "color": "#1a1a1a",
+        "contents": null
+      }
+    ],
+    "enabledOverlayLayers": [
+      "eyes",
+      "facial"
+    ],
+    "helmingVesselId": null,
+    "storytellerDisabled": false,
+    "rulesetState": {
+      "stats": {
+        "physical": 50,
+        "mental": 50,
+        "social": 50,
+        "poise": 50,
+        "max_poise": 50,
+        "bloodloss": 0,
+        "anxiety": 0,
+        "fatigue": 0,
+        "hunger": 0
+      },
+      "conditions": [],
+      "statUsage": {},
+      "incapacitation": null,
+      "incapacitatedSince": null
+    },
+    "voiceId": "will",
+    "spriteConfig": {
+      "bodyType": "male",
+      "layers": [
+        {
+          "type": "body",
+          "optionId": "body_base",
+          "tint": 15780008
+        },
+        {
+          "type": "body",
+          "optionId": "body_universal",
+          "tint": 15780008
+        },
+        {
+          "type": "eyes",
+          "optionId": "eyes_eyes",
+          "tint": 7029286
+        },
+        {
+          "type": "hair",
+          "optionId": "hair_parted",
+          "tint": 7029286
+        },
+        {
+          "type": "torso",
+          "optionId": "torso_formal_trenchcoat_male",
+          "tint": 3815994
+        },
+        {
+          "type": "legs",
+          "optionId": "legs_white_pants_male",
+          "tint": 9127187
+        },
+        {
+          "type": "feet",
+          "optionId": "feet_white_boots_male",
+          "tint": 1710618
+        },
+        {
+          "type": "belt",
+          "optionId": "belt_leather_male",
+          "tint": 9127187
+        },
+        {
+          "type": "head",
+          "optionId": "head_leather_cap_male",
+          "tint": 1710618
+        }
+      ],
+      "spriteHash": "217a788dc405cab4",
+      "spriteUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/sprites/generated/217a788dc405cab4.png",
+      "spriteScale": 1
+    }
+  },
+  "position": {
+    "x": 528,
+    "y": 368,
+    "width": 32,
+    "height": 48,
+    "parent": "PLACE_the_gloam_lantern"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/characters/CHAR_severin_ashcombe.png?v=1772151305948",
+  "faceAnchorY": 0.2,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "talk"
+  },
+  "relationships": [],
+  "important": false
+}

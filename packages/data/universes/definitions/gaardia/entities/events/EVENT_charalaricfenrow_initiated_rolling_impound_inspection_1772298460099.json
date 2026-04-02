@@ -1,0 +1,20 @@
+{
+  "id": "EVENT_charalaricfenrow_initiated_rolling_impound_inspection_1772298460099",
+  "date": "03.01.11 4A 17:56",
+  "placeId": "PLACE_the_quenched_pike",
+  "eventType": "turning_point",
+  "category": "world",
+  "subject": "The Quenched Pike",
+  "subjectId": "PLACE_the_quenched_pike",
+  "fact": "CHAR_alaric_fenrow initiated rolling impound inspection at The Quenched Pike and demanded CHAR_korr_brightblade provide name/purpose/proof; CHAR_tamsin_crowle warned time pressure from impound ledger logging",
+  "significance": "major",
+  "witnessIds": [
+    "CHAR_korr_brightblade"
+  ],
+  "important": true,
+  "importanceScore": null,
+  "scope": "local",
+  "relevantPlaceIds": [
+    "PLACE_the_quenched_pike"
+  ]
+}

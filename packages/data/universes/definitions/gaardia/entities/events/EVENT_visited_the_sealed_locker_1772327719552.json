@@ -1,0 +1,16 @@
+{
+  "id": "EVENT_visited_the_sealed_locker_1772327719552",
+  "date": "04.01.11 4A 22:36",
+  "placeId": "PLACE_the_sealed_locker",
+  "important": false,
+  "importanceScore": null,
+  "scope": null,
+  "relevantPlaceIds": null,
+  "eventType": "location_visited",
+  "category": "world",
+  "subject": "The Sealed Locker",
+  "subjectId": "PLACE_the_sealed_locker",
+  "fact": "Visited The Sealed Locker",
+  "significance": "minor",
+  "witnessIds": null
+}

@@ -1,0 +1,17 @@
+{
+  "id": "wood_cabinet_dark_wood",
+  "name": "Dark wood cabinet",
+  "description": "Dark wood cabinet",
+  "purposes": [
+    "storage",
+    "decoration"
+  ],
+  "solid": true,
+  "layer": "default",
+  "spriteId": "cabinet_dark_wood",
+  "materials": [],
+  "tintable": false,
+  "tags": [
+    "ship"
+  ]
+}

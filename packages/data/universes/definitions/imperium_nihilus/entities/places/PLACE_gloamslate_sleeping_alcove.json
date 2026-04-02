@@ -1,0 +1,60 @@
+{
+  "id": "PLACE_gloamslate_sleeping_alcove",
+  "label": "Gloamslate Sleeping Alcove",
+  "description": "Gloamslate Sleeping Alcove forms a low recess cut into the basaltcrete flat, its mouth sealed by ash-gaskets that trap fine grit in layered seams. A narrow cot-frame is bolted to the back wall beneath a canopy of conduit shielding plates, their Imperial stencils bleached and scored by windborne abrasion. The sole lumen strip reaches the space through soot-stained baffles, reducing illumination to a bruise-toned half-light that emphasizes the alcove’s cramped depth. Vent grilles are fitted with coarse particulate screens, and the decking lip is chipped smooth by repeated passage and equipment drag.",
+  "short_description": "ash-sealed sleeping alcove",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "bedroom",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "door_wooden",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/battles/PLACE_gloamslate_sleeping_alcove.png?v=1771873515283",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 560,
+    "y": 160,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_gloamslate_quarters",
+    "innerWidth": 448,
+    "innerHeight": 448
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/places/PLACE_gloamslate_sleeping_alcove.png?v=1771873570298",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": [
+    "Ashgasket Sleeping Alcove"
+  ],
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

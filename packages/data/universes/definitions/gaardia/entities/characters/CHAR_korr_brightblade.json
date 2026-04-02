@@ -1,0 +1,1038 @@
+{
+  "id": "CHAR_korr_brightblade",
+  "label": "Korr Brightblade",
+  "description": "This individual is a grizzled male veteran of late middle age, built broad through the shoulders and marked by old service-wounds. Gray eyes sit beneath a heavy brow, and gray hair is worn in a practical, close-kept style. A gray beard frames a square jaw, its coarse texture and uneven density consistent with long years in the field. The skinTone is bronze, weathered and lined, with a prominent scar cutting across one cheek.",
+  "short_description": "grizzled male veteran",
+  "tags": [],
+  "entityType": "character",
+  "info": {
+    "purpose": "player",
+    "aliases": [
+      "Brightblade",
+      "Old Korr"
+    ],
+    "birthdate": "1153-09-18",
+    "deathdate": null,
+    "title": null,
+    "birthPlace": "Blackfont March",
+    "eyeColor": "gray",
+    "gender": "male",
+    "hairColor": "gray",
+    "hairStyle": "shortknot",
+    "beardStyle": "medium",
+    "headType": "human_male",
+    "skinTone": "bronze",
+    "personality": "Disciplined and unsentimental, shaped by formal service under Gaardian command structures and a lifelong adherence to chain-of-command. Maintains a soldier’s vigilance in civic spaces and treats law, oaths, and written orders as binding instruments rather than conveniences.",
+    "race": "human",
+    "messages": [
+      {
+        "date": null,
+        "omitFromTranscript": true,
+        "hidden": false,
+        "role": "assistant",
+        "action": "wait",
+        "opts": {
+          "durationMs": 400
+        }
+      },
+      {
+        "date": null,
+        "omitFromTranscript": true,
+        "hidden": false,
+        "role": "assistant",
+        "action": "move",
+        "opts": {
+          "characterId": "CHAR_alaric_fenrow",
+          "targetCharacterId": "CHAR_korr_brightblade"
+        }
+      },
+      {
+        "date": null,
+        "omitFromTranscript": true,
+        "hidden": false,
+        "role": "assistant",
+        "action": "face",
+        "opts": {
+          "characterId": "CHAR_alaric_fenrow",
+          "targetCharacterId": "CHAR_korr_brightblade",
+          "direction": "up"
+        }
+      },
+      {
+        "date": "11.01.11 4A 08:26",
+        "omitFromTranscript": false,
+        "hidden": false,
+        "role": "assistant",
+        "action": "dialog",
+        "opts": {
+          "characterId": "CHAR_alaric_fenrow",
+          "text": "By authority of lane-closure ordinance, nobody leaves or enters until I take names and a quick account. Hands where I can see them—obstruction is docketed on the spot."
+        }
+      },
+      {
+        "date": null,
+        "omitFromTranscript": true,
+        "hidden": false,
+        "role": "assistant",
+        "action": "wait",
+        "opts": {
+          "durationMs": 300
+        }
+      },
+      {
+        "date": null,
+        "omitFromTranscript": true,
+        "hidden": false,
+        "role": "assistant",
+        "action": "face",
+        "opts": {
+          "characterId": "CHAR_alaric_fenrow",
+          "targetCharacterId": "CHAR_tavian_roake",
+          "direction": "up"
+        }
+      },
+      {
+        "date": "11.01.11 4A 08:26",
+        "omitFromTranscript": false,
+        "hidden": false,
+        "role": "assistant",
+        "action": "dialog",
+        "opts": {
+          "characterId": "CHAR_alaric_fenrow",
+          "text": "Registry seal, you say? Then it’s evidence under civic chain—if that packet’s in here and it walks out unlogged, I’m seizing stock and bodies both."
+        }
+      },
+      {
+        "role": "assistant",
+        "action": "move_hint",
+        "opts": {
+          "targetId": "CHAR_tavian_roake"
+        },
+        "date": null,
+        "omitFromTranscript": true,
+        "hidden": false
+      }
+    ],
+    "journal": [],
+    "sketches": [],
+    "verbosity": 3,
+    "conversationContext": "STORY SO FAR: Korr Brightblade is caught in a curfew crackdown as the Watch executes a rolling impound action tied to Registry House paperwork. Lanes are being sealed, storefronts threatened with seizure expansion, and names logged as obstruction. A goblin runner carrying a Registry-sealed packet sparks a chase, with warnings that the wrong hands might “lose” Registry documents.\nSCENE STATE: Inside The Quenched Pike behind a barred counter, a uniformed guard has forced in through the wooden door and braces the threshold. The guard’s lantern and slate are out, ready to log names. A flat, damp, seal-stamped packet with a smeared seal lies under the counter while chase noise veers away outside.\nACTIVE GOAL: Secure the dropped Registry packet and obtain reliable testimony from the traveling merchant without getting logged for obstruction.\nFAILED ATTEMPTS: None.\nCURRENT MOMENT: The merchant identifies himself as Tavian Roake, a licensed peddler, saying he saw the runner but didn’t take the packet; the guard is watching and preparing to record names.",
+    "storytellerState": {
+      "storytellerId": "STORYTELLER_the_ironwind_herald",
+      "voiceId": "river",
+      "activePlots": [
+        {
+          "id": "plot_1772212315799",
+          "plan": {
+            "label": "Writs in Fog and Ash",
+            "description": "You stand the deck of The Oathcutter with salt on your beard and lawmarks on the mast—enough to anger every smuggler in the Rim and still not enough to keep the fog honest. At Charterbreak Quay, cargo ledgers are checked like confessions, and a single missing registry mark can cost a ship its name and crew its rights under the Lex Gaardium. Yet something subtler is wrong: warding nails sit in the rail as if recently handled, and the quay’s fog carries a stink that isn’t just brine. A writ is waiting, and the Crown-Faith does not send sealed paper to frontier water without blood already accounted for.",
+            "plot": "Korr Brightblade makes port at Charterbreak Quay aboard The Oathcutter and finds the ship’s lawful registry challenged by Dockwarden Hask Rell, who claims the cargo marks conflict with the Crown’s books. A sealed tribunal writ forces Korr into the Ashlar Registry House, where Registry Scrivener Pell Dox quietly points out that someone is rewriting manifests using court-valid seals—an act that would collapse rights of inheritance, salvage, and liability under the Lex Gaardium. The trail leads to Guild Advocate Soren Halwick, who hides a necromantic supply chain behind maritime taxation disputes and uses a “lost” witness to blackmail both Guild-Court and Crown-Faith alike. When Korr learns the missing witness has been converted into a wraith-anchor bound to an iron amulet and staged for activation at the Ashglass Fissure, the case stops being paperwork and becomes survival. Marrow-Seal Marshal Ilyra Vane offers lawful force, but warns that weak evidence will trigger emergency dominion—the Clause of Ash—letting the Crown override normal protections and burn the quay to keep panic contained. The twist comes when the bound dead’s grievance proves not random haunting but a precise record of wrongdoing: the necromancy is being used to manufacture “legal truth” by coercing testimony from the dead, and the final decision is whether Korr can secure proof cleanly enough to win justice without ash-rule.",
+            "characters": [
+              {
+                "role": "ally",
+                "description": "A gaunt Crown-Faith marshal in travel-stained black with a chain of seals at her belt; her voice is measured like a deposition, and her eyes never stop counting exits.",
+                "publicFace": "A tribunal officer tasked with preventing forbidden rites and keeping the peace at the quay through lawful procedure.",
+                "hiddenTruth": "She is under quiet instruction to accept the Clause of Ash if the case turns public, even if it destroys innocent claims and voids lawful salvage rights.",
+                "locationHint": "Near the quay’s registry checks and later in the fortified halls of the Ashlar Registry House.",
+                "introductionProgress": 10,
+                "name": "Marrow-Seal Marshal Ilyra Vane",
+                "matchHint": "",
+                "entityId": "CHAR_tavian_roake"
+              },
+              {
+                "role": "informant",
+                "description": "Ink-stained fingers, neat braids tucked under a ledger-cap, and a twitchy habit of wiping wax dust from his cuffs; speaks in citations and margins.",
+                "publicFace": "A junior scrivener who authenticates seals, copies writs, and maintains the cargo-registration books.",
+                "hiddenTruth": "He has been pressured to ‘correct’ a manifest once before and kept the spoiled draft—illegal to retain—because it proves the method of forgery.",
+                "locationHint": "Behind barred counters and ledger-stacks inside the Ashlar Registry House.",
+                "introductionProgress": 35,
+                "name": "Registry Scrivener Pell Dox",
+                "matchHint": "",
+                "entityId": "CHAR_tavian_roake"
+              },
+              {
+                "role": "antagonist",
+                "description": "A well-fed man with immaculate gloves, a smile that never reaches his eyes, and a signet he turns when thinking; smells faintly of expensive ash-incense.",
+                "publicFace": "A guild-court advocate mediating maritime disputes and offering to “resolve” seizures with proper fees.",
+                "hiddenTruth": "He is orchestrating corpse-binding by proxy, laundering necromantic logistics through cargo-tax arbitration, and intends to provoke ash-rule to erase competing claims and witnesses.",
+                "locationHint": "At Charterbreak Quay’s counting sheds, then in private rooms adjacent to registry offices.",
+                "introductionProgress": 45,
+                "name": "Guild Advocate Soren Halwick",
+                "matchHint": ""
+              },
+              {
+                "role": "obstacle",
+                "description": "A broad-shouldered dockwarden with tarred sleeves and a cudgel-ring; he treats every sailor as guilty until their paperwork proves otherwise.",
+                "publicFace": "A hard official enforcing harbor rules, seizures, and registry compliance under the Lex Gaardium.",
+                "hiddenTruth": "He is taking payments to delay specific inspections—enough to be compromised, but not enough to know the full necromantic end of the scheme.",
+                "locationHint": "On Charterbreak Quay at the inspection lines and impound cages.",
+                "introductionProgress": 0,
+                "name": "Dockwarden Hask Rell",
+                "matchHint": "",
+                "entityId": "CHAR_alaric_fenrow"
+              }
+            ],
+            "places": [
+              {
+                "placeId": "PLACE_charterbreak_quay",
+                "storyRole": "quay_arrival"
+              },
+              {
+                "placeId": "PLACE_ashlar_registry_house",
+                "storyRole": "registry_house"
+              },
+              {
+                "placeId": "PLACE_ashglass_fissure",
+                "storyRole": "final_confrontation"
+              }
+            ],
+            "items": [
+              {
+                "itemId": "sealed_letter",
+                "tint": null,
+                "locationHint": "In the sterncastle chart-locker aboard The Oathcutter, presented as a tribunal writ with red wax.",
+                "placement": "container"
+              },
+              {
+                "itemId": "bronze_medallion",
+                "tint": null,
+                "locationHint": "On the planks of Charterbreak Quay near a covered body and scattered registry chits.",
+                "placement": "ground"
+              },
+              {
+                "itemId": "golden_key",
+                "tint": 16766720,
+                "locationHint": "Confiscated among ‘unclaimed effects’ inside a locked drawer at the Ashlar Registry House.",
+                "placement": "container"
+              },
+              {
+                "itemId": "scroll_of_identify",
+                "tint": null,
+                "locationHint": "Issued across the barred counter at the Ashlar Registry House as a licensed aid for seal-authentication.",
+                "placement": "ground"
+              },
+              {
+                "itemId": "iron_amulet",
+                "tint": null,
+                "locationHint": "Hidden in a crevice-cache deep inside Ashglass Fissure where the basalt turns to glass.",
+                "placement": "container"
+              }
+            ],
+            "turningPoints": [
+              {
+                "id": "TP_quay_discrepancy",
+                "progressTarget": 0,
+                "dramaticRole": "inciting_incident",
+                "involvedCharacter": "Dockwarden Hask Rell",
+                "triggerOnFlags": null,
+                "essentialInformation": [
+                  "The player learns the ship’s cargo registry is being challenged as inconsistent with Crown records, risking seizure under the Lex Gaardium.",
+                  "The player learns a dead dockhand was found with a guild-crest token tied to registry work.",
+                  "The player learns a sealed tribunal writ compels immediate appearance and record-production at the Ashlar Registry House."
+                ],
+                "triggerConditions": null,
+                "conditionTimeoutHours": null,
+                "triggered": true,
+                "triggeredAt": "02.01.11 4A 08:55",
+                "triggeredByEventId": "event_1772229542197",
+                "outcome": null,
+                "flagsSet": null,
+                "conditionsEligibleSince": null
+              },
+              {
+                "id": "TP_registry_pattern",
+                "progressTarget": 38,
+                "dramaticRole": "rising_action",
+                "involvedCharacter": "Registry Scrivener Pell Dox",
+                "triggerOnFlags": null,
+                "essentialInformation": [
+                  "The player learns the disputed entries match a larger pattern of ‘corrected’ manifests across multiple ships.",
+                  "The player learns lawful seals are being imitated or altered in a way that would pass casual court inspection.",
+                  "The player learns the guild token points toward an advocate who has been “settling” seizures at Charterbreak Quay."
+                ],
+                "triggerConditions": [
+                  {
+                    "type": "min_hours_since_last_event",
+                    "purposes": null,
+                    "placeStoryRole": null,
+                    "periods": null,
+                    "characterName": null,
+                    "hours": 4
+                  },
+                  {
+                    "type": "specific_location",
+                    "purposes": null,
+                    "placeStoryRole": "registry_house",
+                    "periods": null,
+                    "characterName": null,
+                    "hours": null
+                  },
+                  {
+                    "type": "not_in_combat",
+                    "purposes": null,
+                    "placeStoryRole": null,
+                    "periods": null,
+                    "characterName": null,
+                    "hours": null
+                  }
+                ],
+                "conditionTimeoutHours": 48,
+                "triggered": false,
+                "triggeredAt": null,
+                "triggeredByEventId": null,
+                "outcome": null,
+                "flagsSet": null,
+                "conditionsEligibleSince": null
+              },
+              {
+                "id": "TP_writ_and_key",
+                "progressTarget": 55,
+                "dramaticRole": "midpoint",
+                "involvedCharacter": "Marrow-Seal Marshal Ilyra Vane",
+                "triggerOnFlags": null,
+                "essentialInformation": [
+                  "The player learns the sealed writ is genuine, but its authority depends on preserving the seal-chain and custody.",
+                  "The player learns a locked registry lockbox contains a spoiled draft manifest that proves deliberate rewriting rather than clerical error.",
+                  "The player learns there is evidence of forbidden ink-work consistent with rites used to coerce or counterfeit testimony."
+                ],
+                "triggerConditions": [
+                  {
+                    "type": "min_hours_since_last_event",
+                    "purposes": null,
+                    "placeStoryRole": null,
+                    "periods": null,
+                    "characterName": null,
+                    "hours": 6
+                  },
+                  {
+                    "type": "specific_location",
+                    "purposes": null,
+                    "placeStoryRole": "registry_house",
+                    "periods": null,
+                    "characterName": null,
+                    "hours": null
+                  },
+                  {
+                    "type": "character_present",
+                    "purposes": null,
+                    "placeStoryRole": null,
+                    "periods": null,
+                    "characterName": "Registry Scrivener Pell Dox",
+                    "hours": null
+                  }
+                ],
+                "conditionTimeoutHours": 48,
+                "triggered": false,
+                "triggeredAt": null,
+                "triggeredByEventId": null,
+                "outcome": null,
+                "flagsSet": null,
+                "conditionsEligibleSince": null
+              },
+              {
+                "id": "TP_anchor_location",
+                "progressTarget": 70,
+                "dramaticRole": "crisis",
+                "involvedCharacter": "Guild Advocate Soren Halwick",
+                "triggerOnFlags": null,
+                "essentialInformation": [
+                  "The player learns a wraith is being anchored to a specific object and will be compelled to ‘testify’ once the anchor is activated.",
+                  "The player learns the anchor is hidden at the Ashglass Fissure, where warding law is thin and fog masks illicit rites.",
+                  "The player learns the binding is imminent and delay risks a dead thing walking the quay under someone else’s will."
+                ],
+                "triggerConditions": [
+                  {
+                    "type": "min_hours_since_last_event",
+                    "purposes": null,
+                    "placeStoryRole": null,
+                    "periods": null,
+                    "characterName": null,
+                    "hours": 6
+                  },
+                  {
+                    "type": "time_of_day",
+                    "purposes": null,
+                    "placeStoryRole": null,
+                    "periods": [
+                      "evening",
+                      "night"
+                    ],
+                    "characterName": null,
+                    "hours": null
+                  },
+                  {
+                    "type": "not_in_combat",
+                    "purposes": null,
+                    "placeStoryRole": null,
+                    "periods": null,
+                    "characterName": null,
+                    "hours": null
+                  }
+                ],
+                "conditionTimeoutHours": 36,
+                "triggered": false,
+                "triggeredAt": null,
+                "triggeredByEventId": null,
+                "outcome": null,
+                "flagsSet": null,
+                "conditionsEligibleSince": null
+              },
+              {
+                "id": "TP_fissure_rite",
+                "progressTarget": 86,
+                "dramaticRole": "climax",
+                "involvedCharacter": "Marrow-Seal Marshal Ilyra Vane",
+                "triggerOnFlags": null,
+                "essentialInformation": [
+                  "The player learns destroying or sanctifying the anchor breaks the wraith’s compulsion but may unleash its wrath unless contained by conviction and light.",
+                  "The player learns the rite’s purpose is to fabricate “legal truth” by forcing the dead to confirm a prepared narrative.",
+                  "The player learns stopping the rite requires choosing between clean evidence for court and immediate violence that may leave only ash-rule afterward."
+                ],
+                "triggerConditions": [
+                  {
+                    "type": "min_hours_since_last_event",
+                    "purposes": null,
+                    "placeStoryRole": null,
+                    "periods": null,
+                    "characterName": null,
+                    "hours": 4
+                  },
+                  {
+                    "type": "specific_location",
+                    "purposes": null,
+                    "placeStoryRole": "final_confrontation",
+                    "periods": null,
+                    "characterName": null,
+                    "hours": null
+                  },
+                  {
+                    "type": "time_of_day",
+                    "purposes": null,
+                    "placeStoryRole": null,
+                    "periods": [
+                      "night"
+                    ],
+                    "characterName": null,
+                    "hours": null
+                  }
+                ],
+                "conditionTimeoutHours": 48,
+                "triggered": false,
+                "triggeredAt": null,
+                "triggeredByEventId": null,
+                "outcome": null,
+                "flagsSet": null,
+                "conditionsEligibleSince": null
+              },
+              {
+                "id": "TP_after_record",
+                "progressTarget": 93,
+                "dramaticRole": "resolution",
+                "involvedCharacter": "Registry Scrivener Pell Dox",
+                "triggerOnFlags": null,
+                "essentialInformation": [
+                  "The player learns the outcome will stand or collapse based on whether evidence was kept under lawful seal-chain, determining tribunal action versus emergency dominion."
+                ],
+                "triggerConditions": [
+                  {
+                    "type": "min_hours_since_last_event",
+                    "purposes": null,
+                    "placeStoryRole": null,
+                    "periods": null,
+                    "characterName": null,
+                    "hours": 2
+                  },
+                  {
+                    "type": "not_in_combat",
+                    "purposes": null,
+                    "placeStoryRole": null,
+                    "periods": null,
+                    "characterName": null,
+                    "hours": null
+                  }
+                ],
+                "conditionTimeoutHours": 48,
+                "triggered": false,
+                "triggeredAt": null,
+                "triggeredByEventId": null,
+                "outcome": null,
+                "flagsSet": null,
+                "conditionsEligibleSince": null
+              }
+            ],
+            "possibleFlags": [
+              {
+                "id": "acquired_sealed_letter",
+                "triggerDescription": "Set when the player obtains the Sealed Letter (writ)."
+              },
+              {
+                "id": "used_sealed_letter",
+                "triggerDescription": "Set when the player presents or breaks the Sealed Letter’s seal as part of an official action."
+              },
+              {
+                "id": "acquired_bronze_medallion",
+                "triggerDescription": "Set when the player takes the Bronze Medallion from the quay or another holder."
+              },
+              {
+                "id": "used_bronze_medallion",
+                "triggerDescription": "Set when the player uses the Bronze Medallion to gain access, prove affiliation, or bait a contact."
+              },
+              {
+                "id": "acquired_golden_key",
+                "triggerDescription": "Set when the player obtains the Golden Key to the registry lockbox."
+              },
+              {
+                "id": "used_golden_key",
+                "triggerDescription": "Set when the player uses the Golden Key to open the registry lockbox."
+              },
+              {
+                "id": "acquired_scroll_of_identify",
+                "triggerDescription": "Set when the player receives or finds the Scroll of Identify."
+              },
+              {
+                "id": "used_scroll_of_identify",
+                "triggerDescription": "Set when the player uses the Scroll of Identify to authenticate a seal, ink, or enchantment."
+              },
+              {
+                "id": "acquired_iron_amulet",
+                "triggerDescription": "Set when the player acquires the Iron Amulet (the suspected anchor)."
+              },
+              {
+                "id": "used_iron_amulet",
+                "triggerDescription": "Set when the player attempts to sanctify, destroy, or otherwise interact with the Iron Amulet as an anchor."
+              },
+              {
+                "id": "presented_registry",
+                "triggerDescription": "Set when the player successfully presents the Oathcutter’s registry and gains lawful passage into the quay’s process."
+              },
+              {
+                "id": "ship_seized",
+                "triggerDescription": "Set when the player fails the registry process and the Oathcutter is impounded or legally constrained."
+              },
+              {
+                "id": "medallion_traced",
+                "triggerDescription": "Set when the player identifies the medallion’s ownership chain and links it to the key suspect."
+              },
+              {
+                "id": "false_lead_taken",
+                "triggerDescription": "Set when the player commits to an incorrect lead that costs time and weakens the case."
+              },
+              {
+                "id": "writ_authenticated",
+                "triggerDescription": "Set when the player authenticates the writ and/or preserves its seal-chain to tribunal standards."
+              },
+              {
+                "id": "writ_tampered",
+                "triggerDescription": "Set when the writ’s custody is compromised or its seal-chain becomes legally unusable."
+              },
+              {
+                "id": "tribunal_alerted",
+                "triggerDescription": "Set when the player formally alerts the Crown-Faith marshal/tribunal and requests lawful action under writ."
+              },
+              {
+                "id": "anchor_destroyed",
+                "triggerDescription": "Set when the player destroys or sanctifies the anchor sufficiently to end the binding rite."
+              },
+              {
+                "id": "ritual_completed",
+                "triggerDescription": "Set when the binding rite completes and the dead are compelled to serve the antagonist’s narrative."
+              },
+              {
+                "id": "necromancer_exposed",
+                "triggerDescription": "Set when the player secures admissible proof of forbidden rites and the responsible party is named in record."
+              },
+              {
+                "id": "clause_of_ash_invoked",
+                "triggerDescription": "Set when authorities invoke emergency dominion due to insufficient proof, panic, or uncontrolled dead."
+              }
+            ],
+            "goals": [
+              {
+                "id": "GOAL_clear_registry",
+                "description": "Clear the Oathcutter’s registry at Charterbreak Quay before seizure strips you of mobility and standing.",
+                "progressBoost": 25,
+                "revealOnFlags": [],
+                "successFlags": [
+                  "presented_registry"
+                ],
+                "failureFlags": [
+                  "ship_seized"
+                ],
+                "failureDeadlineHours": 0,
+                "hidden": false,
+                "destinationPlaceId": null,
+                "goalType": null,
+                "stakes": null,
+                "personalHook": null,
+                "dramaticQuestion": null,
+                "immediateHint": null,
+                "blockedByFlags": null,
+                "status": "pending",
+                "revealedAt": "02.01.11 4A 08:55"
+              },
+              {
+                "id": "GOAL_trace_medallion",
+                "description": "Trace the guild-crest medallion to a responsible party and learn why a dockhand died with registry-linked proof.",
+                "progressBoost": 25,
+                "revealOnFlags": [
+                  "acquired_bronze_medallion"
+                ],
+                "successFlags": [
+                  "medallion_traced"
+                ],
+                "failureFlags": [
+                  "false_lead_taken"
+                ],
+                "failureDeadlineHours": 0,
+                "hidden": false,
+                "destinationPlaceId": null,
+                "goalType": null,
+                "stakes": null,
+                "personalHook": null,
+                "dramaticQuestion": null,
+                "immediateHint": null,
+                "blockedByFlags": null,
+                "status": null,
+                "revealedAt": null
+              },
+              {
+                "id": "GOAL_secure_writ_chain",
+                "description": "Keep the tribunal writ legally intact: authenticate it, preserve custody, and prevent seal-chain compromise.",
+                "progressBoost": 30,
+                "revealOnFlags": [
+                  "acquired_sealed_letter"
+                ],
+                "successFlags": [
+                  "writ_authenticated"
+                ],
+                "failureFlags": [
+                  "writ_tampered"
+                ],
+                "failureDeadlineHours": 0,
+                "hidden": false,
+                "destinationPlaceId": null,
+                "goalType": null,
+                "stakes": null,
+                "personalHook": null,
+                "dramaticQuestion": null,
+                "immediateHint": null,
+                "blockedByFlags": null,
+                "status": null,
+                "revealedAt": null
+              },
+              {
+                "id": "GOAL_stop_anchor_rite",
+                "description": "Find the anchor at Ashglass Fissure and end the binding rite before the dead can be compelled to testify for a lie.",
+                "progressBoost": 40,
+                "revealOnFlags": [
+                  "medallion_traced",
+                  "writ_authenticated"
+                ],
+                "successFlags": [
+                  "anchor_destroyed"
+                ],
+                "failureFlags": [
+                  "ritual_completed"
+                ],
+                "failureDeadlineHours": 72,
+                "hidden": false,
+                "destinationPlaceId": null,
+                "goalType": null,
+                "stakes": null,
+                "personalHook": null,
+                "dramaticQuestion": null,
+                "immediateHint": null,
+                "blockedByFlags": null,
+                "status": null,
+                "revealedAt": null
+              },
+              {
+                "id": "GOAL_force_lawful_outcome",
+                "description": "Bring a lawful outcome: alert the Crown-Faith, secure admissible proof, and prevent the Clause of Ash from becoming the frontier’s only answer.",
+                "progressBoost": 35,
+                "revealOnFlags": [
+                  "tribunal_alerted",
+                  "anchor_destroyed",
+                  "ritual_completed"
+                ],
+                "successFlags": [
+                  "necromancer_exposed"
+                ],
+                "failureFlags": [
+                  "clause_of_ash_invoked"
+                ],
+                "failureDeadlineHours": 0,
+                "hidden": false,
+                "destinationPlaceId": null,
+                "goalType": null,
+                "stakes": null,
+                "personalHook": null,
+                "dramaticQuestion": null,
+                "immediateHint": null,
+                "blockedByFlags": null,
+                "status": null,
+                "revealedAt": null
+              }
+            ],
+            "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/gaardia/images/plots/plot_1772212263663.png",
+            "plotStartDelay": 10,
+            "endingCards": [
+              {
+                "condition": {
+                  "type": "always",
+                  "flag": ""
+                },
+                "title": "Ledger and Salt",
+                "text": "Whatever the fog tried to swallow, it is now written somewhere—ink, wax, and witness marks set against the sea’s talent for forgetting.",
+                "image": null
+              },
+              {
+                "condition": {
+                  "type": "flag_set",
+                  "flag": "anchor_destroyed"
+                },
+                "title": "Anchor Broken",
+                "text": "The compelled dead do not march for another’s profit; the rite fails, and the fissure keeps only its own old echoes.",
+                "image": null
+              },
+              {
+                "condition": {
+                  "type": "flag_set",
+                  "flag": "ritual_completed"
+                },
+                "title": "A Testimony of Chains",
+                "text": "A dead voice speaks on command, and the quay’s courts gain an answer that sounds like truth—until the consequences begin to walk in daylight.",
+                "image": null
+              },
+              {
+                "condition": {
+                  "type": "flag_set",
+                  "flag": "necromancer_exposed"
+                },
+                "title": "Writs That Hold",
+                "text": "With custody intact and proof sealed, the Crown-Faith can act without ash-rule; the guilty name is carried forward in lawful record instead of rumor.",
+                "image": null
+              },
+              {
+                "condition": {
+                  "type": "flag_set",
+                  "flag": "clause_of_ash_invoked"
+                },
+                "title": "The Clause of Ash",
+                "text": "Emergency dominion descends like a shutter: rights suspended, claims burned clean, and the frontier reminded that law can become fire when fear is cheaper than proof.",
+                "image": null
+              }
+            ],
+            "credits": {
+              "title": "Generated Adventure",
+              "entries": [
+                {
+                  "role": "Plot",
+                  "name": "Storyteller"
+                },
+                {
+                  "role": "World",
+                  "name": "Gaardia"
+                }
+              ]
+            },
+            "characterCentric": false,
+            "centralDramaticQuestion": null,
+            "dramaticSubQuestions": null
+          },
+          "progressLevel": 42,
+          "storyFlags": [],
+          "nextEventAtGameDate": "11.01.11 4A 10:26",
+          "events": [
+            {
+              "id": "event_1772607082874",
+              "type": "tactical_reversals",
+              "description": "A uniformed guard forces a sudden lockdown of the Quenched Pike under lane-closure ordinance as a chase passes outside. A seal-stamped packet skitters under the counter, and the guard moves to log names and seize anything unregistered while the merchant identifies himself as Tavian Roake and denies taking it.",
+              "timestamp": "11.01.11 4A 08:26",
+              "affectedEntities": [
+                "CHAR_alaric_fenrow"
+              ],
+              "arcId": null,
+              "placeId": "PLACE_the_quenched_pike",
+              "sceneSummary": "In The Quenched Pike: Before the demand for a name can settle, the fog outside the Quenched Pike’s iron-strapped frontage churns with boots and shouted ordinance; a uniformed guard slams in through the wooden door and throws his weight across the threshold like a moving barricade. The traveling merchant you’d pinned for ...",
+              "charactersPresent": [
+                "Alaric Fenrow",
+                "Tavian Roake"
+              ]
+            },
+            {
+              "id": "event_1772605569682",
+              "type": "chase_and_pursuit",
+              "description": "A goblin courier sprints through the fog with a seal-stamped packet while two guards pursue under curfew writ-pace, warning that interference will be logged as obstruction. The wayfarer notes the packet bears Registry-style seals and could be deliberately ‘lost’ if seized.",
+              "timestamp": "11.01.11 4A 07:39",
+              "affectedEntities": [
+                "CHAR_alaric_fenrow"
+              ],
+              "arcId": null,
+              "placeId": "PLACE_cindervale",
+              "sceneSummary": "In Cindervale: Before your greeting can settle, fog at the license-stones shreds with motion: a ratlike goblin barrels between toll posts clutching a flat, seal-stamped packet, heels skidding on wet masonry as two uniformed guards hammer after them with lantern-shutters snapping open down the line. The travel-worn...",
+              "charactersPresent": [
+                "Alaric Fenrow",
+                "Brinescurry",
+                "Perrin Halvay",
+                "Rovan Kest"
+              ]
+            },
+            {
+              "id": "event_1772298468595",
+              "type": "timeboxed_objectives",
+              "description": "A watch sweep and rolling impound closes in on the Quenched Pike, with a courier warning lanes are being sealed and shops tagged for inspection. The guard orders immediate movement to the Ashlar Registry House with papers or he will log refusal and escalate seizure authority.",
+              "timestamp": "04.01.11 4A 01:56",
+              "affectedEntities": [
+                "CHAR_alaric_fenrow"
+              ],
+              "arcId": null,
+              "placeId": "PLACE_the_quenched_pike",
+              "sceneSummary": "In The Quenched Pike: The long wait turns into hours of clenched stillness behind the barred counter—until the street noise comes back, closer: boots in cadence, a shouted tally, and the hard clatter of lantern-shutters snapping open down the row. At the door, the quay-runner courier, female wipes soot from her cheek wit...",
+              "charactersPresent": [
+                "Alaric Fenrow",
+                "Lysander Broach",
+                "Tamsin Crowle"
+              ]
+            },
+            {
+              "id": "event_1772269649818",
+              "type": "running_battles",
+              "description": "A running street battle and curfew sweep reaches the Quenched Pike as a courier reports shops being searched under ‘rolling impound’ cover. The guard demands immediate movement to the Ashlar Registry House or he will log refusal and trigger broader seizures.",
+              "timestamp": "03.01.11 4A 13:41",
+              "affectedEntities": [
+                "CHAR_alaric_fenrow"
+              ],
+              "arcId": null,
+              "placeId": "PLACE_the_quenched_pike",
+              "sceneSummary": "In The Quenched Pike: As the long wait drags on, the Quenched Pike’s iron-strapped façade starts to thrum with distant boots and shouted cadence—street-fighting moving block by block. The wooden door bucks open and the quay-runner courier, female stumbles in hard, sleeve smeared with soot; behind her the uniformed male g...",
+              "charactersPresent": [
+                "Alaric Fenrow",
+                "Lysander Broach",
+                "Tamsin Crowle"
+              ]
+            },
+            {
+              "id": "event_1772265486384",
+              "type": "arrivals_and_interruptions",
+              "description": "During the night wait at the Quenched Pike, the guard returned with an hour-marked quay packet warning the rolling impound is advancing and demanding an immediate trip to the Ashlar Registry House or a logged refusal. The weaponseller confirmed the crackdown may widen into shop ‘inspections’ and urged a fast, careful move.",
+              "timestamp": "02.01.11 4A 23:38",
+              "affectedEntities": [
+                "CHAR_alaric_fenrow"
+              ],
+              "arcId": null,
+              "placeId": "PLACE_the_quenched_pike",
+              "sceneSummary": "In The Quenched Pike: Rain ticks and runs down the Quenched Pike’s iron straps as the long wait drags on into deep night; the weapon racks sit like a filed verdict behind the barred counter. The wooden door jolts inward on a hard knock—then again—spitting wet air across the floor as the uniformed male guard pushes in wit...",
+              "charactersPresent": [
+                "Alaric Fenrow",
+                "Lysander Broach"
+              ]
+            },
+            {
+              "id": "event_1772231605639",
+              "type": "hard_bargains_under_duress",
+              "description": "A uniformed guard pressed an urgent choice under a sealed tribunal writ: rush to the Ashlar Registry House with clean ship’s papers under escort, or be logged as refusing and risk immediate impound and opportunistic seizure at the quay.",
+              "timestamp": "02.01.11 4A 08:56",
+              "affectedEntities": [
+                "CHAR_alaric_fenrow"
+              ],
+              "arcId": null,
+              "placeId": "PLACE_the_quenched_pike_stockroom",
+              "sceneSummary": "In The Quenched Pike Stockroom: As the greeting starts to land, the stockroom’s iron-braced stones answer with a sharper sound: boots in the passage and a brief rattle of the barred counter as the uniformed male guard crowds the doorway, inkboard already in hand. The mail-clad male guard keeps the packet up at chest height like a ...",
+              "charactersPresent": [
+                "Alaric Fenrow",
+                "Bramwell Nace",
+                "Garron Mavek"
+              ]
+            },
+            {
+              "id": "event_1772229542197",
+              "type": "timeboxed_objectives",
+              "description": "A mail-clad guard delivered a sealed tribunal writ: the ship’s cargo registry is challenged against Crown records and risks seizure under the Lex Gaardium. He also reported a dead dockhand found with a guild-crest token tied to registry work and ordered immediate appearance at the Ashlar Registry House for record-production.",
+              "timestamp": "02.01.11 4A 08:55",
+              "affectedEntities": [],
+              "arcId": null,
+              "placeId": "PLACE_the_quenched_pike_stockroom",
+              "sceneSummary": "In The Quenched Pike Stockroom: Before the last legal syllables can die in the stonework, the wooden door jolts under a hard knock—then two more, urgent and measured; dust sifts from the iron braces as the mail-clad male guard pushes in, helm under one arm and a folded packet in the other. The male tavern bartender freezes mid-rea...",
+              "charactersPresent": [
+                "Bramwell Nace",
+                "Garron Mavek"
+              ]
+            }
+          ],
+          "endedAt": null
+        }
+      ],
+      "generationInProgress": true,
+      "eventHistory": [],
+      "storytellerSelectedAt": "01.01.11 4A 10:00",
+      "custom": {}
+    },
+    "isPlayer": true,
+    "storyComplete": false,
+    "routine": null,
+    "vesselRoutes": null,
+    "abstractLocation": null,
+    "npcBehavior": null,
+    "physicalState": null,
+    "pendingDeparture": null,
+    "pendingArrival": null,
+    "lastRoutineCheckPeriod": "night",
+    "startingNarrative": "You stand on the deck of the Oathcutter as it drives through cold chop, tar and iron under your boots and salt stinging the seams. Registry plaques and lawmaks glare from the mast partners; the rails are studded with warding nails, and the sterncastle stays shuttered over its charts, seals, and ledgers as if expecting inspection or seizure at any moment.\n\nYou keep to shipboard order by habit—eyes counting hands, exits, and angles—while Gaardia’s law rides with the cargo: writs, licenses, and the quiet assumption that the Lex Gaardium still matters this far from marble domes. The sea fog sits low and stubborn, and the crew treats the sigils on the rails like any other required safety measure in these waters.",
+    "startingCharacterState": "Steady, vigilant, and controlled; you default to procedure and watchfulness rather than comfort.",
+    "clothing": [
+      {
+        "slot": "torso_under",
+        "itemId": "longsleeve",
+        "color": "#f5f0e8",
+        "contents": null
+      },
+      {
+        "slot": "torso_over",
+        "itemId": "leather_armor",
+        "color": "#8b4513",
+        "contents": null
+      },
+      {
+        "slot": "torso_top",
+        "itemId": "leather_armor_shoulders",
+        "color": "#8b4513",
+        "contents": null
+      },
+      {
+        "slot": "legs",
+        "itemId": "cloth_pants",
+        "color": "#3a3a3a",
+        "contents": null
+      },
+      {
+        "slot": "feet",
+        "itemId": "boots",
+        "color": "#1a1a1a",
+        "contents": null
+      },
+      {
+        "slot": "belt",
+        "itemId": "leather_belt",
+        "color": "#8b4513",
+        "contents": []
+      },
+      {
+        "slot": "hands",
+        "itemId": "leather_bracers",
+        "color": "#8b4513",
+        "contents": null
+      },
+      {
+        "slot": "behind_body",
+        "itemId": "tattercape",
+        "color": "#3a3a3a",
+        "contents": []
+      }
+    ],
+    "enabledOverlayLayers": [
+      "eyes",
+      "facial"
+    ],
+    "helmingVesselId": null,
+    "storytellerDisabled": false,
+    "rulesetState": {
+      "stats": {
+        "poise": 50,
+        "max_poise": 50
+      },
+      "conditions": [],
+      "statUsage": {},
+      "incapacitation": null,
+      "incapacitatedSince": null
+    },
+    "voiceId": "brian",
+    "spriteConfig": {
+      "bodyType": "male",
+      "layers": [
+        {
+          "type": "body",
+          "optionId": "body_base",
+          "tint": 11373408
+        },
+        {
+          "type": "body",
+          "optionId": "body_universal",
+          "tint": 11373408
+        },
+        {
+          "type": "eyes",
+          "optionId": "eyes_eyes",
+          "tint": 8423560
+        },
+        {
+          "type": "facial",
+          "optionId": "facial_medium",
+          "tint": 8421504
+        },
+        {
+          "type": "hair",
+          "optionId": "hair_shortknot",
+          "tint": 8421504
+        },
+        {
+          "type": "torso",
+          "optionId": "torso_white_longsleeve",
+          "tint": 16117992
+        },
+        {
+          "type": "torso",
+          "optionId": "torso_white_leather_armor_male",
+          "tint": 9127187
+        },
+        {
+          "type": "torso",
+          "optionId": "torso_wulax_leather_armor_shoulders_male",
+          "tint": 9127187
+        },
+        {
+          "type": "legs",
+          "optionId": "legs_white_pants_male",
+          "tint": 3815994
+        },
+        {
+          "type": "feet",
+          "optionId": "feet_white_boots_male",
+          "tint": 1710618
+        },
+        {
+          "type": "belt",
+          "optionId": "belt_leather_male",
+          "tint": 9127187
+        },
+        {
+          "type": "hands",
+          "optionId": "hands_leather_bracers_male",
+          "tint": 9127187
+        }
+      ],
+      "spriteHash": "976dd00284b5f9a1",
+      "spriteUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/sprites/generated/976dd00284b5f9a1.png"
+    }
+  },
+  "position": {
+    "x": 372.1666666666654,
+    "y": 411.0000000000008,
+    "width": 32,
+    "height": 48,
+    "parent": "PLACE_the_quenched_pike"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/gaardia/images/characters/CHAR_korr_brightblade.png",
+  "faceAnchorY": 0.16,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "talk"
+  },
+  "relationships": [],
+  "important": false
+}

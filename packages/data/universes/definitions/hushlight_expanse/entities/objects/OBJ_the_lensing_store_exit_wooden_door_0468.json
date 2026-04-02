@@ -1,0 +1,53 @@
+{
+  "id": "OBJ_the_lensing_store_exit_wooden_door_0468",
+  "label": "The Prismatic Draught",
+  "description": "Exit to The Prismatic Draught",
+  "important": false,
+  "short_description": "wooden door",
+  "tags": [
+    "ship",
+    "wall"
+  ],
+  "entityType": "object",
+  "info": {
+    "purpose": "exit",
+    "solid": false,
+    "layer": "wall",
+    "isStructural": false,
+    "material": null,
+    "tint": null,
+    "spriteConfig": {
+      "spriteId": "door_wooden",
+      "frame": null,
+      "animationKey": null,
+      "animated": false,
+      "facing": "west"
+    },
+    "hp": null,
+    "maxHp": null,
+    "state": null,
+    "contents": null,
+    "lightSource": null,
+    "itemId": null,
+    "plotId": null
+  },
+  "position": {
+    "x": 464,
+    "y": 384,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_the_lensing_store"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "relationships": [],
+  "image": null,
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  }
+}

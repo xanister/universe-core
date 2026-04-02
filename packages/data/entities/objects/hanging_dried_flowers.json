@@ -1,0 +1,18 @@
+{
+  "id": "hanging_dried_flowers",
+  "name": "Hanging Dried Flowers",
+  "description": "A bundle of dried flowers with purple blooms hanging from twine.",
+  "purposes": [
+    "decoration"
+  ],
+  "tags": [
+    "common",
+    "decoration",
+    "tavern"
+  ],
+  "solid": false,
+  "layer": "overhead",
+  "spriteId": "hanging_dried_flowers",
+  "materials": [],
+  "tintable": false
+}

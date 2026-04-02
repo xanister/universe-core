@@ -1,0 +1,20 @@
+{
+  "id": "EVENT_charalaricmorn_waited_in_placeriftwardcanteen_unsettling_1772171175025",
+  "date": "999.M1 09:16",
+  "placeId": "PLACE_the_riftward_canteen",
+  "eventType": "turning_point",
+  "category": "world",
+  "subject": "The Riftward Canteen",
+  "subjectId": "PLACE_the_riftward_canteen",
+  "fact": "CHAR_alaric_morn waited in PLACE_riftward_canteen; unsettling drafts/odors/vox-hiss manifested; CHAR_salen_aft reacted with unease",
+  "significance": "major",
+  "witnessIds": [
+    "CHAR_alaric_morn"
+  ],
+  "important": true,
+  "importanceScore": null,
+  "scope": "local",
+  "relevantPlaceIds": [
+    "PLACE_the_riftward_canteen"
+  ]
+}

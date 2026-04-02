@@ -1,0 +1,60 @@
+{
+  "id": "PLACE_cinderwall_sleep_niche",
+  "label": "Cinderwall Sleep Niche",
+  "description": "This compact bedroom is built as a deep-set niche within the Cinderwall Hab Suite, its basalt ribs and slagcrete panels overlaid with ashproof seals. A low bunk platform and wall-fastened storage lockers keep the floor clear, while a curtained sleeping recess breaks the violet-tinged spill from the suite’s shielded lighting. Gasketed shutters and a baffled vent-grille reduce infiltration to a fine soot film along the plascrete skirting. Vitrified patches on the inner wall catch stormlight as hard, glassy reflections, lending the space a permanent bruise-colored cast.",
+  "short_description": "ashproof sleeping niche",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "bedroom",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "door_wooden",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/battles/PLACE_cinderwall_sleep_niche.png?v=1771958934069",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 752,
+    "y": 160,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_cinderwall_hab_suite",
+    "innerWidth": 448,
+    "innerHeight": 448
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/places/PLACE_cinderwall_sleep_niche.png?v=1771958984156",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": [
+    "Auroraglass Sleep Niche"
+  ],
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

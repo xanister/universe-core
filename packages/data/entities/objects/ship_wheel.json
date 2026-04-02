@@ -1,0 +1,21 @@
+{
+  "id": "ship_wheel",
+  "purposes": [
+    "vessel_helm"
+  ],
+  "spriteId": "ship_wheel",
+  "name": "Ship's Wheel",
+  "description": "A wooden captain's wheel for steering a sailing vessel",
+  "tags": [
+    "common",
+    "ship",
+    "helm",
+    "vessel",
+    "navigation",
+    "wall"
+  ],
+  "materials": [],
+  "solid": true,
+  "layer": "default",
+  "tintable": false
+}

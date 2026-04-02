@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_ledgerhouse_bedchamber",
+  "label": "Ledgerhouse Bedchamber",
+  "description": "Ledgerhouse Bedchamber occupies a cramped upper room of soot-darkened brick, its ceiling crossed by iron tie-rods that match the tavern’s riveted buttressing below. A narrow cot and a square writing table stand beneath a shuttered slit-window glazed with smoke-stained glass, limiting both draft and view to the fortified lanes of Cindervale. A peg rail and lockable chest provide regulated storage, and a laminated placard repeats quarantine and interdiction notices in the same hand as the ordinances wall downstairs. The air carries a permanent taint of lamp oil and ash, absorbed into the boards and bedding.",
+  "short_description": "cramped soot-dark room",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "bedroom",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "door_wooden",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/gaardia/images/battles/PLACE_ledgerhouse_bedchamber.png?v=1772216253922",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 944,
+    "y": 160,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_the_black_ledger",
+    "innerWidth": 448,
+    "innerHeight": 512
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": null,
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

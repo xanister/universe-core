@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_lanternkeepers_quarters",
+  "label": "Lanternkeeper's Quarters",
+  "description": "Lanternkeeper's Quarters occupies a narrow cell above The Gloam Lantern’s repurposed inspection hall, partitioned from the building’s void-black adamantine ribs by riveted bulkheads. A bunk of stamped plasteel and a wall-fastened locker dominate the space, their surfaces dulled by disinfectant scouring and ration dust. Lumen-shielded strips provide cold, regulated illumination, while a brass-grilled vent and small scrubber intake sustain the bastion’s quarantine regimen. A slit-window set high in the outer wall admits the bruise-hued auroral bleed as a thin, constant stain of color across the floor plates.",
+  "short_description": "lumen-dim bunk chamber",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "bedroom",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "door_wooden",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/battles/PLACE_lanternkeepers_quarters.png?v=1771995715189",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 720,
+    "y": 160,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_the_gloam_lantern",
+    "innerWidth": 480,
+    "innerHeight": 480
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/places/PLACE_lanternkeepers_quarters.png?v=1771995769897",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

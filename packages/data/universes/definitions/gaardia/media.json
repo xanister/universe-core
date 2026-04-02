@@ -1,0 +1,88 @@
+{
+  "media": [
+    {
+      "entityType": "music",
+      "mediaType": "audio",
+      "extension": "mp3",
+      "filename": "music/bg_exploration_sailing_ship_medium.mp3",
+      "url": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/gaardia/audio/music/bg_exploration_sailing_ship_medium.mp3",
+      "size": 1440750,
+      "tags": [
+        "TAG_exploration",
+        "TAG_sailing_ship",
+        "TAG_pace_medium"
+      ],
+      "description": "Curious, adventurous, forward-moving, steady, balanced tempo RPG music for a sailing_ship setting."
+    },
+    {
+      "entityType": "music",
+      "mediaType": "audio",
+      "extension": "mp3",
+      "filename": "music/bg_progress_storage_room_fast.mp3",
+      "url": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/gaardia/audio/music/bg_progress_storage_room_fast.mp3",
+      "size": 1440750,
+      "tags": [
+        "TAG_progress",
+        "TAG_storage_room",
+        "TAG_pace_fast"
+      ],
+      "description": "Suspenseful, uneasy, building anticipation, urgent, energetic tempo RPG music for a storage_room setting."
+    },
+    {
+      "entityType": "music",
+      "mediaType": "audio",
+      "extension": "mp3",
+      "filename": "music/bg_progress_storage_room_medium.mp3",
+      "url": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/gaardia/audio/music/bg_progress_storage_room_medium.mp3",
+      "size": 1440750,
+      "tags": [
+        "TAG_progress",
+        "TAG_storage_room",
+        "TAG_pace_medium"
+      ],
+      "description": "Suspenseful, uneasy, building anticipation, steady, balanced tempo RPG music for a storage_room setting."
+    },
+    {
+      "entityType": "music",
+      "mediaType": "audio",
+      "extension": "mp3",
+      "filename": "music/bg_mystery_cave_medium.mp3",
+      "url": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/gaardia/audio/music/bg_mystery_cave_medium.mp3",
+      "size": 1440750,
+      "tags": [
+        "TAG_mystery",
+        "TAG_cave",
+        "TAG_pace_medium"
+      ],
+      "description": "Eerie, otherworldly, magical, steady, balanced tempo RPG music for a cave setting."
+    },
+    {
+      "entityType": "music",
+      "mediaType": "audio",
+      "extension": "mp3",
+      "filename": "music/bg_combat_cave_fast.mp3",
+      "url": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/gaardia/audio/music/bg_combat_cave_fast.mp3",
+      "size": 1440750,
+      "tags": [
+        "TAG_combat",
+        "TAG_cave",
+        "TAG_pace_fast"
+      ],
+      "description": "Intense, urgent, dangerous, urgent, energetic tempo RPG music for a cave setting."
+    },
+    {
+      "entityType": "music",
+      "mediaType": "audio",
+      "extension": "mp3",
+      "filename": "music/bg_combat_harbor_fast.mp3",
+      "url": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/gaardia/audio/music/bg_combat_harbor_fast.mp3",
+      "size": 1440750,
+      "tags": [
+        "TAG_combat",
+        "TAG_harbor",
+        "TAG_pace_fast"
+      ],
+      "description": "Intense, urgent, dangerous, urgent, energetic tempo RPG music for a harbor setting."
+    }
+  ]
+}

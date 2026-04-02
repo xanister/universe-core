@@ -1,0 +1,18 @@
+{
+  "id": "EVENT_location_discovered_vespera_tertius_1771993972127",
+  "date": "999.M1 17:26",
+  "placeId": null,
+  "important": false,
+  "importanceScore": null,
+  "scope": null,
+  "relevantPlaceIds": null,
+  "eventType": "location_discovered",
+  "category": "knowledge",
+  "subject": "Vespera Tertius",
+  "subjectId": "PLACE_vespera_tertius",
+  "fact": "Learned about Vespera Tertius",
+  "significance": "minor",
+  "witnessIds": [
+    "CHAR_sevrin_acastus"
+  ]
+}

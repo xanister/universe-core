@@ -1,0 +1,257 @@
+{
+  "id": "CHAR_heward_lornick",
+  "label": "Heward Lornick",
+  "description": "This individual is a lean, middle-aged human with taupe skin and brown eyes set beneath heavy lids that give the face a perpetually appraising cast. Brown hair is worn in a precise parted style, exposing a high forehead and the fine lines of long indoor work. The mouth is narrow and straight, and the jaw shows the mild asymmetry of an old, well-healed knock. Their hands are notably broad-fingered and callused at the tips, a permanent mark of constant handling of seals, cords, and paper.",
+  "short_description": "male ledger clerk",
+  "tags": [],
+  "entityType": "character",
+  "info": {
+    "purpose": "clerk",
+    "aliases": [
+      "Counter-Lornick",
+      "Bondbook Heward"
+    ],
+    "birthdate": "1207-10-18",
+    "deathdate": null,
+    "title": null,
+    "birthPlace": "Gaardia",
+    "eyeColor": "brown",
+    "gender": "male",
+    "hairColor": "brown",
+    "hairStyle": "parted",
+    "beardStyle": "stubble",
+    "headType": "human_male",
+    "skinTone": "taupe",
+    "personality": "A meticulous bondstore clerk trained in the lex-forms of Gaardian obligation, he keeps an exacting memory for names, sums, and dates and speaks in clipped, procedural phrases. He favors written receipts over verbal assurances and treats every request as a matter of record, counter-signature, and chain of custody. He holds a quiet contempt for improvisation and an institutional loyalty to filing, seals, and properly witnessed transfers.",
+    "race": "human",
+    "messages": [],
+    "journal": [],
+    "sketches": [],
+    "verbosity": 3,
+    "conversationContext": null,
+    "storytellerState": null,
+    "isPlayer": false,
+    "storyComplete": false,
+    "routine": {
+      "schedule": {
+        "dawn": "home",
+        "morning": "work",
+        "afternoon": "work",
+        "evening": "leisure",
+        "night": "home"
+      },
+      "home": {
+        "placeId": "PLACE_charterhouse_narrow_bedchamber",
+        "description": "Quarters near Ruinward Bondstore",
+        "areaHint": null
+      },
+      "work": {
+        "placeId": "PLACE_ruinward_bondstore",
+        "description": "Ruinward Bondstore",
+        "areaHint": null
+      },
+      "leisure": {
+        "favoriteSpot": null,
+        "preferredTagIds": [
+          "TAG_workplace_tavern"
+        ]
+      },
+      "variance": 0.2,
+      "activities": {
+        "work": "shopkeeping"
+      }
+    },
+    "vesselRoutes": null,
+    "abstractLocation": null,
+    "npcBehavior": null,
+    "physicalState": null,
+    "pendingDeparture": null,
+    "pendingArrival": null,
+    "lastRoutineCheckPeriod": null,
+    "startingNarrative": null,
+    "startingCharacterState": null,
+    "clothing": [
+      {
+        "slot": "torso_under",
+        "itemId": "formal_shirt",
+        "color": "#f5f0e8",
+        "contents": null
+      },
+      {
+        "slot": "torso_over",
+        "itemId": "formal_jacket",
+        "color": "#3a3a3a",
+        "contents": null
+      },
+      {
+        "slot": "legs",
+        "itemId": "formal_pants",
+        "color": "#1a1a1a",
+        "contents": null
+      },
+      {
+        "slot": "feet",
+        "itemId": "shoes",
+        "color": "#1a1a1a",
+        "contents": null
+      },
+      {
+        "slot": "belt",
+        "itemId": "formal_belt",
+        "color": "#8b4513",
+        "contents": []
+      },
+      {
+        "slot": "accessories",
+        "itemId": "glasses",
+        "color": null,
+        "contents": null
+      }
+    ],
+    "enabledOverlayLayers": [
+      "eyes",
+      "facial"
+    ],
+    "helmingVesselId": null,
+    "storytellerDisabled": false,
+    "rulesetState": {
+      "stats": {},
+      "conditions": [],
+      "statUsage": {},
+      "incapacitation": null,
+      "incapacitatedSince": null
+    },
+    "voiceId": "chris",
+    "spriteConfig": {
+      "bodyType": "male",
+      "layers": [
+        {
+          "type": "body",
+          "optionId": "body_base",
+          "tint": 12890264
+        },
+        {
+          "type": "body",
+          "optionId": "body_universal",
+          "tint": 12890264
+        },
+        {
+          "type": "eyes",
+          "optionId": "eyes_eyes",
+          "tint": 7029286
+        },
+        {
+          "type": "facial",
+          "optionId": "facial_beard",
+          "tint": 7029286
+        },
+        {
+          "type": "hair",
+          "optionId": "hair_parted",
+          "tint": 7029286
+        },
+        {
+          "type": "torso",
+          "optionId": "torso_formal_shirt_male",
+          "tint": 16117992
+        },
+        {
+          "type": "torso",
+          "optionId": "torso_formal_jacket_male",
+          "tint": 3815994
+        },
+        {
+          "type": "legs",
+          "optionId": "legs_formal_pants_male",
+          "tint": 1710618
+        },
+        {
+          "type": "feet",
+          "optionId": "feet_white_shoes_male",
+          "tint": 1710618
+        },
+        {
+          "type": "belt",
+          "optionId": "belt_formal_belt_male",
+          "tint": 9127187
+        },
+        {
+          "type": "accessories",
+          "optionId": "accessories_formal_glasses_male",
+          "tint": 12632256
+        }
+      ],
+      "spriteHash": "dfc2348066841801",
+      "spriteUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/sprites/generated/dfc2348066841801.png"
+    }
+  },
+  "position": {
+    "x": 432.3,
+    "y": 337.2,
+    "width": 32,
+    "height": 48,
+    "parent": "PLACE_charterhouse_narrow_bedchamber"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/gaardia/images/characters/CHAR_heward_lornick.png?v=1772642085631",
+  "faceAnchorY": 0.18,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "talk"
+  },
+  "relationships": [
+    {
+      "targetId": "CHAR_tavian_roake",
+      "type": "acquaintance",
+      "disposition": 0,
+      "familiarity": 40,
+      "context": "Both are meticulous, contract-and-ledger-minded Gaardians in trade-facing roles; likely to have dealt with each other (or at least know of each other) through bonded credit, witnessed terms, and sealed receipts.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_serah_tindal",
+      "type": "acquaintance",
+      "disposition": 0,
+      "familiarity": 40,
+      "context": "Both operate transaction-first, record-heavy practices (witnessed terms, enforceable promises). Plausible occasional dealings or mutual recognition via routine paperwork/credit instruments.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_bramwell_nace",
+      "type": "acquaintance",
+      "disposition": 0,
+      "familiarity": 40,
+      "context": "As a bondstore clerk, Heward would plausibly interact with an innkeeper who treats ledgers/tabs as binding; possible handling of deposits, sureties, or debt settlement documentation.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_hollis_berane",
+      "type": "acquaintance",
+      "disposition": 0,
+      "familiarity": 40,
+      "context": "Similar procedural, accounts-focused work style; plausible occasional administrative/credit interactions tied to the inn’s tabs and formal settlement.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_lenora_quist",
+      "type": "acquaintance",
+      "disposition": 0,
+      "familiarity": 40,
+      "context": "Both emphasize receipts, witnessed terms, and immediate settlement; likely at least casual familiarity through routine business paperwork and credit disputes requiring formalization.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_sabin_tallow",
+      "type": "acquaintance",
+      "disposition": 0,
+      "familiarity": 40,
+      "context": "Institution-minded publican with rigorous debt recording could plausibly interface with a bondstore clerk for formal instruments (surety, transfer, settlement) even if infrequently.",
+      "pendingGeneration": false
+    }
+  ],
+  "important": false
+}

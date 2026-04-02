@@ -1,0 +1,22 @@
+{
+  "id": "shield_gold_fleur",
+  "name": "Fleur-de-lis Shield",
+  "description": "A white shield with a gold fleur-de-lis emblem.",
+  "purposes": [
+    "decoration",
+    "tavern",
+    "residence"
+  ],
+  "tags": [
+    "tavern",
+    "wall"
+  ],
+  "solid": false,
+  "layer": "overhead",
+  "spriteId": "shield_gold_fleur",
+  "materials": [
+    "iron"
+  ],
+  "tintable": false,
+  "wallVerticalOffset": -1
+}

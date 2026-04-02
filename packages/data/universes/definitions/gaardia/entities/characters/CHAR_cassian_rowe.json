@@ -1,0 +1,212 @@
+{
+  "id": "CHAR_cassian_rowe",
+  "label": "Cassian Rowe",
+  "description": "This individual is a human sea-captain of middle years, broad-shouldered and compactly powerful in build, with bronze skin weathered by salt and sun. Brown eyes sit deep beneath pronounced brows, and a black hairstyle worn in a parted line frames a face marked by a broken nose set long ago. The jaw carries a permanent tension and the hands bear thickened callus lines typical of rope-work and shipboard labor. A thin pale seam crosses the lower lip, leaving a slight asymmetry that has become a defining feature.",
+  "short_description": "female ship captain",
+  "tags": [],
+  "entityType": "character",
+  "info": {
+    "purpose": "captain",
+    "aliases": [
+      "Oathcutter Captain",
+      "Rowe of the Oathcutter"
+    ],
+    "birthdate": "1183-04-19",
+    "deathdate": null,
+    "title": "Captain",
+    "birthPlace": "Gaardia",
+    "eyeColor": "brown",
+    "gender": "female",
+    "hairColor": "black",
+    "hairStyle": "parted",
+    "beardStyle": null,
+    "headType": "human_female",
+    "skinTone": "bronze",
+    "personality": "A disciplined ship’s captain whose authority rests on strict adherence to written articles and the settled customs of Gaardian maritime law. They maintain order through measured speech, precise assignments, and public accountability for failures. They treat tribunals, port officers, and guild agents as predictable adversaries to be managed through documentation and calibrated concession. In extremity they exercise decisive command without theatrics, valuing crew survival and hull integrity over profit or reputation.",
+    "race": "human",
+    "messages": [],
+    "journal": [],
+    "sketches": [],
+    "verbosity": 3,
+    "conversationContext": null,
+    "storytellerState": null,
+    "isPlayer": false,
+    "storyComplete": false,
+    "routine": {
+      "schedule": {
+        "dawn": "work",
+        "morning": "work",
+        "afternoon": "leisure",
+        "evening": "home",
+        "night": "home"
+      },
+      "home": {
+        "placeId": "PLACE_the_oathcutter",
+        "description": "The Oathcutter",
+        "areaHint": null
+      },
+      "work": {
+        "placeId": "PLACE_the_oathcutter",
+        "description": "The Oathcutter",
+        "areaHint": null
+      },
+      "leisure": null,
+      "variance": 0.2,
+      "activities": {
+        "work": "vessel_work"
+      }
+    },
+    "vesselRoutes": null,
+    "abstractLocation": null,
+    "npcBehavior": null,
+    "physicalState": null,
+    "pendingDeparture": null,
+    "pendingArrival": null,
+    "lastRoutineCheckPeriod": null,
+    "startingNarrative": null,
+    "startingCharacterState": null,
+    "clothing": [
+      {
+        "slot": "torso_under",
+        "itemId": "formal_shirt",
+        "color": "#f5f0e8",
+        "contents": null
+      },
+      {
+        "slot": "torso_over",
+        "itemId": "trenchcoat",
+        "color": "#000080",
+        "contents": null
+      },
+      {
+        "slot": "legs",
+        "itemId": "formal_pants",
+        "color": "#3a3a3a",
+        "contents": null
+      },
+      {
+        "slot": "feet",
+        "itemId": "boots",
+        "color": "#1a1a1a",
+        "contents": null
+      },
+      {
+        "slot": "belt",
+        "itemId": "leather_belt",
+        "color": "#8b4513",
+        "contents": []
+      },
+      {
+        "slot": "head",
+        "itemId": "bowler_hat",
+        "color": null,
+        "contents": null
+      },
+      {
+        "slot": "hands",
+        "itemId": "leather_bracers",
+        "color": "#8b4513",
+        "contents": null
+      },
+      {
+        "slot": "neck",
+        "itemId": "capeclip",
+        "color": "#c0c0c0",
+        "contents": null
+      }
+    ],
+    "enabledOverlayLayers": [
+      "eyes",
+      "facial"
+    ],
+    "helmingVesselId": null,
+    "storytellerDisabled": false,
+    "rulesetState": {
+      "stats": {
+        "poise": 50,
+        "max_poise": 50
+      },
+      "conditions": [],
+      "statUsage": {},
+      "incapacitation": null,
+      "incapacitatedSince": null
+    },
+    "voiceId": "sarah",
+    "spriteConfig": {
+      "bodyType": "female",
+      "layers": [
+        {
+          "type": "body",
+          "optionId": "body_base",
+          "tint": 11373408
+        },
+        {
+          "type": "body",
+          "optionId": "body_universal",
+          "tint": 11373408
+        },
+        {
+          "type": "eyes",
+          "optionId": "eyes_eyes",
+          "tint": 7029286
+        },
+        {
+          "type": "hair",
+          "optionId": "hair_parted",
+          "tint": 1710618
+        },
+        {
+          "type": "feet",
+          "optionId": "feet_white_boots_female",
+          "tint": 1710618
+        },
+        {
+          "type": "belt",
+          "optionId": "belt_leather_female",
+          "tint": 9127187
+        },
+        {
+          "type": "hands",
+          "optionId": "hands_leather_bracers_female",
+          "tint": 9127187
+        },
+        {
+          "type": "neck",
+          "optionId": "neck_white_capeclip_female",
+          "tint": 12632256
+        }
+      ],
+      "spriteHash": "294a91ce4e77379f",
+      "spriteUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/sprites/generated/294a91ce4e77379f.png"
+    }
+  },
+  "position": {
+    "x": 976,
+    "y": 581,
+    "width": 32,
+    "height": 48,
+    "parent": "PLACE_the_oathcutter"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/gaardia/images/characters/CHAR_cassian_rowe.png?v=1772216320943",
+  "faceAnchorY": 0.19,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "talk"
+  },
+  "relationships": [
+    {
+      "targetId": "CHAR_marek_dael",
+      "type": "acquaintance",
+      "disposition": 0,
+      "familiarity": 40,
+      "context": "Both are Gaardian and operate in formal, rules-driven roles; Cassian as a sea-captain would plausibly have encountered Marek (at PLACE_the_black_ledger) in a professional/transactional capacity while managing port-side logistics, documentation, or disputes.",
+      "pendingGeneration": false
+    }
+  ],
+  "important": false
+}

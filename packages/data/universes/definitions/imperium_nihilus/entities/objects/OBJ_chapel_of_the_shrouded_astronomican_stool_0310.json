@@ -1,0 +1,52 @@
+{
+  "id": "OBJ_chapel_of_the_shrouded_astronomican_stool_0310",
+  "label": "Stool",
+  "description": "A simple wooden stool",
+  "important": false,
+  "short_description": "stool",
+  "tags": [
+    "common",
+    "furniture",
+    "seating"
+  ],
+  "entityType": "object",
+  "info": {
+    "purpose": "seating",
+    "solid": true,
+    "layer": "default",
+    "isStructural": false,
+    "material": null,
+    "tint": null,
+    "spriteConfig": {
+      "spriteId": "stool",
+      "frame": null,
+      "animationKey": null,
+      "animated": false,
+      "facing": "west"
+    },
+    "hp": null,
+    "maxHp": null,
+    "state": null,
+    "contents": null,
+    "lightSource": null,
+    "itemId": null,
+    "plotId": null
+  },
+  "position": {
+    "x": 752,
+    "y": 1344,
+    "width": 32,
+    "height": 32,
+    "parent": "PLACE_chapel_of_the_shrouded_astronomican"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "relationships": [],
+  "image": null,
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": null
+}

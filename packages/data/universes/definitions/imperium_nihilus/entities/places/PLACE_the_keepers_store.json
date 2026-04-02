@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_the_keepers_store",
+  "label": "The Keeper's Store",
+  "description": "The Keeper's Store is a compact storage chamber partitioned from Ashlight Keeper's Quarters by riveted sheet-metal and sealed with gasketed trim against ash infiltration. Built-in shelving and numbered lockers line the walls, their faces lacquered in soot-black and stamped for rapid inventory under bruise-colored violet-glass light. The floor continues the canteen’s washdown scheme, with shallow spill gutters and drain grates set into basalt tile for easy decontamination. Copper grounding straps and chain runs traverse the ceiling baffles, binding the room’s contents to the same static-control system that defines the residence.",
+  "short_description": "gasketed supply room",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "storage_room",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.9
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "door_wooden",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/battles/PLACE_the_keepers_store.png?v=1772051594921",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 432,
+    "y": 160,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_ashlight_keepers_quarters",
+    "innerWidth": 480,
+    "innerHeight": 640
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/places/PLACE_the_keepers_store.png?v=1772051651146",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

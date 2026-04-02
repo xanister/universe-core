@@ -1,0 +1,249 @@
+{
+  "id": "CHAR_tobyn_harrowick",
+  "label": "Tobyn Harrowick",
+  "description": "This individual is a broad-shouldered adult of working build, with brown eyes set beneath heavy brows and a square, broken-nosed profile. Brown hair is kept in a short, practical cut that exposes a weathered scalp line and closely set ears. Bronze skin bears ingrained grime-staining at the knuckles and a permanent network of small, healed cuts across the hands. The jaw is clean-shaven and strongly set, giving a fixed impression of endurance typical of warehouse labor.",
+  "short_description": "stocky male laborer",
+  "tags": [],
+  "entityType": "character",
+  "info": {
+    "purpose": "laborer",
+    "aliases": [
+      "Tobe",
+      "Harrowick of the Bondstore"
+    ],
+    "birthdate": "1187-04-19",
+    "deathdate": null,
+    "title": null,
+    "birthPlace": "Gaardia",
+    "eyeColor": "brown",
+    "gender": "male",
+    "hairColor": "brown",
+    "hairStyle": "bangsshort",
+    "beardStyle": null,
+    "headType": "human_male",
+    "skinTone": "bronze",
+    "personality": "Disciplined and taciturn, he measures speech and conserves effort, relying on practiced routine and clear chain-of-command habits. He maintains meticulous count habits for crates and bonds, resents idlers, and treats safety rules as nonnegotiable after years of handling ruin-haul and sealed lots.",
+    "race": "human",
+    "messages": [],
+    "journal": [],
+    "sketches": [],
+    "verbosity": 3,
+    "conversationContext": null,
+    "storytellerState": null,
+    "isPlayer": false,
+    "storyComplete": false,
+    "routine": {
+      "schedule": {
+        "dawn": "work",
+        "morning": "work",
+        "afternoon": "work",
+        "evening": "leisure",
+        "night": "home"
+      },
+      "home": {
+        "placeId": "PLACE_charterhouse_narrow_bedchamber",
+        "description": "Quarters near Ruinward Bondstore",
+        "areaHint": null
+      },
+      "work": {
+        "placeId": "PLACE_ruinward_bondstore",
+        "description": "Ruinward Bondstore",
+        "areaHint": null
+      },
+      "leisure": {
+        "favoriteSpot": null,
+        "preferredTagIds": [
+          "TAG_workplace_tavern"
+        ]
+      },
+      "variance": 0.2,
+      "activities": {
+        "work": "work_general"
+      }
+    },
+    "vesselRoutes": null,
+    "abstractLocation": null,
+    "npcBehavior": null,
+    "physicalState": null,
+    "pendingDeparture": null,
+    "pendingArrival": null,
+    "lastRoutineCheckPeriod": null,
+    "startingNarrative": null,
+    "startingCharacterState": null,
+    "clothing": [
+      {
+        "slot": "torso_under",
+        "itemId": "longsleeve",
+        "color": "#f5f0e8",
+        "contents": null
+      },
+      {
+        "slot": "torso_over",
+        "itemId": "overalls",
+        "color": "#3a3a3a",
+        "contents": null
+      },
+      {
+        "slot": "legs",
+        "itemId": "cloth_pants",
+        "color": "#8b4513",
+        "contents": null
+      },
+      {
+        "slot": "feet",
+        "itemId": "boots",
+        "color": "#1a1a1a",
+        "contents": null
+      },
+      {
+        "slot": "belt",
+        "itemId": "leather_belt",
+        "color": "#8b4513",
+        "contents": []
+      },
+      {
+        "slot": "hands",
+        "itemId": "cloth_gloves",
+        "color": "#808080",
+        "contents": null
+      },
+      {
+        "slot": "head",
+        "itemId": "leather_cap",
+        "color": "#8b4513",
+        "contents": null
+      }
+    ],
+    "enabledOverlayLayers": [
+      "eyes",
+      "facial"
+    ],
+    "helmingVesselId": null,
+    "storytellerDisabled": false,
+    "rulesetState": {
+      "stats": {},
+      "conditions": [],
+      "statUsage": {},
+      "incapacitation": null,
+      "incapacitatedSince": null
+    },
+    "voiceId": "chris",
+    "spriteConfig": {
+      "bodyType": "male",
+      "layers": [
+        {
+          "type": "body",
+          "optionId": "body_base",
+          "tint": 11373408
+        },
+        {
+          "type": "body",
+          "optionId": "body_universal",
+          "tint": 11373408
+        },
+        {
+          "type": "eyes",
+          "optionId": "eyes_eyes",
+          "tint": 7029286
+        },
+        {
+          "type": "hair",
+          "optionId": "hair_bangsshort",
+          "tint": 7029286
+        },
+        {
+          "type": "torso",
+          "optionId": "torso_white_longsleeve",
+          "tint": 16117992
+        },
+        {
+          "type": "torso",
+          "optionId": "torso_white_overalls_male",
+          "tint": 3815994
+        },
+        {
+          "type": "legs",
+          "optionId": "legs_white_pants_male",
+          "tint": 9127187
+        },
+        {
+          "type": "feet",
+          "optionId": "feet_white_boots_male",
+          "tint": 1710618
+        },
+        {
+          "type": "belt",
+          "optionId": "belt_leather_male",
+          "tint": 9127187
+        },
+        {
+          "type": "hands",
+          "optionId": "hands_white_gloves_male",
+          "tint": 8421504
+        },
+        {
+          "type": "head",
+          "optionId": "head_leather_cap_male",
+          "tint": 9127187
+        }
+      ],
+      "spriteHash": "3a0b2504cbcbd10c",
+      "spriteUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/sprites/generated/3a0b2504cbcbd10c.png"
+    },
+    "assignedWorkspaceId": "OBJ_ruinward_bondstore_desk_0022",
+    "assignedWorkspacePurpose": "workspace"
+  },
+  "position": {
+    "x": 80,
+    "y": 176,
+    "width": 32,
+    "height": 48,
+    "parent": "PLACE_charterhouse_narrow_bedchamber"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/gaardia/images/characters/CHAR_tobyn_harrowick.png?v=1772642088013",
+  "faceAnchorY": 0.18,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "talk"
+  },
+  "relationships": [
+    {
+      "targetId": "CHAR_tavian_roake",
+      "type": "acquaintance",
+      "disposition": 0,
+      "familiarity": 40,
+      "context": "Both are disciplined, tally-focused trade workers; Tobyn’s bondstore/warehouse role would plausibly intersect with a tavern-floor merchant who handles deliveries, weights, and sealed terms.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_serah_tindal",
+      "type": "acquaintance",
+      "disposition": 0,
+      "familiarity": 40,
+      "context": "As a tavern-merchant focused on recorded exchange and punctual delivery, she could reasonably know a bondstore warehouseman who handles sealed lots and crate counts via receiving/dispatch.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_cassian_rowe",
+      "type": "acquaintance",
+      "disposition": 0,
+      "familiarity": 40,
+      "context": "A ship’s captain operating under strict articles and documentation could plausibly interact with a bondstore warehouse laborer during cargo intake/outtake and bonded storage procedures.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_jorren_talwick",
+      "type": "acquaintance",
+      "disposition": 0,
+      "familiarity": 40,
+      "context": "As a rule-bound helmsman on the same vessel/route context as The Oathcutter, he could plausibly have crossed paths with Tobyn during routine cargo handling tied to that ship’s calls.",
+      "pendingGeneration": false
+    }
+  ],
+  "important": false
+}

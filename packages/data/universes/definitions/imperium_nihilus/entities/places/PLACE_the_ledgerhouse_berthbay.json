@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_the_ledgerhouse_berthbay",
+  "label": "The Ledgerhouse Berthbay",
+  "description": "The Ledgerhouse Berthbay is a narrow sleeping compartment partitioned from the habitation suite by a sliding plasteel bulkhead stamped with service numerals. Two stacked bunks are bolted directly to the deck and wall frame, their restraint straps and under-bunk drawers designed for sealed living under alert conditions. A low, constant lumen strip runs the ceiling edge, throwing hard light across scuffed panels and redundant conduit covers. Vent grilles and a compact alarm-vox plate dominate the headwall, reinforcing the enclave’s doctrine of blackout, rationing, and rapid muster.",
+  "short_description": "sealed bunk alcove",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "bedroom",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "door_wooden",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/battles/PLACE_the_ledgerhouse_berthbay.png?v=1771996322019",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 48,
+    "y": 160,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_meridian_ledgerhouse",
+    "innerWidth": 512,
+    "innerHeight": 480
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/places/PLACE_the_ledgerhouse_berthbay.png?v=1771996370751",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

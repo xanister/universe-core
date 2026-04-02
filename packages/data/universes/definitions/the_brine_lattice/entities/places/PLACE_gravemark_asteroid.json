@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_gravemark_asteroid",
+  "label": "Gravemark Asteroid",
+  "description": "Gravemark Asteroid constitutes a cold, irregular minor body set along one of Saltharrow System’s charted debris lanes, its orbit fixed by the system’s pronounced gravitic gradients. The surface presents dark, vitrified regolith and exposed nickel-iron ribs, cut by ancient impact hollows that cast permanent shadow. A weak, intermittent dust halo follows its rotation, briefly flaring when the hard white radiance of the primary star strikes freshly fractured faces. Its stable ephemerides serve as a consistent positional reference within the compact system’s navigational canon.",
+  "short_description": "cold cratered asteroid",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "asteroid",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "asteroid",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/the_brine_lattice/images/battles/PLACE_gravemark_asteroid.png?v=1772313656269",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 3376,
+    "y": 2368,
+    "width": 32,
+    "height": 32,
+    "parent": "PLACE_saltharrow_system",
+    "innerWidth": 704,
+    "innerHeight": 1792
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/the_brine_lattice/images/places/PLACE_gravemark_asteroid.png?v=1772313712911",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

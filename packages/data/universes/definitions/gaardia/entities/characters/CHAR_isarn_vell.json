@@ -1,0 +1,191 @@
+{
+  "id": "CHAR_isarn_vell",
+  "label": "Isarn Vell",
+  "description": "This individual is an undead of advanced decay, with taupe skin drawn tight over prominent cheekbones and a rigid, forward-set jaw. Gray eyes sit recessed in darkened sockets, fixed in an unblinking stare typical of hollow-wake revenants. Brown hair remains in sparse, uneven clumps, cut close by loss rather than design. The body carries a persistent glass-sheen of embedded particulate along the forearms and throat, a defining mark of prolonged exposure to the Hollow’s vitrified dust.",
+  "short_description": "undead female drifter",
+  "tags": [],
+  "entityType": "character",
+  "info": {
+    "purpose": "undead",
+    "aliases": [
+      "Glassvein Remnant",
+      "The Hollow-Wake Woman"
+    ],
+    "birthdate": "Unknown",
+    "deathdate": null,
+    "title": null,
+    "birthPlace": "",
+    "eyeColor": "gray",
+    "gender": "female",
+    "hairColor": "brown",
+    "hairStyle": "pixie",
+    "beardStyle": null,
+    "headType": "human_female",
+    "skinTone": "taupe",
+    "personality": "A silent, purpose-driven remnant that maintains rote patrol habits and reacts to intrusion with abrupt, ritualized hostility. It exhibits a compulsive tendency to return to the same routes and thresholds, as if bound to an administrative duty outlasting life. It recognizes living speech as stimulus rather than meaning, responding only to proximity, light, and repeated footfall patterns.",
+    "race": "human",
+    "messages": [],
+    "journal": [],
+    "sketches": [],
+    "verbosity": 3,
+    "conversationContext": null,
+    "storytellerState": null,
+    "isPlayer": false,
+    "storyComplete": false,
+    "routine": {
+      "schedule": {
+        "dawn": "work",
+        "morning": "work",
+        "afternoon": "work",
+        "evening": "work",
+        "night": "work"
+      },
+      "home": {
+        "placeId": "PLACE_the_glassvein_hollow",
+        "description": "The Glassvein Hollow",
+        "areaHint": null
+      },
+      "work": {
+        "placeId": "PLACE_the_glassvein_hollow",
+        "description": "The Glassvein Hollow",
+        "areaHint": null
+      },
+      "leisure": null,
+      "variance": 0.2,
+      "activities": {
+        "work": "undead_patrol"
+      }
+    },
+    "vesselRoutes": null,
+    "abstractLocation": null,
+    "npcBehavior": null,
+    "physicalState": null,
+    "pendingDeparture": null,
+    "pendingArrival": null,
+    "lastRoutineCheckPeriod": null,
+    "startingNarrative": null,
+    "startingCharacterState": null,
+    "clothing": [
+      {
+        "slot": "torso_under",
+        "itemId": "tunic",
+        "color": "#3a3a3a",
+        "contents": null
+      },
+      {
+        "slot": "torso_over",
+        "itemId": "trenchcoat",
+        "color": "#1a1a1a",
+        "contents": null
+      },
+      {
+        "slot": "legs",
+        "itemId": "cloth_pants",
+        "color": "#808080",
+        "contents": null
+      },
+      {
+        "slot": "feet",
+        "itemId": "boots",
+        "color": "#8b4513",
+        "contents": null
+      },
+      {
+        "slot": "hands",
+        "itemId": "cloth_gloves",
+        "color": "#1a1a1a",
+        "contents": null
+      },
+      {
+        "slot": "head",
+        "itemId": "cloth_hood",
+        "color": "#3a3a3a",
+        "contents": null
+      }
+    ],
+    "enabledOverlayLayers": [
+      "eyes",
+      "facial"
+    ],
+    "helmingVesselId": null,
+    "storytellerDisabled": false,
+    "rulesetState": {
+      "stats": {
+        "poise": 50,
+        "max_poise": 50
+      },
+      "conditions": [],
+      "statUsage": {},
+      "incapacitation": null,
+      "incapacitatedSince": null
+    },
+    "voiceId": "sarah",
+    "spriteConfig": {
+      "bodyType": "female",
+      "layers": [
+        {
+          "type": "body",
+          "optionId": "body_base",
+          "tint": 12890264
+        },
+        {
+          "type": "body",
+          "optionId": "body_universal",
+          "tint": 12890264
+        },
+        {
+          "type": "eyes",
+          "optionId": "eyes_eyes",
+          "tint": 8423560
+        },
+        {
+          "type": "torso",
+          "optionId": "torso_white_tunic",
+          "tint": 3815994
+        },
+        {
+          "type": "legs",
+          "optionId": "legs_white_pants_female",
+          "tint": 8421504
+        },
+        {
+          "type": "feet",
+          "optionId": "feet_white_boots_female",
+          "tint": 9127187
+        },
+        {
+          "type": "hands",
+          "optionId": "hands_white_gloves_female",
+          "tint": 1710618
+        },
+        {
+          "type": "head",
+          "optionId": "head_cloth_hood_female",
+          "tint": 3815994
+        }
+      ],
+      "spriteHash": "dfaaf5ad17b7b2a5",
+      "spriteUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/sprites/generated/dfaaf5ad17b7b2a5.png"
+    }
+  },
+  "position": {
+    "x": 688,
+    "y": 1344,
+    "width": 32,
+    "height": 48,
+    "parent": "PLACE_the_glassvein_hollow"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/gaardia/images/portrait-pool/undead/4.png",
+  "faceAnchorY": 0.17,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "talk"
+  },
+  "relationships": [],
+  "important": false
+}

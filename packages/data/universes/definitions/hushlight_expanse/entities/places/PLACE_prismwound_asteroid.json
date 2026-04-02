@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_prismwound_asteroid",
+  "label": "Prismwound Asteroid",
+  "description": "Prismwound Asteroid is a midsized, irregular body embedded in Vesperglass System’s vitrified debris belt, its surface plated in fused silicate glass scored by deep, radiating fractures. The fractures expose metallic veins that hold persistent electrostatic charge, producing thin coronas that strobe in the copper-white twilight and echo the system’s mirror-halo geometry. Broad facets along the equator reflect particulate radiance into hard, planar glints that register as precise beacons on deep-field instruments. Low gravity and abrasive glass regolith define the body’s navigable terrain, with loose shards locked into stable arcs by residual magnetism.",
+  "short_description": "charged glass-scar asteroid",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "asteroid",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "asteroid",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/hushlight_expanse/images/battles/PLACE_prismwound_asteroid.png?v=1772313686515",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 3408,
+    "y": 1632,
+    "width": 32,
+    "height": 32,
+    "parent": "PLACE_vesperglass_system",
+    "innerWidth": 704,
+    "innerHeight": 1856
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/hushlight_expanse/images/places/PLACE_prismwound_asteroid.png?v=1772313736371",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

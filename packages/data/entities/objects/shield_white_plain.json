@@ -1,0 +1,22 @@
+{
+  "id": "shield_white_plain",
+  "name": "White Shield",
+  "description": "A plain white kite shield mounted on the wall.",
+  "purposes": [
+    "decoration",
+    "tavern",
+    "residence"
+  ],
+  "tags": [
+    "tavern",
+    "wall"
+  ],
+  "solid": false,
+  "layer": "overhead",
+  "spriteId": "shield_white_plain",
+  "materials": [
+    "iron"
+  ],
+  "tintable": false,
+  "wallVerticalOffset": -1
+}

@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_the_vanishing_suite",
+  "label": "The Vanishing Suite",
+  "description": "The Vanishing Suite is a compact sleeping chamber cut into the Null Cantina’s glass-dark composite, its surfaces scored with the same repeating cell-grids that discipline the Anchorage. Ceiling filaments run in rectilinear lines that terminate in shuttered nodes, allowing the room’s intervals to be precisely extinguished or measured in hard-edged light. A recessed berth and fold-down work ledge are integrated into the wall plane, their edges chamfered to match the lattice geometry and leave the floor unbroken. A narrow mooring-view slit is set behind a glare-damping baffle, reducing the Cosmos beyond to a controlled band of ordered radiance.",
+  "short_description": "lattice-lit private room",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "bedroom",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "door_wooden",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/the_hollow_lattice/images/battles/PLACE_the_vanishing_suite.png?v=1772314081424",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 176,
+    "y": 160,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_the_null_cantina",
+    "innerWidth": 608,
+    "innerHeight": 640
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/the_hollow_lattice/images/places/PLACE_the_vanishing_suite.png?v=1772314132820",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

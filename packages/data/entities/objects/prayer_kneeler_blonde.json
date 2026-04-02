@@ -1,0 +1,21 @@
+{
+  "id": "prayer_kneeler_blonde",
+  "name": "Prayer Kneeler (Blonde)",
+  "description": "A blonde wood prayer kneeler with a tall gothic arch back panel.",
+  "purposes": [
+    "decoration"
+  ],
+  "tags": [
+    "furniture",
+    "seating",
+    "temple",
+    "decoration"
+  ],
+  "solid": true,
+  "layer": "default",
+  "spriteId": "prayer_kneeler_blonde",
+  "materials": [
+    "wood"
+  ],
+  "tintable": false
+}

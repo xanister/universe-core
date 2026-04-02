@@ -1,0 +1,16 @@
+{
+  "id": "EVENT_you_arrived_aboard_the_cinderwake_1771945729671",
+  "date": null,
+  "placeId": null,
+  "eventType": null,
+  "category": "world",
+  "subject": "Background",
+  "subjectId": null,
+  "fact": "You arrived aboard the Cinderwake from the Cinderwake hinter-roads and were accepted onto the ship’s manifest as a mission-bound Imperial asset under charter authority.",
+  "significance": "major",
+  "important": true,
+  "witnessIds": null,
+  "importanceScore": null,
+  "scope": null,
+  "relevantPlaceIds": null
+}

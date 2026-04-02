@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_vow_reliquary_store",
+  "label": "Vow Reliquary Store",
+  "description": "This storage room is a narrow ashlar vault set behind iron-banded shelving, built to the same fortified standard as the Temple of the Sealed Oath. Clay-sealed crates and rope-tied bundles rest beneath tablet racks, their tags written in the temple’s formal legal script and impressed with wax and lead. A shuttered lantern niche and limewashed walls keep the space dry and austere, while a painted hazard placard over the threshold binds the contents to the city’s interdiction order. The air holds the blended scent of tallow, dust, and old parchment, reflecting its function as a controlled repository rather than a common storeroom.",
+  "short_description": "sealed ashlar storeroom",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "storage_room",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.9
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "door_wooden",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/gaardia/images/battles/PLACE_vow_reliquary_store.png?v=1772218403281",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 624,
+    "y": 2688,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_temple_of_the_sealed_oath",
+    "innerWidth": 512,
+    "innerHeight": 736
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": null,
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

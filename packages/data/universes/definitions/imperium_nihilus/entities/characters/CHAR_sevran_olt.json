@@ -1,0 +1,230 @@
+{
+  "id": "CHAR_sevran_olt",
+  "label": "Sevran Olt",
+  "description": "This individual presents as a reanimated human corpse reduced to a lean, angular frame with pronounced bone ridges beneath pale green skinTone. Brown eyes sit deep in the sockets, fixed in an unblinking stare characteristic of long-dead tissue, while brown hair persists in sparse, uneven tufts along the scalp. The face bears fissured lips and collapsed cheeks, preserving an identifiable jawline despite extensive desiccation. Their manner is ritualistic and repetitive, responding to sound with delayed, echo-chasing attention and exhibiting an unyielding drive to patrol confined stone passages.",
+  "short_description": "undead male cavern wight",
+  "tags": [],
+  "entityType": "character",
+  "info": {
+    "purpose": "undead",
+    "aliases": [
+      "Echo-Wight",
+      "The Fulgurite Watcher"
+    ],
+    "birthdate": "Unknown",
+    "deathdate": null,
+    "title": null,
+    "birthPlace": "Unknown",
+    "eyeColor": "brown",
+    "gender": "male",
+    "hairColor": "brown",
+    "hairStyle": "unkempt",
+    "beardStyle": null,
+    "headType": "human_male",
+    "skinTone": "amber",
+    "personality": "A sound-fixated undead sentinel defined by repetitive patrol patterns and rigid, task-bound persistence. They approach disturbances with delayed, echo-guided focus, showing no fear response and no capacity for negotiation. Their conduct remains consistent across time, prioritizing corridor control and the pursuit of intruding movement until contact is lost.",
+    "race": "human",
+    "messages": [],
+    "journal": [],
+    "sketches": [],
+    "verbosity": 3,
+    "conversationContext": null,
+    "storytellerState": null,
+    "isPlayer": false,
+    "storyComplete": false,
+    "routine": {
+      "schedule": {
+        "dawn": "work",
+        "morning": "work",
+        "afternoon": "work",
+        "evening": "work",
+        "night": "work"
+      },
+      "home": {
+        "placeId": "PLACE_fulgurite_echo_cavern",
+        "description": "Fulgurite Echo Cavern",
+        "areaHint": null
+      },
+      "work": {
+        "placeId": "PLACE_fulgurite_echo_cavern",
+        "description": "Fulgurite Echo Cavern",
+        "areaHint": null
+      },
+      "leisure": null,
+      "variance": 0.2,
+      "activities": {
+        "work": "undead_patrol"
+      }
+    },
+    "vesselRoutes": null,
+    "abstractLocation": null,
+    "npcBehavior": null,
+    "physicalState": null,
+    "pendingDeparture": null,
+    "pendingArrival": null,
+    "lastRoutineCheckPeriod": null,
+    "startingNarrative": null,
+    "startingCharacterState": null,
+    "clothing": [
+      {
+        "slot": "torso_under",
+        "itemId": "tunic",
+        "color": "#3a3a3a",
+        "contents": null
+      },
+      {
+        "slot": "torso_over",
+        "itemId": "trenchcoat",
+        "color": "#1a1a1a",
+        "contents": null
+      },
+      {
+        "slot": "legs",
+        "itemId": "cloth_pants",
+        "color": "#808080",
+        "contents": null
+      },
+      {
+        "slot": "feet",
+        "itemId": "boots",
+        "color": "#8b4513",
+        "contents": null
+      },
+      {
+        "slot": "belt",
+        "itemId": "rope_belt",
+        "color": "#d2b48c",
+        "contents": [
+          {
+            "id": "ci_1772084818261_ocpbur",
+            "itemId": "unarmed",
+            "name": "unarmed",
+            "description": null,
+            "type": "weapon",
+            "quantity": 1,
+            "color": null,
+            "equipSlot": "weapon",
+            "plotId": null
+          }
+        ]
+      }
+    ],
+    "enabledOverlayLayers": [
+      "eyes",
+      "facial"
+    ],
+    "helmingVesselId": null,
+    "storytellerDisabled": false,
+    "rulesetState": {
+      "stats": {
+        "physical": 50,
+        "mental": 50,
+        "social": 50,
+        "poise": 50,
+        "max_poise": 50,
+        "bloodloss": 0,
+        "anxiety": 0,
+        "fatigue": 0,
+        "hunger": 0
+      },
+      "conditions": [],
+      "statUsage": {},
+      "incapacitation": null,
+      "incapacitatedSince": null
+    },
+    "voiceId": "brian",
+    "spriteConfig": {
+      "bodyType": "male",
+      "layers": [
+        {
+          "type": "body",
+          "optionId": "body_base",
+          "tint": 13936490
+        },
+        {
+          "type": "body",
+          "optionId": "body_universal",
+          "tint": 13936490
+        },
+        {
+          "type": "eyes",
+          "optionId": "eyes_eyes",
+          "tint": 7029286
+        },
+        {
+          "type": "hair",
+          "optionId": "hair_unkempt",
+          "tint": 7029286
+        },
+        {
+          "type": "torso",
+          "optionId": "torso_formal_trenchcoat_male",
+          "tint": 1710618
+        },
+        {
+          "type": "legs",
+          "optionId": "legs_white_pants_male",
+          "tint": 8421504
+        },
+        {
+          "type": "feet",
+          "optionId": "feet_white_boots_male",
+          "tint": 9127187
+        },
+        {
+          "type": "belt",
+          "optionId": "belt_wulax_belt_rope_male",
+          "tint": 13808780
+        }
+      ],
+      "spriteHash": "0e3fb795d0a310c8",
+      "spriteUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/sprites/generated/0e3fb795d0a310c8.png",
+      "spriteScale": 1
+    }
+  },
+  "position": {
+    "x": 1968,
+    "y": 976,
+    "width": 32,
+    "height": 48,
+    "parent": "PLACE_fulgurite_echo_cavern"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/portrait-pool/undead/4.png",
+  "faceAnchorY": 0.19,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "talk"
+  },
+  "relationships": [
+    {
+      "targetId": "CHAR_severan_duskward_1",
+      "type": "colleague",
+      "disposition": 10,
+      "familiarity": 50,
+      "context": "Both are ritual-bound undead sentinels patrolling the same PLACE_fulgurite_echo_cavern, making them likely co-guards of the same passages.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_sereth_varn",
+      "type": "colleague",
+      "disposition": 10,
+      "familiarity": 50,
+      "context": "Shared location (PLACE_fulgurite_echo_cavern) and similar sound/echo-attentive patrol behavior suggests parallel duty within the same cavern.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_sevrin_halor",
+      "type": "colleague",
+      "disposition": 10,
+      "familiarity": 50,
+      "context": "Both operate as cavern-bound undead sentinels in PLACE_fulgurite_echo_cavern with rote vigilance and boundary/patrol routines, implying a working coexistence rather than personal ties.",
+      "pendingGeneration": false
+    }
+  ],
+  "important": false
+}

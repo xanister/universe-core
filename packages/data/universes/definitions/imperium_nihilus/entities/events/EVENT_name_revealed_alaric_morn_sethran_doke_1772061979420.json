@@ -1,0 +1,18 @@
+{
+  "id": "EVENT_name_revealed_alaric_morn_sethran_doke_1772061979420",
+  "date": "999.M1 03:03",
+  "placeId": null,
+  "important": false,
+  "importanceScore": null,
+  "scope": null,
+  "relevantPlaceIds": null,
+  "eventType": "name_revealed",
+  "category": "knowledge",
+  "subject": "Sethran Doke",
+  "subjectId": "CHAR_sethran_doke",
+  "fact": "Learned the name \"Sethran Doke\"",
+  "significance": "minor",
+  "witnessIds": [
+    "CHAR_alaric_morn"
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_sablewater_slag_dock",
+  "label": "Sablewater Slag Dock",
+  "description": "Sablewater Slag Dock consists of a low, slagstone pier vitrified into the lake’s fused shoreline, its surface scored by ash abrasion and lightning-glass seams. Iron mooring posts rise at regular intervals, their chains and rings crusted with black mineral deposits drawn from the conductive water. A narrow loading apron of basalt blocks steps down to the waterline, where the lake’s dark surface clings in oily bands against the hardened edge. Persistent vox distortion thickens along the pier as interference reflects off the mineral crust and bruise-lit basin.",
+  "short_description": "vitrified slagstone pier",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "harbor",
+    "environment": {
+      "type": "exterior",
+      "hasWeather": true,
+      "temperature": {
+        "enabled": true,
+        "base": null,
+        "modifiersApply": true
+      },
+      "maxDarkness": null
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "world_map_dock",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/battles/PLACE_sablewater_slag_dock.png?v=1771873956476",
+    "inheritedRequiredTags": null,
+    "timeScale": 1
+  },
+  "position": {
+    "x": 3904,
+    "y": 3968,
+    "width": 96,
+    "height": 48,
+    "parent": "PLACE_vespera_tertius_sablewater_lake",
+    "innerWidth": 1728,
+    "innerHeight": 1216
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/places/PLACE_sablewater_slag_dock.png?v=1771874006794",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": true
+}

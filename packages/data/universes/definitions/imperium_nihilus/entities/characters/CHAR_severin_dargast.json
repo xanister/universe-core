@@ -1,0 +1,254 @@
+{
+  "id": "CHAR_severin_dargast",
+  "label": "Severin Dargast",
+  "description": "This individual is an undead human of Fulgurite Hollow, defined by zombie skinTone stretched taut over prominent bone and a rigid, malnourished frame. Red eyeColor fixes into an unblinking stare beneath brown hairColor kept in a short, practical cut. The face is set with a slack jawline and deeply etched, permanent hollows at the cheeks and temples, marking long decay rather than recent injury. Their manner is methodical and unhurried, driven by residual habit and a bleak territorial instinct typical of the Hollow’s dead.",
+  "short_description": "undead male hollow sentry",
+  "tags": [],
+  "entityType": "character",
+  "info": {
+    "purpose": "undead",
+    "aliases": [
+      "Hollow Sentry",
+      "The Unblinking"
+    ],
+    "birthdate": "Unknown",
+    "deathdate": null,
+    "title": null,
+    "birthPlace": "Unknown",
+    "eyeColor": "red",
+    "gender": "male",
+    "hairColor": "brown",
+    "hairStyle": "shorthawk",
+    "beardStyle": "stubble",
+    "headType": "human_male",
+    "skinTone": "amber",
+    "personality": "Methodical, unhurried, and territorial; displays a rote, habit-driven vigilance and reacts to intrusion with blunt persistence rather than cunning.",
+    "race": "human",
+    "messages": [],
+    "journal": [],
+    "sketches": [],
+    "verbosity": 3,
+    "conversationContext": null,
+    "storytellerState": null,
+    "isPlayer": false,
+    "storyComplete": false,
+    "routine": {
+      "schedule": {
+        "dawn": "work",
+        "morning": "work",
+        "afternoon": "work",
+        "evening": "work",
+        "night": "work"
+      },
+      "home": {
+        "placeId": "PLACE_fulgurite_hollow",
+        "description": "Fulgurite Hollow",
+        "areaHint": null
+      },
+      "work": {
+        "placeId": "PLACE_fulgurite_hollow",
+        "description": "Fulgurite Hollow",
+        "areaHint": null
+      },
+      "leisure": null,
+      "variance": 0.2,
+      "activities": {
+        "work": "undead_patrol"
+      }
+    },
+    "vesselRoutes": null,
+    "abstractLocation": null,
+    "npcBehavior": null,
+    "physicalState": null,
+    "pendingDeparture": null,
+    "pendingArrival": null,
+    "lastRoutineCheckPeriod": null,
+    "startingNarrative": null,
+    "startingCharacterState": null,
+    "clothing": [
+      {
+        "slot": "torso_under",
+        "itemId": "tunic",
+        "color": "#3a3a3a",
+        "contents": null
+      },
+      {
+        "slot": "torso_over",
+        "itemId": "trenchcoat",
+        "color": "#1a1a1a",
+        "contents": null
+      },
+      {
+        "slot": "legs",
+        "itemId": "cloth_pants",
+        "color": "#808080",
+        "contents": null
+      },
+      {
+        "slot": "feet",
+        "itemId": "boots",
+        "color": "#8b4513",
+        "contents": null
+      },
+      {
+        "slot": "belt",
+        "itemId": "leather_belt",
+        "color": "#8b4513",
+        "contents": [
+          {
+            "id": "ci_1772084856236_s3skef",
+            "itemId": "unarmed",
+            "name": "unarmed",
+            "description": null,
+            "type": "weapon",
+            "quantity": 1,
+            "color": null,
+            "equipSlot": "weapon",
+            "plotId": null
+          }
+        ]
+      },
+      {
+        "slot": "hands",
+        "itemId": "cloth_gloves",
+        "color": "#1a1a1a",
+        "contents": null
+      }
+    ],
+    "enabledOverlayLayers": [
+      "eyes",
+      "facial"
+    ],
+    "helmingVesselId": null,
+    "storytellerDisabled": false,
+    "rulesetState": {
+      "stats": {
+        "physical": 50,
+        "mental": 50,
+        "social": 50,
+        "poise": 50,
+        "max_poise": 50,
+        "bloodloss": 0,
+        "anxiety": 0,
+        "fatigue": 0,
+        "hunger": 0
+      },
+      "conditions": [],
+      "statUsage": {},
+      "incapacitation": null,
+      "incapacitatedSince": null
+    },
+    "voiceId": "brian",
+    "spriteConfig": {
+      "bodyType": "male",
+      "layers": [
+        {
+          "type": "body",
+          "optionId": "body_base",
+          "tint": 13936490
+        },
+        {
+          "type": "body",
+          "optionId": "body_universal",
+          "tint": 13936490
+        },
+        {
+          "type": "eyes",
+          "optionId": "eyes_eyes",
+          "tint": 13378082
+        },
+        {
+          "type": "facial",
+          "optionId": "facial_beard",
+          "tint": 7029286
+        },
+        {
+          "type": "hair",
+          "optionId": "hair_shorthawk",
+          "tint": 7029286
+        },
+        {
+          "type": "torso",
+          "optionId": "torso_formal_trenchcoat_male",
+          "tint": 1710618
+        },
+        {
+          "type": "legs",
+          "optionId": "legs_white_pants_male",
+          "tint": 8421504
+        },
+        {
+          "type": "feet",
+          "optionId": "feet_white_boots_male",
+          "tint": 9127187
+        },
+        {
+          "type": "belt",
+          "optionId": "belt_leather_male",
+          "tint": 9127187
+        },
+        {
+          "type": "hands",
+          "optionId": "hands_white_gloves_male",
+          "tint": 1710618
+        }
+      ],
+      "spriteHash": "f30a9fbd8e6d74b7",
+      "spriteUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/sprites/generated/f30a9fbd8e6d74b7.png",
+      "spriteScale": 1
+    }
+  },
+  "position": {
+    "x": 1552,
+    "y": 80,
+    "width": 32,
+    "height": 48,
+    "parent": "PLACE_fulgurite_hollow"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/portrait-pool/undead/4.png",
+  "faceAnchorY": 0.19,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "talk"
+  },
+  "relationships": [
+    {
+      "targetId": "CHAR_severin_duskward",
+      "type": "colleague",
+      "disposition": 10,
+      "familiarity": 50,
+      "context": "Both are undead bound to patrol/territorial routines within Fulgurite Hollow, making them likely co-sentinels of the same area or overlapping watch routes.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_severin_holt_1",
+      "type": "colleague",
+      "disposition": 10,
+      "familiarity": 50,
+      "context": "Both operate as Fulgurite Hollow territorial undead with slow, repetitive inspections/patrol behavior; likely to share or coordinate (mechanically) the same defended grounds.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_sevrin_malloch",
+      "type": "colleague",
+      "disposition": 10,
+      "familiarity": 50,
+      "context": "Both are Hollow-haunting dead showing ritualized patrol circuits and territorial enforcement in the same location, implying overlapping duty/area coverage.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_severin_draak_1",
+      "type": "colleague",
+      "disposition": 10,
+      "familiarity": 50,
+      "context": "Same location (Fulgurite Hollow) and similar ritual-bound, route-attached territorial behavior suggest they function as fellow sentinels within the Hollow.",
+      "pendingGeneration": false
+    }
+  ],
+  "important": false
+}

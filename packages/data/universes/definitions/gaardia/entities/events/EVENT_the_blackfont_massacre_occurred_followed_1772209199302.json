@@ -1,0 +1,16 @@
+{
+  "id": "EVENT_the_blackfont_massacre_occurred_followed_1772209199302",
+  "date": null,
+  "placeId": null,
+  "eventType": "war",
+  "category": "world",
+  "subject": "War",
+  "subjectId": null,
+  "fact": "The Blackfont massacre occurred, followed by convictions and imprisonment of multiple soldiers; competing narratives about responsibility continued to circulate afterward, shaping later pursuits and vendettas.",
+  "significance": "major",
+  "important": true,
+  "witnessIds": null,
+  "importanceScore": null,
+  "scope": "regional",
+  "relevantPlaceIds": null
+}

@@ -1,0 +1,25 @@
+{
+  "id": "wardrobe",
+  "name": "Wardrobe",
+  "description": "A tall wooden wardrobe",
+  "purposes": [
+    "storage"
+  ],
+  "tags": [
+    "common",
+    "furniture",
+    "storage"
+  ],
+  "solid": true,
+  "layer": "default",
+  "spriteId": "wardrobe",
+  "materials": [
+    "wood",
+    "oak"
+  ],
+  "tintable": true,
+  "states": [
+    "closed",
+    "open"
+  ]
+}

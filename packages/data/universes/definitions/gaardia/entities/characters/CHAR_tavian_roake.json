@@ -1,0 +1,275 @@
+{
+  "id": "CHAR_tavian_roake",
+  "label": "Tavian Roake",
+  "description": "This individual is a middle-aged human of taupe skin, carrying the compact, well-fed build common to settled traders who spend more time counting measures than hauling them. Brown eyes sit beneath heavy lids and a square brow, giving the face a habitually appraising cast. Brown hair, worn in a parted style, is kept close and orderly, and a trimmed beard frames a jaw broadened by age. The hands are thick-fingered and ink-stained, with small nicks at the knuckles consistent with years of tying cords, opening crates, and handling coin.",
+  "short_description": "traveling male merchant",
+  "tags": [],
+  "entityType": "character",
+  "info": {
+    "purpose": "merchant",
+    "aliases": [
+      "Tav Roake",
+      "Ledgerhand"
+    ],
+    "birthdate": "1027-04-19",
+    "deathdate": null,
+    "title": null,
+    "birthPlace": "Gaardia",
+    "eyeColor": "brown",
+    "gender": "male",
+    "hairColor": "brown",
+    "hairStyle": "parted",
+    "beardStyle": "trimmed",
+    "headType": "human_male",
+    "skinTone": "taupe",
+    "personality": "A meticulous tavern-floor merchant who keeps strict tallies, speaks in measured terms, and prefers contracts witnessed and sealed. He cultivates a reputation for fair weights and prompt payment while maintaining a sharp memory for debts, favors, and the shifting leverage of guild and Crown-Faith regulations. He avoids overt political declarations, but he uses institutional rules fluently to protect his margins and to press less-prepared rivals.",
+    "race": "human",
+    "messages": [],
+    "journal": [],
+    "sketches": [],
+    "verbosity": 3,
+    "conversationContext": null,
+    "storytellerState": null,
+    "isPlayer": false,
+    "storyComplete": false,
+    "routine": {
+      "schedule": {
+        "dawn": "home",
+        "morning": "work",
+        "afternoon": "work",
+        "evening": "leisure",
+        "night": "home"
+      },
+      "home": {
+        "placeId": "PLACE_charterhouse_narrow_bedchamber",
+        "description": "Quarters near The Quenched Pike",
+        "areaHint": null
+      },
+      "work": {
+        "placeId": "PLACE_the_quenched_pike",
+        "description": "The Quenched Pike",
+        "areaHint": null
+      },
+      "leisure": {
+        "favoriteSpot": null,
+        "preferredTagIds": [
+          "TAG_workplace_tavern"
+        ]
+      },
+      "variance": 0.2,
+      "activities": {
+        "work": "shopkeeping"
+      }
+    },
+    "vesselRoutes": null,
+    "abstractLocation": null,
+    "npcBehavior": null,
+    "physicalState": null,
+    "pendingDeparture": null,
+    "pendingArrival": null,
+    "lastRoutineCheckPeriod": null,
+    "startingNarrative": null,
+    "startingCharacterState": null,
+    "clothing": [
+      {
+        "slot": "torso_under",
+        "itemId": "formal_shirt",
+        "color": "#f5f0e8",
+        "contents": null
+      },
+      {
+        "slot": "torso_over",
+        "itemId": "formal_jacket",
+        "color": "#3a3a3a",
+        "contents": null
+      },
+      {
+        "slot": "legs",
+        "itemId": "formal_pants",
+        "color": "#1a1a1a",
+        "contents": null
+      },
+      {
+        "slot": "feet",
+        "itemId": "shoes",
+        "color": "#8b4513",
+        "contents": null
+      },
+      {
+        "slot": "belt",
+        "itemId": "formal_belt",
+        "color": "#1a1a1a",
+        "contents": []
+      },
+      {
+        "slot": "accessories",
+        "itemId": "glasses",
+        "color": null,
+        "contents": null
+      }
+    ],
+    "enabledOverlayLayers": [
+      "eyes",
+      "facial"
+    ],
+    "helmingVesselId": null,
+    "storytellerDisabled": false,
+    "rulesetState": {
+      "stats": {},
+      "conditions": [],
+      "statUsage": {},
+      "incapacitation": null,
+      "incapacitatedSince": null
+    },
+    "voiceId": "eric",
+    "spriteConfig": {
+      "bodyType": "male",
+      "layers": [
+        {
+          "type": "body",
+          "optionId": "body_base",
+          "tint": 12890264
+        },
+        {
+          "type": "body",
+          "optionId": "body_universal",
+          "tint": 12890264
+        },
+        {
+          "type": "eyes",
+          "optionId": "eyes_eyes",
+          "tint": 7029286
+        },
+        {
+          "type": "facial",
+          "optionId": "facial_trimmed",
+          "tint": 7029286
+        },
+        {
+          "type": "hair",
+          "optionId": "hair_parted",
+          "tint": 7029286
+        },
+        {
+          "type": "torso",
+          "optionId": "torso_formal_shirt_male",
+          "tint": 16117992
+        },
+        {
+          "type": "torso",
+          "optionId": "torso_formal_jacket_male",
+          "tint": 3815994
+        },
+        {
+          "type": "legs",
+          "optionId": "legs_formal_pants_male",
+          "tint": 1710618
+        },
+        {
+          "type": "feet",
+          "optionId": "feet_white_shoes_male",
+          "tint": 9127187
+        },
+        {
+          "type": "belt",
+          "optionId": "belt_formal_belt_male",
+          "tint": 1710618
+        },
+        {
+          "type": "accessories",
+          "optionId": "accessories_formal_glasses_male",
+          "tint": 12632256
+        }
+      ],
+      "spriteHash": "0d7ea5c0c975a75a",
+      "spriteUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/sprites/generated/0d7ea5c0c975a75a.png"
+    },
+    "assignedWorkspaceId": "OBJ_the_quenched_pike_shop_counter_dark_0007",
+    "assignedWorkspacePurpose": "workspace"
+  },
+  "position": {
+    "x": 208,
+    "y": 224,
+    "width": 32,
+    "height": 48,
+    "parent": "PLACE_charterhouse_narrow_bedchamber"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/gaardia/images/characters/CHAR_tavian_roake.png?v=1772603889105",
+  "faceAnchorY": 0.17,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "talk"
+  },
+  "relationships": [
+    {
+      "targetId": "CHAR_serah_tindal",
+      "type": "colleague",
+      "disposition": 10,
+      "familiarity": 50,
+      "context": "Both are methodical tavern-floor merchants who prioritize witnessed contracts, strict tallies, and rule-bound trade; likely to interact professionally across licensed commerce networks.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_elowen_tarse",
+      "type": "acquaintance",
+      "disposition": 0,
+      "familiarity": 40,
+      "context": "Shared profession and temperament (strict measures, debt memory, house rules) makes casual professional familiarity plausible.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_gideon_marr",
+      "type": "acquaintance",
+      "disposition": 0,
+      "familiarity": 40,
+      "context": "Both are procedural, precedent-driven keepers of accounts and boundaries; likely to have crossed paths in Gaardian tavern/credit circles.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_lenora_quist",
+      "type": "acquaintance",
+      "disposition": 0,
+      "familiarity": 40,
+      "context": "Similar role (keeper of house rules, receipts, immediate settlement) suggests likely professional familiarity via disputes, credit, or supply dealings.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_sabin_tallow",
+      "type": "acquaintance",
+      "disposition": 0,
+      "familiarity": 40,
+      "context": "Both are institution-minded publicans/merchants focused on rigorous measure and regulated conduct; plausible to know each other through licensing and trade enforcement norms.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_tomasin_krell",
+      "type": "acquaintance",
+      "disposition": 0,
+      "familiarity": 40,
+      "context": "Both are disciplined tavern professionals emphasizing measure, debts, and discretion; likely to recognize each other within the broader tavern-and-trade community.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_cassian_rowe",
+      "type": "acquaintance",
+      "disposition": 0,
+      "familiarity": 40,
+      "context": "As a tavern-floor merchant dealing in contracts and regulations, Tavian would plausibly have business familiarity with a documentation-focused ship captain operating under Gaardian maritime law.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_korr_brightblade",
+      "type": null,
+      "familiarity": 20,
+      "disposition": 2,
+      "context": null,
+      "pendingGeneration": false
+    }
+  ],
+  "important": false
+}

@@ -1,0 +1,55 @@
+{
+  "id": "OBJ_the_quenched_pike_hay_bale_0006",
+  "label": "Hay Bale",
+  "description": "A small hay bale wrapped in burlap.",
+  "important": false,
+  "short_description": "hay bale",
+  "tags": [
+    "common",
+    "container",
+    "storage",
+    "tavern"
+  ],
+  "entityType": "object",
+  "info": {
+    "purpose": "storage",
+    "solid": false,
+    "layer": "default",
+    "isStructural": false,
+    "material": null,
+    "tint": null,
+    "spriteConfig": {
+      "spriteId": "hay_bale",
+      "frame": null,
+      "animationKey": null,
+      "animated": false,
+      "facing": "south"
+    },
+    "hp": null,
+    "maxHp": null,
+    "state": null,
+    "contents": null,
+    "lightSource": null,
+    "itemId": null,
+    "plotId": null
+  },
+  "position": {
+    "x": 1232,
+    "y": 640,
+    "width": 32,
+    "height": 32,
+    "parent": "PLACE_the_quenched_pike"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "relationships": [],
+  "image": null,
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "search"
+  }
+}

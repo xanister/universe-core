@@ -1,0 +1,55 @@
+{
+  "id": "PLACE_helioprism_lake",
+  "label": "Helioprism Lake",
+  "description": "Helioprism Lake occupies a shallow basin cut into Kharion Prismworld’s vitreous crust, its perimeter defined by straight runs and precise angles rather than a continuous shore. The water presents as a dense, glass-clear sheet that breaks incoming meridian glare into immobile bars of color, while intervals of absolute shadow pass across it as clean-edged planes. Beneath the surface, rectilinear shelves of dark crystal descend in step-like terraces that mirror the planet’s fracture-grid geometry. The air above remains unnaturally laminar, and wave motion resolves into repeating polygonal ripples aligned to the lattice-fronts.",
+  "short_description": "prismatic glass-clear lake",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "lake",
+    "environment": {
+      "type": "exterior",
+      "hasWeather": true,
+      "temperature": {
+        "enabled": true,
+        "base": null,
+        "modifiersApply": true
+      }
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "world_map_pond",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 1600,
+    "y": 1824,
+    "width": 64,
+    "height": 64,
+    "parent": "PLACE_kharion_prismworld"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": null,
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

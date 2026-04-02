@@ -1,0 +1,21 @@
+{
+  "id": "bunk_bed",
+  "name": "Bunk Bed",
+  "description": "A two-tier bunk bed with a wooden ladder.",
+  "purposes": [
+    "sleeping"
+  ],
+  "tags": [
+    "common",
+    "furniture",
+    "bedroom"
+  ],
+  "solid": true,
+  "layer": "default",
+  "spriteId": "bunk_bed",
+  "materials": [
+    "wood",
+    "fabric"
+  ],
+  "tintable": false
+}

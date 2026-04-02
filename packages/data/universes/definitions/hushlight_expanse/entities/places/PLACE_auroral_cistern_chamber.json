@@ -1,0 +1,60 @@
+{
+  "id": "PLACE_auroral_cistern_chamber",
+  "label": "Auroral Cistern Chamber",
+  "description": "Auroral Cistern Chamber is a narrow guest room set behind the tavern’s lensing-cistern wall, built from fused-silicate panels whose seams are scored to resist the city’s abrasive glass dust. A shallow, lidded prism-cistern occupies one side, its refractive baffles casting fixed color strata that match Seamglass Meridian’s calibrated twilight measures. Grounded gutterwork runs exposed along the baseboards, draining electrostatic fallouts into a sealed floor sump and leaving the air notably clean for an interior of the faultline city. Mirror slats in the ceiling repeat the tavern’s auroral alignment, fixing the room’s light into a steady, orderly shimmer without glare.",
+  "short_description": "prism-lit guest chamber",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "bedroom",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "door_wooden",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/hushlight_expanse/images/battles/PLACE_auroral_cistern_chamber.png?v=1772313911655",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 496,
+    "y": 160,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_the_prismatic_draught",
+    "innerWidth": 544,
+    "innerHeight": 608
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/hushlight_expanse/images/places/PLACE_auroral_cistern_chamber.png?v=1772313968096",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": [
+    "Cistern-Hush Chamber"
+  ],
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

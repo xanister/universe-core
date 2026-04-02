@@ -1,0 +1,20 @@
+{
+  "id": "EVENT_charseverinashcombe_denied_involvement_at_the_1772177106085",
+  "date": "999.M1 07:50",
+  "placeId": "PLACE_the_gloam_lantern",
+  "eventType": "turning_point",
+  "category": "world",
+  "subject": "The Gloam Lantern",
+  "subjectId": "PLACE_the_gloam_lantern",
+  "fact": "CHAR_severin_ashcombe denied involvement at The Gloam Lantern as CHAR_a_fatigued_deckhand_messenger burst in pursued by attackers demanding his sealed dispatch; a fight spilled into the bar.",
+  "significance": "major",
+  "witnessIds": [
+    "CHAR_severin_ashcombe"
+  ],
+  "important": true,
+  "importanceScore": null,
+  "scope": "local",
+  "relevantPlaceIds": [
+    "PLACE_the_gloam_lantern"
+  ]
+}

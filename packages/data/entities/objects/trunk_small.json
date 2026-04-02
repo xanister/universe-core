@@ -1,0 +1,23 @@
+{
+  "id": "trunk_small",
+  "name": "Small Trunk",
+  "description": "A compact iron-banded wooden trunk for personal belongings.",
+  "purposes": [
+    "storage",
+    "decoration"
+  ],
+  "tags": [
+    "common",
+    "furniture",
+    "bedroom"
+  ],
+  "solid": true,
+  "layer": "default",
+  "spriteId": "trunk_small",
+  "materials": [
+    "wood",
+    "metal"
+  ],
+  "tintable": false,
+  "interactable": true
+}

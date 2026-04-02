@@ -1,0 +1,20 @@
+{
+  "id": "beer_mug_large",
+  "name": "Large Beer Mug",
+  "description": "A large wooden beer mug with iron bands.",
+  "purposes": [
+    "decoration"
+  ],
+  "tags": [
+    "common",
+    "drinkware",
+    "tavern"
+  ],
+  "solid": false,
+  "layer": "default",
+  "spriteId": "beer_mug_large",
+  "materials": [
+    "wood"
+  ],
+  "tintable": false
+}

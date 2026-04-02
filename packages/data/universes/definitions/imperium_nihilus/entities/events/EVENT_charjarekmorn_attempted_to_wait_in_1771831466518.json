@@ -1,0 +1,18 @@
+{
+  "id": "EVENT_charjarekmorn_attempted_to_wait_in_1771831466518",
+  "date": "999.M1 22:54",
+  "placeId": "PLACE_zephyr_rivet_passage",
+  "eventType": "turning_point",
+  "category": "world",
+  "subject": "Zephyr Rivet Passage",
+  "subjectId": "PLACE_zephyr_rivet_passage",
+  "fact": "CHAR_jarek_morn attempted to wait in Zephyr Rivet Passage; Halden Sorett arrived and grandstanded about seals/records; CHAR_severin_dhal publicly pointed out inconsistencies in Sorett's monologue",
+  "significance": "major",
+  "witnessIds": null,
+  "important": true,
+  "importanceScore": null,
+  "scope": "local",
+  "relevantPlaceIds": [
+    "PLACE_zephyr_rivet_passage"
+  ]
+}

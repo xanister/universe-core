@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_the_prismworn_cask",
+  "label": "The Prismworn Cask",
+  "description": "The Prismworn Cask occupies a narrow basalt-glass vault cut into Seamline Concord’s escarpment face, its walls burnished to a dull sheen by electrostatically pinned glass dust. A low bar of fused mirror-slag runs the length of the main room, catching the city’s copper-white twilight and throwing it back in broken, navigationally precise angles. Ceiling baffles of darkened crystal dampen street hum into a measured hush, while inlaid seam-line tracery in the floor aligns the interior to the auroral girdle’s calibrated sightlines. Cistern-fed condensers keep the air cool and mineral-clean, leaving a faint metallic brightness on every surface.",
+  "short_description": "dim prism-lit tavern",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "tavern",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "building_tavern",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/hushlight_expanse/images/battles/PLACE_the_prismworn_cask.png?v=1772313785148",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 656,
+    "y": 608,
+    "width": 160,
+    "height": 256,
+    "parent": "PLACE_seamline_concord",
+    "innerWidth": 1280,
+    "innerHeight": 1344
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/hushlight_expanse/images/places/PLACE_the_prismworn_cask.png?v=1772313888372",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

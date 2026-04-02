@@ -1,0 +1,72 @@
+{
+  "spriteId": "fireplace",
+  "gridWidth": 3,
+  "gridHeight": 3,
+  "tileSize": 32,
+  "tiles": [
+    {
+      "tilesetId": "decor-fireplace",
+      "srcX": 32,
+      "srcY": 32,
+      "col": 0,
+      "row": 0
+    },
+    {
+      "tilesetId": "decor-fireplace",
+      "srcX": 64,
+      "srcY": 32,
+      "col": 1,
+      "row": 0
+    },
+    {
+      "tilesetId": "decor-fireplace",
+      "srcX": 96,
+      "srcY": 32,
+      "col": 2,
+      "row": 0
+    },
+    {
+      "tilesetId": "decor-fireplace",
+      "srcX": 32,
+      "srcY": 64,
+      "col": 0,
+      "row": 1
+    },
+    {
+      "tilesetId": "decor-fireplace",
+      "srcX": 64,
+      "srcY": 64,
+      "col": 1,
+      "row": 1
+    },
+    {
+      "tilesetId": "decor-fireplace",
+      "srcX": 96,
+      "srcY": 64,
+      "col": 2,
+      "row": 1
+    },
+    {
+      "tilesetId": "decor-fireplace",
+      "srcX": 32,
+      "srcY": 96,
+      "col": 0,
+      "row": 2
+    },
+    {
+      "tilesetId": "decor-fireplace",
+      "srcX": 64,
+      "srcY": 96,
+      "col": 1,
+      "row": 2
+    },
+    {
+      "tilesetId": "decor-fireplace",
+      "srcX": 96,
+      "srcY": 96,
+      "col": 2,
+      "row": 2
+    }
+  ],
+  "updatedAt": "2026-02-20T19:38:48.317Z"
+}

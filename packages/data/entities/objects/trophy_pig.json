@@ -1,0 +1,24 @@
+{
+  "id": "trophy_pig",
+  "name": "Pig Trophy",
+  "description": "A mounted pig head on a wooden shield plaque.",
+  "purposes": [
+    "decoration",
+    "tavern",
+    "residence"
+  ],
+  "tags": [
+    "tavern",
+    "wall"
+  ],
+  "solid": false,
+  "layer": "overhead",
+  "spriteId": "trophy_pig",
+  "materials": [
+    "wood",
+    "leather",
+    "bone"
+  ],
+  "tintable": false,
+  "wallVerticalOffset": -1
+}

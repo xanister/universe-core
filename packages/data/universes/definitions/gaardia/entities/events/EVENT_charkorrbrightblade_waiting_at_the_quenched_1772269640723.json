@@ -1,0 +1,20 @@
+{
+  "id": "EVENT_charkorrbrightblade_waiting_at_the_quenched_1772269640723",
+  "date": "03.01.11 4A 05:41",
+  "placeId": "PLACE_the_quenched_pike",
+  "eventType": "turning_point",
+  "category": "world",
+  "subject": "The Quenched Pike",
+  "subjectId": "PLACE_the_quenched_pike",
+  "fact": "CHAR_korr_brightblade waiting at The Quenched Pike interrupted as street running battles erupt; CHAR_alaric_fenrow reacts; unknown runner delivers report of violent quay inspections over cargo marks",
+  "significance": "major",
+  "witnessIds": [
+    "CHAR_korr_brightblade"
+  ],
+  "important": true,
+  "importanceScore": null,
+  "scope": "local",
+  "relevantPlaceIds": [
+    "PLACE_the_quenched_pike"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "EVENT_charperrinhalvay_waited_at_placecindervale_1772432730700",
+  "date": "07.01.11 4A 14:37",
+  "placeId": "PLACE_cindervale",
+  "eventType": null,
+  "category": "world",
+  "subject": "Cindervale",
+  "subjectId": "PLACE_cindervale",
+  "fact": "CHAR_perrin_halvay waited at PLACE_cindervale",
+  "significance": "moderate",
+  "witnessIds": [
+    "CHAR_perrin_halvay",
+    "CHAR_alaric_fenrow",
+    "CHAR_rovan_kest"
+  ],
+  "important": false,
+  "importanceScore": null,
+  "scope": "local",
+  "relevantPlaceIds": [
+    "PLACE_cindervale"
+  ]
+}

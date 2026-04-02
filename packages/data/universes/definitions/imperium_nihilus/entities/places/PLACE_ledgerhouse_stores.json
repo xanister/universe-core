@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_ledgerhouse_stores",
+  "label": "Ledgerhouse Stores",
+  "description": "Ledgerhouse Stores forms the sealed provisioning chamber of the Meridian Ledgerhouse, built as a narrow plasteel-lined room set behind tamper-latched bulkhead panels. Ration crates and canister racks stand in fixed, deck-bolted frames, each bay marked by stenciled service numerals that mirror the suite’s conduit indexing. A humidity-controlled cabinet and a lockable chem-safe recess occupy the inner wall, their gaskets and drip pans designed for prolonged isolation. Illumination remains a low, steady lumen strip-glow, and the air retains the dry sterility of filtered circulation carried through armored junction boxes.",
+  "short_description": "sealed ration stores",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "storage_room",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.9
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "door_wooden",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/battles/PLACE_ledgerhouse_stores.png?v=1771996323798",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 592,
+    "y": 160,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_meridian_ledgerhouse",
+    "innerWidth": 512,
+    "innerHeight": 768
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/places/PLACE_ledgerhouse_stores.png?v=1771996379160",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

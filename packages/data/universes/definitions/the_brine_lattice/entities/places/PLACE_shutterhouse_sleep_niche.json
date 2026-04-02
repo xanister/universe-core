@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_shutterhouse_sleep_niche",
+  "label": "Shutterhouse Sleep Niche",
+  "description": "Shutterhouse Sleep Niche is a compact bedroom carved from fused basalt within Terminus Shutterhouse, laid out as a recessed chamber off the residence’s narrow axial hall. A low, saltstone-lined sleeping alcove is set into the inner wall, while deep-cut niches in the basalt serve as built-in storage to minimize loose furnishings under persistent tidal stresses. Layered interior shutters and glare-baffles seal a deep-set aperture, admitting controlled terminator light while excluding mineral-laden haze. Thick partition walls hold a stable, cool temperature, and the floor is finished with polished saltstone that resists salt dust accumulation.",
+  "short_description": "recessed basalt bedroom",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "bedroom",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "door_wooden",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/the_brine_lattice/images/battles/PLACE_shutterhouse_sleep_niche.png?v=1772314322800",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 528,
+    "y": 160,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_terminus_shutterhouse",
+    "innerWidth": 608,
+    "innerHeight": 608
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/the_brine_lattice/images/places/PLACE_shutterhouse_sleep_niche.png?v=1772314372136",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

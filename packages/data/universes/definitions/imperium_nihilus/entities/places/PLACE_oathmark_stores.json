@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_oathmark_stores",
+  "label": "Oathmark Stores",
+  "description": "Oathmark Stores is a deep-vaulted warehouse cut into the lower ferrocrete terraces of the Pale Meridian Enclave, its walls ribbed with shock-bracing and void-seal gaskets set into every joint. Tiered racking rises in regimented lanes beneath lumen strips shaded for blackout discipline, while hazard chevrons and munitorum numerals fix each bay to the enclave’s ration and siege inventories. The air remains cold and dry from constant filtration, carrying the metallic tang of sealed containers and the chalky dust of packing media. Overhead rail-hooks and a recessed loading recess align the space to the enclave’s hardened transit corridors without exposing it to open streets.",
+  "short_description": "cold sealed store-vault",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "warehouse",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "small_walled_town",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/battles/PLACE_oathmark_stores.png?v=1771996478072",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 864,
+    "y": 2496,
+    "width": 48,
+    "height": 48,
+    "parent": "PLACE_pale_meridian_enclave",
+    "innerWidth": 3008,
+    "innerHeight": 3136
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/places/PLACE_oathmark_stores.png?v=1771996531412",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

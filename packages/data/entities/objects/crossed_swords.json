@@ -1,0 +1,22 @@
+{
+  "id": "crossed_swords",
+  "name": "Crossed Swords",
+  "description": "A pair of crossed steel swords mounted on the wall.",
+  "purposes": [
+    "decoration",
+    "tavern",
+    "residence"
+  ],
+  "tags": [
+    "tavern",
+    "wall"
+  ],
+  "solid": false,
+  "layer": "overhead",
+  "spriteId": "crossed_swords",
+  "materials": [
+    "iron"
+  ],
+  "tintable": false,
+  "wallVerticalOffset": -1
+}

@@ -1,0 +1,23 @@
+{
+  "id": "crossed_axes",
+  "name": "Crossed Axes",
+  "description": "A pair of crossed wooden battle axes mounted on the wall.",
+  "purposes": [
+    "decoration",
+    "tavern",
+    "residence"
+  ],
+  "tags": [
+    "tavern",
+    "wall"
+  ],
+  "solid": false,
+  "layer": "overhead",
+  "spriteId": "crossed_axes",
+  "materials": [
+    "wood",
+    "iron"
+  ],
+  "tintable": false,
+  "wallVerticalOffset": -1
+}

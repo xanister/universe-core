@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_the_hashmark_loft",
+  "label": "The Hashmark Loft",
+  "description": "The Hashmark Loft forms a compact sleeping chamber carved into The Lumen Sump’s recessed pressure-well, its matte, light-absorbing composite walls incised with precise navigation hashmarks. A narrow berth is bolted into the docking-frame geometry, with vibration baffles and sound-deadening panels continuing from the tavern’s main structure to preserve the port’s enforced quiet. Recessed guidance lamps run in low channels along the ceiling, rendering the hushlit radiance stream as slow flow-maps that serve as both illumination and timepiece. A pressure-sealed alcove of dark ceramic and plated conduits provides stowage designed for rapid decontamination and vacuum-rated durability.",
+  "short_description": "quiet hushlit bedroom",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "bedroom",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "door_wooden",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/hushlight_expanse/images/battles/PLACE_the_hashmark_loft.png?v=1772313773380",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 1008,
+    "y": 160,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_the_lumen_sump",
+    "innerWidth": 544,
+    "innerHeight": 576
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/hushlight_expanse/images/places/PLACE_the_hashmark_loft.png?v=1772313825436",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

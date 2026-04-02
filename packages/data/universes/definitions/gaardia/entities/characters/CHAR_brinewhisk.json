@@ -1,0 +1,153 @@
+{
+  "id": "CHAR_brinewhisk",
+  "label": "Brinewhisk",
+  "description": "This individual is a small goblin-bodied rat, compact in the chest and hips, with bright_green skin and a blunt, wedge-shaped face. Brown eyes sit wide and low, lending a fixed, watchful stare typical of burrow vermin accustomed to torchlight and sudden noise. Black hair grows in sparse, wiry tufts along the crown and jawline, giving the head a ragged outline even at rest. The muzzle bears old abrasions and broken whisker stubs that mark repeated encounters with stonework and traps.",
+  "short_description": "goblin rat (nonbinary)",
+  "tags": [],
+  "entityType": "character",
+  "info": {
+    "purpose": "rat",
+    "aliases": [
+      "Saltwrit Rat",
+      "Brinewhisk of the Grotto"
+    ],
+    "birthdate": "1324-10-03",
+    "deathdate": null,
+    "title": null,
+    "birthPlace": "The Saltwrit Grotto",
+    "eyeColor": "brown",
+    "gender": "nonbinary",
+    "hairColor": "black",
+    "hairStyle": "unkempt",
+    "beardStyle": null,
+    "headType": "orc_male",
+    "skinTone": "bright_green",
+    "personality": "Territory-bound and food-driven, this rat relies on learned routes through cracks, drains, and salt-stained rubble, avoiding open light and loud footfalls. It displays persistent scavenging behavior, returning to proven caches and gnawing points, and reacts to intrusion with sudden darting feints and sharp alarm squeaks.",
+    "race": "goblin",
+    "messages": [],
+    "journal": [],
+    "sketches": [],
+    "verbosity": 3,
+    "conversationContext": null,
+    "storytellerState": null,
+    "isPlayer": false,
+    "storyComplete": false,
+    "routine": null,
+    "vesselRoutes": null,
+    "abstractLocation": null,
+    "npcBehavior": null,
+    "physicalState": null,
+    "pendingDeparture": null,
+    "pendingArrival": null,
+    "lastRoutineCheckPeriod": null,
+    "startingNarrative": null,
+    "startingCharacterState": null,
+    "clothing": [],
+    "enabledOverlayLayers": [],
+    "helmingVesselId": null,
+    "storytellerDisabled": false,
+    "rulesetState": {
+      "stats": {
+        "poise": 50,
+        "max_poise": 50
+      },
+      "conditions": [],
+      "statUsage": {},
+      "incapacitation": null,
+      "incapacitatedSince": null
+    },
+    "voiceId": "river",
+    "spriteConfig": {
+      "bodyType": "male",
+      "layers": [
+        {
+          "type": "body",
+          "optionId": "body_base",
+          "tint": 6736964
+        },
+        {
+          "type": "body",
+          "optionId": "body_universal",
+          "tint": 6736964
+        },
+        {
+          "type": "hair",
+          "optionId": "hair_unkempt",
+          "tint": 1710618
+        }
+      ],
+      "spriteHash": "bb82b5918917dac8",
+      "spriteUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/sprites/generated/bb82b5918917dac8.png"
+    },
+    "spriteId": "rat"
+  },
+  "position": {
+    "x": 528,
+    "y": 229,
+    "width": 32,
+    "height": 48,
+    "parent": "PLACE_the_saltwrit_grotto"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/gaardia/images/characters/CHAR_brinewhisk.png?v=1772437684363",
+  "faceAnchorY": 0.32,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "talk"
+  },
+  "relationships": [
+    {
+      "targetId": "CHAR_drenic_malrow",
+      "type": "acquaintance",
+      "disposition": 0,
+      "familiarity": 40,
+      "context": "Both are territory-bound inhabitants of the Saltwrit Grotto; likely aware of each other through repeated encounters along habitual routes/caches.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_iscel_varn",
+      "type": "acquaintance",
+      "disposition": 0,
+      "familiarity": 40,
+      "context": "Shares the same grotto territory; Iscel enforces boundaries and would likely notice and react to a persistent scavenger like Brinewhisk.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_ivo_relland",
+      "type": "acquaintance",
+      "disposition": 0,
+      "familiarity": 40,
+      "context": "Both frequent narrow passages and hoarded debris within the grotto, making incidental encounters likely.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_nareth_quell",
+      "type": "acquaintance",
+      "disposition": 0,
+      "familiarity": 40,
+      "context": "Co-located in the grotto; Brinewhisk’s scavenging around markings/stones would bring it into occasional contact with Nareth’s repetitive wall-and-stone routines.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_ostel_var",
+      "type": "acquaintance",
+      "disposition": 0,
+      "familiarity": 40,
+      "context": "Same location and overlapping tunnel/ledge routes; likely mutual recognition as co-inhabitants with potential for territorial incidents.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_oswin_saltwrit",
+      "type": "acquaintance",
+      "disposition": 0,
+      "familiarity": 40,
+      "context": "Both operate within the Saltwrit Grotto’s work/cache spaces; Brinewhisk would likely have learned to avoid or shadow this task-bound undead during scavenging.",
+      "pendingGeneration": false
+    }
+  ],
+  "important": false
+}

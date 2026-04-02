@@ -1,0 +1,20 @@
+{
+  "id": "open_book",
+  "name": "Open Book",
+  "description": "An open book with visible text on its pages.",
+  "purposes": [
+    "decoration",
+    "surface_item"
+  ],
+  "tags": [
+    "common",
+    "writing"
+  ],
+  "solid": false,
+  "layer": "default",
+  "spriteId": "open_book",
+  "materials": [
+    "paper"
+  ],
+  "tintable": false
+}

@@ -1,0 +1,24 @@
+{
+  "id": "trophy_wolf",
+  "name": "Wolf Trophy",
+  "description": "A mounted wolf head on a wooden shield plaque.",
+  "purposes": [
+    "decoration",
+    "tavern",
+    "residence"
+  ],
+  "tags": [
+    "tavern",
+    "wall"
+  ],
+  "solid": false,
+  "layer": "overhead",
+  "spriteId": "trophy_wolf",
+  "materials": [
+    "wood",
+    "leather",
+    "bone"
+  ],
+  "tintable": false,
+  "wallVerticalOffset": -1
+}

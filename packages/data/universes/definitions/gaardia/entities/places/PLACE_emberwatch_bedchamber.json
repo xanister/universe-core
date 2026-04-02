@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_emberwatch_bedchamber",
+  "label": "Emberwatch Bedchamber",
+  "description": "Emberwatch Bedchamber occupies the upper story of the rowhouse, its walls of blackened brick tied with iron straps that stiffen the narrow structure against the reinforced ancient wall. A slit window toward the ruinfield is set with a hinged shutter and wire screen, mirroring Cindervale’s quarantine postings and breach-ordinances. Built-in wall cupboards and a low trunk-recess reduce clutter for muster readiness, while a charter plaque above the lintel records household obligations to watch and toll. A riveted flue chase runs along the inner wall, carrying heat and smoke control in accordance with the city’s emergency law.",
+  "short_description": "spare fortified bedroom",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "bedroom",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "door_wooden",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/gaardia/images/battles/PLACE_emberwatch_bedchamber.png?v=1772416795172",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 144,
+    "y": 160,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_emberwatch_rowhouse",
+    "innerWidth": 576,
+    "innerHeight": 608
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/gaardia/images/places/PLACE_emberwatch_bedchamber.png?v=1772416844872",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

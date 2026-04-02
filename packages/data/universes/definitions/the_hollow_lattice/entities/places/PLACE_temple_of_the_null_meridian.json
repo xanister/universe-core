@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_temple_of_the_null_meridian",
+  "label": "Temple of the Null Meridian",
+  "description": "The Temple of the Null Meridian occupies a wedge-cut hollow between two glare corridors of Kharion Meridian Confluence, where engineered shadow is held in permanent, absolute register. Its interior is built from black crystalline strata lifted from the city’s fracture-belt plaza and polished to mirrorless finish, absorbing radiance rather than refracting it. A grid of razor-straight aisles aligns to the planet’s fixed meridian bands, converging on a faceted altar stone incised with lattice geometry that measures angle, interval, and boundary as sacred law. Overhead, laminar sky-sheets are admitted through slit apertures, casting immobile planes of dimness that render time legible only by the shift of color at the temple’s threshold.",
+  "short_description": "shadow-bound prism temple",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "temple",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "world_map_temple",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/the_hollow_lattice/images/battles/PLACE_temple_of_the_null_meridian.png?v=1772314229978",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 368,
+    "y": 1152,
+    "width": 96,
+    "height": 96,
+    "parent": "PLACE_kharion_meridian_confluence",
+    "innerWidth": 2624,
+    "innerHeight": 6080
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/the_hollow_lattice/images/places/PLACE_temple_of_the_null_meridian.png?v=1772314280806",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

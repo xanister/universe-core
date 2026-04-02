@@ -1,0 +1,16 @@
+{
+  "id": "EVENT_visited_anslem_1772437944569",
+  "date": "07.01.11 4A 15:23",
+  "placeId": "PLACE_anslem",
+  "important": false,
+  "importanceScore": null,
+  "scope": null,
+  "relevantPlaceIds": null,
+  "eventType": "location_visited",
+  "category": "world",
+  "subject": "Anslem",
+  "subjectId": "PLACE_anslem",
+  "fact": "Visited Anslem",
+  "significance": "minor",
+  "witnessIds": null
+}

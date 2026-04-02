@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_gleamweld_atelier",
+  "label": "Gleamweld Atelier",
+  "description": "Gleamweld Atelier is a narrow, vault-roofed workshop built from faceted vitrified tile and seated over a grounded gutter run that bleeds electrostatic charge from Lacrymara’s glass dust. Its benches are set around a central weldstone dais where calibrated radiance bands are refracted through prisms to heat and fuse silicate alloys without open flame. Wall niches hold lensing jigs and scored ceramic forms, while the floor is cut with shallow channels that carry glittering runoff into sealed cistern mouths. The interior light remains copper-white and strictly measured, preserved by shuttered slats aligned to Seamglass Meridian’s seam-lines.",
+  "short_description": "radiance welding shop",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "workshop",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "building_shop",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/hushlight_expanse/images/battles/PLACE_gleamweld_atelier.png?v=1772314337069",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 2640,
+    "y": 448,
+    "width": 160,
+    "height": 256,
+    "parent": "PLACE_seamglass_meridian",
+    "innerWidth": 1056,
+    "innerHeight": 1120
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/hushlight_expanse/images/places/PLACE_gleamweld_atelier.png?v=1772314388971",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

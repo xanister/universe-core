@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_the_meridian_lapidary",
+  "label": "The Meridian Lapidary",
+  "description": "The Meridian Lapidary is a glass-vaulted workshop cut into a stepped terrace along one of the Confluence’s fixed corridors of glare. Its benches are hewn from dark crystalline strata, their inlaid rectilinear grids aligned to the city’s meridian bands for precise, repeatable measurement. Angled baffles and prismatic shutters partition the interior into calibrated wedges of radiance and absolute shadow, enabling controlled refraction work without reliance on flame or clock. Tool walls consist of faceted clamps, resonance chisels, and lens-frames mounted on tensile-line rails that hold geometry steady against the laminar sky-sheets’ shifting shear.",
+  "short_description": "calibrated glass workshop",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "workshop",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "building_shop",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/the_hollow_lattice/images/battles/PLACE_the_meridian_lapidary.png?v=1772314155087",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 2384,
+    "y": 1696,
+    "width": 160,
+    "height": 256,
+    "parent": "PLACE_kharion_meridian_confluence",
+    "innerWidth": 1632,
+    "innerHeight": 2208
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/the_hollow_lattice/images/places/PLACE_the_meridian_lapidary.png?v=1772314206654",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

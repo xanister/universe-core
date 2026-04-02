@@ -1,0 +1,55 @@
+{
+  "id": "OBJ_vespera_tertius_voidgirt_dock_gangplank_1357",
+  "label": "Gangplank",
+  "description": "A boarding ramp for vessel docking",
+  "important": false,
+  "short_description": "gangplank",
+  "tags": [
+    "ship",
+    "vessel",
+    "exit",
+    "wall"
+  ],
+  "entityType": "object",
+  "info": {
+    "purpose": "gangplank",
+    "solid": true,
+    "layer": "default",
+    "isStructural": false,
+    "material": null,
+    "tint": null,
+    "spriteConfig": {
+      "spriteId": "stool",
+      "frame": null,
+      "animationKey": null,
+      "animated": false,
+      "facing": "south"
+    },
+    "hp": null,
+    "maxHp": null,
+    "state": null,
+    "contents": null,
+    "lightSource": null,
+    "itemId": null,
+    "plotId": null
+  },
+  "position": {
+    "x": 1520,
+    "y": 1024,
+    "width": 32,
+    "height": 32,
+    "parent": "PLACE_vespera_tertius_voidgirt_dock"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "relationships": [],
+  "image": null,
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "dock_enter"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "lamp_table_wide",
+  "name": "Table Lamp (Wide Shade)",
+  "description": "A gold table lamp with a wide, flared lampshade.",
+  "purposes": [
+    "lighting"
+  ],
+  "tags": [
+    "common",
+    "furniture",
+    "lighting",
+    "bedroom"
+  ],
+  "solid": false,
+  "layer": "default",
+  "spriteId": "lamp_table_wide",
+  "materials": [
+    "metal",
+    "fabric"
+  ],
+  "tintable": false,
+  "lightSource": {
+    "radius": 80,
+    "color": "0xFFE4B5",
+    "intensity": 0.7,
+    "flicker": false,
+    "offsetX": 0,
+    "offsetY": -8
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "id": "PLACE_lenswake_bedroom",
+  "label": "Lenswake Bedroom",
+  "description": "Lenswake Bedroom serves as a sleeping alcove calibrated to the residence’s time-banded twilight, with mirrored slits set high to admit copper-white light in measured bars. Faceted vitrified tiles sheath the walls, their scored grounding channels feeding a sealed undersill cistern that arrests electrostatic glass dust before it reaches bedding. A low sleeping platform of fused silicate anchors the room, flanked by recessed niches designed to keep surfaces clear and instruments stowed flat. The ceiling carries a shallow lens-panel that refracts faultlight seam-lines into a steady, navigationally legible glow.",
+  "short_description": "lenslit sleeping alcove",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "bedroom",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "door_wooden",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 752,
+    "y": 160,
+    "width": 32,
+    "height": 32,
+    "parent": "PLACE_cisternhold_quarters"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": null,
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

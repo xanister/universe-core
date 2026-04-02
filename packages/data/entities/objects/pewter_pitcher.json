@@ -1,0 +1,20 @@
+{
+  "id": "pewter_pitcher",
+  "name": "Pewter Pitcher",
+  "description": "A tall pewter pitcher with a narrow spout.",
+  "purposes": [
+    "decoration"
+  ],
+  "tags": [
+    "common",
+    "drinkware",
+    "tavern"
+  ],
+  "solid": false,
+  "layer": "default",
+  "spriteId": "pewter_pitcher",
+  "materials": [
+    "iron"
+  ],
+  "tintable": false
+}

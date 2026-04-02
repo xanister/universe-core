@@ -1,0 +1,21 @@
+{
+  "id": "pew_carved_dark",
+  "name": "Carved Church Pew",
+  "description": "A dark wood pew with a decorative carved back panel — ornate seating for a temple or chapel.",
+  "purposes": [
+    "seating"
+  ],
+  "tags": [
+    "common",
+    "furniture",
+    "seating",
+    "temple"
+  ],
+  "solid": true,
+  "layer": "default",
+  "spriteId": "pew_carved_dark",
+  "materials": [
+    "wood"
+  ],
+  "tintable": false
+}

@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_vigilants_rest",
+  "label": "Vigilant's Rest",
+  "description": "Vigilant's Rest is a compact bedchamber cut into the Temple of the Rift-Vigil’s basalt mass, its walls faced in soot-dark stone and slagcrete ribs that mute the city’s ash-laden gales. A low sleeping dais and narrow storage niches are set beneath a ceiling of copper grounding strips, tying the room into the temple’s electrostatic bleed network. Auroraglass slit-prisms admit bruise-violet bands of light that fall in hard, unyielding angles across the vitrified floor. Vox-silencing insulation thickens the door surround, preserving the chamber as a rare pocket of controlled quiet within the relay-sanctuary.",
+  "short_description": "austere basalt bedroom",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "bedroom",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "door_wooden",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/battles/PLACE_vigilants_rest.png?v=1771972366661",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 848,
+    "y": 512,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_temple_of_the_riftvigil",
+    "innerWidth": 448,
+    "innerHeight": 448
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/places/PLACE_vigilants_rest.png?v=1771972418184",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

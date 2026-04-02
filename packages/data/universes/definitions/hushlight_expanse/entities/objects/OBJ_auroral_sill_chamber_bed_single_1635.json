@@ -1,0 +1,53 @@
+{
+  "id": "OBJ_auroral_sill_chamber_bed_single_1635",
+  "label": "Bed",
+  "description": "A single bed",
+  "important": false,
+  "short_description": "bed",
+  "tags": [
+    "common",
+    "furniture",
+    "sleeping",
+    "ship"
+  ],
+  "entityType": "object",
+  "info": {
+    "purpose": "sleeping",
+    "solid": true,
+    "layer": "default",
+    "isStructural": false,
+    "material": null,
+    "tint": null,
+    "spriteConfig": {
+      "spriteId": "bed_single",
+      "frame": null,
+      "animationKey": null,
+      "animated": false,
+      "facing": "south"
+    },
+    "hp": null,
+    "maxHp": null,
+    "state": null,
+    "contents": null,
+    "lightSource": null,
+    "itemId": null,
+    "plotId": null
+  },
+  "position": {
+    "x": 128,
+    "y": 448,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_auroral_sill_chamber"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "relationships": [],
+  "image": null,
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": null
+}

@@ -1,0 +1,53 @@
+{
+  "id": "OBJ_grounding_lattice_cell_exit_wooden_door_0498",
+  "label": "Wooden door",
+  "description": "A wooden door",
+  "important": false,
+  "short_description": "wooden door",
+  "tags": [
+    "ship",
+    "wall"
+  ],
+  "entityType": "object",
+  "info": {
+    "purpose": "exit",
+    "solid": false,
+    "layer": "default",
+    "isStructural": false,
+    "material": null,
+    "tint": null,
+    "spriteConfig": {
+      "spriteId": "door_wooden",
+      "frame": null,
+      "animationKey": null,
+      "animated": false,
+      "facing": "south"
+    },
+    "hp": null,
+    "maxHp": null,
+    "state": null,
+    "contents": null,
+    "lightSource": null,
+    "itemId": null,
+    "plotId": null
+  },
+  "position": {
+    "x": 80,
+    "y": 192,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_grounding_lattice_cell"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "relationships": [],
+  "image": null,
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  }
+}

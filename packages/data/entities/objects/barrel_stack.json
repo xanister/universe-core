@@ -1,0 +1,23 @@
+{
+  "id": "barrel_stack",
+  "name": "Stacked Barrels",
+  "description": "A small stack of wooden barrels bound together for storage.",
+  "purposes": [
+    "storage",
+    "decoration"
+  ],
+  "solid": true,
+  "layer": "default",
+  "spriteId": "barrel_stack",
+  "materials": [
+    "wood",
+    "oak",
+    "iron",
+    "rope"
+  ],
+  "tintable": false,
+  "tags": [
+    "ship",
+    "tavern"
+  ]
+}

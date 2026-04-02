@@ -1,0 +1,990 @@
+{
+  "id": "village",
+  "name": "Village",
+  "description": "A small rural settlement with roads, a central green, and roadside buildings.",
+  "purposes": [
+    "village"
+  ],
+  "spriteId": "small_walled_town",
+  "variants": [
+    {
+      "id": "A",
+      "scale": "miles",
+      "environment": {
+        "type": "exterior",
+        "hasWeather": true,
+        "temperature": {
+          "enabled": true,
+          "base": null,
+          "modifiersApply": true
+        },
+        "maxDarkness": null
+      },
+      "width": {
+        "min": 140,
+        "max": 220
+      },
+      "height": {
+        "min": 110,
+        "max": 200
+      },
+      "description": "A compact hamlet clustered around a single junction and a small green.",
+      "weight": 1,
+      "defaultBlocked": true,
+      "terrainLayers": [
+        {
+          "id": "wilds",
+          "type": "fill",
+          "tilesetId": "terrain-grass-dark",
+          "renderOrder": 0,
+          "blocking": "blocks",
+          "terrain": "forest",
+          "fill": [
+            46,
+            47,
+            48
+          ],
+          "procedural": false
+        },
+        {
+          "id": "village_land",
+          "type": "noise_patch",
+          "tilesetId": "terrain-grass",
+          "renderOrder": 0,
+          "blocking": "unblocks",
+          "terrain": "land",
+          "fill": [
+            46,
+            47,
+            48
+          ],
+          "procedural": false,
+          "shapePreset": "clearing",
+          "autotilePreset": "canonical",
+          "autotileAgainst": [
+            "wilds"
+          ],
+          "withinTerrain": null
+        },
+        {
+          "id": "roads",
+          "type": "road",
+          "tilesetId": "terrain-dirt-path",
+          "renderOrder": 1,
+          "blocking": "unblocks",
+          "terrain": "road",
+          "fill": [
+            46,
+            47,
+            48
+          ],
+          "procedural": false,
+          "autotilePreset": "canonical",
+          "autotileAgainst": [
+            "wilds"
+          ],
+          "roadWidth": 3,
+          "branchCount": 2,
+          "curvature": 0.4
+        },
+        {
+          "id": "green",
+          "type": "town_center",
+          "tilesetId": "terrain-grass",
+          "renderOrder": 2,
+          "blocking": "unblocks",
+          "terrain": "land",
+          "fill": [
+            46,
+            47,
+            48
+          ],
+          "procedural": false,
+          "autotilePreset": "canonical",
+          "autotileAgainst": [
+            "wilds"
+          ],
+          "radius": 4
+        }
+      ],
+      "slots": [
+        {
+          "purpose": "exit",
+          "positionAlgorithm": "in_wall",
+          "distribution": "even",
+          "min": 0,
+          "max": 3,
+          "nearPurpose": null,
+          "requiredTags": null,
+          "forbiddenTags": null,
+          "inheritableTags": null,
+          "slotSize": null,
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "preferDistrict": null,
+          "distributionGroup": null
+        },
+        {
+          "purpose": "decoration",
+          "positionAlgorithm": "center_floor",
+          "distribution": "random",
+          "min": 2,
+          "max": 7,
+          "nearPurpose": null,
+          "requiredTags": null,
+          "forbiddenTags": null,
+          "inheritableTags": null,
+          "slotSize": null,
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "preferDistrict": null,
+          "distributionGroup": null
+        },
+        {
+          "purpose": "table",
+          "positionAlgorithm": "road_intersection",
+          "distribution": "random",
+          "min": 1,
+          "max": 3,
+          "nearPurpose": null,
+          "requiredTags": null,
+          "forbiddenTags": null,
+          "inheritableTags": null,
+          "slotSize": null,
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "preferDistrict": null,
+          "distributionGroup": null
+        },
+        {
+          "purpose": "workspace",
+          "positionAlgorithm": "along_road",
+          "distribution": "even",
+          "min": 2,
+          "max": 4,
+          "nearPurpose": null,
+          "requiredTags": null,
+          "forbiddenTags": null,
+          "inheritableTags": null,
+          "slotSize": null,
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "preferDistrict": null,
+          "distributionGroup": null
+        },
+        {
+          "purpose": "warehouse",
+          "positionAlgorithm": "road_end",
+          "distribution": "random",
+          "min": 0,
+          "max": 2,
+          "nearPurpose": null,
+          "requiredTags": null,
+          "forbiddenTags": null,
+          "inheritableTags": [
+            "village"
+          ],
+          "slotSize": {
+            "width": 11,
+            "height": 8
+          },
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "preferDistrict": null,
+          "distributionGroup": null
+        },
+        {
+          "purpose": "temple",
+          "positionAlgorithm": "road_end",
+          "distribution": "even",
+          "min": 0,
+          "max": 1,
+          "nearPurpose": null,
+          "requiredTags": null,
+          "forbiddenTags": null,
+          "inheritableTags": [
+            "village"
+          ],
+          "slotSize": {
+            "width": 10,
+            "height": 9
+          },
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "preferDistrict": null,
+          "distributionGroup": null
+        },
+        {
+          "purpose": "workshop",
+          "positionAlgorithm": "along_road",
+          "distribution": "even",
+          "min": 1,
+          "max": 2,
+          "nearPurpose": null,
+          "requiredTags": null,
+          "forbiddenTags": null,
+          "inheritableTags": [
+            "village"
+          ],
+          "slotSize": {
+            "width": 9,
+            "height": 7
+          },
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "preferDistrict": null,
+          "distributionGroup": null
+        },
+        {
+          "purpose": "weapon_shop",
+          "positionAlgorithm": "along_road",
+          "distribution": "random",
+          "min": 0,
+          "max": 1,
+          "nearPurpose": null,
+          "requiredTags": null,
+          "forbiddenTags": null,
+          "inheritableTags": [
+            "village"
+          ],
+          "slotSize": {
+            "width": 8,
+            "height": 6
+          },
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "preferDistrict": null,
+          "distributionGroup": null
+        },
+        {
+          "purpose": "shop",
+          "positionAlgorithm": "along_road",
+          "distribution": "even",
+          "min": 1,
+          "max": 2,
+          "nearPurpose": null,
+          "requiredTags": null,
+          "forbiddenTags": null,
+          "inheritableTags": [
+            "village"
+          ],
+          "slotSize": {
+            "width": 7,
+            "height": 6
+          },
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "preferDistrict": null,
+          "distributionGroup": null
+        },
+        {
+          "purpose": "tavern",
+          "positionAlgorithm": "road_intersection",
+          "distribution": "even",
+          "min": 1,
+          "max": 1,
+          "nearPurpose": null,
+          "requiredTags": null,
+          "forbiddenTags": null,
+          "inheritableTags": [
+            "village"
+          ],
+          "slotSize": {
+            "width": 9,
+            "height": 8
+          },
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "preferDistrict": null,
+          "distributionGroup": null
+        },
+        {
+          "purpose": "residence",
+          "positionAlgorithm": "along_road",
+          "distribution": "random",
+          "min": 8,
+          "max": 14,
+          "nearPurpose": null,
+          "requiredTags": null,
+          "forbiddenTags": null,
+          "inheritableTags": [
+            "village"
+          ],
+          "slotSize": {
+            "width": 6,
+            "height": 6
+          },
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "preferDistrict": null,
+          "distributionGroup": null
+        },
+        {
+          "purpose": "seating",
+          "positionAlgorithm": "near_slot",
+          "distribution": "clumped",
+          "min": 2,
+          "max": 10,
+          "nearPurpose": "table",
+          "requiredTags": null,
+          "forbiddenTags": null,
+          "inheritableTags": null,
+          "slotSize": null,
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "preferDistrict": null,
+          "distributionGroup": null
+        },
+        {
+          "purpose": "merchant",
+          "positionAlgorithm": "near_slot",
+          "distribution": "even",
+          "min": 1,
+          "max": 3,
+          "nearPurpose": "workspace",
+          "requiredTags": null,
+          "forbiddenTags": null,
+          "inheritableTags": null,
+          "slotSize": null,
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "preferDistrict": null,
+          "distributionGroup": null
+        },
+        {
+          "purpose": "guard",
+          "positionAlgorithm": "near_slot",
+          "distribution": "even",
+          "min": 1,
+          "max": 3,
+          "nearPurpose": "exit",
+          "requiredTags": null,
+          "forbiddenTags": null,
+          "inheritableTags": null,
+          "slotSize": null,
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "preferDistrict": null,
+          "distributionGroup": null
+        },
+        {
+          "purpose": "storage",
+          "positionAlgorithm": "near_slot",
+          "distribution": "clumped",
+          "min": 0,
+          "max": 3,
+          "nearPurpose": "workshop",
+          "requiredTags": null,
+          "forbiddenTags": null,
+          "inheritableTags": null,
+          "slotSize": null,
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "preferDistrict": null,
+          "distributionGroup": null
+        },
+        {
+          "purpose": "lighting",
+          "positionAlgorithm": "along_road",
+          "distribution": "even",
+          "min": 2,
+          "max": 6,
+          "nearPurpose": null,
+          "requiredTags": null,
+          "forbiddenTags": null,
+          "inheritableTags": null,
+          "slotSize": null,
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "preferDistrict": null,
+          "distributionGroup": null
+        },
+        {
+          "purpose": "tree",
+          "positionAlgorithm": "random_valid",
+          "distribution": "random",
+          "min": 3,
+          "max": 8,
+          "nearPurpose": null,
+          "requiredTags": null,
+          "forbiddenTags": null,
+          "inheritableTags": null,
+          "slotSize": null,
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "preferDistrict": null,
+          "distributionGroup": null
+        }
+      ]
+    },
+    {
+      "id": "B",
+      "scale": "miles",
+      "environment": {
+        "type": "exterior",
+        "hasWeather": true,
+        "temperature": {
+          "enabled": true,
+          "base": null,
+          "modifiersApply": true
+        },
+        "maxDarkness": null
+      },
+      "width": {
+        "min": 140,
+        "max": 220
+      },
+      "height": {
+        "min": 110,
+        "max": 200
+      },
+      "description": "A village with wider lanes, surrounding fields, and a larger green.",
+      "weight": 1,
+      "defaultBlocked": true,
+      "terrainLayers": [
+        {
+          "id": "wilds",
+          "type": "fill",
+          "tilesetId": "terrain-grass-dark",
+          "renderOrder": 0,
+          "blocking": "blocks",
+          "terrain": "forest",
+          "fill": [
+            46,
+            47,
+            48
+          ],
+          "procedural": false
+        },
+        {
+          "id": "village_land",
+          "type": "noise_patch",
+          "tilesetId": "terrain-grass",
+          "renderOrder": 0,
+          "blocking": "unblocks",
+          "terrain": "land",
+          "fill": [
+            46,
+            47,
+            48
+          ],
+          "procedural": false,
+          "shapePreset": "clearing",
+          "autotilePreset": "canonical",
+          "autotileAgainst": [
+            "wilds"
+          ],
+          "withinTerrain": null
+        },
+        {
+          "id": "fields",
+          "type": "noise_patch",
+          "tilesetId": "terrain-grass",
+          "renderOrder": 1,
+          "blocking": "unblocks",
+          "terrain": "land",
+          "fill": [
+            46,
+            47,
+            48
+          ],
+          "procedural": false,
+          "shapePreset": "patches",
+          "autotilePreset": "canonical",
+          "autotileAgainst": [
+            "wilds"
+          ],
+          "withinTerrain": "village_land"
+        },
+        {
+          "id": "roads",
+          "type": "road",
+          "tilesetId": "terrain-dirt-path",
+          "renderOrder": 1,
+          "blocking": "unblocks",
+          "terrain": "road",
+          "fill": [
+            46,
+            47,
+            48
+          ],
+          "procedural": false,
+          "autotilePreset": "canonical",
+          "autotileAgainst": [
+            "wilds"
+          ],
+          "roadWidth": 4,
+          "branchCount": 4,
+          "curvature": 0.55
+        },
+        {
+          "id": "green",
+          "type": "town_center",
+          "tilesetId": "terrain-grass",
+          "renderOrder": 2,
+          "blocking": "unblocks",
+          "terrain": "land",
+          "fill": [
+            46,
+            47,
+            48
+          ],
+          "procedural": false,
+          "autotilePreset": "canonical",
+          "autotileAgainst": [
+            "wilds"
+          ],
+          "radius": 5
+        }
+      ],
+      "slots": [
+        {
+          "purpose": "exit",
+          "positionAlgorithm": "in_wall",
+          "distribution": "even",
+          "min": 0,
+          "max": 3,
+          "nearPurpose": null,
+          "requiredTags": null,
+          "forbiddenTags": null,
+          "inheritableTags": null,
+          "slotSize": null,
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "preferDistrict": null,
+          "distributionGroup": null
+        },
+        {
+          "purpose": "decoration",
+          "positionAlgorithm": "center_floor",
+          "distribution": "random",
+          "min": 2,
+          "max": 7,
+          "nearPurpose": null,
+          "requiredTags": null,
+          "forbiddenTags": null,
+          "inheritableTags": null,
+          "slotSize": null,
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "preferDistrict": null,
+          "distributionGroup": null
+        },
+        {
+          "purpose": "table",
+          "positionAlgorithm": "road_intersection",
+          "distribution": "random",
+          "min": 1,
+          "max": 3,
+          "nearPurpose": null,
+          "requiredTags": null,
+          "forbiddenTags": null,
+          "inheritableTags": null,
+          "slotSize": null,
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "preferDistrict": null,
+          "distributionGroup": null
+        },
+        {
+          "purpose": "workspace",
+          "positionAlgorithm": "along_road",
+          "distribution": "even",
+          "min": 2,
+          "max": 4,
+          "nearPurpose": null,
+          "requiredTags": null,
+          "forbiddenTags": null,
+          "inheritableTags": null,
+          "slotSize": null,
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "preferDistrict": null,
+          "distributionGroup": null
+        },
+        {
+          "purpose": "warehouse",
+          "positionAlgorithm": "road_end",
+          "distribution": "random",
+          "min": 0,
+          "max": 2,
+          "nearPurpose": null,
+          "requiredTags": null,
+          "forbiddenTags": null,
+          "inheritableTags": [
+            "village"
+          ],
+          "slotSize": {
+            "width": 11,
+            "height": 8
+          },
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "preferDistrict": null,
+          "distributionGroup": null
+        },
+        {
+          "purpose": "temple",
+          "positionAlgorithm": "road_end",
+          "distribution": "even",
+          "min": 0,
+          "max": 1,
+          "nearPurpose": null,
+          "requiredTags": null,
+          "forbiddenTags": null,
+          "inheritableTags": [
+            "village"
+          ],
+          "slotSize": {
+            "width": 10,
+            "height": 9
+          },
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "preferDistrict": null,
+          "distributionGroup": null
+        },
+        {
+          "purpose": "workshop",
+          "positionAlgorithm": "along_road",
+          "distribution": "even",
+          "min": 1,
+          "max": 2,
+          "nearPurpose": null,
+          "requiredTags": null,
+          "forbiddenTags": null,
+          "inheritableTags": [
+            "village"
+          ],
+          "slotSize": {
+            "width": 9,
+            "height": 7
+          },
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "preferDistrict": null,
+          "distributionGroup": null
+        },
+        {
+          "purpose": "weapon_shop",
+          "positionAlgorithm": "along_road",
+          "distribution": "random",
+          "min": 0,
+          "max": 1,
+          "nearPurpose": null,
+          "requiredTags": null,
+          "forbiddenTags": null,
+          "inheritableTags": [
+            "village"
+          ],
+          "slotSize": {
+            "width": 8,
+            "height": 6
+          },
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "preferDistrict": null,
+          "distributionGroup": null
+        },
+        {
+          "purpose": "shop",
+          "positionAlgorithm": "along_road",
+          "distribution": "even",
+          "min": 1,
+          "max": 2,
+          "nearPurpose": null,
+          "requiredTags": null,
+          "forbiddenTags": null,
+          "inheritableTags": [
+            "village"
+          ],
+          "slotSize": {
+            "width": 7,
+            "height": 6
+          },
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "preferDistrict": null,
+          "distributionGroup": null
+        },
+        {
+          "purpose": "tavern",
+          "positionAlgorithm": "road_intersection",
+          "distribution": "even",
+          "min": 1,
+          "max": 1,
+          "nearPurpose": null,
+          "requiredTags": null,
+          "forbiddenTags": null,
+          "inheritableTags": [
+            "village"
+          ],
+          "slotSize": {
+            "width": 9,
+            "height": 8
+          },
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "preferDistrict": null,
+          "distributionGroup": null
+        },
+        {
+          "purpose": "residence",
+          "positionAlgorithm": "along_road",
+          "distribution": "random",
+          "min": 8,
+          "max": 14,
+          "nearPurpose": null,
+          "requiredTags": null,
+          "forbiddenTags": null,
+          "inheritableTags": [
+            "village"
+          ],
+          "slotSize": {
+            "width": 6,
+            "height": 6
+          },
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "preferDistrict": null,
+          "distributionGroup": null
+        },
+        {
+          "purpose": "seating",
+          "positionAlgorithm": "near_slot",
+          "distribution": "clumped",
+          "min": 2,
+          "max": 10,
+          "nearPurpose": "table",
+          "requiredTags": null,
+          "forbiddenTags": null,
+          "inheritableTags": null,
+          "slotSize": null,
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "preferDistrict": null,
+          "distributionGroup": null
+        },
+        {
+          "purpose": "merchant",
+          "positionAlgorithm": "near_slot",
+          "distribution": "even",
+          "min": 1,
+          "max": 3,
+          "nearPurpose": "workspace",
+          "requiredTags": null,
+          "forbiddenTags": null,
+          "inheritableTags": null,
+          "slotSize": null,
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "preferDistrict": null,
+          "distributionGroup": null
+        },
+        {
+          "purpose": "guard",
+          "positionAlgorithm": "near_slot",
+          "distribution": "even",
+          "min": 1,
+          "max": 3,
+          "nearPurpose": "exit",
+          "requiredTags": null,
+          "forbiddenTags": null,
+          "inheritableTags": null,
+          "slotSize": null,
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "preferDistrict": null,
+          "distributionGroup": null
+        },
+        {
+          "purpose": "storage",
+          "positionAlgorithm": "near_slot",
+          "distribution": "clumped",
+          "min": 0,
+          "max": 3,
+          "nearPurpose": "workshop",
+          "requiredTags": null,
+          "forbiddenTags": null,
+          "inheritableTags": null,
+          "slotSize": null,
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "preferDistrict": null,
+          "distributionGroup": null
+        },
+        {
+          "purpose": "lighting",
+          "positionAlgorithm": "along_road",
+          "distribution": "even",
+          "min": 2,
+          "max": 6,
+          "nearPurpose": null,
+          "requiredTags": null,
+          "forbiddenTags": null,
+          "inheritableTags": null,
+          "slotSize": null,
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "preferDistrict": null,
+          "distributionGroup": null
+        },
+        {
+          "purpose": "tree",
+          "positionAlgorithm": "random_valid",
+          "distribution": "random",
+          "min": 3,
+          "max": 8,
+          "nearPurpose": null,
+          "requiredTags": null,
+          "forbiddenTags": null,
+          "inheritableTags": null,
+          "slotSize": null,
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "preferDistrict": null,
+          "distributionGroup": null
+        }
+      ]
+    }
+  ],
+  "characterScale": 1,
+  "timeScale": 1,
+  "interactionZone": null
+}

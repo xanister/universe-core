@@ -1,0 +1,258 @@
+{
+  "id": "CHAR_severan_holt_1",
+  "label": "Severan Holt",
+  "description": "This individual is an undead remnant, reduced to a cadaverous frame with taut, pallid flesh set over prominent bone. Gray eyes remain fixed and unblinking, lending an impersonal vigilance that defines the Hollow’s restless dead. White hair hangs in long, neglect-worn lengths, exposing a jawline marked by old fractures that never properly knit. Their bearing is rigid and habitual, expressing a personality of mute persistence and site-bound hostility rather than living intent.",
+  "short_description": "undead male hollow wight",
+  "tags": [],
+  "entityType": "character",
+  "info": {
+    "purpose": "undead",
+    "aliases": [
+      "Riftmurmur Wight",
+      "Hollow Sentinel"
+    ],
+    "birthdate": "Unknown",
+    "deathdate": null,
+    "title": null,
+    "birthPlace": "",
+    "eyeColor": "gray",
+    "gender": "male",
+    "hairColor": "white",
+    "hairStyle": "long",
+    "beardStyle": null,
+    "headType": "human_male",
+    "skinTone": "light",
+    "personality": "A site-bound revenant defined by mute persistence and ritualized patrol; it responds to intrusion with tireless, joyless violence and returns to its circuits when unprovoked.",
+    "race": "human",
+    "messages": [],
+    "journal": [],
+    "sketches": [],
+    "verbosity": 3,
+    "conversationContext": null,
+    "storytellerState": null,
+    "isPlayer": false,
+    "storyComplete": false,
+    "routine": {
+      "schedule": {
+        "dawn": "work",
+        "morning": "work",
+        "afternoon": "work",
+        "evening": "work",
+        "night": "work"
+      },
+      "home": {
+        "placeId": "PLACE_riftmurmur_hollow",
+        "description": "Riftmurmur Hollow",
+        "areaHint": null
+      },
+      "work": {
+        "placeId": "PLACE_riftmurmur_hollow",
+        "description": "Riftmurmur Hollow",
+        "areaHint": null
+      },
+      "leisure": null,
+      "variance": 0.2,
+      "activities": {
+        "work": "undead_patrol"
+      }
+    },
+    "vesselRoutes": null,
+    "abstractLocation": null,
+    "npcBehavior": null,
+    "physicalState": null,
+    "pendingDeparture": null,
+    "pendingArrival": null,
+    "lastRoutineCheckPeriod": null,
+    "startingNarrative": null,
+    "startingCharacterState": null,
+    "clothing": [
+      {
+        "slot": "torso_under",
+        "itemId": "tunic",
+        "color": "#3a3a3a",
+        "contents": null
+      },
+      {
+        "slot": "torso_over",
+        "itemId": "tattercape",
+        "color": "#1a1a1a",
+        "contents": null
+      },
+      {
+        "slot": "legs",
+        "itemId": "cloth_pants",
+        "color": "#808080",
+        "contents": null
+      },
+      {
+        "slot": "feet",
+        "itemId": "boots",
+        "color": "#8b4513",
+        "contents": null
+      },
+      {
+        "slot": "hands",
+        "itemId": "cloth_gloves",
+        "color": "#1a1a1a",
+        "contents": null
+      },
+      {
+        "slot": "belt",
+        "itemId": "rope_belt",
+        "color": "#d2b48c",
+        "contents": [
+          {
+            "id": "ci_1772037940464_1u0hdo",
+            "itemId": "unarmed",
+            "name": "unarmed",
+            "description": null,
+            "type": "weapon",
+            "quantity": 1,
+            "color": null,
+            "equipSlot": "weapon",
+            "plotId": null
+          }
+        ]
+      },
+      {
+        "slot": "head",
+        "itemId": "cloth_hood",
+        "color": "#3a3a3a",
+        "contents": null
+      }
+    ],
+    "enabledOverlayLayers": [
+      "eyes",
+      "facial"
+    ],
+    "helmingVesselId": null,
+    "storytellerDisabled": false,
+    "rulesetState": {
+      "stats": {
+        "physical": 50,
+        "mental": 50,
+        "social": 50,
+        "poise": 50,
+        "max_poise": 50,
+        "bloodloss": 0,
+        "anxiety": 0,
+        "fatigue": 0,
+        "hunger": 0
+      },
+      "conditions": [],
+      "statUsage": {},
+      "incapacitation": null,
+      "incapacitatedSince": null
+    },
+    "voiceId": "brian",
+    "spriteConfig": {
+      "bodyType": "male",
+      "layers": [
+        {
+          "type": "body",
+          "optionId": "body_base",
+          "tint": 15780008
+        },
+        {
+          "type": "body",
+          "optionId": "body_universal",
+          "tint": 15780008
+        },
+        {
+          "type": "eyes",
+          "optionId": "eyes_eyes",
+          "tint": 8423560
+        },
+        {
+          "type": "legs",
+          "optionId": "legs_white_pants_male",
+          "tint": 8421504
+        },
+        {
+          "type": "feet",
+          "optionId": "feet_white_boots_male",
+          "tint": 9127187
+        },
+        {
+          "type": "hands",
+          "optionId": "hands_white_gloves_male",
+          "tint": 1710618
+        },
+        {
+          "type": "belt",
+          "optionId": "belt_wulax_belt_rope_male",
+          "tint": 13808780
+        },
+        {
+          "type": "head",
+          "optionId": "head_cloth_hood_male",
+          "tint": 3815994
+        }
+      ],
+      "spriteHash": "d4ea6c2847b9de56",
+      "spriteUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/sprites/generated/d4ea6c2847b9de56.png",
+      "spriteScale": 1
+    }
+  },
+  "position": {
+    "x": 1968,
+    "y": 912,
+    "width": 32,
+    "height": 48,
+    "parent": "PLACE_riftmurmur_hollow"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/characters/CHAR_severan_holt_1.png?v=1772038003916",
+  "faceAnchorY": 0.16,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "talk"
+  },
+  "relationships": [
+    {
+      "targetId": "CHAR_severan_dult",
+      "type": "acquaintance",
+      "disposition": 0,
+      "familiarity": 40,
+      "context": "Both are site-bound undead warders patrolling within Riftmurmur Hollow, making incidental recognition/awareness likely.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_severan_duskmar",
+      "type": "acquaintance",
+      "disposition": 0,
+      "familiarity": 40,
+      "context": "Shared location (Riftmurmur Hollow) and similar ritualized patrol behavior suggest they would have encountered one another as co-present hazards.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_severin_drahl_1",
+      "type": "acquaintance",
+      "disposition": 0,
+      "familiarity": 40,
+      "context": "Both operate as territorial boundary-keepers in Riftmurmur Hollow; repeated overlapping circuits make familiarity plausible.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_severan_holt",
+      "type": "acquaintance",
+      "disposition": 0,
+      "familiarity": 40,
+      "context": "Same entity name and description indicate this is likely the same revenant already recorded; at minimum, it would be a duplicate entry rather than a distinct relationship.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_severin_khol",
+      "type": "acquaintance",
+      "disposition": 0,
+      "familiarity": 40,
+      "context": "Shared location and near-identical 'patrol and challenge intrusion' role implies routine proximity without evidence of cooperation or hierarchy.",
+      "pendingGeneration": false
+    }
+  ],
+  "important": false
+}

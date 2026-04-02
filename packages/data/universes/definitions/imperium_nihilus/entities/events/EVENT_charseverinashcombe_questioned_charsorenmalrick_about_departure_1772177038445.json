@@ -1,0 +1,20 @@
+{
+  "id": "EVENT_charseverinashcombe_questioned_charsorenmalrick_about_departure_1772177038445",
+  "date": "999.M1 07:45",
+  "placeId": "PLACE_the_gloam_lantern",
+  "eventType": "turning_point",
+  "category": "world",
+  "subject": "The Gloam Lantern",
+  "subjectId": "PLACE_the_gloam_lantern",
+  "fact": "CHAR_severin_ashcombe questioned CHAR_soren_malrick about departure schedules at The Gloam Lantern; CHAR_alaric_morn intervened and offered a private route while unknown sweepers pressured the room for information.",
+  "significance": "major",
+  "witnessIds": [
+    "CHAR_severin_ashcombe"
+  ],
+  "important": true,
+  "importanceScore": null,
+  "scope": "local",
+  "relevantPlaceIds": [
+    "PLACE_the_gloam_lantern"
+  ]
+}

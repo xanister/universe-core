@@ -1,0 +1,19 @@
+{
+  "id": "balance_scales",
+  "name": "Balance Scales",
+  "description": "A set of metal balance scales for weighing goods.",
+  "purposes": [
+    "decoration"
+  ],
+  "tags": [
+    "common",
+    "merchant"
+  ],
+  "solid": false,
+  "layer": "default",
+  "spriteId": "balance_scales",
+  "materials": [
+    "iron"
+  ],
+  "tintable": false
+}

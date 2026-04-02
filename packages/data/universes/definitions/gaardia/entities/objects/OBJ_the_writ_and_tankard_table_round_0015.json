@@ -1,0 +1,51 @@
+{
+  "id": "OBJ_the_writ_and_tankard_table_round_0015",
+  "label": "Round Table",
+  "description": "A Round Table",
+  "important": false,
+  "short_description": "round table",
+  "tags": [
+    "common",
+    "furniture"
+  ],
+  "entityType": "object",
+  "info": {
+    "purpose": "table",
+    "solid": true,
+    "layer": "default",
+    "isStructural": false,
+    "material": null,
+    "tint": null,
+    "spriteConfig": {
+      "spriteId": "table_round",
+      "frame": null,
+      "animationKey": null,
+      "animated": false,
+      "facing": "south"
+    },
+    "hp": null,
+    "maxHp": null,
+    "state": null,
+    "contents": null,
+    "lightSource": null,
+    "itemId": null,
+    "plotId": null
+  },
+  "position": {
+    "x": 640,
+    "y": 672,
+    "width": 64,
+    "height": 64,
+    "parent": "PLACE_the_writ_and_tankard"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "relationships": [],
+  "image": null,
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": null
+}

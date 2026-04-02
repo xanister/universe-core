@@ -1,0 +1,18 @@
+{
+  "id": "cheese_wedge",
+  "name": "Cheese Wedge",
+  "description": "A wedge of yellow cheese on a dark plate.",
+  "purposes": [
+    "decoration"
+  ],
+  "tags": [
+    "common",
+    "food",
+    "tavern"
+  ],
+  "solid": false,
+  "layer": "default",
+  "spriteId": "cheese_wedge",
+  "materials": [],
+  "tintable": false
+}

@@ -1,0 +1,20 @@
+{
+  "id": "beer_mug_dark",
+  "name": "Dark Beer Mug",
+  "description": "A glass beer mug filled with dark beer.",
+  "purposes": [
+    "decoration"
+  ],
+  "tags": [
+    "common",
+    "drinkware",
+    "tavern"
+  ],
+  "solid": false,
+  "layer": "default",
+  "spriteId": "beer_mug_dark",
+  "materials": [
+    "glass"
+  ],
+  "tintable": false
+}

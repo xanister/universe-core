@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_sootlamp_sleeping_alcove",
+  "label": "Sootlamp Sleeping Alcove",
+  "description": "Sootlamp Sleeping Alcove is a narrow berth-room cut into the slagcrete mass of Sootlamp Quarters, its walls coated in vitrified sealant to resist ash infiltration. A fold-down bunk and recessed storage lockers sit flush to the surfaces, leaving a clear decontamination strip along the floor. The only illumination comes from a shielded lumen-slit that throws bruise-violet highlights across soot-dark panels and gasketed seams. A muffled ventilation grille and grit-trap housing dominate one corner, emphasizing the hab’s dependence on filtration and sealed air.",
+  "short_description": "sealed sleeping alcove",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "bedroom",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "door_wooden",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/battles/PLACE_sootlamp_sleeping_alcove.png?v=1771959153564",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 720,
+    "y": 160,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_sootlamp_quarters",
+    "innerWidth": 480,
+    "innerHeight": 448
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/places/PLACE_sootlamp_sleeping_alcove.png?v=1771959201286",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

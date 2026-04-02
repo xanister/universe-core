@@ -1,0 +1,52 @@
+{
+  "id": "OBJ_temple_of_the_riftvigil_stool_0972",
+  "label": "Stool",
+  "description": "A simple wooden stool",
+  "important": false,
+  "short_description": "stool",
+  "tags": [
+    "common",
+    "furniture",
+    "seating"
+  ],
+  "entityType": "object",
+  "info": {
+    "purpose": "seating",
+    "solid": true,
+    "layer": "default",
+    "isStructural": false,
+    "material": null,
+    "tint": null,
+    "spriteConfig": {
+      "spriteId": "stool",
+      "frame": null,
+      "animationKey": null,
+      "animated": false,
+      "facing": "north"
+    },
+    "hp": null,
+    "maxHp": null,
+    "state": null,
+    "contents": null,
+    "lightSource": null,
+    "itemId": null,
+    "plotId": null
+  },
+  "position": {
+    "x": 464,
+    "y": 1216,
+    "width": 32,
+    "height": 32,
+    "parent": "PLACE_temple_of_the_riftvigil"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "relationships": [],
+  "image": null,
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": null
+}

@@ -1,0 +1,37 @@
+{
+  "spriteId": "dresser_blonde_wood",
+  "gridWidth": 2,
+  "gridHeight": 2,
+  "tileSize": 32,
+  "tiles": [
+    {
+      "tilesetId": "furniture-blonde",
+      "srcX": 64,
+      "srcY": 288,
+      "col": 0,
+      "row": 0
+    },
+    {
+      "tilesetId": "furniture-blonde",
+      "srcX": 96,
+      "srcY": 288,
+      "col": 1,
+      "row": 0
+    },
+    {
+      "tilesetId": "furniture-blonde",
+      "srcX": 64,
+      "srcY": 320,
+      "col": 0,
+      "row": 1
+    },
+    {
+      "tilesetId": "furniture-blonde",
+      "srcX": 96,
+      "srcY": 320,
+      "col": 1,
+      "row": 1
+    }
+  ],
+  "updatedAt": "2026-03-02T19:23:47.660Z"
+}

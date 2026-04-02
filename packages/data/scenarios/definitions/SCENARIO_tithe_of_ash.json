@@ -1,0 +1,12 @@
+{
+  "id": "SCENARIO_tithe_of_ash",
+  "label": "Tithe of Ash",
+  "description": "On The Ashen Wake, a sealed crate meant for the Dockside Stores starts to throb with hymn-like static that makes teeth ache and prayers stutter. In the Gloamreach System, where astropaths go quiet and paperwork outlives people, you’re about to learn what the Imperium will forgive—so long as the tithe arrives.",
+  "backgroundImage": "https://dmnpc-media.s3.us-east-1.amazonaws.com/scenarios/images/SCENARIO_tithe_of_ash.png",
+  "universeId": "imperium_nihilus",
+  "playerStartId": "PLACE_the_ashen_wake",
+  "startingSituation": {
+    "narrative": "You ride the Ashen Wake into a basin of perpetual fallout, where the sky never decides between night and storm. Violet charge bruises the clouds overhead, and every gust drags grit like ground glass across the storm-screens. The ship’s scorched planking shudders under the strain of wind and current, iron strakes ticking as they flex, brass grounding chains hissing where they kiss the ash-slick water. Lanterns along the rail burn behind grime-thick glass, their light reduced to jaundiced halos that barely reach the high bulwarks. Somewhere ahead, a city squats in the murk—its spires only occasionally revealed when lightning peels the horizon open—promising wages, rations, and a place to sleep that isn’t a coffin-shaped bunk.\n\nYou keep your head down as the deck trembles and the air tastes of burnt metal and old prayers. In the dim, the symbols of Imperial authority cling to the vessel like barnacles—stamped seals, dog-eared litanies, a waxed tally-board of obligations that no longer match the broken routes of the Rift. Work is still work in Nihilus: hauling ash-ore, guarding a shrine’s tithe, signing on with a press-gang that calls itself a militia. The city is close enough now that you can feel it, a mass of hunger and law and superstition pulling at the ship like gravity, and you find yourself weighing the same small hope against the same large truth: in the dark half of the Imperium, employment is just another word for being used until something finally breaks.",
+    "characterState": "weary, cautious, quietly determined"
+  }
+}

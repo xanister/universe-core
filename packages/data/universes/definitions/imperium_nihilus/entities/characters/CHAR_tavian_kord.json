@@ -1,0 +1,257 @@
+{
+  "id": "CHAR_tavian_kord",
+  "label": "Tavian Kord",
+  "description": "This individual is a broad-shouldered male of early middle years, with brown eyes set beneath heavy brows that lend a habitual watchfulness to the face. Black hair is kept in a shortknot, emphasizing a square jaw and a flattened nose that shows long familiarity with close-quarters violence. Bronze skin is weathered and unevenly freckled from sustained exposure to harsh light and wind. The voice and bearing project disciplined restraint, shaped by a life spent enforcing order at fixed gates and crowded corridors.",
+  "short_description": "male enclave guard",
+  "tags": [],
+  "entityType": "character",
+  "info": {
+    "purpose": "guard",
+    "aliases": [
+      "Kord",
+      "Gate-Kord"
+    ],
+    "birthdate": "770.M41",
+    "deathdate": null,
+    "title": null,
+    "birthPlace": "Pale Meridian Enclave",
+    "eyeColor": "brown",
+    "gender": "male",
+    "hairColor": "black",
+    "hairStyle": "shortknot",
+    "beardStyle": "stubble",
+    "headType": "human_male",
+    "skinTone": "bronze",
+    "personality": "Methodical and rule-bound, he maintains strict spacing, clear lines of fire, and uncompromising control of access. He favors procedure over improvisation, speaks in clipped, formal warnings, and records names and incidents with exacting care. Loyalty is directed to the enclave’s chain of command and to the practical maintenance of public order.",
+    "race": "human",
+    "messages": [],
+    "journal": [],
+    "sketches": [],
+    "verbosity": 3,
+    "conversationContext": null,
+    "storytellerState": null,
+    "isPlayer": false,
+    "storyComplete": false,
+    "routine": {
+      "schedule": {
+        "dawn": "work",
+        "morning": "work",
+        "afternoon": "work",
+        "evening": "leisure",
+        "night": "home"
+      },
+      "home": {
+        "placeId": "PLACE_pale_meridian_enclave",
+        "description": "Pale Meridian Enclave",
+        "areaHint": null
+      },
+      "work": {
+        "placeId": "PLACE_pale_meridian_enclave",
+        "description": "Pale Meridian Enclave",
+        "areaHint": null
+      },
+      "leisure": null,
+      "variance": 0.2,
+      "activities": {
+        "work": "guard_duty"
+      }
+    },
+    "vesselRoutes": null,
+    "abstractLocation": null,
+    "npcBehavior": null,
+    "physicalState": null,
+    "pendingDeparture": null,
+    "pendingArrival": null,
+    "lastRoutineCheckPeriod": null,
+    "startingNarrative": null,
+    "startingCharacterState": null,
+    "clothing": [
+      {
+        "slot": "torso_under",
+        "itemId": "longsleeve",
+        "color": "#f5f0e8",
+        "contents": null
+      },
+      {
+        "slot": "torso_over",
+        "itemId": "leather_armor",
+        "color": "#3a3a3a",
+        "contents": null
+      },
+      {
+        "slot": "torso_top",
+        "itemId": "leather_armor_shoulders",
+        "color": "#1a1a1a",
+        "contents": null
+      },
+      {
+        "slot": "legs",
+        "itemId": "cloth_pants",
+        "color": "#8b4513",
+        "contents": null
+      },
+      {
+        "slot": "feet",
+        "itemId": "boots",
+        "color": "#1a1a1a",
+        "contents": null
+      },
+      {
+        "slot": "belt",
+        "itemId": "leather_belt",
+        "color": "#1a1a1a",
+        "contents": [
+          {
+            "id": "ci_1772037410778_bhdcd5",
+            "itemId": "iron_sword",
+            "name": "iron_sword",
+            "description": null,
+            "type": "weapon",
+            "quantity": 1,
+            "color": null,
+            "equipSlot": "weapon",
+            "plotId": null
+          }
+        ]
+      },
+      {
+        "slot": "hands",
+        "itemId": "leather_bracers",
+        "color": "#8b4513",
+        "contents": null
+      },
+      {
+        "slot": "head",
+        "itemId": "leather_cap",
+        "color": "#1a1a1a",
+        "contents": null
+      }
+    ],
+    "enabledOverlayLayers": [
+      "eyes",
+      "facial"
+    ],
+    "helmingVesselId": null,
+    "storytellerDisabled": false,
+    "rulesetState": {
+      "stats": {
+        "physical": 50,
+        "mental": 50,
+        "social": 50,
+        "poise": 50,
+        "max_poise": 50,
+        "bloodloss": 0,
+        "anxiety": 0,
+        "fatigue": 0,
+        "hunger": 0
+      },
+      "conditions": [],
+      "statUsage": {},
+      "incapacitation": null,
+      "incapacitatedSince": null
+    },
+    "voiceId": "daniel",
+    "spriteConfig": {
+      "bodyType": "male",
+      "layers": [
+        {
+          "type": "body",
+          "optionId": "body_base",
+          "tint": 11373408
+        },
+        {
+          "type": "body",
+          "optionId": "body_universal",
+          "tint": 11373408
+        },
+        {
+          "type": "eyes",
+          "optionId": "eyes_eyes",
+          "tint": 7029286
+        },
+        {
+          "type": "facial",
+          "optionId": "facial_beard",
+          "tint": 1710618
+        },
+        {
+          "type": "hair",
+          "optionId": "hair_shortknot",
+          "tint": 1710618
+        },
+        {
+          "type": "torso",
+          "optionId": "torso_white_longsleeve",
+          "tint": 16117992
+        },
+        {
+          "type": "torso",
+          "optionId": "torso_white_leather_armor_male",
+          "tint": 3815994
+        },
+        {
+          "type": "torso",
+          "optionId": "torso_wulax_leather_armor_shoulders_male",
+          "tint": 1710618
+        },
+        {
+          "type": "legs",
+          "optionId": "legs_white_pants_male",
+          "tint": 9127187
+        },
+        {
+          "type": "feet",
+          "optionId": "feet_white_boots_male",
+          "tint": 1710618
+        },
+        {
+          "type": "belt",
+          "optionId": "belt_leather_male",
+          "tint": 1710618
+        },
+        {
+          "type": "hands",
+          "optionId": "hands_leather_bracers_male",
+          "tint": 9127187
+        },
+        {
+          "type": "head",
+          "optionId": "head_leather_cap_male",
+          "tint": 1710618
+        }
+      ],
+      "spriteHash": "025fa05910b71bd6",
+      "spriteUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/sprites/generated/025fa05910b71bd6.png",
+      "spriteScale": 1
+    }
+  },
+  "position": {
+    "x": 2032,
+    "y": 848,
+    "width": 32,
+    "height": 48,
+    "parent": "PLACE_pale_meridian_enclave"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/characters/CHAR_tavian_kord.png?v=1772037471142",
+  "faceAnchorY": 0.18,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "talk"
+  },
+  "relationships": [
+    {
+      "targetId": "CHAR_sevrin_lask",
+      "type": "colleague",
+      "disposition": 10,
+      "familiarity": 50,
+      "context": "Both are regulation-minded sentries/enforcers stationed in the Pale Meridian Enclave, likely serving in the same security apparatus and operating under the same chain of command.",
+      "pendingGeneration": false
+    }
+  ],
+  "important": false
+}

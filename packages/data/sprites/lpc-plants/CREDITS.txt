@@ -1,0 +1,7 @@
+LPC Plant Repack
+Source: https://opengameart.org/content/lpc-plant-repack
+License: CC-BY-SA 3.0, GPL 3.0
+Author: William.Thompsonj (compiling work from pennomi, laetissima, C.Nilsson, Sharm, Johann C, Reemax)
+
+Attribution required for all authors compiled in this pack.
+See the original page for the full credits file.

@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_the_prismknot_asteroid",
+  "label": "The Prismknot Asteroid",
+  "description": "The Prismknot Asteroid is a metal-rich minor body embedded in the Saltglass System’s charged dust haze, its irregular mass cut by ancient impact basins and seam-like ridges of exposed nickel-iron. A skinned surface of glassy ejecta and salt-bright regolith refracts the system’s ring-scattered light into hard, shifting bands that stripe the surrounding void. Fine particulate from the prismatic rings settles into its hollows, forming pale drifts that luminesce under auroral curtains cast by nearby magnetized satellites. Charted resonance seasons bring repeated conjunction shadows that etch a stable pattern of thermal cracking across its duskward face.",
+  "short_description": "prismatic metal-rich rock",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "asteroid",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "asteroid",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/brine_lantern/images/battles/PLACE_the_prismknot_asteroid.png?v=1772314670517",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 528,
+    "y": 1920,
+    "width": 32,
+    "height": 32,
+    "parent": "PLACE_the_saltglass_system",
+    "innerWidth": 960,
+    "innerHeight": 1792
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": null,
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

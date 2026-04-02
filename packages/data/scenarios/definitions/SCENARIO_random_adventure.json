@@ -1,0 +1,15 @@
+{
+  "id": "SCENARIO_random_adventure",
+  "label": "Fate's Gambit",
+  "description": "Leave everything to chance! A completely randomized adventure where universe, character, storyteller, and starting situation are all generated fresh. Perfect for those who love surprises.",
+  "backgroundImage": "https://dmnpc-media.s3.us-east-1.amazonaws.com/scenarios/images/SCENARIO_random_adventure.png",
+  "randomize": {
+    "universe": true,
+    "character": true,
+    "storyteller": true,
+    "situation": true
+  },
+  "custom": {
+    "difficulty": "variable"
+  }
+}

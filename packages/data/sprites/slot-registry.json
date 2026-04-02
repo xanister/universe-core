@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "slots": [
+    {
+      "id": "behind_body",
+      "region": "back",
+      "subOrder": 0,
+      "container": { "capacity": 1, "allowedTypes": ["weapon"] }
+    },
+    { "id": "feet", "region": "feet", "subOrder": 0 },
+    { "id": "legs", "region": "legs", "subOrder": 0 },
+    { "id": "torso_under", "region": "torso", "subOrder": 0 },
+    { "id": "torso_mid", "region": "torso", "subOrder": 1 },
+    { "id": "torso_over", "region": "torso", "subOrder": 2 },
+    { "id": "torso_top", "region": "torso", "subOrder": 3 },
+    {
+      "id": "belt",
+      "region": "waist",
+      "subOrder": 0,
+      "container": { "capacity": 3, "allowedTypes": ["weapon", "clothing", "consumable", "generic"] }
+    },
+    { "id": "hands", "region": "hands", "subOrder": 0 },
+    { "id": "head", "region": "head", "subOrder": 0 },
+    { "id": "neck", "region": "neck", "subOrder": 0 },
+    { "id": "accessories", "region": "face", "subOrder": 0 },
+    { "id": "weapon", "region": "weapon", "subOrder": 0 }
+  ]
+}

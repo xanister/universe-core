@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_pale_meridian_enclave",
+  "label": "Pale Meridian Enclave",
+  "description": "Pale Meridian Enclave is a sealed bastion-city of Cyrenth Vale, raised in stepped ferrocrete terraces against rift-scarred escarpments and ringed by multi-tier curtain walls. Its streets run as covered causeways and vault-roofed galleries, designed for blackout conditions beneath the bruise-hued aurorae that reduce day to a cold, veiled glow. Hardened transit corridors radiate from the central keep-ward into gatehouses, ration depots, and void-shielded manufactoria blocks, forming an urban plan optimized for siege endurance. Auspex pylons and warning beacons crown the parapets, their constant presence reflecting the system’s unstable approaches and the city’s permanent state of readiness.",
+  "short_description": "sealed fortress enclave",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "city",
+    "environment": {
+      "type": "exterior",
+      "hasWeather": true,
+      "temperature": {
+        "enabled": true,
+        "base": null,
+        "modifiersApply": true
+      },
+      "maxDarkness": null
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "small_walled_town",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/battles/PLACE_pale_meridian_enclave.png?v=1771996191984",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 1184,
+    "y": 1280,
+    "width": 48,
+    "height": 48,
+    "parent": "PLACE_cyrenth_vale",
+    "innerWidth": 2560,
+    "innerHeight": 3104
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/places/PLACE_pale_meridian_enclave.png?v=1771996245931",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

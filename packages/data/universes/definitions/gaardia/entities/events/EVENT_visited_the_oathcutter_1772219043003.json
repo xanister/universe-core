@@ -1,0 +1,18 @@
+{
+  "id": "EVENT_visited_the_oathcutter_1772219043003",
+  "date": "02.01.11 4A 07:51",
+  "placeId": "PLACE_the_oathcutter",
+  "important": false,
+  "importanceScore": null,
+  "scope": null,
+  "relevantPlaceIds": null,
+  "eventType": "location_visited",
+  "category": "world",
+  "subject": "The Oathcutter",
+  "subjectId": "PLACE_the_oathcutter",
+  "fact": "Visited The Oathcutter",
+  "significance": "minor",
+  "witnessIds": [
+    "CHAR_korr_brightblade"
+  ]
+}

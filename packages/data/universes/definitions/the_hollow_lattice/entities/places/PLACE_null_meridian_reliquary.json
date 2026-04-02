@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_null_meridian_reliquary",
+  "label": "Null Meridian Reliquary",
+  "description": "The Null Meridian Reliquary is a compact storage chamber cut from the temple’s black crystalline strata and finished to a matte surface that swallows all spill of glare. Rectilinear shelving bays are machined directly into the walls, their edges beveled to the temple’s meridian angles and arranged as a strict grid that preserves orientation in absolute shadow. Seal-block plinths of faceted stone occupy the center line, each incised with lattice numerals and interval marks for inventory measured as angle and boundary. A single slit-aperture admits a fixed plane of dimness that renders the room’s contents legible by silhouette rather than reflection.",
+  "short_description": "shadowed reliquary vault",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "storage_room",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.9
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "door_wooden",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/the_hollow_lattice/images/battles/PLACE_null_meridian_reliquary.png?v=1772314296359",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 848,
+    "y": 5440,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_temple_of_the_null_meridian",
+    "innerWidth": 448,
+    "innerHeight": 672
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/the_hollow_lattice/images/places/PLACE_null_meridian_reliquary.png?v=1772314350631",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

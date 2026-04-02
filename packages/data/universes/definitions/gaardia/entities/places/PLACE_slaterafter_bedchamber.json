@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_slaterafter_bedchamber",
+  "label": "Slate-Rafter Bedchamber",
+  "description": "Slate-Rafter Bedchamber forms the enclosed sleeping room of The Surveyor's Loft, set beneath a low roof of soot-dark rafters braced by riveted iron straps. A narrow cot-frame and a lidded cedar chest occupy most of the floor, with wall-niches cut into the repaired masonry for folded linens and sealed papers. The single slit window is sunk in a deep embrasure, its stonework scored with measure-marks and smeared with the lime dust that pervades Cindervale’s survey regimen. Plaster partitions and blackened brick arches define the room’s tight geometry, giving it the disciplined austerity of a frontier administrative residence.",
+  "short_description": "austere loft bedroom",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "bedroom",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "door_wooden",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/gaardia/images/battles/PLACE_slaterafter_bedchamber.png?v=1772416810024",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 784,
+    "y": 160,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_the_surveyors_loft",
+    "innerWidth": 576,
+    "innerHeight": 608
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/gaardia/images/places/PLACE_slaterafter_bedchamber.png?v=1772416858124",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

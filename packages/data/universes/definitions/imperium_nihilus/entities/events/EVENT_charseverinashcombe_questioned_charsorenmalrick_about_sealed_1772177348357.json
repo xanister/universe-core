@@ -1,0 +1,20 @@
+{
+  "id": "EVENT_charseverinashcombe_questioned_charsorenmalrick_about_sealed_1772177348357",
+  "date": "999.M1 07:55",
+  "placeId": "PLACE_the_gloam_lantern",
+  "eventType": "turning_point",
+  "category": "world",
+  "subject": "The Gloam Lantern",
+  "subjectId": "PLACE_the_gloam_lantern",
+  "fact": "CHAR_severin_ashcombe questioned CHAR_soren_malrick about sealed dispatch; running battle erupted at The Gloam Lantern; CHAR_soren_malrick indicated sweep targets sealed dispatch and implied Ledgerhouse-associated tallymen with escorts are hunting it; CHAR_a_fatigued_deckhand_messenger confirmed hunters ask for it by mark and seal",
+  "significance": "major",
+  "witnessIds": [
+    "CHAR_severin_ashcombe"
+  ],
+  "important": true,
+  "importanceScore": null,
+  "scope": "local",
+  "relevantPlaceIds": [
+    "PLACE_the_gloam_lantern"
+  ]
+}

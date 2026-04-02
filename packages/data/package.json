@@ -1,0 +1,45 @@
+{
+  "name": "@dmnpc/data",
+  "version": "0.1.0",
+  "description": "DMNPC data directories - universes, plots, scenarios, storytellers, templates",
+  "type": "module",
+  "exports": {
+    ".": {
+      "@dmnpc-source": "./src/index.ts",
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "default": "./dist/index.js"
+    }
+  },
+  "files": [
+    "src",
+    "dist",
+    "entities",
+    "universes",
+    "plots",
+    "scenarios",
+    "storytellers",
+    "templates",
+    "sprites",
+    "objects"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run",
+    "lint": "eslint src",
+    "lint:fix": "eslint src --fix",
+    "format": "prettier --write src",
+    "format:check": "prettier --check src",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.2",
+    "@types/node": "^20.0.0",
+    "eslint": "^9.39.2",
+    "eslint-config-prettier": "^10.1.8",
+    "prettier": "^3.7.4",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.52.0",
+    "vitest": "^3.2.4"
+  }
+}

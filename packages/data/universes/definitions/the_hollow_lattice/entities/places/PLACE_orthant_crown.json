@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_orthant_crown",
+  "label": "Orthant Crown",
+  "description": "Orthant Crown forms a four-faced massif rising from Kharion Prismworld’s vitreous crust, its slopes cut into planar ramps that meet at knife-edged ridgelines. The glass-rock strata stack in rectilinear bands, refracting Vesper Node’s meridian radiance into fixed sheets of glare that slide across the faces with the planet’s disciplined light cycles. Deep along the shadowed facets, exposure seams open into black crystalline clefts aligned to the Hollow Lattice geometry, their angles repeating the void-channel cell lines. The summit resolves into a hard, prismatic cap that throws a persistent auroral halo into the laminar air-sheets above.",
+  "short_description": "four-faced prismatic peak",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "mountain",
+    "environment": {
+      "type": "exterior",
+      "hasWeather": true,
+      "temperature": {
+        "enabled": true,
+        "base": null,
+        "modifiersApply": true
+      },
+      "maxDarkness": null
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "world_map_mountain",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/the_hollow_lattice/images/battles/PLACE_orthant_crown.png?v=1772314253868",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 2480,
+    "y": 640,
+    "width": 96,
+    "height": 96,
+    "parent": "PLACE_kharion_prismworld",
+    "innerWidth": 5248,
+    "innerHeight": 3520
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/the_hollow_lattice/images/places/PLACE_orthant_crown.png?v=1772314305395",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

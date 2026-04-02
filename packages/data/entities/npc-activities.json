@@ -1,0 +1,98 @@
+{
+  "version": "1.0.0",
+  "activities": [
+    {
+      "id": "shopkeeping",
+      "name": "Shopkeeping",
+      "steps": [
+        { "targetPurpose": "workspace", "dwellMin": 30000, "dwellMax": 90000, "weight": 5 },
+        { "targetPurpose": "storage", "dwellMin": 10000, "dwellMax": 30000, "weight": 2 },
+        { "targetPurpose": "_wander", "dwellMin": 5000, "dwellMax": 15000, "weight": 1 }
+      ]
+    },
+    {
+      "id": "tavern_work",
+      "name": "Tavern Work",
+      "steps": [
+        { "targetPurpose": "workspace", "dwellMin": 15000, "dwellMax": 45000, "weight": 5 },
+        { "targetPurpose": "table", "dwellMin": 20000, "dwellMax": 60000, "weight": 3 },
+        { "targetPurpose": "storage", "dwellMin": 10000, "dwellMax": 20000, "weight": 1 },
+        { "targetPurpose": "_wander", "dwellMin": 5000, "dwellMax": 15000, "weight": 1 }
+      ]
+    },
+    {
+      "id": "tavern_leisure",
+      "name": "Tavern Leisure",
+      "steps": [
+        { "targetPurpose": "seating", "dwellMin": 30000, "dwellMax": 120000, "weight": 5 },
+        { "targetPurpose": "heating", "dwellMin": 15000, "dwellMax": 45000, "weight": 2 },
+        { "targetPurpose": "_wander", "dwellMin": 5000, "dwellMax": 20000, "weight": 1 }
+      ]
+    },
+    {
+      "id": "home_rest",
+      "name": "Home Rest",
+      "steps": [
+        { "targetPurpose": "sleeping", "dwellMin": 60000, "dwellMax": 180000, "weight": 5 },
+        { "targetPurpose": "seating", "dwellMin": 20000, "dwellMax": 60000, "weight": 3 },
+        { "targetPurpose": "heating", "dwellMin": 15000, "dwellMax": 45000, "weight": 1 }
+      ]
+    },
+    {
+      "id": "worship_lead",
+      "name": "Lead Worship",
+      "steps": [
+        { "targetPurpose": "anchor", "dwellMin": 30000, "dwellMax": 90000, "weight": 5 },
+        { "targetPurpose": "decoration", "dwellMin": 10000, "dwellMax": 30000, "weight": 2 },
+        { "targetPurpose": "_wander", "dwellMin": 5000, "dwellMax": 15000, "weight": 1 }
+      ]
+    },
+    {
+      "id": "guard_duty",
+      "name": "Guard Duty",
+      "steps": [
+        { "targetPurpose": "exit", "dwellMin": 30000, "dwellMax": 90000, "weight": 5 },
+        { "targetPurpose": "_wander", "dwellMin": 10000, "dwellMax": 30000, "weight": 3 }
+      ]
+    },
+    {
+      "id": "work_general",
+      "name": "General Work",
+      "steps": [
+        { "targetPurpose": "workspace", "dwellMin": 30000, "dwellMax": 90000, "weight": 5 },
+        { "targetPurpose": "_wander", "dwellMin": 10000, "dwellMax": 30000, "weight": 2 }
+      ]
+    },
+    {
+      "id": "leisure_general",
+      "name": "General Leisure",
+      "steps": [
+        { "targetPurpose": "seating", "dwellMin": 20000, "dwellMax": 90000, "weight": 5 },
+        { "targetPurpose": "decoration", "dwellMin": 10000, "dwellMax": 30000, "weight": 1 },
+        { "targetPurpose": "_wander", "dwellMin": 10000, "dwellMax": 30000, "weight": 3 }
+      ]
+    },
+    {
+      "id": "vessel_work",
+      "name": "Vessel Duty",
+      "steps": [
+        { "targetPurpose": "vessel_helm", "dwellMin": 30000, "dwellMax": 90000, "weight": 5 },
+        { "targetPurpose": "_wander", "dwellMin": 10000, "dwellMax": 30000, "weight": 2 }
+      ]
+    },
+    {
+      "id": "undead_patrol",
+      "name": "Undead Patrol",
+      "steps": [
+        { "targetPurpose": "_wander", "dwellMin": 2000, "dwellMax": 4000, "weight": 5 }
+      ]
+    },
+    {
+      "id": "rat_wander",
+      "name": "Rat Wander",
+      "steps": [
+        { "targetPurpose": "_wander", "dwellMin": 500, "dwellMax": 1500, "weight": 5 }
+      ]
+    }
+  ]
+}

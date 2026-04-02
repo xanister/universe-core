@@ -1,0 +1,20 @@
+{
+  "id": "chess_board",
+  "name": "Chess Board",
+  "description": "A chess or checkers set in a wooden frame.",
+  "purposes": [
+    "decoration"
+  ],
+  "tags": [
+    "common",
+    "entertainment",
+    "tavern"
+  ],
+  "solid": false,
+  "layer": "default",
+  "spriteId": "chess_board",
+  "materials": [
+    "wood"
+  ],
+  "tintable": false
+}

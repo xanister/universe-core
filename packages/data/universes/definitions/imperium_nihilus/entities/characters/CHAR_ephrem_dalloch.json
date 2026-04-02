@@ -1,0 +1,255 @@
+{
+  "id": "CHAR_ephrem_dalloch",
+  "label": "Ephrem Dalloch",
+  "description": "This individual is an animated human corpse, its light skin drawn tight over prominent cheekbones and a narrow jaw. Gray eyes sit deep in shadowed sockets, while black hair hangs in long, uneven lengths that expose patches of scalp worn bare by decay. The mouth is fixed in a slight, involuntary gape that reveals darkened teeth, and the hands show stiffened tendons and blunt, split nails. Its movements follow rigid, repetitive patterns typical of the dead that continue to obey a remembered routine.",
+  "short_description": "undead male warden",
+  "tags": [],
+  "entityType": "character",
+  "info": {
+    "purpose": "undead",
+    "aliases": [
+      "The Hollow Warden",
+      "Glass-Eyed Dead"
+    ],
+    "birthdate": "Unknown",
+    "deathdate": null,
+    "title": null,
+    "birthPlace": "Glasseam Hollow",
+    "eyeColor": "gray",
+    "gender": "male",
+    "hairColor": "black",
+    "hairStyle": "long",
+    "beardStyle": null,
+    "headType": "human_male",
+    "skinTone": "light",
+    "personality": "A taciturn, ritual-bound revenant that clings to rote duties and familiar paths, responding to intrusion with methodical persistence rather than rage. It communicates through silence and gesture, displaying a fixed attention to thresholds, doorways, and boundary markers within Glasseam Hollow.",
+    "race": "human",
+    "messages": [],
+    "journal": [],
+    "sketches": [],
+    "verbosity": 3,
+    "conversationContext": null,
+    "storytellerState": null,
+    "isPlayer": false,
+    "storyComplete": false,
+    "routine": {
+      "schedule": {
+        "dawn": "work",
+        "morning": "work",
+        "afternoon": "work",
+        "evening": "work",
+        "night": "work"
+      },
+      "home": {
+        "placeId": "PLACE_glasseam_hollow",
+        "description": "Glasseam Hollow",
+        "areaHint": null
+      },
+      "work": {
+        "placeId": "PLACE_glasseam_hollow",
+        "description": "Glasseam Hollow",
+        "areaHint": null
+      },
+      "leisure": null,
+      "variance": 0.2,
+      "activities": {
+        "work": "undead_patrol"
+      }
+    },
+    "vesselRoutes": null,
+    "abstractLocation": null,
+    "npcBehavior": null,
+    "physicalState": null,
+    "pendingDeparture": null,
+    "pendingArrival": null,
+    "lastRoutineCheckPeriod": null,
+    "startingNarrative": null,
+    "startingCharacterState": null,
+    "clothing": [
+      {
+        "slot": "torso_under",
+        "itemId": "tunic",
+        "color": "#3a3a3a",
+        "contents": null
+      },
+      {
+        "slot": "torso_over",
+        "itemId": "trenchcoat",
+        "color": "#1a1a1a",
+        "contents": null
+      },
+      {
+        "slot": "legs",
+        "itemId": "cloth_pants",
+        "color": "#808080",
+        "contents": null
+      },
+      {
+        "slot": "feet",
+        "itemId": "boots",
+        "color": "#8b4513",
+        "contents": null
+      },
+      {
+        "slot": "hands",
+        "itemId": "cloth_gloves",
+        "color": "#1a1a1a",
+        "contents": null
+      },
+      {
+        "slot": "head",
+        "itemId": "cloth_hood",
+        "color": "#3a3a3a",
+        "contents": null
+      },
+      {
+        "slot": "belt",
+        "itemId": "rope_belt",
+        "color": "#d2b48c",
+        "contents": [
+          {
+            "id": "ci_1771953550707_fb92ew",
+            "itemId": "unarmed",
+            "name": "unarmed",
+            "description": null,
+            "type": "weapon",
+            "quantity": 1,
+            "color": null,
+            "equipSlot": "weapon",
+            "plotId": null
+          }
+        ]
+      }
+    ],
+    "enabledOverlayLayers": [
+      "eyes",
+      "facial"
+    ],
+    "helmingVesselId": null,
+    "storytellerDisabled": false,
+    "rulesetState": {
+      "stats": {
+        "physical": 50,
+        "mental": 50,
+        "social": 50,
+        "poise": 50,
+        "max_poise": 50,
+        "bloodloss": 0,
+        "anxiety": 0,
+        "fatigue": 0,
+        "hunger": 0
+      },
+      "conditions": [],
+      "statUsage": {},
+      "incapacitation": null,
+      "incapacitatedSince": null
+    },
+    "voiceId": "brian",
+    "spriteConfig": {
+      "bodyType": "male",
+      "layers": [
+        {
+          "type": "body",
+          "optionId": "body_base",
+          "tint": 15780008
+        },
+        {
+          "type": "body",
+          "optionId": "body_universal",
+          "tint": 15780008
+        },
+        {
+          "type": "eyes",
+          "optionId": "eyes_eyes",
+          "tint": 8423560
+        },
+        {
+          "type": "torso",
+          "optionId": "torso_formal_trenchcoat_male",
+          "tint": 1710618
+        },
+        {
+          "type": "legs",
+          "optionId": "legs_white_pants_male",
+          "tint": 8421504
+        },
+        {
+          "type": "feet",
+          "optionId": "feet_white_boots_male",
+          "tint": 9127187
+        },
+        {
+          "type": "hands",
+          "optionId": "hands_white_gloves_male",
+          "tint": 1710618
+        },
+        {
+          "type": "head",
+          "optionId": "head_cloth_hood_male",
+          "tint": 3815994
+        },
+        {
+          "type": "belt",
+          "optionId": "belt_wulax_belt_rope_male",
+          "tint": 13808780
+        }
+      ],
+      "spriteHash": "e8bf3ff6d67f7adc",
+      "spriteUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/sprites/generated/e8bf3ff6d67f7adc.png",
+      "spriteScale": 1
+    }
+  },
+  "position": {
+    "x": 757,
+    "y": 612,
+    "width": 32,
+    "height": 48,
+    "parent": "PLACE_glasseam_hollow"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/characters/CHAR_ephrem_dalloch.png?v=1771953606296",
+  "faceAnchorY": 0.17,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "talk"
+  },
+  "relationships": [
+    {
+      "targetId": "CHAR_hestian_krail",
+      "type": "colleague",
+      "disposition": 10,
+      "familiarity": 50,
+      "context": "Both are ritual-bound enforcers of thresholds/boundaries in Glasseam Hollow and likely operate as part of the same dead customs/guard routines.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_sable_garron",
+      "type": "colleague",
+      "disposition": 10,
+      "familiarity": 50,
+      "context": "Both follow rote duties and familiar routes in Glasseam Hollow, suggesting parallel roles as undead custodial/guard figures.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_neralis_gault",
+      "type": "colleague",
+      "disposition": 10,
+      "familiarity": 50,
+      "context": "Ephrem’s boundary/threshold fixation aligns with Neralis’s custodial ordering of the dead; likely coordinated in maintaining Glasseam Hollow’s funerary rules.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_sythren_korr",
+      "type": "colleague",
+      "disposition": 10,
+      "familiarity": 50,
+      "context": "Both patrol familiar paths as territorial guardians in Glasseam Hollow, making a shared-function working relationship plausible.",
+      "pendingGeneration": false
+    }
+  ],
+  "important": false
+}

@@ -1,0 +1,892 @@
+{
+  "id": "beach",
+  "name": "Beach",
+  "description": "A sandy shoreline where land meets the sea, with driftwood, dunes, and the occasional small dock or camp setup.",
+  "purposes": [
+    "lake"
+  ],
+  "spriteId": "world_map_pond",
+  "variants": [
+    {
+      "id": "A",
+      "scale": "miles",
+      "environment": {
+        "type": "exterior",
+        "hasWeather": true,
+        "temperature": {
+          "enabled": true,
+          "base": null,
+          "modifiersApply": true
+        }
+      },
+      "width": {
+        "min": 90,
+        "max": 140
+      },
+      "height": {
+        "min": 70,
+        "max": 110
+      },
+      "description": "A short stretch of shoreline with a narrow beach and gentle surf.",
+      "weight": 2,
+      "defaultBlocked": true,
+      "terrainLayers": [
+        {
+          "id": "ocean",
+          "type": "fill",
+          "tilesetId": "terrain-ocean",
+          "renderOrder": 0,
+          "blocking": "blocks",
+          "terrain": "water",
+          "fill": [
+            46,
+            47,
+            48
+          ],
+          "procedural": false
+        },
+        {
+          "id": "coast_sand",
+          "type": "coastline",
+          "tilesetId": "terrain-beach",
+          "renderOrder": 1,
+          "blocking": "unblocks",
+          "terrain": "land",
+          "fill": [
+            46,
+            47,
+            48
+          ],
+          "procedural": false,
+          "autotilePreset": "canonical",
+          "autotileAgainst": null,
+          "sourceLayerId": "ocean",
+          "beachWidth": 2
+        },
+        {
+          "id": "backshore_grass",
+          "type": "noise_patch",
+          "tilesetId": "terrain-grass",
+          "renderOrder": 2,
+          "blocking": "unblocks",
+          "terrain": "land",
+          "fill": [
+            46,
+            47,
+            48
+          ],
+          "procedural": false,
+          "shapePreset": "patches",
+          "autotilePreset": "canonical",
+          "autotileAgainst": [
+            "ocean"
+          ],
+          "withinTerrain": null
+        },
+        {
+          "id": "shore_path",
+          "type": "path",
+          "tilesetId": "terrain-dirt-path",
+          "renderOrder": 1,
+          "blocking": "unblocks",
+          "terrain": "road",
+          "fill": [
+            46,
+            47,
+            48
+          ],
+          "procedural": false,
+          "autotilePreset": "canonical",
+          "autotileAgainst": [
+            "ocean"
+          ],
+          "avoidLayerIds": [
+            "ocean"
+          ],
+          "curvature": 0.5
+        }
+      ],
+      "slots": [
+        {
+          "purpose": "exit",
+          "positionAlgorithm": "in_wall",
+          "distribution": "even",
+          "min": 0,
+          "max": 1,
+          "nearPurpose": null,
+          "requiredTags": null,
+          "forbiddenTags": null,
+          "inheritableTags": null,
+          "slotSize": null,
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "preferDistrict": null,
+          "distributionGroup": null
+        },
+        {
+          "purpose": "anchor",
+          "positionAlgorithm": "on_coast",
+          "distribution": "random",
+          "min": 0,
+          "max": 2,
+          "nearPurpose": null,
+          "requiredTags": null,
+          "forbiddenTags": null,
+          "inheritableTags": null,
+          "slotSize": null,
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "preferDistrict": null,
+          "distributionGroup": null
+        },
+        {
+          "purpose": "decoration",
+          "positionAlgorithm": "random_valid",
+          "distribution": "even",
+          "min": 0,
+          "max": 6,
+          "nearPurpose": null,
+          "requiredTags": null,
+          "forbiddenTags": null,
+          "inheritableTags": null,
+          "slotSize": null,
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "preferDistrict": null,
+          "distributionGroup": null
+        },
+        {
+          "purpose": "decoration",
+          "positionAlgorithm": "on_coast",
+          "distribution": "clumped",
+          "min": 2,
+          "max": 8,
+          "nearPurpose": null,
+          "requiredTags": null,
+          "forbiddenTags": null,
+          "inheritableTags": null,
+          "slotSize": null,
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "preferDistrict": null,
+          "distributionGroup": null
+        },
+        {
+          "purpose": "harbor",
+          "positionAlgorithm": "on_coast",
+          "distribution": "random",
+          "min": 0,
+          "max": 1,
+          "nearPurpose": null,
+          "requiredTags": null,
+          "forbiddenTags": null,
+          "inheritableTags": [
+            "harbor"
+          ],
+          "slotSize": {
+            "width": 4,
+            "height": 3
+          },
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "preferDistrict": null,
+          "distributionGroup": null
+        },
+        {
+          "purpose": "seating",
+          "positionAlgorithm": "near_slot",
+          "distribution": "even",
+          "min": 0,
+          "max": 3,
+          "nearPurpose": "anchor",
+          "requiredTags": null,
+          "forbiddenTags": null,
+          "inheritableTags": null,
+          "slotSize": null,
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "preferDistrict": null,
+          "distributionGroup": null
+        }
+      ]
+    },
+    {
+      "id": "B",
+      "scale": "miles",
+      "environment": {
+        "type": "exterior",
+        "hasWeather": true,
+        "temperature": {
+          "enabled": true,
+          "base": null,
+          "modifiersApply": true
+        }
+      },
+      "width": {
+        "min": 140,
+        "max": 220
+      },
+      "height": {
+        "min": 110,
+        "max": 180
+      },
+      "description": "A broad shoreline with dunes, driftwood clusters, and a small coastal camp.",
+      "weight": 3,
+      "defaultBlocked": true,
+      "terrainLayers": [
+        {
+          "id": "ocean",
+          "type": "fill",
+          "tilesetId": "terrain-ocean",
+          "renderOrder": 0,
+          "blocking": "blocks",
+          "terrain": "water",
+          "fill": [
+            46,
+            47,
+            48
+          ],
+          "procedural": false
+        },
+        {
+          "id": "coast_sand",
+          "type": "coastline",
+          "tilesetId": "terrain-beach",
+          "renderOrder": 1,
+          "blocking": "unblocks",
+          "terrain": "land",
+          "fill": [
+            46,
+            47,
+            48
+          ],
+          "procedural": false,
+          "autotilePreset": "canonical",
+          "autotileAgainst": null,
+          "sourceLayerId": "ocean",
+          "beachWidth": 3
+        },
+        {
+          "id": "dune_grass",
+          "type": "noise_patch",
+          "tilesetId": "terrain-grass",
+          "renderOrder": 2,
+          "blocking": "unblocks",
+          "terrain": "land",
+          "fill": [
+            46,
+            47,
+            48
+          ],
+          "procedural": false,
+          "shapePreset": "continent",
+          "autotilePreset": "canonical",
+          "autotileAgainst": [
+            "ocean"
+          ],
+          "withinTerrain": null
+        },
+        {
+          "id": "shore_road",
+          "type": "road",
+          "tilesetId": "terrain-dirt-path",
+          "renderOrder": 1,
+          "blocking": "unblocks",
+          "terrain": "road",
+          "fill": [
+            46,
+            47,
+            48
+          ],
+          "procedural": false,
+          "autotilePreset": "canonical",
+          "autotileAgainst": [
+            "ocean"
+          ],
+          "avoidLayerIds": [
+            "ocean"
+          ],
+          "roadWidth": 3,
+          "branchCount": 2,
+          "curvature": 0.45
+        },
+        {
+          "id": "camp_center",
+          "type": "town_center",
+          "tilesetId": "terrain-cobble-tan",
+          "renderOrder": 2,
+          "blocking": "unblocks",
+          "terrain": "road",
+          "fill": [
+            46,
+            47,
+            48
+          ],
+          "procedural": false,
+          "autotilePreset": "canonical",
+          "autotileAgainst": [
+            "ocean"
+          ],
+          "radius": 4
+        }
+      ],
+      "slots": [
+        {
+          "purpose": "exit",
+          "positionAlgorithm": "in_wall",
+          "distribution": "even",
+          "min": 0,
+          "max": 1,
+          "nearPurpose": null,
+          "requiredTags": null,
+          "forbiddenTags": null,
+          "inheritableTags": null,
+          "slotSize": null,
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "preferDistrict": null,
+          "distributionGroup": null
+        },
+        {
+          "purpose": "item",
+          "positionAlgorithm": "on_coast",
+          "distribution": "random",
+          "min": 0,
+          "max": 4,
+          "nearPurpose": null,
+          "requiredTags": null,
+          "forbiddenTags": null,
+          "inheritableTags": null,
+          "slotSize": null,
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "preferDistrict": null,
+          "distributionGroup": null
+        },
+        {
+          "purpose": "decoration",
+          "positionAlgorithm": "random_valid",
+          "distribution": "even",
+          "min": 0,
+          "max": 10,
+          "nearPurpose": null,
+          "requiredTags": null,
+          "forbiddenTags": null,
+          "inheritableTags": null,
+          "slotSize": null,
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "preferDistrict": null,
+          "distributionGroup": null
+        },
+        {
+          "purpose": "decoration",
+          "positionAlgorithm": "on_coast",
+          "distribution": "clumped",
+          "min": 4,
+          "max": 14,
+          "nearPurpose": null,
+          "requiredTags": null,
+          "forbiddenTags": null,
+          "inheritableTags": null,
+          "slotSize": null,
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "preferDistrict": null,
+          "distributionGroup": null
+        },
+        {
+          "purpose": "anchor",
+          "positionAlgorithm": "road_end",
+          "distribution": "random",
+          "min": 0,
+          "max": 2,
+          "nearPurpose": null,
+          "requiredTags": null,
+          "forbiddenTags": null,
+          "inheritableTags": null,
+          "slotSize": null,
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "preferDistrict": null,
+          "distributionGroup": null
+        },
+        {
+          "purpose": "cabin",
+          "positionAlgorithm": "along_road",
+          "distribution": "random",
+          "min": 0,
+          "max": 1,
+          "nearPurpose": null,
+          "requiredTags": null,
+          "forbiddenTags": null,
+          "inheritableTags": [
+            "residence"
+          ],
+          "slotSize": {
+            "width": 6,
+            "height": 6
+          },
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "preferDistrict": null,
+          "distributionGroup": null
+        },
+        {
+          "purpose": "harbor",
+          "positionAlgorithm": "on_coast",
+          "distribution": "random",
+          "min": 0,
+          "max": 2,
+          "nearPurpose": null,
+          "requiredTags": null,
+          "forbiddenTags": null,
+          "inheritableTags": [
+            "harbor"
+          ],
+          "slotSize": {
+            "width": 5,
+            "height": 3
+          },
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "preferDistrict": null,
+          "distributionGroup": null
+        },
+        {
+          "purpose": "seating",
+          "positionAlgorithm": "near_slot",
+          "distribution": "even",
+          "min": 0,
+          "max": 4,
+          "nearPurpose": "anchor",
+          "requiredTags": null,
+          "forbiddenTags": null,
+          "inheritableTags": null,
+          "slotSize": null,
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "preferDistrict": null,
+          "distributionGroup": null
+        }
+      ]
+    },
+    {
+      "id": "C",
+      "scale": "miles",
+      "environment": {
+        "type": "exterior",
+        "hasWeather": true,
+        "temperature": {
+          "enabled": true,
+          "base": null,
+          "modifiersApply": true
+        }
+      },
+      "width": {
+        "min": 220,
+        "max": 320
+      },
+      "height": {
+        "min": 170,
+        "max": 260
+      },
+      "description": "A long coastline with multiple access paths, a larger pier area, and scattered coastal buildings.",
+      "weight": 1,
+      "defaultBlocked": true,
+      "terrainLayers": [
+        {
+          "id": "ocean",
+          "type": "fill",
+          "tilesetId": "terrain-ocean",
+          "renderOrder": 0,
+          "blocking": "blocks",
+          "terrain": "water",
+          "fill": [
+            46,
+            47,
+            48
+          ],
+          "procedural": false
+        },
+        {
+          "id": "coast_sand",
+          "type": "coastline",
+          "tilesetId": "terrain-beach",
+          "renderOrder": 1,
+          "blocking": "unblocks",
+          "terrain": "land",
+          "fill": [
+            46,
+            47,
+            48
+          ],
+          "procedural": false,
+          "autotilePreset": "canonical",
+          "autotileAgainst": null,
+          "sourceLayerId": "ocean",
+          "beachWidth": 3
+        },
+        {
+          "id": "coastal_green",
+          "type": "noise_patch",
+          "tilesetId": "terrain-grass",
+          "renderOrder": 2,
+          "blocking": "unblocks",
+          "terrain": "land",
+          "fill": [
+            46,
+            47,
+            48
+          ],
+          "procedural": false,
+          "shapePreset": "continent",
+          "autotilePreset": "canonical",
+          "autotileAgainst": [
+            "ocean"
+          ],
+          "withinTerrain": null
+        },
+        {
+          "id": "coast_road",
+          "type": "road",
+          "tilesetId": "terrain-cobble-tan",
+          "renderOrder": 1,
+          "blocking": "unblocks",
+          "terrain": "road",
+          "fill": [
+            46,
+            47,
+            48
+          ],
+          "procedural": false,
+          "autotilePreset": "canonical",
+          "autotileAgainst": [
+            "ocean"
+          ],
+          "avoidLayerIds": [
+            "ocean"
+          ],
+          "roadWidth": 4,
+          "branchCount": 4,
+          "curvature": 0.5
+        },
+        {
+          "id": "pier_square",
+          "type": "town_center",
+          "tilesetId": "terrain-cobble-tan",
+          "renderOrder": 2,
+          "blocking": "unblocks",
+          "terrain": "road",
+          "fill": [
+            46,
+            47,
+            48
+          ],
+          "procedural": false,
+          "autotilePreset": "canonical",
+          "autotileAgainst": [
+            "ocean"
+          ],
+          "radius": 5
+        }
+      ],
+      "slots": [
+        {
+          "purpose": "exit",
+          "positionAlgorithm": "in_wall",
+          "distribution": "even",
+          "min": 0,
+          "max": 1,
+          "nearPurpose": null,
+          "requiredTags": null,
+          "forbiddenTags": null,
+          "inheritableTags": null,
+          "slotSize": null,
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "preferDistrict": null,
+          "distributionGroup": null
+        },
+        {
+          "purpose": "item",
+          "positionAlgorithm": "on_coast",
+          "distribution": "random",
+          "min": 0,
+          "max": 8,
+          "nearPurpose": null,
+          "requiredTags": null,
+          "forbiddenTags": null,
+          "inheritableTags": null,
+          "slotSize": null,
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "preferDistrict": null,
+          "distributionGroup": null
+        },
+        {
+          "purpose": "decoration",
+          "positionAlgorithm": "on_coast",
+          "distribution": "clumped",
+          "min": 6,
+          "max": 22,
+          "nearPurpose": null,
+          "requiredTags": null,
+          "forbiddenTags": null,
+          "inheritableTags": null,
+          "slotSize": null,
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "preferDistrict": null,
+          "distributionGroup": null
+        },
+        {
+          "purpose": "anchor",
+          "positionAlgorithm": "road_end",
+          "distribution": "random",
+          "min": 0,
+          "max": 3,
+          "nearPurpose": null,
+          "requiredTags": null,
+          "forbiddenTags": null,
+          "inheritableTags": null,
+          "slotSize": null,
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "preferDistrict": null,
+          "distributionGroup": null
+        },
+        {
+          "purpose": "workspace",
+          "positionAlgorithm": "road_intersection",
+          "distribution": "random",
+          "min": 0,
+          "max": 2,
+          "nearPurpose": null,
+          "requiredTags": null,
+          "forbiddenTags": null,
+          "inheritableTags": null,
+          "slotSize": null,
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "preferDistrict": null,
+          "distributionGroup": null
+        },
+        {
+          "purpose": "shop",
+          "positionAlgorithm": "along_road",
+          "distribution": "random",
+          "min": 0,
+          "max": 2,
+          "nearPurpose": null,
+          "requiredTags": null,
+          "forbiddenTags": null,
+          "inheritableTags": [
+            "merchant"
+          ],
+          "slotSize": {
+            "width": 7,
+            "height": 6
+          },
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "preferDistrict": null,
+          "distributionGroup": null
+        },
+        {
+          "purpose": "warehouse",
+          "positionAlgorithm": "along_road",
+          "distribution": "random",
+          "min": 0,
+          "max": 1,
+          "nearPurpose": null,
+          "requiredTags": null,
+          "forbiddenTags": null,
+          "inheritableTags": [
+            "storage"
+          ],
+          "slotSize": {
+            "width": 8,
+            "height": 7
+          },
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "preferDistrict": null,
+          "distributionGroup": null
+        },
+        {
+          "purpose": "harbor",
+          "positionAlgorithm": "on_coast",
+          "distribution": "clumped",
+          "min": 1,
+          "max": 3,
+          "nearPurpose": null,
+          "requiredTags": null,
+          "forbiddenTags": null,
+          "inheritableTags": [
+            "harbor"
+          ],
+          "slotSize": {
+            "width": 6,
+            "height": 3
+          },
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "preferDistrict": null,
+          "distributionGroup": null
+        },
+        {
+          "purpose": "seating",
+          "positionAlgorithm": "near_slot",
+          "distribution": "even",
+          "min": 0,
+          "max": 6,
+          "nearPurpose": "anchor",
+          "requiredTags": null,
+          "forbiddenTags": null,
+          "inheritableTags": null,
+          "slotSize": null,
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "preferDistrict": null,
+          "distributionGroup": null
+        },
+        {
+          "purpose": "merchant",
+          "positionAlgorithm": "near_slot",
+          "distribution": "even",
+          "min": 0,
+          "max": 2,
+          "nearPurpose": "workspace",
+          "requiredTags": null,
+          "forbiddenTags": null,
+          "inheritableTags": null,
+          "slotSize": null,
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "preferDistrict": null,
+          "distributionGroup": null
+        },
+        {
+          "purpose": "guard",
+          "positionAlgorithm": "near_slot",
+          "distribution": "even",
+          "min": 0,
+          "max": 2,
+          "nearPurpose": "exit",
+          "requiredTags": null,
+          "forbiddenTags": null,
+          "inheritableTags": null,
+          "slotSize": null,
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "preferDistrict": null,
+          "distributionGroup": null
+        }
+      ]
+    }
+  ],
+  "characterScale": 1,
+  "timeScale": 1,
+  "interactionZone": null
+}

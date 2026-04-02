@@ -1,0 +1,45 @@
+{
+  "universeId": "the_brine_lattice",
+  "questions": [
+    {
+      "id": "CLARIFY_place-generator_identity_saltstone_sleeping_cell_place_bafflelit_sleeping_cell",
+      "providerId": "place-generator",
+      "category": "identity",
+      "question": "Do \"Saltstone Sleeping Cell\" and \"Bafflelit Sleeping Cell\" refer to the same location?",
+      "context": "A new place \"Saltstone Sleeping Cell\" was mentioned that shares similarities with existing place \"Bafflelit Sleeping Cell\". If they're the same location, the new name will be added as an alias. If one is inside the other, the hierarchy will be updated.",
+      "options": [
+        {
+          "id": "same",
+          "label": "Same place",
+          "description": "\"Saltstone Sleeping Cell\" is just another name for \"Bafflelit Sleeping Cell\""
+        },
+        {
+          "id": "different",
+          "label": "Different places",
+          "description": "These are distinct, separate locations"
+        },
+        {
+          "id": "child",
+          "label": "\"Saltstone Sleeping Cell\" is inside \"Bafflelit Sleeping Cell\"",
+          "description": "The new place is a sub-location within the existing place"
+        }
+      ],
+      "freeformAllowed": false,
+      "confidence": 0.5,
+      "currentGuess": "different",
+      "affectedEntityIds": [
+        "PLACE_bafflelit_sleeping_cell"
+      ],
+      "resolutionContext": {
+        "newLabel": "Saltstone Sleeping Cell",
+        "newDescription": "Saltstone Sleeping Cell serves as a compact bedroom cut into the fused basalt mass of Terminus Shutterhouse, its proportions governed by thick partition walls that dampen terminator temperature swings. A recessed sleep platform rises from the floor as a single basalt-saltstone unit, flanked by carved storage niches that eliminate freestanding furnishings under persistent tidal stresses. The sole aperture remains deep-set behind layered shutter baffles that admit controlled bands of light without exposing the room to Saltharrow’s hard white glare. Polished saltstone thresholds and dust-catching grooves at the base of the walls manage mineral-laden haze carried in from the city’s shuttered arcades.",
+        "existingPlaceId": "PLACE_bafflelit_sleeping_cell",
+        "existingLabel": "Bafflelit Sleeping Cell"
+      },
+      "createdAt": "2026-02-28T21:31:15.175Z",
+      "status": "pending"
+    }
+  ],
+  "answers": [],
+  "lastUpdated": "2026-02-28T21:31:15.177Z"
+}

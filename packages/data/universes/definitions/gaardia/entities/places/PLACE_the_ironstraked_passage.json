@@ -1,0 +1,60 @@
+{
+  "id": "PLACE_the_ironstraked_passage",
+  "label": "The Iron-Straked Passage",
+  "description": "A narrow internal corridor cut along The Oathcutter’s reinforced spine, its bulkheads clad in tar-black planking and banded with iron straps to resist ramming shock. Pitch-sealed seams and riveted plates bead with brine, and the air carries the persistent stink of tar, damp hemp, and bilge-salt. Registry marks and stamped jurisdiction plaques are set at intervals beside each hatch, turning simple transit into an ordered chain of controlled access. A line of salt-caked warding nails runs waist-high along the length, their standard hazard sigils re-inked directly into the wood.",
+  "short_description": "tar-dark ship corridor",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "ship_corridor",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "ship_hatch",
+      "facing": "south",
+      "layer": "floor"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/gaardia/images/battles/PLACE_the_ironstraked_passage.png?v=1772208522876",
+    "inheritedRequiredTags": [
+      "ship"
+    ]
+  },
+  "position": {
+    "x": 784,
+    "y": 672,
+    "width": 96,
+    "height": 96,
+    "parent": "PLACE_the_oathcutter",
+    "innerWidth": 480,
+    "innerHeight": 512
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/gaardia/images/places/PLACE_the_ironstraked_passage.png?v=1772208571463",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

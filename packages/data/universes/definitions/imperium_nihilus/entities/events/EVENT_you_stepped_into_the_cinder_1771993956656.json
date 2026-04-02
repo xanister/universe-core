@@ -1,0 +1,16 @@
+{
+  "id": "EVENT_you_stepped_into_the_cinder_1771993956656",
+  "date": null,
+  "placeId": null,
+  "eventType": null,
+  "category": "world",
+  "subject": "Background",
+  "subjectId": null,
+  "fact": "You stepped into the Cinder Cantina to get out of the ash-gales and find food, water, and a safer place to listen.",
+  "significance": "minor",
+  "important": true,
+  "witnessIds": null,
+  "importanceScore": null,
+  "scope": null,
+  "relevantPlaceIds": null
+}

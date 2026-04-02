@@ -1,0 +1,250 @@
+{
+  "id": "CHAR_mordaine_kest",
+  "label": "Mordaine Kest",
+  "description": "This individual is an undead male of spare, desiccated build, reduced to tight amber skin drawn over prominent bone. Gray eyes sit deep in shadowed sockets, and white hair hangs in an unkempt fall across a recessed brow. The jawline shows exposed teeth where the lips have thinned away, and the hands display rigid, tendon-like cords in place of living flesh. The overall aspect is skeletal and enduring, marked by long decay rather than fresh injury.",
+  "short_description": "undead male ossuary wight",
+  "tags": [],
+  "entityType": "character",
+  "info": {
+    "purpose": "undead",
+    "aliases": [
+      "The Hollow Wight",
+      "Bone-Watcher"
+    ],
+    "birthdate": "Unknown",
+    "deathdate": null,
+    "title": null,
+    "birthPlace": "",
+    "eyeColor": "gray",
+    "gender": "male",
+    "hairColor": "white",
+    "hairStyle": "unkempt",
+    "beardStyle": null,
+    "headType": "human_male",
+    "skinTone": "amber",
+    "personality": "A silent, habit-bound revenant that patrols by rote and responds to intrusion with blunt, mechanical hostility. It maintains a strict fixation on remains and boundaries, treating disturbance as a violation demanding immediate correction. Its movements are economical and unhurried, governed by persistence rather than impulse.",
+    "race": "human",
+    "messages": [],
+    "journal": [],
+    "sketches": [],
+    "verbosity": 3,
+    "conversationContext": null,
+    "storytellerState": null,
+    "isPlayer": false,
+    "storyComplete": false,
+    "routine": {
+      "schedule": {
+        "dawn": "work",
+        "morning": "work",
+        "afternoon": "work",
+        "evening": "work",
+        "night": "work"
+      },
+      "home": {
+        "placeId": "PLACE_the_ossuary_hollow",
+        "description": "The Ossuary Hollow",
+        "areaHint": null
+      },
+      "work": {
+        "placeId": "PLACE_the_ossuary_hollow",
+        "description": "The Ossuary Hollow",
+        "areaHint": null
+      },
+      "leisure": null,
+      "variance": 0.2,
+      "activities": {
+        "work": "undead_patrol"
+      }
+    },
+    "vesselRoutes": null,
+    "abstractLocation": null,
+    "npcBehavior": null,
+    "physicalState": null,
+    "pendingDeparture": null,
+    "pendingArrival": null,
+    "lastRoutineCheckPeriod": null,
+    "startingNarrative": null,
+    "startingCharacterState": null,
+    "clothing": [
+      {
+        "slot": "torso_under",
+        "itemId": "tunic",
+        "color": "#f5f0e8",
+        "contents": null
+      },
+      {
+        "slot": "torso_over",
+        "itemId": "tattercape",
+        "color": "#3a3a3a",
+        "contents": null
+      },
+      {
+        "slot": "legs",
+        "itemId": "cloth_pants",
+        "color": "#8b4513",
+        "contents": null
+      },
+      {
+        "slot": "feet",
+        "itemId": "boots",
+        "color": "#1a1a1a",
+        "contents": null
+      },
+      {
+        "slot": "hands",
+        "itemId": "cloth_gloves",
+        "color": "#808080",
+        "contents": null
+      },
+      {
+        "slot": "belt",
+        "itemId": "rope_belt",
+        "color": "#d2b48c",
+        "contents": [
+          {
+            "id": "ci_1771952314963_8zrvfo",
+            "itemId": "unarmed",
+            "name": "unarmed",
+            "description": null,
+            "type": "weapon",
+            "quantity": 1,
+            "color": null,
+            "equipSlot": "weapon",
+            "plotId": null
+          }
+        ]
+      },
+      {
+        "slot": "head",
+        "itemId": "cloth_hood",
+        "color": "#3a3a3a",
+        "contents": null
+      }
+    ],
+    "enabledOverlayLayers": [
+      "eyes",
+      "facial"
+    ],
+    "helmingVesselId": null,
+    "storytellerDisabled": false,
+    "rulesetState": {
+      "stats": {
+        "physical": 50,
+        "mental": 50,
+        "social": 50,
+        "poise": 50,
+        "max_poise": 50,
+        "bloodloss": 0,
+        "anxiety": 0,
+        "fatigue": 0,
+        "hunger": 0
+      },
+      "conditions": [],
+      "statUsage": {},
+      "incapacitation": null,
+      "incapacitatedSince": null
+    },
+    "voiceId": "brian",
+    "spriteConfig": {
+      "bodyType": "male",
+      "layers": [
+        {
+          "type": "body",
+          "optionId": "body_base",
+          "tint": 13936490
+        },
+        {
+          "type": "body",
+          "optionId": "body_universal",
+          "tint": 13936490
+        },
+        {
+          "type": "eyes",
+          "optionId": "eyes_eyes",
+          "tint": 8423560
+        },
+        {
+          "type": "legs",
+          "optionId": "legs_white_pants_male",
+          "tint": 9127187
+        },
+        {
+          "type": "feet",
+          "optionId": "feet_white_boots_male",
+          "tint": 1710618
+        },
+        {
+          "type": "hands",
+          "optionId": "hands_white_gloves_male",
+          "tint": 8421504
+        },
+        {
+          "type": "belt",
+          "optionId": "belt_wulax_belt_rope_male",
+          "tint": 13808780
+        },
+        {
+          "type": "head",
+          "optionId": "head_cloth_hood_male",
+          "tint": 3815994
+        }
+      ],
+      "spriteHash": "f6bfdbaf3454ffc2",
+      "spriteUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/sprites/generated/f6bfdbaf3454ffc2.png",
+      "spriteScale": 1
+    }
+  },
+  "position": {
+    "x": 1275,
+    "y": 395,
+    "width": 32,
+    "height": 48,
+    "parent": "PLACE_the_ossuary_hollow"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/characters/CHAR_mordaine_kest.png?v=1771952369944",
+  "faceAnchorY": 0.16,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "talk"
+  },
+  "relationships": [
+    {
+      "targetId": "CHAR_caldus_ren",
+      "type": "colleague",
+      "disposition": 10,
+      "familiarity": 50,
+      "context": "Both are resident custodial undead in PLACE_the_ossuary_hollow enforcing boundaries and mortuary order, likely functioning as co-guards/patrols.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_ossian_kirth",
+      "type": "colleague",
+      "disposition": 10,
+      "familiarity": 50,
+      "context": "Same location and nearly identical ritual-bound revenant behavior suggests they operate as fellow sentinels of the Ossuary Hollow.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_harrowe_kint",
+      "type": "colleague",
+      "disposition": 10,
+      "familiarity": 50,
+      "context": "Both patrol the Ossuary Hollow maintaining rote cemetery-keeper order; likely co-enforcers responding to intrusions.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_morcant_thryss",
+      "type": "colleague",
+      "disposition": 10,
+      "familiarity": 50,
+      "context": "Shared location and role as an aggressive, persistent undead presence implies a working coexistence as part of the Hollow’s defensive/territorial routine.",
+      "pendingGeneration": false
+    }
+  ],
+  "important": false
+}

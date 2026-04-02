@@ -1,0 +1,324 @@
+{
+  "version": "1",
+  "sounds": [
+    {
+      "soundId": "ui_click",
+      "category": "ui",
+      "prompt": "Short UI click sound, crisp and subtle",
+      "durationSeconds": 0.5,
+      "promptInfluence": 0.3,
+      "volume": 0.5,
+      "files": [
+        "ui_click.mp3"
+      ]
+    },
+    {
+      "soundId": "ui_hover",
+      "category": "ui",
+      "prompt": "Soft UI hover sound, very subtle and brief",
+      "durationSeconds": 0.5,
+      "promptInfluence": 0.3,
+      "volume": 0.3,
+      "files": [
+        "ui_hover.mp3"
+      ]
+    },
+    {
+      "soundId": "ui_dialog_confirm",
+      "category": "ui",
+      "prompt": "Confirmation dialog sound, positive affirmative chime",
+      "durationSeconds": 0.5,
+      "promptInfluence": 0.3,
+      "volume": 0.5,
+      "files": [
+        "ui_dialog_confirm.mp3"
+      ]
+    },
+    {
+      "soundId": "ui_dialog_cancel",
+      "category": "ui",
+      "prompt": "Cancel dialog sound, gentle negative tone",
+      "durationSeconds": 0.5,
+      "promptInfluence": 0.3,
+      "volume": 0.5,
+      "files": [
+        "ui_dialog_cancel.mp3"
+      ]
+    },
+    {
+      "soundId": "ui_tab_switch",
+      "category": "ui",
+      "prompt": "Tab switching sound, quick soft click",
+      "durationSeconds": 0.5,
+      "promptInfluence": 0.3,
+      "volume": 0.4,
+      "files": [
+        "ui_tab_switch.mp3"
+      ]
+    },
+    {
+      "soundId": "ui_error",
+      "category": "ui",
+      "prompt": "Error notification sound, brief low-pitched buzz",
+      "durationSeconds": 0.5,
+      "promptInfluence": 0.3,
+      "volume": 0.6,
+      "files": [
+        "ui_error.mp3"
+      ]
+    },
+    {
+      "soundId": "combat_sword_swing",
+      "category": "combat",
+      "prompt": "Quick metallic sword swing whoosh sound effect, fast and sharp",
+      "durationSeconds": 0.5,
+      "promptInfluence": 0.3,
+      "volume": 0.7,
+      "files": [
+        "combat_sword_swing.mp3"
+      ]
+    },
+    {
+      "soundId": "combat_axe_swing",
+      "category": "combat",
+      "prompt": "Heavy axe swing whoosh sound, weighty and powerful",
+      "durationSeconds": 0.5,
+      "promptInfluence": 0.3,
+      "volume": 0.7,
+      "files": [
+        "combat_axe_swing.mp3"
+      ]
+    },
+    {
+      "soundId": "combat_mace_swing",
+      "category": "combat",
+      "prompt": "Mace swing sound, heavy blunt weapon whoosh",
+      "durationSeconds": 0.5,
+      "promptInfluence": 0.3,
+      "volume": 0.7,
+      "files": [
+        "combat_mace_swing.mp3"
+      ]
+    },
+    {
+      "soundId": "combat_staff_thrust",
+      "category": "combat",
+      "prompt": "Wooden staff thrust sound, quick jab",
+      "durationSeconds": 0.5,
+      "promptInfluence": 0.3,
+      "volume": 0.6,
+      "files": [
+        "combat_staff_thrust.mp3"
+      ]
+    },
+    {
+      "soundId": "combat_bow_shoot",
+      "category": "combat",
+      "prompt": "Bow string release and arrow flight sound",
+      "durationSeconds": 0.5,
+      "promptInfluence": 0.3,
+      "volume": 0.7,
+      "files": [
+        "combat_bow_shoot.mp3"
+      ]
+    },
+    {
+      "soundId": "combat_hit_impact",
+      "category": "combat",
+      "prompt": "Melee weapon hitting armor or flesh, dull thud impact, RPG combat",
+      "durationSeconds": 0.5,
+      "promptInfluence": 0.3,
+      "volume": 0.8,
+      "files": [
+        "combat_hit.mp3"
+      ]
+    },
+    {
+      "soundId": "combat_critical_hit",
+      "category": "combat",
+      "prompt": "Powerful critical hit impact, heavy crunching blow, dramatic RPG combat sound",
+      "durationSeconds": 0.6,
+      "promptInfluence": 0.3,
+      "volume": 0.9,
+      "files": [
+        "combat_hit.mp3"
+      ]
+    },
+    {
+      "soundId": "combat_miss_whoosh",
+      "category": "combat",
+      "prompt": "Fast air whoosh of a missed sword swing, light and quick",
+      "durationSeconds": 0.5,
+      "promptInfluence": 0.3,
+      "volume": 0.5,
+      "files": [
+        "combat_miss.mp3"
+      ]
+    },
+    {
+      "soundId": "combat_parry_clang",
+      "category": "combat",
+      "prompt": "Metal clang of weapon parrying another weapon, sharp metallic block sound",
+      "durationSeconds": 0.5,
+      "promptInfluence": 0.3,
+      "volume": 0.8,
+      "files": [
+        "combat_parry.mp3"
+      ]
+    },
+    {
+      "soundId": "combat_ko_thud",
+      "category": "combat",
+      "prompt": "Heavy body falling to ground thud, character knocked out, dull impact",
+      "durationSeconds": 0.7,
+      "promptInfluence": 0.3,
+      "volume": 0.7,
+      "files": [
+        "combat_poise_break.mp3"
+      ]
+    },
+    {
+      "soundId": "combat_battle_transition",
+      "category": "combat",
+      "prompt": "JRPG battle encounter transition whoosh, dramatic rising swoosh with a sharp crystalline shatter at the peak, retro 16-bit inspired, brief and punchy",
+      "durationSeconds": 0.8,
+      "promptInfluence": 0.3,
+      "volume": 0.7,
+      "files": [
+        "combat_battle_transition.mp3"
+      ]
+    },
+    {
+      "soundId": "combat_victory",
+      "category": "combat",
+      "prompt": "Short triumphant victory fanfare, retro RPG style, bright and heroic",
+      "durationSeconds": 2,
+      "promptInfluence": 0.3,
+      "volume": 0.6,
+      "files": [
+        "combat_victory.mp3"
+      ]
+    },
+    {
+      "soundId": "combat_defeat",
+      "category": "combat",
+      "prompt": "Somber defeat sound, low descending tone, game over feeling, brief",
+      "durationSeconds": 1.5,
+      "promptInfluence": 0.3,
+      "volume": 0.6,
+      "files": [
+        "combat_defeat.mp3"
+      ]
+    },
+    {
+      "soundId": "combat_timing_success",
+      "category": "combat",
+      "prompt": "Bright chime success sound, timing reward, short satisfying ding",
+      "durationSeconds": 0.5,
+      "promptInfluence": 0.3,
+      "volume": 0.6,
+      "files": [
+        "combat_timing_success.mp3"
+      ]
+    },
+    {
+      "soundId": "combat_defend",
+      "category": "combat",
+      "prompt": "Shield raise defensive stance sound, brief metallic ready sound",
+      "durationSeconds": 0.5,
+      "promptInfluence": 0.3,
+      "volume": 0.6,
+      "files": [
+        "combat_defend.mp3"
+      ]
+    },
+    {
+      "soundId": "interaction_door_open",
+      "category": "interaction",
+      "prompt": "Wooden door opening, creaking hinge",
+      "durationSeconds": 0.8,
+      "promptInfluence": 0.3,
+      "volume": 0.6,
+      "files": [
+        "interaction_door_open.mp3"
+      ]
+    },
+    {
+      "soundId": "interaction_door_close",
+      "category": "interaction",
+      "prompt": "Wooden door closing, latch click",
+      "durationSeconds": 0.6,
+      "promptInfluence": 0.3,
+      "volume": 0.6,
+      "files": [
+        "interaction_door_close.mp3"
+      ]
+    },
+    {
+      "soundId": "interaction_item_pickup",
+      "category": "interaction",
+      "prompt": "Item pickup sound, quick whoosh grab",
+      "durationSeconds": 0.5,
+      "promptInfluence": 0.3,
+      "volume": 0.5,
+      "files": [
+        "interaction_item_pickup.mp3"
+      ]
+    },
+    {
+      "soundId": "interaction_item_drop",
+      "category": "interaction",
+      "prompt": "Item dropped on ground, soft thud",
+      "durationSeconds": 0.5,
+      "promptInfluence": 0.3,
+      "volume": 0.5,
+      "files": [
+        "interaction_item_drop.mp3"
+      ]
+    },
+    {
+      "soundId": "interaction_equip",
+      "category": "interaction",
+      "prompt": "Equipment being put on, armor click and fabric rustle",
+      "durationSeconds": 0.5,
+      "promptInfluence": 0.3,
+      "volume": 0.5,
+      "files": [
+        "interaction_equip.mp3"
+      ]
+    },
+    {
+      "soundId": "interaction_unequip",
+      "category": "interaction",
+      "prompt": "Equipment being removed, unbuckle sound",
+      "durationSeconds": 0.5,
+      "promptInfluence": 0.3,
+      "volume": 0.5,
+      "files": [
+        "interaction_unequip.mp3"
+      ]
+    },
+    {
+      "soundId": "interaction_helm_engage",
+      "category": "interaction",
+      "prompt": "Ship helm engage, steering wheel grab, nautical",
+      "durationSeconds": 0.6,
+      "promptInfluence": 0.3,
+      "volume": 0.6,
+      "files": [
+        "interaction_helm_engage.mp3"
+      ]
+    },
+    {
+      "soundId": "interaction_helm_disengage",
+      "category": "interaction",
+      "prompt": "Ship helm release, stepping away from wheel",
+      "durationSeconds": 0.5,
+      "promptInfluence": 0.3,
+      "volume": 0.5,
+      "files": [
+        "interaction_helm_disengage.mp3"
+      ]
+    }
+  ]
+}

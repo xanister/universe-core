@@ -1,0 +1,36 @@
+{
+  "spriteId": "trophy_deer",
+  "gridWidth": 1,
+  "gridHeight": 1,
+  "tileSize": 32,
+  "tiles": [
+    {
+      "tilesetId": "decor-tavern",
+      "srcX": 64,
+      "srcY": 1088,
+      "col": 0,
+      "row": 0
+    }
+  ],
+  "directionTiles": {
+    "west": [
+      {
+        "tilesetId": "decor-tavern",
+        "srcX": 64,
+        "srcY": 1120,
+        "col": 0,
+        "row": 0
+      }
+    ],
+    "east": [
+      {
+        "tilesetId": "decor-tavern",
+        "srcX": 64,
+        "srcY": 1152,
+        "col": 0,
+        "row": 0
+      }
+    ]
+  },
+  "updatedAt": "2026-03-01T22:01:17.208Z"
+}

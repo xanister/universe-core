@@ -1,0 +1,57 @@
+{
+  "id": "OBJ_the_quarantine_alcove_barrel_0044",
+  "label": "Barrel",
+  "description": "A sturdy wooden barrel",
+  "important": false,
+  "short_description": "barrel",
+  "tags": [
+    "common",
+    "storage",
+    "ship"
+  ],
+  "entityType": "object",
+  "info": {
+    "purpose": "storage",
+    "solid": true,
+    "layer": "default",
+    "isStructural": false,
+    "material": null,
+    "tint": null,
+    "spriteConfig": {
+      "spriteId": "barrel",
+      "frame": null,
+      "animationKey": null,
+      "animated": false,
+      "facing": "east"
+    },
+    "hp": null,
+    "maxHp": null,
+    "state": null,
+    "contents": [
+      "longsleeve",
+      "sealed_letter"
+    ],
+    "lightSource": null,
+    "itemId": null,
+    "plotId": null
+  },
+  "position": {
+    "x": 80,
+    "y": 352,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_the_quarantine_alcove"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "relationships": [],
+  "image": null,
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "search"
+  }
+}

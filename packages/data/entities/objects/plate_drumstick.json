@@ -1,0 +1,18 @@
+{
+  "id": "plate_drumstick",
+  "name": "Drumstick Plate",
+  "description": "A plate with a roasted chicken drumstick.",
+  "purposes": [
+    "decoration"
+  ],
+  "tags": [
+    "common",
+    "food",
+    "tavern"
+  ],
+  "solid": false,
+  "layer": "default",
+  "spriteId": "plate_drumstick",
+  "materials": [],
+  "tintable": false
+}

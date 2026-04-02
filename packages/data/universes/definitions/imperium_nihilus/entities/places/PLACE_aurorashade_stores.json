@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_aurorashade_stores",
+  "label": "Aurorashade Stores",
+  "description": "Aurorashade Stores is a compact, pressure-tight storage chamber set off the hab’s narrow interior run, its basaltcrete panels scorched by soot and ground-in ash. Racked shelving and lockable transit crates line the walls in disciplined rows, with stenciled inventory marks and hazard striping preserved under a persistent film of dust. Overhead lumen strips sit behind grit-clouded diffusers, casting a cold, steady light that emphasizes the room’s utilitarian order. The air carries the dry rasp of overworked filtration, and the bulkhead seams are sealed with layered gaskets against Vespera Tertius’s abrasive storms.",
+  "short_description": "ash-dusted stores room",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "storage_room",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.9
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "door_wooden",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/battles/PLACE_aurorashade_stores.png?v=1771873316605",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 432,
+    "y": 160,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_aurorashade_hab",
+    "innerWidth": 512,
+    "innerHeight": 512
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/places/PLACE_aurorashade_stores.png?v=1771873371645",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

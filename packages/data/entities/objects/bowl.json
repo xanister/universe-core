@@ -1,0 +1,20 @@
+{
+  "id": "bowl",
+  "name": "Bowl",
+  "description": "A dark metal bowl.",
+  "purposes": [
+    "decoration"
+  ],
+  "tags": [
+    "common",
+    "tableware",
+    "tavern"
+  ],
+  "solid": false,
+  "layer": "default",
+  "spriteId": "bowl",
+  "materials": [
+    "iron"
+  ],
+  "tintable": false
+}

@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_blackchisel_mountain",
+  "label": "Blackchisel Mountain",
+  "description": "Blackchisel Mountain rises as a hard, iron-dark massif, its fractured ribs exposed by ancient landslides that never fully settled after the continent-scale catastrophe. Switchback tracks cut across scree slopes marked by collapsed mile-cairns and boundary steles, many re-carved with newer seals to assert rival claims of passage and levy. The upper faces carry bands of vitrified stone where anomalous heat once ran through the rock, leaving glassy seams prized for toolmaking and closely regulated by charter law. Wind-scoured shelves near the summit preserve ruined signal platforms and watch-pits that define the mountain’s enduring role as a frontier marker and choke point.",
+  "short_description": "iron-dark frontier peak",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "mountain",
+    "environment": {
+      "type": "exterior",
+      "hasWeather": true,
+      "temperature": {
+        "enabled": true,
+        "base": null,
+        "modifiersApply": true
+      },
+      "maxDarkness": null
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "world_map_mountain",
+      "facing": "south",
+      "layer": "floor"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/gaardia/images/battles/PLACE_blackchisel_mountain.png?v=1772209026287",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 1776,
+    "y": 2080,
+    "width": 96,
+    "height": 96,
+    "parent": "PLACE_anslem",
+    "innerWidth": 8000,
+    "innerHeight": 4544
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/gaardia/images/places/PLACE_blackchisel_mountain.png?v=1772209073870",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

@@ -1,0 +1,214 @@
+{
+  "id": "CHAR_bramwell_nace",
+  "label": "Bramwell Nace",
+  "description": "This individual is a broad-shouldered male of middle years, with brown eyes set beneath heavy brows and a square, work-hardened jaw. Brown hair is kept in a plain, close-cropped style that exposes a high hairline and prominent ears. Taupe skin shows permanent sun-browned forearms and ingrained callusing across the hands consistent with lifelong manual service work. The nose bears an old, slight break that lends the face a blunt, durable cast.",
+  "short_description": "male tavern bartender",
+  "tags": [],
+  "entityType": "character",
+  "info": {
+    "purpose": "bartender",
+    "aliases": [
+      "Bram"
+    ],
+    "birthdate": "1176-04-18",
+    "deathdate": null,
+    "title": null,
+    "birthPlace": "Gaardia",
+    "eyeColor": "brown",
+    "gender": "male",
+    "hairColor": "brown",
+    "hairStyle": "plain",
+    "beardStyle": "stubble",
+    "headType": "human_male",
+    "skinTone": "taupe",
+    "personality": "Methodical and even-tempered, he keeps meticulous measures and a strict memory for tabs, enforcing house order through steady voice and patient routine rather than threats. He favors plain speech, listens more than he talks, and treats the inn’s ledger as binding law.",
+    "race": "human",
+    "messages": [],
+    "journal": [],
+    "sketches": [],
+    "verbosity": 3,
+    "conversationContext": null,
+    "storytellerState": null,
+    "isPlayer": false,
+    "storyComplete": false,
+    "routine": {
+      "schedule": {
+        "dawn": "home",
+        "morning": "work",
+        "afternoon": "work",
+        "evening": "work",
+        "night": "home"
+      },
+      "home": {
+        "placeId": "PLACE_the_attested_loft",
+        "description": "Quarters near The Writ and Tankard",
+        "areaHint": null
+      },
+      "work": {
+        "placeId": "PLACE_the_writ_and_tankard",
+        "description": "The Writ and Tankard",
+        "areaHint": null
+      },
+      "leisure": null,
+      "variance": 0.2,
+      "activities": {
+        "work": "tavern_work"
+      }
+    },
+    "vesselRoutes": null,
+    "abstractLocation": null,
+    "npcBehavior": null,
+    "physicalState": null,
+    "pendingDeparture": null,
+    "pendingArrival": null,
+    "lastRoutineCheckPeriod": null,
+    "startingNarrative": null,
+    "startingCharacterState": null,
+    "clothing": [
+      {
+        "slot": "torso_under",
+        "itemId": "longsleeve",
+        "color": "#f5f0e8",
+        "contents": null
+      },
+      {
+        "slot": "torso_mid",
+        "itemId": "apron",
+        "color": "#8b4513",
+        "contents": null
+      },
+      {
+        "slot": "torso_over",
+        "itemId": "jacket",
+        "color": "#3a3a3a",
+        "contents": null
+      },
+      {
+        "slot": "legs",
+        "itemId": "cloth_pants",
+        "color": "#000080",
+        "contents": null
+      },
+      {
+        "slot": "feet",
+        "itemId": "boots",
+        "color": "#8b4513",
+        "contents": null
+      },
+      {
+        "slot": "belt",
+        "itemId": "leather_belt",
+        "color": "#8b4513",
+        "contents": []
+      }
+    ],
+    "enabledOverlayLayers": [
+      "eyes",
+      "facial"
+    ],
+    "helmingVesselId": null,
+    "storytellerDisabled": false,
+    "rulesetState": {
+      "stats": {
+        "poise": 50,
+        "max_poise": 50
+      },
+      "conditions": [],
+      "statUsage": {},
+      "incapacitation": null,
+      "incapacitatedSince": null
+    },
+    "voiceId": "chris",
+    "spriteConfig": {
+      "bodyType": "male",
+      "layers": [
+        {
+          "type": "body",
+          "optionId": "body_base",
+          "tint": 12890264
+        },
+        {
+          "type": "body",
+          "optionId": "body_universal",
+          "tint": 12890264
+        },
+        {
+          "type": "eyes",
+          "optionId": "eyes_eyes",
+          "tint": 7029286
+        },
+        {
+          "type": "facial",
+          "optionId": "facial_beard",
+          "tint": 7029286
+        },
+        {
+          "type": "hair",
+          "optionId": "hair_plain",
+          "tint": 7029286
+        },
+        {
+          "type": "torso",
+          "optionId": "torso_white_longsleeve",
+          "tint": 16117992
+        },
+        {
+          "type": "torso",
+          "optionId": "torso_white_apron_male",
+          "tint": 9127187
+        },
+        {
+          "type": "torso",
+          "optionId": "torso_jacket_male",
+          "tint": 3815994
+        },
+        {
+          "type": "legs",
+          "optionId": "legs_white_pants_male",
+          "tint": 128
+        },
+        {
+          "type": "feet",
+          "optionId": "feet_white_boots_male",
+          "tint": 9127187
+        },
+        {
+          "type": "belt",
+          "optionId": "belt_leather_male",
+          "tint": 9127187
+        }
+      ],
+      "spriteHash": "c5e4f07f127e2ba9",
+      "spriteUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/sprites/generated/c5e4f07f127e2ba9.png"
+    }
+  },
+  "position": {
+    "x": 100.4,
+    "y": 338.3,
+    "width": 32,
+    "height": 48,
+    "parent": "PLACE_the_attested_loft"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/gaardia/images/characters/CHAR_bramwell_nace.png?v=1772216668287",
+  "faceAnchorY": 0.16,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "talk"
+  },
+  "relationships": [
+    {
+      "targetId": "CHAR_marek_dael",
+      "type": "colleague",
+      "disposition": 10,
+      "familiarity": 50,
+      "context": "Both present as disciplined, rule-bound house-order enforcers tied to ledger/measure-keeping in hospitality-style venues (Writ and Tankard vs Black Ledger), making a professional acquaintance/working connection plausible.",
+      "pendingGeneration": false
+    }
+  ],
+  "important": false
+}

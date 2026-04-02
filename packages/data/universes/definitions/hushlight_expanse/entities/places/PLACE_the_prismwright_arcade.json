@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_the_prismwright_arcade",
+  "label": "The Prismwright Arcade",
+  "description": "The Prismwright Arcade is a narrow, faceted shopfront set into Seamglass Meridian’s fused-silicate causeway, its vitrified tiles scored into precise optical ribs. Interior walls are lined with lensing cisterns and grounded gutters that collect electrostatic glass dust and wash it into calibrated channels for refinement. Low display plinths hold prismatic plates, seam-line compasses, and radiance gauges engineered to read Lacrymara’s twilight bands with metrological rigor. Copper-white light enters through a louvered mirror canopy, breaking into stable spectra that turn the sales floor into a functional demonstration field.",
+  "short_description": "glasslit optics shop",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "shop",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "building_shop",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/hushlight_expanse/images/battles/PLACE_the_prismwright_arcade.png?v=1772313784421",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 1872,
+    "y": 2304,
+    "width": 160,
+    "height": 256,
+    "parent": "PLACE_seamglass_meridian",
+    "innerWidth": 960,
+    "innerHeight": 896
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/hushlight_expanse/images/places/PLACE_the_prismwright_arcade.png?v=1772313845810",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

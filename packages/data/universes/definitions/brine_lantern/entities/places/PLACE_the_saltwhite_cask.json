@@ -1,0 +1,56 @@
+{
+  "id": "PLACE_the_saltwhite_cask",
+  "label": "The Saltwhite Cask",
+  "description": "The Saltwhite Cask occupies a pressurized bay off the anchorage concourse, its basalt-composite ribs left exposed and varnished to a dull, sea-worn sheen. Salt-glass lanterns refract the lumen spire’s harsh radiance into pale bands that stripe the bar and bolted tables like tidal marks. A frieze of star-chart mosaics runs the upper wall, annotated with ritualized berth numbers that mirror the port’s sequence rights. Vacuum-rated shutters and micrometeoroid-scored plating serve as both décor and fortification, emphasizing the anchorage’s disciplined life against the ordered void.",
+  "short_description": "salt-lit dockside tavern",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "tavern",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "building_tavern",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 48,
+    "y": 2080,
+    "width": 32,
+    "height": 32,
+    "parent": "PLACE_the_brine_lantern_anchorage"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": null,
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

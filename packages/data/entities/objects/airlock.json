@@ -1,0 +1,18 @@
+{
+  "id": "airlock",
+  "name": "Airlock",
+  "description": "An airlock",
+  "purposes": [
+    "airlock"
+  ],
+  "tags": [
+    "scifi",
+    "exit",
+    "wall"
+  ],
+  "solid": true,
+  "layer": "default",
+  "spriteId": "wall_panel_vent_grille",
+  "materials": [],
+  "tintable": false
+}

@@ -1,0 +1,241 @@
+{
+  "id": "CHAR_harrowe_kint",
+  "label": "Harrowe Kint",
+  "description": "This individual is an animate corpse of human proportions, reduced to a taut frame over pale_green skin. Gray eyes sit deep in collapsed sockets, and the jawline shows exposed dentition where tissue has receded. Black hair persists in sparse, brittle clumps along the scalp, leaving broad patches of bare bone visible. The body bears old fracture seams set at crooked angles, producing a permanently uneven, dragging posture typical of long-interred dead.",
+  "short_description": "undead male ossuary wight",
+  "tags": [],
+  "entityType": "character",
+  "info": {
+    "purpose": "undead",
+    "aliases": [
+      "The Hollow Wight",
+      "Grave-Pacer"
+    ],
+    "birthdate": "Unknown",
+    "deathdate": null,
+    "title": null,
+    "birthPlace": "The Ossuary Hollow",
+    "eyeColor": "gray",
+    "gender": "male",
+    "hairColor": "black",
+    "hairStyle": "unkempt",
+    "beardStyle": null,
+    "headType": "human_male",
+    "skinTone": "pale_green",
+    "personality": "A grave-bound revenant defined by ritual persistence and territorial vigilance, it maintains a rote, cemetery-keeper’s order among scattered remains. It responds to intrusion with immediate, unreasoning hostility, then returns to slow circuits and silent watch. Speech, when produced, is sparse and liturgical, limited to repeated warnings and fragmentary names that no longer carry living context.",
+    "race": "eldar",
+    "messages": [],
+    "journal": [],
+    "sketches": [],
+    "verbosity": 3,
+    "conversationContext": null,
+    "storytellerState": null,
+    "isPlayer": false,
+    "storyComplete": false,
+    "routine": {
+      "schedule": {
+        "dawn": "work",
+        "morning": "work",
+        "afternoon": "work",
+        "evening": "work",
+        "night": "work"
+      },
+      "home": {
+        "placeId": "PLACE_the_ossuary_hollow",
+        "description": "The Ossuary Hollow",
+        "areaHint": null
+      },
+      "work": {
+        "placeId": "PLACE_the_ossuary_hollow",
+        "description": "The Ossuary Hollow",
+        "areaHint": null
+      },
+      "leisure": null,
+      "variance": 0.2,
+      "activities": {
+        "work": "undead_patrol"
+      }
+    },
+    "vesselRoutes": null,
+    "abstractLocation": null,
+    "npcBehavior": null,
+    "physicalState": null,
+    "pendingDeparture": null,
+    "pendingArrival": null,
+    "lastRoutineCheckPeriod": null,
+    "startingNarrative": null,
+    "startingCharacterState": null,
+    "clothing": [
+      {
+        "slot": "torso_under",
+        "itemId": "tunic",
+        "color": "#f5f0e8",
+        "contents": null
+      },
+      {
+        "slot": "torso_over",
+        "itemId": "tattercape",
+        "color": "#3a3a3a",
+        "contents": null
+      },
+      {
+        "slot": "legs",
+        "itemId": "cloth_pants",
+        "color": "#808080",
+        "contents": null
+      },
+      {
+        "slot": "feet",
+        "itemId": "boots",
+        "color": "#8b4513",
+        "contents": null
+      },
+      {
+        "slot": "hands",
+        "itemId": "cloth_gloves",
+        "color": "#f5f0e8",
+        "contents": null
+      },
+      {
+        "slot": "belt",
+        "itemId": "rope_belt",
+        "color": "#d2b48c",
+        "contents": [
+          {
+            "id": "ci_1771952238337_4xkdbr",
+            "itemId": "unarmed",
+            "name": "unarmed",
+            "description": null,
+            "type": "weapon",
+            "quantity": 1,
+            "color": null,
+            "equipSlot": "weapon",
+            "plotId": null
+          }
+        ]
+      }
+    ],
+    "enabledOverlayLayers": [
+      "ears",
+      "eyes"
+    ],
+    "helmingVesselId": null,
+    "storytellerDisabled": false,
+    "rulesetState": {
+      "stats": {
+        "physical": 50,
+        "mental": 50,
+        "social": 50,
+        "poise": 50,
+        "max_poise": 50,
+        "bloodloss": 0,
+        "anxiety": 0,
+        "fatigue": 0,
+        "hunger": 0
+      },
+      "conditions": [],
+      "statUsage": {},
+      "incapacitation": null,
+      "incapacitatedSince": null
+    },
+    "voiceId": "brian",
+    "spriteConfig": {
+      "bodyType": "male",
+      "layers": [
+        {
+          "type": "body",
+          "optionId": "body_base",
+          "tint": 10540192
+        },
+        {
+          "type": "body",
+          "optionId": "body_universal",
+          "tint": 10540192
+        },
+        {
+          "type": "ears",
+          "optionId": "ears_elvenears",
+          "tint": 10540192
+        },
+        {
+          "type": "eyes",
+          "optionId": "eyes_eyes",
+          "tint": 8423560
+        },
+        {
+          "type": "hair",
+          "optionId": "hair_unkempt",
+          "tint": 1710618
+        },
+        {
+          "type": "legs",
+          "optionId": "legs_white_pants_male",
+          "tint": 8421504
+        },
+        {
+          "type": "feet",
+          "optionId": "feet_white_boots_male",
+          "tint": 9127187
+        },
+        {
+          "type": "hands",
+          "optionId": "hands_white_gloves_male",
+          "tint": 16117992
+        },
+        {
+          "type": "belt",
+          "optionId": "belt_wulax_belt_rope_male",
+          "tint": 13808780
+        }
+      ],
+      "spriteHash": "37baacc70a288d9a",
+      "spriteUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/sprites/generated/37baacc70a288d9a.png",
+      "spriteScale": 1
+    }
+  },
+  "position": {
+    "x": 1458,
+    "y": 374,
+    "width": 32,
+    "height": 48,
+    "parent": "PLACE_the_ossuary_hollow"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/characters/CHAR_harrowe_kint.png?v=1771952298141",
+  "faceAnchorY": 0.18,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "talk"
+  },
+  "relationships": [
+    {
+      "targetId": "CHAR_caldus_ren",
+      "type": "colleague",
+      "disposition": 10,
+      "familiarity": 50,
+      "context": "Both occupy and enforce the ossuary’s custodial order in PLACE_the_ossuary_hollow, suggesting parallel/working roles maintaining the site.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_ossian_kirth",
+      "type": "colleague",
+      "disposition": 10,
+      "familiarity": 50,
+      "context": "Both are undead territorial custodians in PLACE_the_ossuary_hollow with near-identical mortuary routines, making a functional working coexistence likely.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_ossian_kirth",
+      "type": "acquaintance",
+      "disposition": 0,
+      "familiarity": 40,
+      "context": "Shared location and shared birthPlace (The Ossuary Hollow) make prior familiarity plausible even if their interactions are minimal/rote.",
+      "pendingGeneration": false
+    }
+  ],
+  "important": false
+}

@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_the_sealed_alcove",
+  "label": "The Sealed Alcove",
+  "description": "The Sealed Alcove is a compact bedchamber hewn from salvaged ashlar and stitched into later brickwork, its low arch and smoke-darkened beams bearing the same repair seams that mark The Mortared Rooms. A narrow pallet recess occupies the thickest wall, set beneath a shuttered slit window whose iron pin-latch reflects the building’s defensive vernacular. Plaster patches and limewash are interrupted by a civic hazard placard fixed to a built-in niche, binding private rest to Varric Holdfast’s regime of posted interdictions. The floor combines mismatched flagstone with a strip of worn plank, kept serviceable and easily cleared in a structure raised over ruinfield foundations.",
+  "short_description": "narrow ashlar bedchamber",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "bedroom",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "door_wooden",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/gaardia/images/battles/PLACE_the_sealed_alcove.png?v=1772208915390",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 496,
+    "y": 160,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_the_mortared_rooms",
+    "innerWidth": 512,
+    "innerHeight": 480
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/gaardia/images/places/PLACE_the_sealed_alcove.png?v=1772208965472",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

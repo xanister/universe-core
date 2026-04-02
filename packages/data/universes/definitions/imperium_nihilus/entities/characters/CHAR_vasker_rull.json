@@ -1,0 +1,227 @@
+{
+  "id": "CHAR_vasker_rull",
+  "label": "Vasker Rull",
+  "description": "This individual is an undead human of spare frame, preserved in a state of advanced desiccation. Light skin clings tightly to prominent cheekbones and a ridged brow, while gray eyes remain fixed and unblinking within deep-set sockets. Brown hair persists in uneven, brittle strands, leaving exposed patches that reveal the skull’s contours beneath. The mouthline is drawn back from the teeth, producing a permanent rictus consistent with long interment and cavern-dry air.",
+  "short_description": "undead cavern wight (male)",
+  "tags": [],
+  "entityType": "character",
+  "info": {
+    "purpose": "undead",
+    "aliases": [
+      "The Obsidian Scar Wight",
+      "Rull-Wight"
+    ],
+    "birthdate": "Unknown",
+    "deathdate": null,
+    "title": null,
+    "birthPlace": "",
+    "eyeColor": "gray",
+    "gender": "male",
+    "hairColor": "brown",
+    "hairStyle": "unkempt",
+    "beardStyle": "stubble",
+    "headType": "human_male",
+    "skinTone": "light",
+    "personality": "This undead exhibits rigid, repetitive patrol behavior and responds to intrusion with immediate, ritualized aggression. It maintains an unvarying fixation on narrow passages and chokepoints, advancing without hesitation and without regard for injury. Vocalization is limited to dry, rasping exhales and low, reflexive groans, indicating residual instinct rather than conscious intent.",
+    "race": "human",
+    "messages": [],
+    "journal": [],
+    "sketches": [],
+    "verbosity": 3,
+    "conversationContext": null,
+    "storytellerState": null,
+    "isPlayer": false,
+    "storyComplete": false,
+    "routine": {
+      "schedule": {
+        "dawn": "work",
+        "morning": "work",
+        "afternoon": "work",
+        "evening": "work",
+        "night": "work"
+      },
+      "home": {
+        "placeId": "PLACE_obsidian_scar_cavern",
+        "description": "Obsidian Scar Cavern",
+        "areaHint": null
+      },
+      "work": {
+        "placeId": "PLACE_obsidian_scar_cavern",
+        "description": "Obsidian Scar Cavern",
+        "areaHint": null
+      },
+      "leisure": null,
+      "variance": 0.2,
+      "activities": {
+        "work": "undead_patrol"
+      }
+    },
+    "vesselRoutes": null,
+    "abstractLocation": null,
+    "npcBehavior": null,
+    "physicalState": null,
+    "pendingDeparture": null,
+    "pendingArrival": null,
+    "lastRoutineCheckPeriod": null,
+    "startingNarrative": null,
+    "startingCharacterState": null,
+    "clothing": [
+      {
+        "slot": "torso_under",
+        "itemId": "tunic",
+        "color": "#3a3a3a",
+        "contents": null
+      },
+      {
+        "slot": "torso_over",
+        "itemId": "leather_armor",
+        "color": "#8b4513",
+        "contents": null
+      },
+      {
+        "slot": "legs",
+        "itemId": "cloth_pants",
+        "color": "#808080",
+        "contents": null
+      },
+      {
+        "slot": "feet",
+        "itemId": "boots",
+        "color": "#1a1a1a",
+        "contents": null
+      },
+      {
+        "slot": "behind_body",
+        "itemId": "tattercape",
+        "color": "#1a1a1a",
+        "contents": []
+      },
+      {
+        "slot": "hands",
+        "itemId": "cloth_gloves",
+        "color": "#3a3a3a",
+        "contents": null
+      },
+      {
+        "slot": "belt",
+        "itemId": "leather_belt",
+        "color": null,
+        "contents": [
+          {
+            "id": "ci_1771951847043_z106bf",
+            "itemId": "unarmed",
+            "name": "unarmed",
+            "description": null,
+            "type": "weapon",
+            "quantity": 1,
+            "color": null,
+            "equipSlot": "weapon",
+            "plotId": null
+          }
+        ]
+      }
+    ],
+    "enabledOverlayLayers": [
+      "eyes",
+      "facial"
+    ],
+    "helmingVesselId": null,
+    "storytellerDisabled": false,
+    "rulesetState": {
+      "stats": {
+        "physical": 50,
+        "mental": 50,
+        "social": 50,
+        "poise": 50,
+        "max_poise": 50,
+        "bloodloss": 0,
+        "anxiety": 0,
+        "fatigue": 0,
+        "hunger": 0
+      },
+      "conditions": [],
+      "statUsage": {},
+      "incapacitation": null,
+      "incapacitatedSince": null
+    },
+    "voiceId": "brian",
+    "spriteConfig": {
+      "bodyType": "male",
+      "layers": [
+        {
+          "type": "body",
+          "optionId": "body_base",
+          "tint": 15780008
+        },
+        {
+          "type": "body",
+          "optionId": "body_universal",
+          "tint": 15780008
+        },
+        {
+          "type": "eyes",
+          "optionId": "eyes_eyes",
+          "tint": 8423560
+        },
+        {
+          "type": "facial",
+          "optionId": "facial_beard",
+          "tint": 7029286
+        },
+        {
+          "type": "hair",
+          "optionId": "hair_unkempt",
+          "tint": 7029286
+        },
+        {
+          "type": "torso",
+          "optionId": "torso_white_leather_armor_male",
+          "tint": 9127187
+        },
+        {
+          "type": "legs",
+          "optionId": "legs_white_pants_male",
+          "tint": 8421504
+        },
+        {
+          "type": "feet",
+          "optionId": "feet_white_boots_male",
+          "tint": 1710618
+        },
+        {
+          "type": "hands",
+          "optionId": "hands_white_gloves_male",
+          "tint": 3815994
+        },
+        {
+          "type": "belt",
+          "optionId": "belt_leather_male",
+          "tint": null
+        }
+      ],
+      "spriteHash": "c1a1e27e424b0547",
+      "spriteUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/sprites/generated/c1a1e27e424b0547.png",
+      "spriteScale": 1
+    }
+  },
+  "position": {
+    "x": 880,
+    "y": 976,
+    "width": 32,
+    "height": 48,
+    "parent": "PLACE_obsidian_scar_cavern"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/characters/CHAR_vasker_rull.png?v=1771951906787",
+  "faceAnchorY": 0.14,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "talk"
+  },
+  "relationships": [],
+  "important": false
+}

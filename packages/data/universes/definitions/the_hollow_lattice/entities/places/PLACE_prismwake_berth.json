@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_prismwake_berth",
+  "label": "Prismwake Berth",
+  "description": "Prismwake Berth serves as a private sleeping cell cut into one of The Sixfold Cask’s six structural facets, its walls formed from dark composite panels set on strict polyhedral seams. A recessed bunk of voidstone laminate lies beneath a narrow strip of calibrated glass, which casts the port’s disciplined bands of radiance as measured angles across the bedding. Luminous linework is sunk into the floor and headwall as a muted geometric script that doubles as lighting and boundary marks, preserving the tavern’s regulated hush. Storage is built flush into the facet ribs, leaving the chamber spare, vibration-damped, and precisely ordered.",
+  "short_description": "quiet prismatic berth",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "bedroom",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "door_wooden",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/the_hollow_lattice/images/battles/PLACE_prismwake_berth.png?v=1772314216056",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 112,
+    "y": 160,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_the_sixfold_cask",
+    "innerWidth": 608,
+    "innerHeight": 640
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/the_hollow_lattice/images/places/PLACE_prismwake_berth.png?v=1772314267909",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

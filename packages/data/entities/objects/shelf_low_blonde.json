@@ -1,0 +1,21 @@
+{
+  "id": "shelf_low_blonde",
+  "name": "Low Display Shelf (Blonde)",
+  "description": "A wide low blonde wood shelf with horizontal display slats.",
+  "purposes": [
+    "storage"
+  ],
+  "tags": [
+    "common",
+    "furniture",
+    "display",
+    "shop"
+  ],
+  "solid": true,
+  "layer": "default",
+  "spriteId": "shelf_low_blonde",
+  "materials": [
+    "wood"
+  ],
+  "tintable": false
+}

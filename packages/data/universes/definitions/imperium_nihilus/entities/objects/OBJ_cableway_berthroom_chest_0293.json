@@ -1,0 +1,58 @@
+{
+  "id": "OBJ_cableway_berthroom_chest_0293",
+  "label": "Chest",
+  "description": "A storage chest",
+  "important": false,
+  "short_description": "chest",
+  "tags": [
+    "common",
+    "furniture",
+    "storage",
+    "ship"
+  ],
+  "entityType": "object",
+  "info": {
+    "purpose": "storage",
+    "solid": true,
+    "layer": "default",
+    "isStructural": false,
+    "material": null,
+    "tint": null,
+    "spriteConfig": {
+      "spriteId": "chest",
+      "frame": null,
+      "animationKey": null,
+      "animated": false,
+      "facing": "south"
+    },
+    "hp": null,
+    "maxHp": null,
+    "state": null,
+    "contents": [
+      "longsleeve",
+      "sealed_letter"
+    ],
+    "lightSource": null,
+    "itemId": null,
+    "plotId": null
+  },
+  "position": {
+    "x": 304,
+    "y": 192,
+    "width": 32,
+    "height": 32,
+    "parent": "PLACE_cableway_berthroom"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "relationships": [],
+  "image": null,
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "search"
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "id": "OBJ_the_shearline_arsenal_crate_stack_1127",
+  "label": "Stacked Crates",
+  "description": "A stack of wooden crates",
+  "important": false,
+  "short_description": "stacked crates",
+  "tags": [
+    "ship"
+  ],
+  "entityType": "object",
+  "info": {
+    "purpose": "storage",
+    "solid": true,
+    "layer": "default",
+    "isStructural": false,
+    "material": null,
+    "tint": null,
+    "spriteConfig": {
+      "spriteId": "crate_stack",
+      "frame": null,
+      "animationKey": null,
+      "animated": false,
+      "facing": "south"
+    },
+    "hp": null,
+    "maxHp": null,
+    "state": null,
+    "contents": [
+      "leather_bracers",
+      "metal_gloves",
+      "wooden_staff",
+      "mace"
+    ],
+    "lightSource": null,
+    "itemId": null,
+    "plotId": null
+  },
+  "position": {
+    "x": 832,
+    "y": 640,
+    "width": 64,
+    "height": 64,
+    "parent": "PLACE_the_shearline_arsenal"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "relationships": [],
+  "image": null,
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "search"
+  }
+}

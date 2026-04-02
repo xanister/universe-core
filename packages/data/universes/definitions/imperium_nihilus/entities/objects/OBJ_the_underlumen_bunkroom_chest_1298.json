@@ -1,0 +1,57 @@
+{
+  "id": "OBJ_the_underlumen_bunkroom_chest_1298",
+  "label": "Chest",
+  "description": "A storage chest",
+  "important": false,
+  "short_description": "chest",
+  "tags": [
+    "common",
+    "furniture",
+    "storage",
+    "ship"
+  ],
+  "entityType": "object",
+  "info": {
+    "purpose": "storage",
+    "solid": true,
+    "layer": "default",
+    "isStructural": false,
+    "material": null,
+    "tint": null,
+    "spriteConfig": {
+      "spriteId": "chest",
+      "frame": null,
+      "animationKey": null,
+      "animated": false,
+      "facing": "west"
+    },
+    "hp": null,
+    "maxHp": null,
+    "state": null,
+    "contents": [
+      "shoes"
+    ],
+    "lightSource": null,
+    "itemId": null,
+    "plotId": null
+  },
+  "position": {
+    "x": 432,
+    "y": 224,
+    "width": 32,
+    "height": 32,
+    "parent": "PLACE_the_underlumen_bunkroom"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "relationships": [],
+  "image": null,
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "search"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "desk",
+  "name": "Desk",
+  "description": "A writing desk",
+  "purposes": [
+    "workspace",
+    "table"
+  ],
+  "tags": [
+    "common",
+    "furniture",
+    "workspace"
+  ],
+  "solid": true,
+  "layer": "default",
+  "spriteId": "desk",
+  "materials": [
+    "wood",
+    "oak",
+    "mahogany"
+  ],
+  "tintable": true
+}

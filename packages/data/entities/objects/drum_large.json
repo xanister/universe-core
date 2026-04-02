@@ -1,0 +1,21 @@
+{
+  "id": "drum_large",
+  "name": "Large Drum",
+  "description": "A tall wooden drum with a taut leather drumhead.",
+  "purposes": [
+    "decoration"
+  ],
+  "tags": [
+    "common",
+    "entertainment",
+    "tavern"
+  ],
+  "solid": true,
+  "layer": "default",
+  "spriteId": "drum_large",
+  "materials": [
+    "wood",
+    "leather"
+  ],
+  "tintable": false
+}

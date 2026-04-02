@@ -1,0 +1,241 @@
+{
+  "id": "CHAR_tomas_rannick",
+  "label": "Tomas Rannick",
+  "description": "This individual is a human laborer of early middle years, broad through the shoulders and built for repeated lifting. Brown eyes sit beneath a pronounced brow, and brown hair is worn in a shortknot that keeps it clear of the face. Taupe skin bears ingrained grime along the hands and forearms and a healed split along the lower lip. The stance and proportions reflect a life of load-bearing work rather than drill or courtly ease.",
+  "short_description": "warehouse laborer (male)",
+  "tags": [],
+  "entityType": "character",
+  "info": {
+    "purpose": "laborer",
+    "aliases": [
+      "Tote-Tom",
+      "Rannick"
+    ],
+    "birthdate": "1183-04-17",
+    "deathdate": null,
+    "title": null,
+    "birthPlace": "Gaardia",
+    "eyeColor": "brown",
+    "gender": "male",
+    "hairColor": "brown",
+    "hairStyle": "shortknot",
+    "beardStyle": "stubble",
+    "headType": "human_male",
+    "skinTone": "taupe",
+    "personality": "Laconic and work-forward, this bondstore hand measures people by whether they keep pace and follow posted tallies. He respects clear chains of instruction, keeps disputes to brief words, and treats breakage as a moral failing rather than an accident.",
+    "race": "human",
+    "messages": [],
+    "journal": [],
+    "sketches": [],
+    "verbosity": 3,
+    "conversationContext": null,
+    "storytellerState": null,
+    "isPlayer": false,
+    "storyComplete": false,
+    "routine": {
+      "schedule": {
+        "dawn": "work",
+        "morning": "work",
+        "afternoon": "work",
+        "evening": "leisure",
+        "night": "home"
+      },
+      "home": {
+        "placeId": "PLACE_charterhouse_narrow_bedchamber",
+        "description": "Quarters near Ruinward Bondstore",
+        "areaHint": null
+      },
+      "work": {
+        "placeId": "PLACE_ruinward_bondstore",
+        "description": "Ruinward Bondstore",
+        "areaHint": null
+      },
+      "leisure": {
+        "favoriteSpot": null,
+        "preferredTagIds": [
+          "TAG_workplace_tavern"
+        ]
+      },
+      "variance": 0.2,
+      "activities": {
+        "work": "work_general"
+      }
+    },
+    "vesselRoutes": null,
+    "abstractLocation": null,
+    "npcBehavior": null,
+    "physicalState": null,
+    "pendingDeparture": null,
+    "pendingArrival": null,
+    "lastRoutineCheckPeriod": null,
+    "startingNarrative": null,
+    "startingCharacterState": null,
+    "clothing": [
+      {
+        "slot": "torso_under",
+        "itemId": "longsleeve",
+        "color": "#f5f0e8",
+        "contents": null
+      },
+      {
+        "slot": "torso_over",
+        "itemId": "overalls",
+        "color": "#8b4513",
+        "contents": null
+      },
+      {
+        "slot": "legs",
+        "itemId": "cloth_pants",
+        "color": "#3a3a3a",
+        "contents": null
+      },
+      {
+        "slot": "feet",
+        "itemId": "boots",
+        "color": "#d2b48c",
+        "contents": null
+      },
+      {
+        "slot": "belt",
+        "itemId": "rope_belt",
+        "color": "#8b4513",
+        "contents": []
+      },
+      {
+        "slot": "hands",
+        "itemId": "cloth_gloves",
+        "color": "#808080",
+        "contents": null
+      }
+    ],
+    "enabledOverlayLayers": [
+      "eyes",
+      "facial"
+    ],
+    "helmingVesselId": null,
+    "storytellerDisabled": false,
+    "rulesetState": {
+      "stats": {},
+      "conditions": [],
+      "statUsage": {},
+      "incapacitation": null,
+      "incapacitatedSince": null
+    },
+    "voiceId": "chris",
+    "spriteConfig": {
+      "bodyType": "male",
+      "layers": [
+        {
+          "type": "body",
+          "optionId": "body_base",
+          "tint": 12890264
+        },
+        {
+          "type": "body",
+          "optionId": "body_universal",
+          "tint": 12890264
+        },
+        {
+          "type": "eyes",
+          "optionId": "eyes_eyes",
+          "tint": 7029286
+        },
+        {
+          "type": "facial",
+          "optionId": "facial_beard",
+          "tint": 7029286
+        },
+        {
+          "type": "hair",
+          "optionId": "hair_shortknot",
+          "tint": 7029286
+        },
+        {
+          "type": "torso",
+          "optionId": "torso_white_longsleeve",
+          "tint": 16117992
+        },
+        {
+          "type": "torso",
+          "optionId": "torso_white_overalls_male",
+          "tint": 9127187
+        },
+        {
+          "type": "legs",
+          "optionId": "legs_white_pants_male",
+          "tint": 3815994
+        },
+        {
+          "type": "feet",
+          "optionId": "feet_white_boots_male",
+          "tint": 13808780
+        },
+        {
+          "type": "belt",
+          "optionId": "belt_wulax_belt_rope_male",
+          "tint": 9127187
+        },
+        {
+          "type": "hands",
+          "optionId": "hands_white_gloves_male",
+          "tint": 8421504
+        }
+      ],
+      "spriteHash": "829c05766bbff31b",
+      "spriteUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/sprites/generated/829c05766bbff31b.png"
+    }
+  },
+  "position": {
+    "x": 944,
+    "y": 528,
+    "width": 32,
+    "height": 48,
+    "parent": "PLACE_ruinward_bondstore"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/gaardia/images/characters/CHAR_tomas_rannick.png?v=1772642481001",
+  "faceAnchorY": 0.17,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "talk"
+  },
+  "relationships": [
+    {
+      "targetId": "CHAR_heward_lornick",
+      "type": "superior",
+      "disposition": 0,
+      "familiarity": 50,
+      "context": "Heward is a meticulous bondstore clerk; Tomas is a bondstore hand who respects chains of instruction, making it likely Heward issues procedures/tallies Tomas follows.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_tamsin_corrow",
+      "type": "superior",
+      "disposition": 0,
+      "familiarity": 50,
+      "context": "Tamsin Corrow maintains bond protocols and archival order within the Bondstore; as a laborer/hand, Tomas would plausibly fall under their procedural authority.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_tobyn_harrowick",
+      "type": "colleague",
+      "disposition": 10,
+      "familiarity": 50,
+      "context": "Both are bondstore/ruin-haul oriented, routine-driven, and chain-of-command minded; likely work the same operations in or around the Charterhouse/Bondstore system.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_tomas_rellin",
+      "type": "colleague",
+      "disposition": 10,
+      "familiarity": 50,
+      "context": "Same location (PLACE_ruinward_bondstore) and very similar role focus on posted procedures and load-moving work, making regular day-to-day working contact likely.",
+      "pendingGeneration": false
+    }
+  ],
+  "important": false
+}

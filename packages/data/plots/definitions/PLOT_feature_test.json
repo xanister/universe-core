@@ -1,0 +1,306 @@
+{
+  "id": "PLOT_feature_test",
+  "label": "The Ticking Box of Destiny (Probably)",
+  "description": "A courier has delivered a box that ticks ominously. Inside could be treasure, enlightenment, or possibly just a very persistent clock. The universe seems weirdly invested in whether you open it.",
+  "plot": "A courier delivers a small ticking box with a note that reads: 'Open before the ticking stops, or don't. Either way, something happens. Sincerely, The Management.' The box allegedly contains either a prize of questionable value or nothing useful whatsoever. The entire universe appears to be holding its breath over what is, objectively, just a wooden cube making noises.",
+  "characters": [
+    {
+      "matchHint": "self-proclaimed expert wearing a sash about boxes",
+      "role": "informant",
+      "description": "A person wearing a sash that reads 'ASK ME ABOUT BOXES' who seems to have been waiting their entire life for this exact moment. They speak with the grave authority of someone who has opened at least three boxes in their time.",
+      "publicFace": "A helpful local who really, really wants to talk to you about your box situation.",
+      "hiddenTruth": "They've never actually opened a ticking box before and are mostly winging it based on a pamphlet they found.",
+      "locationHint": "Hovering nearby with visible anticipation, pretending to examine something else.",
+      "introductionProgress": 20
+    }
+  ],
+  "places": [],
+  "items": [],
+  "turningPoints": [
+    {
+      "id": "TP_box_arrives",
+      "description": "A courier materializes with the urgency of someone who gets paid by the delivery. They thrust a small wooden box into the player's hands—it's ticking. A note attached reads: 'Open within the hour for a prize. Sincerely, An Entity That Definitely Exists. P.S. No pressure, but also yes pressure.'",
+      "progressTarget": 0,
+      "dramaticRole": "inciting_incident",
+      "triggerOnFlags": [],
+      "essentialInformation": [
+        "A courier has delivered a small ticking wooden box",
+        "The note says to open it within the hour for a prize",
+        "The box is ominously ticking and time is running out"
+      ],
+      "triggerConditions": null,
+      "conditionTimeoutHours": null,
+      "conditionsEligibleSince": null
+    },
+    {
+      "id": "TP_bystander_appears",
+      "description": "The Self-Proclaimed Box Expert appears at the player's elbow with the inevitability of a parking ticket. 'Ah, a Ticking Box of Potential Significance!' they announce, adjusting their sash. 'I've read extensively about these. My advice? Open it. Or don't. But definitely do one of those two things before the ticking stops. That's the wisdom.'",
+      "progressTarget": 20,
+      "triggerOnFlags": [
+        "box_examined",
+        "box_inspected"
+      ],
+      "dramaticRole": "rising_action",
+      "involvedCharacter": "self-proclaimed expert wearing a sash about boxes",
+      "essentialInformation": [
+        "A Self-Proclaimed Box Expert has appeared",
+        "They claim extensive knowledge about ticking boxes",
+        "Their advice: definitely open it (or don't) before the ticking stops"
+      ],
+      "triggerConditions": null,
+      "conditionTimeoutHours": null,
+      "conditionsEligibleSince": null
+    },
+    {
+      "id": "TP_decision_moment",
+      "description": "The ticking grows louder, or possibly the player is just paying more attention to it now. Somewhere, a dramatic soundtrack swells. This is clearly the moment of decision—the universe practically has a countdown timer floating above the player's head.",
+      "progressTarget": 40,
+      "triggerOnFlags": [
+        "advice_received",
+        "bystander_questioned"
+      ],
+      "dramaticRole": "midpoint",
+      "essentialInformation": [
+        "The ticking is growing louder—or the player is paying more attention",
+        "This is clearly the moment of decision",
+        "Something must be done about the box soon"
+      ],
+      "triggerConditions": null,
+      "conditionTimeoutHours": null,
+      "conditionsEligibleSince": null
+    },
+    {
+      "id": "TP_box_revelation",
+      "description": "The moment of truth arrives with all the subtlety of a brass band. The box's contents—or profound lack thereof—are finally revealed. The ticking has stopped. Whatever cosmic significance this moment held has now been spent, possibly on something underwhelming.",
+      "progressTarget": 60,
+      "triggerOnFlags": [
+        "box_opened",
+        "deliberate_choice_made",
+        "box_destroyed"
+      ],
+      "dramaticRole": "climax",
+      "essentialInformation": [
+        "The box's contents have been revealed",
+        "The ticking has stopped",
+        "Whatever cosmic significance this moment held has now been resolved"
+      ],
+      "triggerConditions": null,
+      "conditionTimeoutHours": null,
+      "conditionsEligibleSince": null
+    }
+  ],
+  "possibleFlags": [
+    {
+      "id": "box_received",
+      "triggerDescription": "Set when player accepts or receives the ticking box from the courier"
+    },
+    {
+      "id": "box_refused",
+      "triggerDescription": "Set when player refuses to accept the box from the courier"
+    },
+    {
+      "id": "box_examined",
+      "triggerDescription": "Set when player examines or inspects the ticking box"
+    },
+    {
+      "id": "box_inspected",
+      "triggerDescription": "Set when player inspects the ticking box carefully"
+    },
+    {
+      "id": "box_opened_in_time",
+      "triggerDescription": "Set when player opens the ticking box within the deadline"
+    },
+    {
+      "id": "box_opened",
+      "triggerDescription": "Set when player opens the ticking box"
+    },
+    {
+      "id": "bystander_questioned",
+      "triggerDescription": "Set when player questions or speaks with the Box Expert"
+    },
+    {
+      "id": "advice_received",
+      "triggerDescription": "Set when player receives advice from the Box Expert through conversation"
+    },
+    {
+      "id": "hidden_truth_discovered",
+      "triggerDescription": "Set when player discovers that the Box Expert is making everything up"
+    },
+    {
+      "id": "box_destroyed",
+      "triggerDescription": "Set when player destroys or damages the ticking box"
+    },
+    {
+      "id": "deliberate_choice_made",
+      "triggerDescription": "Set when player makes a deliberate choice about what to do with the box"
+    },
+    {
+      "id": "prize_claimed",
+      "triggerDescription": "Set when player successfully claims or takes the prize from the box"
+    }
+  ],
+  "goals": [
+    {
+      "id": "GOAL_examine_box",
+      "description": "Examine or inspect the mysterious ticking box",
+      "progressBoost": 10,
+      "revealOnFlags": [
+        "box_received"
+      ],
+      "successFlags": [
+        "box_examined",
+        "box_inspected"
+      ],
+      "failureFlags": []
+    },
+    {
+      "id": "GOAL_open_box_in_time",
+      "description": "Open the mysteriously ticking box before it presumably does something dramatic",
+      "progressBoost": 25,
+      "revealOnFlags": [
+        "box_received"
+      ],
+      "successFlags": [
+        "box_opened_in_time",
+        "box_opened"
+      ],
+      "failureFlags": [
+        "box_refused"
+      ],
+      "failureDeadlineHours": 1
+    },
+    {
+      "id": "GOAL_get_advice",
+      "description": "Endure a conversation with the Self-Proclaimed Box Expert",
+      "progressBoost": 15,
+      "revealOnFlags": [
+        "box_examined",
+        "box_inspected"
+      ],
+      "successFlags": [
+        "advice_received",
+        "bystander_questioned"
+      ],
+      "failureFlags": []
+    },
+    {
+      "id": "GOAL_hidden_agenda",
+      "description": "Discover that the Box Expert is completely making everything up",
+      "progressBoost": 20,
+      "revealOnFlags": [
+        "advice_received",
+        "bystander_questioned"
+      ],
+      "successFlags": [
+        "hidden_truth_discovered"
+      ],
+      "failureFlags": [],
+      "hidden": true
+    },
+    {
+      "id": "GOAL_make_choice",
+      "description": "Make any deliberate choice about the box instead of standing there holding it",
+      "progressBoost": 20,
+      "revealOnFlags": [
+        "advice_received",
+        "bystander_questioned"
+      ],
+      "successFlags": [
+        "deliberate_choice_made"
+      ],
+      "failureFlags": []
+    },
+    {
+      "id": "GOAL_destroy_box",
+      "description": "Destroy the box in a fit of defiance against cosmic expectations",
+      "progressBoost": 35,
+      "revealOnFlags": [
+        "advice_received",
+        "bystander_questioned"
+      ],
+      "successFlags": [
+        "box_destroyed"
+      ],
+      "failureFlags": []
+    },
+    {
+      "id": "GOAL_claim_prize",
+      "description": "Claim whatever the box contains (results may vary)",
+      "progressBoost": 30,
+      "revealOnFlags": [
+        "box_opened",
+        "deliberate_choice_made"
+      ],
+      "successFlags": [
+        "prize_claimed"
+      ],
+      "failureFlags": [
+        "box_destroyed"
+      ]
+    }
+  ],
+  "endingCards": [
+    {
+      "condition": {
+        "type": "flag_set",
+        "flag": "prize_claimed"
+      },
+      "title": "Victory: You Opened A Box",
+      "text": "Against literally no odds whatsoever, you successfully opened a box. The prize inside was exactly as meaningful as you hoped, which is to say, it existed. Somewhere, the Box Expert is weeping with pride."
+    },
+    {
+      "condition": {
+        "type": "flag_set",
+        "flag": "box_destroyed"
+      },
+      "title": "Chaos: Violence Was The Answer",
+      "text": "You destroyed the box rather than play its little game. Bold. Chaotic. The Box Expert fainted. The universe is quietly recalculating your file."
+    },
+    {
+      "condition": {
+        "type": "flag_not_set",
+        "flag": "advice_received"
+      },
+      "title": "The Expert Ignored",
+      "text": "You never spoke to the Self-Proclaimed Box Expert. They stood there the entire time, sash gleaming, wisdom undelivered. They're going to be processing this rejection for weeks."
+    },
+    {
+      "condition": {
+        "type": "flag_set",
+        "flag": "hidden_truth_discovered"
+      },
+      "title": "The Sash Was A Lie",
+      "text": "You discovered the Box Expert was entirely self-taught from a pamphlet titled 'Boxes And You: A Journey.' Their expertise was, at best, theoretical. They respect you now, in a grudging sort of way."
+    },
+    {
+      "condition": {
+        "type": "always"
+      },
+      "title": "The Box Saga Concludes",
+      "text": "And so the tale of the Ticking Box comes to an end. Tension rose. Decisions were made. The universe invested a frankly unreasonable amount of significance into a wooden cube. But that's showbiz, baby."
+    }
+  ],
+  "credits": {
+    "title": "The Ticking Box of Destiny (Probably)",
+    "entries": [
+      {
+        "role": "Box",
+        "name": "Itself"
+      },
+      {
+        "role": "Ticking Sound",
+        "name": "Ominous Yet Ultimately Meaningless"
+      },
+      {
+        "role": "Cosmic Significance",
+        "name": "Wildly Overstated"
+      },
+      {
+        "role": "Your Participation",
+        "name": "Appreciated"
+      }
+    ]
+  },
+  "plotStartDelay": 0,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/plots/images/PLOT_feature_test.png"
+}

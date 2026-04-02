@@ -1,0 +1,287 @@
+{
+  "id": "city",
+  "name": "City",
+  "description": "A settlement with streets, buildings, and a central gathering area",
+  "purposes": [
+    "city"
+  ],
+  "spriteId": "small_walled_town",
+  "variants": [
+    {
+      "id": "A",
+      "scale": "feet",
+      "environment": {
+        "type": "exterior",
+        "hasWeather": true,
+        "temperature": {
+          "enabled": true,
+          "base": null,
+          "modifiersApply": true
+        },
+        "maxDarkness": null
+      },
+      "slots": [
+        {
+          "purpose": "exit",
+          "positionAlgorithm": "random_valid",
+          "distribution": "even",
+          "min": 0,
+          "max": 1,
+          "nearPurpose": null,
+          "inheritableTags": null,
+          "forbiddenTags": null,
+          "slotSize": null,
+          "flags": {
+            "isStructural": true,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "preferDistrict": null,
+          "distributionGroup": null,
+          "requiredTags": null
+        },
+        {
+          "purpose": "tavern",
+          "positionAlgorithm": "road_intersection",
+          "distribution": "even",
+          "min": 1,
+          "max": 1,
+          "nearPurpose": null,
+          "inheritableTags": null,
+          "forbiddenTags": null,
+          "slotSize": null,
+          "preferDistrict": "market",
+          "distributionGroup": "buildings",
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "requiredTags": null
+        },
+        {
+          "purpose": "shop",
+          "positionAlgorithm": "along_road",
+          "distribution": "even",
+          "min": 1,
+          "max": 1,
+          "nearPurpose": null,
+          "inheritableTags": null,
+          "forbiddenTags": null,
+          "slotSize": null,
+          "preferDistrict": "market",
+          "distributionGroup": "buildings",
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "requiredTags": null
+        },
+        {
+          "purpose": "residence",
+          "positionAlgorithm": "along_road",
+          "distribution": "even",
+          "min": 3,
+          "max": 6,
+          "nearPurpose": null,
+          "inheritableTags": null,
+          "forbiddenTags": null,
+          "slotSize": null,
+          "preferDistrict": "residential",
+          "distributionGroup": "buildings",
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "requiredTags": null
+        },
+        {
+          "purpose": "workshop",
+          "positionAlgorithm": "along_road",
+          "distribution": "even",
+          "min": 0,
+          "max": 2,
+          "nearPurpose": null,
+          "inheritableTags": null,
+          "forbiddenTags": null,
+          "slotSize": null,
+          "preferDistrict": "market",
+          "distributionGroup": "buildings",
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "requiredTags": null
+        },
+        {
+          "purpose": "temple",
+          "positionAlgorithm": "road_intersection",
+          "distribution": "even",
+          "min": 0,
+          "max": 1,
+          "nearPurpose": null,
+          "inheritableTags": null,
+          "forbiddenTags": null,
+          "slotSize": null,
+          "distributionGroup": "buildings",
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "preferDistrict": null,
+          "requiredTags": null
+        },
+        {
+          "purpose": "weapon_shop",
+          "positionAlgorithm": "along_road",
+          "distribution": "even",
+          "min": 0,
+          "max": 1,
+          "nearPurpose": null,
+          "inheritableTags": null,
+          "forbiddenTags": null,
+          "slotSize": null,
+          "preferDistrict": "market",
+          "distributionGroup": "buildings",
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "requiredTags": null
+        },
+        {
+          "purpose": "warehouse",
+          "positionAlgorithm": "along_road",
+          "distribution": "even",
+          "min": 0,
+          "max": 1,
+          "nearPurpose": null,
+          "inheritableTags": null,
+          "forbiddenTags": null,
+          "slotSize": null,
+          "preferDistrict": "residential",
+          "distributionGroup": "buildings",
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "requiredTags": null
+        },
+        {
+          "purpose": "guard",
+          "positionAlgorithm": "random_valid",
+          "distribution": "even",
+          "min": 1,
+          "max": 2,
+          "nearPurpose": null,
+          "inheritableTags": null,
+          "forbiddenTags": null,
+          "slotSize": null,
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "preferDistrict": null,
+          "distributionGroup": null,
+          "requiredTags": null
+        }
+      ],
+      "districts": [
+        {
+          "id": "market",
+          "seedStrategy": "highest_degree",
+          "influenceRadius": 20,
+          "weight": 0.7
+        },
+        {
+          "id": "residential",
+          "seedStrategy": "branch_terminus",
+          "influenceRadius": 25,
+          "weight": 0.5
+        }
+      ],
+      "description": "A settlement with buildings arranged along dirt paths",
+      "weight": 1,
+      "width": {
+        "min": 80,
+        "max": 120
+      },
+      "height": {
+        "min": 60,
+        "max": 100
+      },
+      "terrainLayers": [
+        {
+          "id": "grass",
+          "tilesetId": "terrain-grass",
+          "renderOrder": 0,
+          "type": "fill",
+          "fill": [
+            46,
+            47,
+            48,
+            49
+          ],
+          "blocking": null,
+          "terrain": "land",
+          "procedural": false,
+          "inheritable": true
+        },
+        {
+          "id": "road",
+          "tilesetId": "terrain-autumn-path",
+          "terrain": "road",
+          "renderOrder": 1,
+          "blocking": null,
+          "procedural": false,
+          "fill": [],
+          "inheritable": false,
+          "type": "road",
+          "roadWidth": 3,
+          "branchCount": 3,
+          "curvature": 0.4,
+          "autotilePreset": "canonical",
+          "autotileAgainst": [],
+          "altCenterCount": 0
+        },
+        {
+          "id": "town_center",
+          "type": "town_center",
+          "tilesetId": "terrain-autumn-path",
+          "terrain": "road",
+          "renderOrder": 2,
+          "blocking": "unblocks",
+          "procedural": false,
+          "fill": [],
+          "inheritable": false,
+          "radius": 4,
+          "autotilePreset": "canonical",
+          "autotileAgainst": [
+            "road"
+          ]
+        }
+      ],
+      "defaultBlocked": false,
+      "padding": 3
+    }
+  ],
+  "characterScale": 1,
+  "timeScale": 1,
+  "interactionZone": null
+}

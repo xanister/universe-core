@@ -1,0 +1,18 @@
+{
+  "id": "EVENT_name_revealed_alaric_morn_iscar_venn_1772032750618",
+  "date": "999.M1 09:28",
+  "placeId": null,
+  "important": false,
+  "importanceScore": null,
+  "scope": null,
+  "relevantPlaceIds": null,
+  "eventType": "name_revealed",
+  "category": "knowledge",
+  "subject": "Iscar Venn",
+  "subjectId": "CHAR_iscar_venn",
+  "fact": "Learned the name \"Iscar Venn\"",
+  "significance": "minor",
+  "witnessIds": [
+    "CHAR_alaric_morn"
+  ]
+}

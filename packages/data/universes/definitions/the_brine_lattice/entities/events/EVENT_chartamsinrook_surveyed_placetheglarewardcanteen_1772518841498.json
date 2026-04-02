@@ -1,0 +1,20 @@
+{
+  "id": "EVENT_chartamsinrook_surveyed_placetheglarewardcanteen_1772518841498",
+  "date": "C 01.01.8127 10:00",
+  "placeId": "PLACE_the_glareward_canteen",
+  "eventType": null,
+  "category": "world",
+  "subject": "The Glareward Canteen",
+  "subjectId": "PLACE_the_glareward_canteen",
+  "fact": "CHAR_tamsin_rook surveyed PLACE_the_glareward_canteen",
+  "significance": "moderate",
+  "witnessIds": [
+    "CHAR_tamsin_rook"
+  ],
+  "important": false,
+  "importanceScore": null,
+  "scope": "local",
+  "relevantPlaceIds": [
+    "PLACE_the_glareward_canteen"
+  ]
+}

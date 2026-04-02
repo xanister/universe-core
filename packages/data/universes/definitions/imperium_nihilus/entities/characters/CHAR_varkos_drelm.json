@@ -1,0 +1,262 @@
+{
+  "id": "CHAR_varkos_drelm",
+  "label": "Varkos Drelm",
+  "description": "This individual presents as a human corpse preserved by the cavern’s dry cold, with light skin drawn tight over sharp bone. Gray eyes sit deep in hollow sockets, fixed in a stare that never softens, while black hair lies in brittle, uneven clumps along a sunken scalp. The jawline shows old fractures set wrong, and the mouth hangs with a permanent asymmetry that exposes worn teeth. Fingers are long and rigid, with darkened nails and knuckles thickened by repeated impact against stone.",
+  "short_description": "undead cavern wight (male)",
+  "tags": [],
+  "entityType": "character",
+  "info": {
+    "purpose": "undead",
+    "aliases": [
+      "Obsidian Scar Wight",
+      "The Cavern Watcher"
+    ],
+    "birthdate": "Unknown",
+    "deathdate": null,
+    "title": null,
+    "birthPlace": "",
+    "eyeColor": "gray",
+    "gender": "male",
+    "hairColor": "black",
+    "hairStyle": "unkempt",
+    "beardStyle": "stubble",
+    "headType": "human_male",
+    "skinTone": "light",
+    "personality": "A relentless cavern-haunter that obeys instinctive patrol patterns and reacts to intrusion with mute, methodical violence. It fixes on movement and sound, advances without hesitation, and persists until physically broken or driven off. Its manner is wordless and ritualistic, repeating the same routes and pauses as if bound to an old duty.",
+    "race": "human",
+    "messages": [],
+    "journal": [],
+    "sketches": [],
+    "verbosity": 3,
+    "conversationContext": null,
+    "storytellerState": null,
+    "isPlayer": false,
+    "storyComplete": false,
+    "routine": {
+      "schedule": {
+        "dawn": "work",
+        "morning": "work",
+        "afternoon": "work",
+        "evening": "work",
+        "night": "work"
+      },
+      "home": {
+        "placeId": "PLACE_obsidian_scar_cavern",
+        "description": "Obsidian Scar Cavern",
+        "areaHint": null
+      },
+      "work": {
+        "placeId": "PLACE_obsidian_scar_cavern",
+        "description": "Obsidian Scar Cavern",
+        "areaHint": null
+      },
+      "leisure": null,
+      "variance": 0.2,
+      "activities": {
+        "work": "undead_patrol"
+      }
+    },
+    "vesselRoutes": null,
+    "abstractLocation": null,
+    "npcBehavior": null,
+    "physicalState": null,
+    "pendingDeparture": null,
+    "pendingArrival": null,
+    "lastRoutineCheckPeriod": null,
+    "startingNarrative": null,
+    "startingCharacterState": null,
+    "clothing": [
+      {
+        "slot": "torso_under",
+        "itemId": "tunic",
+        "color": "#3a3a3a",
+        "contents": null
+      },
+      {
+        "slot": "torso_over",
+        "itemId": "trenchcoat",
+        "color": "#1a1a1a",
+        "contents": null
+      },
+      {
+        "slot": "legs",
+        "itemId": "cloth_pants",
+        "color": "#808080",
+        "contents": null
+      },
+      {
+        "slot": "feet",
+        "itemId": "boots",
+        "color": "#8b4513",
+        "contents": null
+      },
+      {
+        "slot": "hands",
+        "itemId": "cloth_gloves",
+        "color": "#1a1a1a",
+        "contents": null
+      },
+      {
+        "slot": "belt",
+        "itemId": "rope_belt",
+        "color": "#d2b48c",
+        "contents": [
+          {
+            "id": "ci_1771953868236_njxsm5",
+            "itemId": "unarmed",
+            "name": "unarmed",
+            "description": null,
+            "type": "weapon",
+            "quantity": 1,
+            "color": null,
+            "equipSlot": "weapon",
+            "plotId": null
+          }
+        ]
+      }
+    ],
+    "enabledOverlayLayers": [
+      "eyes",
+      "facial"
+    ],
+    "helmingVesselId": null,
+    "storytellerDisabled": false,
+    "rulesetState": {
+      "stats": {
+        "physical": 50,
+        "mental": 50,
+        "social": 50,
+        "poise": 50,
+        "max_poise": 50,
+        "bloodloss": 0,
+        "anxiety": 0,
+        "fatigue": 0,
+        "hunger": 0
+      },
+      "conditions": [],
+      "statUsage": {},
+      "incapacitation": null,
+      "incapacitatedSince": null
+    },
+    "voiceId": "brian",
+    "spriteConfig": {
+      "bodyType": "male",
+      "layers": [
+        {
+          "type": "body",
+          "optionId": "body_base",
+          "tint": 15780008
+        },
+        {
+          "type": "body",
+          "optionId": "body_universal",
+          "tint": 15780008
+        },
+        {
+          "type": "eyes",
+          "optionId": "eyes_eyes",
+          "tint": 8423560
+        },
+        {
+          "type": "facial",
+          "optionId": "facial_beard",
+          "tint": 1710618
+        },
+        {
+          "type": "hair",
+          "optionId": "hair_unkempt",
+          "tint": 1710618
+        },
+        {
+          "type": "torso",
+          "optionId": "torso_formal_trenchcoat_male",
+          "tint": 1710618
+        },
+        {
+          "type": "legs",
+          "optionId": "legs_white_pants_male",
+          "tint": 8421504
+        },
+        {
+          "type": "feet",
+          "optionId": "feet_white_boots_male",
+          "tint": 9127187
+        },
+        {
+          "type": "hands",
+          "optionId": "hands_white_gloves_male",
+          "tint": 1710618
+        },
+        {
+          "type": "belt",
+          "optionId": "belt_wulax_belt_rope_male",
+          "tint": 13808780
+        }
+      ],
+      "spriteHash": "305ec8a468006c37",
+      "spriteUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/sprites/generated/305ec8a468006c37.png",
+      "spriteScale": 1
+    }
+  },
+  "position": {
+    "x": 1040,
+    "y": 240,
+    "width": 32,
+    "height": 48,
+    "parent": "PLACE_obsidian_scar_cavern"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/characters/CHAR_varkos_drelm.png?v=1771953932595",
+  "faceAnchorY": 0.22,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "talk"
+  },
+  "relationships": [
+    {
+      "targetId": "CHAR_sereth_kurn",
+      "type": "colleague",
+      "disposition": 10,
+      "familiarity": 50,
+      "context": "Both are cavern-haunting undead in PLACE_obsidian_scar_cavern exhibiting patrol-bound, duty-like routines; likely part of the same sentinel/patrol presence.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_veylan_korrith",
+      "type": "colleague",
+      "disposition": 10,
+      "familiarity": 50,
+      "context": "Both function as tireless custodial guards of the cavern’s passages; their behaviors suggest a shared role maintaining/defending the tunnels.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_caldren_thoss",
+      "type": "colleague",
+      "disposition": 10,
+      "familiarity": 50,
+      "context": "Both are ritual-bound undead sentinels in the same cavern responding to intrusion with methodical hostility, consistent with a common service/duty.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_odran_khelt",
+      "type": "colleague",
+      "disposition": 10,
+      "familiarity": 50,
+      "context": "Both are cavern-bound revenant/sentinel types tied to fixed patrol routes and territorial/custodial habits within the Obsidian Scar Cavern.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_vaust_rennek",
+      "type": "colleague",
+      "disposition": 10,
+      "familiarity": 50,
+      "context": "Same location and near-identical undead patrol-sentinel behavior; likely members of the same defensive routine. Vaust’s Obsidian Scar Cavern birthplace further supports long-term shared duty.",
+      "pendingGeneration": false
+    }
+  ],
+  "important": false
+}

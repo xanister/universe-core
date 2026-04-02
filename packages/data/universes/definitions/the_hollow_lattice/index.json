@@ -1,0 +1,218 @@
+{
+  "id": "the_hollow_lattice",
+  "name": "The Hollow Lattice",
+  "version": "1.0.0",
+  "description": "Long ago, the world’s interior was mined into a continent-spanning honeycomb of chambers, rails, and resonant pylons meant to stabilize reality itself. The project worked—until the day the pylons began to \"sing\" back, rewriting stone into memory, turning corridors into biographies, and replacing maps with moods. Now the surface is a thin, wind-scoured crust over a vast underworld of living architecture where old thoughts calcify into doors and forgotten names become predators. City-states cling to safe frequencies, tuning their lives by chimes and hush-signals, while expeditioners descend to salvage usable history without letting the Lattice learn them too well.",
+  "custom": {},
+  "rules": "- The Lattice responds to attention: the more deliberately a place is observed, measured, or named, the more it reshapes itself to fit (or resist) that interpretation.\n- Spoken true names have power but also cost: saying a true name out loud makes it easier to command, and easier for the Lattice to track and imitate.\n- Sound is infrastructure: doors, lifts, locks, and wards are operated by tones, rhythms, and silence protocols; firearms and explosions are rare because uncontrolled noise can trigger hostile reconfiguration.\n- Light is unreliable underground: bright illumination attracts echo-predators and accelerates \"memory crystallization\"; most expeditions favor narrow beams, shaded lanterns, or bioluminescent inks.\n- Death is not clean: strong regrets may \"imprint\" into nearby stone, creating hazards, clues, or occasionally a salvageable skill-echo.\n- Surface travel is possible but dangerous: storms strip language from signage and erode faces in portraits; communities use tactile scripts and braided cords for records.",
+  "tone": "surreal expeditionary thriller with grounded survival details and eerie, intimate horror",
+  "style": "high-contrast ink-and-brass subterranean fantasy; carved stone geometry, bioluminescent accents, acoustic machinery, worn expedition gear",
+  "mapStyle": null,
+  "image": null,
+  "date": "01.01.19 P.S. 10:03",
+  "calendar": {
+    "name": "The Hollow Lattice Calendar",
+    "calendarType": "standard",
+    "months": [
+      {
+        "name": "Resonance Month 1",
+        "days": 30
+      },
+      {
+        "name": "Resonance Month 2",
+        "days": 30
+      },
+      {
+        "name": "Resonance Month 3",
+        "days": 30
+      },
+      {
+        "name": "Resonance Month 4",
+        "days": 30
+      },
+      {
+        "name": "Resonance Month 5",
+        "days": 30
+      },
+      {
+        "name": "Resonance Month 6",
+        "days": 30
+      },
+      {
+        "name": "Resonance Month 7",
+        "days": 30
+      },
+      {
+        "name": "Resonance Month 8",
+        "days": 30
+      },
+      {
+        "name": "Resonance Month 9",
+        "days": 30
+      },
+      {
+        "name": "Resonance Month 10",
+        "days": 30
+      },
+      {
+        "name": "Resonance Month 11",
+        "days": 30
+      },
+      {
+        "name": "Resonance Month 12",
+        "days": 30
+      }
+    ],
+    "time": {
+      "hoursPerDay": 24,
+      "minutesPerHour": 60
+    },
+    "eras": [
+      {
+        "id": 1,
+        "name": "Post-Singing Cycles",
+        "shortName": "P.S.",
+        "backwards": false,
+        "transitionEra": 0
+      }
+    ],
+    "defaultEra": 1,
+    "seasons": null,
+    "format": {
+      "dateSeparator": ".",
+      "timeSeparator": ":",
+      "eraPosition": "suffix",
+      "monthDisplay": "number",
+      "yearFirst": false,
+      "use24Hour": false,
+      "yearOnlyTemplate": "",
+      "millenniumPrefix": ""
+    }
+  },
+  "weather": "cloudy",
+  "weatherSeverity": 0.25447489436439436,
+  "climate": null,
+  "music": null,
+  "races": [
+    {
+      "id": "chimeborn",
+      "label": "Chimeborn",
+      "description": "Humanoid descendants of engineers who bonded their nervous systems to tuning rigs; they sense structural moods as harmonics and can \"hear\" lies as dissonance.",
+      "rarity": "uncommon",
+      "spriteHints": {
+        "humanoidBody": true,
+        "spriteArchetype": "human",
+        "defaultSkinColor": "light",
+        "allowedSkinColors": [
+          "light",
+          "olive",
+          "brown",
+          "bronze",
+          "taupe"
+        ],
+        "allowedEyeColors": [
+          "blue",
+          "gray",
+          "green",
+          "brown",
+          "purple"
+        ],
+        "allowedHairColors": null,
+        "featureLayers": null
+      }
+    },
+    {
+      "id": "vitrikin",
+      "label": "Vitrikin",
+      "description": "People whose bones and skin carry glassy inclusions that store short memories like prisms; they can replay impressions but risk shattering under emotional stress.",
+      "rarity": "uncommon",
+      "spriteHints": {
+        "humanoidBody": true,
+        "spriteArchetype": "elf",
+        "defaultSkinColor": "pale_green",
+        "allowedSkinColors": [
+          "pale_green",
+          "lavender",
+          "light",
+          "taupe"
+        ],
+        "allowedEyeColors": [
+          "gray",
+          "blue",
+          "purple",
+          "yellow"
+        ],
+        "allowedHairColors": null,
+        "featureLayers": null
+      }
+    },
+    {
+      "id": "groutkin",
+      "label": "Groutkin",
+      "description": "Stout tunnel-adapted folk who secrete mineral paste used to seal, patch, and sculpt; valued as builders, feared for their ability to \"close\" passages behind them.",
+      "rarity": "common",
+      "spriteHints": {
+        "humanoidBody": true,
+        "spriteArchetype": "orc",
+        "defaultSkinColor": "olive",
+        "allowedSkinColors": [
+          "olive",
+          "dark_green"
+        ],
+        "allowedEyeColors": [
+          "brown",
+          "gray",
+          "green",
+          "orange"
+        ],
+        "allowedHairColors": null,
+        "featureLayers": null
+      }
+    },
+    {
+      "id": "mothbound",
+      "label": "Mothbound",
+      "description": "Nocturnal nomads marked by velvety collars and dusted patterns; they navigate by faint glows and are drawn to taboo lights, bargaining with echoes for illumination.",
+      "rarity": "rare",
+      "spriteHints": {
+        "humanoidBody": true,
+        "spriteArchetype": "human",
+        "defaultSkinColor": "taupe",
+        "allowedSkinColors": [
+          "taupe",
+          "light",
+          "olive",
+          "brown"
+        ],
+        "allowedEyeColors": [
+          "yellow",
+          "gray",
+          "purple",
+          "red"
+        ],
+        "allowedHairColors": null,
+        "featureLayers": null
+      }
+    },
+    {
+      "id": "cairnwright",
+      "label": "Cairnwright",
+      "description": "Animated funerary constructs built from stacked stones and vow-threads; they \"live\" by keeping promises and can temporarily borrow skills from nearby imprints.",
+      "rarity": "rare",
+      "spriteHints": {
+        "humanoidBody": false,
+        "spriteArchetype": null,
+        "defaultSkinColor": null,
+        "allowedSkinColors": null,
+        "allowedEyeColors": null,
+        "allowedHairColors": null,
+        "featureLayers": null
+      }
+    }
+  ],
+  "rootPlaceId": "",
+  "rulesetId": null,
+  "defaultStartPlaceId": null,
+  "stagingSpriteTheme": "fantasy",
+  "hungerFatigueEnabled": false
+}

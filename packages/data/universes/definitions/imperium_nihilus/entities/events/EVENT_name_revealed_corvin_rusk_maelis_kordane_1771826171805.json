@@ -1,0 +1,16 @@
+{
+  "id": "EVENT_name_revealed_corvin_rusk_maelis_kordane_1771826171805",
+  "date": "999.M1 00:12",
+  "placeId": null,
+  "important": false,
+  "importanceScore": null,
+  "scope": null,
+  "relevantPlaceIds": null,
+  "eventType": "name_revealed",
+  "category": "knowledge",
+  "subject": "Maelis Kordane",
+  "subjectId": null,
+  "fact": "Learned the name \"Maelis Kordane\"",
+  "significance": "minor",
+  "witnessIds": null
+}

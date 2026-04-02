@@ -1,0 +1,16 @@
+{
+  "id": "EVENT_name_revealed_halden_sorett_corvin_rusk_1771823514770",
+  "date": "999.M1 03:42",
+  "placeId": null,
+  "important": false,
+  "importanceScore": null,
+  "scope": null,
+  "relevantPlaceIds": null,
+  "eventType": "name_revealed",
+  "category": "knowledge",
+  "subject": "Corvin Rusk",
+  "subjectId": null,
+  "fact": "Learned the name \"Corvin Rusk\"",
+  "significance": "minor",
+  "witnessIds": null
+}

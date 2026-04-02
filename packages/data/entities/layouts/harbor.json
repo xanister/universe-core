@@ -1,0 +1,191 @@
+{
+  "id": "harbor",
+  "name": "Harbor",
+  "description": "A pier or harbor dock",
+  "purposes": [
+    "harbor"
+  ],
+  "spriteId": "world_map_dock",
+  "variants": [
+    {
+      "id": "A",
+      "scale": "feet",
+      "environment": {
+        "type": "exterior",
+        "hasWeather": true,
+        "temperature": {
+          "enabled": true,
+          "base": null,
+          "modifiersApply": true
+        },
+        "maxDarkness": null
+      },
+      "slots": [
+        {
+          "positionAlgorithm": "random_valid",
+          "min": 1,
+          "max": 1,
+          "nearPurpose": null,
+          "inheritableTags": null,
+          "distribution": "even",
+          "forbiddenTags": null,
+          "purpose": "player_start",
+          "slotSize": null,
+          "flags": {
+            "isStructural": true,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "preferDistrict": null,
+          "distributionGroup": null,
+          "requiredTags": null
+        },
+        {
+          "max": 1,
+          "positionAlgorithm": "pier_end",
+          "min": 1,
+          "nearPurpose": null,
+          "inheritableTags": null,
+          "distribution": "even",
+          "forbiddenTags": null,
+          "purpose": "gangplank",
+          "slotSize": null,
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "preferDistrict": null,
+          "distributionGroup": null,
+          "requiredTags": null
+        },
+        {
+          "purpose": "ship_deck_decoration",
+          "positionAlgorithm": "random_valid",
+          "distribution": "even",
+          "requiredTags": null,
+          "forbiddenTags": null,
+          "inheritableTags": null,
+          "min": 0,
+          "max": 2,
+          "nearPurpose": null,
+          "slotSize": null,
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "preferDistrict": null,
+          "distributionGroup": null
+        },
+        {
+          "purpose": "ship_deck_decoration",
+          "positionAlgorithm": "random_valid",
+          "distribution": "even",
+          "requiredTags": null,
+          "forbiddenTags": null,
+          "inheritableTags": null,
+          "min": 0,
+          "max": 2,
+          "nearPurpose": null,
+          "slotSize": null,
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "preferDistrict": null,
+          "distributionGroup": null
+        }
+      ],
+      "description": "A small pier or dock",
+      "weight": 2,
+      "width": {
+        "min": 40,
+        "max": 60
+      },
+      "height": {
+        "min": 35,
+        "max": 40
+      },
+      "terrainLayers": [
+        {
+          "id": "land",
+          "tilesetId": "terrain-grass",
+          "terrain": "land",
+          "renderOrder": 0,
+          "blocking": "unblocks",
+          "procedural": false,
+          "fill": [],
+          "inheritable": false,
+          "type": "fill"
+        },
+        {
+          "id": "ocean",
+          "tilesetId": "terrain-ocean",
+          "terrain": "water",
+          "renderOrder": 1,
+          "blocking": "blocks",
+          "procedural": false,
+          "fill": [
+            46,
+            47,
+            48
+          ],
+          "inheritable": true,
+          "type": "noise_fill",
+          "fillDirection": "north",
+          "fillPercent": 0.25,
+          "noiseScale": 0.051,
+          "noiseAmplitude": 0.15,
+          "autotilePreset": "canonical",
+          "autotileAgainst": []
+        },
+        {
+          "id": "coast",
+          "tilesetId": "terrain-beach",
+          "terrain": "land",
+          "renderOrder": 2,
+          "blocking": "unblocks",
+          "procedural": false,
+          "fill": [
+            46,
+            47,
+            48
+          ],
+          "inheritable": false,
+          "type": "coastline",
+          "sourceLayerId": "ocean",
+          "beachWidth": 1,
+          "autotilePreset": "canonical",
+          "autotileAgainst": []
+        },
+        {
+          "id": "dock_surface",
+          "tilesetId": "terrain-cobble-brown-dark",
+          "terrain": "road",
+          "renderOrder": 3,
+          "blocking": "unblocks",
+          "procedural": false,
+          "fill": [],
+          "inheritable": false,
+          "type": "noise_fill",
+          "fillDirection": "south",
+          "fillPercent": 0.65,
+          "noiseScale": 0.051,
+          "noiseAmplitude": 0.15,
+          "autotilePreset": "canonical",
+          "autotileAgainst": []
+        }
+      ],
+      "defaultBlocked": true
+    }
+  ],
+  "characterScale": 1,
+  "timeScale": 1,
+  "interactionZone": null
+}

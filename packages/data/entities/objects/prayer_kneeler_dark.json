@@ -1,0 +1,21 @@
+{
+  "id": "prayer_kneeler_dark",
+  "name": "Prayer Kneeler",
+  "description": "A dark wood prayer kneeler with a tall gothic arch back panel — a confessional seat or private devotional chair.",
+  "purposes": [
+    "decoration"
+  ],
+  "tags": [
+    "furniture",
+    "seating",
+    "temple",
+    "decoration"
+  ],
+  "solid": true,
+  "layer": "default",
+  "spriteId": "prayer_kneeler_dark",
+  "materials": [
+    "wood"
+  ],
+  "tintable": false
+}

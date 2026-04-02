@@ -1,0 +1,20 @@
+{
+  "id": "mug_cluster_dark",
+  "name": "Dark Mug Cluster",
+  "description": "A cluster of dark wooden beer mugs.",
+  "purposes": [
+    "decoration"
+  ],
+  "tags": [
+    "common",
+    "drinkware",
+    "tavern"
+  ],
+  "solid": false,
+  "layer": "default",
+  "spriteId": "mug_cluster_dark",
+  "materials": [
+    "wood"
+  ],
+  "tintable": false
+}

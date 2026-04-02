@@ -1,0 +1,22 @@
+{
+  "id": "EVENT_charkorrbrightblade_waited_at_placethequenchedpike_1772269640723",
+  "date": "03.01.11 4A 05:41",
+  "placeId": "PLACE_the_quenched_pike",
+  "eventType": null,
+  "category": "world",
+  "subject": "The Quenched Pike",
+  "subjectId": "PLACE_the_quenched_pike",
+  "fact": "CHAR_korr_brightblade waited at PLACE_the_quenched_pike",
+  "significance": "moderate",
+  "witnessIds": [
+    "CHAR_korr_brightblade",
+    "CHAR_alaric_fenrow",
+    "CHAR_lysander_broach"
+  ],
+  "important": false,
+  "importanceScore": null,
+  "scope": "local",
+  "relevantPlaceIds": [
+    "PLACE_the_quenched_pike"
+  ]
+}

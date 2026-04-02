@@ -1,0 +1,22 @@
+{
+  "id": "vanity_stool_white",
+  "name": "Vanity Stool (White Wood)",
+  "description": "A round upholstered pedestal stool on white-painted wood legs.",
+  "purposes": [
+    "seating"
+  ],
+  "tags": [
+    "common",
+    "furniture",
+    "bedroom",
+    "seating"
+  ],
+  "solid": false,
+  "layer": "default",
+  "spriteId": "vanity_stool_white",
+  "materials": [
+    "wood",
+    "fabric"
+  ],
+  "tintable": false
+}

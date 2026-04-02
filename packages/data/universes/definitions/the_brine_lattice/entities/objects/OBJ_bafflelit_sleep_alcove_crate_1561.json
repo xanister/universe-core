@@ -1,0 +1,58 @@
+{
+  "id": "OBJ_bafflelit_sleep_alcove_crate_1561",
+  "label": "Crate",
+  "description": "A simple wooden crate",
+  "important": false,
+  "short_description": "crate",
+  "tags": [
+    "common",
+    "storage",
+    "ship"
+  ],
+  "entityType": "object",
+  "info": {
+    "purpose": "storage",
+    "solid": true,
+    "layer": "default",
+    "isStructural": false,
+    "material": null,
+    "tint": null,
+    "spriteConfig": {
+      "spriteId": "crate",
+      "frame": null,
+      "animationKey": null,
+      "animated": false,
+      "facing": "west"
+    },
+    "hp": null,
+    "maxHp": null,
+    "state": null,
+    "contents": [
+      "coin_pouch",
+      "cloth_pants",
+      "tunic"
+    ],
+    "lightSource": null,
+    "itemId": null,
+    "plotId": null
+  },
+  "position": {
+    "x": 480,
+    "y": 288,
+    "width": 32,
+    "height": 32,
+    "parent": "PLACE_bafflelit_sleep_alcove"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "relationships": [],
+  "image": null,
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "search"
+  }
+}

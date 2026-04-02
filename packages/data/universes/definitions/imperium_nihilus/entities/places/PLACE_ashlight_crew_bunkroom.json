@@ -1,0 +1,60 @@
+{
+  "id": "PLACE_ashlight_crew_bunkroom",
+  "label": "Ashlight Crew Bunkroom",
+  "description": "Ashlight Crew Bunkroom occupies a narrow back chamber of the basalt tavern, its walls skinned in riveted sheet metal and its seams packed with grit-catching seals against Vespera Tertius’ ash. Stacked bunks of soot-black timber line the bulkheads, while a grated trench drain and spill channels in the floor preserve the canteen’s washdown practicality. Violet-glass light filters through a shuttered slit-vent, staining the room in bruise tones and throwing hard shadows across bolted storage lockers. Grounded chains and ceiling baffles carry the electrostatic load, and the space remains audibly insulated from the taproom by a gasketed pressure door.",
+  "short_description": "ash-dim bunk chamber",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "bedroom",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "door_wooden",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/battles/PLACE_ashlight_crew_bunkroom.png?v=1771872518072",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 144,
+    "y": 160,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_the_ashlight_canteen",
+    "innerWidth": 512,
+    "innerHeight": 512
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/places/PLACE_ashlight_crew_bunkroom.png?v=1771872570576",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": [
+    "Ashlight Bunkroom"
+  ],
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

@@ -1,0 +1,48 @@
+{
+  "id": "OBJ_meridian_ledgerhouse_sleep_bay_double_bed_0601",
+  "label": "Double Bed",
+  "description": "A comfortable double bed with a sturdy frame and soft bedding.",
+  "important": false,
+  "short_description": "double bed",
+  "tags": [],
+  "entityType": "object",
+  "info": {
+    "purpose": "sleeping",
+    "solid": true,
+    "layer": "default",
+    "isStructural": false,
+    "material": null,
+    "tint": null,
+    "spriteConfig": {
+      "spriteId": "double_bed_yellow",
+      "frame": null,
+      "animationKey": null,
+      "animated": false,
+      "facing": "south"
+    },
+    "hp": null,
+    "maxHp": null,
+    "state": null,
+    "contents": null,
+    "lightSource": null,
+    "itemId": null,
+    "plotId": null
+  },
+  "position": {
+    "x": 256,
+    "y": 448,
+    "width": 64,
+    "height": 96,
+    "parent": "PLACE_meridian_ledgerhouse_sleep_bay"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "relationships": [],
+  "image": null,
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": null
+}

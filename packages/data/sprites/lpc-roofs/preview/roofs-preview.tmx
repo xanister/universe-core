@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.4" tiledversion="1.4.1" orientation="orthogonal" renderorder="right-down" width="48" height="48" tilewidth="32" tileheight="32" infinite="0" nextlayerid="8" nextobjectid="39">
+ <tileset firstgid="1" source="colonial.tsx"/>
+ <tileset firstgid="1025" source="../roofs.tsx"/>
+ <layer id="4" name="houses_1" width="48" height="48">
+  <data encoding="base64" compression="zlib">
+   eJztmE1OwzAQhYd6R+mqJwB2hR6idAecBOhFkkDbi7TlGm3Fz0X4uQGvC0t2FBTLcRIH3ie9xYxH0XMUZTwWIYSQ+DiCeoZUgHxZbUhOoTND5wHyZbUhmUBXhqYB8mW1hBBC/Giir9VJE32tTtjXCAnD9VDkBrodtu3EjwS+UyjrqP8tfO+gfQv+Q/QA3Qt950Yf8v2rin/9LN+50XW/5lpI/7oX+s6Nrvt1XWsa1/26rhFC/jf6/ybSzflI++9J/P6L7o2rzKfHv+QHvgZLKLo3rjKfjqB+LncCjY34CS9qnjtALRAvPQ5VRffGVbiDLsQ+91xCM6NmBZ9rZddsED9HcJGSQPdif38P0KNR8wKfr8queUP8HoH/A6nY31+WW/+Az09l13wh/o7EPyGE/BV+AN/CNwg=
+  </data>
+ </layer>
+ <layer id="3" name="houses_2" width="48" height="48">
+  <data encoding="base64" compression="zlib">
+   eJztl0EOwyAMBNPwkpKXtPn/n8oFaWXZpJFIIdWMtAcQdhYObFgWAJiFR9EqSmPtnOZZlEXbWDunwf9YXkVv0T7WDgBMRL64f8/8rb2SjOu9bPuuDWm/Iz897//aazNjnat7zA0lqbd13jnb717p356XJ10b1anXXv5rFu5mHM1F0rVRneZsL/+jsOcGAPAP2H+Ko/nZiLLlLpkTZQuZAwC/4C53ZcS3/mfdp+dL37OpsW4GPF/e23jWTPN8eW9jAAAA8PkAjmsZ/Q==
+  </data>
+ </layer>
+ <layer id="1" name="roof_1" width="48" height="48">
+  <data encoding="base64" compression="zlib">
+   eJztltlOE1EYx09LZwqlJAIv4I0SkcTtwutuIVEfQ2R1Q16g2436GMoSvPHCB5guIREeQ0HckMV46+9kzklnJlOKpUuI55/8cs75OtPv/3XI/BHCqBuqDnbvu1NxISpQhRrk4v7Po/Hw+86qNPdnbCGy5/0e2+8za7v1PPs0v08GslBWfVK2e09GXZuz/XVv7TTvhZgQRSjFzjdDwfb7LKnejpzJblBXPfJyXlWrQdn21721ZnLwXIEq1KAea99/xfb7rKnekUF/3Ro8/fpKSK2ZIhZ/f5a7j7FaVvv++6FUwG/ugvk3Mvpf5PAuGuDdWw95J503A7UGAu/ftMyUkHey9BLMqaCvlCer5T4Sd7PO8tabZGA7yuMzA+VY41xQuahrup/0IvOuoDJKYgU8yNzWWS33vqxrkYHtyFE5rjNQZ6M3F/PKs169/r3oa/W+WYZL797/f1rl3WmSWShzXGegzkZvLnp9S+rU81a4/yhrrEWGh/VtVzoLdQZ6s1HXapbr2YGK7AtFKMkZ1CwFPb/0eYbfM9i3m9Kem0nPYmRk1FDmEu9HRe5Sb3reGxfivocH42794ZAQMx4eDbn1A9ZleAEr8EfVHfwWoaQow1ZghtlRIeZgvoOzvcTvKw+vlf83+HrrYVX5vJEQ4oj9MZzA3YRbj+Criq+aog7x0YbvVViDddjgs28dmuEjfnfGXO/brDvK/ye8TSZc75dZd5X/9+yX4Q6swAflP4UvB2JjLlvsp+GK8r0Le/AF9vF+nXVqtHMzbI83vGvJGT4PNbxLHeL3GE7kc4Df2j+eSwGmYUb5vjrm/+5Faksd8m9kZGTUb1UT7d13bViIH/ATDmByuLO+WqlCvygMQAxqqr+sFZK8y5NuPUxz1OfhMdc8gaewwHmxhzNE6ZmiXwZycgbODqvD84iOcIY6+3rA0xrndQnX/2I9hCPY5LzJ+q5HM6TpV6BXEUpyDs4RyMtnknQps7eS/vsmOO/BBtyEW3AbvsJ3mEqG9+uF8kl3rowiK2cI+JnlPMGz2Q/xP0V9qY/+z6o5fM6P+P0vcF4c6bezf9MzfD+H5QvwmxsZGRkZGXVDfwHjv9Ob
+  </data>
+ </layer>
+ <layer id="2" name="roof_2" width="48" height="48">
+  <data encoding="base64" compression="zlib">
+   eJztmFtOwkAUQK88pFC6BKN/RiM+2AFtt0H0zzegOxDYhtE/nzFxCQiuRRNFlBV4CJKUDw1TkWJyT3IyucnAnIHyg4gyTh4skSbGE/21ZUVdZEZz9ud5WqimRGoB66moi8xwkyJeQD8ZdZEZDav/bAx8/GfPeSzNbzRgIh11kaIoiqIoiqIoiqIoiqJMlkJaxEUP/Qn+P7Zki7TxDTu4bId7nxOaq1jDeqC/aQ+v33GaFTnDBYPzd9i7izlet4pruMe8H+IOja/2nq0Qn/+cIzKPWyOefcG+S7zCQ7pLWMZr5hu8NbzDTEYkhnFMZMz7i7Rv4vmI5z6x7xnvaH5n/cAu3jO/sL4a9hdodtFDP0S/KYt0trGD67iB+d5dsIsr2b9v+A3b9OX4vsrOcH+FOY8HU94/oERrhdYjPO6tTtRFiqIoijJePgEFmTgn
+  </data>
+ </layer>
+ <layer id="7" name="color_1" width="48" height="48" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJztl0kOgkAQRVsDNA6XUhGVW2kcoscSEvQATrfxV2BBdAG0Q2P8L/lpFnTV61o0QSnyTs6+UpdCrr5to3qcxNvLnmW9veA/xP69VipGEiTwzOoMvKyW7B+X1Dg9+L7iv5C+2D9CAmRp6D+XOSAJsjKsYYL0jAtJDHvv31CDEEK+hda2DZ4ZwGlc4hXifp0gU7w3wxo16L6dw2lV4r+Gb4ockCOya5J/he+vuIcO5i+zd7IzNIU2XJwKPp6L+cO9637eqQ4tuLsV/MPcO2qYPyGEEEIIIf/KoWvbwIy0p5RGfKSDHHu2jeqh+/g/gvMUieQMfdtG9ZjAd5PPfIt19mP+hBBCCCG/zh2TzSrp
+  </data>
+ </layer>
+ <layer id="6" name="color_2" width="48" height="48" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJztl1lsVFUYx8+Ds09npUCRQIzP8kID+OBKwiJ2h24UCOHZCJFN2ypgUiOl05YW6NREY3x2S9CADyZoUqBQOi3tdKFijO8u0ShKi/5u7jeZO7ftCNO5UuP9J79855zeOff3TWbumSplx4ose8S6vTe5lLoMV+AqvODK/Pujrrlfd7+pxr0Gai3qoQW/zW6ltsBWOCm+9U6ldkID813U3c759+jkmtMGumSPMzifhXPQA3ELeujT3ntnmn65dy/jWzAF38C7WfwrHEpVGqhy6Ouj+CZhDMZhwgJ/pzvT3+vW11PuU4Ye5kuC1ww704zIHoX0sVR6WU4tcuTfPx8Je5SKGIh69PUdJt+6Repvx87/PZM8d1by7L2d5Tm10Dxmev5WMK+a45l8DYdt8CKUQhkMZvGqx3uFSz/rVsHuBZ7Zc+U9PPfCB+LbQe2ELuiWtZSzj/u3Uk9BDNoh6Er3Yk6vy3TWmfzdeTi3vmWP9+F72StBHYKbMCJrKWcjMRPtc/hPujLPutsWvP+rOTu+w/NxOUNC1DBEYYmsmd0HWW91zO7BnBXuTP9V7vz77xHHfVLLDWfhdhnfcOjO1+A6DECb5g/t0supRXyGppyzJbaI/e3YeRipDfHbWKgPWXOP56JKPQ8bo/q8nFphoFLW6/jtXm9gp/yWv0NthCZo1ta8+noS3x6IC70wZerh5bBS++HAAno7jt8JeFM8O6idBk7Lehy3XgPviP8GfO8ynoYZeFb8l+I1jteEMAkrw2nvj+Bj+AQ+5W+/5NjDJfy+gq/FM0EdjujuQ9RhWZ/AbbVXdy+k3hL/Lxg3QhM0w5fiX41XEooiOlOMG+AJ8f4BfoSf4Gfc11KLw7n1YI7Ww1A07Z6K1sOkJ+2u5U/t/YdpmIF7KX+c4yYa4CXxXhPJ3PsV1g7myd/KfJjF8fx/wN+OHTt6lgWUWg5Fgdz3KOFZWAplUO755+vvJ+t8PFfhLkzDet/sazoK+P8C7x1QDZ0Fud2rDecYtEOHwf+KL7Nq6fMr9Ra8Df1+fa2V2gYBue4Q9TC8xlojNMER5kcN+wzimoBuvM/AWRhiPpxDDwMG/0SW97+P+zvZ3wUe8EI/az7qAI6ljM/DZxrMZ6j34C+4wPwC9SIEcA1CCEZgFJIQhghEH/CzVMB5GYAghLzzX+fEoYX7u/06Jxl7qdvwL4EY82Lmv8Ln8BQ8Dc/AHfgDntT6xK8MCoNK1VBroU77HjCvpFY9oH8JzqVQBuVZ/Fu492bYImzVevBnXnOQeTG9/Gby/11zZ/1Vagy/7bhWwznGPRCHGuZ10LWA73I+cgjPwwWZ/keYH5XP9g38uvFMmvzHmMfh5kP213IM12a8X4c34Jh/9jWjuI7hOg4TWg3++5527NixY8eOlfkbSb/+4A==
+  </data>
+ </layer>
+ <objectgroup id="5" name="Object Layer 1">
+  <object id="6" x="260.811" y="293.337" width="112.471" height="41.7674">
+   <text wrap="1" halign="center">Hipped with flat top</text>
+  </object>
+  <object id="7" x="442.67" y="298.403" width="116.46" height="41.9118">
+   <text wrap="1">Hipped (steep) with flat top</text>
+  </object>
+  <object id="8" x="654.443" y="289.63" width="89.5469" height="18.8438">
+   <text wrap="1">Hipped</text>
+  </object>
+  <object id="9" x="623.444" y="608.884" width="131.867" height="18.8438">
+   <text wrap="1">Gable (Shallow)</text>
+  </object>
+  <object id="11" x="256.142" y="612.411" width="48.9897" height="18.8438">
+   <text wrap="1">Gable</text>
+  </object>
+  <object id="13" x="997.259" y="618.001" width="89.5469" height="18.8438">
+   <text wrap="1">Gambrel</text>
+  </object>
+  <object id="14" x="1201.49" y="649.001" width="112.471" height="18.8438">
+   <text wrap="1">Gross-Gabled</text>
+  </object>
+  <object id="15" x="1183.39" y="292.299" width="109.763" height="18.8438">
+   <text wrap="1">Cross-Gabled</text>
+  </object>
+  <object id="16" x="1004.55" y="287.806" width="89.5469" height="18.8438">
+   <text wrap="1">Gambrel</text>
+  </object>
+  <object id="17" x="827.675" y="291.453" width="89.5469" height="18.8438">
+   <text wrap="1">Hipped</text>
+  </object>
+  <object id="19" x="241.924" y="928.679" width="57.7362" height="18.8438">
+   <text wrap="1">&quot;Zelda&quot;</text>
+  </object>
+  <object id="20" x="612.294" y="940.213" width="38.2845" height="18.8438">
+   <text wrap="1">Flat</text>
+  </object>
+  <object id="21" x="771.235" y="940.24" width="122.867" height="57.0165">
+   <text wrap="1">Flared Hipped with flat top (fake Mansard)</text>
+  </object>
+  <object id="22" x="941.655" y="940.213" width="162.596" height="18.8438">
+   <text wrap="1">Hipped with flat top</text>
+  </object>
+  <object id="23" x="1206.94" y="946.621" width="123.902" height="37.9301">
+   <text wrap="1">Asymmetric Gable (Saltbox)</text>
+  </object>
+ </objectgroup>
+</map>

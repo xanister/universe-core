@@ -1,0 +1,21 @@
+{
+  "id": "obelisk",
+  "name": "Obelisk",
+  "description": "Tall stone obelisk on a round base. Ancient decorative monument.",
+  "purposes": [
+    "decoration",
+    "village_landmark"
+  ],
+  "tags": [
+    "outdoor",
+    "decoration",
+    "stone",
+    "monument"
+  ],
+  "solid": true,
+  "layer": "default",
+  "spriteId": "obelisk",
+  "materials": [
+    "stone"
+  ]
+}

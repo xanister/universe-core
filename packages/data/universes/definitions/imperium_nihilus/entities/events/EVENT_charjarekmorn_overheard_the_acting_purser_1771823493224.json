@@ -1,0 +1,18 @@
+{
+  "id": "EVENT_charjarekmorn_overheard_the_acting_purser_1771823493224",
+  "date": "999.M1 23:42",
+  "placeId": "PLACE_zephyr_spare_locker",
+  "eventType": "turning_point",
+  "category": "world",
+  "subject": "Zephyr Spare Locker",
+  "subjectId": "PLACE_zephyr_spare_locker",
+  "fact": "CHAR_jarek_morn overheard The Acting Purser accuse an unknown saboteur of moving bronze clearance medallions and staging ritual ash near the Zephyr Rivet Passage; lanterns flickered in a litany-like rhythm; CHAR_corvin_rusk confronted the purser at Zephyr Spare Locker",
+  "significance": "major",
+  "witnessIds": null,
+  "important": true,
+  "importanceScore": null,
+  "scope": "local",
+  "relevantPlaceIds": [
+    "PLACE_zephyr_spare_locker"
+  ]
+}

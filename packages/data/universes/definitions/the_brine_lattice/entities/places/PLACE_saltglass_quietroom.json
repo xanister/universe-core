@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_saltglass_quietroom",
+  "label": "Saltglass Quietroom",
+  "description": "Saltglass Quietroom serves as a private sleeping chamber set off the inward-facing plan of Saltglass Courtyard House. Basalt walls finished in pale mineral wash carry shallow buttress ribs that stiffen the room against the city’s measurable tidal stresses. A high slit aperture, screened by layered baffles and shutters, admits the courtyard’s saltglass-diffused light as a steady, glare-muted illumination. Built-in stone shelving and a low sleeping platform are cut directly from the wall mass, leaving the floor clear and easily kept free of mineral haze grit.",
+  "short_description": "glare-muted basalt room",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "bedroom",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "door_wooden",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/the_brine_lattice/images/battles/PLACE_saltglass_quietroom.png?v=1772313915775",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 208,
+    "y": 160,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_saltglass_courtyard_house",
+    "innerWidth": 608,
+    "innerHeight": 512
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/the_brine_lattice/images/places/PLACE_saltglass_quietroom.png?v=1772313977269",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

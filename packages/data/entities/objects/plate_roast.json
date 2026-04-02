@@ -1,0 +1,18 @@
+{
+  "id": "plate_roast",
+  "name": "Roast Plate",
+  "description": "A plate with a portion of roasted meat.",
+  "purposes": [
+    "decoration"
+  ],
+  "tags": [
+    "common",
+    "food",
+    "tavern"
+  ],
+  "solid": false,
+  "layer": "default",
+  "spriteId": "plate_roast",
+  "materials": [],
+  "tintable": false
+}

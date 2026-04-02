@@ -1,0 +1,393 @@
+{
+  "id": "CHAR_sevrin_acastus",
+  "label": "Sevrin Acastus",
+  "description": "This individual is a human man of early adulthood, lean-limbed and long-backed, with an alert carriage that marks a life spent on the move. Brown eyes sit deep beneath straight brows, giving the face a watchful, measuring cast. Black hair is worn in a shortknot, keeping a high forehead and prominent cheekbones unobscured. Bronze skin shows ingrained sun-darkening at the neck and hands, a durable complexion consistent with frequent travel.",
+  "short_description": "male cantina traveler",
+  "tags": [],
+  "entityType": "character",
+  "info": {
+    "purpose": "player",
+    "aliases": [
+      "Ash-road Sevrin"
+    ],
+    "birthdate": "798.M41",
+    "deathdate": null,
+    "title": null,
+    "birthPlace": "Nihilus fringe caravans",
+    "eyeColor": "brown",
+    "gender": "male",
+    "hairColor": "black",
+    "hairStyle": "shortknot",
+    "beardStyle": "stubble",
+    "headType": "human_male",
+    "skinTone": "bronze",
+    "personality": "Restless and purpose-driven, this newcomer to the Cinder Cantina treats every conversation as a map and every rumor as a lead. He cultivates practical friendships quickly, pays attention to local hierarchies, and measures danger without bravado. His ambition centers on finding employ that carries him beyond the cantina’s walls and into the hard country, where adventure and meaning are earned rather than declared.",
+    "race": "human",
+    "messages": [
+      {
+        "role": "user",
+        "action": "input",
+        "opts": {
+          "text": "I look around."
+        },
+        "date": "999.M1 17:23",
+        "omitFromTranscript": false,
+        "hidden": false
+      },
+      {
+        "date": "999.M1 17:25",
+        "omitFromTranscript": false,
+        "hidden": false,
+        "role": "assistant",
+        "action": "narration",
+        "opts": {
+          "text": "Evening gloom presses through the ash-stained intake grilles, but the cantina’s bruised violet light-strips gleam off vitrified paving and cracked stone flags beneath a soot-blackened, ribbed ceiling of conduit and reinforcement. A scarred plasteel counter runs the vault’s length with caged burners and insulated taps; vox-baffles deaden the city’s ash-gales, and the wooden door out stands shut, marked for Vespera Tertius—behind the bar the broad-shouldered bartender keeps busy wiping, checking taps, and setting cups in neat rows."
+        }
+      },
+      {
+        "role": "assistant",
+        "action": "milestone",
+        "opts": {
+          "type": "location_entered",
+          "label": "Vespera Tertius Ashenward City",
+          "subtext": null,
+          "entityId": "PLACE_vespera_tertius_ashenward_city",
+          "checkDetail": null,
+          "combatData": null
+        },
+        "date": null,
+        "omitFromTranscript": true,
+        "hidden": false
+      },
+      {
+        "role": "assistant",
+        "action": "milestone",
+        "opts": {
+          "type": "location_entered",
+          "label": "The Ashen Lateen",
+          "subtext": null,
+          "entityId": "PLACE_the_ashen_lateen",
+          "checkDetail": null,
+          "combatData": null
+        },
+        "date": null,
+        "omitFromTranscript": true,
+        "hidden": false
+      },
+      {
+        "role": "assistant",
+        "action": "milestone",
+        "opts": {
+          "type": "location_entered",
+          "label": "The Ironband Passage",
+          "subtext": null,
+          "entityId": "PLACE_the_ironband_passage",
+          "checkDetail": null,
+          "combatData": null
+        },
+        "date": null,
+        "omitFromTranscript": true,
+        "hidden": false
+      },
+      {
+        "role": "assistant",
+        "action": "milestone",
+        "opts": {
+          "type": "location_entered",
+          "label": "The Ashen Lateen",
+          "subtext": null,
+          "entityId": "PLACE_the_ashen_lateen",
+          "checkDetail": null,
+          "combatData": null
+        },
+        "date": null,
+        "omitFromTranscript": true,
+        "hidden": false
+      },
+      {
+        "role": "user",
+        "action": "input",
+        "opts": {
+          "text": "I say hi"
+        },
+        "date": "999.M1 17:35",
+        "omitFromTranscript": false,
+        "hidden": false
+      },
+      {
+        "date": "999.M1 17:36",
+        "omitFromTranscript": false,
+        "hidden": false,
+        "role": "assistant",
+        "action": "narration",
+        "opts": {
+          "text": "Clear evening light skims the iron-banded rail as the Ashen Lateen cuts the river; the male ship captain turns his gray-eyed stare your way for a beat while the broad-shouldered helmsman keeps both hands locked on the wheel, gaze forward."
+        }
+      },
+      {
+        "date": "999.M1 17:36",
+        "omitFromTranscript": false,
+        "hidden": false,
+        "role": "assistant",
+        "action": "dialog",
+        "opts": {
+          "characterId": "CHAR_lysander_quell",
+          "text": "Evening. Keep clear of the lines and you’ll have no trouble from my deck."
+        }
+      },
+      {
+        "role": "user",
+        "action": "input",
+        "opts": {
+          "text": "I wait 480 minutes."
+        },
+        "date": "999.M1 17:43",
+        "omitFromTranscript": false,
+        "hidden": false
+      },
+      {
+        "date": "999.M1 01:43",
+        "omitFromTranscript": false,
+        "hidden": false,
+        "role": "assistant",
+        "action": "narration",
+        "opts": {
+          "text": "Eight hours grind by under a cloud-choked night; the Ashen Lateen keeps sliding upriver through black water, lantern boxes shuttered and chain-shot racks sweating with dew, while boots thud on watch changes and rigging creaks in the cold. The helmsman never leaves the wheel, and the captain makes brief, silent passes along the rail, checking the river and the lines as the sky lightens only to a dim, iron-gray pre-dawn."
+        }
+      }
+    ],
+    "journal": [
+      {
+        "content": "You push through the pressure-seal into the Cinder Cantina, ash clinging to your coat and throat from Ashenward City’s basalt windbreak. Inside the slagcrete vault, the air is recycled and sour; violet light-strips wash the scarred counter and caged burners while the outside gale becomes a distant, metallic hush behind vox-baffles.\n\nYou take a spot with sightlines to the door, the bar, and the booths, reading uniforms, icons, and the way people flinch when the Ecclesiarchy’s words come through a tinny wall-speaker. You’re here because the road brought you here—because in Nihilus, work, transport, and survival all pass through places like this before they vanish back into the ash.",
+        "gameDate": "999.M1 17:23",
+        "facts": [
+          {
+            "placeId": null,
+            "category": "world",
+            "subject": "Current Situation",
+            "subjectId": null,
+            "fact": "In Nihilus, messages and routes fail without warning; people trade in rumors because official words arrive late or wrong.",
+            "significance": "minor",
+            "important": false
+          },
+          {
+            "placeId": null,
+            "category": "world",
+            "subject": "Current Situation",
+            "subjectId": null,
+            "fact": "The Cantina is a pressure-sealed refuge where workers, voidcrew, and armed faithful mix—carefully—under watchful local hierarchy.",
+            "significance": "minor",
+            "important": false
+          },
+          {
+            "placeId": null,
+            "category": "knowledge",
+            "subject": "Current Situation",
+            "subjectId": null,
+            "fact": "You know you’ll need practical allies and a sanctioned line of work if you want to leave the city alive and with purpose.",
+            "significance": "minor",
+            "important": false
+          }
+        ],
+        "image": null,
+        "context": null
+      }
+    ],
+    "sketches": [],
+    "verbosity": 3,
+    "conversationContext": null,
+    "storytellerState": {
+      "storytellerId": "STORYTELLER_the_ironwind_herald",
+      "voiceId": "river",
+      "activePlots": [],
+      "generationInProgress": true,
+      "eventHistory": [],
+      "storytellerSelectedAt": "999.M1 17:23",
+      "custom": {}
+    },
+    "isPlayer": true,
+    "storyComplete": false,
+    "routine": null,
+    "vesselRoutes": null,
+    "abstractLocation": null,
+    "npcBehavior": null,
+    "physicalState": null,
+    "pendingDeparture": null,
+    "pendingArrival": null,
+    "lastRoutineCheckPeriod": "evening",
+    "startingNarrative": "You push through the pressure-seal into the Cinder Cantina, ash clinging to your coat and throat from Ashenward City’s basalt windbreak. Inside the slagcrete vault, the air is recycled and sour; violet light-strips wash the scarred counter and caged burners while the outside gale becomes a distant, metallic hush behind vox-baffles.\n\nYou take a spot with sightlines to the door, the bar, and the booths, reading uniforms, icons, and the way people flinch when the Ecclesiarchy’s words come through a tinny wall-speaker. You’re here because the road brought you here—because in Nihilus, work, transport, and survival all pass through places like this before they vanish back into the ash.",
+    "startingCharacterState": "Restless, alert, and calculating; hungry for motion and opportunity, but careful to stay inconspicuous under Imperial eyes.",
+    "clothing": [
+      {
+        "slot": "torso_under",
+        "itemId": "tunic",
+        "color": "#d2b48c",
+        "contents": null
+      },
+      {
+        "slot": "torso_over",
+        "itemId": "trenchcoat",
+        "color": "#3a3a3a",
+        "contents": null
+      },
+      {
+        "slot": "legs",
+        "itemId": "cloth_pants",
+        "color": "#8b4513",
+        "contents": null
+      },
+      {
+        "slot": "feet",
+        "itemId": "boots",
+        "color": "#1a1a1a",
+        "contents": null
+      },
+      {
+        "slot": "belt",
+        "itemId": "leather_belt",
+        "color": "#8b4513",
+        "contents": [
+          {
+            "id": "ci_1772038480861_ym9xgf",
+            "itemId": "iron_amulet",
+            "name": "Iron Amulet",
+            "description": "A rough iron pendant on a leather cord",
+            "type": "generic",
+            "quantity": 1,
+            "color": null,
+            "equipSlot": null,
+            "plotId": null
+          }
+        ]
+      },
+      {
+        "slot": "neck",
+        "itemId": "capeclip",
+        "color": "#ad8b60",
+        "contents": null
+      },
+      {
+        "slot": "accessories",
+        "itemId": "glasses",
+        "color": null,
+        "contents": null
+      }
+    ],
+    "enabledOverlayLayers": [
+      "eyes",
+      "facial"
+    ],
+    "helmingVesselId": null,
+    "storytellerDisabled": false,
+    "rulesetState": {
+      "stats": {
+        "physical": 50,
+        "mental": 50,
+        "social": 50,
+        "poise": 50,
+        "max_poise": 50,
+        "bloodloss": 0,
+        "anxiety": 0,
+        "fatigue": 0,
+        "hunger": 0
+      },
+      "conditions": [],
+      "statUsage": {},
+      "incapacitation": null,
+      "incapacitatedSince": null
+    },
+    "voiceId": "will",
+    "spriteConfig": {
+      "bodyType": "male",
+      "layers": [
+        {
+          "type": "body",
+          "optionId": "body_base",
+          "tint": 11373408
+        },
+        {
+          "type": "body",
+          "optionId": "body_universal",
+          "tint": 11373408
+        },
+        {
+          "type": "eyes",
+          "optionId": "eyes_eyes",
+          "tint": 7029286
+        },
+        {
+          "type": "facial",
+          "optionId": "facial_beard",
+          "tint": 1710618
+        },
+        {
+          "type": "hair",
+          "optionId": "hair_shortknot",
+          "tint": 1710618
+        },
+        {
+          "type": "torso",
+          "optionId": "torso_formal_trenchcoat_male",
+          "tint": 3815994
+        },
+        {
+          "type": "legs",
+          "optionId": "legs_white_pants_male",
+          "tint": 9127187
+        },
+        {
+          "type": "feet",
+          "optionId": "feet_white_boots_male",
+          "tint": 1710618
+        },
+        {
+          "type": "belt",
+          "optionId": "belt_leather_male",
+          "tint": 9127187
+        },
+        {
+          "type": "neck",
+          "optionId": "neck_white_capeclip_male",
+          "tint": 11373408
+        },
+        {
+          "type": "accessories",
+          "optionId": "accessories_formal_glasses_male",
+          "tint": 12632256
+        }
+      ],
+      "spriteHash": "faf592604379e299",
+      "spriteUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/sprites/generated/faf592604379e299.png",
+      "spriteScale": 1
+    }
+  },
+  "position": {
+    "x": 559.0000000000051,
+    "y": 667.3333333333342,
+    "width": 32,
+    "height": 48,
+    "parent": "PLACE_the_ashen_lateen"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/characters/CHAR_sevrin_acastus.png?v=1771993941658",
+  "faceAnchorY": 0.17,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "talk"
+  },
+  "relationships": [
+    {
+      "targetId": "CHAR_tovin_ashmere",
+      "type": "acquaintance",
+      "disposition": 0,
+      "familiarity": 40,
+      "context": "Both are currently at the Cinder Cantina; Sevrin is a newcomer seeking leads and would naturally have at least a basic acquaintance with Tovin as the measured, rule-enforcing staff behind the counter.",
+      "pendingGeneration": false
+    }
+  ],
+  "important": false
+}

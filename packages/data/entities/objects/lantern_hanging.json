@@ -1,0 +1,31 @@
+{
+  "id": "lantern_hanging",
+  "name": "Hanging Lantern",
+  "description": "A dark iron lantern with a warm yellow glow.",
+  "purposes": [
+    "lighting"
+  ],
+  "tags": [
+    "common",
+    "lighting",
+    "tavern"
+  ],
+  "solid": false,
+  "layer": "overhead",
+  "spriteId": "lantern_hanging",
+  "materials": [
+    "iron"
+  ],
+  "tintable": false,
+  "animated": true,
+  "lightSource": {
+    "radius": 112,
+    "color": 16766720,
+    "intensity": 0.45,
+    "flicker": true,
+    "flickerSpeed": 300,
+    "flickerRange": 0.08,
+    "offsetX": 0,
+    "offsetY": 0
+  }
+}

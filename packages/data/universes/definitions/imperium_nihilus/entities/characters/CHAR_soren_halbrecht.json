@@ -1,0 +1,283 @@
+{
+  "id": "CHAR_soren_halbrecht",
+  "label": "Soren Halbrecht",
+  "description": "This individual is a compact, broad-shouldered man of middle years with bronze skin and brown eyes set beneath pronounced brow ridges. Brown hair is kept in a plain, close-cropped cut that emphasizes a square jaw and a thickened nose bridge consistent with repeated minor impacts. The hands are notably large and callused, with permanently roughened knuckles and faint healed cuts across the fingers that indicate long familiarity with glass, metal, and hot wash water. A small, pale scar splits the right eyebrow, leaving a slight, enduring asymmetry to the upper face.",
+  "short_description": "male canteen barman",
+  "tags": [],
+  "entityType": "character",
+  "info": {
+    "purpose": "bartender",
+    "aliases": [
+      "Ashbound Pourman",
+      "Halbrecht"
+    ],
+    "birthdate": "997.M41",
+    "deathdate": null,
+    "title": null,
+    "birthPlace": "Imperium Nihilus",
+    "eyeColor": "brown",
+    "gender": "male",
+    "hairColor": "brown",
+    "hairStyle": "plain",
+    "beardStyle": "stubble",
+    "headType": "human_male",
+    "skinTone": "bronze",
+    "personality": "He maintains strict order behind the bar and enforces house rules with terse, professional courtesy. He memorizes regulars by their preferred measures and tab habits, and he treats supplies as inventory to be guarded rather than casually spent. He speaks plainly, distrusts theatrics, and values calm routines amid the canteen’s nightly volatility.",
+    "race": "human",
+    "messages": [],
+    "journal": [],
+    "sketches": [],
+    "verbosity": 3,
+    "conversationContext": null,
+    "storytellerState": null,
+    "isPlayer": false,
+    "storyComplete": false,
+    "routine": {
+      "schedule": {
+        "dawn": "home",
+        "morning": "work",
+        "afternoon": "work",
+        "evening": "work",
+        "night": "home"
+      },
+      "home": {
+        "placeId": "PLACE_ashlight_back_chamber",
+        "description": "Quarters near The Ashlight Canteen",
+        "areaHint": null
+      },
+      "work": {
+        "placeId": "PLACE_the_ashlight_canteen",
+        "description": "The Ashlight Canteen",
+        "areaHint": null
+      },
+      "leisure": null,
+      "variance": 0.2,
+      "activities": {
+        "work": "tavern_work"
+      }
+    },
+    "vesselRoutes": null,
+    "abstractLocation": null,
+    "npcBehavior": null,
+    "physicalState": null,
+    "pendingDeparture": null,
+    "pendingArrival": null,
+    "lastRoutineCheckPeriod": null,
+    "startingNarrative": null,
+    "startingCharacterState": null,
+    "clothing": [
+      {
+        "slot": "torso_under",
+        "itemId": "formal_shirt",
+        "color": "#f5f0e8",
+        "contents": null
+      },
+      {
+        "slot": "torso_over",
+        "itemId": "apron",
+        "color": "#3a3a3a",
+        "contents": null
+      },
+      {
+        "slot": "legs",
+        "itemId": "formal_pants",
+        "color": "#1a1a1a",
+        "contents": null
+      },
+      {
+        "slot": "feet",
+        "itemId": "shoes",
+        "color": "#8b4513",
+        "contents": null
+      },
+      {
+        "slot": "belt",
+        "itemId": "leather_belt",
+        "color": "#8b4513",
+        "contents": [
+          {
+            "id": "ci_1772000956709_paw2yy",
+            "itemId": "unarmed",
+            "name": "unarmed",
+            "description": null,
+            "type": "weapon",
+            "quantity": 1,
+            "color": null,
+            "equipSlot": "weapon",
+            "plotId": null
+          }
+        ]
+      },
+      {
+        "slot": "hands",
+        "itemId": "cloth_gloves",
+        "color": null,
+        "contents": null
+      }
+    ],
+    "enabledOverlayLayers": [
+      "eyes",
+      "facial"
+    ],
+    "helmingVesselId": null,
+    "storytellerDisabled": false,
+    "rulesetState": {
+      "stats": {
+        "physical": 50,
+        "mental": 50,
+        "social": 50,
+        "poise": 50,
+        "max_poise": 50,
+        "bloodloss": 0,
+        "anxiety": 0,
+        "fatigue": 0,
+        "hunger": 0
+      },
+      "conditions": [],
+      "statUsage": {},
+      "incapacitation": null,
+      "incapacitatedSince": null
+    },
+    "voiceId": "eric",
+    "spriteConfig": {
+      "bodyType": "male",
+      "layers": [
+        {
+          "type": "body",
+          "optionId": "body_base",
+          "tint": 11373408
+        },
+        {
+          "type": "body",
+          "optionId": "body_universal",
+          "tint": 11373408
+        },
+        {
+          "type": "eyes",
+          "optionId": "eyes_eyes",
+          "tint": 7029286
+        },
+        {
+          "type": "facial",
+          "optionId": "facial_beard",
+          "tint": 7029286
+        },
+        {
+          "type": "hair",
+          "optionId": "hair_plain",
+          "tint": 7029286
+        },
+        {
+          "type": "torso",
+          "optionId": "torso_formal_shirt_male",
+          "tint": 16117992
+        },
+        {
+          "type": "torso",
+          "optionId": "torso_white_apron_male",
+          "tint": 3815994
+        },
+        {
+          "type": "legs",
+          "optionId": "legs_formal_pants_male",
+          "tint": 1710618
+        },
+        {
+          "type": "feet",
+          "optionId": "feet_white_shoes_male",
+          "tint": 9127187
+        },
+        {
+          "type": "belt",
+          "optionId": "belt_leather_male",
+          "tint": 9127187
+        },
+        {
+          "type": "hands",
+          "optionId": "hands_white_gloves_male",
+          "tint": null
+        }
+      ],
+      "spriteHash": "8b01ede08ee1b2e3",
+      "spriteUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/sprites/generated/8b01ede08ee1b2e3.png",
+      "spriteScale": 1
+    }
+  },
+  "position": {
+    "x": 240.9,
+    "y": 439.1,
+    "width": 32,
+    "height": 48,
+    "parent": "PLACE_ashlight_back_chamber"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/characters/CHAR_soren_halbrecht.png?v=1772001016036",
+  "faceAnchorY": 0.16,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "talk"
+  },
+  "relationships": [
+    {
+      "targetId": "CHAR_corvin_rake",
+      "type": "colleague",
+      "disposition": 10,
+      "familiarity": 50,
+      "context": "Both are strict, routine-focused bartenders from Imperium Nihilus operating in the Ashbound/Ashlight canteen spaces, making it likely they work the same venue/shift structure.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_edrin_fallow",
+      "type": "colleague",
+      "disposition": 10,
+      "familiarity": 50,
+      "context": "Edrin is stationed in the Ashbound bunkroom and described as a methodical counter-keeper; Soren works the Ashbound canteen bar, implying shared workplace and coordinated operations.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_orris_malk",
+      "type": "colleague",
+      "disposition": 10,
+      "familiarity": 50,
+      "context": "Orris is another disciplined bartender in the Ashlight back chamber; given overlapping canteen-adjacent locations and identical professional role, they likely coordinate as staff.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_silan_jett",
+      "type": "colleague",
+      "disposition": 10,
+      "familiarity": 50,
+      "context": "Silan is based in the Ashbound bunkroom and keeps strict bar control; with Soren at the Ashbound canteen, they likely work within the same establishment and share rules/supply routines.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_tamsin_rowe",
+      "type": "colleague",
+      "disposition": 10,
+      "familiarity": 50,
+      "context": "Tamsin Rowe is located in the Ashlight back chamber and is explicitly a bar/order-keeper; proximity and shared role make a working relationship plausible.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_tavren_hule",
+      "type": "colleague",
+      "disposition": 10,
+      "familiarity": 50,
+      "context": "Tavren is in the Ashbound bunkroom and functions as a precise, rule-enforcing bartender; likely part of the same Ashbound canteen staff.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_tomas_avenro",
+      "type": "colleague",
+      "disposition": 10,
+      "familiarity": 50,
+      "context": "Tomas is an Ashbound bunkroom bartender with strict stock-keeping; Soren’s inventory-guarding approach suggests they coordinate supplies and tabs as coworkers.",
+      "pendingGeneration": false
+    }
+  ],
+  "important": false
+}

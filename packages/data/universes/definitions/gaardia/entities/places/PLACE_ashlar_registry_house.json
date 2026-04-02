@@ -1,0 +1,60 @@
+{
+  "id": "PLACE_ashlar_registry_house",
+  "label": "Ashlar Registry House",
+  "description": "Ashlar Registry House occupies a narrow, rebuilt shell of salvaged stone and newer brick, its street face reinforced with iron grilles and a deep lintel carved with docket marks. The interior is arranged around a small lightwell, with steep stair runs and tight galleries that favor surveillance and secure circulation over comfort. Built-in presses and lockable cupboards line the principal room, designed for sealed packets, duplicate ledgers, and notarized copies kept under civic licensing. Wall niches hold hazard placards and interdiction notices, fixing the dwelling within Varric Holdfast’s culture of codified law and frontier anxiety.",
+  "short_description": "fortified ledger-lined home",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "residence",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "building_residence",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/gaardia/images/battles/PLACE_ashlar_registry_house.png?v=1772208418303",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 1744,
+    "y": 800,
+    "width": 160,
+    "height": 256,
+    "parent": "PLACE_varric_holdfast",
+    "innerWidth": 864,
+    "innerHeight": 864
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/gaardia/images/places/PLACE_ashlar_registry_house.png?v=1772208467432",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": [
+    "The Charterwall House"
+  ],
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

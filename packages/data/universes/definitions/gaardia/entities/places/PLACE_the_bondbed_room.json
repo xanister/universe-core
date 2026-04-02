@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_the_bondbed_room",
+  "label": "The Bondbed Room",
+  "description": "The Bondbed Room serves as a licensed sleeping chamber within The Writ and Tankard, set behind a stout plank door fitted with an iron-hasp suitable for a registered key. A narrow rope-bed and a wall-fixed chest stand beneath a smoke-darkened beam, while a small shuttered window admits only a regulated slit of light from the lane. The plaster bears stenciled house rules and fines in clerkly script, and the floorboards show deep wear where boots and lockboxes habitually rest. The room’s sparse fittings and posted ordinances reflect Varric Holdfast’s preference for codified order over comfort.",
+  "short_description": "spare lawbound bedroom",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "bedroom",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "door_wooden",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/gaardia/images/battles/PLACE_the_bondbed_room.png?v=1772208494209",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 464,
+    "y": 160,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_the_writ_and_tankard",
+    "innerWidth": 448,
+    "innerHeight": 512
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/gaardia/images/places/PLACE_the_bondbed_room.png?v=1772208544232",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

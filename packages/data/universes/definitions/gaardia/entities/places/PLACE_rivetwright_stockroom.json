@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_rivetwright_stockroom",
+  "label": "Rivetwright Stockroom",
+  "description": "This narrow storage room occupies a rear bay of the Rivetwright Shop, its walls of reused stone bound by riveted iron straps against the ruinfield’s settling. Racked shelves hold sorted fittings, chain links, and gate hardware in numbered bins, while long timber cradles keep measured bar stock off the damp floor. Posted ordinance sheets and tally boards fix quantities and restrictions for pitch, oil, and other licensed supplies, reflecting Cindervale’s codified fire and quarantine rules. A single slit vent and soot-blackened flue keep the air dry, metallic, and faintly acrid with coal residue.",
+  "short_description": "ordered iron stock",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "storage_room",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.9
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "door_wooden",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/gaardia/images/battles/PLACE_rivetwright_stockroom.png?v=1772218006821",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 176,
+    "y": 1024,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_the_rivetwright_shop",
+    "innerWidth": 448,
+    "innerHeight": 672
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": null,
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

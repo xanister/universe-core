@@ -1,0 +1,231 @@
+{
+  "id": "CHAR_salen_aft",
+  "label": "Salen Aft",
+  "description": "This individual is a human bartender of early middle age, identified by steady brown eyes and a composed, appraising gaze. Brown hair is kept in a practical shortknot that leaves the face unobstructed, emphasizing a square jaw and prominent cheekbones. Bronze skin shows ingrained calluses across the hands and faint old nicks along the knuckles, consistent with long service in a working bar. Their manner is orderly and unshowy, marked by quick arithmetic, strict portioning, and a firm intolerance for disorder at the counter.",
+  "short_description": "male canteen barman",
+  "tags": [],
+  "entityType": "character",
+  "info": {
+    "purpose": "bartender",
+    "aliases": [
+      "Sal",
+      "The Riftward Pour"
+    ],
+    "birthdate": "392.M41",
+    "deathdate": null,
+    "title": null,
+    "birthPlace": "Riftward transit habs",
+    "eyeColor": "brown",
+    "gender": "male",
+    "hairColor": "brown",
+    "hairStyle": "shortknot",
+    "beardStyle": "stubble",
+    "headType": "human_male",
+    "skinTone": "bronze",
+    "personality": "Even-tempered and meticulously practical, this bartender runs the counter by rule and routine, keeping clear accounts and enforcing quiet discipline with clipped, courteous speech. He remembers faces, tabs, and preferred pours with near-clerical precision, and he treats disputes as inventory problems to be resolved quickly and publicly. Loyalty is reserved for regulars who pay on time and for staff who keep standards.",
+    "race": "human",
+    "messages": [],
+    "journal": [],
+    "sketches": [],
+    "verbosity": 3,
+    "conversationContext": null,
+    "storytellerState": null,
+    "isPlayer": false,
+    "storyComplete": false,
+    "routine": {
+      "schedule": {
+        "dawn": "home",
+        "morning": "work",
+        "afternoon": "work",
+        "evening": "work",
+        "night": "home"
+      },
+      "home": {
+        "placeId": "PLACE_nightwatch_chamber",
+        "description": "Quarters near The Riftward Canteen",
+        "areaHint": null
+      },
+      "work": {
+        "placeId": "PLACE_the_riftward_canteen",
+        "description": "The Riftward Canteen",
+        "areaHint": null
+      },
+      "leisure": null,
+      "variance": 0.2,
+      "activities": {
+        "work": "tavern_work"
+      }
+    },
+    "vesselRoutes": null,
+    "abstractLocation": null,
+    "npcBehavior": null,
+    "physicalState": null,
+    "pendingDeparture": null,
+    "pendingArrival": null,
+    "lastRoutineCheckPeriod": null,
+    "startingNarrative": null,
+    "startingCharacterState": null,
+    "clothing": [
+      {
+        "slot": "torso_under",
+        "itemId": "formal_shirt",
+        "color": "#f5f0e8",
+        "contents": null
+      },
+      {
+        "slot": "torso_over",
+        "itemId": "apron",
+        "color": "#3a3a3a",
+        "contents": null
+      },
+      {
+        "slot": "legs",
+        "itemId": "cloth_pants",
+        "color": "#1a1a1a",
+        "contents": null
+      },
+      {
+        "slot": "feet",
+        "itemId": "shoes",
+        "color": null,
+        "contents": null
+      },
+      {
+        "slot": "belt",
+        "itemId": "leather_belt",
+        "color": "#8b4513",
+        "contents": []
+      },
+      {
+        "slot": "hands",
+        "itemId": "cloth_gloves",
+        "color": null,
+        "contents": null
+      }
+    ],
+    "enabledOverlayLayers": [
+      "eyes",
+      "facial"
+    ],
+    "helmingVesselId": null,
+    "storytellerDisabled": false,
+    "rulesetState": {
+      "stats": {
+        "physical": 50,
+        "mental": 50,
+        "social": 50,
+        "poise": 50,
+        "max_poise": 50,
+        "bloodloss": 0,
+        "anxiety": 0,
+        "fatigue": 0,
+        "hunger": 0
+      },
+      "conditions": [],
+      "statUsage": {},
+      "incapacitation": null,
+      "incapacitatedSince": null
+    },
+    "voiceId": "eric",
+    "spriteConfig": {
+      "bodyType": "male",
+      "layers": [
+        {
+          "type": "body",
+          "optionId": "body_base",
+          "tint": 11373408
+        },
+        {
+          "type": "body",
+          "optionId": "body_universal",
+          "tint": 11373408
+        },
+        {
+          "type": "eyes",
+          "optionId": "eyes_eyes",
+          "tint": 7029286
+        },
+        {
+          "type": "facial",
+          "optionId": "facial_beard",
+          "tint": 7029286
+        },
+        {
+          "type": "hair",
+          "optionId": "hair_shortknot",
+          "tint": 7029286
+        },
+        {
+          "type": "torso",
+          "optionId": "torso_formal_shirt_male",
+          "tint": 16117992
+        },
+        {
+          "type": "torso",
+          "optionId": "torso_white_apron_male",
+          "tint": 3815994
+        },
+        {
+          "type": "legs",
+          "optionId": "legs_white_pants_male",
+          "tint": 1710618
+        },
+        {
+          "type": "feet",
+          "optionId": "feet_white_shoes_male",
+          "tint": 9127187
+        },
+        {
+          "type": "belt",
+          "optionId": "belt_leather_male",
+          "tint": 9127187
+        },
+        {
+          "type": "hands",
+          "optionId": "hands_white_gloves_male",
+          "tint": null
+        }
+      ],
+      "spriteHash": "40fd5f9dbce70be2",
+      "spriteUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/sprites/generated/40fd5f9dbce70be2.png",
+      "spriteScale": 1
+    }
+  },
+  "position": {
+    "x": 144,
+    "y": 176,
+    "width": 32,
+    "height": 48,
+    "parent": "PLACE_nightwatch_chamber"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/characters/CHAR_salen_aft.png?v=1772116773375",
+  "faceAnchorY": 0.17,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "talk"
+  },
+  "relationships": [
+    {
+      "targetId": "CHAR_alaric_morn",
+      "type": "acquaintance",
+      "disposition": -2,
+      "familiarity": 40,
+      "context": "Both are present at the Riftward Canteen; Salen would likely know Alaric as a patron (at least by face/tab) through regular bar interactions.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_a_fatigued_deckhand_messenger",
+      "type": "acquaintance",
+      "disposition": 0,
+      "familiarity": 40,
+      "context": "Both are at the Riftward Canteen; Salen would plausibly know the deckhand as a recurring customer who stops in between runs, in a casual bartender-to-patron way.",
+      "pendingGeneration": false
+    }
+  ],
+  "important": false
+}

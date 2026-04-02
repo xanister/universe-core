@@ -1,0 +1,49 @@
+{
+  "id": "OBJ_plot_plot_1772212315799_iron_amulet",
+  "entityType": "object",
+  "label": "Iron Amulet",
+  "description": "A rough iron pendant on a leather cord",
+  "short_description": "Iron Amulet",
+  "important": false,
+  "tags": [],
+  "relationships": [],
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": null,
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "pickup"
+  },
+  "position": {
+    "x": 1497.8,
+    "y": 553.7,
+    "width": 32,
+    "height": 32,
+    "parent": "PLACE_ashglass_fissure"
+  },
+  "info": {
+    "purpose": "item",
+    "solid": false,
+    "layer": "floor",
+    "isStructural": false,
+    "spriteConfig": {
+      "spriteId": null,
+      "frame": null,
+      "animationKey": null,
+      "animated": false
+    },
+    "material": null,
+    "hp": null,
+    "maxHp": null,
+    "tint": null,
+    "state": null,
+    "contents": null,
+    "lightSource": null,
+    "itemId": "iron_amulet",
+    "plotId": "plot_1772212315799"
+  }
+}

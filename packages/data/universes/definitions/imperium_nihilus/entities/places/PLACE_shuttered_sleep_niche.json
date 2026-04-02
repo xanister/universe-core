@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_shuttered_sleep_niche",
+  "label": "Shuttered Sleep Niche",
+  "description": "Shuttered Sleep Niche is a compact bedroom carved from the flat’s slagcrete shell, its corners squared and clad in black vitrystone tiles dulled by ash abrasion. A built-in bunk occupies one wall, framed by storage niches with gasketed panels and recessed latches designed to remain closed under electrostatic shudder. The sole viewport is a slit aperture fitted with layered shutters and vox-dampening mesh, turning auroral glare into a thin, bruised seam of light. Overarmored service conduits track the ceiling line, their sealed junctions reinforcing the room’s purpose as a quiet refuge within Nocturnis Bastion’s storm-hardened hab-stack.",
+  "short_description": "sealed bunk alcove",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "bedroom",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "door_wooden",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/battles/PLACE_shuttered_sleep_niche.png?v=1771950917248",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 240,
+    "y": 160,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_sablelink_skyway_flat",
+    "innerWidth": 448,
+    "innerHeight": 512
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/places/PLACE_shuttered_sleep_niche.png?v=1771950967777",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

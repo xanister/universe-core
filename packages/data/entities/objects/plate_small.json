@@ -1,0 +1,21 @@
+{
+  "id": "plate_small",
+  "name": "Small Plate",
+  "description": "A small dark metal plate.",
+  "purposes": [
+    "decoration",
+    "surface_item"
+  ],
+  "tags": [
+    "common",
+    "tableware",
+    "tavern"
+  ],
+  "solid": false,
+  "layer": "default",
+  "spriteId": "plate_small",
+  "materials": [
+    "iron"
+  ],
+  "tintable": false
+}

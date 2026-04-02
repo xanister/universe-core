@@ -1,0 +1,19 @@
+{
+  "id": "table_round",
+  "name": "Round Table",
+  "description": "A Round Table",
+  "solid": true,
+  "layer": "default",
+  "spriteId": "table_round",
+  "materials": [
+    "wood"
+  ],
+  "tintable": true,
+  "purposes": [
+    "table"
+  ],
+  "tags": [
+    "common",
+    "furniture"
+  ]
+}

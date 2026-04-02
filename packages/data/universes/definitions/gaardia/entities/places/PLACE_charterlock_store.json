@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_charterlock_store",
+  "label": "Charter-Lock Store",
+  "description": "Charter-Lock Store serves as the rowhouse’s controlled storage chamber, enclosed in blackened brick and salvaged ashlar with iron strapwork fixed along the corners. Built to Cindervale emergency ordinance, it relies on a riveted hasp-and-bar closure and a shallow floor curb intended to contain spilled water and tainted runoff during quarantine postings. Wall pegs, stacked crate-bays, and lidded bins are arranged beneath a soot-darkened flue line, keeping combustibles and ration stores away from the hearth corridor. A narrow slit window toward the ruinfield wall remains shuttered behind wire screen, admitting limited light while maintaining the dwelling’s interdiction practice.",
+  "short_description": "locked brick store room",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "storage_room",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.9
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "door_wooden",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/gaardia/images/battles/PLACE_charterlock_store.png?v=1772416798702",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 240,
+    "y": 160,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_emberwatch_rowhouse",
+    "innerWidth": 448,
+    "innerHeight": 736
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/gaardia/images/places/PLACE_charterlock_store.png?v=1772416846997",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

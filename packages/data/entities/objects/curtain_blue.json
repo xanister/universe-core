@@ -1,0 +1,20 @@
+{
+  "id": "curtain_blue",
+  "name": "Blue Curtain",
+  "description": "A pair of long blue drapes gathered at the center.",
+  "purposes": [
+    "decoration"
+  ],
+  "tags": [
+    "common",
+    "decoration",
+    "tavern"
+  ],
+  "solid": false,
+  "layer": "overhead",
+  "spriteId": "curtain_blue",
+  "materials": [
+    "cloth"
+  ],
+  "tintable": false
+}

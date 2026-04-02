@@ -1,0 +1,20 @@
+{
+  "id": "cutting_board",
+  "name": "Cutting Board",
+  "description": "A wooden cutting board with a handle.",
+  "purposes": [
+    "decoration"
+  ],
+  "tags": [
+    "common",
+    "food",
+    "tavern"
+  ],
+  "solid": false,
+  "layer": "default",
+  "spriteId": "cutting_board",
+  "materials": [
+    "wood"
+  ],
+  "tintable": false
+}

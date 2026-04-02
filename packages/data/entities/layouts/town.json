@@ -1,0 +1,868 @@
+{
+  "id": "town",
+  "name": "Town",
+  "description": "A mid-sized settlement with cobblestone streets, a market area, and residential lanes.",
+  "purposes": [
+    "town"
+  ],
+  "spriteId": "small_walled_town",
+  "variants": [
+    {
+      "id": "A",
+      "scale": "feet",
+      "environment": {
+        "type": "exterior",
+        "hasWeather": true,
+        "temperature": {
+          "enabled": true,
+          "base": null,
+          "modifiersApply": true
+        },
+        "maxDarkness": null
+      },
+      "description": "A town with a central crossroads and branching cobblestone streets.",
+      "weight": 1,
+      "width": {
+        "min": 120,
+        "max": 200
+      },
+      "height": {
+        "min": 100,
+        "max": 170
+      },
+      "defaultBlocked": false,
+      "padding": 3,
+      "terrainLayers": [
+        {
+          "id": "grass",
+          "type": "fill",
+          "tilesetId": "terrain-grass",
+          "renderOrder": 0,
+          "blocking": null,
+          "terrain": "land",
+          "fill": [
+            46,
+            47,
+            48,
+            49
+          ],
+          "procedural": false,
+          "inheritable": true
+        },
+        {
+          "id": "road",
+          "type": "road",
+          "tilesetId": "terrain-cobble-gray",
+          "renderOrder": 1,
+          "blocking": null,
+          "terrain": "road",
+          "fill": [],
+          "procedural": false,
+          "inheritable": false,
+          "roadWidth": 3,
+          "branchCount": 3,
+          "curvature": 0.3,
+          "autotilePreset": "canonical",
+          "autotileAgainst": [],
+          "altCenterCount": 0
+        },
+        {
+          "id": "town_center",
+          "type": "town_center",
+          "tilesetId": "terrain-cobble-gray",
+          "renderOrder": 2,
+          "blocking": "unblocks",
+          "terrain": "road",
+          "fill": [],
+          "procedural": false,
+          "inheritable": false,
+          "radius": 4,
+          "autotilePreset": "canonical",
+          "autotileAgainst": [
+            "road"
+          ]
+        }
+      ],
+      "districts": [
+        {
+          "id": "market",
+          "seedStrategy": "highest_degree",
+          "influenceRadius": 25,
+          "weight": 0.7
+        },
+        {
+          "id": "residential",
+          "seedStrategy": "branch_terminus",
+          "influenceRadius": 30,
+          "weight": 0.5
+        }
+      ],
+      "slots": [
+        {
+          "purpose": "exit",
+          "positionAlgorithm": "road_end",
+          "distribution": "even",
+          "min": 0,
+          "max": 2,
+          "nearPurpose": null,
+          "requiredTags": null,
+          "forbiddenTags": null,
+          "inheritableTags": null,
+          "slotSize": null,
+          "flags": {
+            "isStructural": true,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "preferDistrict": null,
+          "distributionGroup": null
+        },
+        {
+          "purpose": "tavern",
+          "positionAlgorithm": "road_intersection",
+          "distribution": "even",
+          "min": 1,
+          "max": 1,
+          "nearPurpose": null,
+          "requiredTags": null,
+          "forbiddenTags": null,
+          "inheritableTags": [
+            "town"
+          ],
+          "slotSize": null,
+          "preferDistrict": "market",
+          "distributionGroup": "buildings",
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null
+        },
+        {
+          "purpose": "shop",
+          "positionAlgorithm": "along_road",
+          "distribution": "even",
+          "min": 1,
+          "max": 3,
+          "nearPurpose": null,
+          "requiredTags": null,
+          "forbiddenTags": null,
+          "inheritableTags": [
+            "town"
+          ],
+          "slotSize": null,
+          "preferDistrict": "market",
+          "distributionGroup": "buildings",
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null
+        },
+        {
+          "purpose": "weapon_shop",
+          "positionAlgorithm": "along_road",
+          "distribution": "even",
+          "min": 0,
+          "max": 1,
+          "nearPurpose": null,
+          "requiredTags": null,
+          "forbiddenTags": null,
+          "inheritableTags": [
+            "town"
+          ],
+          "slotSize": null,
+          "preferDistrict": "market",
+          "distributionGroup": "buildings",
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null
+        },
+        {
+          "purpose": "workshop",
+          "positionAlgorithm": "along_road",
+          "distribution": "even",
+          "min": 0,
+          "max": 2,
+          "nearPurpose": null,
+          "requiredTags": null,
+          "forbiddenTags": null,
+          "inheritableTags": [
+            "town"
+          ],
+          "slotSize": null,
+          "preferDistrict": "market",
+          "distributionGroup": "buildings",
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null
+        },
+        {
+          "purpose": "temple",
+          "positionAlgorithm": "road_intersection",
+          "distribution": "even",
+          "min": 0,
+          "max": 1,
+          "nearPurpose": null,
+          "requiredTags": null,
+          "forbiddenTags": null,
+          "inheritableTags": [
+            "town"
+          ],
+          "slotSize": null,
+          "distributionGroup": "buildings",
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "preferDistrict": null
+        },
+        {
+          "purpose": "warehouse",
+          "positionAlgorithm": "along_road",
+          "distribution": "even",
+          "min": 0,
+          "max": 1,
+          "nearPurpose": null,
+          "requiredTags": null,
+          "forbiddenTags": null,
+          "inheritableTags": [
+            "town"
+          ],
+          "slotSize": null,
+          "preferDistrict": "residential",
+          "distributionGroup": "buildings",
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null
+        },
+        {
+          "purpose": "residence",
+          "positionAlgorithm": "along_road",
+          "distribution": "random",
+          "min": 4,
+          "max": 8,
+          "nearPurpose": null,
+          "requiredTags": null,
+          "forbiddenTags": null,
+          "inheritableTags": [
+            "town"
+          ],
+          "slotSize": null,
+          "preferDistrict": "residential",
+          "distributionGroup": "buildings",
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null
+        },
+        {
+          "purpose": "workspace",
+          "positionAlgorithm": "along_road",
+          "distribution": "even",
+          "min": 1,
+          "max": 3,
+          "nearPurpose": null,
+          "requiredTags": null,
+          "forbiddenTags": null,
+          "inheritableTags": null,
+          "slotSize": null,
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "preferDistrict": null,
+          "distributionGroup": null
+        },
+        {
+          "purpose": "table",
+          "positionAlgorithm": "road_intersection",
+          "distribution": "random",
+          "min": 0,
+          "max": 2,
+          "nearPurpose": null,
+          "requiredTags": null,
+          "forbiddenTags": null,
+          "inheritableTags": null,
+          "slotSize": null,
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "preferDistrict": null,
+          "distributionGroup": null
+        },
+        {
+          "purpose": "merchant",
+          "positionAlgorithm": "near_slot",
+          "distribution": "even",
+          "min": 0,
+          "max": 2,
+          "nearPurpose": "workspace",
+          "requiredTags": null,
+          "forbiddenTags": null,
+          "inheritableTags": null,
+          "slotSize": null,
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "preferDistrict": null,
+          "distributionGroup": null
+        },
+        {
+          "purpose": "guard",
+          "positionAlgorithm": "near_slot",
+          "distribution": "even",
+          "min": 1,
+          "max": 2,
+          "nearPurpose": "exit",
+          "requiredTags": null,
+          "forbiddenTags": null,
+          "inheritableTags": null,
+          "slotSize": null,
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "preferDistrict": null,
+          "distributionGroup": null
+        },
+        {
+          "purpose": "seating",
+          "positionAlgorithm": "near_slot",
+          "distribution": "clumped",
+          "min": 0,
+          "max": 6,
+          "nearPurpose": "table",
+          "requiredTags": null,
+          "forbiddenTags": null,
+          "inheritableTags": null,
+          "slotSize": null,
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "preferDistrict": null,
+          "distributionGroup": null
+        },
+        {
+          "purpose": "decoration",
+          "positionAlgorithm": "center_floor",
+          "distribution": "random",
+          "min": 1,
+          "max": 5,
+          "nearPurpose": null,
+          "requiredTags": null,
+          "forbiddenTags": null,
+          "inheritableTags": null,
+          "slotSize": null,
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "preferDistrict": null,
+          "distributionGroup": null
+        },
+        {
+          "purpose": "lighting",
+          "positionAlgorithm": "along_road",
+          "distribution": "even",
+          "min": 3,
+          "max": 8,
+          "nearPurpose": null,
+          "requiredTags": null,
+          "forbiddenTags": null,
+          "inheritableTags": null,
+          "slotSize": null,
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "preferDistrict": null,
+          "distributionGroup": null
+        },
+        {
+          "purpose": "tree",
+          "positionAlgorithm": "random_valid",
+          "distribution": "random",
+          "min": 2,
+          "max": 5,
+          "nearPurpose": null,
+          "requiredTags": null,
+          "forbiddenTags": null,
+          "inheritableTags": null,
+          "slotSize": null,
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "preferDistrict": null,
+          "distributionGroup": null
+        }
+      ]
+    },
+    {
+      "id": "B",
+      "scale": "feet",
+      "environment": {
+        "type": "exterior",
+        "hasWeather": true,
+        "temperature": {
+          "enabled": true,
+          "base": null,
+          "modifiersApply": true
+        },
+        "maxDarkness": null
+      },
+      "description": "A town with sweeping curved streets and a broad central square.",
+      "weight": 1,
+      "width": {
+        "min": 120,
+        "max": 200
+      },
+      "height": {
+        "min": 100,
+        "max": 170
+      },
+      "defaultBlocked": false,
+      "padding": 3,
+      "terrainLayers": [
+        {
+          "id": "grass",
+          "type": "fill",
+          "tilesetId": "terrain-grass",
+          "renderOrder": 0,
+          "blocking": null,
+          "terrain": "land",
+          "fill": [
+            46,
+            47,
+            48,
+            49
+          ],
+          "procedural": false,
+          "inheritable": true
+        },
+        {
+          "id": "road",
+          "type": "road",
+          "tilesetId": "terrain-cobble-gray",
+          "renderOrder": 1,
+          "blocking": null,
+          "terrain": "road",
+          "fill": [],
+          "procedural": false,
+          "inheritable": false,
+          "roadWidth": 4,
+          "branchCount": 3,
+          "curvature": 0.6,
+          "autotilePreset": "canonical",
+          "autotileAgainst": [],
+          "altCenterCount": 0
+        },
+        {
+          "id": "town_center",
+          "type": "town_center",
+          "tilesetId": "terrain-cobble-gray",
+          "renderOrder": 2,
+          "blocking": "unblocks",
+          "terrain": "road",
+          "fill": [],
+          "procedural": false,
+          "inheritable": false,
+          "radius": 5,
+          "autotilePreset": "canonical",
+          "autotileAgainst": [
+            "road"
+          ]
+        }
+      ],
+      "districts": [
+        {
+          "id": "market",
+          "seedStrategy": "highest_degree",
+          "influenceRadius": 25,
+          "weight": 0.7
+        },
+        {
+          "id": "residential",
+          "seedStrategy": "branch_terminus",
+          "influenceRadius": 30,
+          "weight": 0.5
+        }
+      ],
+      "slots": [
+        {
+          "purpose": "exit",
+          "positionAlgorithm": "road_end",
+          "distribution": "even",
+          "min": 0,
+          "max": 2,
+          "nearPurpose": null,
+          "requiredTags": null,
+          "forbiddenTags": null,
+          "inheritableTags": null,
+          "slotSize": null,
+          "flags": {
+            "isStructural": true,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "preferDistrict": null,
+          "distributionGroup": null
+        },
+        {
+          "purpose": "tavern",
+          "positionAlgorithm": "road_intersection",
+          "distribution": "even",
+          "min": 1,
+          "max": 1,
+          "nearPurpose": null,
+          "requiredTags": null,
+          "forbiddenTags": null,
+          "inheritableTags": [
+            "town"
+          ],
+          "slotSize": null,
+          "preferDistrict": "market",
+          "distributionGroup": "buildings",
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null
+        },
+        {
+          "purpose": "shop",
+          "positionAlgorithm": "along_road",
+          "distribution": "even",
+          "min": 1,
+          "max": 3,
+          "nearPurpose": null,
+          "requiredTags": null,
+          "forbiddenTags": null,
+          "inheritableTags": [
+            "town"
+          ],
+          "slotSize": null,
+          "preferDistrict": "market",
+          "distributionGroup": "buildings",
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null
+        },
+        {
+          "purpose": "weapon_shop",
+          "positionAlgorithm": "along_road",
+          "distribution": "even",
+          "min": 0,
+          "max": 1,
+          "nearPurpose": null,
+          "requiredTags": null,
+          "forbiddenTags": null,
+          "inheritableTags": [
+            "town"
+          ],
+          "slotSize": null,
+          "preferDistrict": "market",
+          "distributionGroup": "buildings",
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null
+        },
+        {
+          "purpose": "workshop",
+          "positionAlgorithm": "along_road",
+          "distribution": "even",
+          "min": 0,
+          "max": 2,
+          "nearPurpose": null,
+          "requiredTags": null,
+          "forbiddenTags": null,
+          "inheritableTags": [
+            "town"
+          ],
+          "slotSize": null,
+          "preferDistrict": "market",
+          "distributionGroup": "buildings",
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null
+        },
+        {
+          "purpose": "temple",
+          "positionAlgorithm": "road_intersection",
+          "distribution": "even",
+          "min": 0,
+          "max": 1,
+          "nearPurpose": null,
+          "requiredTags": null,
+          "forbiddenTags": null,
+          "inheritableTags": [
+            "town"
+          ],
+          "slotSize": null,
+          "distributionGroup": "buildings",
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "preferDistrict": null
+        },
+        {
+          "purpose": "warehouse",
+          "positionAlgorithm": "along_road",
+          "distribution": "even",
+          "min": 0,
+          "max": 1,
+          "nearPurpose": null,
+          "requiredTags": null,
+          "forbiddenTags": null,
+          "inheritableTags": [
+            "town"
+          ],
+          "slotSize": null,
+          "preferDistrict": "residential",
+          "distributionGroup": "buildings",
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null
+        },
+        {
+          "purpose": "residence",
+          "positionAlgorithm": "along_road",
+          "distribution": "random",
+          "min": 4,
+          "max": 8,
+          "nearPurpose": null,
+          "requiredTags": null,
+          "forbiddenTags": null,
+          "inheritableTags": [
+            "town"
+          ],
+          "slotSize": null,
+          "preferDistrict": "residential",
+          "distributionGroup": "buildings",
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null
+        },
+        {
+          "purpose": "workspace",
+          "positionAlgorithm": "along_road",
+          "distribution": "even",
+          "min": 1,
+          "max": 3,
+          "nearPurpose": null,
+          "requiredTags": null,
+          "forbiddenTags": null,
+          "inheritableTags": null,
+          "slotSize": null,
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "preferDistrict": null,
+          "distributionGroup": null
+        },
+        {
+          "purpose": "table",
+          "positionAlgorithm": "road_intersection",
+          "distribution": "random",
+          "min": 0,
+          "max": 2,
+          "nearPurpose": null,
+          "requiredTags": null,
+          "forbiddenTags": null,
+          "inheritableTags": null,
+          "slotSize": null,
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "preferDistrict": null,
+          "distributionGroup": null
+        },
+        {
+          "purpose": "merchant",
+          "positionAlgorithm": "near_slot",
+          "distribution": "even",
+          "min": 0,
+          "max": 2,
+          "nearPurpose": "workspace",
+          "requiredTags": null,
+          "forbiddenTags": null,
+          "inheritableTags": null,
+          "slotSize": null,
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "preferDistrict": null,
+          "distributionGroup": null
+        },
+        {
+          "purpose": "guard",
+          "positionAlgorithm": "near_slot",
+          "distribution": "even",
+          "min": 1,
+          "max": 2,
+          "nearPurpose": "exit",
+          "requiredTags": null,
+          "forbiddenTags": null,
+          "inheritableTags": null,
+          "slotSize": null,
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "preferDistrict": null,
+          "distributionGroup": null
+        },
+        {
+          "purpose": "seating",
+          "positionAlgorithm": "near_slot",
+          "distribution": "clumped",
+          "min": 0,
+          "max": 6,
+          "nearPurpose": "table",
+          "requiredTags": null,
+          "forbiddenTags": null,
+          "inheritableTags": null,
+          "slotSize": null,
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "preferDistrict": null,
+          "distributionGroup": null
+        },
+        {
+          "purpose": "decoration",
+          "positionAlgorithm": "center_floor",
+          "distribution": "random",
+          "min": 1,
+          "max": 5,
+          "nearPurpose": null,
+          "requiredTags": null,
+          "forbiddenTags": null,
+          "inheritableTags": null,
+          "slotSize": null,
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "preferDistrict": null,
+          "distributionGroup": null
+        },
+        {
+          "purpose": "lighting",
+          "positionAlgorithm": "along_road",
+          "distribution": "even",
+          "min": 3,
+          "max": 8,
+          "nearPurpose": null,
+          "requiredTags": null,
+          "forbiddenTags": null,
+          "inheritableTags": null,
+          "slotSize": null,
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "preferDistrict": null,
+          "distributionGroup": null
+        },
+        {
+          "purpose": "tree",
+          "positionAlgorithm": "random_valid",
+          "distribution": "random",
+          "min": 2,
+          "max": 5,
+          "nearPurpose": null,
+          "requiredTags": null,
+          "forbiddenTags": null,
+          "inheritableTags": null,
+          "slotSize": null,
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "preferDistrict": null,
+          "distributionGroup": null
+        }
+      ]
+    }
+  ],
+  "characterScale": 1,
+  "timeScale": 1,
+  "interactionZone": null
+}

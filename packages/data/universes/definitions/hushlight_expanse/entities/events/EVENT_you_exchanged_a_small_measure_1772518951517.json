@@ -1,0 +1,16 @@
+{
+  "id": "EVENT_you_exchanged_a_small_measure_1772518951517",
+  "date": null,
+  "placeId": null,
+  "eventType": null,
+  "category": "world",
+  "subject": "Background",
+  "subjectId": null,
+  "fact": "You exchanged a small measure of stored light at the door to settle the house’s expectation of payment and avoid starting your first night with a debt.",
+  "significance": "minor",
+  "important": true,
+  "witnessIds": null,
+  "importanceScore": null,
+  "scope": null,
+  "relevantPlaceIds": null
+}

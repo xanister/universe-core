@@ -1,0 +1,18 @@
+{
+  "id": "EVENT_visited_vespera_tertius_shard_basilica_1772000059701",
+  "date": "999.M1 23:51",
+  "placeId": "PLACE_vespera_tertius_shard_basilica",
+  "important": false,
+  "importanceScore": null,
+  "scope": null,
+  "relevantPlaceIds": null,
+  "eventType": "location_visited",
+  "category": "world",
+  "subject": "Vespera Tertius Shard Basilica",
+  "subjectId": "PLACE_vespera_tertius_shard_basilica",
+  "fact": "Visited Vespera Tertius Shard Basilica",
+  "significance": "minor",
+  "witnessIds": [
+    "CHAR_danel_vossik"
+  ]
+}

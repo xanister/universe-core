@@ -1,0 +1,58 @@
+{
+  "id": "OBJ_ashvault_habcell_barrel_0151",
+  "label": "Barrel",
+  "description": "A sturdy wooden barrel",
+  "important": false,
+  "short_description": "barrel",
+  "tags": [
+    "common",
+    "storage",
+    "ship"
+  ],
+  "entityType": "object",
+  "info": {
+    "purpose": "storage",
+    "solid": true,
+    "layer": "default",
+    "isStructural": false,
+    "material": null,
+    "tint": null,
+    "spriteConfig": {
+      "spriteId": "barrel",
+      "frame": null,
+      "animationKey": null,
+      "animated": false,
+      "facing": "south"
+    },
+    "hp": null,
+    "maxHp": null,
+    "state": null,
+    "contents": [
+      "formal_belt",
+      "coin_pouch",
+      "sealed_letter"
+    ],
+    "lightSource": null,
+    "itemId": null,
+    "plotId": null
+  },
+  "position": {
+    "x": 688,
+    "y": 416,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_ashvault_habcell"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "relationships": [],
+  "image": null,
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "search"
+  }
+}

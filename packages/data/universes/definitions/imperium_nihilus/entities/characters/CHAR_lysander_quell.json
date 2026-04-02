@@ -1,0 +1,257 @@
+{
+  "id": "CHAR_lysander_quell",
+  "label": "Lysander Quell",
+  "description": "This individual is a human ship-captain of middle years, marked by a bronze skinTone set against steady gray eyes. Black hair is kept in a plain, close-managed style that emphasizes a broad forehead and a square, weather-worn jaw. The hands show permanent thickening at the knuckles and palms consistent with long command at sea, and a slight break-set bend at the nose fixes an uncompromising profile. Their carriage is upright and directive, reflecting a life spent issuing orders under pressure.",
+  "short_description": "male ship captain",
+  "tags": [],
+  "entityType": "character",
+  "info": {
+    "purpose": "captain",
+    "aliases": [
+      "The Ashen Lateen Captain",
+      "Quell of the Lateen"
+    ],
+    "birthdate": "811.M41",
+    "deathdate": null,
+    "title": "Captain",
+    "birthPlace": "Voidship muster-deck, Imperium Nihilus",
+    "eyeColor": "gray",
+    "gender": "male",
+    "hairColor": "black",
+    "hairStyle": "plain",
+    "beardStyle": "stubble",
+    "headType": "human_male",
+    "skinTone": "bronze",
+    "personality": "Disciplined and exacting, he governs by clear orders and strict routines, tolerating no disorder on deck. He favors direct speech, rigorous accountability, and a measured cruelty reserved for mutiny, theft, and negligence. In negotiation he presents calculated courtesy, but his loyalties remain fixed to ship, crew, and profit within the constraints of Imperial law and local necessity.",
+    "race": "human",
+    "messages": [],
+    "journal": [],
+    "sketches": [],
+    "verbosity": 3,
+    "conversationContext": null,
+    "storytellerState": null,
+    "isPlayer": false,
+    "storyComplete": false,
+    "routine": {
+      "schedule": {
+        "dawn": "work",
+        "morning": "work",
+        "afternoon": "leisure",
+        "evening": "home",
+        "night": "home"
+      },
+      "home": {
+        "placeId": "PLACE_the_ashen_lateen",
+        "description": "The Ashen Lateen",
+        "areaHint": null
+      },
+      "work": {
+        "placeId": "PLACE_the_ashen_lateen",
+        "description": "The Ashen Lateen",
+        "areaHint": null
+      },
+      "leisure": null,
+      "variance": 0.2,
+      "activities": {
+        "work": "vessel_work"
+      }
+    },
+    "vesselRoutes": null,
+    "abstractLocation": null,
+    "npcBehavior": null,
+    "physicalState": null,
+    "pendingDeparture": null,
+    "pendingArrival": null,
+    "lastRoutineCheckPeriod": null,
+    "startingNarrative": null,
+    "startingCharacterState": null,
+    "clothing": [
+      {
+        "slot": "torso_under",
+        "itemId": "formal_shirt",
+        "color": "#f5f0e8",
+        "contents": null
+      },
+      {
+        "slot": "torso_over",
+        "itemId": "trenchcoat",
+        "color": "#000080",
+        "contents": null
+      },
+      {
+        "slot": "torso_top",
+        "itemId": "bauldron",
+        "color": "#3a3a3a",
+        "contents": null
+      },
+      {
+        "slot": "legs",
+        "itemId": "formal_pants",
+        "color": "#1a1a1a",
+        "contents": null
+      },
+      {
+        "slot": "feet",
+        "itemId": "boots",
+        "color": "#8b4513",
+        "contents": null
+      },
+      {
+        "slot": "belt",
+        "itemId": "formal_belt",
+        "color": "#1a1a1a",
+        "contents": [
+          {
+            "id": "ci_1771823723098_kgrihb",
+            "itemId": "iron_sword",
+            "name": "iron_sword",
+            "description": null,
+            "type": "weapon",
+            "quantity": 1,
+            "color": null,
+            "equipSlot": "weapon",
+            "plotId": null
+          }
+        ]
+      },
+      {
+        "slot": "neck",
+        "itemId": "capetie",
+        "color": "#c0c0c0",
+        "contents": null
+      },
+      {
+        "slot": "accessories",
+        "itemId": "glasses",
+        "color": null,
+        "contents": null
+      }
+    ],
+    "enabledOverlayLayers": [
+      "eyes",
+      "facial"
+    ],
+    "helmingVesselId": null,
+    "storytellerDisabled": false,
+    "rulesetState": {
+      "stats": {
+        "physical": 50,
+        "mental": 50,
+        "social": 50,
+        "poise": 50,
+        "max_poise": 50,
+        "bloodloss": 0,
+        "anxiety": 0,
+        "fatigue": 0,
+        "hunger": 0
+      },
+      "conditions": [],
+      "statUsage": {},
+      "incapacitation": null,
+      "incapacitatedSince": null
+    },
+    "voiceId": "daniel",
+    "spriteConfig": {
+      "bodyType": "male",
+      "layers": [
+        {
+          "type": "body",
+          "optionId": "body_base",
+          "tint": 11373408
+        },
+        {
+          "type": "body",
+          "optionId": "body_universal",
+          "tint": 11373408
+        },
+        {
+          "type": "eyes",
+          "optionId": "eyes_eyes",
+          "tint": 8423560
+        },
+        {
+          "type": "facial",
+          "optionId": "facial_beard",
+          "tint": 1710618
+        },
+        {
+          "type": "hair",
+          "optionId": "hair_plain",
+          "tint": 1710618
+        },
+        {
+          "type": "torso",
+          "optionId": "torso_formal_shirt_male",
+          "tint": 16117992
+        },
+        {
+          "type": "torso",
+          "optionId": "torso_formal_trenchcoat_male",
+          "tint": 128
+        },
+        {
+          "type": "torso",
+          "optionId": "torso_white_bauldron_male",
+          "tint": 3815994
+        },
+        {
+          "type": "legs",
+          "optionId": "legs_formal_pants_male",
+          "tint": 1710618
+        },
+        {
+          "type": "feet",
+          "optionId": "feet_white_boots_male",
+          "tint": 9127187
+        },
+        {
+          "type": "belt",
+          "optionId": "belt_formal_belt_male",
+          "tint": 1710618
+        },
+        {
+          "type": "neck",
+          "optionId": "neck_white_capetie_male",
+          "tint": 12632256
+        },
+        {
+          "type": "accessories",
+          "optionId": "accessories_formal_glasses_male",
+          "tint": 12632256
+        }
+      ],
+      "spriteHash": "af02a633463d7724",
+      "spriteUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/sprites/generated/af02a633463d7724.png",
+      "spriteScale": 1
+    }
+  },
+  "position": {
+    "x": 824,
+    "y": 704,
+    "width": 32,
+    "height": 48,
+    "parent": "PLACE_the_ashen_lateen"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/characters/CHAR_lysander_quell.png?v=1771823776819",
+  "faceAnchorY": 0.16,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "talk"
+  },
+  "relationships": [
+    {
+      "targetId": "CHAR_sevrin_acastus",
+      "type": null,
+      "familiarity": 20,
+      "disposition": 5,
+      "context": null,
+      "pendingGeneration": false
+    }
+  ],
+  "important": false
+}

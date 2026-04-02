@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_kharion_meridian_confluence",
+  "label": "Kharion Meridian Confluence",
+  "description": "Kharion Meridian Confluence is a faceted metropolis seated where the planet’s refracted meridian bands intersect, laying out its avenues as straight corridors of glare separated by engineered intervals of absolute shadow. Its architecture consists of prismatic buttresses and stepped glass terraces cut to precise angles, each surface tuned to the laminar sky-sheets that shear overhead along lattice-aligned fronts. The civic core is organized around a rectilinear fracture-belt plaza where dark crystalline strata rise in gridded spines, mirroring Vesper Node’s polyhedral arcs in miniature. Permanent light-bridges of refracted radiance span the deeper shadow trenches, fixing orientation by color and angle rather than by landmark or horizon.",
+  "short_description": "prismatic city of glare",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "city",
+    "environment": {
+      "type": "exterior",
+      "hasWeather": true,
+      "temperature": {
+        "enabled": true,
+        "base": null,
+        "modifiersApply": true
+      },
+      "maxDarkness": null
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "small_walled_town",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/the_hollow_lattice/images/battles/PLACE_kharion_meridian_confluence.png?v=1772313937569",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 320,
+    "y": 1152,
+    "width": 48,
+    "height": 48,
+    "parent": "PLACE_kharion_prismworld",
+    "innerWidth": 2976,
+    "innerHeight": 2112
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/the_hollow_lattice/images/places/PLACE_kharion_meridian_confluence.png?v=1772314028362",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

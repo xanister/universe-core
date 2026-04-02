@@ -1,0 +1,51 @@
+{
+  "spriteId": "wardrobe_green",
+  "gridWidth": 2,
+  "gridHeight": 3,
+  "tileSize": 32,
+  "tiles": [
+    {
+      "tilesetId": "furniture-green",
+      "srcX": 0,
+      "srcY": 608,
+      "col": 0,
+      "row": 0
+    },
+    {
+      "tilesetId": "furniture-green",
+      "srcX": 32,
+      "srcY": 608,
+      "col": 1,
+      "row": 0
+    },
+    {
+      "tilesetId": "furniture-green",
+      "srcX": 0,
+      "srcY": 640,
+      "col": 0,
+      "row": 1
+    },
+    {
+      "tilesetId": "furniture-green",
+      "srcX": 32,
+      "srcY": 640,
+      "col": 1,
+      "row": 1
+    },
+    {
+      "tilesetId": "furniture-green",
+      "srcX": 0,
+      "srcY": 672,
+      "col": 0,
+      "row": 2
+    },
+    {
+      "tilesetId": "furniture-green",
+      "srcX": 32,
+      "srcY": 672,
+      "col": 1,
+      "row": 2
+    }
+  ],
+  "updatedAt": "2026-03-02T16:01:57.008Z"
+}

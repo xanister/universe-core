@@ -1,0 +1,48 @@
+{
+  "id": "OBJ_the_riftward_canteen_player_start_marker_1273",
+  "label": "Spawn Point",
+  "description": "Player starting position marker",
+  "important": false,
+  "short_description": "spawn point",
+  "tags": [],
+  "entityType": "object",
+  "info": {
+    "purpose": "player_start",
+    "solid": false,
+    "layer": "default",
+    "isStructural": true,
+    "material": null,
+    "tint": null,
+    "spriteConfig": {
+      "spriteId": null,
+      "frame": null,
+      "animationKey": null,
+      "animated": false,
+      "facing": "south"
+    },
+    "hp": null,
+    "maxHp": null,
+    "state": null,
+    "contents": null,
+    "lightSource": null,
+    "itemId": null,
+    "plotId": null
+  },
+  "position": {
+    "x": 1008,
+    "y": 736,
+    "width": 32,
+    "height": 32,
+    "parent": "PLACE_the_riftward_canteen"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "relationships": [],
+  "image": null,
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": null
+}

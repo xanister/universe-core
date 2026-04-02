@@ -1,0 +1,18 @@
+{
+  "id": "jug_wicker",
+  "name": "Wicker Jug",
+  "description": "A round ceramic jug wrapped in a wicker basket.",
+  "purposes": [
+    "decoration"
+  ],
+  "tags": [
+    "common",
+    "drinkware",
+    "tavern"
+  ],
+  "solid": false,
+  "layer": "default",
+  "spriteId": "jug_wicker",
+  "materials": [],
+  "tintable": false
+}

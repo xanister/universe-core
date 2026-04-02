@@ -1,0 +1,60 @@
+{
+  "id": "PLACE_mirrorslag_stockroom",
+  "label": "Mirror-Slag Stockroom",
+  "description": "Mirror-Slag Stockroom serves as the arsenal’s sealed reserve, a low chamber lined with black basalt shelving and mirror-slag partitions that fracture the copper-white twilight into narrow, regulated bands. Vitrified clamps and padded cradles store hafts, blades, and component blanks under electrostatic baffles that keep Lacrymara’s glass dust pinned and immobile. The floor is laid in grit-darkened stone scored with calibration marks, maintaining Seamline Concord’s auroral sightlines even within an enclosed volume. Lockplate cabinets of fused basalt occupy the inner wall, their faces filmed with reflective particulates that register every shift of light as a precise, navigational shimmer.",
+  "short_description": "sealed mirror-slag store",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "storage_room",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.9
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "door_wooden",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/hushlight_expanse/images/battles/PLACE_mirrorslag_stockroom.png?v=1772314161388",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 1072,
+    "y": 1344,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_the_shearline_arsenal",
+    "innerWidth": 448,
+    "innerHeight": 768
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/hushlight_expanse/images/places/PLACE_mirrorslag_stockroom.png?v=1772314212746",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": [
+    "Mirror-Slag Storeroom"
+  ],
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

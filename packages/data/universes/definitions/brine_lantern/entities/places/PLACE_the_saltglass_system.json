@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_the_saltglass_system",
+  "label": "The Saltglass System",
+  "description": "The Saltglass System constitutes a compact stellar arrangement in the Brine Lantern Cosmos, distinguished by a bright primary star wreathed in persistent particulate rings that scatter light into pale, prismatic veils. Its inner orbits hold dense, metal-rich bodies scored by ancient impact basins, while the outer reaches are dominated by slow-circling ice worlds and a broad, tidally sheared debris belt. Interplanetary space carries a measurable haze of charged dust that produces steady auroral curtains along magnetized satellites. Navigational charts mark the system for its unusually regular resonance chains, which impose predictable conjunction seasons across multiple orbits.",
+  "short_description": "prismatic ringed system",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "star_system",
+    "environment": {
+      "type": "space",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": false,
+        "base": null,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.6
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "star_sun",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/brine_lantern/images/battles/PLACE_the_saltglass_system.png?v=1772314614513",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 6464,
+    "y": 1024,
+    "width": 64,
+    "height": 64,
+    "parent": "PLACE_cosmos",
+    "innerWidth": 5056,
+    "innerHeight": 4512
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/brine_lantern/images/places/PLACE_the_saltglass_system.png?v=1772314665826",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

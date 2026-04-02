@@ -1,0 +1,18 @@
+{
+  "id": "EVENT_visited_aurorafall_sleep_alcove_1771952823752",
+  "date": "999.M1 22:59",
+  "placeId": "PLACE_aurorafall_sleep_alcove",
+  "important": false,
+  "importanceScore": null,
+  "scope": null,
+  "relevantPlaceIds": null,
+  "eventType": "location_visited",
+  "category": "world",
+  "subject": "Aurorafall Sleep Alcove",
+  "subjectId": "PLACE_aurorafall_sleep_alcove",
+  "fact": "Visited Aurorafall Sleep Alcove",
+  "significance": "minor",
+  "witnessIds": [
+    "CHAR_alaric_morn"
+  ]
+}

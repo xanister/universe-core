@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_the_refraction_cask",
+  "label": "The Refraction Cask",
+  "description": "The Refraction Cask occupies a wedge-cut chamber set between a corridor of glare and a maintained trench of absolute shadow, its prismatic walls ground to strict meridian angles. A stepped glass bar runs the long face of the room, backed by bottle-niches carved into dark crystalline strata that absorb stray light and sharpen color into hard bands. The ceiling is ribbed with lattice-aligned louvers that split radiance into fixed spectrums, laying a permanent map of hues across tables of fused shardglass. Acoustic baffles of faceted crystal dampen echoes, giving the interior a disciplined quiet despite its reflective surfaces.",
+  "short_description": "prismatic quiet tavern",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "tavern",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "building_tavern",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/the_hollow_lattice/images/battles/PLACE_the_refraction_cask.png?v=1772314026855",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 2416,
+    "y": 1856,
+    "width": 160,
+    "height": 256,
+    "parent": "PLACE_kharion_meridian_confluence",
+    "innerWidth": 992,
+    "innerHeight": 1184
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/the_hollow_lattice/images/places/PLACE_the_refraction_cask.png?v=1772314082568",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

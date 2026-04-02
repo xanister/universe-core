@@ -1,0 +1,56 @@
+{
+  "id": "PLACE_nullglow_sleep_cell",
+  "label": "Nullglow Sleep Cell",
+  "description": "Nullglow Sleep Cell is a narrow bedroom cut deep into the shielded hab mass of Nullglow Servitorium, its black vitrified stone and slagcrete surfaces set to resist ash abrasion and structural vibration. A riveted bunk-frame and underbunk stowage are fixed directly to the wall, with a fold-down shelf serving as a writing and kit-maintenance surface. Slit-lamps sit behind shuttered baffles that keep illumination low and non-reflective under auroral backwash, while a gasketed vent-grille meters air through overplated filters. The doorframe and ceiling seams carry impact strips and bolted braces, reflecting the Bastion’s permanent condition of tremor and interference from nearby beacon pylons.",
+  "short_description": "shielded sleep cell",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "bedroom",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "door_wooden",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 624,
+    "y": 160,
+    "width": 32,
+    "height": 32,
+    "parent": "PLACE_nullglow_servitorium"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": null,
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

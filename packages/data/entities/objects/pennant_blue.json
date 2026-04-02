@@ -1,0 +1,22 @@
+{
+  "id": "pennant_blue",
+  "name": "Blue Pennant",
+  "description": "A small blue triangular pennant flag.",
+  "purposes": [
+    "decoration"
+  ],
+  "tags": [
+    "common",
+    "decoration",
+    "tavern",
+    "wall"
+  ],
+  "solid": false,
+  "layer": "overhead",
+  "spriteId": "pennant_blue",
+  "materials": [
+    "cloth"
+  ],
+  "tintable": false,
+  "wallVerticalOffset": -1
+}

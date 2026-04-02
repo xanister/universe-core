@@ -1,0 +1,114 @@
+{
+  "version": "1.0",
+  "items": [
+    {
+      "id": "golden_key",
+      "name": "Golden Key",
+      "description": "An ornate key with a sun-shaped head",
+      "type": "generic",
+      "actions": ["use"],
+      "stackable": false,
+      "effects": []
+    },
+    {
+      "id": "scroll_of_identify",
+      "name": "Scroll of Identify",
+      "description": "A parchment inscribed with revealing runes",
+      "type": "consumable",
+      "actions": ["read"],
+      "stackable": true,
+      "effects": []
+    },
+    {
+      "id": "health_potion",
+      "name": "Health Potion",
+      "description": "A vial of crimson liquid that restores vitality",
+      "type": "consumable",
+      "actions": ["drink"],
+      "stackable": true,
+      "effects": [{ "type": "modify_stat", "stat": "poise", "delta": 20 }]
+    },
+    {
+      "id": "ruby_gem",
+      "name": "Ruby",
+      "description": "A deep red gemstone that catches the light",
+      "type": "generic",
+      "actions": [],
+      "stackable": true,
+      "effects": []
+    },
+    {
+      "id": "silver_ring",
+      "name": "Silver Ring",
+      "description": "A plain silver band, slightly warm to the touch",
+      "type": "generic",
+      "actions": [],
+      "stackable": false,
+      "effects": []
+    },
+    {
+      "id": "sealed_letter",
+      "name": "Sealed Letter",
+      "description": "A folded parchment sealed with red wax",
+      "type": "generic",
+      "actions": ["read"],
+      "stackable": false,
+      "effects": []
+    },
+    {
+      "id": "coin_pouch",
+      "name": "Coin Pouch",
+      "description": "A heavy leather pouch that jingles with coin",
+      "type": "generic",
+      "actions": [],
+      "stackable": true,
+      "effects": []
+    },
+    {
+      "id": "bronze_medallion",
+      "name": "Bronze Medallion",
+      "description": "A circular medallion stamped with a crest",
+      "type": "generic",
+      "actions": [],
+      "stackable": false,
+      "effects": []
+    },
+    {
+      "id": "iron_amulet",
+      "name": "Iron Amulet",
+      "description": "A rough iron pendant on a leather cord",
+      "type": "generic",
+      "actions": [],
+      "stackable": false,
+      "effects": []
+    },
+    {
+      "id": "torch",
+      "name": "Torch",
+      "description": "A wooden torch that burns with a steady, warm flame",
+      "type": "generic",
+      "actions": [],
+      "stackable": false,
+      "effects": [],
+      "lightSource": {
+        "radius": 120,
+        "color": 16755268,
+        "intensity": 0.5,
+        "flicker": true,
+        "flickerSpeed": 200,
+        "flickerRange": 0.12,
+        "offsetX": 0,
+        "offsetY": -20
+      }
+    },
+    {
+      "id": "antidote_vial",
+      "name": "Antidote Vial",
+      "description": "A small glass vial of pale green liquid",
+      "type": "consumable",
+      "actions": ["drink"],
+      "stackable": true,
+      "effects": [{ "type": "remove_condition", "conditionId": "sickness" }]
+    }
+  ]
+}

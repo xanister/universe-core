@@ -1,0 +1,21 @@
+{
+  "id": "curtain_window_tied",
+  "name": "Curtains (Tied)",
+  "description": "Gold window curtains tied back on a decorative rod.",
+  "purposes": [
+    "decoration"
+  ],
+  "tags": [
+    "common",
+    "furniture",
+    "curtain",
+    "bedroom"
+  ],
+  "solid": false,
+  "layer": "overhead",
+  "spriteId": "curtain_window_tied",
+  "materials": [
+    "fabric"
+  ],
+  "tintable": false
+}

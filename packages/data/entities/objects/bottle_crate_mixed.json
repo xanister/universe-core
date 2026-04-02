@@ -1,0 +1,21 @@
+{
+  "id": "bottle_crate_mixed",
+  "name": "Mixed Bottle Crate",
+  "description": "A wooden crate packed with assorted bottles.",
+  "purposes": [
+    "storage"
+  ],
+  "tags": [
+    "common",
+    "storage",
+    "tavern"
+  ],
+  "solid": true,
+  "layer": "default",
+  "spriteId": "bottle_crate_mixed",
+  "materials": [
+    "wood",
+    "glass"
+  ],
+  "tintable": false
+}

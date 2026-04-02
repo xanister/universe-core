@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_the_shearline_arsenal",
+  "label": "The Shearline Arsenal",
+  "description": "The Shearline Arsenal occupies a narrow basalt-glass storefront cut directly into Seamline Concord’s faultside terrace, its facade scored with calibrated grooves that catch the copper-white twilight in strict bands. Interior walls are faced with mirror-slag panels that multiply silhouettes and align displays to the city’s auroral sightlines, preserving navigational geometry at the scale of a room. Racks and plinths present edge tools and polearms in vitrified clamps insulated against Lacrymara’s electrostatic glass dust, while a shuttered testing lane runs the length of the shop in grit-darkened stone. A recessed counter of fused basalt contains lockplates and sealed drawers, its surface perpetually filmed with pinned reflective particles from the cistern-plazas.",
+  "short_description": "mirror-slag weapon shop",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "weapon_shop",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "building_shop",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/hushlight_expanse/images/battles/PLACE_the_shearline_arsenal.png?v=1772314100181",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 1872,
+    "y": 768,
+    "width": 160,
+    "height": 256,
+    "parent": "PLACE_seamline_concord",
+    "innerWidth": 2368,
+    "innerHeight": 1472
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/hushlight_expanse/images/places/PLACE_the_shearline_arsenal.png?v=1772314147815",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

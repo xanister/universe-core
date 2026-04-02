@@ -1,0 +1,16 @@
+{
+  "id": "EVENT_your_voidcaravan_contract_ends_at_1771878251429",
+  "date": null,
+  "placeId": null,
+  "eventType": null,
+  "category": "world",
+  "subject": "Background",
+  "subjectId": null,
+  "fact": "Your void-caravan contract ends at Vespera Tertius, and you are put ashore with your kit and papers checked by dock arbiters.",
+  "significance": "moderate",
+  "important": true,
+  "witnessIds": null,
+  "importanceScore": null,
+  "scope": null,
+  "relevantPlaceIds": null
+}

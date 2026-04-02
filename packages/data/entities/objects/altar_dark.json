@@ -1,0 +1,20 @@
+{
+  "id": "altar_dark",
+  "name": "Altar Table",
+  "description": "A wide dark wood altar table — a simple communion table for the focal point of a temple or chapel.",
+  "purposes": [
+    "anchor"
+  ],
+  "tags": [
+    "furniture",
+    "altar",
+    "temple"
+  ],
+  "solid": true,
+  "layer": "default",
+  "spriteId": "altar_dark",
+  "materials": [
+    "wood"
+  ],
+  "tintable": false
+}

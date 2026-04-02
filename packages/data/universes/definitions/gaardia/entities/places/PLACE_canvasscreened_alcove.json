@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_canvasscreened_alcove",
+  "label": "Canvas-Screened Alcove",
+  "description": "This narrow bedroom occupies a recessed alcove cut into Cindervale’s reused ashlar, its old stone faces darkened by soot and lime dust. A canvas screen hangs from an iron rod to divide the sleeping space from the hearthroom, stained by coal-smoke and stiffened with age. A low pallet and a battered chest sit beneath a slit-high vent that admits little light and less air. The surrounding masonry carries sound cleanly, and the iron straps embedded in the wall reinforce the sense of a residence built for siege and ordinance.",
+  "short_description": "soot-stained alcove bed",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "bedroom",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "door_wooden",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/gaardia/images/battles/PLACE_canvasscreened_alcove.png?v=1772208917770",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 784,
+    "y": 160,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_masons_hearthroom",
+    "innerWidth": 448,
+    "innerHeight": 480
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/gaardia/images/places/PLACE_canvasscreened_alcove.png?v=1772208966026",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

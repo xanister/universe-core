@@ -1,0 +1,15 @@
+{
+  "id": "player_start_marker",
+  "purposes": [
+    "player_start"
+  ],
+  "spriteId": null,
+  "name": "Spawn Point",
+  "description": "Player starting position marker",
+  "tags": [],
+  "materials": [],
+  "solid": false,
+  "layer": "floor",
+  "tintable": false,
+  "lightSource": null
+}

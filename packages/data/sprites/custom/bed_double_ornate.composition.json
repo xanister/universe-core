@@ -1,0 +1,51 @@
+{
+  "spriteId": "bed_double_ornate",
+  "gridWidth": 2,
+  "gridHeight": 3,
+  "tileSize": 32,
+  "tiles": [
+    {
+      "tilesetId": "furniture-upholstery",
+      "srcX": 128,
+      "srcY": 480,
+      "col": 0,
+      "row": 0
+    },
+    {
+      "tilesetId": "furniture-upholstery",
+      "srcX": 160,
+      "srcY": 480,
+      "col": 1,
+      "row": 0
+    },
+    {
+      "tilesetId": "furniture-upholstery",
+      "srcX": 128,
+      "srcY": 512,
+      "col": 0,
+      "row": 1
+    },
+    {
+      "tilesetId": "furniture-upholstery",
+      "srcX": 160,
+      "srcY": 512,
+      "col": 1,
+      "row": 1
+    },
+    {
+      "tilesetId": "furniture-upholstery",
+      "srcX": 128,
+      "srcY": 544,
+      "col": 0,
+      "row": 2
+    },
+    {
+      "tilesetId": "furniture-upholstery",
+      "srcX": 160,
+      "srcY": 544,
+      "col": 1,
+      "row": 2
+    }
+  ],
+  "updatedAt": "2026-03-02T15:50:41.679Z"
+}

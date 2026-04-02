@@ -1,0 +1,21 @@
+{
+  "id": "ship_rope_coil",
+  "purposes": [
+    "decoration",
+    "ship_deck_decoration"
+  ],
+  "spriteId": "ship_rope_coil",
+  "name": "Coiled Rope",
+  "description": "A coil of heavy ship's rope",
+  "tags": [
+    "common",
+    "ship",
+    "rope",
+    "decoration"
+  ],
+  "materials": [],
+  "solid": true,
+  "layer": "default",
+  "tintable": false,
+  "lightSource": null
+}

@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_riftglass_hollow",
+  "label": "Riftglass Hollow",
+  "description": "Riftglass Hollow is a basalt cave carved by ancient impacts and later scoured smooth by ash-laden winds that drive grit deep into every seam. Its walls bear a vitreous glaze of fused slag that catches Vespera Tertius’ bruise-colored auroral spill, turning the interior into a dull, shifting violet sheen. The floor forms a shallow basin of compacted ash and black glass shards, interrupted by narrow fissures that exhale cold, mineral-tainted air. Vox signals degrade sharply within the hollow, as if the stone itself absorbs and scatters transmission into static.",
+  "short_description": "violet-glazed ash cave",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "cave",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.9
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "stone_arch_ruins",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/battles/PLACE_riftglass_hollow.png?v=1771873750094",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 1664,
+    "y": 1344,
+    "width": 48,
+    "height": 48,
+    "parent": "PLACE_vespera_tertius",
+    "innerWidth": 3072,
+    "innerHeight": 4160
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/places/PLACE_riftglass_hollow.png?v=1771873799642",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

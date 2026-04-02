@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_halite_fracture_grotto",
+  "label": "Halite Fracture Grotto",
+  "description": "Halite Fracture Grotto constitutes a narrow cave system cut into Cairnspire Massif’s basalt core, where pale salt veins stitch the walls into sharp, rectilinear bands. The passages follow tidal microfractures aligned to Saltharrow System’s pronounced gravitic gradients, producing stepped breaks and sudden offsets that interrupt otherwise straight runs. Mineral haze condenses along cooler recesses into a brittle rime that dulls the basalt’s sheen and crusts the seam edges. The floor remains an uneven mix of black talus and salt-grit drifts that crunch under minimal pressure and preserve long-lasting track marks.",
+  "short_description": "salt-veined basalt cave",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "cave",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.9
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "stone_arch_ruins",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/the_brine_lattice/images/battles/PLACE_halite_fracture_grotto.png?v=1772314230309",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 960,
+    "y": 3488,
+    "width": 48,
+    "height": 48,
+    "parent": "PLACE_cairnspire_massif",
+    "innerWidth": 3008,
+    "innerHeight": 1856
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/the_brine_lattice/images/places/PLACE_halite_fracture_grotto.png?v=1772314280009",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

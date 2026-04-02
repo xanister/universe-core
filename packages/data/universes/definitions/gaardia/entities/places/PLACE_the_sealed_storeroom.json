@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_the_sealed_storeroom",
+  "label": "The Sealed Storeroom",
+  "description": "The Sealed Storeroom forms a compact interior chamber within the Ironwrit Lodgings, set behind a thick plank door bound in iron and fitted with a double-hasp for inspection seals. Salvaged ashlar walls bear chalked inventory tallies and faded hazard placards copied from Varric Holdfast’s interdiction posts, preserved under a thin wash to resist alteration. Narrow shelving of dark, planed timber lines the perimeter, with a low counting bench fixed to the floor to prevent removal. The air remains dry and papery, and the space is organized to favor audit and custody over comfort or convenience.",
+  "short_description": "sealed inventory chamber",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "storage_room",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.9
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "door_wooden",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/gaardia/images/battles/PLACE_the_sealed_storeroom.png?v=1772216676433",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 208,
+    "y": 160,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_the_ironwrit_lodgings",
+    "innerWidth": 480,
+    "innerHeight": 704
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": null,
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

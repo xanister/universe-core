@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_clerks_narrow_bedchamber",
+  "label": "Clerk’s Narrow Bedchamber",
+  "description": "Clerk’s Narrow Bedchamber occupies a slender upper-floor bay off the tight gallery, its ceiling pitched beneath the rebuilt roof timbers. A pallet bed and a pegged chest sit hard against salvaged ashlar, while a small slit window is barred and set with thick glass to deny both intrusion and street gaze. The plaster bears docket marks and tally scratches, preserved as working notes within the licensed household. A lockable cupboard is built into the wall for sealed packets, keeping private effects within the same regimen of record security that defines the Registry House.",
+  "short_description": "spare barred chamber",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "bedroom",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "door_wooden",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/gaardia/images/battles/PLACE_clerks_narrow_bedchamber.png?v=1772208476967",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 240,
+    "y": 160,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_ashlar_registry_house",
+    "innerWidth": 448,
+    "innerHeight": 512
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/gaardia/images/places/PLACE_clerks_narrow_bedchamber.png?v=1772208523951",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

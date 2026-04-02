@@ -1,0 +1,238 @@
+{
+  "id": "CHAR_caldren_thoss",
+  "label": "Caldren Thoss",
+  "description": "This individual is an undead human of indeterminate age, preserved in the cavern’s dry air with light skin pulled tight over prominent cheekbones and a narrow jaw. Gray eyes sit deep in darkened sockets, fixed in a watchful, unblinking stare that reinforces an impression of tireless vigilance. Black hair hangs in long, uneven lengths, with thinning at the temples that exposes a high, bony brow. The hands are sinew-thin and rigid, the fingers permanently curled as if set by long-ago cramps into a grasping posture.",
+  "short_description": "undead male cavern wight",
+  "tags": [],
+  "entityType": "character",
+  "info": {
+    "purpose": "undead",
+    "aliases": [
+      "The Obsidian Wight",
+      "Cavern-Dead Watcher"
+    ],
+    "birthdate": "Unknown",
+    "deathdate": null,
+    "title": null,
+    "birthPlace": "",
+    "eyeColor": "gray",
+    "gender": "male",
+    "hairColor": "black",
+    "hairStyle": "long",
+    "beardStyle": "stubble",
+    "headType": "human_male",
+    "skinTone": "light",
+    "personality": "Taciturn and ritual-bound, this undead persists as a cavern sentinel, responding to intrusion with methodical hostility and a tenacious adherence to the last commands that governed its living service.",
+    "race": "human",
+    "messages": [],
+    "journal": [],
+    "sketches": [],
+    "verbosity": 3,
+    "conversationContext": null,
+    "storytellerState": null,
+    "isPlayer": false,
+    "storyComplete": false,
+    "routine": {
+      "schedule": {
+        "dawn": "work",
+        "morning": "work",
+        "afternoon": "work",
+        "evening": "work",
+        "night": "work"
+      },
+      "home": {
+        "placeId": "PLACE_obsidian_scar_cavern",
+        "description": "Obsidian Scar Cavern",
+        "areaHint": null
+      },
+      "work": {
+        "placeId": "PLACE_obsidian_scar_cavern",
+        "description": "Obsidian Scar Cavern",
+        "areaHint": null
+      },
+      "leisure": null,
+      "variance": 0.2,
+      "activities": {
+        "work": "undead_patrol"
+      }
+    },
+    "vesselRoutes": null,
+    "abstractLocation": null,
+    "npcBehavior": null,
+    "physicalState": null,
+    "pendingDeparture": null,
+    "pendingArrival": null,
+    "lastRoutineCheckPeriod": null,
+    "startingNarrative": null,
+    "startingCharacterState": null,
+    "clothing": [
+      {
+        "slot": "torso_under",
+        "itemId": "tunic",
+        "color": "#3a3a3a",
+        "contents": null
+      },
+      {
+        "slot": "torso_over",
+        "itemId": "trenchcoat",
+        "color": "#1a1a1a",
+        "contents": null
+      },
+      {
+        "slot": "legs",
+        "itemId": "cloth_pants",
+        "color": "#808080",
+        "contents": null
+      },
+      {
+        "slot": "feet",
+        "itemId": "boots",
+        "color": "#8b4513",
+        "contents": null
+      },
+      {
+        "slot": "hands",
+        "itemId": "cloth_gloves",
+        "color": "#1a1a1a",
+        "contents": null
+      },
+      {
+        "slot": "belt",
+        "itemId": "leather_belt",
+        "color": null,
+        "contents": [
+          {
+            "id": "ci_1771953787745_ucegvw",
+            "itemId": "unarmed",
+            "name": "unarmed",
+            "description": null,
+            "type": "weapon",
+            "quantity": 1,
+            "color": null,
+            "equipSlot": "weapon",
+            "plotId": null
+          }
+        ]
+      }
+    ],
+    "enabledOverlayLayers": [
+      "eyes",
+      "facial"
+    ],
+    "helmingVesselId": null,
+    "storytellerDisabled": false,
+    "rulesetState": {
+      "stats": {
+        "physical": 50,
+        "mental": 50,
+        "social": 50,
+        "poise": 50,
+        "max_poise": 50,
+        "bloodloss": 0,
+        "anxiety": 0,
+        "fatigue": 0,
+        "hunger": 0
+      },
+      "conditions": [],
+      "statUsage": {},
+      "incapacitation": null,
+      "incapacitatedSince": null
+    },
+    "voiceId": "brian",
+    "spriteConfig": {
+      "bodyType": "male",
+      "layers": [
+        {
+          "type": "body",
+          "optionId": "body_base",
+          "tint": 15780008
+        },
+        {
+          "type": "body",
+          "optionId": "body_universal",
+          "tint": 15780008
+        },
+        {
+          "type": "eyes",
+          "optionId": "eyes_eyes",
+          "tint": 8423560
+        },
+        {
+          "type": "facial",
+          "optionId": "facial_beard",
+          "tint": 1710618
+        },
+        {
+          "type": "hair",
+          "optionId": "hair_long",
+          "tint": 1710618
+        },
+        {
+          "type": "torso",
+          "optionId": "torso_formal_trenchcoat_male",
+          "tint": 1710618
+        },
+        {
+          "type": "legs",
+          "optionId": "legs_white_pants_male",
+          "tint": 8421504
+        },
+        {
+          "type": "feet",
+          "optionId": "feet_white_boots_male",
+          "tint": 9127187
+        },
+        {
+          "type": "hands",
+          "optionId": "hands_white_gloves_male",
+          "tint": 1710618
+        },
+        {
+          "type": "belt",
+          "optionId": "belt_leather_male",
+          "tint": null
+        }
+      ],
+      "spriteHash": "61c9963340bce3d5",
+      "spriteUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/sprites/generated/61c9963340bce3d5.png",
+      "spriteScale": 1
+    }
+  },
+  "position": {
+    "x": 528,
+    "y": 1200,
+    "width": 32,
+    "height": 48,
+    "parent": "PLACE_obsidian_scar_cavern"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/characters/CHAR_caldren_thoss.png?v=1771953847919",
+  "faceAnchorY": 0.17,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "talk"
+  },
+  "relationships": [
+    {
+      "targetId": "CHAR_sereth_kurn",
+      "type": "colleague",
+      "disposition": 10,
+      "familiarity": 50,
+      "context": "Both are undead sentinels inhabiting PLACE_obsidian_scar_cavern with patrol-like vigilance and hostility to intruders, suggesting they serve/served the same defensive role in the cavern.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_sereth_kurn",
+      "type": "acquaintance",
+      "disposition": 0,
+      "familiarity": 40,
+      "context": "They share the same confined location (PLACE_obsidian_scar_cavern) and overlapping routines, making it likely they are at least mutually aware of one another.",
+      "pendingGeneration": false
+    }
+  ],
+  "important": false
+}

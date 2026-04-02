@@ -1,0 +1,20 @@
+{
+  "id": "column_stone",
+  "name": "Stone Column",
+  "description": "Classical fluted stone pillar on a round base.",
+  "purposes": [
+    "decoration"
+  ],
+  "tags": [
+    "outdoor",
+    "decoration",
+    "stone",
+    "architecture"
+  ],
+  "solid": true,
+  "layer": "default",
+  "spriteId": "column_stone",
+  "materials": [
+    "stone"
+  ]
+}

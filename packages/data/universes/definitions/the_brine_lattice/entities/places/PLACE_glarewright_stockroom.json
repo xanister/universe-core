@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_glarewright_stockroom",
+  "label": "Glarewright Stockroom",
+  "description": "Glarewright Stockroom occupies a sealed rear chamber of The Glarewright Exchange, built of fused basalt and faced with matte suppressor panels that eliminate terminator flare. Salt-tight cabinets and gasketed crate racks store reflector foils, baffle vanes, and mineral-glass blanks in numbered lots aligned to the city’s surveyed approach standards. A narrow aisle grid leads to a dedicated packing slab scored for measurement and banding, with floor drains set to capture brine dust and condensate. Vent-baffled grilles and layered dust traps maintain a controlled interior against Brineshade’s mineral haze.",
+  "short_description": "sealed optics stockroom",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "storage_room",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.9
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "door_wooden",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/the_brine_lattice/images/battles/PLACE_glarewright_stockroom.png?v=1772313940851",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 1104,
+    "y": 480,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_the_glarewright_exchange",
+    "innerWidth": 512,
+    "innerHeight": 768
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/the_brine_lattice/images/places/PLACE_glarewright_stockroom.png?v=1772314027161",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

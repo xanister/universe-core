@@ -1,0 +1,21 @@
+{
+  "id": "hay_bale",
+  "name": "Hay Bale",
+  "description": "A small hay bale wrapped in burlap.",
+  "purposes": [
+    "storage"
+  ],
+  "tags": [
+    "common",
+    "container",
+    "storage",
+    "tavern"
+  ],
+  "solid": false,
+  "layer": "default",
+  "spriteId": "hay_bale",
+  "materials": [
+    "wood"
+  ],
+  "tintable": false
+}

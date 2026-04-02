@@ -1,0 +1,1874 @@
+{
+  "id": "CHAR_perrin_halvay",
+  "label": "Perrin Halvay",
+  "description": "A human traveler of middle years, marked by gray hair worn in a tidy, practical cut and a neatly cropped beard maintained with habitual care. Brown eyes set beneath straight brows give the face a consistently open and approachable cast. Taupe skin and fine lines at the eyes record sustained exposure to road weather rather than hardship. The jaw is broad and even, with a measured symmetry that reads as orderly and unthreatening.",
+  "short_description": "travel-worn male wayfarer",
+  "tags": [],
+  "entityType": "character",
+  "info": {
+    "purpose": "player",
+    "aliases": [
+      "Perrin of Waybridge",
+      "Road-Perrin"
+    ],
+    "birthdate": "978-04-19",
+    "deathdate": null,
+    "title": null,
+    "birthPlace": "Waybridge Market, Gaardia",
+    "eyeColor": "brown",
+    "gender": "male",
+    "hairColor": "gray",
+    "hairStyle": "parted",
+    "beardStyle": "trimmed",
+    "headType": "human_male",
+    "skinTone": "taupe",
+    "personality": "Affable and steady-tempered, he trades in news and small courtesies, cultivating trust through patient conversation and a consistent respect for local rules. He favors lawful roads and licensed crossings, keeps careful track of tolls and proclamations, and avoids entanglement in forbidden rites or tribunal business.",
+    "race": "human",
+    "messages": [
+      {
+        "role": "user",
+        "action": "input",
+        "opts": {
+          "text": "I look around."
+        },
+        "date": "06.01.11 4A 13:58",
+        "omitFromTranscript": false,
+        "hidden": false
+      },
+      {
+        "date": "06.01.11 4A 14:00",
+        "omitFromTranscript": false,
+        "hidden": false,
+        "role": "assistant",
+        "action": "narration",
+        "opts": {
+          "text": "Cloud-muted afternoon light lies flat over Charterbreak Quay: battered basalt pilings and patched timber jetties cut into a silt-choked inlet, each berth marked by numbered bollards and tally grooves worn into the wood beside storm-scoured iron rings and spalled mooring stones. Lantern posts with salt-fogged glass stand in a disciplined line, and the roofed weighhouse of riveted plate and soot-dark beams sits back from the water, its posting boards crowded with tariff schedules, hazard ordinances, and sealed interdiction notices; beyond, rubble shoring from nearby ruinfields props the edge like a rough, reluctant wall."
+        }
+      },
+      {
+        "role": "assistant",
+        "action": "milestone",
+        "opts": {
+          "type": "location_entered",
+          "label": "Anslem",
+          "subtext": null,
+          "entityId": "PLACE_anslem",
+          "checkDetail": null,
+          "combatData": null
+        },
+        "date": null,
+        "omitFromTranscript": true,
+        "hidden": false
+      },
+      {
+        "role": "assistant",
+        "action": "milestone",
+        "opts": {
+          "type": "location_entered",
+          "label": "Cindervale",
+          "subtext": null,
+          "entityId": "PLACE_cindervale",
+          "checkDetail": null,
+          "combatData": null
+        },
+        "date": null,
+        "omitFromTranscript": true,
+        "hidden": false
+      },
+      {
+        "role": "assistant",
+        "action": "milestone",
+        "opts": {
+          "type": "location_entered",
+          "label": "Anslem",
+          "subtext": null,
+          "entityId": "PLACE_anslem",
+          "checkDetail": null,
+          "combatData": null
+        },
+        "date": null,
+        "omitFromTranscript": true,
+        "hidden": false
+      },
+      {
+        "role": "assistant",
+        "action": "milestone",
+        "opts": {
+          "type": "location_entered",
+          "label": "Cindervale",
+          "subtext": null,
+          "entityId": "PLACE_cindervale",
+          "checkDetail": null,
+          "combatData": null
+        },
+        "date": null,
+        "omitFromTranscript": true,
+        "hidden": false
+      },
+      {
+        "role": "assistant",
+        "action": "milestone",
+        "opts": {
+          "type": "location_entered",
+          "label": "Ashmark Scriptorium",
+          "subtext": null,
+          "entityId": "PLACE_ashmark_scriptorium",
+          "checkDetail": null,
+          "combatData": null
+        },
+        "date": null,
+        "omitFromTranscript": true,
+        "hidden": false
+      },
+      {
+        "role": "assistant",
+        "action": "milestone",
+        "opts": {
+          "type": "location_entered",
+          "label": "Cindervale",
+          "subtext": null,
+          "entityId": "PLACE_cindervale",
+          "checkDetail": null,
+          "combatData": null
+        },
+        "date": null,
+        "omitFromTranscript": true,
+        "hidden": false
+      },
+      {
+        "role": "user",
+        "action": "input",
+        "opts": {
+          "text": "I wait 240 minutes."
+        },
+        "date": "07.01.11 4A 14:37",
+        "omitFromTranscript": false,
+        "hidden": false
+      },
+      {
+        "date": null,
+        "omitFromTranscript": true,
+        "hidden": false,
+        "role": "assistant",
+        "action": "zoom",
+        "opts": {
+          "targetZoom": 1.4,
+          "durationMs": 1200,
+          "restoreAfter": true
+        }
+      },
+      {
+        "date": "07.01.11 4A 18:37",
+        "omitFromTranscript": false,
+        "hidden": false,
+        "role": "assistant",
+        "action": "narration",
+        "opts": {
+          "text": "Evening settles over Charterbreak Quay while you keep your long watch; lanterns along the regulated light line are trimmed and shuttered, and clerks’ footsteps thin until every stamp and chain-rattle carries.\n\nA uniformed male guard breaks from his patrol to approach you with a small ledger board tucked under his arm, eyes flicking from your face to the posting boards as if weighing whether attention itself is a liability. Behind him, a male uniformed guard lingers by the berth markers, heel set on a tally groove—then shifts, frowning at the wood as though it has learned a new story since daylight."
+        }
+      },
+      {
+        "date": null,
+        "omitFromTranscript": true,
+        "hidden": false,
+        "role": "assistant",
+        "action": "move",
+        "opts": {
+          "characterId": "CHAR_alaric_fenrow",
+          "targetCharacterId": "CHAR_perrin_halvay"
+        }
+      },
+      {
+        "date": null,
+        "omitFromTranscript": true,
+        "hidden": false,
+        "role": "assistant",
+        "action": "move",
+        "opts": {
+          "characterId": "CHAR_rovan_kest",
+          "targetCharacterId": "CHAR_perrin_halvay"
+        }
+      },
+      {
+        "date": null,
+        "omitFromTranscript": true,
+        "hidden": false,
+        "role": "assistant",
+        "action": "wait",
+        "opts": {
+          "durationMs": 400
+        }
+      },
+      {
+        "date": "07.01.11 4A 18:37",
+        "omitFromTranscript": false,
+        "hidden": false,
+        "role": "assistant",
+        "action": "dialog",
+        "opts": {
+          "characterId": "CHAR_alaric_fenrow",
+          "text": "Citizen—stand as witness under the Lex Gaardium, if you please. A properly registered cargo has vanished from Charterbreak Quay with its paperwork sealed and an interdiction notice posted."
+        }
+      },
+      {
+        "date": "07.01.11 4A 18:37",
+        "omitFromTranscript": false,
+        "hidden": false,
+        "role": "assistant",
+        "action": "dialog",
+        "opts": {
+          "characterId": "CHAR_alaric_fenrow",
+          "text": "No shouting, no panic—just facts. If you saw a crew shift lines, a seal lifted, or a notice handled, I need it placed in record before the Registry decides what it wants to remember."
+        }
+      },
+      {
+        "role": "assistant",
+        "action": "dialog",
+        "opts": {
+          "characterId": "CHAR_rovan_kest",
+          "text": "And the berth assignment marks have been tampered with. These tally grooves were re-cut—clean edges, fresh bite—like someone tried to move a ship on paper after the fact."
+        },
+        "date": "07.01.11 4A 18:37",
+        "omitFromTranscript": false,
+        "hidden": false
+      },
+      {
+        "role": "assistant",
+        "action": "milestone",
+        "opts": {
+          "type": "quest_received",
+          "label": "New Quest",
+          "entityId": "plot_1772415110774",
+          "subtext": null,
+          "checkDetail": null,
+          "combatData": null
+        },
+        "date": null,
+        "omitFromTranscript": true,
+        "hidden": false
+      },
+      {
+        "role": "assistant",
+        "action": "milestone",
+        "opts": {
+          "type": "goal_revealed",
+          "label": "Swear a witness statement under the Lex and begin a lawful inquiry into the vanished, registered cargo at Charterbreak Quay.",
+          "subtext": null,
+          "entityId": "GOAL_swear_and_investigate",
+          "checkDetail": null,
+          "combatData": null
+        },
+        "date": null,
+        "omitFromTranscript": true,
+        "hidden": false
+      },
+      {
+        "role": "assistant",
+        "action": "milestone",
+        "opts": {
+          "type": "location_entered",
+          "label": "Cindervale",
+          "subtext": null,
+          "entityId": "PLACE_cindervale",
+          "checkDetail": null,
+          "combatData": null
+        },
+        "date": null,
+        "omitFromTranscript": true,
+        "hidden": false
+      },
+      {
+        "role": "assistant",
+        "action": "milestone",
+        "opts": {
+          "type": "location_entered",
+          "label": "Cindervale",
+          "subtext": null,
+          "entityId": "PLACE_cindervale",
+          "checkDetail": null,
+          "combatData": null
+        },
+        "date": null,
+        "omitFromTranscript": true,
+        "hidden": false
+      },
+      {
+        "role": "assistant",
+        "action": "milestone",
+        "opts": {
+          "type": "location_entered",
+          "label": "Cindervale",
+          "subtext": null,
+          "entityId": "PLACE_cindervale",
+          "checkDetail": null,
+          "combatData": null
+        },
+        "date": null,
+        "omitFromTranscript": true,
+        "hidden": false
+      },
+      {
+        "role": "user",
+        "action": "input",
+        "opts": {
+          "text": "Hi",
+          "classifiedActions": [
+            {
+              "type": "Dialogue",
+              "intent": "greet travel-worn male wayfarer",
+              "targetRef": null,
+              "targetId": "CHAR_perrin_halvay",
+              "suggestedDifficulty": "trivial",
+              "suggestedStat": null,
+              "opposedBy": null,
+              "actionId": null,
+              "combatInitiated": false
+            }
+          ]
+        },
+        "date": "11.01.11 4A 07:37",
+        "omitFromTranscript": false,
+        "hidden": false
+      },
+      {
+        "role": "assistant",
+        "action": "milestone",
+        "opts": {
+          "type": "character_arrived",
+          "label": "ratlike goblin (nonbinary)",
+          "subtext": null,
+          "entityId": "CHAR_brinescurry",
+          "checkDetail": null,
+          "combatData": null
+        },
+        "date": null,
+        "omitFromTranscript": true,
+        "hidden": false
+      },
+      {
+        "date": "11.01.11 4A 07:39",
+        "omitFromTranscript": false,
+        "hidden": false,
+        "role": "assistant",
+        "action": "narration",
+        "opts": {
+          "text": "Before your greeting can settle, fog at the license-stones shreds with motion: a ratlike goblin barrels between toll posts clutching a flat, seal-stamped packet, heels skidding on wet masonry as two uniformed guards hammer after them with lantern-shutters snapping open down the line. The travel-worn wayfarer you’d aimed for is jostled sideways by the surge, and the dockwardens’ tally-clerk marks the chase on a slate as if it’s just another entry in the morning’s ordinances."
+        }
+      },
+      {
+        "date": null,
+        "omitFromTranscript": true,
+        "hidden": false,
+        "role": "assistant",
+        "action": "face",
+        "opts": {
+          "characterId": "CHAR_perrin_halvay",
+          "targetCharacterId": "CHAR_korr_brightblade",
+          "direction": "up"
+        }
+      },
+      {
+        "date": null,
+        "omitFromTranscript": true,
+        "hidden": false,
+        "role": "assistant",
+        "action": "wait",
+        "opts": {
+          "durationMs": 250
+        }
+      },
+      {
+        "role": "assistant",
+        "action": "dialog",
+        "opts": {
+          "characterId": "CHAR_alaric_fenrow",
+          "text": "By curfew ordinance and writ-pace—halt that runner! Any hand that hinders the watch is logged as obstruction and fined at docket-rate!"
+        },
+        "date": "11.01.11 4A 07:39",
+        "omitFromTranscript": false,
+        "hidden": false
+      },
+      {
+        "role": "assistant",
+        "action": "dialog",
+        "opts": {
+          "characterId": "CHAR_brinescurry",
+          "text": "Not contraband—notice-service! If it gets seized, the whole row burns on paper!"
+        },
+        "date": "11.01.11 4A 07:39",
+        "omitFromTranscript": false,
+        "hidden": false
+      },
+      {
+        "role": "assistant",
+        "action": "dialog",
+        "opts": {
+          "characterId": "CHAR_rovan_kest",
+          "text": "Cut them off at the survey markers—don’t let them reach the bastion stairs! Hands visible, all of you!"
+        },
+        "date": "11.01.11 4A 07:39",
+        "omitFromTranscript": false,
+        "hidden": false
+      },
+      {
+        "role": "assistant",
+        "action": "dialog",
+        "opts": {
+          "characterId": "CHAR_perrin_halvay",
+          "text": "Careful—those seals aren’t dock guild. That packet’s Registry work, and the wrong hands will ‘lose’ it."
+        },
+        "date": "11.01.11 4A 07:39",
+        "omitFromTranscript": false,
+        "hidden": false
+      },
+      {
+        "role": "assistant",
+        "action": "move_hint",
+        "opts": {
+          "targetId": "CHAR_perrin_halvay"
+        },
+        "date": null,
+        "omitFromTranscript": true,
+        "hidden": false
+      },
+      {
+        "role": "assistant",
+        "action": "milestone",
+        "opts": {
+          "type": "location_entered",
+          "label": "Cindervale",
+          "subtext": null,
+          "entityId": "PLACE_cindervale",
+          "checkDetail": null,
+          "combatData": null
+        },
+        "date": null,
+        "omitFromTranscript": true,
+        "hidden": false
+      }
+    ],
+    "journal": [],
+    "sketches": [],
+    "verbosity": 3,
+    "conversationContext": null,
+    "storytellerState": {
+      "storytellerId": "STORYTELLER_the_saffron_veil_bard",
+      "voiceId": "lily",
+      "activePlots": [
+        {
+          "id": "plot_1772415110774",
+          "plan": {
+            "label": "Writs in Salt-Fog",
+            "description": "You find yourself at Charterbreak Quay where law is carved into stone grooves and enforced by lantern-light and stamped seals. This morning, the posting boards carry fresh interdiction notices—yet the wax looks handled, and a berth number has been cut over with a newer chisel. Dockhands whisper about cargo that arrived properly registered and still vanished into the fog, leaving only ledger-dust and a smell like wet iron. If the Lex Gaardium can be bent here, then the moors and ruinfields beyond will not be held for long—and something in the waterline already knows it.",
+            "plot": "Opening hook: Perrin notices that a quay tally-groove has been re-cut to change a registered berth assignment, and the red wax on an interdiction notice is smeared as if recently lifted and re-set. In 23 4A at Charterbreak Quay, Alaric Fenrow pulls Perrin into a formal witness-statement under the Lex Gaardium after a registered cargo disappears despite sealed paperwork, implicating either guild fraud or a Crown-Faith seizure. Perrin’s inquiry leads through Ashlar Registry House, where ledger pages and cargo seals indicate a lawful reclassification executed under emergency-style language—yet no Clause of Ash has been properly proclaimed or ratified. The truth is that a Crown-Faith examiner (working through guild-court proxies) is using forged writs and suppressed tribunal countermeasures to move a forbidden necromantic vessel—an iron anchor that preserves a name—out of ordinary jurisdiction and toward the Crater, where enforcement tools and bounty law fray. As Perrin follows the paper trail into Ashglass Fissure, he finds undead drudges compelled by distance-limited control and a wraith bound to a specific oath-object, confirming the cargo’s purpose: corpse-binding and soul-traffic disguised as salvage. Captain Cassian Rowe is revealed to be neither mastermind nor innocent—her ship is the final conveyance, and her compliance is purchased with leverage that makes the law itself the hostage. Perrin must choose whether to win by courtroom-proof and seals, or by frontier fire and conviction, before the tide-window carries the vessel beyond Gaardia’s reach.",
+            "characters": [
+              {
+                "role": "ally",
+                "description": "A rigidly kept uniform, helm always under one arm, with a tired vigilance around the eyes that suggests he reads every seal twice. He speaks in clipped, procedural phrases when others are panicking, and he writes names carefully, as though spelling keeps the dead away.",
+                "publicFace": "A dutiful quay-guard enforcing tariff schedules, berth assignment, and hazard ordinances exactly as posted.",
+                "hiddenTruth": "He is quietly assembling a chain-of-custody that can survive Synod review, even if that means defying a tribunal’s informal pressure and risking accusation of obstructing a Crown-Faith matter.",
+                "locationHint": "Patrolling the lantern line and weighhouse boards at Charterbreak Quay; occasionally seen at the Registry threshold.",
+                "introductionProgress": 0,
+                "name": "Alaric Fenrow",
+                "matchHint": "",
+                "entityId": "CHAR_alaric_fenrow"
+              },
+              {
+                "role": "informant",
+                "description": "A broad-shouldered bartender with sleeves rolled high, knuckles stained with tannin and old bruising. He watches who drinks water and who won’t, and his voice drops whenever the fog thickens outside.",
+                "publicFace": "A tavern man who hears everything and sells nothing but ale and privacy.",
+                "hiddenTruth": "He has been paid to repeat a false rumor about a ‘lawful seizure’ to keep curious folk away from the Registry, but he kept a scrap of the original wording because it sounded wrong to him.",
+                "locationHint": "Behind a scarred counter near the quay’s worker alleys, where dockhands come to spend coin before it’s taxed.",
+                "introductionProgress": 20,
+                "name": "Bramwell Nace",
+                "matchHint": "",
+                "entityId": "CHAR_bramwell_nace"
+              },
+              {
+                "role": "obstacle",
+                "description": "A sea-hardened woman with salt-whitened hairline and a coat that smells of tar and clove. She measures people like cargo, weighing their risk against her margins, and she never stands with her back to an open door.",
+                "publicFace": "A legitimate captain who keeps her manifests tidy and her crew fed, insisting she follows the Lex because it keeps ships afloat.",
+                "hiddenTruth": "Her ship has been bound by an unlawful ‘interdiction condition’—a leverage threat against her registration and inheritance claims—forcing her to carry a sealed hold she cannot openly inspect.",
+                "locationHint": "On the jetties at Charterbreak Quay, near the numbered bollards assigned by berth law.",
+                "introductionProgress": 35,
+                "name": "Cassian Rowe",
+                "matchHint": "",
+                "entityId": "CHAR_cassian_rowe"
+              },
+              {
+                "role": "antagonist",
+                "description": "Immaculate dark robes under a travel cloak, ink-stained fingertips, and a face practiced at solemn mercy. Their speech mimics tribunal formulas and scripture-citations, but the cadence quickens whenever ‘exceptional jurisdiction’ is mentioned.",
+                "publicFace": "A Crown-Faith examiner ‘auditing’ quay practice for forbidden rites and ensuring public safety.",
+                "hiddenTruth": "They are moving a necromantic name-vessel through forged writs and suppressed knowledge, aiming to relocate the vessel beyond normal enforcement while keeping every step plausibly ‘lawful’ on paper.",
+                "locationHint": "Hovering near Ashlar Registry House and the weighhouse postings, appearing whenever seals are discussed or evidence is about to be logged.",
+                "introductionProgress": 55,
+                "name": "",
+                "matchHint": "impeccably robed Crown-Faith examiner with ink-stained fingers"
+              }
+            ],
+            "places": [
+              {
+                "placeId": "PLACE_charterbreak_quay",
+                "storyRole": "starting_hub"
+              },
+              {
+                "placeId": "PLACE_ashlar_registry_house",
+                "storyRole": "registry_investigation"
+              },
+              {
+                "placeId": "PLACE_ashglass_fissure",
+                "storyRole": "necromancy_site"
+              }
+            ],
+            "items": [
+              {
+                "itemId": "sealed_letter",
+                "tint": null,
+                "locationHint": "On the weighhouse posting-board ledge at Charterbreak Quay, half-stuck to smeared red wax beneath an interdiction notice.",
+                "placement": "ground"
+              },
+              {
+                "itemId": "bronze_medallion",
+                "tint": null,
+                "locationHint": "Inside a locked ledger cabinet at Ashlar Registry House, wrapped in oilcloth among older cargo seals.",
+                "placement": "container"
+              },
+              {
+                "itemId": "scroll_of_identify",
+                "tint": null,
+                "locationHint": "Filed improperly among blank manifest forms at Ashlar Registry House, as if hidden in plain sight for a licensed reader.",
+                "placement": "container"
+              },
+              {
+                "itemId": "iron_amulet",
+                "tint": null,
+                "locationHint": "In Ashglass Fissure, within a soot-caked niche behind dragged bone piles—kept away from direct light and casual handling.",
+                "placement": "container"
+              },
+              {
+                "itemId": "torch",
+                "tint": null,
+                "locationHint": "Leaning beside a hazard-ordinance rack at Charterbreak Quay’s lantern line, intended for sanctioned burning of contaminated cargo.",
+                "placement": "ground"
+              }
+            ],
+            "turningPoints": [
+              {
+                "id": "TP_recut_tally_and_missing_cargo",
+                "progressTarget": 0,
+                "dramaticRole": "inciting_incident",
+                "involvedCharacter": "Alaric Fenrow",
+                "triggerOnFlags": null,
+                "essentialInformation": [
+                  "The player learns a properly registered cargo has vanished from Charterbreak Quay despite posted interdiction notices.",
+                  "The player learns there is evidence of tampering with berth assignment/registration marks (a legal alteration, not random damage)."
+                ],
+                "triggerConditions": null,
+                "conditionTimeoutHours": null,
+                "triggered": true,
+                "triggeredAt": "07.01.11 4A 18:37",
+                "triggeredByEventId": "event_1772432739538",
+                "outcome": null,
+                "flagsSet": null,
+                "conditionsEligibleSince": null
+              },
+              {
+                "id": "TP_ledger_chain_of_custody",
+                "progressTarget": 35,
+                "dramaticRole": "rising_action",
+                "involvedCharacter": "Bramwell Nace",
+                "triggerOnFlags": null,
+                "essentialInformation": [
+                  "The player learns the cargo was ‘lawfully’ reclassified by writ language resembling emergency dominion, but without proper ratification.",
+                  "The player learns a tribunal-grade seal/medallion is missing or out of place in the Registry’s chain-of-custody."
+                ],
+                "triggerConditions": [
+                  {
+                    "type": "min_hours_since_last_event",
+                    "purposes": null,
+                    "placeStoryRole": null,
+                    "periods": null,
+                    "characterName": null,
+                    "hours": 4
+                  },
+                  {
+                    "type": "specific_location",
+                    "purposes": null,
+                    "placeStoryRole": "registry_investigation",
+                    "periods": null,
+                    "characterName": null,
+                    "hours": null
+                  },
+                  {
+                    "type": "not_in_combat",
+                    "purposes": null,
+                    "placeStoryRole": null,
+                    "periods": null,
+                    "characterName": null,
+                    "hours": null
+                  }
+                ],
+                "conditionTimeoutHours": 48,
+                "triggered": false,
+                "triggeredAt": null,
+                "triggeredByEventId": null,
+                "outcome": null,
+                "flagsSet": null,
+                "conditionsEligibleSince": null
+              },
+              {
+                "id": "TP_fissure_drudges_and_anchor",
+                "progressTarget": 55,
+                "dramaticRole": "midpoint",
+                "involvedCharacter": "Alaric Fenrow",
+                "triggerOnFlags": null,
+                "essentialInformation": [
+                  "The player learns undead labor here is compelled by an active controlling will (zombie/drudge behavior consistent with distance and obstacles), proving forbidden rite activity rather than mere grave-robbery.",
+                  "The player learns the contraband includes a name-bearing anchor object that can preserve an undead identity beyond the body."
+                ],
+                "triggerConditions": [
+                  {
+                    "type": "min_hours_since_last_event",
+                    "purposes": null,
+                    "placeStoryRole": null,
+                    "periods": null,
+                    "characterName": null,
+                    "hours": 6
+                  },
+                  {
+                    "type": "specific_location",
+                    "purposes": null,
+                    "placeStoryRole": "necromancy_site",
+                    "periods": null,
+                    "characterName": null,
+                    "hours": null
+                  },
+                  {
+                    "type": "not_in_combat",
+                    "purposes": null,
+                    "placeStoryRole": null,
+                    "periods": null,
+                    "characterName": null,
+                    "hours": null
+                  }
+                ],
+                "conditionTimeoutHours": 48,
+                "triggered": false,
+                "triggeredAt": null,
+                "triggeredByEventId": null,
+                "outcome": null,
+                "flagsSet": null,
+                "conditionsEligibleSince": null
+              },
+              {
+                "id": "TP_tide_window_and_suppressed_countermeasures",
+                "progressTarget": 70,
+                "dramaticRole": "crisis",
+                "involvedCharacter": "Cassian Rowe",
+                "triggerOnFlags": null,
+                "essentialInformation": [
+                  "The player learns there is a near-term tide window for a ship departure that will move the vessel toward exceptional jurisdiction where normal enforcement weakens.",
+                  "The player learns key monster/countermeasure information has been intentionally suppressed locally, increasing the risk of confronting the undead by standard procedure alone."
+                ],
+                "triggerConditions": [
+                  {
+                    "type": "min_hours_since_last_event",
+                    "purposes": null,
+                    "placeStoryRole": null,
+                    "periods": null,
+                    "characterName": null,
+                    "hours": 5
+                  },
+                  {
+                    "type": "time_of_day",
+                    "purposes": null,
+                    "placeStoryRole": null,
+                    "periods": [
+                      "evening",
+                      "night"
+                    ],
+                    "characterName": null,
+                    "hours": null
+                  },
+                  {
+                    "type": "specific_location",
+                    "purposes": null,
+                    "placeStoryRole": "starting_hub",
+                    "periods": null,
+                    "characterName": null,
+                    "hours": null
+                  }
+                ],
+                "conditionTimeoutHours": 24,
+                "triggered": false,
+                "triggeredAt": null,
+                "triggeredByEventId": null,
+                "outcome": null,
+                "flagsSet": null,
+                "conditionsEligibleSince": null
+              },
+              {
+                "id": "TP_boarding_under_lex",
+                "progressTarget": 85,
+                "dramaticRole": "climax",
+                "involvedCharacter": "Cassian Rowe",
+                "triggerOnFlags": null,
+                "essentialInformation": [
+                  "The player learns the final conveyance is imminent and the vessel must be secured, destroyed, or lawfully impounded immediately to prevent its removal beyond practical reach.",
+                  "The player learns the opposing side’s power rests on the appearance of lawful writ—breaking that appearance (proof, seal, or oath) undermines their control and allies."
+                ],
+                "triggerConditions": [
+                  {
+                    "type": "min_hours_since_last_event",
+                    "purposes": null,
+                    "placeStoryRole": null,
+                    "periods": null,
+                    "characterName": null,
+                    "hours": 4
+                  },
+                  {
+                    "type": "specific_location",
+                    "purposes": null,
+                    "placeStoryRole": "starting_hub",
+                    "periods": null,
+                    "characterName": null,
+                    "hours": null
+                  },
+                  {
+                    "type": "not_in_combat",
+                    "purposes": null,
+                    "placeStoryRole": null,
+                    "periods": null,
+                    "characterName": null,
+                    "hours": null
+                  }
+                ],
+                "conditionTimeoutHours": 12,
+                "triggered": false,
+                "triggeredAt": null,
+                "triggeredByEventId": null,
+                "outcome": null,
+                "flagsSet": null,
+                "conditionsEligibleSince": null
+              },
+              {
+                "id": "TP_aftermath_institutional_fallout",
+                "progressTarget": 92,
+                "dramaticRole": "resolution",
+                "involvedCharacter": "Alaric Fenrow",
+                "triggerOnFlags": null,
+                "essentialInformation": [
+                  "The player learns which institution takes custody of the case (guard, guild-court, or tribunal) and what that means for future enforcement at Charterbreak Quay."
+                ],
+                "triggerConditions": [
+                  {
+                    "type": "min_hours_since_last_event",
+                    "purposes": null,
+                    "placeStoryRole": null,
+                    "periods": null,
+                    "characterName": null,
+                    "hours": 3
+                  },
+                  {
+                    "type": "not_in_combat",
+                    "purposes": null,
+                    "placeStoryRole": null,
+                    "periods": null,
+                    "characterName": null,
+                    "hours": null
+                  }
+                ],
+                "conditionTimeoutHours": 48,
+                "triggered": false,
+                "triggeredAt": null,
+                "triggeredByEventId": null,
+                "outcome": null,
+                "flagsSet": null,
+                "conditionsEligibleSince": null
+              }
+            ],
+            "possibleFlags": [
+              {
+                "id": "acquired_sealed_letter",
+                "triggerDescription": "Set when the player obtains the Sealed Letter evidence."
+              },
+              {
+                "id": "used_sealed_letter",
+                "triggerDescription": "Set when the player presents or formally submits the Sealed Letter as evidence under seal."
+              },
+              {
+                "id": "acquired_bronze_medallion",
+                "triggerDescription": "Set when the player obtains the Bronze Medallion associated with official sealing authority."
+              },
+              {
+                "id": "used_bronze_medallion",
+                "triggerDescription": "Set when the player uses the Bronze Medallion to challenge or verify an official seal/writ."
+              },
+              {
+                "id": "acquired_scroll_of_identify",
+                "triggerDescription": "Set when the player obtains the Scroll of Identify."
+              },
+              {
+                "id": "used_scroll_of_identify",
+                "triggerDescription": "Set when the player uses the Scroll of Identify to reveal properties of the contraband anchor object."
+              },
+              {
+                "id": "acquired_iron_amulet",
+                "triggerDescription": "Set when the player obtains the Iron Amulet (the suspected name-vessel/anchor)."
+              },
+              {
+                "id": "used_iron_amulet",
+                "triggerDescription": "Set when the player attempts to invoke, unlock, or otherwise employ the Iron Amulet."
+              },
+              {
+                "id": "acquired_torch",
+                "triggerDescription": "Set when the player picks up a Torch suitable for burning rites or clearing undead obstacles."
+              },
+              {
+                "id": "used_torch",
+                "triggerDescription": "Set when the player uses a Torch to burn, ward off, or destroy necromantic materials."
+              },
+              {
+                "id": "witness_statement_sworn",
+                "triggerDescription": "Set when the player swears a witness statement or oath under the Lex Gaardium regarding the missing cargo/tampered berth marks."
+              },
+              {
+                "id": "ledger_examined",
+                "triggerDescription": "Set when the player reviews Registry entries enough to identify irregular writ language and chain-of-custody breaks."
+              },
+              {
+                "id": "fissure_entered",
+                "triggerDescription": "Set when the player reaches Ashglass Fissure in pursuit of the contraband."
+              },
+              {
+                "id": "necromancy_confirmed",
+                "triggerDescription": "Set when the player finds clear evidence of forbidden corpse-binding/soul-traffic operations."
+              },
+              {
+                "id": "ship_departure_stopped",
+                "triggerDescription": "Set when the player prevents the ship from leaving with the contraband."
+              },
+              {
+                "id": "ship_departure_failed",
+                "triggerDescription": "Set when the ship leaves with the contraband despite the player’s actions."
+              },
+              {
+                "id": "iron_amulet_destroyed",
+                "triggerDescription": "Set when the player destroys or renders inert the Iron Amulet as a functioning name-anchor."
+              },
+              {
+                "id": "iron_amulet_escaped",
+                "triggerDescription": "Set when the Iron Amulet remains active and is taken or hidden beyond recovery."
+              },
+              {
+                "id": "tribunal_corruption_proven",
+                "triggerDescription": "Set when the player produces admissible proof that official seals/writs were forged or misused to facilitate necromancy."
+              },
+              {
+                "id": "tribunal_corruption_unproven",
+                "triggerDescription": "Set when the player fails to secure proof and the matter is treated as an unresolved ‘exceptional’ tribunal affair."
+              },
+              {
+                "id": "antagonist_defeated",
+                "triggerDescription": "Set when the player defeats the principal opposing agent (by arrest, exposure, or combat)."
+              }
+            ],
+            "goals": [
+              {
+                "id": "GOAL_swear_and_investigate",
+                "description": "Swear a witness statement under the Lex and begin a lawful inquiry into the vanished, registered cargo at Charterbreak Quay.",
+                "progressBoost": 25,
+                "revealOnFlags": [],
+                "successFlags": [
+                  "witness_statement_sworn"
+                ],
+                "failureFlags": [
+                  "tribunal_corruption_unproven"
+                ],
+                "failureDeadlineHours": 9999,
+                "hidden": false,
+                "destinationPlaceId": null,
+                "goalType": null,
+                "stakes": null,
+                "personalHook": null,
+                "dramaticQuestion": null,
+                "immediateHint": null,
+                "blockedByFlags": null,
+                "status": "pending",
+                "revealedAt": "07.01.11 4A 18:37"
+              },
+              {
+                "id": "GOAL_secure_registry_evidence",
+                "description": "At Ashlar Registry House, secure evidence of tampered registration: the altered berth record, a broken chain-of-custody, or a displaced official seal.",
+                "progressBoost": 30,
+                "revealOnFlags": [
+                  "witness_statement_sworn"
+                ],
+                "successFlags": [
+                  "ledger_examined",
+                  "acquired_bronze_medallion"
+                ],
+                "failureFlags": [
+                  "tribunal_corruption_unproven"
+                ],
+                "failureDeadlineHours": 48,
+                "hidden": false,
+                "destinationPlaceId": null,
+                "goalType": null,
+                "stakes": null,
+                "personalHook": null,
+                "dramaticQuestion": null,
+                "immediateHint": null,
+                "blockedByFlags": null,
+                "status": null,
+                "revealedAt": null
+              },
+              {
+                "id": "GOAL_confirm_necromancy_and_find_anchor",
+                "description": "Track the cargo beyond paperwork—confirm forbidden rites and locate the anchor object used to bind identity or command the dead.",
+                "progressBoost": 35,
+                "revealOnFlags": [
+                  "ledger_examined"
+                ],
+                "successFlags": [
+                  "necromancy_confirmed",
+                  "acquired_iron_amulet"
+                ],
+                "failureFlags": [
+                  "iron_amulet_escaped"
+                ],
+                "failureDeadlineHours": 36,
+                "hidden": false,
+                "destinationPlaceId": null,
+                "goalType": null,
+                "stakes": null,
+                "personalHook": null,
+                "dramaticQuestion": null,
+                "immediateHint": null,
+                "blockedByFlags": null,
+                "status": null,
+                "revealedAt": null
+              },
+              {
+                "id": "GOAL_stop_the_tide_departure",
+                "description": "Before the tide window closes, stop the ship from carrying the contraband out of reach.",
+                "progressBoost": 45,
+                "revealOnFlags": [
+                  "necromancy_confirmed"
+                ],
+                "successFlags": [
+                  "ship_departure_stopped"
+                ],
+                "failureFlags": [
+                  "ship_departure_failed"
+                ],
+                "failureDeadlineHours": 24,
+                "hidden": false,
+                "destinationPlaceId": null,
+                "goalType": null,
+                "stakes": null,
+                "personalHook": null,
+                "dramaticQuestion": null,
+                "immediateHint": null,
+                "blockedByFlags": null,
+                "status": null,
+                "revealedAt": null
+              },
+              {
+                "id": "GOAL_end_the_anchor_and_make_it_stick",
+                "description": "Neutralize the anchor and ensure the outcome holds in court: destroy the Iron Amulet (or render it inert) and submit proof of forged or misused authority.",
+                "progressBoost": 50,
+                "revealOnFlags": [
+                  "acquired_iron_amulet",
+                  "ship_departure_stopped"
+                ],
+                "successFlags": [
+                  "iron_amulet_destroyed",
+                  "tribunal_corruption_proven",
+                  "antagonist_defeated"
+                ],
+                "failureFlags": [
+                  "iron_amulet_escaped",
+                  "tribunal_corruption_unproven"
+                ],
+                "failureDeadlineHours": 72,
+                "hidden": false,
+                "destinationPlaceId": null,
+                "goalType": null,
+                "stakes": null,
+                "personalHook": null,
+                "dramaticQuestion": null,
+                "immediateHint": null,
+                "blockedByFlags": null,
+                "status": null,
+                "revealedAt": null
+              }
+            ],
+            "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/gaardia/images/plots/plot_1772415062712.png",
+            "plotStartDelay": 11,
+            "endingCards": [
+              {
+                "condition": {
+                  "type": "flag_set",
+                  "flag": "ship_departure_stopped"
+                },
+                "title": "Berth Held, Tide Denied",
+                "text": "The contraband does not leave Charterbreak Quay; for once, the fog yields to lantern discipline and sworn names. The quay’s tally grooves will be re-cut again—this time under witnesses.",
+                "image": null
+              },
+              {
+                "condition": {
+                  "type": "flag_set",
+                  "flag": "ship_departure_failed"
+                },
+                "title": "Beyond Ordinary Reach",
+                "text": "The ship clears the silt-choked inlet on the tide-window, and the case thins into exceptional jurisdiction where familiar warrants lose their teeth. In Gaardia, some crimes are designed to become geography.",
+                "image": null
+              },
+              {
+                "condition": {
+                  "type": "flag_set",
+                  "flag": "tribunal_corruption_proven"
+                },
+                "title": "Seals That Cannot Stand",
+                "text": "A forged authority collapses under chain-of-custody and oath, and institutions that rarely agree are forced into alignment by the Lex’s own language. The next interdiction notice posted at the quay is watched by more eyes than before.",
+                "image": null
+              },
+              {
+                "condition": {
+                  "type": "flag_set",
+                  "flag": "iron_amulet_destroyed"
+                },
+                "title": "Name Unmoored",
+                "text": "With the anchor broken, the dead work slackens and the remaining malice loses its clean vector—no longer a tool that can be carried like cargo. The cost is written in ash and the smell of burnt iron.",
+                "image": null
+              },
+              {
+                "condition": {
+                  "type": "always",
+                  "flag": ""
+                },
+                "title": "The Lex Remains",
+                "text": "Whether by proof or by fire, your actions are absorbed into Gaardia’s record: copied, sealed, challenged, and cited. The frontier does not care about legality—but the kingdom survives by insisting it must.",
+                "image": null
+              }
+            ],
+            "credits": {
+              "title": "Generated Adventure",
+              "entries": [
+                {
+                  "role": "Plot",
+                  "name": "Storyteller"
+                },
+                {
+                  "role": "World",
+                  "name": "Gaardia"
+                }
+              ]
+            },
+            "characterCentric": false,
+            "centralDramaticQuestion": null,
+            "dramaticSubQuestions": null
+          },
+          "progressLevel": 6,
+          "storyFlags": [],
+          "nextEventAtGameDate": "07.01.11 4A 03:17",
+          "events": [
+            {
+              "id": "event_1772432739538",
+              "type": "chance encounters with magnetic strangers",
+              "description": "A quay guard requested a formal witness-statement under the Lex Gaardium, reporting that a properly registered cargo disappeared from Charterbreak Quay despite posted interdiction notices. Another guard pointed out freshly re-cut tally grooves indicating the berth assignment/registration marks were tampered with.",
+              "timestamp": "07.01.11 4A 18:37",
+              "affectedEntities": [
+                "CHAR_alaric_fenrow"
+              ],
+              "arcId": null,
+              "placeId": "PLACE_cindervale",
+              "sceneSummary": "In Cindervale: Evening settles over Charterbreak Quay while you keep your long watch; lanterns along the regulated light line are trimmed and shuttered, and clerks’ footsteps thin until every stamp and chain-rattle carries.\n\nA uniformed male guard breaks from his patrol to approach you with a small ledger board tu...",
+              "charactersPresent": [
+                "Alaric Fenrow",
+                "Rovan Kest"
+              ]
+            }
+          ],
+          "endedAt": null
+        },
+        {
+          "id": "plot_1772432863391",
+          "plan": {
+            "label": "Ash, Oaths, and Silk",
+            "description": "You arrive in Cindervale with road-dust on your cuffs and steadiness in your eyes—just in time to feel the town’s attention slide toward you like a hand on the small of your back. The watch is tense, the taverns are louder than they should be, and every smile seems to carry a ledger’s worth of meaning. A single accusation can stain a name in Gaardia longer than blood ever does, and someone is taking cruel advantage of that truth. Follow the flirtations, the favors, and the little betrayals that taste like honey—because in this place, desire is often the shortest path to a knife.",
+            "plot": "In Cindervale, Alaric Fenrow quietly asks Perrin Halvay to help untangle a scandal: someone is forging Lex Gaardium writs that bind citizens into “voluntary” oath-debts, and the victims are too ashamed—or too enchanted—to testify. Bramwell Nace, meticulous keeper of tabs and tongues at The Writ and Tankard, becomes an indispensable informant, trading information for protection and the intoxicating promise that Perrin will not leave him to face the town alone. As Perrin pulls at the thread, rival guard Rovan Kest obstructs every step with procedure and tight-lipped warnings, insisting the matter is “already contained.” The twist lands like a kiss that draws blood: the forgeries aren’t merely financial—each signature is a ritual anchor meant to awaken a site-bound remnant at the Vitrified Rift, turning civic devotion into a controllable undead obedience. The antagonist’s scheme aims to crown Cindervale’s watch as a private army under “lawful” oaths, laundering coercion through impeccable paperwork and ruined hearts. Stakes escalate from ruined reputations and broken promises to a night of sanctioned arrests, then to a frontier-horror awakening if the final writ is sealed. The only way through is to win trust faster than jealousy spreads, and to turn the kingdom’s own legal voice against the one who’s been whispering in it.",
+            "characters": [
+              {
+                "name": "Alaric Fenrow",
+                "role": "ally",
+                "description": "A square-built, disciplined watchman whose posture reads like a sworn statement. He speaks in clear warnings and careful boundaries, yet his restraint has a tell—his gaze lingers when Perrin shows quiet competence, as if tempted by someone who can keep a promise.",
+                "publicFace": "A rule-bound guard who follows chain-of-command and avoids scandal at all costs.",
+                "hiddenTruth": "He suspects a superior in the watch is involved, and his loyalty is splitting; his help to Perrin is a treason of the heart as much as procedure.",
+                "locationHint": "On watch near the town’s chokepoints, wherever authority gathers and questions begin.",
+                "introductionProgress": 0,
+                "entityId": "CHAR_alaric_fenrow"
+              },
+              {
+                "name": "Rovan Kest",
+                "role": "obstacle",
+                "description": "A uniformed guard with an efficient mouth and a talent for making ‘procedure’ sound like a threat. He watches Perrin with the possessive suspicion of someone guarding not just a case, but a narrative—and he needles with jealousy whenever Perrin earns warmth from witnesses.",
+                "publicFace": "A dutiful watchman insisting order and containment, discouraging independent inquiry.",
+                "hiddenTruth": "He is actively enforcing the forged writs under orders and is promised advancement if he keeps victims compliant and ashamed.",
+                "locationHint": "Appearing wherever Perrin presses too hard—doorways, checkpoints, and moments that should have been private.",
+                "introductionProgress": 5,
+                "entityId": "CHAR_rovan_kest"
+              },
+              {
+                "name": "Bramwell Nace",
+                "role": "informant",
+                "description": "A methodical, even-tempered tavernkeeper with an accountant’s memory and a barkeep’s instinct for secrets. He flirts in careful increments—offering a drink, a quieter table, a name said softly—testing whether Perrin’s interest is real or merely investigative.",
+                "publicFace": "A strict keeper of tabs and decorum, neutral in disputes and relentless about payment.",
+                "hiddenTruth": "He has seen the forged writs used as seduction and blackmail in his back rooms; he kept copies to protect himself, and now those copies can damn him too.",
+                "locationHint": "The Writ and Tankard’s controlled warmth: ledgers, lines, and conversations that pretend not to matter.",
+                "introductionProgress": 10,
+                "entityId": "CHAR_bramwell_nace"
+              },
+              {
+                "name": "Atheron Shale",
+                "role": "victim",
+                "description": "A taciturn undead remnant, gaunt and reduced to habit, circling fissures as though reenacting a life it cannot remember. Its presence is less a monster and more a warning: something in Gaardia’s ruins still answers when called properly.",
+                "publicFace": "A frontier-horror tale made real—site-bound, repetitive, dangerous if provoked.",
+                "hiddenTruth": "It can be ‘tuned’ by oath-anchors and light/heat stimuli; the antagonist intends to use it as the prototype for an oath-bound revenant cadre.",
+                "locationHint": "Near the Vitrified Rift, wherever rift-light and old glassy stone catch the eye.",
+                "introductionProgress": 55,
+                "entityId": "CHAR_atheron_shale"
+              }
+            ],
+            "places": [
+              {
+                "placeId": "PLACE_the_black_ledger",
+                "storyRole": "Investigation hub for watch politics, scandals, and victims hiding in plain sight."
+              },
+              {
+                "placeId": "PLACE_the_writ_and_tankard",
+                "storyRole": "Social battleground for flirtation, informants, and miscommunication that becomes leverage."
+              },
+              {
+                "placeId": "PLACE_sanctuary_of_the_sealed_rite",
+                "storyRole": "Frontier-horror destination for evidence of ritual law-magic and the scheme’s endgame."
+              },
+              {
+                "placeId": "PLACE_ashlar_registry_house",
+                "storyRole": "A place to verify writs, find missing filings, and uncover who benefits from ‘lawful’ coercion."
+              }
+            ],
+            "items": [
+              {
+                "itemId": "sealed_letter",
+                "tint": null,
+                "locationHint": "Kept among a witness’s effects or tucked into an overlooked ledger pocket where gossip and receipts mingle.",
+                "placement": "container"
+              },
+              {
+                "itemId": "scroll_of_identify",
+                "tint": null,
+                "locationHint": "Available through licensed ink-work channels or a guarded evidence shelf once the player earns access.",
+                "placement": "container"
+              },
+              {
+                "itemId": "bronze_medallion",
+                "tint": null,
+                "locationHint": "A crest-stamped token used to ‘authenticate’ filings, hidden with administrative tools rather than valuables.",
+                "placement": "container"
+              },
+              {
+                "itemId": "golden_key",
+                "tint": null,
+                "locationHint": "Carried or stashed by someone with access to a secured evidence cache; found only after careful searching or a social concession.",
+                "placement": "container"
+              }
+            ],
+            "turningPoints": [
+              {
+                "id": "TP_inciting_writ_scent",
+                "progressTarget": 0,
+                "triggerOnFlags": null,
+                "dramaticRole": "inciting_incident",
+                "involvedCharacter": "Alaric Fenrow",
+                "essentialInformation": [
+                  "A string of forged Lex Gaardium writs is binding citizens into oath-debts under the appearance of consent.",
+                  "The player is asked to investigate discreetly before reputations are destroyed and the watch escalates arrests.",
+                  "The forgeries are tied to intimate leverage: seduction, jealousy, and promises used as coercion."
+                ],
+                "triggerConditions": null,
+                "conditionTimeoutHours": null,
+                "triggered": false,
+                "triggeredAt": null,
+                "triggeredByEventId": null,
+                "outcome": null,
+                "flagsSet": null,
+                "conditionsEligibleSince": null
+              },
+              {
+                "id": "TP_rising_tavern_jealousy",
+                "progressTarget": 35,
+                "triggerOnFlags": [
+                  "agreed_to_investigate_writs",
+                  "investigated_forged_writ"
+                ],
+                "dramaticRole": "rising_action",
+                "involvedCharacter": "Bramwell Nace",
+                "essentialInformation": [
+                  "A credible copy of a forged writ exists and contains consistent ‘tells’ that can be tracked to a source.",
+                  "Someone in the watch is pressuring witnesses to stay silent, using ‘procedure’ as a muzzle."
+                ],
+                "triggerConditions": [
+                  {
+                    "type": "min_hours_since_last_event",
+                    "purposes": null,
+                    "placeStoryRole": null,
+                    "periods": null,
+                    "characterName": null,
+                    "hours": 4
+                  },
+                  {
+                    "type": "location_purpose",
+                    "purposes": [
+                      "tavern",
+                      "market"
+                    ],
+                    "placeStoryRole": null,
+                    "periods": null,
+                    "characterName": null,
+                    "hours": null
+                  },
+                  {
+                    "type": "not_in_combat",
+                    "purposes": null,
+                    "placeStoryRole": null,
+                    "periods": null,
+                    "characterName": null,
+                    "hours": null
+                  }
+                ],
+                "conditionTimeoutHours": null,
+                "triggered": false,
+                "triggeredAt": null,
+                "triggeredByEventId": null,
+                "outcome": null,
+                "flagsSet": null,
+                "conditionsEligibleSince": null
+              },
+              {
+                "id": "TP_midpoint_registry_revelation",
+                "progressTarget": 55,
+                "triggerOnFlags": [
+                  "acquired_sealed_letter",
+                  "investigated_registry_records"
+                ],
+                "dramaticRole": "midpoint",
+                "involvedCharacter": "Rovan Kest",
+                "essentialInformation": [
+                  "The forged writs are being filed in a legitimate registry channel, giving coercion a legal footprint.",
+                  "The ‘oath-debt’ language is patterned like a ritual: signatures serve as anchors, not merely agreements.",
+                  "Rovan Kest is not merely obstructing—he is managing the flow of evidence and steering Perrin away from the source."
+                ],
+                "triggerConditions": [
+                  {
+                    "type": "min_hours_since_last_event",
+                    "purposes": null,
+                    "placeStoryRole": null,
+                    "periods": null,
+                    "characterName": null,
+                    "hours": 6
+                  },
+                  {
+                    "type": "location_purpose",
+                    "purposes": [
+                      "civic",
+                      "archive",
+                      "temple"
+                    ],
+                    "placeStoryRole": null,
+                    "periods": null,
+                    "characterName": null,
+                    "hours": null
+                  },
+                  {
+                    "type": "not_in_combat",
+                    "purposes": null,
+                    "placeStoryRole": null,
+                    "periods": null,
+                    "characterName": null,
+                    "hours": null
+                  }
+                ],
+                "conditionTimeoutHours": 48,
+                "triggered": false,
+                "triggeredAt": null,
+                "triggeredByEventId": null,
+                "outcome": null,
+                "flagsSet": null,
+                "conditionsEligibleSince": null
+              },
+              {
+                "id": "TP_crisis_rift_calling",
+                "progressTarget": 72,
+                "triggerOnFlags": [
+                  "used_scroll_of_identify",
+                  "confronted_rovan_about_writs"
+                ],
+                "dramaticRole": "crisis",
+                "involvedCharacter": "Atheron Shale",
+                "essentialInformation": [
+                  "A site-bound remnant can be compelled by the oath-anchors; the scheme’s true purpose is to create controllable undead obedience.",
+                  "Time pressure is real: the next ‘legal’ signing will complete the chain needed to awaken or bind the remnant.",
+                  "The player’s social choices (who trusts Perrin, who feels spurned) will determine whether witnesses stand up or fold under shame."
+                ],
+                "triggerConditions": [
+                  {
+                    "type": "min_hours_since_last_event",
+                    "purposes": null,
+                    "placeStoryRole": null,
+                    "periods": null,
+                    "characterName": null,
+                    "hours": 6
+                  },
+                  {
+                    "type": "time_of_day",
+                    "purposes": null,
+                    "placeStoryRole": null,
+                    "periods": [
+                      "evening",
+                      "night"
+                    ],
+                    "characterName": null,
+                    "hours": null
+                  },
+                  {
+                    "type": "not_in_combat",
+                    "purposes": null,
+                    "placeStoryRole": null,
+                    "periods": null,
+                    "characterName": null,
+                    "hours": null
+                  }
+                ],
+                "conditionTimeoutHours": 48,
+                "triggered": false,
+                "triggeredAt": null,
+                "triggeredByEventId": null,
+                "outcome": null,
+                "flagsSet": null,
+                "conditionsEligibleSince": null
+              },
+              {
+                "id": "TP_climax_lex_unmasked",
+                "progressTarget": 88,
+                "triggerOnFlags": [
+                  "presented_evidence_to_watch",
+                  "used_golden_key"
+                ],
+                "dramaticRole": "climax",
+                "involvedCharacter": "Alaric Fenrow",
+                "essentialInformation": [
+                  "The antagonist’s mechanism can be broken by severing the chain of oath-anchors and exposing the forged filings publicly.",
+                  "Alaric’s loyalty must be secured in the moment to prevent the watch from enforcing the forgeries as ‘lawful orders.’"
+                ],
+                "triggerConditions": [
+                  {
+                    "type": "min_hours_since_last_event",
+                    "purposes": null,
+                    "placeStoryRole": null,
+                    "periods": null,
+                    "characterName": null,
+                    "hours": 4
+                  },
+                  {
+                    "type": "time_of_day",
+                    "purposes": null,
+                    "placeStoryRole": null,
+                    "periods": [
+                      "evening",
+                      "night"
+                    ],
+                    "characterName": null,
+                    "hours": null
+                  },
+                  {
+                    "type": "not_in_combat",
+                    "purposes": null,
+                    "placeStoryRole": null,
+                    "periods": null,
+                    "characterName": null,
+                    "hours": null
+                  }
+                ],
+                "conditionTimeoutHours": 48,
+                "triggered": false,
+                "triggeredAt": null,
+                "triggeredByEventId": null,
+                "outcome": null,
+                "flagsSet": null,
+                "conditionsEligibleSince": null
+              },
+              {
+                "id": "TP_resolution_aftertaste",
+                "progressTarget": 93,
+                "triggerOnFlags": [
+                  "villain_scheme_stopped",
+                  "villain_scheme_advances"
+                ],
+                "dramaticRole": "resolution",
+                "involvedCharacter": "Bramwell Nace",
+                "essentialInformation": [
+                  "Cindervale’s outcome hinges on what was made public versus what was handled privately—reputation will either heal or calcify into fear.",
+                  "Bramwell’s and Alaric’s relationship to the player changes permanently: trust becomes an obligation, and obligations in Gaardia are never purely romantic."
+                ],
+                "triggerConditions": [
+                  {
+                    "type": "min_hours_since_last_event",
+                    "purposes": null,
+                    "placeStoryRole": null,
+                    "periods": null,
+                    "characterName": null,
+                    "hours": 3
+                  },
+                  {
+                    "type": "location_purpose",
+                    "purposes": [
+                      "tavern",
+                      "street",
+                      "civic"
+                    ],
+                    "placeStoryRole": null,
+                    "periods": null,
+                    "characterName": null,
+                    "hours": null
+                  },
+                  {
+                    "type": "not_in_combat",
+                    "purposes": null,
+                    "placeStoryRole": null,
+                    "periods": null,
+                    "characterName": null,
+                    "hours": null
+                  }
+                ],
+                "conditionTimeoutHours": 48,
+                "triggered": false,
+                "triggeredAt": null,
+                "triggeredByEventId": null,
+                "outcome": null,
+                "flagsSet": null,
+                "conditionsEligibleSince": null
+              }
+            ],
+            "possibleFlags": [
+              {
+                "id": "story_introduced",
+                "triggerDescription": "Set when the scandal of forged oath-debts and the need for discretion is explained to the player."
+              },
+              {
+                "id": "agreed_to_investigate_writs",
+                "triggerDescription": "Set when the player explicitly commits to helping investigate the forged writs."
+              },
+              {
+                "id": "refused_to_investigate_writs",
+                "triggerDescription": "Set when the player refuses involvement and walks away from the request."
+              },
+              {
+                "id": "investigated_forged_writ",
+                "triggerDescription": "Set when the player examines a writ or interviews a victim/witness closely enough to learn specific inconsistencies."
+              },
+              {
+                "id": "accepted_bramwell_confidence",
+                "triggerDescription": "Set when the player accepts Bramwell Nace’s trust and keeps his vulnerability confidential."
+              },
+              {
+                "id": "spurned_bramwell",
+                "triggerDescription": "Set when the player dismisses or humiliates Bramwell Nace during negotiation or flirting."
+              },
+              {
+                "id": "acquired_sealed_letter",
+                "triggerDescription": "Set when the player obtains the sealed letter containing registry-related proof."
+              },
+              {
+                "id": "investigated_registry_records",
+                "triggerDescription": "Set when the player verifies filings or compares records, confirming the forgeries are being laundered through a legitimate channel."
+              },
+              {
+                "id": "confronted_rovan_about_writs",
+                "triggerDescription": "Set when the player confronts Rovan Kest directly about his obstruction or involvement."
+              },
+              {
+                "id": "acquired_scroll_of_identify",
+                "triggerDescription": "Set when the player obtains a Scroll of Identify suitable for revealing ritual structure in the writs."
+              },
+              {
+                "id": "used_scroll_of_identify",
+                "triggerDescription": "Set when the player uses the Scroll of Identify to reveal the oath-anchors’ ritual nature."
+              },
+              {
+                "id": "acquired_bronze_medallion",
+                "triggerDescription": "Set when the player obtains the Bronze Medallion linked to the filing authority/crest used to authenticate the forged writs."
+              },
+              {
+                "id": "acquired_golden_key",
+                "triggerDescription": "Set when the player obtains the Golden Key capable of opening a secured evidence cache."
+              },
+              {
+                "id": "used_golden_key",
+                "triggerDescription": "Set when the player uses the Golden Key to access the secured cache and force the final confrontation on evidence."
+              },
+              {
+                "id": "presented_evidence_to_watch",
+                "triggerDescription": "Set when the player presents admissible proof to the watch or a civic authority in a way that cannot be quietly buried."
+              },
+              {
+                "id": "won_alaric_loyalty",
+                "triggerDescription": "Set when the player secures Alaric Fenrow’s public support at personal/professional risk to him."
+              },
+              {
+                "id": "lost_alaric_loyalty",
+                "triggerDescription": "Set when Alaric Fenrow withdraws support or chooses chain-of-command over the player."
+              },
+              {
+                "id": "villain_scheme_stopped",
+                "triggerDescription": "Set when the chain of oath-anchors is broken and enforcement of the forged writs is halted."
+              },
+              {
+                "id": "villain_scheme_advances",
+                "triggerDescription": "Set when enforcement continues and the oath-anchor chain reaches completion or near-completion."
+              }
+            ],
+            "goals": [
+              {
+                "id": "GOAL_commit_to_the_dance",
+                "description": "Accept Alaric Fenrow’s discreet request and commit to investigating the forged oath-debts without inflaming scandal.",
+                "progressBoost": 20,
+                "revealOnFlags": [
+                  "story_introduced"
+                ],
+                "successFlags": [
+                  "agreed_to_investigate_writs"
+                ],
+                "failureFlags": [
+                  "refused_to_investigate_writs"
+                ],
+                "failureDeadlineHours": 6,
+                "hidden": false,
+                "destinationPlaceId": null,
+                "goalType": null,
+                "stakes": null,
+                "personalHook": null,
+                "dramaticQuestion": null,
+                "immediateHint": null,
+                "blockedByFlags": null,
+                "status": null,
+                "revealedAt": null
+              },
+              {
+                "id": "GOAL_get_hard_proof",
+                "description": "Secure verifiable evidence of the forgery pipeline (a copy, a seal, or registry confirmation) before it is quietly ‘corrected.’",
+                "progressBoost": 35,
+                "revealOnFlags": [
+                  "investigated_forged_writ",
+                  "acquired_sealed_letter"
+                ],
+                "successFlags": [
+                  "investigated_registry_records",
+                  "acquired_bronze_medallion"
+                ],
+                "failureFlags": [
+                  "villain_scheme_advances"
+                ],
+                "failureDeadlineHours": 18,
+                "hidden": false,
+                "destinationPlaceId": null,
+                "goalType": null,
+                "stakes": null,
+                "personalHook": null,
+                "dramaticQuestion": null,
+                "immediateHint": null,
+                "blockedByFlags": null,
+                "status": null,
+                "revealedAt": null
+              },
+              {
+                "id": "GOAL_win_bramwells_trust",
+                "description": "Earn Bramwell Nace’s cooperation without breaking him—protect his confidence so he will testify or provide copies when it matters.",
+                "progressBoost": 30,
+                "revealOnFlags": [
+                  "investigated_forged_writ"
+                ],
+                "successFlags": [
+                  "accepted_bramwell_confidence"
+                ],
+                "failureFlags": [
+                  "spurned_bramwell"
+                ],
+                "failureDeadlineHours": 12,
+                "hidden": false,
+                "destinationPlaceId": null,
+                "goalType": null,
+                "stakes": null,
+                "personalHook": null,
+                "dramaticQuestion": null,
+                "immediateHint": null,
+                "blockedByFlags": null,
+                "status": null,
+                "revealedAt": null
+              },
+              {
+                "id": "GOAL_break_the_oath_chain",
+                "description": "Stop the antagonist’s lawful-coercion ritual by exposing the forged filings and severing the oath-anchors before the remnant can be bound to command.",
+                "progressBoost": 110,
+                "revealOnFlags": [
+                  "used_scroll_of_identify",
+                  "presented_evidence_to_watch"
+                ],
+                "successFlags": [
+                  "villain_scheme_stopped"
+                ],
+                "failureFlags": [
+                  "villain_scheme_advances",
+                  "lost_alaric_loyalty"
+                ],
+                "failureDeadlineHours": 8,
+                "hidden": false,
+                "destinationPlaceId": null,
+                "goalType": null,
+                "stakes": null,
+                "personalHook": null,
+                "dramaticQuestion": null,
+                "immediateHint": null,
+                "blockedByFlags": null,
+                "status": null,
+                "revealedAt": null
+              }
+            ],
+            "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/gaardia/images/plots/plot_1772432814112.png",
+            "plotStartDelay": 3,
+            "endingCards": [
+              {
+                "condition": {
+                  "type": "flag_set",
+                  "flag": "villain_scheme_stopped"
+                },
+                "title": "Ink Broken, Names Intact",
+                "text": "The forged oaths lose their teeth, and the town exhales—slowly, as if learning again how to trust what’s written. Those who stood beside Perrin do so with new scars and new loyalty.",
+                "image": null
+              },
+              {
+                "condition": {
+                  "type": "flag_set",
+                  "flag": "won_alaric_loyalty"
+                },
+                "title": "A Lawman’s Risk",
+                "text": "Alaric Fenrow chooses Perrin in public, and the choice costs him—yet it also earns him a quieter kind of authority, the kind that cannot be stamped or filed.",
+                "image": null
+              },
+              {
+                "condition": {
+                  "type": "flag_set",
+                  "flag": "accepted_bramwell_confidence"
+                },
+                "title": "The Tab You Can’t Pay",
+                "text": "Bramwell Nace survives the scandal with his dignity unshattered, and his gratitude is intimate in the way of people who were seen at their worst and not abandoned.",
+                "image": null
+              },
+              {
+                "condition": {
+                  "type": "flag_not_set",
+                  "flag": "villain_scheme_stopped"
+                },
+                "title": "The Kingdom’s Paper Chains",
+                "text": "The writs remain ‘valid’ in the eyes that matter, and Cindervale learns a cruel lesson: law can be a love-letter that signs you into captivity. Something stirs in the frontier glass, listening for the next name.",
+                "image": null
+              },
+              {
+                "condition": {
+                  "type": "always",
+                  "flag": ""
+                },
+                "title": "Aftertaste of Gaardia",
+                "text": "In Gaardia, desire and duty share the same handwriting—every promise a line of ink that can either bind or free. Perrin leaves fingerprints on more than evidence: on people who will remember the shape of his attention.",
+                "image": null
+              }
+            ],
+            "credits": {
+              "title": "Ash, Oaths, and Silk",
+              "entries": [
+                {
+                  "role": "Plot",
+                  "name": "The Velvet Muse"
+                },
+                {
+                  "role": "World",
+                  "name": "Gaardia"
+                }
+              ]
+            },
+            "characterCentric": false,
+            "centralDramaticQuestion": null,
+            "dramaticSubQuestions": null
+          },
+          "progressLevel": 0,
+          "storyFlags": [],
+          "nextEventAtGameDate": null,
+          "events": [],
+          "endedAt": null
+        }
+      ],
+      "generationInProgress": false,
+      "eventHistory": [],
+      "storytellerSelectedAt": "06.01.11 4A 13:58",
+      "custom": {}
+    },
+    "isPlayer": true,
+    "storyComplete": false,
+    "routine": null,
+    "vesselRoutes": null,
+    "abstractLocation": null,
+    "npcBehavior": null,
+    "physicalState": null,
+    "pendingDeparture": null,
+    "pendingArrival": null,
+    "lastRoutineCheckPeriod": "evening",
+    "startingNarrative": "You stand on Charterbreak Quay with your travel satchel close and your papers kept dry, letting the salt-fog bead on your coat while the weighhouse clerks call out measures and berth numbers. Basalt pilings jut like broken teeth along the silted inlet, and you take in the posting boards—tariffs, hazard ordinances, and sealed interdictions—because in Gaardia, even the tide is something the Lex expects you to name and pay for.",
+    "startingCharacterState": "Calm, methodical, and socially open—alert to rules, comforted by orderly procedure, and intent on staying clear of forbidden business.",
+    "clothing": [
+      {
+        "slot": "torso_over",
+        "itemId": "trenchcoat",
+        "color": "#8b4513",
+        "contents": null
+      },
+      {
+        "slot": "legs",
+        "itemId": "cloth_pants",
+        "color": "#3a3a3a",
+        "contents": null
+      },
+      {
+        "slot": "feet",
+        "itemId": "boots",
+        "color": "#1a1a1a",
+        "contents": null
+      },
+      {
+        "slot": "belt",
+        "itemId": "leather_belt",
+        "color": "#8b4513",
+        "contents": []
+      },
+      {
+        "slot": "head",
+        "itemId": "leather_cap",
+        "color": "#8b4513",
+        "contents": null
+      }
+    ],
+    "enabledOverlayLayers": [
+      "eyes",
+      "facial"
+    ],
+    "helmingVesselId": null,
+    "storytellerDisabled": false,
+    "rulesetState": {
+      "stats": {
+        "poise": 50,
+        "max_poise": 50
+      },
+      "conditions": [],
+      "statUsage": {},
+      "incapacitation": null,
+      "incapacitatedSince": null
+    },
+    "voiceId": "eric",
+    "spriteConfig": {
+      "bodyType": "male",
+      "layers": [
+        {
+          "type": "body",
+          "optionId": "body_base",
+          "tint": 12890264
+        },
+        {
+          "type": "body",
+          "optionId": "body_universal",
+          "tint": 12890264
+        },
+        {
+          "type": "eyes",
+          "optionId": "eyes_eyes",
+          "tint": 7029286
+        },
+        {
+          "type": "facial",
+          "optionId": "facial_trimmed",
+          "tint": 8421504
+        },
+        {
+          "type": "hair",
+          "optionId": "hair_parted",
+          "tint": 8421504
+        },
+        {
+          "type": "torso",
+          "optionId": "torso_formal_trenchcoat_male",
+          "tint": 9127187
+        },
+        {
+          "type": "legs",
+          "optionId": "legs_white_pants_male",
+          "tint": 3815994
+        },
+        {
+          "type": "feet",
+          "optionId": "feet_white_boots_male",
+          "tint": 1710618
+        },
+        {
+          "type": "belt",
+          "optionId": "belt_leather_male",
+          "tint": 9127187
+        },
+        {
+          "type": "head",
+          "optionId": "head_leather_cap_male",
+          "tint": 9127187
+        }
+      ],
+      "spriteHash": "37314db9d4d255c4",
+      "spriteUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/sprites/generated/37314db9d4d255c4.png"
+    }
+  },
+  "position": {
+    "x": 208,
+    "y": 880,
+    "width": 32,
+    "height": 48,
+    "parent": "PLACE_cindervale"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/gaardia/images/characters/CHAR_perrin_halvay.png",
+  "faceAnchorY": 0.18,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "talk"
+  },
+  "relationships": [
+    {
+      "targetId": "CHAR_korr_brightblade",
+      "type": null,
+      "familiarity": 20,
+      "disposition": 4,
+      "context": null,
+      "pendingGeneration": false
+    }
+  ],
+  "important": false
+}

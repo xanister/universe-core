@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_null_meridian_cell",
+  "label": "Null Meridian Cell",
+  "description": "Null Meridian Cell serves as a private sleeping chamber cut from the temple’s black crystalline strata, its planes ground to a mirrorless finish that consumes stray radiance. A low, faceted bed-plinth rises from the floor as a single piece of stone, aligned precisely to the meridian grid that governs the temple’s aisles. Slit apertures admit only laminar sheets of dimness, laying hard-edged bars across the chamber that never drift from their register. Shallow wall recesses, incised with lattice measures of angle and interval, replace furnishings and keep the room’s geometry austere and exact.",
+  "short_description": "shadow-cut prism cell",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "bedroom",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "door_wooden",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/the_hollow_lattice/images/battles/PLACE_null_meridian_cell.png?v=1772314297862",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 2160,
+    "y": 160,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_temple_of_the_null_meridian",
+    "innerWidth": 640,
+    "innerHeight": 640
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/the_hollow_lattice/images/places/PLACE_null_meridian_cell.png?v=1772314350184",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

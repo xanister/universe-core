@@ -1,0 +1,19 @@
+{
+  "id": "EVENT_tavian_admits_seeing_a_runner_1772607095931",
+  "date": "11.01.11 4A 08:26",
+  "placeId": "PLACE_the_quenched_pike",
+  "eventType": "secret_learned",
+  "category": "knowledge",
+  "subject": "Tavian Roake",
+  "subjectId": "CHAR_tavian_roake",
+  "fact": "Tavian admits seeing a runner with the seal-stamped packet but denies taking it or wanting it in his ledger.",
+  "significance": "moderate",
+  "important": false,
+  "witnessIds": [
+    "CHAR_tavian_roake",
+    "CHAR_korr_brightblade"
+  ],
+  "importanceScore": null,
+  "scope": null,
+  "relevantPlaceIds": null
+}

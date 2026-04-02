@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_grounding_lattice_cell",
+  "label": "Grounding Lattice Cell",
+  "description": "Grounding Lattice Cell serves as a narrow sleeping chamber cut into the Temple of the Rift-Vigil’s basalt mass, its walls left rough but sealed with soot-dark resin against Ashenward’s abrasive air. A low stone bunk and recessed shelf are built directly into the masonry, reducing loose furnishings that collect ash and conductive grit. Overhead, a copper grounding grid is fastened to the vault and tied into the temple’s broader lattices, its junctions capped in ceramic to resist storm-surge arcing. Auroral light filters through a slit of auroraglass, laying violet bands across the floor while heavy insulation panels deaden vox bleed and distant thunder.",
+  "short_description": "austere basalt cell",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "bedroom",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "door_wooden",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/battles/PLACE_grounding_lattice_cell.png?v=1771972253384",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 1360,
+    "y": 768,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_temple_of_the_riftvigil",
+    "innerWidth": 480,
+    "innerHeight": 480
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/places/PLACE_grounding_lattice_cell.png?v=1771972304497",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

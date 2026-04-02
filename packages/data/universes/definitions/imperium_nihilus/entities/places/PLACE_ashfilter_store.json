@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_ashfilter_store",
+  "label": "Ash-Filter Store",
+  "description": "Ash-Filter Store serves as Auroraglass Flat’s sealed storage room, lined with basalt-faced shelving anchored into the hab-flat’s slagcrete spine. Gasketed cabinets and lidded bins hold spare filter cartridges, patch plates, and conduit couplers under strict dust exclusion, with a grated sump channeling tracked grit into the residence drains. A narrow maintenance panel exposes shielded utility runs and hardline vox junctions, reflecting Ashenward City’s constant power surges and signal corruption.",
+  "short_description": "sealed supply store",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "storage_room",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.9
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "door_wooden",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/battles/PLACE_ashfilter_store.png?v=1771959112845",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 48,
+    "y": 160,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_auroraglass_flat",
+    "innerWidth": 512,
+    "innerHeight": 576
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/places/PLACE_ashfilter_store.png?v=1771959167314",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

@@ -1,0 +1,975 @@
+{
+  "bodies": [
+    {
+      "id": "female",
+      "availableSkinColors": [],
+      "animations": [
+        {
+          "name": "idle",
+          "hasPerSkinVariants": false,
+          "width": 128,
+          "height": 256,
+          "frames": 2
+        },
+        {
+          "name": "jump",
+          "hasPerSkinVariants": false,
+          "width": 320,
+          "height": 256,
+          "frames": 5
+        },
+        {
+          "name": "run",
+          "hasPerSkinVariants": false,
+          "width": 512,
+          "height": 256,
+          "frames": 8
+        },
+        {
+          "name": "sit",
+          "hasPerSkinVariants": false,
+          "width": 192,
+          "height": 256,
+          "frames": 3
+        },
+        {
+          "name": "universal",
+          "hasPerSkinVariants": false,
+          "width": 832,
+          "height": 1344,
+          "frames": 13
+        }
+      ]
+    },
+    {
+      "id": "male",
+      "availableSkinColors": [],
+      "animations": [
+        {
+          "name": "idle",
+          "hasPerSkinVariants": false,
+          "width": 128,
+          "height": 256,
+          "frames": 2
+        },
+        {
+          "name": "jump",
+          "hasPerSkinVariants": false,
+          "width": 320,
+          "height": 256,
+          "frames": 5
+        },
+        {
+          "name": "run",
+          "hasPerSkinVariants": false,
+          "width": 512,
+          "height": 256,
+          "frames": 8
+        },
+        {
+          "name": "sit",
+          "hasPerSkinVariants": false,
+          "width": 192,
+          "height": 256,
+          "frames": 3
+        },
+        {
+          "name": "universal",
+          "hasPerSkinVariants": false,
+          "width": 832,
+          "height": 1344,
+          "frames": 13
+        }
+      ]
+    },
+    {
+      "id": "muscular",
+      "availableSkinColors": [],
+      "animations": [
+        {
+          "name": "idle",
+          "hasPerSkinVariants": false,
+          "width": 128,
+          "height": 256,
+          "frames": 2
+        },
+        {
+          "name": "jump",
+          "hasPerSkinVariants": false,
+          "width": 320,
+          "height": 256,
+          "frames": 5
+        },
+        {
+          "name": "run",
+          "hasPerSkinVariants": false,
+          "width": 512,
+          "height": 256,
+          "frames": 8
+        },
+        {
+          "name": "sit",
+          "hasPerSkinVariants": false,
+          "width": 192,
+          "height": 256,
+          "frames": 3
+        },
+        {
+          "name": "universal",
+          "hasPerSkinVariants": false,
+          "width": 832,
+          "height": 1344,
+          "frames": 13
+        }
+      ]
+    },
+    {
+      "id": "skeleton",
+      "availableSkinColors": [],
+      "animations": [
+        {
+          "name": "universal",
+          "hasPerSkinVariants": false,
+          "width": 832,
+          "height": 1344,
+          "frames": 13
+        }
+      ]
+    },
+    {
+      "id": "zombie",
+      "availableSkinColors": [],
+      "animations": [
+        {
+          "name": "universal",
+          "hasPerSkinVariants": false,
+          "width": 832,
+          "height": 1344,
+          "frames": 13
+        }
+      ]
+    }
+  ],
+  "heads": [
+    {
+      "id": "boarman",
+      "availableSkinColors": [],
+      "animations": [
+        {
+          "name": "idle",
+          "hasPerSkinVariants": false,
+          "width": 128,
+          "height": 256,
+          "frames": 2
+        },
+        {
+          "name": "jump",
+          "hasPerSkinVariants": false,
+          "width": 320,
+          "height": 256,
+          "frames": 5
+        },
+        {
+          "name": "run",
+          "hasPerSkinVariants": false,
+          "width": 512,
+          "height": 256,
+          "frames": 8
+        },
+        {
+          "name": "sit",
+          "hasPerSkinVariants": false,
+          "width": 192,
+          "height": 256,
+          "frames": 3
+        },
+        {
+          "name": "universal",
+          "hasPerSkinVariants": false,
+          "width": 832,
+          "height": 1344,
+          "frames": 13
+        }
+      ]
+    },
+    {
+      "id": "boarman_child",
+      "availableSkinColors": [],
+      "animations": [
+        {
+          "name": "idle",
+          "hasPerSkinVariants": false,
+          "width": 128,
+          "height": 256,
+          "frames": 2
+        },
+        {
+          "name": "jump",
+          "hasPerSkinVariants": false,
+          "width": 320,
+          "height": 256,
+          "frames": 5
+        },
+        {
+          "name": "sit",
+          "hasPerSkinVariants": false,
+          "width": 192,
+          "height": 256,
+          "frames": 3
+        },
+        {
+          "name": "universal",
+          "hasPerSkinVariants": false,
+          "width": 832,
+          "height": 1344,
+          "frames": 13
+        }
+      ]
+    },
+    {
+      "id": "human_child",
+      "availableSkinColors": [],
+      "animations": [
+        {
+          "name": "idle",
+          "hasPerSkinVariants": false,
+          "width": 128,
+          "height": 256,
+          "frames": 2
+        },
+        {
+          "name": "jump",
+          "hasPerSkinVariants": false,
+          "width": 320,
+          "height": 256,
+          "frames": 5
+        },
+        {
+          "name": "sit",
+          "hasPerSkinVariants": false,
+          "width": 192,
+          "height": 256,
+          "frames": 3
+        },
+        {
+          "name": "universal",
+          "hasPerSkinVariants": false,
+          "width": 832,
+          "height": 1344,
+          "frames": 13
+        }
+      ]
+    },
+    {
+      "id": "human_female",
+      "availableSkinColors": [],
+      "animations": [
+        {
+          "name": "idle",
+          "hasPerSkinVariants": false,
+          "width": 128,
+          "height": 256,
+          "frames": 2
+        },
+        {
+          "name": "jump",
+          "hasPerSkinVariants": false,
+          "width": 320,
+          "height": 256,
+          "frames": 5
+        },
+        {
+          "name": "run",
+          "hasPerSkinVariants": false,
+          "width": 512,
+          "height": 256,
+          "frames": 8
+        },
+        {
+          "name": "sit",
+          "hasPerSkinVariants": false,
+          "width": 192,
+          "height": 256,
+          "frames": 3
+        },
+        {
+          "name": "universal",
+          "hasPerSkinVariants": false,
+          "width": 832,
+          "height": 1344,
+          "frames": 13
+        }
+      ]
+    },
+    {
+      "id": "human_female_elderly",
+      "availableSkinColors": [],
+      "animations": [
+        {
+          "name": "idle",
+          "hasPerSkinVariants": false,
+          "width": 128,
+          "height": 256,
+          "frames": 2
+        },
+        {
+          "name": "jump",
+          "hasPerSkinVariants": false,
+          "width": 320,
+          "height": 256,
+          "frames": 5
+        },
+        {
+          "name": "run",
+          "hasPerSkinVariants": false,
+          "width": 512,
+          "height": 256,
+          "frames": 8
+        },
+        {
+          "name": "sit",
+          "hasPerSkinVariants": false,
+          "width": 192,
+          "height": 256,
+          "frames": 3
+        },
+        {
+          "name": "universal",
+          "hasPerSkinVariants": false,
+          "width": 832,
+          "height": 1344,
+          "frames": 13
+        }
+      ]
+    },
+    {
+      "id": "human_male",
+      "availableSkinColors": [],
+      "animations": [
+        {
+          "name": "idle",
+          "hasPerSkinVariants": false,
+          "width": 128,
+          "height": 256,
+          "frames": 2
+        },
+        {
+          "name": "jump",
+          "hasPerSkinVariants": false,
+          "width": 320,
+          "height": 256,
+          "frames": 5
+        },
+        {
+          "name": "run",
+          "hasPerSkinVariants": false,
+          "width": 512,
+          "height": 256,
+          "frames": 8
+        },
+        {
+          "name": "sit",
+          "hasPerSkinVariants": false,
+          "width": 192,
+          "height": 256,
+          "frames": 3
+        },
+        {
+          "name": "universal",
+          "hasPerSkinVariants": false,
+          "width": 832,
+          "height": 1344,
+          "frames": 13
+        }
+      ]
+    },
+    {
+      "id": "human_male_elderly",
+      "availableSkinColors": [],
+      "animations": [
+        {
+          "name": "idle",
+          "hasPerSkinVariants": false,
+          "width": 128,
+          "height": 256,
+          "frames": 2
+        },
+        {
+          "name": "jump",
+          "hasPerSkinVariants": false,
+          "width": 320,
+          "height": 256,
+          "frames": 5
+        },
+        {
+          "name": "run",
+          "hasPerSkinVariants": false,
+          "width": 512,
+          "height": 256,
+          "frames": 8
+        },
+        {
+          "name": "sit",
+          "hasPerSkinVariants": false,
+          "width": 192,
+          "height": 256,
+          "frames": 3
+        },
+        {
+          "name": "universal",
+          "hasPerSkinVariants": false,
+          "width": 832,
+          "height": 1344,
+          "frames": 13
+        }
+      ]
+    },
+    {
+      "id": "human_zombie",
+      "availableSkinColors": [],
+      "animations": [
+        {
+          "name": "idle",
+          "hasPerSkinVariants": false,
+          "width": 128,
+          "height": 256,
+          "frames": 2
+        },
+        {
+          "name": "jump",
+          "hasPerSkinVariants": false,
+          "width": 320,
+          "height": 256,
+          "frames": 5
+        },
+        {
+          "name": "run",
+          "hasPerSkinVariants": false,
+          "width": 512,
+          "height": 256,
+          "frames": 8
+        },
+        {
+          "name": "sit",
+          "hasPerSkinVariants": false,
+          "width": 192,
+          "height": 256,
+          "frames": 3
+        },
+        {
+          "name": "universal",
+          "hasPerSkinVariants": false,
+          "width": 832,
+          "height": 1344,
+          "frames": 13
+        }
+      ]
+    },
+    {
+      "id": "lizard_child",
+      "availableSkinColors": [],
+      "animations": [
+        {
+          "name": "idle",
+          "hasPerSkinVariants": false,
+          "width": 128,
+          "height": 256,
+          "frames": 2
+        },
+        {
+          "name": "jump",
+          "hasPerSkinVariants": false,
+          "width": 320,
+          "height": 256,
+          "frames": 5
+        },
+        {
+          "name": "sit",
+          "hasPerSkinVariants": false,
+          "width": 192,
+          "height": 256,
+          "frames": 3
+        },
+        {
+          "name": "universal",
+          "hasPerSkinVariants": false,
+          "width": 832,
+          "height": 1344,
+          "frames": 13
+        }
+      ]
+    },
+    {
+      "id": "lizard_female",
+      "availableSkinColors": [],
+      "animations": [
+        {
+          "name": "idle",
+          "hasPerSkinVariants": false,
+          "width": 128,
+          "height": 256,
+          "frames": 2
+        },
+        {
+          "name": "jump",
+          "hasPerSkinVariants": false,
+          "width": 320,
+          "height": 256,
+          "frames": 5
+        },
+        {
+          "name": "run",
+          "hasPerSkinVariants": false,
+          "width": 512,
+          "height": 256,
+          "frames": 8
+        },
+        {
+          "name": "sit",
+          "hasPerSkinVariants": false,
+          "width": 192,
+          "height": 256,
+          "frames": 3
+        },
+        {
+          "name": "universal",
+          "hasPerSkinVariants": false,
+          "width": 832,
+          "height": 1344,
+          "frames": 13
+        }
+      ]
+    },
+    {
+      "id": "lizard_male",
+      "availableSkinColors": [],
+      "animations": [
+        {
+          "name": "idle",
+          "hasPerSkinVariants": false,
+          "width": 128,
+          "height": 256,
+          "frames": 2
+        },
+        {
+          "name": "jump",
+          "hasPerSkinVariants": false,
+          "width": 320,
+          "height": 256,
+          "frames": 5
+        },
+        {
+          "name": "run",
+          "hasPerSkinVariants": false,
+          "width": 512,
+          "height": 256,
+          "frames": 8
+        },
+        {
+          "name": "sit",
+          "hasPerSkinVariants": false,
+          "width": 192,
+          "height": 256,
+          "frames": 3
+        },
+        {
+          "name": "universal",
+          "hasPerSkinVariants": false,
+          "width": 832,
+          "height": 1344,
+          "frames": 13
+        }
+      ]
+    },
+    {
+      "id": "minotaur",
+      "availableSkinColors": [],
+      "animations": [
+        {
+          "name": "idle",
+          "hasPerSkinVariants": false,
+          "width": 128,
+          "height": 256,
+          "frames": 2
+        },
+        {
+          "name": "jump",
+          "hasPerSkinVariants": false,
+          "width": 320,
+          "height": 256,
+          "frames": 5
+        },
+        {
+          "name": "run",
+          "hasPerSkinVariants": false,
+          "width": 512,
+          "height": 256,
+          "frames": 8
+        },
+        {
+          "name": "sit",
+          "hasPerSkinVariants": false,
+          "width": 192,
+          "height": 256,
+          "frames": 3
+        },
+        {
+          "name": "universal",
+          "hasPerSkinVariants": false,
+          "width": 832,
+          "height": 1344,
+          "frames": 13
+        }
+      ]
+    },
+    {
+      "id": "minotaur_child",
+      "availableSkinColors": [],
+      "animations": [
+        {
+          "name": "idle",
+          "hasPerSkinVariants": false,
+          "width": 128,
+          "height": 256,
+          "frames": 2
+        },
+        {
+          "name": "jump",
+          "hasPerSkinVariants": false,
+          "width": 320,
+          "height": 256,
+          "frames": 5
+        },
+        {
+          "name": "sit",
+          "hasPerSkinVariants": false,
+          "width": 192,
+          "height": 256,
+          "frames": 3
+        },
+        {
+          "name": "universal",
+          "hasPerSkinVariants": false,
+          "width": 832,
+          "height": 1344,
+          "frames": 13
+        }
+      ]
+    },
+    {
+      "id": "orc_child",
+      "availableSkinColors": [],
+      "animations": [
+        {
+          "name": "idle",
+          "hasPerSkinVariants": false,
+          "width": 128,
+          "height": 256,
+          "frames": 2
+        },
+        {
+          "name": "jump",
+          "hasPerSkinVariants": false,
+          "width": 320,
+          "height": 256,
+          "frames": 5
+        },
+        {
+          "name": "sit",
+          "hasPerSkinVariants": false,
+          "width": 192,
+          "height": 256,
+          "frames": 3
+        },
+        {
+          "name": "universal",
+          "hasPerSkinVariants": false,
+          "width": 832,
+          "height": 1344,
+          "frames": 13
+        }
+      ]
+    },
+    {
+      "id": "orc_female",
+      "availableSkinColors": [],
+      "animations": [
+        {
+          "name": "idle",
+          "hasPerSkinVariants": false,
+          "width": 128,
+          "height": 256,
+          "frames": 2
+        },
+        {
+          "name": "jump",
+          "hasPerSkinVariants": false,
+          "width": 320,
+          "height": 256,
+          "frames": 5
+        },
+        {
+          "name": "run",
+          "hasPerSkinVariants": false,
+          "width": 512,
+          "height": 256,
+          "frames": 8
+        },
+        {
+          "name": "sit",
+          "hasPerSkinVariants": false,
+          "width": 192,
+          "height": 256,
+          "frames": 3
+        },
+        {
+          "name": "universal",
+          "hasPerSkinVariants": false,
+          "width": 832,
+          "height": 1344,
+          "frames": 13
+        }
+      ]
+    },
+    {
+      "id": "orc_male",
+      "availableSkinColors": [],
+      "animations": [
+        {
+          "name": "idle",
+          "hasPerSkinVariants": false,
+          "width": 128,
+          "height": 256,
+          "frames": 2
+        },
+        {
+          "name": "jump",
+          "hasPerSkinVariants": false,
+          "width": 320,
+          "height": 256,
+          "frames": 5
+        },
+        {
+          "name": "run",
+          "hasPerSkinVariants": false,
+          "width": 512,
+          "height": 256,
+          "frames": 8
+        },
+        {
+          "name": "sit",
+          "hasPerSkinVariants": false,
+          "width": 192,
+          "height": 256,
+          "frames": 3
+        },
+        {
+          "name": "universal",
+          "hasPerSkinVariants": false,
+          "width": 832,
+          "height": 1344,
+          "frames": 13
+        }
+      ]
+    },
+    {
+      "id": "skeleton",
+      "availableSkinColors": [],
+      "animations": [
+        {
+          "name": "idle",
+          "hasPerSkinVariants": false,
+          "width": 128,
+          "height": 256,
+          "frames": 2
+        },
+        {
+          "name": "jump",
+          "hasPerSkinVariants": false,
+          "width": 320,
+          "height": 256,
+          "frames": 5
+        },
+        {
+          "name": "run",
+          "hasPerSkinVariants": false,
+          "width": 512,
+          "height": 256,
+          "frames": 8
+        },
+        {
+          "name": "sit",
+          "hasPerSkinVariants": false,
+          "width": 192,
+          "height": 256,
+          "frames": 3
+        },
+        {
+          "name": "universal",
+          "hasPerSkinVariants": false,
+          "width": 832,
+          "height": 1344,
+          "frames": 13
+        }
+      ]
+    },
+    {
+      "id": "wolf_child",
+      "availableSkinColors": [],
+      "animations": [
+        {
+          "name": "idle",
+          "hasPerSkinVariants": false,
+          "width": 128,
+          "height": 256,
+          "frames": 2
+        },
+        {
+          "name": "jump",
+          "hasPerSkinVariants": false,
+          "width": 320,
+          "height": 256,
+          "frames": 5
+        },
+        {
+          "name": "sit",
+          "hasPerSkinVariants": false,
+          "width": 192,
+          "height": 256,
+          "frames": 3
+        },
+        {
+          "name": "universal",
+          "hasPerSkinVariants": false,
+          "width": 832,
+          "height": 1344,
+          "frames": 13
+        }
+      ]
+    },
+    {
+      "id": "wolf_female",
+      "availableSkinColors": [],
+      "animations": [
+        {
+          "name": "idle",
+          "hasPerSkinVariants": false,
+          "width": 128,
+          "height": 256,
+          "frames": 2
+        },
+        {
+          "name": "jump",
+          "hasPerSkinVariants": false,
+          "width": 320,
+          "height": 256,
+          "frames": 5
+        },
+        {
+          "name": "run",
+          "hasPerSkinVariants": false,
+          "width": 512,
+          "height": 256,
+          "frames": 8
+        },
+        {
+          "name": "sit",
+          "hasPerSkinVariants": false,
+          "width": 192,
+          "height": 256,
+          "frames": 3
+        },
+        {
+          "name": "universal",
+          "hasPerSkinVariants": false,
+          "width": 832,
+          "height": 1344,
+          "frames": 13
+        }
+      ]
+    },
+    {
+      "id": "wolf_male",
+      "availableSkinColors": [],
+      "animations": [
+        {
+          "name": "idle",
+          "hasPerSkinVariants": false,
+          "width": 128,
+          "height": 256,
+          "frames": 2
+        },
+        {
+          "name": "jump",
+          "hasPerSkinVariants": false,
+          "width": 320,
+          "height": 256,
+          "frames": 5
+        },
+        {
+          "name": "run",
+          "hasPerSkinVariants": false,
+          "width": 512,
+          "height": 256,
+          "frames": 8
+        },
+        {
+          "name": "sit",
+          "hasPerSkinVariants": false,
+          "width": 192,
+          "height": 256,
+          "frames": 3
+        },
+        {
+          "name": "universal",
+          "hasPerSkinVariants": false,
+          "width": 832,
+          "height": 1344,
+          "frames": 13
+        }
+      ]
+    },
+    {
+      "id": "zombie",
+      "availableSkinColors": [],
+      "animations": [
+        {
+          "name": "idle",
+          "hasPerSkinVariants": false,
+          "width": 128,
+          "height": 256,
+          "frames": 2
+        },
+        {
+          "name": "jump",
+          "hasPerSkinVariants": false,
+          "width": 320,
+          "height": 256,
+          "frames": 5
+        },
+        {
+          "name": "run",
+          "hasPerSkinVariants": false,
+          "width": 512,
+          "height": 256,
+          "frames": 8
+        },
+        {
+          "name": "sit",
+          "hasPerSkinVariants": false,
+          "width": 192,
+          "height": 256,
+          "frames": 3
+        },
+        {
+          "name": "universal",
+          "hasPerSkinVariants": false,
+          "width": 832,
+          "height": 1344,
+          "frames": 13
+        }
+      ]
+    }
+  ],
+  "allSkinColors": []
+}

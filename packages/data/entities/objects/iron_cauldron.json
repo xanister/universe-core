@@ -1,0 +1,22 @@
+{
+  "id": "iron_cauldron",
+  "name": "Iron Cauldron",
+  "description": "A small black iron cauldron.",
+  "purposes": [
+    "cooking"
+  ],
+  "tags": [
+    "common",
+    "container",
+    "cooking",
+    "tavern",
+    "iron"
+  ],
+  "solid": true,
+  "layer": "default",
+  "spriteId": "iron_cauldron",
+  "materials": [
+    "iron"
+  ],
+  "tintable": false
+}

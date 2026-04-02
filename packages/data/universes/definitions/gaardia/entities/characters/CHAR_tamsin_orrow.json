@@ -1,0 +1,212 @@
+{
+  "id": "CHAR_tamsin_orrow",
+  "label": "Tamsin Orrow",
+  "description": "This individual is a middle-aged human woman of light skinTone, marked by a compact, sturdy build and broad, work-hardened hands. Brown eyeColor sits beneath straight brows that lend the face a practical severity, while brown hairColor is kept in a ponytail2 that leaves the cheekbones and jawline plainly defined. A small, old split at the lower lip and faint pitting across the knuckles register years of daily service and roughhouse scuffles. The voice carries the measured cadence of one long practiced in keeping order across a crowded room.",
+  "short_description": "aproned female bartender",
+  "tags": [],
+  "entityType": "character",
+  "info": {
+    "purpose": "bartender",
+    "aliases": [
+      "Tam",
+      "Mistress of the Taproom"
+    ],
+    "birthdate": "1211-09-18",
+    "deathdate": null,
+    "title": null,
+    "birthPlace": "Gaardia",
+    "eyeColor": "brown",
+    "gender": "female",
+    "hairColor": "brown",
+    "hairStyle": "ponytail2",
+    "beardStyle": null,
+    "headType": "human_female",
+    "skinTone": "light",
+    "personality": "Order-keeping and observant, with a precise memory for faces, tabs, and disputes; maintains firm boundaries, speaks plainly, and treats the house rules as a kind of civic law.",
+    "race": "human",
+    "messages": [],
+    "journal": [],
+    "sketches": [],
+    "verbosity": 3,
+    "conversationContext": null,
+    "storytellerState": null,
+    "isPlayer": false,
+    "storyComplete": false,
+    "routine": {
+      "schedule": {
+        "dawn": "home",
+        "morning": "work",
+        "afternoon": "work",
+        "evening": "work",
+        "night": "home"
+      },
+      "home": {
+        "placeId": "PLACE_the_attested_loft",
+        "description": "Quarters near The Writ and Tankard",
+        "areaHint": null
+      },
+      "work": {
+        "placeId": "PLACE_the_writ_and_tankard",
+        "description": "The Writ and Tankard",
+        "areaHint": null
+      },
+      "leisure": null,
+      "variance": 0.2,
+      "activities": {
+        "work": "tavern_work"
+      }
+    },
+    "vesselRoutes": null,
+    "abstractLocation": null,
+    "npcBehavior": null,
+    "physicalState": null,
+    "pendingDeparture": null,
+    "pendingArrival": null,
+    "lastRoutineCheckPeriod": null,
+    "startingNarrative": null,
+    "startingCharacterState": null,
+    "clothing": [
+      {
+        "slot": "torso_under",
+        "itemId": "blouse",
+        "color": "#f5f0e8",
+        "contents": null
+      },
+      {
+        "slot": "torso_mid",
+        "itemId": "apron",
+        "color": "#3a3a3a",
+        "contents": null
+      },
+      {
+        "slot": "legs",
+        "itemId": "skirt_straight",
+        "color": "#8b4513",
+        "contents": null
+      },
+      {
+        "slot": "feet",
+        "itemId": "shoes",
+        "color": null,
+        "contents": null
+      },
+      {
+        "slot": "belt",
+        "itemId": "leather_belt",
+        "color": "#8b4513",
+        "contents": []
+      }
+    ],
+    "enabledOverlayLayers": [
+      "eyes",
+      "facial"
+    ],
+    "helmingVesselId": null,
+    "storytellerDisabled": false,
+    "rulesetState": {
+      "stats": {},
+      "conditions": [],
+      "statUsage": {},
+      "incapacitation": null,
+      "incapacitatedSince": null
+    },
+    "voiceId": "bella",
+    "spriteConfig": {
+      "bodyType": "female",
+      "layers": [
+        {
+          "type": "body",
+          "optionId": "body_base",
+          "tint": 15780008
+        },
+        {
+          "type": "body",
+          "optionId": "body_universal",
+          "tint": 15780008
+        },
+        {
+          "type": "eyes",
+          "optionId": "eyes_eyes",
+          "tint": 7029286
+        },
+        {
+          "type": "hair",
+          "optionId": "hair_ponytail2",
+          "tint": 7029286
+        },
+        {
+          "type": "torso",
+          "optionId": "torso_white_blouse_female",
+          "tint": 16117992
+        },
+        {
+          "type": "torso",
+          "optionId": "torso_white_apron_female",
+          "tint": 3815994
+        },
+        {
+          "type": "legs",
+          "optionId": "legs_white_skirt_straight_female",
+          "tint": 9127187
+        },
+        {
+          "type": "feet",
+          "optionId": "feet_white_shoes_female",
+          "tint": 9127187
+        },
+        {
+          "type": "belt",
+          "optionId": "belt_leather_female",
+          "tint": 9127187
+        }
+      ],
+      "spriteHash": "fc39950720dfff7b",
+      "spriteUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/sprites/generated/fc39950720dfff7b.png"
+    }
+  },
+  "position": {
+    "x": 176,
+    "y": 592,
+    "width": 32,
+    "height": 48,
+    "parent": "PLACE_the_writ_and_tankard"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/gaardia/images/characters/CHAR_tamsin_orrow.png?v=1772603955582",
+  "faceAnchorY": 0.18,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "talk"
+  },
+  "relationships": [
+    {
+      "targetId": "CHAR_bramwell_nace",
+      "type": "colleague",
+      "disposition": 10,
+      "familiarity": 50,
+      "context": "Both are strict, ledger-minded house-order enforcers; likely to know each other through public-house work in the same local trade circuit.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_rowan_sutter",
+      "type": "colleague",
+      "disposition": 10,
+      "familiarity": 50,
+      "context": "Shared role as practiced public-house professional focused on measures, tabs, and de-escalation; likely professional acquaintance/peer.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_hollis_berane",
+      "type": "colleague",
+      "disposition": 10,
+      "familiarity": 50,
+      "context": "Both enforce house rules procedurally and keep accounts by habit; likely peer relationship within the tavern/innkeeping sphere.",
+      "pendingGeneration": false
+    }
+  ],
+  "important": false
+}

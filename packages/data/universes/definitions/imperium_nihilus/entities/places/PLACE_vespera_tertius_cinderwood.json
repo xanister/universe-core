@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_vespera_tertius_cinderwood",
+  "label": "Vespera Tertius Cinderwood",
+  "description": "Vespera Tertius Cinderwood forms a low, ash-laden forest rooted in fissured basalt, where blackened trunks rise in dense, wind-scoured ranks. A constant electrostatic charge clings to bark and drifting cinders, and violet lightning along the horizon throws stark, intermittent relief across the canopy. The ground remains carpeted in powder-fine soot over glassy impact slag, swallowing footfalls and preserving little but shallow, wind-cut impressions. Bruise-colored auroral glare stains the upper boughs and sustains a perpetual twilight beneath the rift-shadowed sky.",
+  "short_description": "ash-choked twilight forest",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "forest",
+    "environment": {
+      "type": "exterior",
+      "hasWeather": true,
+      "temperature": {
+        "enabled": true,
+        "base": null,
+        "modifiersApply": true
+      },
+      "maxDarkness": null
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "tree_canopy_small",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/battles/PLACE_vespera_tertius_cinderwood.png?v=1771872751959",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 384,
+    "y": 1056,
+    "width": 48,
+    "height": 48,
+    "parent": "PLACE_vespera_tertius",
+    "innerWidth": 3520,
+    "innerHeight": 2592
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/places/PLACE_vespera_tertius_cinderwood.png?v=1771872799939",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_canon_sleep_cell",
+  "label": "Canon Sleep Cell",
+  "description": "Canon Sleep Cell is a narrow chamber set behind the temple’s faceted vitrified tilework, its surfaces dust-slick and grounded by thin metal seams that bleed off charge from glass fallouts. A low sleeping dais rises beside a lensing cistern channel, where shallow reflective water throws the copper-white twilight into measured bands across the walls. Mirror-slat shutters regulate the clerestory spill, reducing the system’s long gradients to strict lines of light used for private timekeeping. Recessed niches and sealed gutters keep personal effects and airborne glass dust contained, preserving the chamber’s austere order.",
+  "short_description": "austere light-banded cell",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "bedroom",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "door_wooden",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/hushlight_expanse/images/battles/PLACE_canon_sleep_cell.png?v=1772314134477",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 1360,
+    "y": 1536,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_temple_of_the_faultlight_canon",
+    "innerWidth": 608,
+    "innerHeight": 512
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/hushlight_expanse/images/places/PLACE_canon_sleep_cell.png?v=1772314184142",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

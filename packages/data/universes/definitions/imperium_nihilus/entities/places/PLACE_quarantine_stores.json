@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_quarantine_stores",
+  "label": "Quarantine Stores",
+  "description": "Quarantine Stores is a narrow, pressure-rated storage cell recessed behind void-black adamantine ribs, its seams caulked and riveted to preserve the habitation suite’s seal integrity. Wall-to-wall ration bins and standardized munitorum crates occupy steel shelving that is numbered and stenciled with contamination-control codes. Armored lumen strips behind grilles cast hard light across scoured decking and a grated sump channel for washdown runoff. A compact auspex-locked cabinet and tally-board mount near the threshold, reflecting Cyrenth Bastion-City’s inventory discipline under siege protocol.",
+  "short_description": "sealed ration storage",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "storage_room",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.9
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "door_wooden",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/battles/PLACE_quarantine_stores.png?v=1771996033056",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 144,
+    "y": 160,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_cinderstep_quarters",
+    "innerWidth": 448,
+    "innerHeight": 640
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/places/PLACE_quarantine_stores.png?v=1771996086041",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

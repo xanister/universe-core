@@ -1,0 +1,51 @@
+{
+  "id": "OBJ_slaterafter_bedchamber_trophy_deer_0040",
+  "label": "Deer Trophy",
+  "description": "A mounted deer head with antlers on a wooden shield plaque.",
+  "important": false,
+  "short_description": "deer trophy",
+  "tags": [
+    "tavern",
+    "wall"
+  ],
+  "entityType": "object",
+  "info": {
+    "purpose": "decoration",
+    "solid": false,
+    "layer": "overhead",
+    "isStructural": false,
+    "material": null,
+    "tint": null,
+    "spriteConfig": {
+      "spriteId": "trophy_deer",
+      "frame": null,
+      "animationKey": null,
+      "animated": false,
+      "facing": "west"
+    },
+    "hp": null,
+    "maxHp": null,
+    "state": null,
+    "contents": null,
+    "lightSource": null,
+    "itemId": null,
+    "plotId": null
+  },
+  "position": {
+    "x": 336,
+    "y": 384,
+    "width": 32,
+    "height": 32,
+    "parent": "PLACE_slaterafter_bedchamber"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "relationships": [],
+  "image": null,
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": null
+}

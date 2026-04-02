@@ -1,0 +1,16 @@
+{
+  "id": "EVENT_the_zephyr_completed_final_sealcheck_1771811742347",
+  "date": null,
+  "placeId": null,
+  "eventType": null,
+  "category": "world",
+  "subject": "Background",
+  "subjectId": null,
+  "fact": "The Zephyr completed final seal-check rites and stormwind-readiness drills before getting underway through Vespera Tertius’ ash-laden skies.",
+  "significance": "moderate",
+  "important": true,
+  "witnessIds": null,
+  "importanceScore": null,
+  "scope": null,
+  "relevantPlaceIds": null
+}

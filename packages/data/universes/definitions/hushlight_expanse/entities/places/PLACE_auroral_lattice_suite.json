@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_auroral_lattice_suite",
+  "label": "Auroral Lattice Suite",
+  "description": "Auroral Lattice Suite forms a narrow sleeping chamber hewn into the escarpment behind The Prismworn Cask’s basalt-glass vault, its walls glazed to a soot-dark sheen beneath a film of pinned glass dust. A low berth-platform of fused mirror-slag occupies the inner wall, set above a shallow condensate channel that keeps the air cool and mineral-clean. Prismatic baffles at the ceiling break the copper-white twilight into measured bands that fall across seam-line tracery in the floor, preserving the city’s calibrated sightlines even in private quarters. Built-in niches of darkened crystal serve as storage, their edges etched with alignment marks keyed to Lacrymara’s auroral girdle.",
+  "short_description": "prism-dim private suite",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "bedroom",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "door_wooden",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/hushlight_expanse/images/battles/PLACE_auroral_lattice_suite.png?v=1772313937642",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 80,
+    "y": 160,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_the_prismworn_cask",
+    "innerWidth": 640,
+    "innerHeight": 544
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/hushlight_expanse/images/places/PLACE_auroral_lattice_suite.png?v=1772313999890",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

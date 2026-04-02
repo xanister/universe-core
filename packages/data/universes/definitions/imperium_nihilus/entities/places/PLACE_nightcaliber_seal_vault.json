@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_nightcaliber_seal_vault",
+  "label": "Nightcaliber Seal Vault",
+  "description": "The Nightcaliber Seal Vault forms the secured storage heart of the Nightcaliber Exchange, carved directly into the bastion’s vitrified stone and faced with riveted wreck-plate cladding. Regimented shelving and restraint frames hold sealed weapon-cases and munition tins in numbered stacks, each bay marked by stenciled codes intended for rapid audit under siege conditions. Gasketed doors and a constant filtration draw keep abrasive ash from the inventory, while a low, lumen-strip grid casts hard light across oil-sheened floors. Thick conduits and a compact auspex node line the rear wall, overbuilt to function amid the bastion’s persistent vox interference and auroral backwash.",
+  "short_description": "sealed arms storeroom",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "storage_room",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.9
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "door_wooden",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/battles/PLACE_nightcaliber_seal_vault.png?v=1771951293704",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 528,
+    "y": 1184,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_the_nightcaliber_exchange",
+    "innerWidth": 512,
+    "innerHeight": 608
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/places/PLACE_nightcaliber_seal_vault.png?v=1771951347690",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

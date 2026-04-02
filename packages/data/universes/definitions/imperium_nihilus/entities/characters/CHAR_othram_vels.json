@@ -1,0 +1,247 @@
+{
+  "id": "CHAR_othram_vels",
+  "label": "Othram Vels",
+  "description": "This individual is an animated skeleton of human proportions, reduced to light bone and bound by a rigid, unyielding posture. Yellow eyes burn in deep sockets, fixed forward with tireless focus rather than human expression. Gray hair persists in sparse, matted remnants along the crown, emphasizing the stark lines of the skull and jaw. The frame bears old fractures set at imperfect angles, leaving the gait and stance permanently asymmetrical.",
+  "short_description": "undead male skeleton warden",
+  "tags": [],
+  "entityType": "character",
+  "info": {
+    "purpose": "undead",
+    "aliases": [
+      "Riftglass Warden",
+      "The Hollow Wight"
+    ],
+    "birthdate": "Unknown",
+    "deathdate": null,
+    "title": null,
+    "birthPlace": "",
+    "eyeColor": "yellow",
+    "gender": "male",
+    "hairColor": "gray",
+    "hairStyle": "unkempt",
+    "beardStyle": null,
+    "headType": "skeleton",
+    "skinTone": "light",
+    "personality": "Silent and dutiful, this undead maintains relentless vigilance over assigned ground, responding to intrusion with ritualized hostility and unvarying discipline. It exhibits no appetite, comfort-seeking, or fatigue, and communicates only through sparse gestures and the implied threat of violence.",
+    "race": "skeleton",
+    "messages": [],
+    "journal": [],
+    "sketches": [],
+    "verbosity": 3,
+    "conversationContext": null,
+    "storytellerState": null,
+    "isPlayer": false,
+    "storyComplete": false,
+    "routine": {
+      "schedule": {
+        "dawn": "work",
+        "morning": "work",
+        "afternoon": "work",
+        "evening": "work",
+        "night": "work"
+      },
+      "home": {
+        "placeId": "PLACE_riftglass_hollow",
+        "description": "Riftglass Hollow",
+        "areaHint": null
+      },
+      "work": {
+        "placeId": "PLACE_riftglass_hollow",
+        "description": "Riftglass Hollow",
+        "areaHint": null
+      },
+      "leisure": null,
+      "variance": 0.2,
+      "activities": {
+        "work": "undead_patrol"
+      }
+    },
+    "vesselRoutes": null,
+    "abstractLocation": null,
+    "npcBehavior": null,
+    "physicalState": null,
+    "pendingDeparture": null,
+    "pendingArrival": null,
+    "lastRoutineCheckPeriod": null,
+    "startingNarrative": null,
+    "startingCharacterState": null,
+    "clothing": [
+      {
+        "slot": "torso_under",
+        "itemId": "tunic",
+        "color": "#3a3a3a",
+        "contents": null
+      },
+      {
+        "slot": "torso_over",
+        "itemId": "trenchcoat",
+        "color": "#1a1a1a",
+        "contents": null
+      },
+      {
+        "slot": "legs",
+        "itemId": "cloth_pants",
+        "color": "#808080",
+        "contents": null
+      },
+      {
+        "slot": "feet",
+        "itemId": "boots",
+        "color": "#1a1a1a",
+        "contents": null
+      },
+      {
+        "slot": "belt",
+        "itemId": "leather_belt",
+        "color": "#8b4513",
+        "contents": [
+          {
+            "id": "ci_1771915593009_zpyci9",
+            "itemId": "steel_bracers",
+            "name": "steel_bracers",
+            "description": null,
+            "type": "weapon",
+            "quantity": 1,
+            "color": null,
+            "equipSlot": "weapon",
+            "plotId": null
+          }
+        ]
+      },
+      {
+        "slot": "hands",
+        "itemId": "cloth_gloves",
+        "color": "#1a1a1a",
+        "contents": null
+      },
+      {
+        "slot": "head",
+        "itemId": "cloth_hood",
+        "color": "#3a3a3a",
+        "contents": null
+      }
+    ],
+    "enabledOverlayLayers": [],
+    "helmingVesselId": null,
+    "storytellerDisabled": false,
+    "rulesetState": {
+      "stats": {
+        "physical": 50,
+        "mental": 50,
+        "social": 50,
+        "poise": 50,
+        "max_poise": 50,
+        "bloodloss": 0,
+        "anxiety": 0,
+        "fatigue": 0,
+        "hunger": 0
+      },
+      "conditions": [],
+      "statUsage": {},
+      "incapacitation": null,
+      "incapacitatedSince": null
+    },
+    "voiceId": "brian",
+    "spriteConfig": {
+      "bodyType": "skeleton",
+      "layers": [
+        {
+          "type": "body",
+          "optionId": "body_base",
+          "tint": 15780008
+        },
+        {
+          "type": "body",
+          "optionId": "body_universal",
+          "tint": 15780008
+        },
+        {
+          "type": "torso",
+          "optionId": "torso_formal_trenchcoat_male",
+          "tint": 1710618
+        },
+        {
+          "type": "legs",
+          "optionId": "legs_white_pants_male",
+          "tint": 8421504
+        },
+        {
+          "type": "feet",
+          "optionId": "feet_white_boots_male",
+          "tint": 1710618
+        },
+        {
+          "type": "belt",
+          "optionId": "belt_leather_male",
+          "tint": 9127187
+        },
+        {
+          "type": "hands",
+          "optionId": "hands_white_gloves_male",
+          "tint": 1710618
+        },
+        {
+          "type": "head",
+          "optionId": "head_cloth_hood_male",
+          "tint": 3815994
+        }
+      ],
+      "spriteHash": "65aef2d14f875b5e",
+      "spriteUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/sprites/generated/65aef2d14f875b5e.png",
+      "spriteScale": 1
+    }
+  },
+  "position": {
+    "x": 1200,
+    "y": 1424,
+    "width": 32,
+    "height": 48,
+    "parent": "PLACE_riftglass_hollow"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/characters/CHAR_othram_vels.png?v=1771915655390",
+  "faceAnchorY": 0.19,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "talk"
+  },
+  "relationships": [
+    {
+      "targetId": "CHAR_marrowin_sable",
+      "type": "colleague",
+      "disposition": 10,
+      "familiarity": 50,
+      "context": "Both are undead guardians operating in Riftglass Hollow with similar ritual-bound patrol/defense duties, making a shared-purpose working relationship likely.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_mareth_vane",
+      "type": "colleague",
+      "disposition": 10,
+      "familiarity": 50,
+      "context": "Both are mute/near-mute, inexhaustible guardians bound to fixed routes and simple imperatives in the same location, suggesting coordinated or parallel duty.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_maelon_strake",
+      "type": "colleague",
+      "disposition": 10,
+      "familiarity": 50,
+      "context": "Both are tireless undead assigned to fixed duties within Riftglass Hollow and respond to intrusions per standing orders, implying they serve the same defensive function.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_verekan_thricebound",
+      "type": "colleague",
+      "disposition": 10,
+      "familiarity": 50,
+      "context": "Both enforce boundaries and maintain vigilance in Riftglass Hollow; Verekan’s oath/binding-focused role plausibly overlaps with Othram’s assigned-ground vigilance as part of the same guard system.",
+      "pendingGeneration": false
+    }
+  ],
+  "important": false
+}

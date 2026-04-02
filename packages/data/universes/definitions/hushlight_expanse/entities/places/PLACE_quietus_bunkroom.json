@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_quietus_bunkroom",
+  "label": "Quietus Bunkroom",
+  "description": "Quietus Bunkroom serves as the tavern’s lodging cell, built as a narrow pressure-rated compartment clad in the same prismatic laminates that discipline Halo Quietus Port’s copper-white twilight. A recessed berth and wall-fold desk are set into sound-damping ribs, with storage niches sealed behind black-ceramic shutters to prevent rattle under docking vibrations. Polarized mirror slits admit only measured bands of light, casting fixed spectral lines across the decking that echo the charged arcs of Vesperglass System’s vitrified belt. Air-handling grilles maintain a constant hush and dryness, preserving the space’s utilitarian calm amid the concourse’s low-light service culture.",
+  "short_description": "hushlit prismatic bunk",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "bedroom",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "door_wooden",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/hushlight_expanse/images/battles/PLACE_quietus_bunkroom.png?v=1772313963379",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 752,
+    "y": 160,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_the_polarized_cask",
+    "innerWidth": 576,
+    "innerHeight": 608
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/hushlight_expanse/images/places/PLACE_quietus_bunkroom.png?v=1772314027158",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

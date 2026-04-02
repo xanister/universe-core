@@ -1,0 +1,22 @@
+{
+  "id": "pennant_gold",
+  "name": "Gold Pennant",
+  "description": "A small gold triangular pennant flag.",
+  "purposes": [
+    "decoration"
+  ],
+  "tags": [
+    "common",
+    "decoration",
+    "tavern",
+    "wall"
+  ],
+  "solid": false,
+  "layer": "overhead",
+  "spriteId": "pennant_gold",
+  "materials": [
+    "cloth"
+  ],
+  "tintable": false,
+  "wallVerticalOffset": -1
+}

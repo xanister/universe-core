@@ -1,0 +1,56 @@
+{
+  "id": "PLACE_prismbrine_mangals",
+  "label": "Prismbrine Mangals",
+  "description": "Prismbrine Mangals forms a low, sprawling littoral forest rooted in Vitrasea’s terraced impact-basin shelves, where glassy salt rafts lock and grind along the margins. Its trees rise from mineral-saturated muds into candelabrum crowns plated with iridescent evaporite, their bark hardened into translucent scabrous sheets by alkaline spray. The canopy refracts the Saltglass System’s prismatic veils into shifting bands of color that stripe the understory and the polygon-fractured flats between root buttresses. Thin opaline haze and steady auroral spill from Vitrasea’s magnetized crustal arcs give the grove a constant cold luminescence after nightfall.",
+  "short_description": "iridescent salt forest",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "forest",
+    "environment": {
+      "type": "exterior",
+      "hasWeather": true,
+      "temperature": {
+        "enabled": true,
+        "base": null,
+        "modifiersApply": true
+      },
+      "maxDarkness": null
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "tree_canopy_small",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 2784,
+    "y": 1984,
+    "width": 64,
+    "height": 64,
+    "parent": "PLACE_vitrasea"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": null,
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

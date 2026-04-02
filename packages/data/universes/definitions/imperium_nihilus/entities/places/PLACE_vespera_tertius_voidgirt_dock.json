@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_vespera_tertius_voidgirt_dock",
+  "label": "Vespera Tertius Voidgirt Dock",
+  "description": "Vespera Tertius Voidgirt Dock is a basalt-reinforced landing frontage cut into an ash-choked basin, its load-bearers clad in scorched ceramite plating and lattice trusses blackened by repeated plasma wash. Beacon pylons ring the berth in tight intervals, their lumen-bands tuned for the planet’s bruise-colored auroral glare and the persistent vox-shear that fractures outbound traffic. The surface is paved in fused glasscrete scored by drag-marks and impact pitting, with drainage channels choked by electrostatic ash. Auspex baffles and blast shutters line the edgeworks, reflecting the narrow, hazardous approach corridors imposed by the wreckage-cluttered orbit above.",
+  "short_description": "ash-choked void dock",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "harbor",
+    "environment": {
+      "type": "exterior",
+      "hasWeather": true,
+      "temperature": {
+        "enabled": true,
+        "base": null,
+        "modifiersApply": true
+      },
+      "maxDarkness": null
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "world_map_dock",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/battles/PLACE_vespera_tertius_voidgirt_dock.png?v=1771873128318",
+    "inheritedRequiredTags": null,
+    "timeScale": 1
+  },
+  "position": {
+    "x": 3504,
+    "y": 2496,
+    "width": 96,
+    "height": 48,
+    "parent": "PLACE_vespera_tertius",
+    "innerWidth": 1888,
+    "innerHeight": 1280
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/places/PLACE_vespera_tertius_voidgirt_dock.png?v=1771873182697",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": true
+}

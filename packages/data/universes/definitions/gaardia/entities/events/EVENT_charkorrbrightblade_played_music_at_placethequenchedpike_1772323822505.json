@@ -1,0 +1,20 @@
+{
+  "id": "EVENT_charkorrbrightblade_played_music_at_placethequenchedpike_1772323822505",
+  "date": "04.01.11 4A 11:11",
+  "placeId": "PLACE_the_quenched_pike",
+  "eventType": null,
+  "category": "world",
+  "subject": "The Quenched Pike",
+  "subjectId": "PLACE_the_quenched_pike",
+  "fact": "CHAR_korr_brightblade played music at PLACE_the_quenched_pike",
+  "significance": "moderate",
+  "witnessIds": [
+    "CHAR_korr_brightblade"
+  ],
+  "important": false,
+  "importanceScore": null,
+  "scope": "local",
+  "relevantPlaceIds": [
+    "PLACE_the_quenched_pike"
+  ]
+}

@@ -1,0 +1,218 @@
+{
+  "id": "CHAR_hadrien_sorn",
+  "label": "Hadrien Sorn",
+  "description": "This individual presents as an animate corpse, with taut taupe skin drawn tight over prominent bone and joints set in a permanent, misaligned rigidity. Gray eyes remain glassy and unfocused, while brown hair persists in a sparse, uneven growth along the scalp. The face bears fissure-scored pitting and old fracture lines that never seal, leaving the jaw slightly offset and the teeth exposed in a fixed rictus. The overall frame is desiccated and angular, marking prolonged unlife in a harsh, abrasive environment.",
+  "short_description": "undead male corpse",
+  "tags": [],
+  "entityType": "character",
+  "info": {
+    "purpose": "undead",
+    "aliases": [
+      "Ashglass Walker",
+      "Fissure-Dead"
+    ],
+    "birthdate": "1129-04-18",
+    "deathdate": null,
+    "title": null,
+    "birthPlace": "Gaardia",
+    "eyeColor": "gray",
+    "gender": "male",
+    "hairColor": "brown",
+    "hairStyle": "unkempt",
+    "beardStyle": "stubble",
+    "headType": "human_male",
+    "skinTone": "taupe",
+    "personality": "Methodical and uncommunicative, this undead persists in repetitive, route-bound motion and reacts to intrusion with abrupt, predatory focus. It shows no capacity for speech or negotiation and demonstrates a simple, territorial persistence typical of the Ashglass dead. It remains drawn to heat, vibration, and exposed blood, pursuing stimuli until contact is broken or the target leaves its range.",
+    "race": "human",
+    "messages": [],
+    "journal": [],
+    "sketches": [],
+    "verbosity": 3,
+    "conversationContext": null,
+    "storytellerState": null,
+    "isPlayer": false,
+    "storyComplete": false,
+    "routine": {
+      "schedule": {
+        "dawn": "work",
+        "morning": "work",
+        "afternoon": "work",
+        "evening": "work",
+        "night": "work"
+      },
+      "home": {
+        "placeId": "PLACE_ashglass_fissure",
+        "description": "Ashglass Fissure",
+        "areaHint": null
+      },
+      "work": {
+        "placeId": "PLACE_ashglass_fissure",
+        "description": "Ashglass Fissure",
+        "areaHint": null
+      },
+      "leisure": null,
+      "variance": 0.2,
+      "activities": {
+        "work": "undead_patrol"
+      }
+    },
+    "vesselRoutes": null,
+    "abstractLocation": null,
+    "npcBehavior": null,
+    "physicalState": null,
+    "pendingDeparture": null,
+    "pendingArrival": null,
+    "lastRoutineCheckPeriod": null,
+    "startingNarrative": null,
+    "startingCharacterState": null,
+    "clothing": [
+      {
+        "slot": "torso_under",
+        "itemId": "tunic",
+        "color": "#3a3a3a",
+        "contents": null
+      },
+      {
+        "slot": "torso_over",
+        "itemId": "tattercape",
+        "color": "#1a1a1a",
+        "contents": null
+      },
+      {
+        "slot": "legs",
+        "itemId": "cloth_pants",
+        "color": "#8b4513",
+        "contents": null
+      },
+      {
+        "slot": "feet",
+        "itemId": "boots",
+        "color": "#1a1a1a",
+        "contents": null
+      },
+      {
+        "slot": "belt",
+        "itemId": "rope_belt",
+        "color": "#d2b48c",
+        "contents": []
+      }
+    ],
+    "enabledOverlayLayers": [
+      "eyes",
+      "facial"
+    ],
+    "helmingVesselId": null,
+    "storytellerDisabled": false,
+    "rulesetState": {
+      "stats": {
+        "poise": 50,
+        "max_poise": 50
+      },
+      "conditions": [],
+      "statUsage": {},
+      "incapacitation": null,
+      "incapacitatedSince": null
+    },
+    "voiceId": "brian",
+    "spriteConfig": {
+      "bodyType": "male",
+      "layers": [
+        {
+          "type": "body",
+          "optionId": "body_base",
+          "tint": 12890264
+        },
+        {
+          "type": "body",
+          "optionId": "body_universal",
+          "tint": 12890264
+        },
+        {
+          "type": "eyes",
+          "optionId": "eyes_eyes",
+          "tint": 8423560
+        },
+        {
+          "type": "facial",
+          "optionId": "facial_beard",
+          "tint": 7029286
+        },
+        {
+          "type": "hair",
+          "optionId": "hair_unkempt",
+          "tint": 7029286
+        },
+        {
+          "type": "legs",
+          "optionId": "legs_white_pants_male",
+          "tint": 9127187
+        },
+        {
+          "type": "feet",
+          "optionId": "feet_white_boots_male",
+          "tint": 1710618
+        },
+        {
+          "type": "belt",
+          "optionId": "belt_wulax_belt_rope_male",
+          "tint": 13808780
+        }
+      ],
+      "spriteHash": "7062f06d9698cc3d",
+      "spriteUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/sprites/generated/7062f06d9698cc3d.png"
+    }
+  },
+  "position": {
+    "x": 3408,
+    "y": 1456,
+    "width": 32,
+    "height": 48,
+    "parent": "PLACE_ashglass_fissure"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/gaardia/images/characters/CHAR_hadrien_sorn.png?v=1772212503952",
+  "faceAnchorY": 0.15,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "talk"
+  },
+  "relationships": [
+    {
+      "targetId": "CHAR_edran_morholt",
+      "type": "acquaintance",
+      "disposition": 0,
+      "familiarity": 40,
+      "context": "Both are Ashglass-dead revenant types occupying the Ashglass Fissure; likely to have encountered each other along overlapping stimulus-driven routes.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_orrin_vask",
+      "type": "acquaintance",
+      "disposition": 0,
+      "familiarity": 40,
+      "context": "Share the same location and similar repetitive patrol/territorial routines; also share Gaardia as birthplace, making prior familiarity possible but not certain.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_sereth_marrow",
+      "type": "acquaintance",
+      "disposition": 0,
+      "familiarity": 40,
+      "context": "Both operate within the Ashglass Fissure’s boundary/territorial enforcement patterns, so incidental contact is likely even if no true social bond exists.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_thane_rusk",
+      "type": "acquaintance",
+      "disposition": 0,
+      "familiarity": 40,
+      "context": "Co-located Ashglass dead with similar route-bound, guard/stalk compulsions; likely to cross paths in the fissure.",
+      "pendingGeneration": false
+    }
+  ],
+  "important": false
+}

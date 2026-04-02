@@ -1,0 +1,90 @@
+{
+  "name": "@dmnpc/types",
+  "version": "0.1.0",
+  "type": "module",
+  "exports": {
+    ".": {
+      "@dmnpc-source": "./src/index.ts",
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "default": "./dist/index.js"
+    },
+    "./world": {
+      "@dmnpc-source": "./src/world/index.ts",
+      "types": "./dist/world/index.d.ts",
+      "import": "./dist/world/index.js",
+      "default": "./dist/world/index.js"
+    },
+    "./entity": {
+      "@dmnpc-source": "./src/entity/index.ts",
+      "types": "./dist/entity/index.d.ts",
+      "import": "./dist/entity/index.js",
+      "default": "./dist/entity/index.js"
+    },
+    "./npc": {
+      "@dmnpc-source": "./src/npc/index.ts",
+      "types": "./dist/npc/index.d.ts",
+      "import": "./dist/npc/index.js",
+      "default": "./dist/npc/index.js"
+    },
+    "./game": {
+      "@dmnpc-source": "./src/game/index.ts",
+      "types": "./dist/game/index.d.ts",
+      "import": "./dist/game/index.js",
+      "default": "./dist/game/index.js"
+    },
+    "./ui": {
+      "@dmnpc-source": "./src/ui/index.ts",
+      "types": "./dist/ui/index.d.ts",
+      "import": "./dist/ui/index.js",
+      "default": "./dist/ui/index.js"
+    },
+    "./combat": {
+      "@dmnpc-source": "./src/combat/index.ts",
+      "types": "./dist/combat/index.d.ts",
+      "import": "./dist/combat/index.js",
+      "default": "./dist/combat/index.js"
+    },
+    "./api": {
+      "@dmnpc-source": "./src/api.ts",
+      "types": "./dist/api.d.ts",
+      "import": "./dist/api.js",
+      "default": "./dist/api.js"
+    },
+    "./place-templates": {
+      "@dmnpc-source": "./src/world/place-templates.ts",
+      "types": "./dist/world/place-templates.d.ts",
+      "import": "./dist/world/place-templates.js",
+      "default": "./dist/world/place-templates.js"
+    },
+    "./weather": {
+      "@dmnpc-source": "./src/world/weather.ts",
+      "types": "./dist/world/weather.d.ts",
+      "import": "./dist/world/weather.js",
+      "default": "./dist/world/weather.js"
+    }
+  },
+  "files": ["src", "dist"],
+  "scripts": {
+    "build": "tsc",
+    "prepare": "tsc",
+    "test": "vitest run",
+    "test:coverage": "vitest run --coverage",
+    "lint": "eslint src",
+    "lint:fix": "eslint src --fix",
+    "format": "prettier --write src",
+    "format:check": "prettier --check src",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.2",
+    "eslint": "^9.39.2",
+    "eslint-config-prettier": "^10.1.8",
+    "prettier": "^3.7.4",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.52.0",
+    "@vitest/coverage-v8": "^3.2.4",
+    "vite-tsconfig-paths": "^5.1.4",
+    "vitest": "^3.2.4"
+  }
+}

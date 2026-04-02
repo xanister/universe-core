@@ -1,0 +1,60 @@
+{
+  "id": "OBJ_glasseam_hollow_glowing_mushroom_0456",
+  "label": "Glowing Mushroom",
+  "description": "A cluster of pale, bioluminescent fungi clinging to the cave floor, emitting a faint blue-green glow.",
+  "important": false,
+  "short_description": "glowing mushroom",
+  "tags": [
+    "cave",
+    "lighting"
+  ],
+  "entityType": "object",
+  "info": {
+    "purpose": "lighting",
+    "solid": false,
+    "layer": "floor",
+    "isStructural": false,
+    "material": null,
+    "tint": null,
+    "spriteConfig": {
+      "spriteId": null,
+      "frame": null,
+      "animationKey": null,
+      "animated": false,
+      "facing": "south"
+    },
+    "hp": null,
+    "maxHp": null,
+    "state": null,
+    "contents": null,
+    "lightSource": {
+      "radius": 72,
+      "color": 6750156,
+      "intensity": 0.22,
+      "flicker": true,
+      "flickerSpeed": 600,
+      "flickerRange": 0.06,
+      "offsetX": 0,
+      "offsetY": 0
+    },
+    "itemId": null,
+    "plotId": null
+  },
+  "position": {
+    "x": 400,
+    "y": 1088,
+    "width": 32,
+    "height": 32,
+    "parent": "PLACE_glasseam_hollow"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "relationships": [],
+  "image": null,
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": null
+}

@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_the_grounding_vault",
+  "label": "The Grounding Vault",
+  "description": "The Grounding Vault is a sealed storage room built as a faceted, vitrified cell behind the shopfront, its walls lined with grounded gutters that draw charge from Lacrymara’s glass dust. Racked shelving of nonreflective composite holds oiled wraps, spare coil cores, counterweights, and blade blanks, each bay marked with etched calibration lines aligned to Seamglass Meridian’s twilight bands. A gridded floor drains into a narrow cistern throat, keeping abrasive particulate from settling on stored edges and mechanisms. Mirror-sheathed baffles in the ceiling suppress stray reflections, preserving the disciplined hushlit geometry that defines the Arsenal’s craft.",
+  "short_description": "sealed grounded storeroom",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "storage_room",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.9
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "door_wooden",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/hushlight_expanse/images/battles/PLACE_the_grounding_vault.png?v=1772314223510",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 208,
+    "y": 672,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_the_shardbound_arsenal",
+    "innerWidth": 512,
+    "innerHeight": 544
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/hushlight_expanse/images/places/PLACE_the_grounding_vault.png?v=1772314274157",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

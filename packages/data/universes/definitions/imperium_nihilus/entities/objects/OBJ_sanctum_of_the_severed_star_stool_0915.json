@@ -1,0 +1,52 @@
+{
+  "id": "OBJ_sanctum_of_the_severed_star_stool_0915",
+  "label": "Stool",
+  "description": "A simple wooden stool",
+  "important": false,
+  "short_description": "stool",
+  "tags": [
+    "common",
+    "furniture",
+    "seating"
+  ],
+  "entityType": "object",
+  "info": {
+    "purpose": "seating",
+    "solid": true,
+    "layer": "default",
+    "isStructural": false,
+    "material": null,
+    "tint": null,
+    "spriteConfig": {
+      "spriteId": "stool",
+      "frame": null,
+      "animationKey": null,
+      "animated": false,
+      "facing": "west"
+    },
+    "hp": null,
+    "maxHp": null,
+    "state": null,
+    "contents": null,
+    "lightSource": null,
+    "itemId": null,
+    "plotId": null
+  },
+  "position": {
+    "x": 1040,
+    "y": 1664,
+    "width": 32,
+    "height": 32,
+    "parent": "PLACE_sanctum_of_the_severed_star"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "relationships": [],
+  "image": null,
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": null
+}

@@ -1,0 +1,16 @@
+{
+  "id": "EVENT_the_lex_gaardium_was_codified_1772209199302",
+  "date": null,
+  "placeId": null,
+  "eventType": "discovery",
+  "category": "world",
+  "subject": "Discovery",
+  "subjectId": null,
+  "fact": "The Lex Gaardium was codified under Deremond II, with compilation attributed to Myrrin Haar, integrating older edicts, noble compacts, dwarven arbitration traditions, and regional court oaths into a binding legal framework.",
+  "significance": "major",
+  "important": true,
+  "witnessIds": null,
+  "importanceScore": null,
+  "scope": "regional",
+  "relevantPlaceIds": null
+}

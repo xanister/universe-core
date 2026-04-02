@@ -1,0 +1,235 @@
+{
+  "id": "CHAR_thane_lorrick",
+  "label": "Thane Lorrick",
+  "description": "This individual is a human undead, reduced to a gaunt, desiccated frame with bronze skin drawn tight over prominent bone. Gray eyes sit deep in a collapsed face, and gray hair in an unkempt fall clings in sparse strands to a scalp marked by old fractures. The mouth and hands retain the rigid articulation of a corpse animated by hostile rites rather than breath or blood. Their bearing reflects the Ashglass Fissure’s ruinous influence, moving with purpose yet without any living warmth.",
+  "short_description": "undead male remnant",
+  "tags": [],
+  "entityType": "character",
+  "info": {
+    "purpose": "undead",
+    "aliases": [
+      "Ashglass Remnant",
+      "Fissure-Dead"
+    ],
+    "birthdate": "1187-03-12",
+    "deathdate": null,
+    "title": null,
+    "birthPlace": "Gaardia",
+    "eyeColor": "gray",
+    "gender": "male",
+    "hairColor": "gray",
+    "hairStyle": "unkempt",
+    "beardStyle": "stubble",
+    "headType": "human_male",
+    "skinTone": "bronze",
+    "personality": "Silent and tenacious, governed by a narrow, repetitive compulsion to guard fissure-ward paths and harry intruders; displays no fear response and no capacity for negotiation, reacting to movement and light with immediate violence.",
+    "race": "human",
+    "messages": [],
+    "journal": [],
+    "sketches": [],
+    "verbosity": 3,
+    "conversationContext": null,
+    "storytellerState": null,
+    "isPlayer": false,
+    "storyComplete": false,
+    "routine": {
+      "schedule": {
+        "dawn": "work",
+        "morning": "work",
+        "afternoon": "work",
+        "evening": "work",
+        "night": "work"
+      },
+      "home": {
+        "placeId": "PLACE_ashglass_fissure",
+        "description": "Ashglass Fissure",
+        "areaHint": null
+      },
+      "work": {
+        "placeId": "PLACE_ashglass_fissure",
+        "description": "Ashglass Fissure",
+        "areaHint": null
+      },
+      "leisure": null,
+      "variance": 0.2,
+      "activities": {
+        "work": "undead_patrol"
+      }
+    },
+    "vesselRoutes": null,
+    "abstractLocation": null,
+    "npcBehavior": null,
+    "physicalState": null,
+    "pendingDeparture": null,
+    "pendingArrival": null,
+    "lastRoutineCheckPeriod": null,
+    "startingNarrative": null,
+    "startingCharacterState": null,
+    "clothing": [
+      {
+        "slot": "torso_under",
+        "itemId": "tunic",
+        "color": "#3a3a3a",
+        "contents": null
+      },
+      {
+        "slot": "torso_over",
+        "itemId": "tattercape",
+        "color": "#808080",
+        "contents": null
+      },
+      {
+        "slot": "legs",
+        "itemId": "cloth_pants",
+        "color": "#1a1a1a",
+        "contents": null
+      },
+      {
+        "slot": "feet",
+        "itemId": "boots",
+        "color": "#8b4513",
+        "contents": null
+      },
+      {
+        "slot": "belt",
+        "itemId": "rope_belt",
+        "color": "#d2b48c",
+        "contents": []
+      },
+      {
+        "slot": "hands",
+        "itemId": "cloth_gloves",
+        "color": "#808080",
+        "contents": null
+      },
+      {
+        "slot": "head",
+        "itemId": "cloth_hood",
+        "color": "#3a3a3a",
+        "contents": null
+      }
+    ],
+    "enabledOverlayLayers": [
+      "eyes",
+      "facial"
+    ],
+    "helmingVesselId": null,
+    "storytellerDisabled": false,
+    "rulesetState": {
+      "stats": {
+        "poise": 50,
+        "max_poise": 50
+      },
+      "conditions": [],
+      "statUsage": {},
+      "incapacitation": null,
+      "incapacitatedSince": null
+    },
+    "voiceId": "brian",
+    "spriteConfig": {
+      "bodyType": "male",
+      "layers": [
+        {
+          "type": "body",
+          "optionId": "body_base",
+          "tint": 11373408
+        },
+        {
+          "type": "body",
+          "optionId": "body_universal",
+          "tint": 11373408
+        },
+        {
+          "type": "eyes",
+          "optionId": "eyes_eyes",
+          "tint": 8423560
+        },
+        {
+          "type": "facial",
+          "optionId": "facial_beard",
+          "tint": 8421504
+        },
+        {
+          "type": "legs",
+          "optionId": "legs_white_pants_male",
+          "tint": 1710618
+        },
+        {
+          "type": "feet",
+          "optionId": "feet_white_boots_male",
+          "tint": 9127187
+        },
+        {
+          "type": "belt",
+          "optionId": "belt_wulax_belt_rope_male",
+          "tint": 13808780
+        },
+        {
+          "type": "hands",
+          "optionId": "hands_white_gloves_male",
+          "tint": 8421504
+        },
+        {
+          "type": "head",
+          "optionId": "head_cloth_hood_male",
+          "tint": 3815994
+        }
+      ],
+      "spriteHash": "ae9717fc71cea97e",
+      "spriteUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/sprites/generated/ae9717fc71cea97e.png"
+    }
+  },
+  "position": {
+    "x": 1520,
+    "y": 208,
+    "width": 32,
+    "height": 48,
+    "parent": "PLACE_ashglass_fissure"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/gaardia/images/characters/CHAR_thane_lorrick.png?v=1772212493519",
+  "faceAnchorY": 0.17,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "talk"
+  },
+  "relationships": [
+    {
+      "targetId": "CHAR_orrin_vask",
+      "type": "colleague",
+      "disposition": 10,
+      "familiarity": 50,
+      "context": "Both are Gaardia-born undead stationed in the Ashglass Fissure with near-identical compulsions: patrolling/guarding passageways and attacking intruders. Likely part of the same fissure-warding cohort.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_sereth_marrow",
+      "type": "colleague",
+      "disposition": 10,
+      "familiarity": 50,
+      "context": "Both operate within the Ashglass Fissure enforcing boundary-lines and trespass routines, suggesting coordinated warding roles even if one is more verbal/legalistic.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_edran_morholt",
+      "type": "acquaintance",
+      "disposition": 0,
+      "familiarity": 40,
+      "context": "Co-located undead revenants in the Ashglass Fissure; likely aware of each other’s presence/paths but not capable of meaningful social ties.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_thane_rusk",
+      "type": "acquaintance",
+      "disposition": 0,
+      "familiarity": 40,
+      "context": "Both are Ashglass Fissure-based undead following simple guard/stalk compulsions; likely encounter one another along repeated patrol routes without true coordination.",
+      "pendingGeneration": false
+    }
+  ],
+  "important": false
+}

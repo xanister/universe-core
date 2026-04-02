@@ -1,0 +1,72 @@
+{
+  "spriteId": "table_square",
+  "gridWidth": 3,
+  "gridHeight": 3,
+  "tileSize": 32,
+  "tiles": [
+    {
+      "tilesetId": "furniture-dark",
+      "srcX": 128,
+      "srcY": 160,
+      "col": 0,
+      "row": 0
+    },
+    {
+      "tilesetId": "furniture-dark",
+      "srcX": 160,
+      "srcY": 160,
+      "col": 1,
+      "row": 0
+    },
+    {
+      "tilesetId": "furniture-dark",
+      "srcX": 192,
+      "srcY": 160,
+      "col": 2,
+      "row": 0
+    },
+    {
+      "tilesetId": "furniture-dark",
+      "srcX": 128,
+      "srcY": 192,
+      "col": 0,
+      "row": 1
+    },
+    {
+      "tilesetId": "furniture-dark",
+      "srcX": 160,
+      "srcY": 192,
+      "col": 1,
+      "row": 1
+    },
+    {
+      "tilesetId": "furniture-dark",
+      "srcX": 192,
+      "srcY": 192,
+      "col": 2,
+      "row": 1
+    },
+    {
+      "tilesetId": "furniture-dark",
+      "srcX": 128,
+      "srcY": 224,
+      "col": 0,
+      "row": 2
+    },
+    {
+      "tilesetId": "furniture-dark",
+      "srcX": 160,
+      "srcY": 224,
+      "col": 1,
+      "row": 2
+    },
+    {
+      "tilesetId": "furniture-dark",
+      "srcX": 192,
+      "srcY": 224,
+      "col": 2,
+      "row": 2
+    }
+  ],
+  "updatedAt": "2026-02-20T19:37:49.211Z"
+}

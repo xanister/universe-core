@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_quietus_sleeper_cell",
+  "label": "Quietus Sleeper Cell",
+  "description": "Quietus Sleeper Cell constitutes a compact lodging chamber carved into the Polarized Cask’s sound-damping ribwork, sealed behind a pressure-rated iris panel. Its walls are lined with matte black-ceramic and prismatic inset strips that refract the port’s copper-white twilight into narrow, regulated bands. A recessed berth and fold-down work niche are integrated into vitrified glass cabinetry, their surfaces threaded with static-discharge channels that mirror Vesperglass System’s charged debris arcs. Vent baffles and condensate traps enforce the tavern’s defining hush, reducing mechanical resonance to a low, stable silence.",
+  "short_description": "hushed prismatic bunkroom",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "bedroom",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "door_wooden",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/hushlight_expanse/images/battles/PLACE_quietus_sleeper_cell.png?v=1772313977518",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 1168,
+    "y": 160,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_the_polarized_cask",
+    "innerWidth": 608,
+    "innerHeight": 640
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/hushlight_expanse/images/places/PLACE_quietus_sleeper_cell.png?v=1772314026609",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

@@ -1,0 +1,23 @@
+{
+  "id": "bed_single",
+  "name": "Bed",
+  "description": "A single bed",
+  "purposes": [
+    "sleeping"
+  ],
+  "tags": [
+    "common",
+    "furniture",
+    "sleeping",
+    "ship"
+  ],
+  "solid": true,
+  "layer": "default",
+  "spriteId": "bed_single",
+  "materials": [
+    "wood",
+    "fabric"
+  ],
+  "tintable": false,
+  "lightSource": null
+}

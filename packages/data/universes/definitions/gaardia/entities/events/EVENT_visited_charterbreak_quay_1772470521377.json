@@ -1,0 +1,16 @@
+{
+  "id": "EVENT_visited_charterbreak_quay_1772470521377",
+  "date": "07.01.11 4A 19:38",
+  "placeId": "PLACE_charterbreak_quay",
+  "important": false,
+  "importanceScore": null,
+  "scope": null,
+  "relevantPlaceIds": null,
+  "eventType": "location_visited",
+  "category": "world",
+  "subject": "Charterbreak Quay",
+  "subjectId": "PLACE_charterbreak_quay",
+  "fact": "Visited Charterbreak Quay",
+  "significance": "minor",
+  "witnessIds": null
+}

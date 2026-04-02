@@ -1,0 +1,20 @@
+{
+  "id": "EVENT_charkorrbrightblade_began_questioning_chartavianroake_about_1772607070490",
+  "date": "11.01.11 4A 08:19",
+  "placeId": "PLACE_the_quenched_pike",
+  "eventType": "turning_point",
+  "category": "world",
+  "subject": "The Quenched Pike",
+  "subjectId": "PLACE_the_quenched_pike",
+  "fact": "CHAR_korr_brightblade began questioning CHAR_tavian_roake about a seal-stamped packet; CHAR_alaric_fenrow entered The Quenched Pike and asserted dockward authority, warning about compromising seal-chain and attempting to take control of witness statement.",
+  "significance": "major",
+  "witnessIds": [
+    "CHAR_korr_brightblade"
+  ],
+  "important": true,
+  "importanceScore": null,
+  "scope": "local",
+  "relevantPlaceIds": [
+    "PLACE_the_quenched_pike"
+  ]
+}

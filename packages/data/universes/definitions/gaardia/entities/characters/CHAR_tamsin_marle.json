@@ -1,0 +1,248 @@
+{
+  "id": "CHAR_tamsin_marle",
+  "label": "Tamsin Marle",
+  "description": "This individual is a human woman of early middle years, with light skinTone and a broad, work-hardened build marked by thickened fingers and prominent knuckles. Brown eyeColor sits beneath heavy lids, giving the face a steady, appraising cast. Brown hairColor is kept in a practical long hairStyle, its line broken by a small notch in one brow and a faint crease-scar at the edge of the mouth. The voice carries the measured cadence of a house accustomed to arguments settled by account and custom rather than spectacle.",
+  "short_description": "aproned female bartender",
+  "tags": [],
+  "entityType": "character",
+  "info": {
+    "purpose": "bartender",
+    "aliases": [
+      "Tam",
+      "Ledger-Tam"
+    ],
+    "birthdate": "1203-09-18",
+    "deathdate": null,
+    "title": null,
+    "birthPlace": "Gaardia",
+    "eyeColor": "brown",
+    "gender": "female",
+    "hairColor": "brown",
+    "hairStyle": "long",
+    "beardStyle": null,
+    "headType": "human_female",
+    "skinTone": "light",
+    "personality": "Disciplined and observant, this bartender runs service with strict measures, a precise memory for faces, and an uncompromising refusal of disorder. They speak plainly, favor routine over improvisation, and maintain firm boundaries while offering competent, unembellished hospitality. Their loyalties attach to the house and its rules, and they treat credit, rumor, and confession as liabilities to be managed.",
+    "race": "human",
+    "messages": [],
+    "journal": [],
+    "sketches": [],
+    "verbosity": 3,
+    "conversationContext": null,
+    "storytellerState": null,
+    "isPlayer": false,
+    "storyComplete": false,
+    "routine": {
+      "schedule": {
+        "dawn": "home",
+        "morning": "work",
+        "afternoon": "work",
+        "evening": "work",
+        "night": "home"
+      },
+      "home": {
+        "placeId": "PLACE_ledgerhouse_bedchamber",
+        "description": "Quarters near The Black Ledger",
+        "areaHint": null
+      },
+      "work": {
+        "placeId": "PLACE_the_black_ledger",
+        "description": "The Black Ledger",
+        "areaHint": null
+      },
+      "leisure": null,
+      "variance": 0.2,
+      "activities": {
+        "work": "tavern_work"
+      }
+    },
+    "vesselRoutes": null,
+    "abstractLocation": null,
+    "npcBehavior": null,
+    "physicalState": null,
+    "pendingDeparture": null,
+    "pendingArrival": null,
+    "lastRoutineCheckPeriod": null,
+    "startingNarrative": null,
+    "startingCharacterState": null,
+    "clothing": [
+      {
+        "slot": "torso_under",
+        "itemId": "longsleeve",
+        "color": "#f5f0e8",
+        "contents": null
+      },
+      {
+        "slot": "torso_mid",
+        "itemId": "apron",
+        "color": "#1a1a1a",
+        "contents": null
+      },
+      {
+        "slot": "torso_over",
+        "itemId": "formal_jacket",
+        "color": null,
+        "contents": null
+      },
+      {
+        "slot": "legs",
+        "itemId": "formal_pants",
+        "color": "#3a3a3a",
+        "contents": null
+      },
+      {
+        "slot": "feet",
+        "itemId": "shoes",
+        "color": null,
+        "contents": null
+      },
+      {
+        "slot": "belt",
+        "itemId": "leather_belt",
+        "color": "#8b4513",
+        "contents": []
+      },
+      {
+        "slot": "hands",
+        "itemId": "cloth_gloves",
+        "color": "#808080",
+        "contents": null
+      }
+    ],
+    "enabledOverlayLayers": [
+      "eyes",
+      "facial"
+    ],
+    "helmingVesselId": null,
+    "storytellerDisabled": false,
+    "rulesetState": {
+      "stats": {},
+      "conditions": [],
+      "statUsage": {},
+      "incapacitation": null,
+      "incapacitatedSince": null
+    },
+    "voiceId": "bella",
+    "spriteConfig": {
+      "bodyType": "female",
+      "layers": [
+        {
+          "type": "body",
+          "optionId": "body_base",
+          "tint": 15780008
+        },
+        {
+          "type": "body",
+          "optionId": "body_universal",
+          "tint": 15780008
+        },
+        {
+          "type": "eyes",
+          "optionId": "eyes_eyes",
+          "tint": 7029286
+        },
+        {
+          "type": "hair",
+          "optionId": "hair_long",
+          "tint": 7029286
+        },
+        {
+          "type": "torso",
+          "optionId": "torso_white_longsleeve_v3_female",
+          "tint": 16117992
+        },
+        {
+          "type": "torso",
+          "optionId": "torso_white_apron_female",
+          "tint": 1710618
+        },
+        {
+          "type": "feet",
+          "optionId": "feet_white_shoes_female",
+          "tint": 9127187
+        },
+        {
+          "type": "belt",
+          "optionId": "belt_leather_female",
+          "tint": 9127187
+        },
+        {
+          "type": "hands",
+          "optionId": "hands_white_gloves_female",
+          "tint": 8421504
+        }
+      ],
+      "spriteHash": "64bd7b8bbbeb74e8",
+      "spriteUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/sprites/generated/64bd7b8bbbeb74e8.png"
+    }
+  },
+  "position": {
+    "x": 296.3,
+    "y": 373.3,
+    "width": 32,
+    "height": 48,
+    "parent": "PLACE_ledgerhouse_bedchamber"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/gaardia/images/characters/CHAR_tamsin_marle.png?v=1772586173841",
+  "faceAnchorY": 0.15,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "talk"
+  },
+  "relationships": [
+    {
+      "targetId": "CHAR_gideon_marr",
+      "type": "colleague",
+      "disposition": 10,
+      "familiarity": 50,
+      "context": "Both are ledger- and rule-focused house staff associated with the Black Ledger/Ledgerhouse; likely work in the same establishment or closely linked operation.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_lenora_quist",
+      "type": "colleague",
+      "disposition": 10,
+      "familiarity": 50,
+      "context": "Both appear to be disciplined keepers of house rules and tabs tied to the Ledgerhouse/Black Ledger sphere; likely coworkers handling service and accounts.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_merris_kade",
+      "type": "colleague",
+      "disposition": 10,
+      "familiarity": 50,
+      "context": "Both are strict-measure house bartenders tied to the Ledgerhouse/Black Ledger operation; likely share shifts or coordinate service/credit.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_sabin_tallow",
+      "type": "colleague",
+      "disposition": 10,
+      "familiarity": 50,
+      "context": "Both are institution-minded publicans enforcing rigorous measure and debt recording within the same Ledgerhouse/Black Ledger milieu.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_tamsin_varrow",
+      "type": "colleague",
+      "disposition": 10,
+      "familiarity": 50,
+      "context": "Both are described as Ledgerhouse-associated bartenders with meticulous tab/measure practices; likely coworkers within the same house system.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_veynor_kelm",
+      "type": "colleague",
+      "disposition": 10,
+      "familiarity": 50,
+      "context": "Both run a bar by rule, measure, and discretion and are placed within the Ledgerhouse/Black Ledger environment; likely work together.",
+      "pendingGeneration": false
+    }
+  ],
+  "important": false
+}

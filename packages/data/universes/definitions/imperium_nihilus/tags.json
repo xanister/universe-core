@@ -1,0 +1,69 @@
+{
+  "tags": [
+    {
+      "tagId": "TAG_merchant",
+      "label": "merchant",
+      "description": "Shrewd purveyor of goods and information who navigates bureaucracy, black markets, and warzones to secure profit and scarce supplies."
+    },
+    {
+      "tagId": "TAG_home_single",
+      "label": "home-single",
+      "description": "Maintains a single permanent dwelling as their sole residence and base of operations."
+    },
+    {
+      "tagId": "TAG_home_shared",
+      "label": "home-shared",
+      "description": "Resides in a communal hab-unit or dwelling with others, sharing scarce resources, chores, and mutual obligations that affect privacy, security, and local reputation."
+    },
+    {
+      "tagId": "TAG_lodging",
+      "label": "lodging",
+      "description": "Imperial accommodations—anything from squalid hab-block bunks and pilgrim hostels to guarded officer cabins—providing rest, modest comforts, gear storage, and temporary safety from the hive's hazards."
+    },
+    {
+      "tagId": "TAG_workplace_tavern",
+      "label": "workplace-tavern",
+      "description": "Works in a tavern—serving drinks, handling rowdy patrons and brawls, and navigating the gossip, debts, and illicit dealings that circulate there."
+    },
+    {
+      "tagId": "TAG_workplace_temple",
+      "label": "workplace-temple",
+      "description": "A ritualized workplace where clerics, functionaries, and servitors perform sanctified labor to maintain reliquaries, sacred machinery, and the cult's strict bureaucratic hierarchy."
+    },
+    {
+      "tagId": "TAG_workplace_shop",
+      "label": "workplace-shop",
+      "description": "Operates or is employed in a retail shop—managing stock, haggling with customers and suppliers, and navigating the dangers and regulations of Imperium Nihilus' marketplaces."
+    },
+    {
+      "tagId": "TAG_workplace_warehouse",
+      "label": "workplace-warehouse",
+      "description": "Sprawling industrial storage facilities within the Imperium’s logistics network where bulk provisions, armaments, salvage and requisitioned goods are sorted, inventoried and dispatched under rigid regulations and relentless labor."
+    },
+    {
+      "tagId": "TAG_workplace_vessel_controls",
+      "label": "workplace-vessel-controls",
+      "description": "The vessel's helm and control consoles where piloting, navigation, power distribution and system commands are executed and managed."
+    },
+    {
+      "tagId": "TAG_guard",
+      "label": "guard",
+      "description": "Disciplined sentry committed to protecting people, locations, and assets through relentless vigilance, perimeter defense, and forceful interception of threats."
+    },
+    {
+      "tagId": "TAG_clerk",
+      "label": "clerk",
+      "description": "Paperwork specialist who maintains records, processes permits, deciphers arcane Imperial regulations, and exploits bureaucratic loopholes to secure access and favors."
+    },
+    {
+      "tagId": "TAG_laborer",
+      "label": "laborer",
+      "description": "Hardened, low-status manual worker accustomed to long shifts in manufactorums, forges, or mines, with high endurance and practical skill but little education or social standing."
+    },
+    {
+      "tagId": "TAG_soldier",
+      "label": "soldier",
+      "description": "Disciplined frontline combatant trained in tactics, firearms, and close-quarters fighting, accustomed to following orders, holding formations, and sustaining operations under harsh battlefield conditions."
+    }
+  ]
+}

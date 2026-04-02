@@ -1,0 +1,18 @@
+{
+  "id": "EVENT_name_revealed_alaric_morn_kaelen_vos_1772032750618",
+  "date": "999.M1 09:28",
+  "placeId": null,
+  "important": false,
+  "importanceScore": null,
+  "scope": null,
+  "relevantPlaceIds": null,
+  "eventType": "name_revealed",
+  "category": "knowledge",
+  "subject": "Kaelen Vos",
+  "subjectId": "CHAR_kaelen_vos",
+  "fact": "Learned the name \"Kaelen Vos\"",
+  "significance": "minor",
+  "witnessIds": [
+    "CHAR_alaric_morn"
+  ]
+}

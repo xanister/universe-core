@@ -1,0 +1,31 @@
+{
+  "id": "candelabra_floor",
+  "name": "Floor Candelabra",
+  "description": "A tall ornate silver candelabra with many candles.",
+  "purposes": [
+    "lighting"
+  ],
+  "tags": [
+    "common",
+    "lighting",
+    "tavern"
+  ],
+  "solid": true,
+  "layer": "default",
+  "spriteId": "candelabra_floor",
+  "materials": [
+    "iron"
+  ],
+  "tintable": false,
+  "animated": true,
+  "lightSource": {
+    "radius": 120,
+    "color": 16755268,
+    "intensity": 0.45,
+    "flicker": true,
+    "flickerSpeed": 200,
+    "flickerRange": 0.1,
+    "offsetX": 0,
+    "offsetY": -20
+  }
+}

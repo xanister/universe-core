@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_the_efflorescent_colonnade",
+  "label": "The Efflorescent Colonnade",
+  "description": "The Efflorescent Colonnade comprises a linear field of fractured basalt pillars arranged in a precise, repeating cadence across Brineshade’s saline flats. Heavy salt efflorescence sheets the stone in pale crusts, preserving tool-cut edges and erasing finer surface inscription under a granular bloom. Low retaining walls and collapsed lintels define former corridors that align to the planet’s high-contrast terminator, producing long, stark shadow bars under Saltharrow’s hard white radiance. Shallow brine pans collect between the foundations, their mineral films recording wind patterns as permanent iridescent veils.",
+  "short_description": "salt-crusted basalt ruins",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "ruins",
+    "environment": {
+      "type": "exterior",
+      "hasWeather": true,
+      "temperature": {
+        "enabled": true,
+        "base": null,
+        "modifiersApply": true
+      },
+      "maxDarkness": null
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "stone_arch_ruins",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/the_brine_lattice/images/battles/PLACE_the_efflorescent_colonnade.png?v=1772314321248",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 1536,
+    "y": 2464,
+    "width": 48,
+    "height": 48,
+    "parent": "PLACE_brineshade",
+    "innerWidth": 3360,
+    "innerHeight": 3616
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/the_brine_lattice/images/places/PLACE_the_efflorescent_colonnade.png?v=1772314375480",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

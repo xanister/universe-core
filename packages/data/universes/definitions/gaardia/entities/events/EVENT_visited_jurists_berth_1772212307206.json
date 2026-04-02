@@ -1,0 +1,18 @@
+{
+  "id": "EVENT_visited_jurists_berth_1772212307206",
+  "date": "01.01.11 4A 12:15",
+  "placeId": "PLACE_jurists_berth",
+  "important": false,
+  "importanceScore": null,
+  "scope": null,
+  "relevantPlaceIds": null,
+  "eventType": "location_visited",
+  "category": "world",
+  "subject": "Jurist's Berth",
+  "subjectId": "PLACE_jurists_berth",
+  "fact": "Visited Jurist's Berth",
+  "significance": "minor",
+  "witnessIds": [
+    "CHAR_korr_brightblade"
+  ]
+}

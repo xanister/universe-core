@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_the_quenched_pike",
+  "label": "The Quenched Pike",
+  "description": "The Quenched Pike serves as a licensed weapon shop set into Cindervale’s older broken masonry, its façade braced with riveted iron straps that match the city’s later bastionwork. A barred counter divides the sales floor from a narrow armory bay, where pikes, billhooks, and crossbows hang in ranked order beneath soot-dark rafters. License-stones are mortared into the lintel and interior wall, listing toll classes, permitted carry within the ring-markers, and strict prohibitions on breach-zone implements. The air carries the permanent tang of quenched steel, oil, and char, and the floorboards are scored by decades of testing edges and balancing hafted arms.",
+  "short_description": "licensed arms shop",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "weapon_shop",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "building_shop",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/gaardia/images/battles/PLACE_the_quenched_pike.png?v=1772208626457",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 528,
+    "y": 1568,
+    "width": 160,
+    "height": 256,
+    "parent": "PLACE_cindervale",
+    "innerWidth": 1856,
+    "innerHeight": 928
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/gaardia/images/places/PLACE_the_quenched_pike.png?v=1772208677824",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

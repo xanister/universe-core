@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_the_brinewind_hollow",
+  "label": "The Brinewind Hollow",
+  "description": "The Brinewind Hollow forms a deep cavity cut into Darksalt Rampart’s columnar basalt, where evaporite seams thicken into pale ribs along the walls. The floor consists of fractured plates and salt-dusted talus, arranged in terraces that reflect the massif’s persistent tidal stresses. Mineral haze pools in the lower reaches, turning Saltharrow’s hard white spill-light into a stark, high-contrast sheen on glassy bands of rock. Narrow fissures in the back wall vent thin atmospheric currents that keep the chamber perpetually cold and abrasive.",
+  "short_description": "salt-veined basalt cave",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "cave",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.9
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "stone_arch_ruins",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/the_brine_lattice/images/battles/PLACE_the_brinewind_hollow.png?v=1772314205084",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 2752,
+    "y": 2720,
+    "width": 48,
+    "height": 48,
+    "parent": "PLACE_darksalt_rampart",
+    "innerWidth": 1696,
+    "innerHeight": 3200
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/the_brine_lattice/images/places/PLACE_the_brinewind_hollow.png?v=1772314255072",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

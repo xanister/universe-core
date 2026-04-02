@@ -1,0 +1,60 @@
+{
+  "id": "PLACE_meridian_sleeper_cell",
+  "label": "Meridian Sleeper Cell",
+  "description": "Meridian Sleeper Cell is a compact stateroom set between the Latticewake’s vitreous ribs, its prismatic wall-panels tuned to admit only the Filament Gallery’s most stable bands of refracted glare. A recessed berth is built into the dark crystalline tilework, its rectilinear scoring continued up the bedframe to preserve the ship’s bearing grid even at rest. Glass-collared lockers and a sealed writing niche are inset flush with the ribs, their seams tarred against the abrasive shear fronts that scour Kharion Prismworld’s laminar skies. Overhead, exposed filament conduits run in a shallow channel, their measured harmonics damped by quilted baffles to keep the chamber’s geometry quiet and exact.",
+  "short_description": "prismatic sleeper cabin",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "bedroom",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "door_wooden",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/the_hollow_lattice/images/battles/PLACE_meridian_sleeper_cell.png?v=1772314090921",
+    "inheritedRequiredTags": [
+      "ship"
+    ]
+  },
+  "position": {
+    "x": 144,
+    "y": 160,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_filament_gallery",
+    "innerWidth": 544,
+    "innerHeight": 640
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/the_hollow_lattice/images/places/PLACE_meridian_sleeper_cell.png?v=1772314149406",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

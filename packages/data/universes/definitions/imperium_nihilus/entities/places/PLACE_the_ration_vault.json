@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_the_ration_vault",
+  "label": "The Ration Vault",
+  "description": "The Ration Vault serves as the secured back-stock chamber of The Iron Covenant, enclosed in ferrocrete and ribbed plasteel beneath the enclave’s soot-dark vaulting. Regimental shelving bays hold sealed munition tins, weapon components, and oil-treated wraps, each stack banded with stenciled codes and tally plaques suited to siege accounting. Cold lumen strips run in narrow channels along the ceiling ribs, casting hard shadows across lockboxes and shrink-wrapped crates. The space remains dry with preservative vapors, and its fittings prioritize rapid inventory, blackout handling, and immediate withdrawal to the transaction grille.",
+  "short_description": "coded armory stockroom",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "storage_room",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.9
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "door_wooden",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/battles/PLACE_the_ration_vault.png?v=1771996535027",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 1488,
+    "y": 416,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_the_iron_covenant",
+    "innerWidth": 448,
+    "innerHeight": 512
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/places/PLACE_the_ration_vault.png?v=1771996583829",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

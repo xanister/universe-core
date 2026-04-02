@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_ashfall_ledgerhouse",
+  "label": "Ashfall Ledgerhouse",
+  "description": "Ashfall Ledgerhouse serves as a fortified warehouse of black basalt and slagcrete, its windowless walls banded with rusted ceramite strapping against ash-driven abrasion. The interior is divided by numbered aisles of cage-stacks and sealed munitorum pallets, with overhead chain-rails and a recessed tally bay protected behind plasteel shutters. Electrostatic stormlight leaks through narrow clerestory slits, casting violet reflections across vitrified flooring scored by heavy hauler tracks. Vox-suppression baffles and insulated conduit runs line the rafters, built to preserve inventory integrity amid Ashenward City’s constant atmospheric interference.",
+  "short_description": "fortified ash warehouse",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "warehouse",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "small_walled_town",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/battles/PLACE_ashfall_ledgerhouse.png?v=1771959279208",
+    "inheritedRequiredTags": null,
+    "timeScale": 1
+  },
+  "position": {
+    "x": 992,
+    "y": 2080,
+    "width": 48,
+    "height": 48,
+    "parent": "PLACE_vespera_tertius_ashenward_city",
+    "innerWidth": 2784,
+    "innerHeight": 3744
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/places/PLACE_ashfall_ledgerhouse.png?v=1771959332617",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

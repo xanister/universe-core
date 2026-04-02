@@ -1,0 +1,22 @@
+{
+  "id": "vanity_stool_green",
+  "name": "Vanity Stool (Green Wood)",
+  "description": "A round upholstered pedestal stool on green-painted wood legs.",
+  "purposes": [
+    "seating"
+  ],
+  "tags": [
+    "common",
+    "furniture",
+    "bedroom",
+    "seating"
+  ],
+  "solid": false,
+  "layer": "default",
+  "spriteId": "vanity_stool_green",
+  "materials": [
+    "wood",
+    "fabric"
+  ],
+  "tintable": false
+}

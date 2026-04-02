@@ -1,0 +1,48 @@
+{
+  "id": "OBJ_continuum_anchorage_player_start_marker_0005",
+  "label": "Spawn Point",
+  "description": "Player starting position marker",
+  "important": false,
+  "short_description": "spawn point",
+  "tags": [],
+  "entityType": "object",
+  "info": {
+    "purpose": "player_start",
+    "solid": false,
+    "layer": "floor",
+    "isStructural": true,
+    "material": null,
+    "tint": null,
+    "spriteConfig": {
+      "spriteId": null,
+      "frame": null,
+      "animationKey": null,
+      "animated": false,
+      "facing": "south"
+    },
+    "hp": null,
+    "maxHp": null,
+    "state": null,
+    "contents": null,
+    "lightSource": null,
+    "itemId": null,
+    "plotId": null
+  },
+  "position": {
+    "x": 1296,
+    "y": 1440,
+    "width": 32,
+    "height": 32,
+    "parent": "PLACE_continuum_anchorage"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "relationships": [],
+  "image": null,
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": null
+}

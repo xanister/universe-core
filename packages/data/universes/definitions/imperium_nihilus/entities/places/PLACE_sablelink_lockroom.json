@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_sablelink_lockroom",
+  "label": "Sablelink Lockroom",
+  "description": "Sablelink Lockroom is a compact storage chamber partitioned from the flat’s slagcrete spine, its black vitrystone tiles dulled by constant ash-seal maintenance. Overarmored ceiling conduits descend into a fused-plas cabling chase and a rack of sealed bins, each gasketed against electrostatic bleed and grit intrusion. A pressure-clamped hatch and floor scupper channel form the room’s primary defenses, isolating kept goods from the skyway’s vibration and auroral backwash. The air retains the dry tang of sealant and ozone, and every surface is designed for wipe-down and tight inventory stacking.",
+  "short_description": "sealed storage lockroom",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "storage_room",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.9
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "door_wooden",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/battles/PLACE_sablelink_lockroom.png?v=1771950908729",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 464,
+    "y": 160,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_sablelink_skyway_flat",
+    "innerWidth": 512,
+    "innerHeight": 608
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/places/PLACE_sablelink_lockroom.png?v=1771950961823",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

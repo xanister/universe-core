@@ -1,0 +1,52 @@
+{
+  "id": "OBJ_chapel_of_the_shrouded_astronomican_chair_0311",
+  "label": "Chair",
+  "description": "A simple wooden chair",
+  "important": false,
+  "short_description": "chair",
+  "tags": [
+    "common",
+    "furniture",
+    "seating"
+  ],
+  "entityType": "object",
+  "info": {
+    "purpose": "seating",
+    "solid": true,
+    "layer": "default",
+    "isStructural": false,
+    "material": null,
+    "tint": null,
+    "spriteConfig": {
+      "spriteId": "chair",
+      "frame": null,
+      "animationKey": null,
+      "animated": false,
+      "facing": "north"
+    },
+    "hp": null,
+    "maxHp": null,
+    "state": null,
+    "contents": null,
+    "lightSource": null,
+    "itemId": null,
+    "plotId": null
+  },
+  "position": {
+    "x": 1328,
+    "y": 2176,
+    "width": 32,
+    "height": 32,
+    "parent": "PLACE_chapel_of_the_shrouded_astronomican"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "relationships": [],
+  "image": null,
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": null
+}

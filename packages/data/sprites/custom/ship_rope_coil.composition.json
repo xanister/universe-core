@@ -1,0 +1,16 @@
+{
+  "spriteId": "ship_rope_coil",
+  "gridWidth": 1,
+  "gridHeight": 1,
+  "tileSize": 32,
+  "tiles": [
+    {
+      "tilesetId": "ship-accessories",
+      "srcX": 0,
+      "srcY": 160,
+      "col": 0,
+      "row": 0
+    }
+  ],
+  "updatedAt": "2026-02-20T23:44:40.396Z"
+}

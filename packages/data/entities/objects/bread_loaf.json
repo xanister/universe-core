@@ -1,0 +1,18 @@
+{
+  "id": "bread_loaf",
+  "name": "Bread Loaf",
+  "description": "A round loaf of bread.",
+  "purposes": [
+    "decoration"
+  ],
+  "tags": [
+    "common",
+    "food",
+    "tavern"
+  ],
+  "solid": false,
+  "layer": "default",
+  "spriteId": "bread_loaf",
+  "materials": [],
+  "tintable": false
+}

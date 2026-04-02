@@ -1,0 +1,18 @@
+{
+  "id": "EVENT_visited_registry_stores_1772239649869",
+  "date": "02.01.11 4A 09:22",
+  "placeId": "PLACE_registry_stores",
+  "important": false,
+  "importanceScore": null,
+  "scope": null,
+  "relevantPlaceIds": null,
+  "eventType": "location_visited",
+  "category": "world",
+  "subject": "Registry Stores",
+  "subjectId": "PLACE_registry_stores",
+  "fact": "Visited Registry Stores",
+  "significance": "minor",
+  "witnessIds": [
+    "CHAR_korr_brightblade"
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_chapel_of_the_shrouded_astronomican",
+  "label": "Chapel of the Shrouded Astronomican",
+  "description": "The Chapel of the Shrouded Astronomican stands as a buttressed nave of black vitrified stone set deep within Nocturnis Bastion’s interlocked tiers, its walls ribbed with ceramite struts to endure electrostatic stormshock. Slit-like clerestories admit bruise-colored auroral spill, staining the altar dais and the high reliefs with a perpetual, rift-lit dusk. Vox-damping baffles and overbuilt beacon housings are integrated into the transepts, reflecting the city’s constant battle against interference and corrupted signal. The floor is paved in polished basalt plates incised with penitential litanies and scored by ash-ground grit carried in from the shielded causeways.",
+  "short_description": "rift-lit basalt chapel",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "temple",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "world_map_temple",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/battles/PLACE_chapel_of_the_shrouded_astronomican.png?v=1771951045531",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 368,
+    "y": 672,
+    "width": 96,
+    "height": 96,
+    "parent": "PLACE_vespera_tertius_nocturnis_bastion",
+    "innerWidth": 2688,
+    "innerHeight": 4416
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/places/PLACE_chapel_of_the_shrouded_astronomican.png?v=1771951098133",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

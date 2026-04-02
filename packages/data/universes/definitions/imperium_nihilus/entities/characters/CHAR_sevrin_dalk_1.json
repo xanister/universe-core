@@ -1,0 +1,257 @@
+{
+  "id": "CHAR_sevrin_dalk_1",
+  "label": "Sevrin Dalk",
+  "description": "This individual is a broad-shouldered adult male of human stock, marked by a bronze skinTone that reflects prolonged exposure to open air and dust. Brown eyes sit deep beneath heavy brows, giving the face a fixed watchfulness reinforced by a square jaw and close-set cheekbones. Black hair is kept in a shortknot to clear the temples and leave the profile unobstructed. The body shows the thickened neck and forearm density typical of long service under load-bearing equipment and repeated drill.",
+  "short_description": "male bastion sentry",
+  "tags": [],
+  "entityType": "character",
+  "info": {
+    "purpose": "guard",
+    "aliases": [
+      "Gate-Line Sevrin",
+      "Dalk of the South Ramp"
+    ],
+    "birthdate": "796.M41",
+    "deathdate": null,
+    "title": null,
+    "birthPlace": "Cyrenth Bastion-City",
+    "eyeColor": "brown",
+    "gender": "male",
+    "hairColor": "black",
+    "hairStyle": "shortknot",
+    "beardStyle": "stubble",
+    "headType": "human_male",
+    "skinTone": "bronze",
+    "personality": "Disciplined and procedural, he enforces gate protocol without improvisation, favors clear challenges and repeatable routines, and treats every approach as a test of compliance. He maintains an impersonal professionalism, reserving speech for warnings, identifiers, and orders, and measures trust strictly by documented authorization.",
+    "race": "human",
+    "messages": [],
+    "journal": [],
+    "sketches": [],
+    "verbosity": 3,
+    "conversationContext": null,
+    "storytellerState": null,
+    "isPlayer": false,
+    "storyComplete": false,
+    "routine": {
+      "schedule": {
+        "dawn": "work",
+        "morning": "work",
+        "afternoon": "work",
+        "evening": "leisure",
+        "night": "home"
+      },
+      "home": {
+        "placeId": "PLACE_cyrenth_bastioncity",
+        "description": "Cyrenth Bastion-City",
+        "areaHint": null
+      },
+      "work": {
+        "placeId": "PLACE_cyrenth_bastioncity",
+        "description": "Cyrenth Bastion-City",
+        "areaHint": null
+      },
+      "leisure": null,
+      "variance": 0.2,
+      "activities": {
+        "work": "guard_duty"
+      }
+    },
+    "vesselRoutes": null,
+    "abstractLocation": null,
+    "npcBehavior": null,
+    "physicalState": null,
+    "pendingDeparture": null,
+    "pendingArrival": null,
+    "lastRoutineCheckPeriod": null,
+    "startingNarrative": null,
+    "startingCharacterState": null,
+    "clothing": [
+      {
+        "slot": "torso_under",
+        "itemId": "longsleeve",
+        "color": "#f5f0e8",
+        "contents": null
+      },
+      {
+        "slot": "torso_over",
+        "itemId": "leather_armor",
+        "color": "#8b4513",
+        "contents": null
+      },
+      {
+        "slot": "torso_top",
+        "itemId": "leather_armor_shoulders",
+        "color": "#8b4513",
+        "contents": null
+      },
+      {
+        "slot": "legs",
+        "itemId": "cloth_pants",
+        "color": "#3a3a3a",
+        "contents": null
+      },
+      {
+        "slot": "feet",
+        "itemId": "boots",
+        "color": "#1a1a1a",
+        "contents": null
+      },
+      {
+        "slot": "belt",
+        "itemId": "leather_belt",
+        "color": "#8b4513",
+        "contents": [
+          {
+            "id": "ci_1772037332657_j8fc91",
+            "itemId": "sash",
+            "name": "sash",
+            "description": null,
+            "type": "weapon",
+            "quantity": 1,
+            "color": "#cc2222",
+            "equipSlot": "weapon",
+            "plotId": null
+          }
+        ]
+      },
+      {
+        "slot": "hands",
+        "itemId": "leather_bracers",
+        "color": "#8b4513",
+        "contents": null
+      },
+      {
+        "slot": "head",
+        "itemId": "leather_cap",
+        "color": "#1a1a1a",
+        "contents": null
+      }
+    ],
+    "enabledOverlayLayers": [
+      "eyes",
+      "facial"
+    ],
+    "helmingVesselId": null,
+    "storytellerDisabled": false,
+    "rulesetState": {
+      "stats": {
+        "physical": 50,
+        "mental": 50,
+        "social": 50,
+        "poise": 50,
+        "max_poise": 50,
+        "bloodloss": 0,
+        "anxiety": 0,
+        "fatigue": 0,
+        "hunger": 0
+      },
+      "conditions": [],
+      "statUsage": {},
+      "incapacitation": null,
+      "incapacitatedSince": null
+    },
+    "voiceId": "daniel",
+    "spriteConfig": {
+      "bodyType": "male",
+      "layers": [
+        {
+          "type": "body",
+          "optionId": "body_base",
+          "tint": 11373408
+        },
+        {
+          "type": "body",
+          "optionId": "body_universal",
+          "tint": 11373408
+        },
+        {
+          "type": "eyes",
+          "optionId": "eyes_eyes",
+          "tint": 7029286
+        },
+        {
+          "type": "facial",
+          "optionId": "facial_beard",
+          "tint": 1710618
+        },
+        {
+          "type": "hair",
+          "optionId": "hair_shortknot",
+          "tint": 1710618
+        },
+        {
+          "type": "torso",
+          "optionId": "torso_white_longsleeve",
+          "tint": 16117992
+        },
+        {
+          "type": "torso",
+          "optionId": "torso_white_leather_armor_male",
+          "tint": 9127187
+        },
+        {
+          "type": "torso",
+          "optionId": "torso_wulax_leather_armor_shoulders_male",
+          "tint": 9127187
+        },
+        {
+          "type": "legs",
+          "optionId": "legs_white_pants_male",
+          "tint": 3815994
+        },
+        {
+          "type": "feet",
+          "optionId": "feet_white_boots_male",
+          "tint": 1710618
+        },
+        {
+          "type": "belt",
+          "optionId": "belt_leather_male",
+          "tint": 9127187
+        },
+        {
+          "type": "hands",
+          "optionId": "hands_leather_bracers_male",
+          "tint": 9127187
+        },
+        {
+          "type": "head",
+          "optionId": "head_leather_cap_male",
+          "tint": 1710618
+        }
+      ],
+      "spriteHash": "131d2a89ad9a04b7",
+      "spriteUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/sprites/generated/131d2a89ad9a04b7.png",
+      "spriteScale": 1
+    }
+  },
+  "position": {
+    "x": 1296,
+    "y": 2064,
+    "width": 32,
+    "height": 48,
+    "parent": "PLACE_cyrenth_bastioncity"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/characters/CHAR_sevrin_dalk_1.png?v=1772037393898",
+  "faceAnchorY": 0.23,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "talk"
+  },
+  "relationships": [
+    {
+      "targetId": "CHAR_jorren_halvek",
+      "type": "colleague",
+      "disposition": 10,
+      "familiarity": 50,
+      "context": "Both are disciplined bastion sentries in Cyrenth Bastion-City with similar gate-protocol-focused demeanors, making a direct professional working relationship likely.",
+      "pendingGeneration": false
+    }
+  ],
+  "important": false
+}

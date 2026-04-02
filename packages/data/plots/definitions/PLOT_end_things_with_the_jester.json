@@ -1,0 +1,265 @@
+{
+  "id": "PLOT_end_things_with_the_jester",
+  "label": "End things with the Jester",
+  "description": "A beloved noble's romance curdles into a string of intimate humiliations and quiet murders. Someone in motley is turning affection into a weapon—and your choices will decide who deserves saving.",
+  "plot": "When The Noble Bride announces a secret engagement, the court erupts in pranks that cut too precisely to be harmless, and the victims are always people closest to her. The culprit is The Court Jester, an enchanting performer and scorned lover who uses glamour-magic, staged \"comedy,\" and blackmail gleaned from pillow-talk to isolate the bride and ruin her fiancé, The Honorable Knight. The party is hired by The Confessor to quietly find who is orchestrating the attacks before scandal becomes bloodshed. Midway through, the players learn the \"engagement\" is itself a political lie: the bride planned to marry for leverage and used the jester's devotion as cover, igniting his jealousy into revenge. In a twist, the jester offers the party a deal—help him expose the bride's betrayal publicly and he will spare the knight—forcing the players to choose between merciful deception and cruel truth. The climax unfolds at a masked gala where the jester intends to bind the bride with a vow-curse in front of the court; depending on player choices, the jester can become a condemned monster, a bitter ally, or the only person willing to tell the truth out loud.",
+  "characters": [
+    {
+      "matchHint": "masked court jester with glamour magic and scorned-lover vengeance",
+      "role": "antagonist",
+      "description": "A fair-skinned, lithe performer with sharp, attractive features and pale grey eyes that glitter with barely concealed mischief; hair cropped short on the sides and longer on top, artfully disheveled. He wears black-and-white motley and a polished white porcelain half-mask fixed in an enigmatic smile, moving with dancer's ease and predatory cheer.",
+      "publicFace": "The court's irresistible troublemaker—harmless, hilarious, and inexplicably forgiven for every trespass.",
+      "hiddenTruth": "A scorned lover whose jealousy has metastasized into revenge; he's using glamour, secrets, and staged tragedies to make the bride 'choose' him again—or lose everything in public.",
+      "locationHint": "Wherever the laughter is loudest: the palace galleries, backstage at the court theater, and the servants' corridors no one admits exist.",
+      "introductionProgress": 20
+    },
+    {
+      "matchHint": "poised noble bride with political secrets",
+      "role": "client",
+      "description": "A poised young noble with raven hair pinned in mourning fashion despite wearing jewels; her voice is soft, controlled, and always a half-breath from tears. Perfume of crushed violets clings to her, and her hands never stop worrying a signet ring.",
+      "publicFace": "A romantic heroine trapped by court politics, begging for discreet protection and a chance at true love.",
+      "hiddenTruth": "She engineered the engagement as a power move and used the jester's devotion as cover; she fears exposure more than death and will sacrifice reputations—including the party's—to keep her 'innocence' intact.",
+      "locationHint": "The palace's veiled conservatory and her private balcony overlooking the canal.",
+      "introductionProgress": 15
+    },
+    {
+      "matchHint": "honorable knight fiancé being blackmailed",
+      "role": "victim",
+      "description": "A broad-shouldered knight in dark lacquered armor with prayer-scripts etched along the edges; his tired eyes scan rooms like battlefields. He speaks bluntly, as if honesty is a penance.",
+      "publicFace": "The honorable fiancé, a stabilizing force who wants to end the pranks without scandal or cruelty.",
+      "hiddenTruth": "He's being blackmailed over a past mercy-killing on campaign; the jester has the proof and is steering him toward a public disgrace (or a 'romantic' suicide) to complete the joke.",
+      "locationHint": "The palace training yard at dawn, and the shrine-crypt beneath the chapel.",
+      "introductionProgress": 35
+    },
+    {
+      "matchHint": "severe priestess confessor who seeks truth",
+      "role": "informant",
+      "description": "A severe priestess in ash-gray robes with ink-stained fingers and a lantern that smells of myrrh; her gaze is steady and unflinching. She listens more than she speaks, then says exactly the sentence that hurts.",
+      "publicFace": "A confessor trying to prevent bloodshed and save the bride from scandal through quiet investigation.",
+      "hiddenTruth": "She believes truth is a cleansing fire; she will guide the party toward revelations even if it destroys the bride, because she thinks the court's rot must be cauterized.",
+      "locationHint": "The chapel's confessionals and the record-room of sealed sins.",
+      "introductionProgress": 10
+    }
+  ],
+  "places": [
+    {
+      "matchHint": "gilded palace of mirrored halls and court intrigue",
+      "description": "A gilded labyrinth of mirrored halls and velvet shadows, where laughter echoes like a threat and every corridor has a listening servant behind the tapestry.",
+      "storyRole": "Primary stage for social warfare; clues hide in guest lists, love letters, servant routes, and who has access to the bride's private rooms."
+    },
+    {
+      "matchHint": "court theater with backstage illusions and trapdoors",
+      "description": "An opulent playhouse perfumed with powder and candle-smoke; backstage is a jungle of ropes, trapdoors, and painted lies.",
+      "storyRole": "The jester's workshop for illusions and staged 'accidents'; the party can find props used in real crimes and names in the troupe ledger."
+    },
+    {
+      "matchHint": "chapel with confessionals and sealed testimony crypt",
+      "description": "A dim sanctuary of black stone and silver votives where prayers sound like confessions; beneath it, a crypt stores sealed testimonies and condemned relics.",
+      "storyRole": "Where hidden truths surface—the knight's secret, the bride's recorded vows, and the ritual mechanics of the jester's vow-curse."
+    }
+  ],
+  "items": [],
+  "turningPoints": [
+    {
+      "id": "TP_inciting_prankfuneral",
+      "progressTarget": 0,
+      "dramaticRole": "inciting_incident",
+      "involvedCharacter": "masked court jester with glamour magic and scorned-lover vengeance",
+      "essentialInformation": [
+        "A courtier has been attacked using magical means at a court gathering",
+        "A performer in motley with a porcelain mask is responsible",
+        "The attacks are connected to the Noble Bride"
+      ],
+      "triggerConditions": null,
+      "conditionTimeoutHours": null,
+      "conditionsEligibleSince": null
+    },
+    {
+      "id": "TP_rising_blackmailthread",
+      "progressTarget": 40,
+      "dramaticRole": "rising_action",
+      "involvedCharacter": "severe priestess confessor who seeks truth",
+      "essentialInformation": [
+        "Evidence links the jester to the court theater",
+        "The bride and jester had a prior relationship",
+        "Some of the evidence appears to be forged with glamour magic"
+      ],
+      "triggerConditions": null,
+      "conditionTimeoutHours": null,
+      "conditionsEligibleSince": null
+    },
+    {
+      "id": "TP_midpoint_dealwithdevil",
+      "progressTarget": 55,
+      "dramaticRole": "midpoint",
+      "involvedCharacter": "masked court jester with glamour magic and scorned-lover vengeance",
+      "essentialInformation": [
+        "The bride manipulated everyone, including the jester",
+        "The knight can be spared if the player cooperates",
+        "The jester wants to expose the bride at the upcoming gala"
+      ],
+      "triggerConditions": null,
+      "conditionTimeoutHours": null,
+      "conditionsEligibleSince": null
+    },
+    {
+      "id": "TP_crisis_bride_unmasked",
+      "progressTarget": 70,
+      "dramaticRole": "crisis",
+      "involvedCharacter": "poised noble bride with political secrets",
+      "essentialInformation": [
+        "The bride's engagement is a political arrangement, not true love",
+        "The jester was used as a secret lover to distract rivals",
+        "The bride wants the player to condemn the jester falsely"
+      ],
+      "triggerConditions": null,
+      "conditionTimeoutHours": null,
+      "conditionsEligibleSince": null
+    },
+    {
+      "id": "TP_climax_vowcurse_gala",
+      "progressTarget": 90,
+      "dramaticRole": "climax",
+      "involvedCharacter": "honorable knight fiancé being blackmailed",
+      "essentialInformation": [
+        "A vow-curse ritual is being performed disguised as comedy",
+        "The ritual will either bind the bride or destroy her reputation",
+        "The knight is being pushed toward public ruin or death"
+      ],
+      "triggerConditions": null,
+      "conditionTimeoutHours": null,
+      "conditionsEligibleSince": null
+    },
+    {
+      "id": "TP_resolution_afterlaughter",
+      "progressTarget": 92,
+      "dramaticRole": "resolution",
+      "involvedCharacter": "severe priestess confessor who seeks truth",
+      "essentialInformation": [
+        "The court demands a scapegoat for the scandal",
+        "The player's choices determine who bears the consequences"
+      ],
+      "triggerConditions": null,
+      "conditionTimeoutHours": null,
+      "conditionsEligibleSince": null
+    }
+  ],
+  "possibleFlags": [
+    {
+      "id": "jester_connection_discovered",
+      "triggerDescription": "Set when player discovers the connection between the jester and the mysterious attacks"
+    },
+    {
+      "id": "jester_deal_offered",
+      "triggerDescription": "Set when the jester offers his deal to the player"
+    },
+    {
+      "id": "bride_secret_known",
+      "triggerDescription": "Set when player uncovers the bride's secret about her engagement and relationship with the jester"
+    },
+    {
+      "id": "truth_revealed_publicly",
+      "triggerDescription": "Set when player reveals the truth publicly at the gala or to the court"
+    },
+    {
+      "id": "vowcurse_resolved",
+      "triggerDescription": "Set when player successfully resolves or completes the vow-curse situation"
+    },
+    {
+      "id": "knight_saved",
+      "triggerDescription": "Set when player prevents the knight from being driven into public ruin or death"
+    }
+  ],
+  "goals": [
+    {
+      "id": "GOAL_learn_bride_truth",
+      "description": "Uncover what the noble bride is truly hiding about her engagement and her relationship with the jester.",
+      "progressBoost": 30,
+      "revealOnFlags": [
+        "jester_connection_discovered",
+        "jester_deal_offered"
+      ],
+      "successFlags": [
+        "bride_secret_known",
+        "truth_revealed_publicly"
+      ],
+      "failureFlags": []
+    },
+    {
+      "id": "GOAL_save_knight",
+      "description": "Prevent the honorable knight from being driven into public ruin or death during the jester's final performance.",
+      "progressBoost": 40,
+      "revealOnFlags": [
+        "bride_secret_known"
+      ],
+      "successFlags": [
+        "knight_saved"
+      ],
+      "failureFlags": []
+    },
+    {
+      "id": "GOAL_stop_or_redirect_vowcurse",
+      "description": "At the masked gala, stop the jester's vow-curse—or redirect it in a way you can live with.",
+      "progressBoost": 45,
+      "revealOnFlags": [
+        "bride_secret_known"
+      ],
+      "successFlags": [
+        "vowcurse_resolved"
+      ],
+      "failureFlags": []
+    }
+  ],
+  "endingCards": [
+    {
+      "condition": {
+        "type": "always",
+        "flag": ""
+      },
+      "title": "Echoes After the Masque",
+      "text": "The palace resumes its music, but every laugh sounds practiced now. Someone you spared will remember your mercy; someone you condemned will remember your weakness."
+    },
+    {
+      "condition": {
+        "type": "flag_set",
+        "flag": "knight_saved"
+      },
+      "title": "A Knight Still Standing",
+      "text": "The knight survives the night, though his honor bears fresh cracks. He offers you a future favor—quietly, as if ashamed to need anyone."
+    },
+    {
+      "condition": {
+        "type": "flag_set",
+        "flag": "truth_revealed_publicly"
+      },
+      "title": "The Court Swallows Truth",
+      "text": "With the truth spoken aloud, reputations bleed out in real time: the bride's power fractures and the jester's smile finally falters. The realm is not cleaner—only more honest about its rot."
+    },
+    {
+      "condition": {
+        "type": "flag_not_set",
+        "flag": "truth_revealed_publicly"
+      },
+      "title": "A Mercy of Lies",
+      "text": "The scandal is contained, at the price of a lie that will keep growing in the dark. The jester (or the bride) walks away owing you—or hunting you—depending on who you protected."
+    },
+    {
+      "condition": {
+        "type": "flag_set",
+        "flag": "vowcurse_resolved"
+      },
+      "title": "Vows in Ash",
+      "text": "The curse's magic snaps like a broken string, and the air tastes of burned sugar and regret. Love remains, but it has been turned into a lesson, not a sanctuary."
+    }
+  ],
+  "credits": {
+    "title": "End things with the Jester",
+    "entries": [
+      {
+        "role": "Plot",
+        "name": "AI Generated"
+      }
+    ]
+  },
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/plots/images/PLOT_end_things_with_the_jester.png"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "EVENT_visited_the_ironstraked_passage_1772327605843",
+  "date": "04.01.11 4A 20:48",
+  "placeId": "PLACE_the_ironstraked_passage",
+  "important": false,
+  "importanceScore": null,
+  "scope": null,
+  "relevantPlaceIds": null,
+  "eventType": "location_visited",
+  "category": "world",
+  "subject": "The Iron-Straked Passage",
+  "subjectId": "PLACE_the_ironstraked_passage",
+  "fact": "Visited The Iron-Straked Passage",
+  "significance": "minor",
+  "witnessIds": null
+}

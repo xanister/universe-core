@@ -1,0 +1,62 @@
+{
+  "id": "OBJ_ashfall_ledgerhouse_barrel_0003",
+  "label": "Barrel",
+  "description": "A sturdy wooden barrel",
+  "important": false,
+  "short_description": "barrel",
+  "tags": [
+    "common",
+    "storage",
+    "ship"
+  ],
+  "entityType": "object",
+  "info": {
+    "purpose": "storage",
+    "solid": true,
+    "layer": "default",
+    "isStructural": false,
+    "material": null,
+    "tint": null,
+    "spriteConfig": {
+      "spriteId": "barrel",
+      "frame": null,
+      "animationKey": null,
+      "animated": false,
+      "facing": "south"
+    },
+    "hp": null,
+    "maxHp": null,
+    "state": null,
+    "contents": [
+      "longsleeve",
+      "health_potion",
+      "coin_pouch",
+      "bronze_medallion",
+      "golden_key",
+      "iron_amulet",
+      "antidote_vial"
+    ],
+    "lightSource": null,
+    "itemId": null,
+    "plotId": null
+  },
+  "position": {
+    "x": 208,
+    "y": 928,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_ashfall_ledgerhouse"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "relationships": [],
+  "image": null,
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "search"
+  }
+}

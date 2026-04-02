@@ -1,0 +1,20 @@
+{
+  "id": "EVENT_charlysanderquay_observed_placetheindexlantern_1772519076648",
+  "date": "C 01.01.8127 10:03",
+  "placeId": "PLACE_the_index_lantern",
+  "eventType": null,
+  "category": "world",
+  "subject": "The Index Lantern",
+  "subjectId": "PLACE_the_index_lantern",
+  "fact": "CHAR_lysander_quay observed PLACE_the_index_lantern",
+  "significance": "moderate",
+  "witnessIds": [
+    "CHAR_lysander_quay"
+  ],
+  "important": false,
+  "importanceScore": null,
+  "scope": "local",
+  "relevantPlaceIds": [
+    "PLACE_the_index_lantern"
+  ]
+}

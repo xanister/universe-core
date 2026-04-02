@@ -1,0 +1,22 @@
+{
+  "id": "EVENT_charkaelorsino_visually_surveyed_placethecinderwake_deck_1771917333324",
+  "date": "999.M1 05:51",
+  "placeId": "PLACE_the_cinderwake",
+  "eventType": null,
+  "category": "world",
+  "subject": "The Cinderwake",
+  "subjectId": "PLACE_the_cinderwake",
+  "fact": "CHAR_kael_orsino visually surveyed PLACE_the_cinderwake deck and nearby activity",
+  "significance": "moderate",
+  "witnessIds": [
+    "CHAR_kael_orsino",
+    "CHAR_severan_dusk",
+    "CHAR_severin_drach"
+  ],
+  "important": false,
+  "importanceScore": null,
+  "scope": "local",
+  "relevantPlaceIds": [
+    "PLACE_the_cinderwake"
+  ]
+}

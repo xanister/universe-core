@@ -1,0 +1,52 @@
+{
+  "id": "OBJ_temple_of_the_sealed_oath_fireplace_0224",
+  "label": "Fireplace",
+  "description": "A Fireplace",
+  "important": false,
+  "short_description": "fireplace",
+  "tags": [
+    "common",
+    "fixture",
+    "heating"
+  ],
+  "entityType": "object",
+  "info": {
+    "purpose": "decoration",
+    "solid": true,
+    "layer": "default",
+    "isStructural": false,
+    "material": null,
+    "tint": null,
+    "spriteConfig": {
+      "spriteId": "fireplace",
+      "frame": null,
+      "animationKey": null,
+      "animated": false,
+      "facing": "south"
+    },
+    "hp": null,
+    "maxHp": null,
+    "state": null,
+    "contents": null,
+    "lightSource": null,
+    "itemId": null,
+    "plotId": null
+  },
+  "position": {
+    "x": 80,
+    "y": 2112,
+    "width": 96,
+    "height": 96,
+    "parent": "PLACE_temple_of_the_sealed_oath"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "relationships": [],
+  "image": null,
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": null
+}

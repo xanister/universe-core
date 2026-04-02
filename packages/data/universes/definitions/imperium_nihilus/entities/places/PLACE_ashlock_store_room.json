@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_ashlock_store_room",
+  "label": "Ashlock Store Room",
+  "description": "Ashlock Store Room serves as the sealed storage annex of Sootlamp Quarters, built from slagcrete panels bolted into the hab-block’s basalt spine. Vitrified wall coatings and gasketed seams resist the city’s abrasive ash, while a grated intake and filter housing maintain a dry, dust-controlled interior. Racked shelves, lidded bins, and tether points line the walls to keep equipment secured during electrostatic surges and pressure cycling. A shielded lumen-strip casts bruise-violet highlights across scuffed surfaces, preserving the quarters’ hard-edged, decontamination-first order.",
+  "short_description": "sealed ash-proof storage",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "storage_room",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.9
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "door_wooden",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/battles/PLACE_ashlock_store_room.png?v=1771959142946",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 592,
+    "y": 160,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_sootlamp_quarters",
+    "innerWidth": 512,
+    "innerHeight": 768
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/places/PLACE_ashlock_store_room.png?v=1771959197593",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

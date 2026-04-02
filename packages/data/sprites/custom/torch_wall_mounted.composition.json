@@ -1,0 +1,98 @@
+{
+  "spriteId": "torch_wall_mounted",
+  "gridWidth": 1,
+  "gridHeight": 1,
+  "tileSize": 32,
+  "tiles": [
+    {
+      "tilesetId": "decor-tavern",
+      "srcX": 416,
+      "srcY": 352,
+      "col": 0,
+      "row": 0
+    }
+  ],
+  "directionTiles": {
+    "east": [
+      {
+        "tilesetId": "decor-tavern",
+        "srcX": 416,
+        "srcY": 384,
+        "col": 0,
+        "row": 0
+      }
+    ],
+    "west": [
+      {
+        "tilesetId": "decor-tavern",
+        "srcX": 480,
+        "srcY": 416,
+        "col": 0,
+        "row": 0
+      }
+    ]
+  },
+  "frameTiles": {
+    "1": [
+      {
+        "tilesetId": "decor-tavern",
+        "srcX": 448,
+        "srcY": 352,
+        "col": 0,
+        "row": 0
+      }
+    ],
+    "2": [
+      {
+        "tilesetId": "decor-tavern",
+        "srcX": 480,
+        "srcY": 352,
+        "col": 0,
+        "row": 0
+      }
+    ]
+  },
+  "directionFrameTiles": {
+    "east": {
+      "1": [
+        {
+          "tilesetId": "decor-tavern",
+          "srcX": 448,
+          "srcY": 384,
+          "col": 0,
+          "row": 0
+        }
+      ],
+      "2": [
+        {
+          "tilesetId": "decor-tavern",
+          "srcX": 480,
+          "srcY": 384,
+          "col": 0,
+          "row": 0
+        }
+      ]
+    },
+    "west": {
+      "1": [
+        {
+          "tilesetId": "decor-tavern",
+          "srcX": 448,
+          "srcY": 416,
+          "col": 0,
+          "row": 0
+        }
+      ],
+      "2": [
+        {
+          "tilesetId": "decor-tavern",
+          "srcX": 480,
+          "srcY": 416,
+          "col": 0,
+          "row": 0
+        }
+      ]
+    }
+  },
+  "updatedAt": "2026-02-23T03:21:33.839Z"
+}

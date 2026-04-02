@@ -1,0 +1,230 @@
+{
+  "id": "CHAR_odran_khelt",
+  "label": "Odran Khelt",
+  "description": "An emaciated undead of indeterminate age, reduced to a light-skinned frame of bone angles and shrunken muscle. Gray eyes sit deep beneath a heavy brow ridge, fixed in an unblinking, funerary stare that denies ordinary fatigue or breath. Black hair hangs in long, matted ropes from a scalp marked by old fissures and healed splits. The jawline remains slightly misaligned, giving the face a permanent, ossified cant typical of corpses reanimated after crude trauma.",
+  "short_description": "undead male cavern wight",
+  "tags": [],
+  "entityType": "character",
+  "info": {
+    "purpose": "undead",
+    "aliases": [
+      "The Scar-Wight",
+      "Ledgewarden"
+    ],
+    "birthdate": "Unknown",
+    "deathdate": null,
+    "title": null,
+    "birthPlace": "",
+    "eyeColor": "gray",
+    "gender": "male",
+    "hairColor": "black",
+    "hairStyle": "long",
+    "beardStyle": "stubble",
+    "headType": "human_male",
+    "skinTone": "light",
+    "personality": "This individual functions as a cavern-bound revenant, driven by repetitive custodial habits and territorial fixation rather than conscious ambition. It responds to intrusion with ritualized, immediate violence, then returns to fixed patrol routes along narrow ledges and choke-points. Its awareness remains fragmentary, anchored to echoes of duty and the sensory lures of warmth, sound, and movement within the Obsidian Scar Cavern.",
+    "race": "human",
+    "messages": [],
+    "journal": [],
+    "sketches": [],
+    "verbosity": 3,
+    "conversationContext": null,
+    "storytellerState": null,
+    "isPlayer": false,
+    "storyComplete": false,
+    "routine": {
+      "schedule": {
+        "dawn": "work",
+        "morning": "work",
+        "afternoon": "work",
+        "evening": "work",
+        "night": "work"
+      },
+      "home": {
+        "placeId": "PLACE_obsidian_scar_cavern",
+        "description": "Obsidian Scar Cavern",
+        "areaHint": null
+      },
+      "work": {
+        "placeId": "PLACE_obsidian_scar_cavern",
+        "description": "Obsidian Scar Cavern",
+        "areaHint": null
+      },
+      "leisure": null,
+      "variance": 0.2,
+      "activities": {
+        "work": "undead_patrol"
+      }
+    },
+    "vesselRoutes": null,
+    "abstractLocation": null,
+    "npcBehavior": null,
+    "physicalState": null,
+    "pendingDeparture": null,
+    "pendingArrival": null,
+    "lastRoutineCheckPeriod": null,
+    "startingNarrative": null,
+    "startingCharacterState": null,
+    "clothing": [
+      {
+        "slot": "torso_under",
+        "itemId": "tunic",
+        "color": "#3a3a3a",
+        "contents": null
+      },
+      {
+        "slot": "torso_over",
+        "itemId": "tattercape",
+        "color": "#1a1a1a",
+        "contents": null
+      },
+      {
+        "slot": "legs",
+        "itemId": "cloth_pants",
+        "color": "#808080",
+        "contents": null
+      },
+      {
+        "slot": "feet",
+        "itemId": "boots",
+        "color": "#8b4513",
+        "contents": null
+      },
+      {
+        "slot": "belt",
+        "itemId": "rope_belt",
+        "color": "#d2b48c",
+        "contents": [
+          {
+            "id": "ci_1771953858679_4esdxt",
+            "itemId": "unarmed",
+            "name": "unarmed",
+            "description": null,
+            "type": "weapon",
+            "quantity": 1,
+            "color": null,
+            "equipSlot": "weapon",
+            "plotId": null
+          }
+        ]
+      }
+    ],
+    "enabledOverlayLayers": [
+      "eyes",
+      "facial"
+    ],
+    "helmingVesselId": null,
+    "storytellerDisabled": false,
+    "rulesetState": {
+      "stats": {
+        "physical": 50,
+        "mental": 50,
+        "social": 50,
+        "poise": 50,
+        "max_poise": 50,
+        "bloodloss": 0,
+        "anxiety": 0,
+        "fatigue": 0,
+        "hunger": 0
+      },
+      "conditions": [],
+      "statUsage": {},
+      "incapacitation": null,
+      "incapacitatedSince": null
+    },
+    "voiceId": "brian",
+    "spriteConfig": {
+      "bodyType": "male",
+      "layers": [
+        {
+          "type": "body",
+          "optionId": "body_base",
+          "tint": 15780008
+        },
+        {
+          "type": "body",
+          "optionId": "body_universal",
+          "tint": 15780008
+        },
+        {
+          "type": "eyes",
+          "optionId": "eyes_eyes",
+          "tint": 8423560
+        },
+        {
+          "type": "facial",
+          "optionId": "facial_beard",
+          "tint": 1710618
+        },
+        {
+          "type": "hair",
+          "optionId": "hair_long",
+          "tint": 1710618
+        },
+        {
+          "type": "legs",
+          "optionId": "legs_white_pants_male",
+          "tint": 8421504
+        },
+        {
+          "type": "feet",
+          "optionId": "feet_white_boots_male",
+          "tint": 9127187
+        },
+        {
+          "type": "belt",
+          "optionId": "belt_wulax_belt_rope_male",
+          "tint": 13808780
+        }
+      ],
+      "spriteHash": "9808f1de0f1b6494",
+      "spriteUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/sprites/generated/9808f1de0f1b6494.png",
+      "spriteScale": 1
+    }
+  },
+  "position": {
+    "x": 816,
+    "y": 2224,
+    "width": 32,
+    "height": 48,
+    "parent": "PLACE_obsidian_scar_cavern"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/characters/CHAR_odran_khelt.png?v=1771953916553",
+  "faceAnchorY": 0.16,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "talk"
+  },
+  "relationships": [
+    {
+      "targetId": "CHAR_sereth_kurn",
+      "type": "colleague",
+      "disposition": 10,
+      "familiarity": 50,
+      "context": "Both are cavern-bound undead in PLACE_obsidian_scar_cavern with similar rote patrol/custodial behaviors; likely function as co-sentinels maintaining the same territory.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_veylan_korrith",
+      "type": "colleague",
+      "disposition": 10,
+      "familiarity": 50,
+      "context": "Both act as tireless guardians of the Obsidian Scar Cavern’s passages, treating intruders as trespassers; likely part of the same defensive/custodial routine.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_caldren_thoss",
+      "type": "colleague",
+      "disposition": 10,
+      "familiarity": 50,
+      "context": "Both are ritual-bound undead sentinels in the same cavern, adhering to fixed duties and responding to intrusion; likely aligned as fellow guardians.",
+      "pendingGeneration": false
+    }
+  ],
+  "important": false
+}

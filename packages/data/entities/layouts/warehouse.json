@@ -1,0 +1,356 @@
+{
+  "id": "warehouse",
+  "name": "Warehouse",
+  "description": "A building for storing goods",
+  "purposes": [
+    "warehouse"
+  ],
+  "spriteId": "building_warehouse",
+  "variants": [
+    {
+      "id": "A",
+      "scale": "feet",
+      "environment": {
+        "type": "interior",
+        "hasWeather": false,
+        "temperature": {
+          "enabled": true,
+          "base": 18,
+          "modifiersApply": false
+        },
+        "maxDarkness": 0.5
+      },
+      "slots": [
+        {
+          "positionAlgorithm": "in_wall",
+          "min": 0,
+          "max": 1,
+          "nearPurpose": null,
+          "inheritableTags": null,
+          "distribution": "even",
+          "forbiddenTags": null,
+          "purpose": "exit",
+          "slotSize": null,
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "preferDistrict": null,
+          "distributionGroup": null,
+          "requiredTags": null
+        },
+        {
+          "max": 10,
+          "positionAlgorithm": "random_valid",
+          "nearPurpose": null,
+          "inheritableTags": null,
+          "distribution": "even",
+          "forbiddenTags": null,
+          "purpose": "storage",
+          "slotSize": null,
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "preferDistrict": null,
+          "distributionGroup": null,
+          "requiredTags": null
+        },
+        {
+          "max": 3,
+          "positionAlgorithm": "random_valid",
+          "nearPurpose": null,
+          "inheritableTags": null,
+          "distribution": "even",
+          "forbiddenTags": null,
+          "min": 2,
+          "purpose": "seating",
+          "slotSize": null,
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "preferDistrict": null,
+          "distributionGroup": null,
+          "requiredTags": null
+        },
+        {
+          "min": 1,
+          "max": 2,
+          "positionAlgorithm": "near_slot",
+          "nearPurpose": "storage",
+          "inheritableTags": null,
+          "distribution": "even",
+          "forbiddenTags": null,
+          "purpose": "laborer",
+          "slotSize": null,
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "preferDistrict": null,
+          "distributionGroup": null,
+          "requiredTags": null
+        }
+      ],
+      "description": "A small storage warehouse",
+      "weight": 2,
+      "width": {
+        "min": 45,
+        "max": 150
+      },
+      "height": {
+        "min": 40,
+        "max": 130
+      },
+      "terrainLayers": [
+        {
+          "id": "room",
+          "type": "l_shape",
+          "tilesetId": "floor-interior",
+          "renderOrder": 0,
+          "blocking": "unblocks",
+          "terrain": "land",
+          "fill": [
+            1376,
+            1377
+          ],
+          "procedural": false,
+          "inheritable": false,
+          "minArmWidth": 6
+        },
+        {
+          "id": "walls",
+          "type": "wall",
+          "tilesetId": "wall-interior",
+          "renderOrder": 2000,
+          "blocking": null,
+          "terrain": "wall",
+          "fill": [
+            1504
+          ],
+          "procedural": false,
+          "inheritable": false,
+          "wallStyle": "brick_brown"
+        },
+        {
+          "id": "wall_faces",
+          "type": "wall_face",
+          "tilesetId": "wall-interior",
+          "renderOrder": 1,
+          "blocking": null,
+          "terrain": "wall",
+          "fill": [],
+          "procedural": false,
+          "inheritable": false,
+          "wallLayerId": "walls",
+          "roomLayerId": "room",
+          "wallStyle": "brick_brown"
+        }
+      ],
+      "defaultBlocked": true
+    },
+    {
+      "id": "B",
+      "scale": "feet",
+      "environment": {
+        "type": "interior",
+        "hasWeather": false,
+        "temperature": {
+          "enabled": true,
+          "base": 18,
+          "modifiersApply": false
+        },
+        "maxDarkness": 0.5
+      },
+      "slots": [
+        {
+          "positionAlgorithm": "in_wall",
+          "min": 0,
+          "max": 1,
+          "nearPurpose": null,
+          "inheritableTags": null,
+          "distribution": "even",
+          "forbiddenTags": null,
+          "purpose": "exit",
+          "slotSize": null,
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "preferDistrict": null,
+          "distributionGroup": null,
+          "requiredTags": null
+        },
+        {
+          "max": 20,
+          "positionAlgorithm": "random_valid",
+          "nearPurpose": null,
+          "inheritableTags": null,
+          "distribution": "even",
+          "forbiddenTags": null,
+          "purpose": "storage",
+          "slotSize": null,
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "preferDistrict": null,
+          "distributionGroup": null,
+          "requiredTags": null
+        },
+        {
+          "max": 1,
+          "positionAlgorithm": "random_valid",
+          "nearPurpose": null,
+          "inheritableTags": null,
+          "distribution": "even",
+          "forbiddenTags": null,
+          "purpose": "workspace",
+          "min": 0,
+          "slotSize": null,
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "preferDistrict": null,
+          "distributionGroup": null,
+          "requiredTags": null
+        },
+        {
+          "max": 4,
+          "positionAlgorithm": "random_valid",
+          "nearPurpose": null,
+          "inheritableTags": null,
+          "distribution": "even",
+          "forbiddenTags": null,
+          "min": 2,
+          "purpose": "seating",
+          "slotSize": null,
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "preferDistrict": null,
+          "distributionGroup": null,
+          "requiredTags": null
+        },
+        {
+          "min": 1,
+          "max": 2,
+          "positionAlgorithm": "near_slot",
+          "nearPurpose": "storage",
+          "inheritableTags": null,
+          "distribution": "even",
+          "forbiddenTags": null,
+          "purpose": "laborer",
+          "slotSize": null,
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "preferDistrict": null,
+          "distributionGroup": null,
+          "requiredTags": null
+        },
+        {
+          "min": 0,
+          "max": 1,
+          "positionAlgorithm": "near_slot",
+          "nearPurpose": "workspace",
+          "inheritableTags": null,
+          "distribution": "even",
+          "forbiddenTags": null,
+          "purpose": "clerk",
+          "slotSize": null,
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "preferDistrict": null,
+          "distributionGroup": null,
+          "requiredTags": null
+        }
+      ],
+      "description": "A large warehouse",
+      "weight": 1,
+      "width": {
+        "min": 45,
+        "max": 150
+      },
+      "height": {
+        "min": 40,
+        "max": 130
+      },
+      "terrainLayers": [
+        {
+          "id": "room",
+          "type": "l_shape",
+          "tilesetId": "floor-interior",
+          "renderOrder": 0,
+          "blocking": "unblocks",
+          "terrain": "land",
+          "fill": [
+            1376,
+            1377
+          ],
+          "procedural": false,
+          "inheritable": false,
+          "minArmWidth": 6
+        },
+        {
+          "id": "walls",
+          "type": "wall",
+          "tilesetId": "wall-interior",
+          "renderOrder": 2000,
+          "blocking": null,
+          "terrain": "wall",
+          "fill": [
+            1504
+          ],
+          "procedural": false,
+          "inheritable": false,
+          "wallStyle": "brick_brown"
+        },
+        {
+          "id": "wall_faces",
+          "type": "wall_face",
+          "tilesetId": "wall-interior",
+          "renderOrder": 1,
+          "blocking": null,
+          "terrain": "wall",
+          "fill": [],
+          "procedural": false,
+          "inheritable": false,
+          "wallLayerId": "walls",
+          "roomLayerId": "room",
+          "wallStyle": "brick_brown"
+        }
+      ],
+      "defaultBlocked": true
+    }
+  ],
+  "characterScale": 1,
+  "timeScale": 1,
+  "interactionZone": null
+}

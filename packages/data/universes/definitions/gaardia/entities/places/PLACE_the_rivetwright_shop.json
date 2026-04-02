@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_the_rivetwright_shop",
+  "label": "The Rivetwright Shop",
+  "description": "This compact interior workshop occupies a buttressed bay of Cindervale’s blackened brick and re-used ancient stone, its walls studded with iron tie-rods to resist settlement from the nearby ruinfield. A long anvil-block and rivet tables dominate the floor, surrounded by bins of stamped fittings and measured lengths of chain intended for gates, cart-frames, and patrol gear. Shelving holds sealable tins of pitch, oil, and abrasive grit, kept under posted city ordinances that govern fire risk and licensed materials. High slit windows vent smoke through soot-dark flues, leaving the air metallic and sharp with coal ash.",
+  "short_description": "ironwork repair workshop",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "workshop",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "building_shop",
+      "facing": "east",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/gaardia/images/battles/PLACE_the_rivetwright_shop.png?v=1772208603652",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 2224,
+    "y": 896,
+    "width": 160,
+    "height": 256,
+    "parent": "PLACE_cindervale",
+    "innerWidth": 1248,
+    "innerHeight": 1088
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/gaardia/images/places/PLACE_the_rivetwright_shop.png?v=1772208654889",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

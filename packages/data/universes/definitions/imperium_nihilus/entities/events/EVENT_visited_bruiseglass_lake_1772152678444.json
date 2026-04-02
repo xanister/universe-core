@@ -1,0 +1,18 @@
+{
+  "id": "EVENT_visited_bruiseglass_lake_1772152678444",
+  "date": "999.M1 15:09",
+  "placeId": "PLACE_bruiseglass_lake",
+  "important": false,
+  "importanceScore": null,
+  "scope": null,
+  "relevantPlaceIds": null,
+  "eventType": "location_visited",
+  "category": "world",
+  "subject": "Bruiseglass Lake",
+  "subjectId": "PLACE_bruiseglass_lake",
+  "fact": "Visited Bruiseglass Lake",
+  "significance": "minor",
+  "witnessIds": [
+    "CHAR_severin_ashcombe"
+  ]
+}

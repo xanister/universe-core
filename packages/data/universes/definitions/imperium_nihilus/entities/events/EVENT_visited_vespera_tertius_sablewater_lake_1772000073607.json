@@ -1,0 +1,18 @@
+{
+  "id": "EVENT_visited_vespera_tertius_sablewater_lake_1772000073607",
+  "date": "999.M1 00:01",
+  "placeId": "PLACE_vespera_tertius_sablewater_lake",
+  "important": false,
+  "importanceScore": null,
+  "scope": null,
+  "relevantPlaceIds": null,
+  "eventType": "location_visited",
+  "category": "world",
+  "subject": "Vespera Tertius Sablewater Lake",
+  "subjectId": "PLACE_vespera_tertius_sablewater_lake",
+  "fact": "Visited Vespera Tertius Sablewater Lake",
+  "significance": "minor",
+  "witnessIds": [
+    "CHAR_danel_vossik"
+  ]
+}

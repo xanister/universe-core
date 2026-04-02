@@ -1,0 +1,18 @@
+{
+  "id": "EVENT_visited_vespera_tertius_ashenward_city_1771972608066",
+  "date": "999.M1 08:33",
+  "placeId": "PLACE_vespera_tertius_ashenward_city",
+  "important": false,
+  "importanceScore": null,
+  "scope": null,
+  "relevantPlaceIds": null,
+  "eventType": "location_visited",
+  "category": "world",
+  "subject": "Vespera Tertius Ashenward City",
+  "subjectId": "PLACE_vespera_tertius_ashenward_city",
+  "fact": "Visited Vespera Tertius Ashenward City",
+  "significance": "minor",
+  "witnessIds": [
+    "CHAR_alaric_morn"
+  ]
+}

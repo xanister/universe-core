@@ -1,0 +1,25 @@
+{
+  "id": "crate_stack",
+  "name": "Stacked Crates",
+  "description": "A stack of wooden crates",
+  "purposes": [
+    "storage",
+    "ship_deck_decoration"
+  ],
+  "tags": [
+    "common",
+    "storage",
+    "ship"
+  ],
+  "solid": true,
+  "layer": "default",
+  "spriteId": "crate_stack",
+  "materials": [
+    "wood"
+  ],
+  "tintable": true,
+  "canContain": true,
+  "tags": [
+    "ship"
+  ]
+}

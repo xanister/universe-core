@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_amberwatch_cabin",
+  "label": "Amberwatch Cabin",
+  "description": "Amberwatch Cabin constitutes a compact sleeping compartment partitioned from The Glareward Canteen’s pressurized corner by layered light-baffles and a tight acoustic seal. Ribbed hull plating remains exposed behind a skin of impact-resistant panels, and a recessed berth is paired with a fold-down work surface bolted directly into the bulkhead. Polarizing slats admit the canteen’s steady amber wash while rejecting Saltharrow’s hard white glare, preserving strict visual discipline. Integrated vents, odor traps, and a wall-mounted gravitic advisory slate bind the room’s function to the Transit Anchorage’s regulated air and navigation culture.",
+  "short_description": "compact amber cabin",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "bedroom",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "door_wooden",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/the_brine_lattice/images/battles/PLACE_amberwatch_cabin.png?v=1772313935129",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 720,
+    "y": 160,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_the_glareward_canteen",
+    "innerWidth": 576,
+    "innerHeight": 512
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/the_brine_lattice/images/places/PLACE_amberwatch_cabin.png?v=1772313986672",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

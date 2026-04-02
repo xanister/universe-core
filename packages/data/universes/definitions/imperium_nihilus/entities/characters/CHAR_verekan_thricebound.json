@@ -1,0 +1,233 @@
+{
+  "id": "CHAR_verekan_thricebound",
+  "label": "Verekan Thrice-Bound",
+  "description": "This individual is an animated skeleton preserved in a state of ritual desiccation, the light skin tone of bare bone uninterrupted by living flesh. Yellow eyes burn steadily within deep, shadowed sockets, lending a fixed and doctrinal intensity to an otherwise expressionless visage. Gray hair persists in sparse, brittle strands, worn plain and close to the skull, as if retained by lingering sorcery rather than biology. The frame is tall and angular, with long forearms and pronounced joints that emphasize an unyielding, tireless gait typical of the undead of Riftglass Hollow.",
+  "short_description": "undead skeleton warden (male)",
+  "tags": [],
+  "entityType": "character",
+  "info": {
+    "purpose": "undead",
+    "aliases": [
+      "Thrice-Bound",
+      "The Riftglass Warden"
+    ],
+    "birthdate": "Unknown",
+    "deathdate": null,
+    "title": null,
+    "birthPlace": "Riftglass Hollow",
+    "eyeColor": "yellow",
+    "gender": "male",
+    "hairColor": "gray",
+    "hairStyle": "plain",
+    "beardStyle": null,
+    "headType": "skeleton",
+    "skinTone": "light",
+    "personality": "Laconic and rule-bound, this undead enforces the settled boundaries of Riftglass Hollow with the literalism of a binding oath. It speaks rarely and without ornament, treating names, debts, and duties as durable facts that outlast death. It maintains an unblinking vigilance and answers intrusion with procedural certainty rather than passion.",
+    "race": "skeleton",
+    "messages": [],
+    "journal": [],
+    "sketches": [],
+    "verbosity": 3,
+    "conversationContext": null,
+    "storytellerState": null,
+    "isPlayer": false,
+    "storyComplete": false,
+    "routine": {
+      "schedule": {
+        "dawn": "work",
+        "morning": "work",
+        "afternoon": "work",
+        "evening": "work",
+        "night": "work"
+      },
+      "home": {
+        "placeId": "PLACE_riftglass_hollow",
+        "description": "Riftglass Hollow",
+        "areaHint": null
+      },
+      "work": {
+        "placeId": "PLACE_riftglass_hollow",
+        "description": "Riftglass Hollow",
+        "areaHint": null
+      },
+      "leisure": null,
+      "variance": 0.2,
+      "activities": {
+        "work": "undead_patrol"
+      }
+    },
+    "vesselRoutes": null,
+    "abstractLocation": null,
+    "npcBehavior": null,
+    "physicalState": null,
+    "pendingDeparture": null,
+    "pendingArrival": null,
+    "lastRoutineCheckPeriod": null,
+    "startingNarrative": null,
+    "startingCharacterState": null,
+    "clothing": [
+      {
+        "slot": "torso_under",
+        "itemId": "tunic",
+        "color": "#3a3a3a",
+        "contents": null
+      },
+      {
+        "slot": "torso_over",
+        "itemId": "trenchcoat",
+        "color": "#1a1a1a",
+        "contents": null
+      },
+      {
+        "slot": "legs",
+        "itemId": "cloth_pants",
+        "color": "#808080",
+        "contents": null
+      },
+      {
+        "slot": "feet",
+        "itemId": "boots",
+        "color": "#8b4513",
+        "contents": null
+      },
+      {
+        "slot": "belt",
+        "itemId": "leather_belt",
+        "color": "#8b4513",
+        "contents": [
+          {
+            "id": "ci_1771915587697_9nq666",
+            "itemId": "steel_bracers",
+            "name": "steel_bracers",
+            "description": null,
+            "type": "weapon",
+            "quantity": 1,
+            "color": null,
+            "equipSlot": "weapon",
+            "plotId": null
+          }
+        ]
+      },
+      {
+        "slot": "hands",
+        "itemId": "cloth_gloves",
+        "color": "#1a1a1a",
+        "contents": null
+      }
+    ],
+    "enabledOverlayLayers": [],
+    "helmingVesselId": null,
+    "storytellerDisabled": false,
+    "rulesetState": {
+      "stats": {
+        "physical": 50,
+        "mental": 50,
+        "social": 50,
+        "poise": 50,
+        "max_poise": 50,
+        "bloodloss": 0,
+        "anxiety": 0,
+        "fatigue": 0,
+        "hunger": 0
+      },
+      "conditions": [],
+      "statUsage": {},
+      "incapacitation": null,
+      "incapacitatedSince": null
+    },
+    "voiceId": "brian",
+    "spriteConfig": {
+      "bodyType": "skeleton",
+      "layers": [
+        {
+          "type": "body",
+          "optionId": "body_base",
+          "tint": 15780008
+        },
+        {
+          "type": "body",
+          "optionId": "body_universal",
+          "tint": 15780008
+        },
+        {
+          "type": "hair",
+          "optionId": "hair_plain",
+          "tint": 8421504
+        },
+        {
+          "type": "torso",
+          "optionId": "torso_formal_trenchcoat_male",
+          "tint": 1710618
+        },
+        {
+          "type": "legs",
+          "optionId": "legs_white_pants_male",
+          "tint": 8421504
+        },
+        {
+          "type": "feet",
+          "optionId": "feet_white_boots_male",
+          "tint": 9127187
+        },
+        {
+          "type": "belt",
+          "optionId": "belt_leather_male",
+          "tint": 9127187
+        },
+        {
+          "type": "hands",
+          "optionId": "hands_white_gloves_male",
+          "tint": 1710618
+        }
+      ],
+      "spriteHash": "24af783768cdc404",
+      "spriteUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/sprites/generated/24af783768cdc404.png",
+      "spriteScale": 1
+    }
+  },
+  "position": {
+    "x": 1892,
+    "y": 329,
+    "width": 32,
+    "height": 48,
+    "parent": "PLACE_riftglass_hollow"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/characters/CHAR_verekan_thricebound.png?v=1771915649721",
+  "faceAnchorY": 0.16,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "talk"
+  },
+  "relationships": [
+    {
+      "targetId": "CHAR_marrowin_sable",
+      "type": "colleague",
+      "disposition": 10,
+      "familiarity": 50,
+      "context": "Both are ritual-bound undead enforcers/patrol guardians operating within Riftglass Hollow, likely coordinating or at least sharing adjacent duties and routes.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_mareth_vane",
+      "type": "colleague",
+      "disposition": 10,
+      "familiarity": 50,
+      "context": "Both serve as bound guardians on fixed imperatives in Riftglass Hollow, making a shared professional/functional relationship plausible.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_maelon_strake",
+      "type": "colleague",
+      "disposition": 10,
+      "familiarity": 50,
+      "context": "Both are tireless undead assigned to enforce standing orders within Riftglass Hollow, suggesting parallel roles and operational overlap.",
+      "pendingGeneration": false
+    }
+  ],
+  "important": false
+}

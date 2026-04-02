@@ -1,0 +1,21 @@
+{
+  "id": "shop_counter_blonde",
+  "name": "Shop Counter (Blonde)",
+  "description": "A blonde wood service counter with ornate arched panel lower section.",
+  "purposes": [
+    "workspace"
+  ],
+  "tags": [
+    "common",
+    "furniture",
+    "counter",
+    "shop"
+  ],
+  "solid": true,
+  "layer": "default",
+  "spriteId": "shop_counter_blonde",
+  "materials": [
+    "wood"
+  ],
+  "tintable": false
+}

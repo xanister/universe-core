@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_caustic_loom_stock_vault",
+  "label": "Caustic Loom Stock Vault",
+  "description": "The Caustic Loom Stock Vault is a compact interior chamber sealed behind prismatic ribs that suppress stray glare from the meridian corridors outside. Rectilinear racks of dark crystalline stone hold wrapped facets, lens blanks, and scored laminar panes in numbered bays aligned to the city’s tensile geometry. Latticed wall channels retain residual radiance and release it as thin, fixed-angle caustics that serve as indexing lines across the shelving faces. The floor is set with a gridded inlay of matte glass that preserves the shop’s shadow interval and prevents reflective bloom during inventory handling.",
+  "short_description": "orderly prism stockroom",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "storage_room",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.9
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "door_wooden",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/the_hollow_lattice/images/battles/PLACE_caustic_loom_stock_vault.png?v=1772314096097",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 336,
+    "y": 1376,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_the_caustic_loom",
+    "innerWidth": 480,
+    "innerHeight": 704
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/the_hollow_lattice/images/places/PLACE_caustic_loom_stock_vault.png?v=1772314151425",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

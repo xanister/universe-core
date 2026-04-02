@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_cotniche_alcove",
+  "label": "Cot-Niche Alcove",
+  "description": "Cot-Niche Alcove forms the sleep recess of Riftward Sleepcell, a narrow bay cast in black slagcrete and faced with scuffed vitrified panels. A recessed cot is locked into the structure beneath a grit-proof louvered light strip, its illumination tuned to the bastion’s regulated low-glow standard. Vox-shielding mesh and exposed conduit runs frame the alcove’s upper edge, muting the auroral backwash that stains the city’s nightside. Sealed lockers and a fabric-lined partition trap ash dust and leave a permanent tang of ozone in the confined air.",
+  "short_description": "ash-screened cot alcove",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "bedroom",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "door_wooden",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/battles/PLACE_cotniche_alcove.png?v=1772146158579",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 208,
+    "y": 160,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_riftward_sleepcell",
+    "innerWidth": 512,
+    "innerHeight": 480
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/places/PLACE_cotniche_alcove.png?v=1772146209521",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

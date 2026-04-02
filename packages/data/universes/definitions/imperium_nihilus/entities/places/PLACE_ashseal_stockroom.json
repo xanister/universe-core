@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_ashseal_stockroom",
+  "label": "Ashseal Stockroom",
+  "description": "Ashseal Stockroom serves as the secured storage chamber of the Gloam Reliquary, enclosed in vitrified stone and sealed with heavy gaskets against the basin’s abrasive storm-ash. Ceiling-high shelving and chained pallet racks hold tagged crates of void-plate offcuts, insulated cabling coils, and lead-lined caskets reserved for suspect or sanctified components. Wire-caged lumen strips and shielded conduit runs reinforce the room against Nocturnis Bastion’s persistent auroral surges and vox-scrape. The deck is plated in scored slagcrete with inset tie-down rings, its surface marked by long drag-grooves from repeated handling of dense salvage loads.",
+  "short_description": "sealed salvage stockroom",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "storage_room",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.9
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "door_wooden",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/battles/PLACE_ashseal_stockroom.png?v=1771950346698",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 144,
+    "y": 544,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_gloam_reliquary",
+    "innerWidth": 448,
+    "innerHeight": 672
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/places/PLACE_ashseal_stockroom.png?v=1771950399480",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

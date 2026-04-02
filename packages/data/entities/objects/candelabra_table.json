@@ -1,0 +1,31 @@
+{
+  "id": "candelabra_table",
+  "name": "Table Candelabra",
+  "description": "A silver three-candle candelabra for tabletops.",
+  "purposes": [
+    "lighting"
+  ],
+  "tags": [
+    "common",
+    "lighting",
+    "tavern"
+  ],
+  "solid": false,
+  "layer": "default",
+  "spriteId": "candelabra_table",
+  "materials": [
+    "iron"
+  ],
+  "tintable": false,
+  "animated": true,
+  "lightSource": {
+    "radius": 80,
+    "color": 16755268,
+    "intensity": 0.4,
+    "flicker": true,
+    "flickerSpeed": 200,
+    "flickerRange": 0.1,
+    "offsetX": 0,
+    "offsetY": -10
+  }
+}

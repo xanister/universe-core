@@ -1,0 +1,31 @@
+{
+  "id": "candles_cluster_lit",
+  "name": "Lit Candle Cluster",
+  "description": "A small cluster of candles burning with a warm, steady glow.",
+  "purposes": [
+    "lighting",
+    "surface_item"
+  ],
+  "solid": false,
+  "layer": "default",
+  "spriteId": "candles_cluster",
+  "materials": [
+    "wax",
+    "wick"
+  ],
+  "tintable": false,
+  "animated": true,
+  "tags": [
+    "ship"
+  ],
+  "lightSource": {
+    "radius": 96,
+    "color": 16755268,
+    "intensity": 0.26,
+    "flicker": true,
+    "flickerSpeed": 200,
+    "flickerRange": 0.15,
+    "offsetX": 1,
+    "offsetY": -23
+  }
+}

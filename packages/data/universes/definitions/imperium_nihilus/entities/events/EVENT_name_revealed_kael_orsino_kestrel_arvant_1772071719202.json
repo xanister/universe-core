@@ -1,0 +1,18 @@
+{
+  "id": "EVENT_name_revealed_kael_orsino_kestrel_arvant_1772071719202",
+  "date": "999.M1 18:08",
+  "placeId": null,
+  "important": false,
+  "importanceScore": null,
+  "scope": null,
+  "relevantPlaceIds": null,
+  "eventType": "name_revealed",
+  "category": "knowledge",
+  "subject": "Kestrel Arvant",
+  "subjectId": "CHAR_kestrel_arvant",
+  "fact": "Learned the name \"Kestrel Arvant\"",
+  "significance": "minor",
+  "witnessIds": [
+    "CHAR_kael_orsino"
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_the_quiet_angle",
+  "label": "The Quiet Angle",
+  "description": "The Quiet Angle is a wedge-shaped bedchamber cut into the same prismatic mass as The Refraction Cask, its walls ground to strict meridian geometry and finished to a satin frost that breaks glare into muted bands. A low sleeping dais of fused shardglass occupies the narrow end, topped with matte textiles that swallow color rather than return it. Dark crystalline insets along the floorline absorb stray radiance and preserve a stable interval of shadow for rest. A ribbed louver panel in the ceiling admits a regulated spectrum, laying a fixed, clocklike sequence of hues across the room’s planar surfaces.",
+  "short_description": "frosted prismatic chamber",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "bedroom",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "door_wooden",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/the_hollow_lattice/images/battles/PLACE_the_quiet_angle.png?v=1772314099468",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 560,
+    "y": 160,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_the_refraction_cask",
+    "innerWidth": 608,
+    "innerHeight": 640
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/the_hollow_lattice/images/places/PLACE_the_quiet_angle.png?v=1772314149810",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

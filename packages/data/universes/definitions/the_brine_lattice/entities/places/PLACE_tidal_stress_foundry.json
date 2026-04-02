@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_tidal_stress_foundry",
+  "label": "Tidal Stress Foundry",
+  "description": "Tidal Stress Foundry serves as a heavy workshop embedded in Brineshade Terminator City’s fused basalt platforming, its load-bearing ribs keyed to the city’s engineered responses to measurable tidal strain. Salt-cemented floors channel mineral grit into scored drains, while shuttered clerestories and baffle screens admit a regulated, low-glare light suited to precision work under the terminator’s harsh contrast. Tool bays and furnace plinths stand in orderly ranks, their surfaces glazed against the thin atmosphere’s mineral haze and abrasive windborne salts. Broad, reinforced worktables and clamping beds anchor the space, built to hold alignment under Saltharrow System’s pronounced gravitic gradients.",
+  "short_description": "basalt industrial workshop",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "workshop",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "building_shop",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/the_brine_lattice/images/battles/PLACE_tidal_stress_foundry.png?v=1772313815751",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 1776,
+    "y": 512,
+    "width": 160,
+    "height": 256,
+    "parent": "PLACE_brineshade_terminator_city",
+    "innerWidth": 2240,
+    "innerHeight": 1920
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/the_brine_lattice/images/places/PLACE_tidal_stress_foundry.png?v=1772313937901",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

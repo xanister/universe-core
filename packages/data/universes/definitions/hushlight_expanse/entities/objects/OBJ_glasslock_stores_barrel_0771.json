@@ -1,0 +1,58 @@
+{
+  "id": "OBJ_glasslock_stores_barrel_0771",
+  "label": "Barrel",
+  "description": "A sturdy wooden barrel",
+  "important": false,
+  "short_description": "barrel",
+  "tags": [
+    "common",
+    "storage",
+    "ship"
+  ],
+  "entityType": "object",
+  "info": {
+    "purpose": "storage",
+    "solid": true,
+    "layer": "default",
+    "isStructural": false,
+    "material": null,
+    "tint": null,
+    "spriteConfig": {
+      "spriteId": "barrel",
+      "frame": null,
+      "animationKey": null,
+      "animated": false,
+      "facing": "east"
+    },
+    "hp": null,
+    "maxHp": null,
+    "state": null,
+    "contents": [
+      "rope_belt",
+      "bronze_medallion",
+      "coin_pouch"
+    ],
+    "lightSource": null,
+    "itemId": null,
+    "plotId": null
+  },
+  "position": {
+    "x": 64,
+    "y": 384,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_glasslock_stores"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "relationships": [],
+  "image": null,
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "search"
+  }
+}

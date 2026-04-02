@@ -1,0 +1,18 @@
+{
+  "id": "EVENT_visited_the_ironband_passage_1772038467515",
+  "date": "999.M1 17:18",
+  "placeId": "PLACE_the_ironband_passage",
+  "important": false,
+  "importanceScore": null,
+  "scope": null,
+  "relevantPlaceIds": null,
+  "eventType": "location_visited",
+  "category": "world",
+  "subject": "The Ironband Passage",
+  "subjectId": "PLACE_the_ironband_passage",
+  "fact": "Visited The Ironband Passage",
+  "significance": "minor",
+  "witnessIds": [
+    "CHAR_sevrin_acastus"
+  ]
+}

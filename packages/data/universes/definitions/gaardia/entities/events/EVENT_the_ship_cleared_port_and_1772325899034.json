@@ -1,0 +1,16 @@
+{
+  "id": "EVENT_the_ship_cleared_port_and_1772325899034",
+  "date": null,
+  "placeId": null,
+  "eventType": null,
+  "category": "world",
+  "subject": "Background",
+  "subjectId": null,
+  "fact": "The ship cleared port and entered maritime frontier waters under standard warding protocol.",
+  "significance": "moderate",
+  "important": true,
+  "witnessIds": null,
+  "importanceScore": null,
+  "scope": null,
+  "relevantPlaceIds": null
+}

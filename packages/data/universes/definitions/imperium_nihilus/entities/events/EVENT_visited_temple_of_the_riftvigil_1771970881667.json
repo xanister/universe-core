@@ -1,0 +1,18 @@
+{
+  "id": "EVENT_visited_temple_of_the_riftvigil_1771970881667",
+  "date": "999.M1 10:03",
+  "placeId": "PLACE_temple_of_the_riftvigil",
+  "important": false,
+  "importanceScore": null,
+  "scope": null,
+  "relevantPlaceIds": null,
+  "eventType": "location_visited",
+  "category": "world",
+  "subject": "Temple of the Rift-Vigil",
+  "subjectId": "PLACE_temple_of_the_riftvigil",
+  "fact": "Visited Temple of the Rift-Vigil",
+  "significance": "minor",
+  "witnessIds": [
+    "CHAR_alaric_morn"
+  ]
+}

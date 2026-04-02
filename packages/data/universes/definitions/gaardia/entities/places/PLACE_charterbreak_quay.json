@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_charterbreak_quay",
+  "label": "Charterbreak Quay",
+  "description": "Charterbreak Quay forms a battered line of basalt pilings and patched timber jetties along a silt-choked inlet, its edges ringed with storm-scoured iron rings and spalled mooring stones. A roofed weighhouse of riveted plate and soot-dark beams stands back from the water, its walls set with posting boards for tariff schedules, hazard ordinances, and sealed interdiction notices. The quay surface bears engraved tally grooves and numbered bollards used to assign berths under codified law, while broken stretches are shored with rubble from the surrounding ruinfields. Lantern posts burn with salt-fogged glass and blackened shutters, maintaining a regulated light line against maritime raiders and liminal breach warnings.",
+  "short_description": "scarred fogbound quay",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "harbor",
+    "environment": {
+      "type": "exterior",
+      "hasWeather": true,
+      "temperature": {
+        "enabled": true,
+        "base": null,
+        "modifiersApply": true
+      },
+      "maxDarkness": null
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "world_map_dock",
+      "facing": "south",
+      "layer": "floor"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/gaardia/images/battles/PLACE_charterbreak_quay.png?v=1772208707940",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 2192,
+    "y": 896,
+    "width": 96,
+    "height": 48,
+    "parent": "PLACE_anslem",
+    "innerWidth": 1344,
+    "innerHeight": 1280
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/gaardia/images/places/PLACE_charterbreak_quay.png?v=1772208758195",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": true
+}

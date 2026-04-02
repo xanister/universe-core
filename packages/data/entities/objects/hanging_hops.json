@@ -1,0 +1,18 @@
+{
+  "id": "hanging_hops",
+  "name": "Hanging Hops",
+  "description": "A bunch of dried hops hanging from a string.",
+  "purposes": [
+    "decoration"
+  ],
+  "tags": [
+    "common",
+    "food",
+    "tavern"
+  ],
+  "solid": false,
+  "layer": "overhead",
+  "spriteId": "hanging_hops",
+  "materials": [],
+  "tintable": false
+}

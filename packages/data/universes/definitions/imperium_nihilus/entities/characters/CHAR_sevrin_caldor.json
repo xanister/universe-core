@@ -1,0 +1,1009 @@
+{
+  "id": "CHAR_sevrin_caldor",
+  "label": "Sevrin Caldor",
+  "description": "A lean young adult of human stock, this individual bears bronze skin marked by wind-scoured texture and long travel. Brown eyes sit deep under pronounced brow ridges, giving the face a purposeful, searching cast. Black hair is kept in a plain cut, thick at the crown and worn back from a broad forehead. The mouth and jaw set in a habitual line of restraint, a permanent sign of discipline rather than severity.",
+  "short_description": "young male traveler",
+  "tags": [],
+  "entityType": "character",
+  "info": {
+    "purpose": "player",
+    "aliases": [
+      "Sev"
+    ],
+    "birthdate": "002.M42",
+    "deathdate": null,
+    "title": null,
+    "birthPlace": "Imperium Nihilus, The Cinderwake",
+    "eyeColor": "brown",
+    "gender": "male",
+    "hairColor": "black",
+    "hairStyle": "plain",
+    "beardStyle": "stubble",
+    "headType": "human_male",
+    "skinTone": "bronze",
+    "personality": "Restless and goal-driven, this traveler measures strangers quickly and commits to decisions once made. He pursues peril as a proving ground, treating each new road as a test of competence and resolve. He maintains a guarded courtesy and a habit of listening before speaking, using observation to orient himself in unfamiliar company.",
+    "race": "human",
+    "messages": [
+      {
+        "role": "user",
+        "action": "input",
+        "opts": {
+          "text": "I look around."
+        },
+        "date": "999.M1 15:00",
+        "omitFromTranscript": false,
+        "hidden": false
+      },
+      {
+        "date": "999.M1 15:02",
+        "omitFromTranscript": false,
+        "hidden": false,
+        "role": "assistant",
+        "action": "narration",
+        "opts": {
+          "text": "Clear afternoon light washes the deck in hard contrast, picking out soot-dark plating, tether rings bolted along the low bulwarks, shuttered lantern housings, and rigging cinched tight with iron-banded spars built to survive ashfall and electrostatic gales; a dry wind carries faint grit across the boards. The captain stands with an overseeing stillness near middeck, the helmsman keeps close to the helm with hands and eyes on the ship’s set, while the two young travelers linger nearby as passengers—watching the lines, the horizon, and each other in wary, quiet measure."
+        }
+      },
+      {
+        "role": "user",
+        "action": "input",
+        "opts": {
+          "text": "You travel like you expect trouble, same as me. What brings you onto a ship that sails when routes die—profit, penance, or duty?",
+          "classifiedActions": [
+            {
+              "type": "Dialogue",
+              "intent": "greet young male traveler",
+              "targetRef": null,
+              "targetId": "CHAR_kestrel_arvant",
+              "suggestedDifficulty": "trivial",
+              "suggestedStat": null,
+              "opposedBy": null,
+              "actionId": null,
+              "combatInitiated": false
+            }
+          ]
+        },
+        "date": "999.M1 18:02",
+        "omitFromTranscript": false,
+        "hidden": false
+      },
+      {
+        "date": "999.M1 18:07",
+        "omitFromTranscript": false,
+        "hidden": false,
+        "role": "assistant",
+        "action": "narration",
+        "opts": {
+          "text": "Clouds press low over the soot-dark deck as the evening chill creeps in; Kestrel Arvant shifts his weight with a traveler’s readiness and studies you like he’s weighing the cost of honesty."
+        }
+      },
+      {
+        "date": "999.M1 18:07",
+        "omitFromTranscript": false,
+        "hidden": false,
+        "role": "assistant",
+        "action": "dialog",
+        "opts": {
+          "characterId": "CHAR_kestrel_arvant",
+          "text": "You’re not wrong—trouble has a way of finding the roads I take. Duty, mostly: I’m carrying papers that don’t survive a closed checkpoint, and the Cinderwake still sails when the land routes choke out."
+        }
+      },
+      {
+        "role": "assistant",
+        "action": "move_hint",
+        "opts": {
+          "targetId": "CHAR_kestrel_arvant"
+        },
+        "date": null,
+        "omitFromTranscript": true,
+        "hidden": false
+      },
+      {
+        "role": "assistant",
+        "action": "milestone",
+        "opts": {
+          "type": "location_entered",
+          "label": "Cinderwake Cableway",
+          "subtext": null,
+          "entityId": "PLACE_cinderwake_cableway",
+          "checkDetail": null,
+          "combatData": null
+        },
+        "date": null,
+        "omitFromTranscript": true,
+        "hidden": false
+      },
+      {
+        "role": "user",
+        "action": "input",
+        "opts": {
+          "text": "I search for a torch"
+        },
+        "date": "999.M1 02:08",
+        "omitFromTranscript": false,
+        "hidden": false
+      },
+      {
+        "date": "999.M1 02:13",
+        "omitFromTranscript": false,
+        "hidden": false,
+        "role": "assistant",
+        "action": "narration",
+        "opts": {
+          "text": "Lantern-light glints off the exposed cable runs and iron turnbuckles as a maintenance torch comes into view—lashed in a simple stow bracket beside the inspection line, right where a deckhand’s hand would fall in a blackout. It comes free with a dry scrape of cord against soot-dark plating, solid and practical in the grip."
+        }
+      },
+      {
+        "role": "assistant",
+        "action": "milestone",
+        "opts": {
+          "type": "location_entered",
+          "label": "The Cinderwake",
+          "subtext": null,
+          "entityId": "PLACE_the_cinderwake",
+          "checkDetail": null,
+          "combatData": null
+        },
+        "date": null,
+        "omitFromTranscript": true,
+        "hidden": false
+      }
+    ],
+    "journal": [
+      {
+        "content": "You stand on the Cinderwake’s scored deck, tether line tight on your harness as ash skitters like vermin across soot-dark plating and the storm-glare turns the world violet. The crew keeps voices low and prayers lower, working the braced rigging by rote while the ship’s lanterns show only thin, shuttered slits of light—enough to see your hands, not enough to invite what watches in the Rift’s shadow.\n\nYou are here because the Cinderwake is still moving when most routes have died: a sanctioned passage under Imperial writ, paid in favors and stamped papers, to carry you where vox and choir cannot. In Nihilus, even honest travel feels like a sin you perform carefully.",
+        "gameDate": "999.M1 15:00",
+        "facts": [
+          {
+            "placeId": null,
+            "category": "world",
+            "subject": "Current Situation",
+            "subjectId": null,
+            "fact": "The Cinderwake is built for Vespera Tertius’ ashfall and electrostatic gales; staying clipped-in on deck is non-negotiable.",
+            "significance": "minor",
+            "important": false
+          },
+          {
+            "placeId": null,
+            "category": "world",
+            "subject": "Current Situation",
+            "subjectId": null,
+            "fact": "In Imperium Nihilus, astropathic contact is unreliable at best, so passage by hard travel and sealed words carries more weight than promises.",
+            "significance": "minor",
+            "important": false
+          },
+          {
+            "placeId": null,
+            "category": "knowledge",
+            "subject": "Current Situation",
+            "subjectId": null,
+            "fact": "You’re traveling under a mission-bound Imperial charter; your conduct is watched, and the wrong curiosity can be read as heresy.",
+            "significance": "minor",
+            "important": false
+          }
+        ],
+        "image": null,
+        "context": null
+      }
+    ],
+    "sketches": [],
+    "verbosity": 3,
+    "conversationContext": null,
+    "storytellerState": {
+      "storytellerId": "STORYTELLER_the_rainstain_chronicler",
+      "voiceId": "sarah",
+      "activePlots": [
+        {
+          "id": "plot_1772070367484",
+          "plan": {
+            "label": "Canticle in the Ash",
+            "description": "You ride the storm-slashed deck of the Cinderwake under a sky that never fully brightens, where prayers are counted like rations and every nail in the hull is a ward against the Rift. A deckhand collapses at your feet with a wax-sealed writ that should not exist this far into Imperium Nihilus—its mark is real, but its words taste wrong in the mouth. Someone aboard wants that seal unbroken, and someone else is already cutting the ship’s protections apart bolt by bolt. Opening hook: the ship’s lantern-flames gutter into impossible violet for a heartbeat, and every crewman who sees it reflexively makes the sign of the aquila—then lies about it.",
+            "plot": "Sevrin Caldor’s sanctioned party is pulled into a crisis when A Fatigued Deckhand Messenger delivers a Sealed Letter bearing a distorted but authentic Inquisitorial cipher, directing them to investigate missing tithe-cargo and a “choir-reliquary” bound for the Ashfall Ledgerhouse. Corvin Rake, a canteen barkeep who hears everything the crew tries not to say, points them toward sabotage aboard the Cinderwake and whispers of a Mechanicus “assessor” traveling under false authority. The assessor is Alaric Morn, now a heretek conduit for scrapcode: he intends to awaken a stolen Canticle-Engine—an unholy vox-altar that uses harvested psyker tissue to punch a momentary hole through the Great Rift’s silence. The twist is that the forged orders are good enough to split loyalties: local Administratum clerks, an Ecclesiarchy zealot, and even loyal crew can be made to oppose the party in the name of ‘proper procedure’ while Chaos feeds on delay. As the ash-storm peaks, the Canticle-Engine begins to sing in a register that bruises the soul, and the players must choose between destroying a priceless asset, or chaining it for extraction—either option buying only a small, bloody patch of light in the endless dark.",
+            "characters": [
+              {
+                "role": "victim",
+                "description": "A hollow-eyed, salt-stained deckhand with shaking hands and a raw throat, his exhaustion so complete it looks like illness; he keeps glancing at the shadows between lantern beams as if they’re listening.",
+                "publicFace": "A simple courier begging to pass on orders and die somewhere quiet.",
+                "hiddenTruth": "He has already been exposed to scrapcode-litany and is unknowingly carrying memetic contamination in his prayers; keeping him alive buys time but risks spreading it.",
+                "locationHint": "On the Cinderwake’s weather deck and cramped companionways, wherever crew traffic is thick.",
+                "introductionProgress": 0,
+                "name": "A Fatigued Deckhand Messenger",
+                "matchHint": "",
+                "entityId": "CHAR_a_fatigued_deckhand_messenger"
+              },
+              {
+                "role": "informant",
+                "description": "A lean, sharp-nosed barkeep with ink-stained fingers and a watchful stillness, speaking softly as if the air itself files reports.",
+                "publicFace": "A canteen man who trades in gossip, cards, and watered spirits.",
+                "hiddenTruth": "He has an undeclared line to off-world authorities and is collecting leverage on everyone aboard to survive the next purge—yours included.",
+                "locationHint": "Near the ship’s canteen stores, where crew congregate to ‘forget’ the storm.",
+                "introductionProgress": 10,
+                "name": "Corvin Rake",
+                "matchHint": "",
+                "entityId": "CHAR_corvin_rake"
+              },
+              {
+                "role": "antagonist",
+                "description": "A travel-worn man whose calm smile never reaches his eyes; beneath his coat, faint metallic clicks betray hidden augmetics, and his voice carries the practiced cadence of a preacher.",
+                "publicFace": "A sanctioned agent ‘verifying’ cargo and issuing corrections in the name of Imperial order.",
+                "hiddenTruth": "A heretek vector seeded with scrapcode, using bureaucratic authority as a weapon; he intends to awaken the Canticle-Engine and ride the resulting breach.",
+                "locationHint": "Wherever the most sensitive cargo is kept—manifest offices, sealed holds, and any place with machine-spirits to corrupt.",
+                "introductionProgress": 40,
+                "name": "Alaric Morn",
+                "matchHint": "",
+                "entityId": "CHAR_alaric_morn"
+              },
+              {
+                "role": "obstacle",
+                "description": "A severe, ink-burned man with a ritual brand on one wrist and prayer-scars on the lips, always smelling faintly of ash and incense.",
+                "publicFace": "A dutiful ship-legate insisting every action follow proper rites, seals, and chains of command.",
+                "hiddenTruth": "His zeal makes him easy to steer: he will obstruct you ‘to prevent heresy’ even when that obstruction serves the heretek’s timetable.",
+                "locationHint": "At stores, shrines, and any place where seals, inventories, or rites are performed.",
+                "introductionProgress": 25,
+                "name": "Edrin Fallow",
+                "matchHint": "",
+                "entityId": "CHAR_edrin_fallow"
+              }
+            ],
+            "places": [
+              {
+                "placeId": "PLACE_ashfall_ledgerhouse",
+                "storyRole": "investigation_site"
+              },
+              {
+                "placeId": "PLACE_cinderstep_quarters",
+                "storyRole": "meeting_place"
+              },
+              {
+                "placeId": "PLACE_bastion_quartermaster_vault",
+                "storyRole": "final_confrontation"
+              }
+            ],
+            "items": [
+              {
+                "itemId": "sealed_letter",
+                "tint": null,
+                "locationHint": "Carried on the person of A Fatigued Deckhand Messenger, clenched like a lifeline.",
+                "placement": "ground"
+              },
+              {
+                "itemId": "bronze_medallion",
+                "tint": null,
+                "locationHint": "Hidden in a bolted footlocker inside Ashglass Quarters, wrapped in oilcloth with other ‘official’ tokens.",
+                "placement": "container"
+              },
+              {
+                "itemId": "golden_key",
+                "tint": null,
+                "locationHint": "Locked in a small strongbox amid Ashlight Stores’ gasketed shelves, kept separate from common keys.",
+                "placement": "container"
+              },
+              {
+                "itemId": "iron_amulet",
+                "tint": null,
+                "locationHint": "Hanging on a nail above a soot-blackened prayer-slate in the Ashfall Ledgerhouse’s back offices.",
+                "placement": "ground"
+              },
+              {
+                "itemId": "antidote_vial",
+                "tint": null,
+                "locationHint": "Sealed in a medical tin within the Ash-Filter Store, marked for ‘authorized use only’.",
+                "placement": "container"
+              }
+            ],
+            "turningPoints": [
+              {
+                "id": "TP_writ_in_ash",
+                "progressTarget": 0,
+                "dramaticRole": "inciting_incident",
+                "involvedCharacter": "A Fatigued Deckhand Messenger",
+                "triggerOnFlags": null,
+                "essentialInformation": [
+                  "The player learns an urgent sealed writ marked with an Inquisitorial cipher has reached them by unsafe channels",
+                  "The player learns someone aboard the Cinderwake is actively trying to seize or destroy the writ"
+                ],
+                "triggerConditions": null,
+                "conditionTimeoutHours": null,
+                "triggered": false,
+                "triggeredAt": null,
+                "triggeredByEventId": null,
+                "outcome": null,
+                "flagsSet": null,
+                "conditionsEligibleSince": null
+              },
+              {
+                "id": "TP_breaking_the_seal",
+                "progressTarget": 38,
+                "dramaticRole": "rising_action",
+                "involvedCharacter": "Corvin Rake",
+                "triggerOnFlags": null,
+                "essentialInformation": [
+                  "The player learns the writ points to the Ashfall Ledgerhouse and a missing ‘choir-reliquary’ tied to the tithe",
+                  "The player learns the ship’s warding and inventories are being altered to conceal unauthorized cargo movement"
+                ],
+                "triggerConditions": [
+                  {
+                    "type": "min_hours_since_last_event",
+                    "purposes": null,
+                    "placeStoryRole": null,
+                    "periods": null,
+                    "characterName": null,
+                    "hours": 4
+                  },
+                  {
+                    "type": "specific_location",
+                    "purposes": null,
+                    "placeStoryRole": "meeting_place",
+                    "periods": null,
+                    "characterName": null,
+                    "hours": null
+                  },
+                  {
+                    "type": "not_in_combat",
+                    "purposes": null,
+                    "placeStoryRole": null,
+                    "periods": null,
+                    "characterName": null,
+                    "hours": null
+                  }
+                ],
+                "conditionTimeoutHours": 48,
+                "triggered": false,
+                "triggeredAt": null,
+                "triggeredByEventId": null,
+                "outcome": null,
+                "flagsSet": null,
+                "conditionsEligibleSince": null
+              },
+              {
+                "id": "TP_ledgerhouse_contradictions",
+                "progressTarget": 55,
+                "dramaticRole": "midpoint",
+                "involvedCharacter": "Edrin Fallow",
+                "triggerOnFlags": null,
+                "essentialInformation": [
+                  "The player learns the cargo is being diverted under ‘proper’ seals that do not match any trustworthy chain of command",
+                  "The player learns a Mechanicus-linked assessor is expected to take custody during the next storm peak"
+                ],
+                "triggerConditions": [
+                  {
+                    "type": "min_hours_since_last_event",
+                    "purposes": null,
+                    "placeStoryRole": null,
+                    "periods": null,
+                    "characterName": null,
+                    "hours": 4
+                  },
+                  {
+                    "type": "specific_location",
+                    "purposes": null,
+                    "placeStoryRole": "investigation_site",
+                    "periods": null,
+                    "characterName": null,
+                    "hours": null
+                  },
+                  {
+                    "type": "not_in_combat",
+                    "purposes": null,
+                    "placeStoryRole": null,
+                    "periods": null,
+                    "characterName": null,
+                    "hours": null
+                  }
+                ],
+                "conditionTimeoutHours": 48,
+                "triggered": false,
+                "triggeredAt": null,
+                "triggeredByEventId": null,
+                "outcome": null,
+                "flagsSet": null,
+                "conditionsEligibleSince": null
+              },
+              {
+                "id": "TP_the_canticle_bleeds",
+                "progressTarget": 70,
+                "dramaticRole": "crisis",
+                "involvedCharacter": "Alaric Morn",
+                "triggerOnFlags": null,
+                "essentialInformation": [
+                  "The player learns the ‘choir-reliquary’ is part of a forbidden vox-altar designed to force communication through warp breach",
+                  "The player learns delay will trigger an automatic purge response from local authorities once the first signs appear"
+                ],
+                "triggerConditions": [
+                  {
+                    "type": "min_hours_since_last_event",
+                    "purposes": null,
+                    "placeStoryRole": null,
+                    "periods": null,
+                    "characterName": null,
+                    "hours": 6
+                  },
+                  {
+                    "type": "time_of_day",
+                    "purposes": null,
+                    "placeStoryRole": null,
+                    "periods": [
+                      "evening",
+                      "night"
+                    ],
+                    "characterName": null,
+                    "hours": null
+                  },
+                  {
+                    "type": "not_in_combat",
+                    "purposes": null,
+                    "placeStoryRole": null,
+                    "periods": null,
+                    "characterName": null,
+                    "hours": null
+                  }
+                ],
+                "conditionTimeoutHours": 48,
+                "triggered": false,
+                "triggeredAt": null,
+                "triggeredByEventId": null,
+                "outcome": null,
+                "flagsSet": null,
+                "conditionsEligibleSince": null
+              },
+              {
+                "id": "TP_song_in_the_vault",
+                "progressTarget": 85,
+                "dramaticRole": "climax",
+                "involvedCharacter": "Alaric Morn",
+                "triggerOnFlags": null,
+                "essentialInformation": [
+                  "The player learns they must immediately stop the Canticle-Engine’s activation by destroying it or sealing it for extraction",
+                  "The player learns the heretek’s corruption can persist in machines and records even if the heretek is killed"
+                ],
+                "triggerConditions": [
+                  {
+                    "type": "min_hours_since_last_event",
+                    "purposes": null,
+                    "placeStoryRole": null,
+                    "periods": null,
+                    "characterName": null,
+                    "hours": 4
+                  },
+                  {
+                    "type": "specific_location",
+                    "purposes": null,
+                    "placeStoryRole": "final_confrontation",
+                    "periods": null,
+                    "characterName": null,
+                    "hours": null
+                  },
+                  {
+                    "type": "not_in_combat",
+                    "purposes": null,
+                    "placeStoryRole": null,
+                    "periods": null,
+                    "characterName": null,
+                    "hours": null
+                  }
+                ],
+                "conditionTimeoutHours": 24,
+                "triggered": false,
+                "triggeredAt": null,
+                "triggeredByEventId": null,
+                "outcome": null,
+                "flagsSet": null,
+                "conditionsEligibleSince": null
+              },
+              {
+                "id": "TP_ashes_of_procedure",
+                "progressTarget": 92,
+                "dramaticRole": "resolution",
+                "involvedCharacter": "Corvin Rake",
+                "triggerOnFlags": null,
+                "essentialInformation": [
+                  "The player learns the aftermath will be judged by competing Imperial authorities regardless of their intent",
+                  "The player learns any ‘victory’ here only shifts the shape of the war—routes remain broken and the dark still listens"
+                ],
+                "triggerConditions": [
+                  {
+                    "type": "min_hours_since_last_event",
+                    "purposes": null,
+                    "placeStoryRole": null,
+                    "periods": null,
+                    "characterName": null,
+                    "hours": 2
+                  },
+                  {
+                    "type": "not_in_combat",
+                    "purposes": null,
+                    "placeStoryRole": null,
+                    "periods": null,
+                    "characterName": null,
+                    "hours": null
+                  }
+                ],
+                "conditionTimeoutHours": 48,
+                "triggered": false,
+                "triggeredAt": null,
+                "triggeredByEventId": null,
+                "outcome": null,
+                "flagsSet": null,
+                "conditionsEligibleSince": null
+              }
+            ],
+            "possibleFlags": [
+              {
+                "id": "acquired_sealed_letter",
+                "triggerDescription": "Set when the player takes possession of the Sealed Letter (from the messenger or another source)"
+              },
+              {
+                "id": "used_sealed_letter",
+                "triggerDescription": "Set when the player breaks the seal/reads the Sealed Letter"
+              },
+              {
+                "id": "acquired_bronze_medallion",
+                "triggerDescription": "Set when the player obtains the Bronze Medallion used as proof of charter/authority"
+              },
+              {
+                "id": "used_bronze_medallion",
+                "triggerDescription": "Set when the player presents the Bronze Medallion to compel access or compliance"
+              },
+              {
+                "id": "acquired_golden_key",
+                "triggerDescription": "Set when the player obtains the Golden Key that fits the vault reliquary locks"
+              },
+              {
+                "id": "used_golden_key",
+                "triggerDescription": "Set when the player uses the Golden Key to open a sealed reliquary/vault door"
+              },
+              {
+                "id": "acquired_iron_amulet",
+                "triggerDescription": "Set when the player obtains the Iron Amulet inscribed with a crude warding prayer"
+              },
+              {
+                "id": "used_iron_amulet",
+                "triggerDescription": "Set when the player uses the Iron Amulet as part of a warding/sealing rite"
+              },
+              {
+                "id": "acquired_antidote_vial",
+                "triggerDescription": "Set when the player obtains the Antidote Vial intended to counter ash-rot toxins"
+              },
+              {
+                "id": "used_antidote_vial",
+                "triggerDescription": "Set when the player uses the Antidote Vial to treat infection"
+              },
+              {
+                "id": "letter_lost",
+                "triggerDescription": "Set when the Sealed Letter is destroyed, stolen, or becomes unreadable before the player can use it"
+              },
+              {
+                "id": "manifest_found",
+                "triggerDescription": "Set when the player secures proof of cargo diversion (ledger entries, seals, or witness testimony) at the Ashfall Ledgerhouse"
+              },
+              {
+                "id": "heretek_exposed",
+                "triggerDescription": "Set when the player identifies the false-assessor as a heretek vector and gathers enough proof to act openly"
+              },
+              {
+                "id": "antagonist_defeated",
+                "triggerDescription": "Set when the player defeats Alaric Morn (killed, captured, or decisively driven off) during the final confrontation"
+              },
+              {
+                "id": "engine_destroyed",
+                "triggerDescription": "Set when the player destroys the Canticle-Engine beyond recovery"
+              },
+              {
+                "id": "engine_secured",
+                "triggerDescription": "Set when the player seals the Canticle-Engine for extraction under ward and chain-of-custody"
+              },
+              {
+                "id": "engine_activated",
+                "triggerDescription": "Set when the Canticle-Engine completes a breach-song cycle, causing a warp incident/purge escalation"
+              },
+              {
+                "id": "ash_rot_infected",
+                "triggerDescription": "Set when the player is exposed to toxic ash/contaminants severe enough to require treatment"
+              },
+              {
+                "id": "ash_rot_claims",
+                "triggerDescription": "Set when infection or contamination is allowed to worsen, costing lives or rendering a key witness unfit"
+              }
+            ],
+            "goals": [
+              {
+                "id": "GOAL_read_the_writ",
+                "description": "Secure the sealed writ and learn what it demands before your enemies can erase it.",
+                "progressBoost": 30,
+                "revealOnFlags": [],
+                "successFlags": [
+                  "used_sealed_letter"
+                ],
+                "failureFlags": [
+                  "letter_lost"
+                ],
+                "failureDeadlineHours": 24,
+                "hidden": false,
+                "destinationPlaceId": null,
+                "goalType": null,
+                "stakes": null,
+                "personalHook": null,
+                "dramaticQuestion": null,
+                "immediateHint": null,
+                "blockedByFlags": null,
+                "status": null,
+                "revealedAt": null
+              },
+              {
+                "id": "GOAL_trace_the_diversion",
+                "description": "Reach the Ashfall Ledgerhouse and obtain proof of who is diverting the missing cargo.",
+                "progressBoost": 30,
+                "revealOnFlags": [
+                  "used_sealed_letter"
+                ],
+                "successFlags": [
+                  "manifest_found"
+                ],
+                "failureFlags": [
+                  "engine_activated"
+                ],
+                "failureDeadlineHours": 48,
+                "hidden": false,
+                "destinationPlaceId": null,
+                "goalType": null,
+                "stakes": null,
+                "personalHook": null,
+                "dramaticQuestion": null,
+                "immediateHint": null,
+                "blockedByFlags": null,
+                "status": null,
+                "revealedAt": null
+              },
+              {
+                "id": "GOAL_unmask_the_assessor",
+                "description": "Expose the false authority behind the diversion and identify the heretek method before it completes its work.",
+                "progressBoost": 25,
+                "revealOnFlags": [
+                  "manifest_found"
+                ],
+                "successFlags": [
+                  "heretek_exposed"
+                ],
+                "failureFlags": [
+                  "engine_activated"
+                ],
+                "failureDeadlineHours": 36,
+                "hidden": false,
+                "destinationPlaceId": null,
+                "goalType": null,
+                "stakes": null,
+                "personalHook": null,
+                "dramaticQuestion": null,
+                "immediateHint": null,
+                "blockedByFlags": null,
+                "status": null,
+                "revealedAt": null
+              },
+              {
+                "id": "GOAL_stop_alaric_morn",
+                "description": "Confront and stop Alaric Morn before he can complete the breach-song.",
+                "progressBoost": 35,
+                "revealOnFlags": [
+                  "heretek_exposed"
+                ],
+                "successFlags": [
+                  "antagonist_defeated"
+                ],
+                "failureFlags": [
+                  "engine_activated"
+                ],
+                "failureDeadlineHours": 24,
+                "hidden": false,
+                "destinationPlaceId": null,
+                "goalType": null,
+                "stakes": null,
+                "personalHook": null,
+                "dramaticQuestion": null,
+                "immediateHint": null,
+                "blockedByFlags": null,
+                "status": null,
+                "revealedAt": null
+              },
+              {
+                "id": "GOAL_decide_engine_fate",
+                "description": "Decide the Canticle-Engine’s fate: destroy it as heresy, or seal it for extraction and judgment—either choice will have consequences.",
+                "progressBoost": 40,
+                "revealOnFlags": [
+                  "manifest_found"
+                ],
+                "successFlags": [
+                  "engine_destroyed",
+                  "engine_secured"
+                ],
+                "failureFlags": [
+                  "engine_activated"
+                ],
+                "failureDeadlineHours": 24,
+                "hidden": false,
+                "destinationPlaceId": null,
+                "goalType": null,
+                "stakes": null,
+                "personalHook": null,
+                "dramaticQuestion": null,
+                "immediateHint": null,
+                "blockedByFlags": null,
+                "status": null,
+                "revealedAt": null
+              }
+            ],
+            "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/plots/plot_1772070317123.png",
+            "plotStartDelay": 7,
+            "endingCards": [
+              {
+                "condition": {
+                  "type": "flag_set",
+                  "flag": "engine_destroyed"
+                },
+                "title": "Ash and Silence",
+                "text": "The Canticle-Engine dies screaming in static, and the warehouse returns to mere darkness. You live, but the Rift remains mute—and someone will call your mercy ‘cowardice’ and your necessity ‘heresy.’",
+                "image": null
+              },
+              {
+                "condition": {
+                  "type": "flag_set",
+                  "flag": "engine_secured"
+                },
+                "title": "A Weapon in Chains",
+                "text": "You bind the Canticle-Engine in wards and paperwork, turning blasphemy into an asset in a galaxy that punishes purity. The Mechanicus will remember the theft; the Ecclesiarchy will remember the restraint.",
+                "image": null
+              },
+              {
+                "condition": {
+                  "type": "flag_set",
+                  "flag": "engine_activated"
+                },
+                "title": "The Rift Answers",
+                "text": "For a moment, the void has a voice—and it is not human. Quarantine orders, purges, and new prayers follow, but the echo of the breach-song lingers in every machine that heard it.",
+                "image": null
+              },
+              {
+                "condition": {
+                  "type": "flag_set",
+                  "flag": "letter_lost"
+                },
+                "title": "Lost Writ, Lost Hours",
+                "text": "Without the writ, you fight blind, and others fill the silence with their own ‘proper’ orders. In Imperium Nihilus, ignorance is not safety—only a slower execution.",
+                "image": null
+              },
+              {
+                "condition": {
+                  "type": "always",
+                  "flag": ""
+                },
+                "title": "In Nihilus, Nothing Ends",
+                "text": "Whatever you saved, it will be threatened again; whatever you burned, its smoke will seed another war. The Emperor’s light is far away, and the dark half of the Imperium learns to live without it.",
+                "image": null
+              }
+            ],
+            "credits": {
+              "title": "Generated Adventure",
+              "entries": [
+                {
+                  "role": "Plot",
+                  "name": "Storyteller"
+                },
+                {
+                  "role": "World",
+                  "name": "Imperium Nihilus"
+                }
+              ]
+            },
+            "characterCentric": false,
+            "centralDramaticQuestion": null,
+            "dramaticSubQuestions": null
+          },
+          "progressLevel": 0,
+          "storyFlags": [],
+          "nextEventAtGameDate": "999.M1 22:03",
+          "events": [],
+          "endedAt": null
+        }
+      ],
+      "generationInProgress": false,
+      "eventHistory": [],
+      "storytellerSelectedAt": "999.M1 15:00",
+      "custom": {}
+    },
+    "isPlayer": true,
+    "storyComplete": false,
+    "routine": null,
+    "vesselRoutes": null,
+    "abstractLocation": null,
+    "npcBehavior": null,
+    "physicalState": null,
+    "pendingDeparture": null,
+    "pendingArrival": null,
+    "lastRoutineCheckPeriod": "night",
+    "startingNarrative": "You stand on the Cinderwake’s scored deck, tether line tight on your harness as ash skitters like vermin across soot-dark plating and the storm-glare turns the world violet. The crew keeps voices low and prayers lower, working the braced rigging by rote while the ship’s lanterns show only thin, shuttered slits of light—enough to see your hands, not enough to invite what watches in the Rift’s shadow.\n\nYou are here because the Cinderwake is still moving when most routes have died: a sanctioned passage under Imperial writ, paid in favors and stamped papers, to carry you where vox and choir cannot. In Nihilus, even honest travel feels like a sin you perform carefully.",
+    "startingCharacterState": "Taut and watchful—restless energy held behind discipline, mind measuring every face and failure point.",
+    "clothing": [
+      {
+        "slot": "torso_under",
+        "itemId": "tunic",
+        "color": "#d2b48c",
+        "contents": null
+      },
+      {
+        "slot": "torso_over",
+        "itemId": "trenchcoat",
+        "color": "#3a3a3a",
+        "contents": null
+      },
+      {
+        "slot": "legs",
+        "itemId": "cloth_pants",
+        "color": "#8b4513",
+        "contents": null
+      },
+      {
+        "slot": "feet",
+        "itemId": "boots",
+        "color": "#1a1a1a",
+        "contents": null
+      },
+      {
+        "slot": "belt",
+        "itemId": "leather_belt",
+        "color": "#8b4513",
+        "contents": [
+          {
+            "id": "ci_1772074637964_3otyzz",
+            "itemId": "torch",
+            "name": "Torch",
+            "description": "Torch",
+            "type": "generic",
+            "quantity": 1,
+            "color": null,
+            "equipSlot": null,
+            "plotId": null,
+            "lightSource": {
+              "radius": 120,
+              "color": 16755268,
+              "intensity": 0.5,
+              "flicker": true,
+              "flickerSpeed": 200,
+              "flickerRange": 0.12,
+              "offsetX": 0,
+              "offsetY": -20
+            }
+          }
+        ]
+      }
+    ],
+    "enabledOverlayLayers": [
+      "eyes",
+      "facial"
+    ],
+    "helmingVesselId": null,
+    "storytellerDisabled": false,
+    "rulesetState": {
+      "stats": {
+        "physical": 50,
+        "mental": 50,
+        "social": 50,
+        "poise": 50,
+        "max_poise": 50,
+        "bloodloss": 0,
+        "anxiety": 0,
+        "fatigue": 0,
+        "hunger": 0
+      },
+      "conditions": [],
+      "statUsage": {},
+      "incapacitation": null,
+      "incapacitatedSince": null
+    },
+    "voiceId": "will",
+    "spriteConfig": {
+      "bodyType": "male",
+      "layers": [
+        {
+          "type": "body",
+          "optionId": "body_base",
+          "tint": 11373408
+        },
+        {
+          "type": "body",
+          "optionId": "body_universal",
+          "tint": 11373408
+        },
+        {
+          "type": "eyes",
+          "optionId": "eyes_eyes",
+          "tint": 7029286
+        },
+        {
+          "type": "facial",
+          "optionId": "facial_beard",
+          "tint": 1710618
+        },
+        {
+          "type": "hair",
+          "optionId": "hair_plain",
+          "tint": 1710618
+        },
+        {
+          "type": "torso",
+          "optionId": "torso_formal_trenchcoat_male",
+          "tint": 3815994
+        },
+        {
+          "type": "legs",
+          "optionId": "legs_white_pants_male",
+          "tint": 9127187
+        },
+        {
+          "type": "feet",
+          "optionId": "feet_white_boots_male",
+          "tint": 1710618
+        },
+        {
+          "type": "belt",
+          "optionId": "belt_leather_male",
+          "tint": 9127187
+        }
+      ],
+      "spriteHash": "c8e6176df415048c",
+      "spriteUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/sprites/generated/c8e6176df415048c.png",
+      "spriteScale": 1
+    }
+  },
+  "position": {
+    "x": 784,
+    "y": 704,
+    "width": 32,
+    "height": 48,
+    "parent": "PLACE_the_cinderwake"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/characters/CHAR_sevrin_caldor.png?v=1772070068838",
+  "faceAnchorY": 0.17,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "talk"
+  },
+  "relationships": [
+    {
+      "targetId": "CHAR_kael_orsino",
+      "type": "acquaintance",
+      "disposition": 0,
+      "familiarity": 40,
+      "context": "Both are restless, goal-driven travelers currently in the Cinderwake; likely to have crossed paths and sized each other up in the same local circuits.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_kestrel_arvant",
+      "type": "acquaintance",
+      "disposition": 0,
+      "familiarity": 40,
+      "context": "Shared location (Cinderwake) and similar traveler temperament and risk-seeking work make a casual familiarity plausible.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_severan_dusk",
+      "type": "acquaintance",
+      "disposition": 0,
+      "familiarity": 40,
+      "context": "Sevrin’s travel through the Cinderwake could plausibly put him in contact with a local watch-keeper, but no direct shared role suggests more than casual contact.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_severin_drach",
+      "type": "acquaintance",
+      "disposition": 0,
+      "familiarity": 40,
+      "context": "As a traveler in the Cinderwake, Sevrin could have encountered a local commander in passing (e.g., hiring-on, inspection, or port dealings), but there’s insufficient basis for a stronger tie.",
+      "pendingGeneration": false
+    }
+  ],
+  "important": false
+}

@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_bafflelit_sleeping_cell",
+  "label": "Bafflelit Sleeping Cell",
+  "description": "Bafflelit Sleeping Cell constitutes a compact bedroom carved into the tenement’s salt-cemented basalt courses, its surfaces darkened to suppress Saltharrow’s hard white glare. A recessed sleeping platform and built-in stone niches occupy one wall, their edges rounded and brine-sealed against grit. Overhead, a shuttered baffle and narrow vent flue admit controlled air through grit filters, maintaining the tenement’s even interior dimness. The floor is scored with shallow channels that guide brine wash toward a drain cut into the basalt.",
+  "short_description": "dim basalt sleeping cell",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "bedroom",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "door_wooden",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/the_brine_lattice/images/battles/PLACE_bafflelit_sleeping_cell.png?v=1772314259211",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 464,
+    "y": 160,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_hazescreen_tenement",
+    "innerWidth": 544,
+    "innerHeight": 640
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/the_brine_lattice/images/places/PLACE_bafflelit_sleeping_cell.png?v=1772314307448",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

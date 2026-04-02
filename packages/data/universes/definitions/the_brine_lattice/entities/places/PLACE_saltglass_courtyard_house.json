@@ -1,0 +1,61 @@
+{
+  "id": "PLACE_saltglass_courtyard_house",
+  "label": "Saltglass Courtyard House",
+  "description": "Saltglass Courtyard House constitutes a low basalt residence built on a salt-cemented plinth in keeping with Brineshade Terminator City’s fused platforms. Its plan turns inward around a narrow courtyard roofed by ribbed panes of saltglass that diffuse Saltharrow’s hard white glare into a constant, pale illumination. Shuttered arcades and layered light baffles line the exterior openings, preserving optical clarity while sealing against mineral haze bands. Interior walls bear mineral-wash finishes and load-buttresses engineered to resist the city’s measurable tidal stresses.",
+  "short_description": "basalt home with courtyard",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "residence",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "building_residence",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/the_brine_lattice/images/battles/PLACE_saltglass_courtyard_house.png?v=1772313815351",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 1840,
+    "y": 928,
+    "width": 160,
+    "height": 256,
+    "parent": "PLACE_brineshade_terminator_city",
+    "innerWidth": 864,
+    "innerHeight": 1216
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/the_brine_lattice/images/places/PLACE_saltglass_courtyard_house.png?v=1772313939993",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": [
+    "Beaconshade Residence",
+    "The Latticebeam Residence"
+  ],
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

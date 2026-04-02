@@ -1,0 +1,53 @@
+{
+  "id": "OBJ_quarantine_stores_barrel_stack_0083",
+  "label": "Stacked Barrels",
+  "description": "A small stack of wooden barrels bound together for storage.",
+  "important": false,
+  "short_description": "stacked barrels",
+  "tags": [
+    "ship",
+    "tavern"
+  ],
+  "entityType": "object",
+  "info": {
+    "purpose": "storage",
+    "solid": true,
+    "layer": "default",
+    "isStructural": false,
+    "material": null,
+    "tint": null,
+    "spriteConfig": {
+      "spriteId": "barrel_stack",
+      "frame": null,
+      "animationKey": null,
+      "animated": false,
+      "facing": "south"
+    },
+    "hp": null,
+    "maxHp": null,
+    "state": null,
+    "contents": null,
+    "lightSource": null,
+    "itemId": null,
+    "plotId": null
+  },
+  "position": {
+    "x": 96,
+    "y": 576,
+    "width": 64,
+    "height": 64,
+    "parent": "PLACE_quarantine_stores"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "relationships": [],
+  "image": null,
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "search"
+  }
+}

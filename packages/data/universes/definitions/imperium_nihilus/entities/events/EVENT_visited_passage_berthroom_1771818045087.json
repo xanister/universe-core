@@ -1,0 +1,16 @@
+{
+  "id": "EVENT_visited_passage_berthroom_1771818045087",
+  "date": "999.M1 21:36",
+  "placeId": "PLACE_passage_berthroom",
+  "important": false,
+  "importanceScore": null,
+  "scope": null,
+  "relevantPlaceIds": null,
+  "eventType": "location_visited",
+  "category": "world",
+  "subject": "Passage Berthroom",
+  "subjectId": "PLACE_passage_berthroom",
+  "fact": "Visited Passage Berthroom",
+  "significance": "minor",
+  "witnessIds": null
+}

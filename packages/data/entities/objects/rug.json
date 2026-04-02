@@ -1,0 +1,20 @@
+{
+  "id": "rug",
+  "purposes": [
+    "floor_covering"
+  ],
+  "spriteId": "rug",
+  "name": "Rug",
+  "description": "A Rug",
+  "tags": [
+    "common",
+    "decoration",
+    "floor",
+    "ship"
+  ],
+  "materials": [],
+  "solid": false,
+  "layer": "floor",
+  "tintable": false,
+  "lightSource": null
+}

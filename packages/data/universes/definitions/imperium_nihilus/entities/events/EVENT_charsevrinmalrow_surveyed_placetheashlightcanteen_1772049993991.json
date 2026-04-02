@@ -1,0 +1,28 @@
+{
+  "id": "EVENT_charsevrinmalrow_surveyed_placetheashlightcanteen_1772049993991",
+  "date": "999.M1 01:44",
+  "placeId": "PLACE_the_ashlight_canteen",
+  "eventType": null,
+  "category": "world",
+  "subject": "The Ashlight Canteen",
+  "subjectId": "PLACE_the_ashlight_canteen",
+  "fact": "CHAR_sevrin_malrow surveyed PLACE_the_ashlight_canteen",
+  "significance": "moderate",
+  "witnessIds": [
+    "CHAR_sevrin_malrow",
+    "CHAR_edrin_fallow",
+    "CHAR_jorren_halvik",
+    "CHAR_orris_malk",
+    "CHAR_rhett_marrow",
+    "CHAR_silan_jett",
+    "CHAR_soren_halbrecht",
+    "CHAR_tamsin_rowe",
+    "CHAR_tomas_avenro"
+  ],
+  "important": false,
+  "importanceScore": null,
+  "scope": "local",
+  "relevantPlaceIds": [
+    "PLACE_the_ashlight_canteen"
+  ]
+}

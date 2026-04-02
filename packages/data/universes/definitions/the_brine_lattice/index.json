@@ -1,0 +1,239 @@
+{
+  "id": "the_brine_lattice",
+  "name": "The Brine Lattice",
+  "version": "1.0.0",
+  "description": "The world is an archipelago of stone platforms and saltwater basins stitched together by an immense, ancient grid of mineral “veins” called the Lattice. Tide and weather are predictable to the minute, yet the sea occasionally rises in perfect geometric shapes—walls, spirals, and steps—that leave behind new corridors of crystallized salt. No one agrees whether the Lattice is a machine, a reef, or a failed attempt to teach the ocean to hold a shape. Communities survive by reading the Lattice’s patterns, harvesting brine-crystals, and negotiating access to shifting routes that can rewrite maps overnight.",
+  "custom": {},
+  "rules": "Physics is mostly stable, but the sea periodically “solids” into geometric forms for hours or days, creating temporary land and sealed chambers. Metal corrodes rapidly unless treated with brine-resins; ceramics, stone, and treated wood dominate material culture. There is no spellcasting in the traditional sense—only repeatable “salinity practices” that work through chemistry, pressure, acoustics, and careful timing with the Lattice’s cycles. Navigation, trade, and conflict revolve around tide-calendars; ignoring the cycle is a reliable way to die. The Lattice cannot be destroyed by known means, but it can be redirected locally by altering flow channels, at significant ecological and political cost.",
+  "tone": "neutral, exploratory, and grounded",
+  "style": "clean-lined maritime realism with mineral iridescence; overcast skies, pale stone, glassy brine surfaces, and salt-crystal geometry",
+  "mapStyle": null,
+  "image": null,
+  "date": "C 01.01.8127 10:06",
+  "calendar": {
+    "name": "The Brine Lattice Calendar",
+    "calendarType": "standard",
+    "months": [
+      {
+        "name": "Neap-First",
+        "days": 24
+      },
+      {
+        "name": "Neap-Second",
+        "days": 24
+      },
+      {
+        "name": "Neap-Third",
+        "days": 24
+      },
+      {
+        "name": "Neap-Fourth",
+        "days": 24
+      },
+      {
+        "name": "Spring Tide-First",
+        "days": 24
+      },
+      {
+        "name": "Spring Tide-Second",
+        "days": 24
+      },
+      {
+        "name": "Spring Tide-Third",
+        "days": 24
+      },
+      {
+        "name": "Spring Tide-Fourth",
+        "days": 24
+      },
+      {
+        "name": "Stillwater-First",
+        "days": 24
+      },
+      {
+        "name": "Stillwater-Second",
+        "days": 24
+      },
+      {
+        "name": "Stillwater-Third",
+        "days": 24
+      },
+      {
+        "name": "Stillwater-Fourth",
+        "days": 24
+      },
+      {
+        "name": "Stormmark-First",
+        "days": 24
+      },
+      {
+        "name": "Stormmark-Second",
+        "days": 24
+      },
+      {
+        "name": "Stormmark-Third",
+        "days": 24
+      },
+      {
+        "name": "Stormmark-Fourth",
+        "days": 24
+      }
+    ],
+    "time": {
+      "hoursPerDay": 24,
+      "minutesPerHour": 60
+    },
+    "eras": [
+      {
+        "id": 1,
+        "name": "Cycle",
+        "shortName": "C",
+        "backwards": false,
+        "transitionEra": 0
+      }
+    ],
+    "defaultEra": 1,
+    "seasons": null,
+    "format": {
+      "dateSeparator": ".",
+      "timeSeparator": ":",
+      "eraPosition": "prefix",
+      "monthDisplay": "number",
+      "yearFirst": false,
+      "use24Hour": false,
+      "yearOnlyTemplate": "${era} ${year}",
+      "millenniumPrefix": "M"
+    }
+  },
+  "weather": "cloudy",
+  "weatherSeverity": 0.7041218182513657,
+  "climate": null,
+  "music": null,
+  "races": [
+    {
+      "id": "shoalborn",
+      "label": "Shoalborn",
+      "description": "Humans adapted to life on platforms and tide-edges, with a strong craft tradition around resin-treatments and tidekeeping.",
+      "rarity": "common",
+      "spriteHints": {
+        "humanoidBody": true,
+        "spriteArchetype": "human",
+        "defaultSkinColor": "olive",
+        "allowedSkinColors": [
+          "olive",
+          "light",
+          "brown",
+          "bronze",
+          "taupe"
+        ],
+        "allowedEyeColors": [
+          "blue",
+          "brown",
+          "gray",
+          "green"
+        ],
+        "allowedHairColors": null,
+        "featureLayers": null
+      }
+    },
+    {
+      "id": "glasskin",
+      "label": "Glasskin",
+      "description": "A lineage marked by translucent, mineral-sheened skin patches that resist corrosion and help sense pressure changes in the air and water.",
+      "rarity": "uncommon",
+      "spriteHints": {
+        "humanoidBody": true,
+        "spriteArchetype": "elf",
+        "defaultSkinColor": "lavender",
+        "allowedSkinColors": [
+          "lavender",
+          "light",
+          "taupe",
+          "pale_green"
+        ],
+        "allowedEyeColors": [
+          "gray",
+          "green",
+          "blue",
+          "purple"
+        ],
+        "allowedHairColors": null,
+        "featureLayers": null
+      }
+    },
+    {
+      "id": "brineforged",
+      "label": "Brineforged",
+      "description": "Salt-cured laborers grown in vats around Lattice nodes, built for endurance and pressure work rather than speed or charm.",
+      "rarity": "uncommon",
+      "spriteHints": {
+        "humanoidBody": true,
+        "spriteArchetype": "orc",
+        "defaultSkinColor": "dark_green",
+        "allowedSkinColors": [
+          "dark_green",
+          "olive"
+        ],
+        "allowedEyeColors": [
+          "yellow",
+          "brown",
+          "orange",
+          "gray"
+        ],
+        "allowedHairColors": null,
+        "featureLayers": null
+      }
+    },
+    {
+      "id": "reefkin",
+      "label": "Reefkin",
+      "description": "Amphibious people with mottled skin and a knack for moving through flooded corridors when the sea solidifies into narrow canals and chambers.",
+      "rarity": "rare",
+      "spriteHints": {
+        "humanoidBody": true,
+        "spriteArchetype": "lizard",
+        "defaultSkinColor": "dark_green",
+        "allowedSkinColors": [
+          "dark_green",
+          "green",
+          "blue"
+        ],
+        "allowedEyeColors": [
+          "yellow",
+          "green",
+          "orange",
+          "brown"
+        ],
+        "allowedHairColors": null,
+        "featureLayers": null
+      }
+    },
+    {
+      "id": "ledger_wight",
+      "label": "Ledger Wight",
+      "description": "Salt-preserved dead who remain coherent by clinging to written records; they trade memory, maps, and debts for continued upkeep of their seals and bindings.",
+      "rarity": "rare",
+      "spriteHints": {
+        "humanoidBody": true,
+        "spriteArchetype": "skeleton",
+        "defaultSkinColor": "light",
+        "allowedSkinColors": [
+          "light"
+        ],
+        "allowedEyeColors": [
+          "blue",
+          "gray",
+          "purple",
+          "red"
+        ],
+        "allowedHairColors": null,
+        "featureLayers": null
+      }
+    }
+  ],
+  "rootPlaceId": "PLACE_cosmos",
+  "rulesetId": null,
+  "defaultStartPlaceId": null,
+  "stagingSpriteTheme": "fantasy",
+  "hungerFatigueEnabled": false
+}

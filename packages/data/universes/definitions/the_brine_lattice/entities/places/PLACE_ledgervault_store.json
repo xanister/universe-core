@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_ledgervault_store",
+  "label": "Ledgervault Store",
+  "description": "Ledgervault Store functions as the secured storage room of The Basalt Arsenal, constructed from salt-cemented basalt and lined with matte baffle panels that suppress the terminator glare. Dense shelving bays, bracketed with heavy stress bracing, carry standardized crates and sealed weapon cases arranged to regulated inventory tiers. The air remains mineral-dry and faintly brined, and the floor incorporates recessed tie-down tracks to resist Brineshade’s documented tidal strains. A narrow service bench and inspection lamp sockets establish a controlled area for counting, sealing, and compliance marking.",
+  "short_description": "secure braced storeroom",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "storage_room",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.9
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "door_wooden",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/the_brine_lattice/images/battles/PLACE_ledgervault_store.png?v=1772314149863",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 1264,
+    "y": 1472,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_the_basalt_arsenal",
+    "innerWidth": 512,
+    "innerHeight": 672
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/the_brine_lattice/images/places/PLACE_ledgervault_store.png?v=1772314206481",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_the_writ_and_tankard",
+  "label": "The Writ and Tankard",
+  "description": "The Writ and Tankard occupies a narrow brick ground floor beneath a soot-stained gable, its facade bearing the city’s licensing seal and a slate board of posted ordinances. Inside, salvaged ashlar piers and newer timber beams support a low ceiling blackened by lamp smoke, while small shuttered windows keep the room in perpetual half-light. A long scarred bar and fixed trestle tables enforce orderly circulation, and a railed alcove serves as a docket-board for notices, interdiction placards, and caravan tallies. The air holds the mingled taint of spilled ale, damp wool, and iron from the nearby courts and countinghouses.",
+  "short_description": "licensed lawbound tavern",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "tavern",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "building_tavern",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/gaardia/images/battles/PLACE_the_writ_and_tankard.png?v=1772208416101",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 880,
+    "y": 608,
+    "width": 160,
+    "height": 256,
+    "parent": "PLACE_varric_holdfast",
+    "innerWidth": 1088,
+    "innerHeight": 832
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/gaardia/images/places/PLACE_the_writ_and_tankard.png?v=1772208466716",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": true
+}

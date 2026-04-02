@@ -1,0 +1,21 @@
+{
+  "id": "animal_skin_rug_golden",
+  "name": "Golden Animal Skin Rug",
+  "description": "A golden-brown animal skin rug spread on the floor.",
+  "purposes": [
+    "floor_covering"
+  ],
+  "tags": [
+    "common",
+    "decoration",
+    "floor",
+    "tavern"
+  ],
+  "solid": false,
+  "layer": "floor",
+  "spriteId": "animal_skin_rug_golden",
+  "materials": [
+    "leather"
+  ],
+  "tintable": false
+}

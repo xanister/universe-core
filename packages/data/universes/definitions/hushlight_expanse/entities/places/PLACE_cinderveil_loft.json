@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_cinderveil_loft",
+  "label": "Cinderveil Loft",
+  "description": "Cinderveil Loft is a narrow, high-ceilinged residence set into Seamline Concord’s basalt-glass terrace wall, its facade stippled with electrostatically pinned glass dust that holds a permanent twilight sheen. The interior is organized around a slit window cut to the city’s calibrated auroral sightlines, with mirror-slag inlays laid into the floor to preserve the escarpment’s seam-line geometry underfoot. Built-in shelves and alcoves are carved directly from vitrified stone, their edges softened by accumulated reflective grit. A shallow catch-basin near the entry gathers airborne particulates, maintaining the dwelling’s optical clarity without altering its austere, civic-aligned plan.",
+  "short_description": "austere twilight loft",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "residence",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "building_residence",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/hushlight_expanse/images/battles/PLACE_cinderveil_loft.png?v=1772314276812",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 2128,
+    "y": 1152,
+    "width": 160,
+    "height": 256,
+    "parent": "PLACE_seamline_concord",
+    "innerWidth": 960,
+    "innerHeight": 864
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/hushlight_expanse/images/places/PLACE_cinderveil_loft.png?v=1772314328916",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

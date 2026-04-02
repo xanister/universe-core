@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_radiance_current_port",
+  "label": "Radiance Current Port",
+  "description": "Radiance Current Port stands anchored to a fixed particulate-radiance stream within the Hushlight Expanse, its ringed superstructure aligned to the universe’s long, cold light gradients for dependable approach vectors. The complex consists of ribbed docking spines and shielded gantries arranged as a navigational instrument, with sightlines and beacon pylons calibrated to the surrounding starfield lattice. Interior concourses are clad in matte, light-absorbing composites that suppress glare, while recessed guidance lamps translate the hushlit currents into readable flow-maps. The port’s outer yards include vacuum-rated exchange bays and pressure-sealed cargo galleries built to withstand the Expanse’s attenuated illumination and drifting radiance dust.",
+  "short_description": "hushlit orbital spaceport",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "spaceport",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "spaceport",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/hushlight_expanse/images/battles/PLACE_radiance_current_port.png?v=1772313649295",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 8208,
+    "y": 4256,
+    "width": 32,
+    "height": 32,
+    "parent": "PLACE_cosmos",
+    "innerWidth": 2208,
+    "innerHeight": 1760
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/hushlight_expanse/images/places/PLACE_radiance_current_port.png?v=1772313724601",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

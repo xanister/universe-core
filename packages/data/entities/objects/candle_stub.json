@@ -1,0 +1,30 @@
+{
+  "id": "candle_stub",
+  "name": "Candle Stub",
+  "description": "A short candle stub in a small dark base.",
+  "purposes": [
+    "lighting",
+    "surface_item"
+  ],
+  "tags": [
+    "common",
+    "lighting",
+    "tavern"
+  ],
+  "solid": false,
+  "layer": "default",
+  "spriteId": "candle_stub",
+  "materials": [],
+  "tintable": false,
+  "animated": true,
+  "lightSource": {
+    "radius": 32,
+    "color": 16755268,
+    "intensity": 0.2,
+    "flicker": true,
+    "flickerSpeed": 200,
+    "flickerRange": 0.2,
+    "offsetX": 0,
+    "offsetY": -4
+  }
+}

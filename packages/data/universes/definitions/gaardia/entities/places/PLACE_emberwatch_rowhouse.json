@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_emberwatch_rowhouse",
+  "label": "Emberwatch Rowhouse",
+  "description": "Emberwatch Rowhouse occupies a narrow plot against Cindervale’s reinforced ancient wall, its base course laid in salvaged ashlar and its upperwork raised in blackened brick stitched with iron straps. The interior follows the city’s emergency ordinances: a compact entry closet for sealed boots and cloaks, a shallow hearth set beneath a riveted flue, and a lidded water-cistern kept under lock. Small slit windows face the ruinfield side and are fitted with hinged shutters and wire screens used during quarantine postings. Charter plaques and survey-marker tallies are set into the lintels, marking the dwelling’s obligations to toll, watch, and muster law.",
+  "short_description": "fortified brick rowhouse",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "residence",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "building_residence",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/gaardia/images/battles/PLACE_emberwatch_rowhouse.png?v=1772416733076",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 720,
+    "y": 1888,
+    "width": 160,
+    "height": 256,
+    "parent": "PLACE_cindervale",
+    "innerWidth": 928,
+    "innerHeight": 800
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/gaardia/images/places/PLACE_emberwatch_rowhouse.png?v=1772416781485",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

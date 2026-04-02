@@ -1,0 +1,52 @@
+{
+  "id": "OBJ_the_sealed_locker_wood_cabinet_dark_wood_0157",
+  "label": "Dark wood cabinet",
+  "description": "Dark wood cabinet",
+  "important": false,
+  "short_description": "dark wood cabinet",
+  "tags": [
+    "ship"
+  ],
+  "entityType": "object",
+  "info": {
+    "purpose": "storage",
+    "solid": true,
+    "layer": "default",
+    "isStructural": false,
+    "material": null,
+    "tint": null,
+    "spriteConfig": {
+      "spriteId": "cabinet_dark_wood",
+      "frame": null,
+      "animationKey": null,
+      "animated": false,
+      "facing": "west"
+    },
+    "hp": null,
+    "maxHp": null,
+    "state": null,
+    "contents": null,
+    "lightSource": null,
+    "itemId": null,
+    "plotId": null
+  },
+  "position": {
+    "x": 480,
+    "y": 448,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_the_sealed_locker"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "relationships": [],
+  "image": null,
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "search"
+  }
+}

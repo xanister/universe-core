@@ -1,0 +1,21 @@
+{
+  "id": "piano_upright_dark_wood",
+  "name": "Upright Piano",
+  "description": "A dark wooden upright piano with a visible keyboard, suitable for interior rooms like parlors or music halls.",
+  "purposes": [
+    "decoration",
+    "anchor"
+  ],
+  "tags": [
+    "common",
+    "furniture",
+    "decoration"
+  ],
+  "solid": true,
+  "layer": "default",
+  "spriteId": "piano_upright_dark_wood",
+  "materials": [
+    "wood"
+  ],
+  "tintable": true
+}

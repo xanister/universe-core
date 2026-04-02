@@ -1,0 +1,20 @@
+{
+  "id": "wardrobe_green",
+  "name": "Wardrobe (Green Wood)",
+  "description": "An ornate double-door armoire in green-painted wood with decorative carved top.",
+  "purposes": [
+    "storage"
+  ],
+  "tags": [
+    "common",
+    "furniture",
+    "bedroom"
+  ],
+  "solid": true,
+  "layer": "default",
+  "spriteId": "wardrobe_green",
+  "materials": [
+    "wood"
+  ],
+  "tintable": false
+}

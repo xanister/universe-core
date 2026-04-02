@@ -1,0 +1,56 @@
+{
+  "id": "OBJ_charterhouse_narrow_bedchamber_crate_stack_0122",
+  "label": "Stacked Crates",
+  "description": "A stack of wooden crates",
+  "important": false,
+  "short_description": "stacked crates",
+  "tags": [
+    "ship"
+  ],
+  "entityType": "object",
+  "info": {
+    "purpose": "storage",
+    "solid": true,
+    "layer": "default",
+    "isStructural": false,
+    "material": null,
+    "tint": null,
+    "spriteConfig": {
+      "spriteId": "crate_stack",
+      "frame": null,
+      "animationKey": null,
+      "animated": false,
+      "facing": "north"
+    },
+    "hp": null,
+    "maxHp": null,
+    "state": null,
+    "contents": [
+      "tunic",
+      "silver_ring",
+      "longsleeve"
+    ],
+    "lightSource": null,
+    "itemId": null,
+    "plotId": null
+  },
+  "position": {
+    "x": 256,
+    "y": 256,
+    "width": 64,
+    "height": 64,
+    "parent": "PLACE_charterhouse_narrow_bedchamber"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "relationships": [],
+  "image": null,
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "search"
+  }
+}

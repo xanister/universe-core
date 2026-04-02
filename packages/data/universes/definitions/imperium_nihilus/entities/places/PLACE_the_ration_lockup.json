@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_the_ration_lockup",
+  "label": "The Ration Lockup",
+  "description": "The Ration Lockup forms a narrow, low-ceilinged chamber cut into the canteen’s vitrified basalt shell and faced with scavenged wreck-metal to match the drinking hall’s patchwork plating. Slagcrete shelving and bolted transit cages line the walls in regimented tiers, their surfaces stained with ash-fall residue and condenser runoff. A mesh-baffled lumen strip casts the same bruise-hued gloom as the canteen beyond, while insulated seals and vox-suppression cladding preserve the bastion’s characteristic muted thrum. The air remains cold and dry under continuous venting, maintaining stores against the basin’s grit and electrostatic storms.",
+  "short_description": "sealed ration store",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "storage_room",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.9
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "door_wooden",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/battles/PLACE_the_ration_lockup.png?v=1771950033692",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 240,
+    "y": 160,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_the_riftward_canteen",
+    "innerWidth": 448,
+    "innerHeight": 768
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/places/PLACE_the_ration_lockup.png?v=1771950085430",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

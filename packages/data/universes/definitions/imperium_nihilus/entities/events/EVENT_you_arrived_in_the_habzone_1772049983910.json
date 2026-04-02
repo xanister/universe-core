@@ -1,0 +1,16 @@
+{
+  "id": "EVENT_you_arrived_in_the_habzone_1772049983910",
+  "date": null,
+  "placeId": null,
+  "eventType": null,
+  "category": "world",
+  "subject": "Background",
+  "subjectId": null,
+  "fact": "You arrived in the hab-zone ahead of an ash squall and passed through the canteen’s pressure checkpoint without incident.",
+  "significance": "minor",
+  "important": true,
+  "witnessIds": null,
+  "importanceScore": null,
+  "scope": null,
+  "relevantPlaceIds": null
+}

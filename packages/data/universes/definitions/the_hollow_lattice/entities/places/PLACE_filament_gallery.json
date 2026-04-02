@@ -1,0 +1,60 @@
+{
+  "id": "PLACE_filament_gallery",
+  "label": "Filament Gallery",
+  "description": "The Filament Gallery forms a long interior passage running along the Latticewake’s vitreous ribs, its walls plated in prismatic panes that break Kharion Prismworld’s meridian glare into disciplined bands. Dark crystalline floor tiles carry rectilinear grid scoring that aligns with the ship’s standard bearings, turning the corridor into a navigational reference as well as a thoroughfare. Glass-collared access hatches sit flush between ribs, their seams tarred to resist the abrasive shear fronts that rake the laminar skies. Tensioned filament conduits run in open channels overhead, vibrating in steady, measured harmonics that mark the ship’s angular tack.",
+  "short_description": "prismatic ribbed corridor",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "ship_corridor",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "ship_hatch",
+      "facing": "south",
+      "layer": "floor"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/the_hollow_lattice/images/battles/PLACE_filament_gallery.png?v=1772314024751",
+    "inheritedRequiredTags": [
+      "ship"
+    ]
+  },
+  "position": {
+    "x": 784,
+    "y": 672,
+    "width": 96,
+    "height": 96,
+    "parent": "PLACE_the_latticewake",
+    "innerWidth": 448,
+    "innerHeight": 480
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/the_hollow_lattice/images/places/PLACE_filament_gallery.png?v=1772314077071",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

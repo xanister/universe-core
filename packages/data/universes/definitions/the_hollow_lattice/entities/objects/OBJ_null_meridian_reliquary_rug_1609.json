@@ -1,0 +1,53 @@
+{
+  "id": "OBJ_null_meridian_reliquary_rug_1609",
+  "label": "Rug",
+  "description": "A Rug",
+  "important": false,
+  "short_description": "rug",
+  "tags": [
+    "common",
+    "decoration",
+    "floor",
+    "ship"
+  ],
+  "entityType": "object",
+  "info": {
+    "purpose": "floor_covering",
+    "solid": false,
+    "layer": "floor",
+    "isStructural": false,
+    "material": null,
+    "tint": null,
+    "spriteConfig": {
+      "spriteId": "rug",
+      "frame": null,
+      "animationKey": null,
+      "animated": false,
+      "facing": "south"
+    },
+    "hp": null,
+    "maxHp": null,
+    "state": null,
+    "contents": null,
+    "lightSource": null,
+    "itemId": null,
+    "plotId": null
+  },
+  "position": {
+    "x": 368,
+    "y": 448,
+    "width": 96,
+    "height": 96,
+    "parent": "PLACE_null_meridian_reliquary"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "relationships": [],
+  "image": null,
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": null
+}

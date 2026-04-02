@@ -1,0 +1,247 @@
+{
+  "id": "CHAR_seren_malkor",
+  "label": "Seren Malkor",
+  "description": "A broad-shouldered adult of baseline human stock, defined by a square jawline and a heavy brow that gives the face a permanently watchful cast. Brown eyes sit deep beneath that ridge, while black hair is kept in a short, practical cut that exposes the ears and nape. Light skin shows soot-staining embedded along pores and knuckles, a lasting mark of long duty in an ash-choked city. The hands are thick-fingered and callused, consistent with years spent gripping weapons and barriers.",
+  "short_description": "uniformed female guard",
+  "tags": [],
+  "entityType": "character",
+  "info": {
+    "purpose": "guard",
+    "aliases": [
+      "Ashenward Watchwoman",
+      "Cinder Gate Guard"
+    ],
+    "birthdate": "801.M41",
+    "deathdate": null,
+    "title": null,
+    "birthPlace": "Vespera Tertius, Ashenward City",
+    "eyeColor": "brown",
+    "gender": "female",
+    "hairColor": "black",
+    "hairStyle": "pixie",
+    "beardStyle": null,
+    "headType": "human_female",
+    "skinTone": "light",
+    "personality": "Disciplined and procedural, they enforce curfew codes and cordon protocols with rote precision and an unembellished sense of duty. They favor clear commands, tight formations, and immediate compliance, showing little tolerance for disorder but maintaining strict fairness in public dealings.",
+    "race": "human",
+    "messages": [],
+    "journal": [],
+    "sketches": [],
+    "verbosity": 3,
+    "conversationContext": null,
+    "storytellerState": null,
+    "isPlayer": false,
+    "storyComplete": false,
+    "routine": {
+      "schedule": {
+        "dawn": "work",
+        "morning": "work",
+        "afternoon": "work",
+        "evening": "leisure",
+        "night": "home"
+      },
+      "home": {
+        "placeId": "PLACE_vespera_tertius_ashenward_city",
+        "description": "Vespera Tertius Ashenward City",
+        "areaHint": null
+      },
+      "work": {
+        "placeId": "PLACE_vespera_tertius_ashenward_city",
+        "description": "Vespera Tertius Ashenward City",
+        "areaHint": null
+      },
+      "leisure": null,
+      "variance": 0.2,
+      "activities": {
+        "work": "guard_duty"
+      }
+    },
+    "vesselRoutes": null,
+    "abstractLocation": null,
+    "npcBehavior": null,
+    "physicalState": null,
+    "pendingDeparture": null,
+    "pendingArrival": null,
+    "lastRoutineCheckPeriod": null,
+    "startingNarrative": null,
+    "startingCharacterState": null,
+    "clothing": [
+      {
+        "slot": "torso_under",
+        "itemId": "longsleeve",
+        "color": "#3a3a3a",
+        "contents": null
+      },
+      {
+        "slot": "torso_over",
+        "itemId": "leather_armor",
+        "color": "#8b4513",
+        "contents": null
+      },
+      {
+        "slot": "torso_top",
+        "itemId": "leather_armor_shoulders",
+        "color": "#8b4513",
+        "contents": null
+      },
+      {
+        "slot": "legs",
+        "itemId": "cloth_pants",
+        "color": "#1a1a1a",
+        "contents": null
+      },
+      {
+        "slot": "feet",
+        "itemId": "boots",
+        "color": "#1a1a1a",
+        "contents": null
+      },
+      {
+        "slot": "belt",
+        "itemId": "leather_belt",
+        "color": "#8b4513",
+        "contents": [
+          {
+            "id": "ci_1771961027341_sdgvgl",
+            "itemId": "steel_bracers",
+            "name": "steel_bracers",
+            "description": null,
+            "type": "weapon",
+            "quantity": 1,
+            "color": "#c0c0c0",
+            "equipSlot": "weapon",
+            "plotId": null
+          }
+        ]
+      },
+      {
+        "slot": "hands",
+        "itemId": "leather_bracers",
+        "color": "#8b4513",
+        "contents": null
+      },
+      {
+        "slot": "head",
+        "itemId": "leather_cap",
+        "color": "#1a1a1a",
+        "contents": null
+      }
+    ],
+    "enabledOverlayLayers": [
+      "eyes",
+      "facial"
+    ],
+    "helmingVesselId": null,
+    "storytellerDisabled": false,
+    "rulesetState": {
+      "stats": {
+        "physical": 50,
+        "mental": 50,
+        "social": 50,
+        "poise": 50,
+        "max_poise": 50,
+        "bloodloss": 0,
+        "anxiety": 0,
+        "fatigue": 0,
+        "hunger": 0
+      },
+      "conditions": [],
+      "statUsage": {},
+      "incapacitation": null,
+      "incapacitatedSince": null
+    },
+    "voiceId": "sarah",
+    "spriteConfig": {
+      "bodyType": "female",
+      "layers": [
+        {
+          "type": "body",
+          "optionId": "body_base",
+          "tint": 15780008
+        },
+        {
+          "type": "body",
+          "optionId": "body_universal",
+          "tint": 15780008
+        },
+        {
+          "type": "eyes",
+          "optionId": "eyes_eyes",
+          "tint": 7029286
+        },
+        {
+          "type": "hair",
+          "optionId": "hair_pixie",
+          "tint": 1710618
+        },
+        {
+          "type": "torso",
+          "optionId": "torso_white_longsleeve_v3_female",
+          "tint": 3815994
+        },
+        {
+          "type": "torso",
+          "optionId": "torso_white_leather_armor_female",
+          "tint": 9127187
+        },
+        {
+          "type": "legs",
+          "optionId": "legs_white_pants_female",
+          "tint": 1710618
+        },
+        {
+          "type": "feet",
+          "optionId": "feet_white_boots_female",
+          "tint": 1710618
+        },
+        {
+          "type": "belt",
+          "optionId": "belt_leather_female",
+          "tint": 9127187
+        },
+        {
+          "type": "hands",
+          "optionId": "hands_leather_bracers_female",
+          "tint": 9127187
+        },
+        {
+          "type": "head",
+          "optionId": "head_leather_cap_female",
+          "tint": 1710618
+        }
+      ],
+      "spriteHash": "90df097d685a6458",
+      "spriteUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/sprites/generated/90df097d685a6458.png",
+      "spriteScale": 1
+    }
+  },
+  "position": {
+    "x": 1421,
+    "y": 1315,
+    "width": 32,
+    "height": 48,
+    "parent": "PLACE_vespera_tertius_ashenward_city"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/characters/CHAR_seren_malkor.png?v=1771961084741",
+  "faceAnchorY": 0.14,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "talk"
+  },
+  "relationships": [
+    {
+      "targetId": "CHAR_alaric_morn",
+      "type": "acquaintance",
+      "disposition": -2,
+      "familiarity": 40,
+      "context": "Both are in Ashenward City; Seren’s role enforcing curfews/cordons makes it likely they’ve encountered Alaric as a traveler passing through checkpoints or under local regulations.",
+      "pendingGeneration": false
+    }
+  ],
+  "important": false
+}

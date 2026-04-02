@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_ashglass_sleep_bay",
+  "label": "Ashglass Sleep Bay",
+  "description": "Ashglass Sleep Bay is a narrow, enclosed bedroom carved into the suite’s blast-thick ferrocrete shell, its ceiling low and its corners squared for structural economy. A mortared-in bunk and recessed storage niches dominate the long wall, their edges capped in chipped enamel to resist wear under constant occupancy. Recessed lumen strips sit behind armored glass slats, casting a controlled, shadow-minimizing light consistent with enclave blackout discipline. Vent grilles and a sealed bulkhead panel mark the room’s integration into Pale Meridian’s rationed air and heat systems.",
+  "short_description": "austere bunk alcove",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "bedroom",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "door_wooden",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/battles/PLACE_ashglass_sleep_bay.png?v=1771996629894",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 240,
+    "y": 160,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_ashglass_quarters",
+    "innerWidth": 448,
+    "innerHeight": 480
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/places/PLACE_ashglass_sleep_bay.png?v=1771996681601",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

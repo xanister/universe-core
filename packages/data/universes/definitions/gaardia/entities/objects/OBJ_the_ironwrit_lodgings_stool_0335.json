@@ -1,0 +1,52 @@
+{
+  "id": "OBJ_the_ironwrit_lodgings_stool_0335",
+  "label": "Stool",
+  "description": "A simple wooden stool",
+  "important": false,
+  "short_description": "stool",
+  "tags": [
+    "common",
+    "furniture",
+    "seating"
+  ],
+  "entityType": "object",
+  "info": {
+    "purpose": "seating",
+    "solid": true,
+    "layer": "default",
+    "isStructural": false,
+    "material": null,
+    "tint": null,
+    "spriteConfig": {
+      "spriteId": "stool",
+      "frame": null,
+      "animationKey": null,
+      "animated": false,
+      "facing": "south"
+    },
+    "hp": null,
+    "maxHp": null,
+    "state": null,
+    "contents": null,
+    "lightSource": null,
+    "itemId": null,
+    "plotId": null
+  },
+  "position": {
+    "x": 656,
+    "y": 960,
+    "width": 32,
+    "height": 32,
+    "parent": "PLACE_the_ironwrit_lodgings"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "relationships": [],
+  "image": null,
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": null
+}

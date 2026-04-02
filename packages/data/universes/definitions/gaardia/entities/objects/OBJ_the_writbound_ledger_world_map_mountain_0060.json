@@ -1,0 +1,53 @@
+{
+  "id": "OBJ_the_writbound_ledger_world_map_mountain_0060",
+  "label": "Mountain",
+  "description": "A mountain from the world map tileset",
+  "important": false,
+  "short_description": "mountain",
+  "tags": [
+    "common",
+    "world_map",
+    "mountain",
+    "terrain"
+  ],
+  "entityType": "object",
+  "info": {
+    "purpose": "decoration",
+    "solid": true,
+    "layer": "default",
+    "isStructural": false,
+    "material": null,
+    "tint": null,
+    "spriteConfig": {
+      "spriteId": "world_map_mountain",
+      "frame": null,
+      "animationKey": null,
+      "animated": false,
+      "facing": "south"
+    },
+    "hp": null,
+    "maxHp": null,
+    "state": null,
+    "contents": null,
+    "lightSource": null,
+    "itemId": null,
+    "plotId": null
+  },
+  "position": {
+    "x": 464,
+    "y": 704,
+    "width": 96,
+    "height": 96,
+    "parent": "PLACE_the_writbound_ledger"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "relationships": [],
+  "image": null,
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": null
+}

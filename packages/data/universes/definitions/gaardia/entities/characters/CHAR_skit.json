@@ -1,0 +1,161 @@
+{
+  "id": "CHAR_skit",
+  "label": "Skit",
+  "description": "This individual is a small goblin of compact build, marked by bright_green skin and a narrow, pointed face. Black hair lies in a greasy, close-cropped pixie cut that keeps the ears fully exposed. Yellow eyes sit forward and alert, set beneath a low brow that accentuates a perpetual, watchful intensity. The hands show ingrained grime at the nails and hardened pads, consistent with a life spent nosing through refuse and stone dust.",
+  "short_description": "goblin rat, male",
+  "tags": [],
+  "entityType": "character",
+  "info": {
+    "purpose": "rat",
+    "aliases": [
+      "Glassvein Rat",
+      "Skit-of-the-Hollow"
+    ],
+    "birthdate": "1023-11-04",
+    "deathdate": null,
+    "title": null,
+    "birthPlace": "The Glassvein Hollow",
+    "eyeColor": "yellow",
+    "gender": "male",
+    "hairColor": "black",
+    "hairStyle": "pixie",
+    "beardStyle": null,
+    "headType": "orc_male",
+    "skinTone": "bright_green",
+    "personality": "Territorial and opportunistic, this individual survives by memorizing safe cracks, feed-sources, and hiding gaps through the hollow’s debris and glass-grit. They avoid open confrontation, rely on sudden darts of speed, and return obsessively to familiar routes. Their attention fixes on shine and scent, and they respond to intrusion with rapid, chittering agitation.",
+    "race": "goblin",
+    "messages": [],
+    "journal": [],
+    "sketches": [],
+    "verbosity": 3,
+    "conversationContext": null,
+    "storytellerState": null,
+    "isPlayer": false,
+    "storyComplete": false,
+    "routine": null,
+    "vesselRoutes": null,
+    "abstractLocation": null,
+    "npcBehavior": null,
+    "physicalState": null,
+    "pendingDeparture": null,
+    "pendingArrival": null,
+    "lastRoutineCheckPeriod": null,
+    "startingNarrative": null,
+    "startingCharacterState": null,
+    "clothing": [],
+    "enabledOverlayLayers": [],
+    "helmingVesselId": null,
+    "storytellerDisabled": false,
+    "rulesetState": {
+      "stats": {
+        "poise": 50,
+        "max_poise": 50
+      },
+      "conditions": [],
+      "statUsage": {},
+      "incapacitation": null,
+      "incapacitatedSince": null
+    },
+    "voiceId": "callum",
+    "spriteConfig": {
+      "bodyType": "male",
+      "layers": [
+        {
+          "type": "body",
+          "optionId": "body_base",
+          "tint": 6736964
+        },
+        {
+          "type": "body",
+          "optionId": "body_universal",
+          "tint": 6736964
+        },
+        {
+          "type": "hair",
+          "optionId": "hair_pixie",
+          "tint": 1710618
+        }
+      ],
+      "spriteHash": "830d0d384a604823",
+      "spriteUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/sprites/generated/830d0d384a604823.png"
+    },
+    "spriteId": "rat"
+  },
+  "position": {
+    "x": 1200,
+    "y": 592,
+    "width": 32,
+    "height": 48,
+    "parent": "PLACE_the_glassvein_hollow"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/gaardia/images/characters/CHAR_skit.png?v=1772437581708",
+  "faceAnchorY": 0.33,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "talk"
+  },
+  "relationships": [
+    {
+      "targetId": "CHAR_glassvein_rat",
+      "type": "rival",
+      "disposition": -20,
+      "familiarity": 50,
+      "context": "Both are territorial, opportunistic scavengers native to the Glassvein Hollow and likely compete over the same caches, scent-trails, and hiding gaps.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_skitters",
+      "type": "rival",
+      "disposition": -20,
+      "familiarity": 50,
+      "context": "Both are tunnel-dwelling territorial scavengers in the same location with similar hoarding/route-mapping behavior, making competition over routes and resources likely.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_calder_hurne",
+      "type": "enemy",
+      "disposition": -60,
+      "familiarity": 50,
+      "context": "Calder Hurne is a hostile, intrusion-reactive undead patroller; Skit survives by avoiding confrontation and would treat such a persistent remnant as a dangerous threat in shared corridors.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_isarn_vell",
+      "type": "enemy",
+      "disposition": -60,
+      "familiarity": 50,
+      "context": "Isarn Vell responds to proximity with ritualized hostility and maintains patrol routes; Skit’s scavenging routes would repeatedly risk triggering it, making it an active hazard/hostile presence.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_sable_wynth",
+      "type": "enemy",
+      "disposition": -60,
+      "familiarity": 50,
+      "context": "Sable Wynth reacts with immediate hostility to nearby living bodies and patrols confined corridors, creating a likely hostile interaction with a living scavenger like Skit.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_silex_corven",
+      "type": "enemy",
+      "disposition": -60,
+      "familiarity": 50,
+      "context": "Silex Corven is an aggression-prone undead bound to narrow passages that Skit would use; their overlapping use of confined routes makes hostile encounters likely.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_verrin_halst",
+      "type": "enemy",
+      "disposition": -60,
+      "familiarity": 50,
+      "context": "Verrin Halst is territorial and reflexively hostile to intrusion on fixed circuits; Skit’s opportunistic scavenging in the same space would plausibly put them in conflict.",
+      "pendingGeneration": false
+    }
+  ],
+  "important": false
+}

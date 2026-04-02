@@ -1,0 +1,54 @@
+{
+  "id": "OBJ_bafflework_warehouse_crate_stack_1000",
+  "label": "Stacked Crates",
+  "description": "A stack of wooden crates",
+  "important": false,
+  "short_description": "stacked crates",
+  "tags": [
+    "ship"
+  ],
+  "entityType": "object",
+  "info": {
+    "purpose": "storage",
+    "solid": true,
+    "layer": "default",
+    "isStructural": false,
+    "material": null,
+    "tint": null,
+    "spriteConfig": {
+      "spriteId": "crate_stack",
+      "frame": null,
+      "animationKey": null,
+      "animated": false,
+      "facing": "south"
+    },
+    "hp": null,
+    "maxHp": null,
+    "state": null,
+    "contents": [
+      "longsleeve"
+    ],
+    "lightSource": null,
+    "itemId": null,
+    "plotId": null
+  },
+  "position": {
+    "x": 832,
+    "y": 1920,
+    "width": 64,
+    "height": 64,
+    "parent": "PLACE_bafflework_warehouse"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "relationships": [],
+  "image": null,
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "search"
+  }
+}

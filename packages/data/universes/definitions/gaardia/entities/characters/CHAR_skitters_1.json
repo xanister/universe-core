@@ -1,0 +1,177 @@
+{
+  "id": "CHAR_skitters_1",
+  "label": "Skitters",
+  "description": "This individual is a diminutive goblin of ratlike aspect, marked by bright_green skin and a narrow, wedge-shaped face. Yellow eyes sit deep beneath a heavy brow ridge, lending a fixed, watchful stare. Black hair grows in uneven tufts along the crown and nape, framing prominent ears and a blunt, dented nose. The body is wiry and compact, with long fingers and stained nails suited to squeezing through stone cracks and gnawing at refuse.",
+  "short_description": "ratlike goblin (nonbinary)",
+  "tags": [],
+  "entityType": "character",
+  "info": {
+    "purpose": "rat",
+    "aliases": [
+      "Grotto Rat",
+      "Saltwrit Rat"
+    ],
+    "birthdate": "1423-10-19",
+    "deathdate": null,
+    "title": null,
+    "birthPlace": "The Saltwrit Grotto",
+    "eyeColor": "yellow",
+    "gender": "nonbinary",
+    "hairColor": "black",
+    "hairStyle": "unkempt",
+    "beardStyle": null,
+    "headType": "orc_male",
+    "skinTone": "bright_green",
+    "personality": "A carrion-minded scavenger habituated to salt-stone tunnels and human refuse, driven by food, concealment, and opportunistic theft. It avoids open confrontation, relying on abrupt darts into darkness and a practiced stillness when threatened. It returns to reliable caches and learns routines quickly, treating the grotto as a mapped territory of smells, gaps, and safe ledges.",
+    "race": "goblin",
+    "messages": [],
+    "journal": [],
+    "sketches": [],
+    "verbosity": 3,
+    "conversationContext": null,
+    "storytellerState": null,
+    "isPlayer": false,
+    "storyComplete": false,
+    "routine": null,
+    "vesselRoutes": null,
+    "abstractLocation": null,
+    "npcBehavior": null,
+    "physicalState": null,
+    "pendingDeparture": null,
+    "pendingArrival": null,
+    "lastRoutineCheckPeriod": null,
+    "startingNarrative": null,
+    "startingCharacterState": null,
+    "clothing": [],
+    "enabledOverlayLayers": [],
+    "helmingVesselId": null,
+    "storytellerDisabled": false,
+    "rulesetState": {
+      "stats": {
+        "poise": 50,
+        "max_poise": 50
+      },
+      "conditions": [],
+      "statUsage": {},
+      "incapacitation": null,
+      "incapacitatedSince": null
+    },
+    "voiceId": "river",
+    "spriteConfig": {
+      "bodyType": "male",
+      "layers": [
+        {
+          "type": "body",
+          "optionId": "body_base",
+          "tint": 6736964
+        },
+        {
+          "type": "body",
+          "optionId": "body_universal",
+          "tint": 6736964
+        },
+        {
+          "type": "hair",
+          "optionId": "hair_unkempt",
+          "tint": 1710618
+        }
+      ],
+      "spriteHash": "bb82b5918917dac8",
+      "spriteUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/sprites/generated/bb82b5918917dac8.png"
+    },
+    "spriteId": "rat"
+  },
+  "position": {
+    "x": 3664,
+    "y": 2220,
+    "width": 32,
+    "height": 48,
+    "parent": "PLACE_the_saltwrit_grotto"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/gaardia/images/characters/CHAR_skitters_1.png?v=1772437751223",
+  "faceAnchorY": 0.25,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "talk"
+  },
+  "relationships": [
+    {
+      "targetId": "CHAR_saltwrit_scurrier",
+      "type": "rival",
+      "disposition": -20,
+      "familiarity": 50,
+      "context": "Both are grotto-born, food-driven scavengers using the same tunnel network and hidden caches, making competition over refuse and safe routes likely.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_brinewhisk",
+      "type": "rival",
+      "disposition": -20,
+      "familiarity": 50,
+      "context": "Shares the same territory and food sources in the Saltwrit Grotto; Skitters’ opportunistic theft/scavenging would naturally bring it into conflict with a territory-bound rat.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_brinescurry",
+      "type": "rival",
+      "disposition": -20,
+      "familiarity": 50,
+      "context": "Overlapping circuits, bolt-holes, and caches in the same grotto make frequent competition and skirmishes likely.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_drenic_malrow",
+      "type": "acquaintance",
+      "disposition": 0,
+      "familiarity": 40,
+      "context": "Co-located in the Saltwrit Grotto; Skitters likely recognizes and avoids this routine-bound, territorial undead as a recurring hazard.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_iscel_varn",
+      "type": "acquaintance",
+      "disposition": 0,
+      "familiarity": 40,
+      "context": "Both inhabit the grotto; Iscel’s boundary-enforcement makes it a predictable presence Skitters would learn to evade.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_ivo_relland",
+      "type": "acquaintance",
+      "disposition": 0,
+      "familiarity": 40,
+      "context": "Shared location and Ivo’s patrol/territorial behavior would make it a known obstacle in Skitters’ mapped routes.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_nareth_quell",
+      "type": "acquaintance",
+      "disposition": 0,
+      "familiarity": 40,
+      "context": "Same site; Nareth’s repetitive labor and attention to disturbances would make it a familiar, avoidable presence to a stealth scavenger.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_ostel_var",
+      "type": "acquaintance",
+      "disposition": 0,
+      "familiarity": 40,
+      "context": "Co-inhabitants of the grotto; Ostel’s intrusion-triggered violence makes it a recognized threat Skitters would track and avoid.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_oswin_saltwrit",
+      "type": "acquaintance",
+      "disposition": 0,
+      "familiarity": 40,
+      "context": "Both present in the grotto; Oswin’s task-bound, tool-like undead behavior would be a recurrent feature of Skitters’ environment rather than a personal bond.",
+      "pendingGeneration": false
+    }
+  ],
+  "important": false
+}

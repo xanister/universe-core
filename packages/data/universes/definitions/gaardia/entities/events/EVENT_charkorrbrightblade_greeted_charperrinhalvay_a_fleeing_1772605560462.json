@@ -1,0 +1,20 @@
+{
+  "id": "EVENT_charkorrbrightblade_greeted_charperrinhalvay_a_fleeing_1772605560462",
+  "date": "11.01.11 4A 07:37",
+  "placeId": "PLACE_cindervale",
+  "eventType": "turning_point",
+  "category": "world",
+  "subject": "Cindervale",
+  "subjectId": "PLACE_cindervale",
+  "fact": "CHAR_korr_brightblade greeted CHAR_perrin_halvay; a fleeing courier dropped a sealed court-style packet near CHAR_korr_brightblade while pursued by a municipal officer shouting accusations of court-valid seal theft and rewritten manifests",
+  "significance": "major",
+  "witnessIds": [
+    "CHAR_korr_brightblade"
+  ],
+  "important": true,
+  "importanceScore": null,
+  "scope": "local",
+  "relevantPlaceIds": [
+    "PLACE_cindervale"
+  ]
+}

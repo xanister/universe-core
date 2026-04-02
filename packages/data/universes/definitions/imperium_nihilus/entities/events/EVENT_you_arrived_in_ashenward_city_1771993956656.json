@@ -1,0 +1,16 @@
+{
+  "id": "EVENT_you_arrived_in_ashenward_city_1771993956656",
+  "date": null,
+  "placeId": null,
+  "eventType": null,
+  "category": "world",
+  "subject": "Background",
+  "subjectId": null,
+  "fact": "You arrived in Ashenward City with a fringe caravan and cleared the gate inspection under Imperial scrutiny.",
+  "significance": "moderate",
+  "important": true,
+  "witnessIds": null,
+  "importanceScore": null,
+  "scope": null,
+  "relevantPlaceIds": null
+}

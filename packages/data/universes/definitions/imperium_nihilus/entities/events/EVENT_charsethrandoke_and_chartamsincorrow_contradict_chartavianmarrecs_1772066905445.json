@@ -1,0 +1,20 @@
+{
+  "id": "EVENT_charsethrandoke_and_chartamsincorrow_contradict_chartavianmarrecs_1772066905445",
+  "date": "999.M1 08:45",
+  "placeId": "PLACE_the_riftward_canteen",
+  "eventType": "turning_point",
+  "category": "world",
+  "subject": "The Riftward Canteen",
+  "subjectId": "PLACE_the_riftward_canteen",
+  "fact": "CHAR_sethran_doke and CHAR_tamsin_corrow contradict CHAR_tavian_marrec's timeline in PLACE_vespera_tertius_nocturnis_bastion, revealing his alibi is false",
+  "significance": "major",
+  "witnessIds": [
+    "CHAR_alaric_morn"
+  ],
+  "important": true,
+  "importanceScore": null,
+  "scope": "local",
+  "relevantPlaceIds": [
+    "PLACE_the_riftward_canteen"
+  ]
+}

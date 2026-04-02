@@ -1,0 +1,20 @@
+{
+  "id": "EVENT_charsevrinmalrow_waited_in_placeashlightcanteen_as_1772050943361",
+  "date": "999.M1 07:32",
+  "placeId": "PLACE_the_ashlight_canteen",
+  "eventType": "turning_point",
+  "category": "world",
+  "subject": "The Ashlight Canteen",
+  "subjectId": "PLACE_the_ashlight_canteen",
+  "fact": "CHAR_sevrin_malrow waited in PLACE_ashlight_canteen as a vox canticle and coordinates were overheard; a new clerk-adjudicator publicly blamed CHAR_sevrin_malrow via etiquette dispute, sparking rumor spiral",
+  "significance": "major",
+  "witnessIds": [
+    "CHAR_sevrin_malrow"
+  ],
+  "important": true,
+  "importanceScore": null,
+  "scope": "local",
+  "relevantPlaceIds": [
+    "PLACE_the_ashlight_canteen"
+  ]
+}

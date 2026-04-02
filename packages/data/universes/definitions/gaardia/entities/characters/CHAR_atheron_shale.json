@@ -1,0 +1,227 @@
+{
+  "id": "CHAR_atheron_shale",
+  "label": "Atheron Shale",
+  "description": "This individual is an undead of the Rift, reduced to a gaunt human frame with taupe skin pulled tight over prominent bone. Gray eyes sit deep in soot-stained sockets, and gray hair persists in uneven clumps along a receded scalp, leaving a skull-like contour plainly visible. The mouth line is split by vitrified cracking at the lips and jaw, a permanent Rift-burn that fixes the face in a rigid, funerary set. They move with rote persistence and exhibit a dulled, compulsive attention to heat, glass, and fracture-lines, as if bound to the site’s ruin by habit rather than will.",
+  "short_description": "undead male rift husk",
+  "tags": [],
+  "entityType": "character",
+  "info": {
+    "purpose": "undead",
+    "aliases": [
+      "Rift-Husk",
+      "Glassbound Remnant"
+    ],
+    "birthdate": "Unknown",
+    "deathdate": null,
+    "title": null,
+    "birthPlace": "Gaardia",
+    "eyeColor": "gray",
+    "gender": "male",
+    "hairColor": "gray",
+    "hairStyle": "unkempt",
+    "beardStyle": "stubble",
+    "headType": "human_male",
+    "skinTone": "taupe",
+    "personality": "Taciturn and repetitive in speech, this undead persists as a site-bound remnant that circles fissures, traces cooled glass with blackened fingertips, and reacts sharply to open flame or fresh cracking stone. It obeys simple commands when phrased as rote tasks, but resists removal from the Rift’s vitrified ground and becomes violently restless when forced away from heat-scarred terrain.",
+    "race": "human",
+    "messages": [],
+    "journal": [],
+    "sketches": [],
+    "verbosity": 3,
+    "conversationContext": null,
+    "storytellerState": null,
+    "isPlayer": false,
+    "storyComplete": false,
+    "routine": {
+      "schedule": {
+        "dawn": "work",
+        "morning": "work",
+        "afternoon": "work",
+        "evening": "work",
+        "night": "work"
+      },
+      "home": {
+        "placeId": "PLACE_the_vitrified_rift",
+        "description": "The Vitrified Rift",
+        "areaHint": null
+      },
+      "work": {
+        "placeId": "PLACE_the_vitrified_rift",
+        "description": "The Vitrified Rift",
+        "areaHint": null
+      },
+      "leisure": null,
+      "variance": 0.2,
+      "activities": {
+        "work": "undead_patrol"
+      }
+    },
+    "vesselRoutes": null,
+    "abstractLocation": null,
+    "npcBehavior": null,
+    "physicalState": null,
+    "pendingDeparture": null,
+    "pendingArrival": null,
+    "lastRoutineCheckPeriod": null,
+    "startingNarrative": null,
+    "startingCharacterState": null,
+    "clothing": [
+      {
+        "slot": "torso_under",
+        "itemId": "tunic",
+        "color": "#3a3a3a",
+        "contents": null
+      },
+      {
+        "slot": "torso_over",
+        "itemId": "tattercape",
+        "color": "#808080",
+        "contents": null
+      },
+      {
+        "slot": "legs",
+        "itemId": "cloth_pants",
+        "color": "#8b4513",
+        "contents": null
+      },
+      {
+        "slot": "feet",
+        "itemId": "boots",
+        "color": "#1a1a1a",
+        "contents": null
+      },
+      {
+        "slot": "belt",
+        "itemId": "rope_belt",
+        "color": "#d2b48c",
+        "contents": []
+      },
+      {
+        "slot": "head",
+        "itemId": "cloth_hood",
+        "color": "#3a3a3a",
+        "contents": null
+      },
+      {
+        "slot": "hands",
+        "itemId": "cloth_gloves",
+        "color": "#808080",
+        "contents": null
+      }
+    ],
+    "enabledOverlayLayers": [
+      "eyes",
+      "facial"
+    ],
+    "helmingVesselId": null,
+    "storytellerDisabled": false,
+    "rulesetState": {
+      "stats": {
+        "poise": 50,
+        "max_poise": 50
+      },
+      "conditions": [],
+      "statUsage": {},
+      "incapacitation": null,
+      "incapacitatedSince": null
+    },
+    "voiceId": "brian",
+    "spriteConfig": {
+      "bodyType": "male",
+      "layers": [
+        {
+          "type": "body",
+          "optionId": "body_base",
+          "tint": 12890264
+        },
+        {
+          "type": "body",
+          "optionId": "body_universal",
+          "tint": 12890264
+        },
+        {
+          "type": "eyes",
+          "optionId": "eyes_eyes",
+          "tint": 8423560
+        },
+        {
+          "type": "facial",
+          "optionId": "facial_beard",
+          "tint": 8421504
+        },
+        {
+          "type": "legs",
+          "optionId": "legs_white_pants_male",
+          "tint": 9127187
+        },
+        {
+          "type": "feet",
+          "optionId": "feet_white_boots_male",
+          "tint": 1710618
+        },
+        {
+          "type": "belt",
+          "optionId": "belt_wulax_belt_rope_male",
+          "tint": 13808780
+        },
+        {
+          "type": "head",
+          "optionId": "head_cloth_hood_male",
+          "tint": 3815994
+        },
+        {
+          "type": "hands",
+          "optionId": "hands_white_gloves_male",
+          "tint": 8421504
+        }
+      ],
+      "spriteHash": "7e76b4efefd5a3c3",
+      "spriteUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/sprites/generated/7e76b4efefd5a3c3.png"
+    }
+  },
+  "position": {
+    "x": 2000,
+    "y": 3408,
+    "width": 32,
+    "height": 48,
+    "parent": "PLACE_the_vitrified_rift"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/gaardia/images/portrait-pool/undead/0.png",
+  "faceAnchorY": 0.19,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "talk"
+  },
+  "relationships": [
+    {
+      "targetId": "CHAR_eldric_vitrane",
+      "type": "acquaintance",
+      "disposition": 0,
+      "familiarity": 40,
+      "context": "Both are site-bound undead remnants occupying PLACE_the_vitrified_rift; likely aware of each other through overlapping patrol/circling routes and shared fixation on rift heat/light phenomena.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_veskan_dorr",
+      "type": "acquaintance",
+      "disposition": 0,
+      "familiarity": 40,
+      "context": "Co-located in PLACE_the_vitrified_rift; Atheron’s fissure-tracing behavior would plausibly intersect with Veskan’s boundary/waystone patrols, making mutual recognition likely.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_sevrik_ashmere",
+      "type": "acquaintance",
+      "disposition": 0,
+      "familiarity": 40,
+      "context": "Both persist in PLACE_the_vitrified_rift with repetitive circuits; Sevrik’s patrol paths and Atheron’s heat/glass fixation would likely bring them into recurring contact.",
+      "pendingGeneration": false
+    }
+  ],
+  "important": false
+}

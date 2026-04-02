@@ -1,0 +1,18 @@
+{
+  "id": "EVENT_visited_the_oathsteel_armory_1771953417232",
+  "date": "999.M1 06:43",
+  "placeId": "PLACE_the_oathsteel_armory",
+  "important": false,
+  "importanceScore": null,
+  "scope": null,
+  "relevantPlaceIds": null,
+  "eventType": "location_visited",
+  "category": "world",
+  "subject": "The Oathsteel Armory",
+  "subjectId": "PLACE_the_oathsteel_armory",
+  "fact": "Visited The Oathsteel Armory",
+  "significance": "minor",
+  "witnessIds": [
+    "CHAR_alaric_morn"
+  ]
+}

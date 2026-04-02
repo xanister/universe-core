@@ -1,0 +1,244 @@
+{
+  "version": "1.0.0",
+  "basePath": "/sprites/lpc-interior",
+  "description": "LPC-style interior tilesets and object sprites for place layout rendering",
+  "tilesets": {
+    "floors": {
+      "path": "floors.png",
+      "tileSize": 32,
+      "columns": 16,
+      "rows": 16,
+      "description": "Interior floor tiles (carpets, rugs, wood planks, stone, brick, tile)",
+      "tiles": {
+        "wood_planks_1": { "col": 0, "row": 0 },
+        "wood_planks_2": { "col": 1, "row": 0 },
+        "wood_planks_3": { "col": 2, "row": 0 },
+        "wood_planks_4": { "col": 3, "row": 0 },
+        "wood_dark_1": { "col": 4, "row": 0 },
+        "wood_dark_2": { "col": 5, "row": 0 },
+        "stone_floor_1": { "col": 0, "row": 1 },
+        "stone_floor_2": { "col": 1, "row": 1 },
+        "stone_floor_3": { "col": 2, "row": 1 },
+        "brick_floor_1": { "col": 0, "row": 2 },
+        "brick_floor_2": { "col": 1, "row": 2 },
+        "tile_floor_1": { "col": 0, "row": 3 },
+        "tile_floor_2": { "col": 1, "row": 3 },
+        "carpet_red": { "col": 0, "row": 4 },
+        "carpet_blue": { "col": 1, "row": 4 },
+        "carpet_green": { "col": 2, "row": 4 }
+      }
+    }
+  },
+  "spritesheets": {
+    "furniture_dark": {
+      "path": "furniture/dark-wood.png",
+      "tileSize": 32,
+      "description": "Dark wood furniture sprites"
+    },
+    "furniture_blonde": {
+      "path": "furniture/blonde-wood.png",
+      "tileSize": 32,
+      "description": "Light/blonde wood furniture sprites"
+    },
+    "furniture_green": {
+      "path": "furniture/green-wood.png",
+      "tileSize": 32,
+      "description": "Green wood furniture sprites"
+    },
+    "furniture_white": {
+      "path": "furniture/white-wood.png",
+      "tileSize": 32,
+      "description": "White wood furniture sprites"
+    },
+    "upholstery": {
+      "path": "upholstery/upholstery.png",
+      "tileSize": 32,
+      "description": "Bed spreads, pillows, cushions, sofas, couches, wing chairs - layers on top of furniture"
+    },
+    "walls": {
+      "path": "walls/walls.png",
+      "tileSize": 32,
+      "description": "300+ interior walls and 32 ceiling trims"
+    },
+    "food_fruits_veggies": {
+      "path": "food/fruits-veggies.png",
+      "tileSize": 32,
+      "description": "Fruits and vegetables"
+    },
+    "food_animal_products": {
+      "path": "food/animal-products.png",
+      "tileSize": 32,
+      "description": "Meat, seafood, cheese, eggs, dairy"
+    },
+    "food_bread_pastry": {
+      "path": "food/bread-pastry.png",
+      "tileSize": 32,
+      "description": "Bread, pastries, baked goods"
+    },
+    "containers_full": {
+      "path": "containers/container.png",
+      "tileSize": 32,
+      "description": "Full containers - boxes, crates, barrels, sacks, baskets, pots, glassware"
+    },
+    "tavern_furniture": {
+      "path": "tavern/tavern-furniture.png",
+      "tileSize": 32,
+      "description": "Tavern tables, chairs, stools, counters"
+    },
+    "tavern_cooking": {
+      "path": "tavern/tavern-cooking.png",
+      "tileSize": 32,
+      "description": "Stoves, pots, brewing vessels"
+    },
+    "tavern_deco": {
+      "path": "tavern/tavern-deco.png",
+      "tileSize": 32,
+      "description": "Tavern decorations - rugs, crests, shields, banners, lighting"
+    },
+    "fireplace": {
+      "path": "fixtures/fireplace.png",
+      "tileSize": 32,
+      "description": "Fireplace and hearth sprites"
+    },
+    "containers": {
+      "path": "containers/barrels-crates.png",
+      "tileSize": 32,
+      "description": "Barrels, crates, and container sprites"
+    }
+  },
+  "objects": {
+    "table_round": {
+      "spritesheet": "furniture_dark",
+      "x": 0, "y": 224,
+      "width": 64, "height": 64,
+      "variants": {
+        "dark": { "spritesheet": "furniture_dark" },
+        "blonde": { "spritesheet": "furniture_blonde" }
+      }
+    },
+    "table_square": {
+      "spritesheet": "furniture_dark",
+      "x": 64, "y": 224,
+      "width": 64, "height": 64,
+      "variants": {
+        "dark": { "spritesheet": "furniture_dark" },
+        "blonde": { "spritesheet": "furniture_blonde" }
+      }
+    },
+    "chair": {
+      "spritesheet": "furniture_dark",
+      "x": 0, "y": 160,
+      "width": 32, "height": 32,
+      "variants": {
+        "dark": { "spritesheet": "furniture_dark" },
+        "blonde": { "spritesheet": "furniture_blonde" }
+      }
+    },
+    "stool": {
+      "spritesheet": "furniture_dark",
+      "x": 32, "y": 160,
+      "width": 32, "height": 32,
+      "variants": {
+        "dark": { "spritesheet": "furniture_dark" },
+        "blonde": { "spritesheet": "furniture_blonde" }
+      }
+    },
+    "bar_stool": {
+      "spritesheet": "furniture_dark",
+      "x": 64, "y": 160,
+      "width": 32, "height": 32
+    },
+    "bench": {
+      "spritesheet": "furniture_dark",
+      "x": 0, "y": 192,
+      "width": 64, "height": 32
+    },
+    "pew": {
+      "spritesheet": "furniture_dark",
+      "x": 64, "y": 192,
+      "width": 96, "height": 32
+    },
+    "bed_single": {
+      "spritesheet": "furniture_dark",
+      "x": 0, "y": 288,
+      "width": 64, "height": 96
+    },
+    "desk": {
+      "spritesheet": "furniture_dark",
+      "x": 128, "y": 224,
+      "width": 64, "height": 48
+    },
+    "shelf": {
+      "spritesheet": "furniture_dark",
+      "x": 0, "y": 96,
+      "width": 64, "height": 64
+    },
+    "wardrobe": {
+      "spritesheet": "furniture_dark",
+      "x": 64, "y": 64,
+      "width": 64, "height": 96
+    },
+    "nightstand": {
+      "spritesheet": "furniture_dark",
+      "x": 128, "y": 96,
+      "width": 32, "height": 32
+    },
+    "fireplace": {
+      "spritesheet": "fireplace",
+      "x": 0, "y": 0,
+      "width": 96, "height": 64,
+      "animated": true,
+      "frames": 4,
+      "frameRate": 8
+    },
+    "barrel": {
+      "spritesheet": "containers",
+      "x": 0, "y": 0,
+      "width": 32, "height": 32
+    },
+    "crate": {
+      "spritesheet": "containers",
+      "x": 32, "y": 0,
+      "width": 32, "height": 32
+    },
+    "crate_stack": {
+      "spritesheet": "containers",
+      "x": 64, "y": 0,
+      "width": 64, "height": 64
+    },
+    "chest": {
+      "spritesheet": "containers",
+      "x": 0, "y": 32,
+      "width": 48, "height": 32,
+      "states": {
+        "closed": { "x": 0, "y": 32 },
+        "open": { "x": 48, "y": 32 }
+      }
+    },
+    "sack_pile": {
+      "spritesheet": "containers",
+      "x": 96, "y": 32,
+      "width": 48, "height": 48
+    }
+  },
+  "floorTileMapping": {
+    "0": "wood_planks_1",
+    "1": "wood_planks_2",
+    "2": "wood_planks_3",
+    "3": "wood_planks_4",
+    "4": "stone_floor_1",
+    "5": "stone_floor_2",
+    "6": "brick_floor_1",
+    "7": "carpet_red",
+    "8": "carpet_blue"
+  },
+  "wallTileMapping": {
+    "0": "wall_stone",
+    "1": "wall_wood",
+    "10": "wall_corner_nw",
+    "11": "wall_corner_ne",
+    "12": "wall_corner_sw",
+    "13": "wall_corner_se",
+    "20": "pillar"
+  }
+}

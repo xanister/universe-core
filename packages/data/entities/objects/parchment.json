@@ -1,0 +1,19 @@
+{
+  "id": "parchment",
+  "name": "Parchment",
+  "description": "A small folded piece of parchment or scroll.",
+  "purposes": [
+    "decoration"
+  ],
+  "tags": [
+    "common",
+    "writing"
+  ],
+  "solid": false,
+  "layer": "default",
+  "spriteId": "parchment",
+  "materials": [
+    "paper"
+  ],
+  "tintable": false
+}

@@ -1,0 +1,60 @@
+{
+  "id": "PLACE_violet_oath_armory",
+  "label": "Violet Oath Armory",
+  "description": "Violet Oath Armory is a slab-walled weapons shop cut into Ashenward City’s basalt frontage, its facade reinforced with slagcrete ribs and a recessed entry to break the ash gales. Interior galleries are lined with lock-frames and rack-rails for autoguns, stubbers, and chain-bladed tools, with sealed cases for void-corrosion oils and hand-loaded cartridges. A constant bruise-colored auroral glow filters through armored clerestory panes, turning oiled steel into hard violet highlights. Shielded vox-check stations and identity slates are built into the counterwork, reflecting the city’s endemic interference and the regulated traffic of arms within its precincts.",
+  "short_description": "rift-lit weapon shop",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "weapon_shop",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "building_shop",
+      "facing": "east",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/battles/PLACE_violet_oath_armory.png?v=1771959228519",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 2512,
+    "y": 1536,
+    "width": 160,
+    "height": 256,
+    "parent": "PLACE_vespera_tertius_ashenward_city",
+    "innerWidth": 1824,
+    "innerHeight": 1440
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/places/PLACE_violet_oath_armory.png?v=1771959282159",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": [
+    "The Armory Stockroom"
+  ],
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

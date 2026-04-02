@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_the_prismvault_store",
+  "label": "The Prismvault Store",
+  "description": "The Prismvault Store occupies a deep-cut bay behind Cairnglass Eyrie’s mirror-slag fins, its basalt-glass walls inscribed with calibrated linework that preserves the residence’s navigational geometry even in utility spaces. Narrow shelving alcoves are faced with dust-binding ribs that hold electrostatically pinned glass grit in measured gradients, preventing particulate drift into the main terraces. Crated compartments sit within shallow, lipped channels of mirror-slag to interrupt vibration and keep contents aligned to the escarpment’s seam-line orientation. A high, slit-like light catch admits a copper-white band of twilight that reads as a fixed optical gauge across the storage tiers.",
+  "short_description": "dustbound prism storage",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "storage_room",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.9
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "door_wooden",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/hushlight_expanse/images/battles/PLACE_the_prismvault_store.png?v=1772313897587",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 624,
+    "y": 160,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_cairnglass_eyrie",
+    "innerWidth": 448,
+    "innerHeight": 576
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/hushlight_expanse/images/places/PLACE_the_prismvault_store.png?v=1772313993550",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

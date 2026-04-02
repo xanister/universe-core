@@ -1,0 +1,60 @@
+{
+  "id": "PLACE_cinderwake_cable_locker",
+  "label": "Cinderwake Cable Locker",
+  "description": "A compact storage room set off the Cinderwake Cableway, enclosed by soot-dark plating and rib-braced bulkheads tarred along their rivet lines against ash intrusion. Racks of coiled line, spare turnbuckles, and bundled mast stays are lashed to iron stanchions with webbing straps, leaving a narrow aisle down the center. The deck bears grit-scour and shallow drainage channels, while tether rings are sunk into the plating to restrain cargo under electrostatic gale-roll. Lantern light filters through a shuttered glass cowl, reducing the room to hard-edged slits of illumination and deep, enduring shadow.",
+  "short_description": "soot-dark cable storage",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "storage_room",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.9
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "door_wooden",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/battles/PLACE_cinderwake_cable_locker.png?v=1771872994684",
+    "inheritedRequiredTags": [
+      "ship"
+    ]
+  },
+  "position": {
+    "x": 336,
+    "y": 160,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_cinderwake_cableway",
+    "innerWidth": 448,
+    "innerHeight": 704
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/places/PLACE_cinderwake_cable_locker.png?v=1771873049451",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

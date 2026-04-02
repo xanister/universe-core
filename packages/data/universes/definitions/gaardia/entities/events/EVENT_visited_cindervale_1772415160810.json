@@ -1,0 +1,18 @@
+{
+  "id": "EVENT_visited_cindervale_1772415160810",
+  "date": "06.01.11 4A 17:20",
+  "placeId": "PLACE_cindervale",
+  "important": false,
+  "importanceScore": null,
+  "scope": null,
+  "relevantPlaceIds": null,
+  "eventType": "location_visited",
+  "category": "world",
+  "subject": "Cindervale",
+  "subjectId": "PLACE_cindervale",
+  "fact": "Visited Cindervale",
+  "significance": "minor",
+  "witnessIds": [
+    "CHAR_perrin_halvay"
+  ]
+}

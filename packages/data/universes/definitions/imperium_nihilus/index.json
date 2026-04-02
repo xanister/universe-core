@@ -1,0 +1,218 @@
+{
+  "id": "imperium_nihilus",
+  "name": "Imperium Nihilus",
+  "version": "1.0.0",
+  "description": "The Great Rift has split the galaxy like a wound that will not close, drowning whole sectors in warp-scream and leaving the Emperor’s domains divided into light and night. In the dark half—Imperium Nihilus—astropathic choirs go silent, tithes rot uncollected, and worlds that were once dutiful now barter faith for ammunition. The Imperium’s creed remains absolute: humanity must endure, aliens must be purged, heresy must be burned—yet survival increasingly demands compromises that would once have earned a bolt round. Across shattered routes and haunted void-lanes, crusades sputter, rogue traders gamble, inquisitors hunt rot within, and Chaos whispers that the darkness was always the truth.",
+  "custom": {},
+  "rules": "Core constraints (lore-accurate 40k):\n- The Imperium is a brutal theocratic autocracy; open dissent is heresy and is met with force.\n- Warp travel and astropathic communication are dangerous and unreliable; the Great Rift makes routes intermittent, misjumps common, and messages delayed or corrupted.\n- Psykers exist and are feared; unsanctioned psykers risk possession and execution. Sanctioning, the Black Ships, and the Astra Telepathica are facts of life.\n- Chaos is real, insidious, and corrupting; even knowledge can be a vector. “Innocence proves nothing.”\n- Technology is ritualized; innovation is suspect. The Adeptus Mechanicus maintains dogmatic control over machines and sacred STC-derived patterns.\n- Xenos are existential threats in Imperial doctrine, though temporary, tightly controlled alliances may occur in extremis (and will have consequences).\n- Death is common; characters are competent but not protected. Miracles can occur, but they are costly, rare, and politically explosive.\n- Power is bureaucratic and layered: Administratum decrees, Ecclesiarchy demands, Mechanicus claims, Inquisition mandates, and local governors’ paranoia all conflict.\n- Tone rule: victories are local and temporary; the war is eternal.\nPlayable-scope assumptions:\n- Players begin as a sanctioned, mission-bound party under an Imperial charter (warrant, inquisitorial rosette, crusade writ, or similar).",
+  "tone": "grimdark military sci-fi and gothic horror; oppressive faith, cosmic dread, bureaucratic cruelty, flashes of heroism that never clean the blood away",
+  "style": "baroque gothic sci-fi; cathedral-ships, rusted ceramite, parchment seals and incense haze; high-contrast chiaroscuro lighting with brutal industrial detail",
+  "mapStyle": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/cover.png",
+  "date": "999.M1 21:25",
+  "calendar": {
+    "name": "Imperium Nihilus (Imperial Dating)",
+    "calendarType": "millennium",
+    "months": [
+      {
+        "name": "Standard Year",
+        "days": 365
+      }
+    ],
+    "time": {
+      "hoursPerDay": 24,
+      "minutesPerHour": 60
+    },
+    "eras": [
+      {
+        "id": 1,
+        "name": "41st Millennium",
+        "shortName": "M41",
+        "backwards": false,
+        "transitionEra": 0
+      },
+      {
+        "id": 2,
+        "name": "42nd Millennium",
+        "shortName": "M42",
+        "backwards": false,
+        "transitionEra": 0
+      }
+    ],
+    "defaultEra": 1,
+    "seasons": null,
+    "format": {
+      "dateSeparator": ".",
+      "timeSeparator": ":",
+      "eraPosition": "suffix",
+      "monthDisplay": "number",
+      "yearFirst": false,
+      "use24Hour": false,
+      "yearOnlyTemplate": "",
+      "millenniumPrefix": "M"
+    }
+  },
+  "weather": "clear",
+  "climate": null,
+  "music": null,
+  "races": [
+    {
+      "id": "human",
+      "label": "Human (Imperial)",
+      "description": "Baseline humanity shaped by uncounted worlds: hive-born scum, voidsmen, shrine-world zealots, and frontier soldiers bound by creed and fear.",
+      "rarity": "common",
+      "spriteHints": {
+        "humanoidBody": true,
+        "allowedEyeColors": [],
+        "allowedHairColors": null,
+        "spriteScale": 1,
+        "featureLayers": null,
+        "spriteArchetype": "human",
+        "defaultSkinColor": "amber",
+        "allowedSkinColors": [
+          "light",
+          "amber",
+          "taupe",
+          "bronze",
+          "brown"
+        ]
+      }
+    },
+    {
+      "id": "abhuman",
+      "label": "Abhuman",
+      "description": "Sanctioned human offshoots tolerated for utility—like ogryn labor-brutes or ratling marksmen—always one paperwork error away from being reclassified as mutant.",
+      "rarity": "uncommon",
+      "spriteHints": {
+        "humanoidBody": true,
+        "allowedEyeColors": [],
+        "allowedHairColors": null,
+        "spriteScale": 1,
+        "featureLayers": null,
+        "spriteArchetype": "human",
+        "defaultSkinColor": "taupe",
+        "allowedSkinColors": [
+          "light",
+          "amber",
+          "taupe",
+          "bronze",
+          "brown"
+        ]
+      }
+    },
+    {
+      "id": "adeptus_astartes",
+      "label": "Adeptus Astartes",
+      "description": "Genetically engineered Space Marines—scarce, transhuman, and weaponized devotion—who prosecute wars beyond mortal endurance.",
+      "rarity": "rare",
+      "spriteHints": {
+        "humanoidBody": true,
+        "allowedEyeColors": [],
+        "allowedHairColors": null,
+        "spriteScale": 1,
+        "featureLayers": null,
+        "spriteArchetype": "human",
+        "defaultSkinColor": "light",
+        "allowedSkinColors": [
+          "light",
+          "amber",
+          "taupe",
+          "bronze",
+          "brown"
+        ]
+      }
+    },
+    {
+      "id": "adeptus_mechanicus",
+      "label": "Adeptus Mechanicus",
+      "description": "The Machine Cult’s flesh-and-steel servants: tech-adepts and skitarii augmented into living tools who speak in binharic prayers and proprietary rites.",
+      "rarity": "uncommon",
+      "spriteHints": {
+        "humanoidBody": true,
+        "allowedEyeColors": [
+          "blue",
+          "brown",
+          "gray",
+          "green",
+          "orange",
+          "purple",
+          "red",
+          "yellow"
+        ],
+        "allowedHairColors": null,
+        "spriteScale": 1,
+        "featureLayers": null,
+        "spriteArchetype": "human",
+        "defaultSkinColor": "light",
+        "allowedSkinColors": [
+          "light",
+          "amber",
+          "taupe",
+          "bronze",
+          "brown"
+        ]
+      }
+    },
+    {
+      "id": "eldar",
+      "label": "Aeldari",
+      "description": "Ancient and dwindling xenos whose fate is bound to the Warp; swift, precise, and alien in motive—never truly allies, never truly absent.",
+      "rarity": "rare",
+      "spriteHints": {
+        "humanoidBody": true,
+        "allowedEyeColors": [
+          "blue",
+          "gray",
+          "green",
+          "purple"
+        ],
+        "allowedHairColors": null,
+        "spriteScale": 1,
+        "featureLayers": null,
+        "spriteArchetype": "elf",
+        "defaultSkinColor": "light",
+        "allowedSkinColors": [
+          "light",
+          "amber",
+          "lavender",
+          "pale_green"
+        ]
+      }
+    },
+    {
+      "id": "ork",
+      "label": "Ork",
+      "description": "Fungal war-creatures driven by violence and crude ingenuity; their ramshackle technology works because their collective belief forces reality to comply—often explosively.",
+      "rarity": "uncommon",
+      "spriteHints": {
+        "humanoidBody": true,
+        "allowedEyeColors": [
+          "red",
+          "yellow",
+          "orange"
+        ],
+        "allowedHairColors": null,
+        "spriteScale": 1,
+        "featureLayers": null,
+        "spriteArchetype": "orc",
+        "defaultSkinColor": "green",
+        "allowedSkinColors": [
+          "green",
+          "bright_green",
+          "dark_green",
+          "olive"
+        ]
+      }
+    }
+  ],
+  "rootPlaceId": "PLACE_the_cosmos",
+  "stagingSpriteTheme": "fantasy",
+  "hungerFatigueEnabled": false,
+  "events": [],
+  "defaultStartPlaceId": null,
+  "characters": [],
+  "places": [],
+  "objects": [],
+  "rulesetId": "basic",
+  "weatherSeverity": null
+}

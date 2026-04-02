@@ -1,0 +1,18 @@
+{
+  "id": "hanging_sausage_links",
+  "name": "Hanging Sausage Links",
+  "description": "A long chain of linked sausages draped from above.",
+  "purposes": [
+    "decoration"
+  ],
+  "tags": [
+    "common",
+    "food",
+    "tavern"
+  ],
+  "solid": false,
+  "layer": "overhead",
+  "spriteId": "hanging_sausage_links",
+  "materials": [],
+  "tintable": false
+}

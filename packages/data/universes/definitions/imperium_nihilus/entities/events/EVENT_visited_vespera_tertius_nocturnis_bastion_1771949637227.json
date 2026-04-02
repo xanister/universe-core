@@ -1,0 +1,18 @@
+{
+  "id": "EVENT_visited_vespera_tertius_nocturnis_bastion_1771949637227",
+  "date": "999.M1 06:46",
+  "placeId": "PLACE_vespera_tertius_nocturnis_bastion",
+  "important": false,
+  "importanceScore": null,
+  "scope": null,
+  "relevantPlaceIds": null,
+  "eventType": "location_visited",
+  "category": "world",
+  "subject": "Vespera Tertius Nocturnis Bastion",
+  "subjectId": "PLACE_vespera_tertius_nocturnis_bastion",
+  "fact": "Visited Vespera Tertius Nocturnis Bastion",
+  "significance": "minor",
+  "witnessIds": [
+    "CHAR_alaric_morn"
+  ]
+}

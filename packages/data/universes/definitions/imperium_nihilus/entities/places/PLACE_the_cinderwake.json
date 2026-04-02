@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_the_cinderwake",
+  "label": "The Cinderwake",
+  "description": "The Cinderwake is a broad-beamed sailing ship adapted to Vespera Tertius, its hull sheathed in soot-darkened plating and its seams sealed against ashfall. A lattice of mast stays and cable-bracing anchors the rigging against the planet’s electrostatic gales, with spars banded in iron to resist grit-scour. Lantern housings sit behind thick glass and shuttered cowls, their light reduced to narrow slits against violet storm-glare. The deck is scored by wind-driven cinders and marked with tether rings and low bulwarks designed for hard weather under rift-shadowed skies.",
+  "short_description": "ash-scoured sailing ship",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "sailing_ship",
+    "environment": {
+      "type": "exterior",
+      "hasWeather": true,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": null
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "sailing_ship_sloop",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/battles/PLACE_the_cinderwake.png?v=1771872861141",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 2224,
+    "y": 480,
+    "width": 64,
+    "height": 64,
+    "parent": "PLACE_vespera_tertius",
+    "innerWidth": 1280,
+    "innerHeight": 1280
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/places/PLACE_the_cinderwake.png?v=1771872911000",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": true
+}

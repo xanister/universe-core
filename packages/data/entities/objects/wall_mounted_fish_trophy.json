@@ -1,0 +1,21 @@
+{
+  "id": "wall_mounted_fish_trophy",
+  "name": "Wall-Mounted Fish",
+  "description": "A preserved fish mounted on a wooden plaque, a proud trophy for a tavern wall.",
+  "purposes": [
+    "decoration"
+  ],
+  "solid": false,
+  "layer": "default",
+  "spriteId": "wall_mounted_fish",
+  "materials": [
+    "wood",
+    "varnish",
+    "fish",
+    "bone"
+  ],
+  "tintable": false,
+  "tags": [
+    "wall"
+  ]
+}

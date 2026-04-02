@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_the_black_ledger",
+  "label": "The Black Ledger",
+  "description": "The Black Ledger occupies a soot-darkened brick house buttressed with riveted iron bands, set hard against Cindervale’s rebuilt masonry and its militarized trade lanes. Inside, a scarred oak bar and long communal tables sit beneath rafters webbed with chain-hung lamps, their light kept low behind smoke-stained glass. A wall of posted ordinances, toll schedules, and licensing notices functions as an informal civic bulletin, echoing the city’s culture of codified emergency law. A narrow counting alcove with barred shutters and a stamped-tile hearth signals the establishment’s long accommodation with quarantine rules and interdiction nights.",
+  "short_description": "dim lawbound tavern",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "tavern",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "building_tavern",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/gaardia/images/battles/PLACE_the_black_ledger.png?v=1772208418621",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 2256,
+    "y": 2112,
+    "width": 160,
+    "height": 256,
+    "parent": "PLACE_cindervale",
+    "innerWidth": 1056,
+    "innerHeight": 1024
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/gaardia/images/places/PLACE_the_black_ledger.png?v=1772208468417",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": true
+}

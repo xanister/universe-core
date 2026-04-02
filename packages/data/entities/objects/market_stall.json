@@ -1,0 +1,21 @@
+{
+  "id": "market_stall",
+  "name": "Market Stall",
+  "description": "Open-front market stall with a canvas awning and display counter.",
+  "purposes": [
+    "market_stall"
+  ],
+  "tags": [
+    "outdoor",
+    "commerce",
+    "market",
+    "vendor"
+  ],
+  "solid": true,
+  "layer": "default",
+  "spriteId": "market_stall",
+  "materials": [
+    "wood",
+    "cloth"
+  ]
+}

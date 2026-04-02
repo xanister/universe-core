@@ -1,0 +1,21 @@
+{
+  "id": "pew_high_back_blonde",
+  "name": "High-Back Church Pew (Blonde)",
+  "description": "A blonde wood church pew with a raised high back and wide side panels.",
+  "purposes": [
+    "seating"
+  ],
+  "tags": [
+    "common",
+    "furniture",
+    "seating",
+    "temple"
+  ],
+  "solid": true,
+  "layer": "default",
+  "spriteId": "pew_high_back_blonde",
+  "materials": [
+    "wood"
+  ],
+  "tintable": false
+}

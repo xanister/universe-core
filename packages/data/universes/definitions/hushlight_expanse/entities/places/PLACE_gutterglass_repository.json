@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_gutterglass_repository",
+  "label": "Gutterglass Repository",
+  "description": "Gutterglass Repository serves as a bonded warehouse within Seamglass Meridian’s fault-limned basin, built as a low, faceted hall clad in dust-slick vitrified tile. Grounded gutters run the full perimeter, drawing electrostatic glass fallouts into sealed cisterns whose lens-plates cast narrow, calibrated bands of copper-white light across the floor. Racked bays of fused-silicate shelving and insulated crate cells divide the interior into numbered aisles, each marked by reflective inlay aligned to the city’s timekeeping gradients. The air remains dry and faintly metallic, maintained by vent stacks that bleed charge into the basin’s seam-lines for safe storage and handling.",
+  "short_description": "glasslit bonded warehouse",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "warehouse",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "small_walled_town",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/hushlight_expanse/images/battles/PLACE_gutterglass_repository.png?v=1772314209637",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 2368,
+    "y": 2528,
+    "width": 48,
+    "height": 48,
+    "parent": "PLACE_seamglass_meridian",
+    "innerWidth": 1760,
+    "innerHeight": 3872
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/hushlight_expanse/images/places/PLACE_gutterglass_repository.png?v=1772314260644",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

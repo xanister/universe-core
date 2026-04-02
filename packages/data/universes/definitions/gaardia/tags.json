@@ -1,0 +1,54 @@
+{
+  "tags": [
+    {
+      "tagId": "TAG_merchant",
+      "label": "merchant",
+      "description": "Trades, sources, and transports goods across Gaardia, negotiating deals, haggling prices, and using market knowledge and contacts to turn a profit."
+    },
+    {
+      "tagId": "TAG_home_single",
+      "label": "home-single",
+      "description": "A private, standalone residence in Gaardia inhabited by a single person or household rather than a communal or multi-tenant dwelling."
+    },
+    {
+      "tagId": "TAG_home_shared",
+      "label": "home-shared",
+      "description": "Characters share a residence, pooling resources and responsibilities while exposing them to each other's schedules, secrets, and domestic conflicts."
+    },
+    {
+      "tagId": "TAG_lodging",
+      "label": "lodging",
+      "description": "Temporary accommodations across Gaardia — inns, guesthouses, camps, and clandestine safehouses where characters rest, recover, store belongings, and gather local information."
+    },
+    {
+      "tagId": "TAG_workplace_tavern",
+      "label": "workplace-tavern",
+      "description": "Employment-focused scenes in a tavern—bartending, serving, cooking, or managing a rowdy public house that doubles as a social hub for rumors, deals, and occasional brawls."
+    },
+    {
+      "tagId": "TAG_workplace_temple",
+      "label": "workplace-temple",
+      "description": "A functioning temple that doubles as a workplace where characters carry out sacred duties—conducting rituals, tending relics, guiding pilgrims, and navigating clerical hierarchy and strict liturgical rules."
+    },
+    {
+      "tagId": "TAG_workplace_shop",
+      "label": "workplace-shop",
+      "description": "A character works in or runs a retail shop or stall, dealing with customers, inventory, and daily sales operations."
+    },
+    {
+      "tagId": "TAG_workplace_warehouse",
+      "label": "workplace-warehouse",
+      "description": "Large, utilitarian storage hub in Gaardia with loading docks, stacked cargo and night shifts, ripe for logistics work, labor tensions, smuggling, or clandestine encounters."
+    },
+    {
+      "tagId": "TAG_workplace_vessel_controls",
+      "label": "workplace-vessel-controls",
+      "description": "Skilled and authorized to operate a vessel's control consoles for piloting, navigation, and system monitoring during workplace duties aboard ships or other vehicles."
+    },
+    {
+      "tagId": "TAG_laborer",
+      "label": "laborer",
+      "description": "Performs sustained physical work—construction, farming, mining, and hauling—relying on endurance, practical know-how, and improvised problem-solving."
+    }
+  ]
+}

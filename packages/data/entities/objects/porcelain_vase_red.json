@@ -1,0 +1,21 @@
+{
+  "id": "porcelain_vase_red",
+  "name": "Red Porcelain Vase",
+  "description": "A decorative red porcelain vase.",
+  "purposes": [
+    "decoration"
+  ],
+  "tags": [
+    "common",
+    "decoration",
+    "tavern",
+    "ornate"
+  ],
+  "solid": false,
+  "layer": "default",
+  "spriteId": "porcelain_vase_red",
+  "materials": [
+    "ceramic"
+  ],
+  "tintable": false
+}

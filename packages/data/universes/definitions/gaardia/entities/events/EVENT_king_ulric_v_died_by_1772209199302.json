@@ -1,0 +1,16 @@
+{
+  "id": "EVENT_king_ulric_v_died_by_1772209199302",
+  "date": null,
+  "placeId": null,
+  "eventType": "ruler_change",
+  "category": "world",
+  "subject": "Succession",
+  "subjectId": null,
+  "fact": "King Ulric V died by poisoning during a palace feast; an official proclamation blamed corrupted wine from Seura while later accounts note ongoing speculation about internal conspiracy.",
+  "significance": "major",
+  "important": true,
+  "witnessIds": null,
+  "importanceScore": null,
+  "scope": "regional",
+  "relevantPlaceIds": null
+}

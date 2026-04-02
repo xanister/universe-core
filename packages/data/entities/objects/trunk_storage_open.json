@@ -1,0 +1,22 @@
+{
+  "id": "trunk_storage_open",
+  "name": "Storage Trunk (Open)",
+  "description": "An open flat-top wooden storage trunk.",
+  "purposes": [
+    "storage"
+  ],
+  "tags": [
+    "common",
+    "furniture",
+    "bedroom"
+  ],
+  "solid": true,
+  "layer": "default",
+  "spriteId": "trunk_storage_open",
+  "materials": [
+    "wood",
+    "metal"
+  ],
+  "tintable": false,
+  "interactable": true
+}

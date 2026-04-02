@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_saltharrow_system",
+  "label": "Saltharrow System",
+  "description": "Saltharrow System constitutes a compact stellar arrangement set within the interlinked continua of the Brine Lattice Cosmos. Its primary star burns with a hard white radiance, while broad belts of particulate debris maintain stable, charted orbits that mark long-established transit lanes. Multiple planets and cold minor bodies occupy resonant paths shaped by the Cosmos’ governing laws of motion and causality. The system’s defining feature remains its pronounced gravitic gradients, recorded in navigational canon as a reliable reference for deep-lattice passage.",
+  "short_description": "compact white star system",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "star_system",
+    "environment": {
+      "type": "space",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": false,
+        "base": null,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.6
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "star_sun",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/the_brine_lattice/images/battles/PLACE_saltharrow_system.png?v=1772313625100",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 576,
+    "y": 2016,
+    "width": 64,
+    "height": 64,
+    "parent": "PLACE_cosmos",
+    "innerWidth": 5408,
+    "innerHeight": 2880
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/the_brine_lattice/images/places/PLACE_saltharrow_system.png?v=1772313675803",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

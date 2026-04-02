@@ -1,0 +1,18 @@
+{
+  "id": "EVENT_korr_is_repeatedly_ordered_to_1772323211224",
+  "date": "04.01.11 4A 11:11",
+  "placeId": "PLACE_the_quenched_pike",
+  "eventType": "other",
+  "category": "constraint",
+  "subject": "Korr Brightblade",
+  "subjectId": "CHAR_korr_brightblade",
+  "fact": "Korr is repeatedly ordered to go to Registry House with papers immediately, under threat of recorded refusal and widened seizures.",
+  "significance": "major",
+  "important": false,
+  "witnessIds": [
+    "CHAR_korr_brightblade"
+  ],
+  "importanceScore": null,
+  "scope": null,
+  "relevantPlaceIds": null
+}

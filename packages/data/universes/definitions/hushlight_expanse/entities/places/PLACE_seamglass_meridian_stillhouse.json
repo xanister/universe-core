@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_seamglass_meridian_stillhouse",
+  "label": "Seamglass Meridian Stillhouse",
+  "description": "Seamglass Meridian Stillhouse is a compact residence built as a faceted wedge of vitrified tile set against the city’s fault-limned basin wall. Its interior walls are lined with grounded gutters and shallow lensing basins that collect electrostatic glass fallouts, turning the copper-white twilight into stable, banded illumination. A sealed sleep alcove and a narrow work niche are partitioned by refractive screens that preserve privacy without interrupting the calibrated light. The roof is stepped into a low observatory shelf, its mirrored coping aligned to the outer ring pylons to keep local time by the auroral girdle.",
+  "short_description": "glasslit wedge home",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "residence",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "building_residence",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/hushlight_expanse/images/battles/PLACE_seamglass_meridian_stillhouse.png?v=1772314325163",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 2256,
+    "y": 256,
+    "width": 160,
+    "height": 256,
+    "parent": "PLACE_seamglass_meridian",
+    "innerWidth": 1216,
+    "innerHeight": 1216
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/hushlight_expanse/images/places/PLACE_seamglass_meridian_stillhouse.png?v=1772314374058",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

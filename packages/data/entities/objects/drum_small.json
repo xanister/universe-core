@@ -1,0 +1,21 @@
+{
+  "id": "drum_small",
+  "name": "Small Drum",
+  "description": "A small hand drum or bongo.",
+  "purposes": [
+    "decoration"
+  ],
+  "tags": [
+    "common",
+    "entertainment",
+    "tavern"
+  ],
+  "solid": false,
+  "layer": "default",
+  "spriteId": "drum_small",
+  "materials": [
+    "wood",
+    "leather"
+  ],
+  "tintable": false
+}

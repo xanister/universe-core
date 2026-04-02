@@ -1,0 +1,16 @@
+{
+  "id": "EVENT_before_coming_on_deck_you_1772518819454",
+  "date": null,
+  "placeId": null,
+  "eventType": null,
+  "category": "world",
+  "subject": "Background",
+  "subjectId": null,
+  "fact": "Before coming on deck, you completed a quick gear check—sealant, cord, and shaded light—under the ship’s silence rules.",
+  "significance": "moderate",
+  "important": true,
+  "witnessIds": null,
+  "importanceScore": null,
+  "scope": null,
+  "relevantPlaceIds": null
+}

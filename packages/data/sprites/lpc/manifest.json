@@ -1,0 +1,4006 @@
+{
+  "version": "3.0.0",
+  "basePath": "/sprites/lpc",
+  "description": "LPC (Liberated Pixel Cup) assets from Universal-LPC-spritesheet",
+  "license": "CC-BY-SA 3.0 / GPL 3.0 (dual-licensed)",
+  "source": "https://github.com/makrohn/Universal-LPC-spritesheet",
+  "bodyTypes": [
+    "male",
+    "female"
+  ],
+  "layers": [
+    {
+      "type": "behind_body",
+      "displayName": "Cape/Back",
+      "optional": true,
+      "options": [
+        {
+          "id": "behind_body_cape_blue_female",
+          "name": "Cape Blue",
+          "path": "female/behind_body/cape_blue.png",
+          "tintable": true
+        },
+        {
+          "id": "behind_body_cape_gray_female",
+          "name": "Cape Gray",
+          "path": "female/behind_body/cape_gray.png",
+          "tintable": true
+        },
+        {
+          "id": "behind_body_cape_green_female",
+          "name": "Cape Green",
+          "path": "female/behind_body/cape_green.png",
+          "tintable": true
+        },
+        {
+          "id": "behind_body_cape_lavender_female",
+          "name": "Cape Lavender",
+          "path": "female/behind_body/cape_lavender.png",
+          "tintable": true
+        },
+        {
+          "id": "behind_body_cape_maroon_female",
+          "name": "Cape Maroon",
+          "path": "female/behind_body/cape_maroon.png",
+          "tintable": true
+        },
+        {
+          "id": "behind_body_cape_pink_female",
+          "name": "Cape Pink",
+          "path": "female/behind_body/cape_pink.png",
+          "tintable": true
+        },
+        {
+          "id": "behind_body_cape_red_female",
+          "name": "Cape Red",
+          "path": "female/behind_body/cape_red.png",
+          "tintable": true
+        },
+        {
+          "id": "behind_body_cape_white_female",
+          "name": "Cape White",
+          "path": "female/behind_body/cape_white.png",
+          "tintable": true
+        },
+        {
+          "id": "behind_body_cape_yellow_female",
+          "name": "Cape Yellow",
+          "path": "female/behind_body/cape_yellow.png",
+          "tintable": true
+        },
+        {
+          "id": "behind_body_quiver",
+          "name": "Quiver",
+          "path": "either/behind_body/quiver.png"
+        },
+        {
+          "id": "behind_body_tattercape_blue_female",
+          "name": "Tattercape Blue",
+          "path": "female/behind_body/tattercape_blue.png",
+          "tintable": true
+        },
+        {
+          "id": "behind_body_tattercape_gray_female",
+          "name": "Tattercape Gray",
+          "path": "female/behind_body/tattercape_gray.png",
+          "tintable": true
+        },
+        {
+          "id": "behind_body_tattercape_green_female",
+          "name": "Tattercape Green",
+          "path": "female/behind_body/tattercape_green.png",
+          "tintable": true
+        },
+        {
+          "id": "behind_body_tattercape_lavender_female",
+          "name": "Tattercape Lavender",
+          "path": "female/behind_body/tattercape_lavender.png",
+          "tintable": true
+        },
+        {
+          "id": "behind_body_tattercape_maroon_female",
+          "name": "Tattercape Maroon",
+          "path": "female/behind_body/tattercape_maroon.png",
+          "tintable": true
+        },
+        {
+          "id": "behind_body_tattercape_pink_female",
+          "name": "Tattercape Pink",
+          "path": "female/behind_body/tattercape_pink.png",
+          "tintable": true
+        },
+        {
+          "id": "behind_body_tattercape_red_female",
+          "name": "Tattercape Red",
+          "path": "female/behind_body/tattercape_red.png",
+          "tintable": true
+        },
+        {
+          "id": "behind_body_tattercape_white_female",
+          "name": "Tattercape White",
+          "path": "female/behind_body/tattercape_white.png",
+          "tintable": true
+        },
+        {
+          "id": "behind_body_tattercape_yellow_female",
+          "name": "Tattercape Yellow",
+          "path": "female/behind_body/tattercape_yellow.png",
+          "tintable": true
+        },
+        {
+          "id": "behind_body_cape_blue",
+          "name": "Cape Blue",
+          "path": "behind_body/cape_blue.png"
+        },
+        {
+          "id": "behind_body_cape_gray",
+          "name": "Cape Gray",
+          "path": "behind_body/cape_gray.png"
+        },
+        {
+          "id": "behind_body_cape_red",
+          "name": "Cape Red",
+          "path": "behind_body/cape_red.png"
+        },
+        {
+          "id": "behind_body_cape_solid_behind_white",
+          "name": "Cape Solid Behind White",
+          "path": "either/behind_body/cape_solid_behind_white.png"
+        },
+        {
+          "id": "behind_body_tattercape_behind_white",
+          "name": "Tattercape Behind White",
+          "path": "either/behind_body/tattercape_behind_white.png"
+        },
+        {
+          "id": "behind_body_wulax_quiver",
+          "name": "Quiver",
+          "path": "either/behind_body/wulax_quiver.png"
+        },
+        {
+          "id": "behind_body_cape_solid_white_female",
+          "name": "Cape Solid White",
+          "path": "female/behind_body/cape_solid_white_female.png",
+          "bodyType": "female"
+        },
+        {
+          "id": "behind_body_tattercape_solid_white_female",
+          "name": "Tattercape Solid White",
+          "path": "female/behind_body/tattercape_solid_white_female.png",
+          "bodyType": "female"
+        },
+        {
+          "id": "behind_body_cape_solid_white_male",
+          "name": "Cape Solid White",
+          "path": "male/behind_body/cape_solid_white_male.png",
+          "bodyType": "male"
+        },
+        {
+          "id": "behind_body_formal_iverness_cape_male",
+          "name": "Formal iverness Cape",
+          "path": "male/behind_body/formal_iverness_cape_male.png",
+          "bodyType": "male",
+          "tintable": true
+        }
+      ],
+      "zIndex": 0,
+      "variantFiltered": false,
+      "bodyTypeSpecific": false,
+      "slotKind": "wearable"
+    },
+    {
+      "type": "body",
+      "displayName": "Body",
+      "optional": false,
+      "options": [
+        {
+          "id": "body_dark_female",
+          "name": "Dark",
+          "path": "female/body/dark.png",
+          "bodyType": "female",
+          "variant": "dark"
+        },
+        {
+          "id": "body_dark_male",
+          "name": "Dark",
+          "path": "male/body/dark.png",
+          "bodyType": "male",
+          "variant": "dark"
+        },
+        {
+          "id": "body_dark2_female",
+          "name": "Dark2",
+          "path": "female/body/dark2.png",
+          "bodyType": "female",
+          "variant": "dark2"
+        },
+        {
+          "id": "body_dark2_male",
+          "name": "Dark2",
+          "path": "male/body/dark2.png",
+          "bodyType": "male",
+          "variant": "dark2"
+        },
+        {
+          "id": "body_darkelf_female",
+          "name": "Darkelf",
+          "path": "female/body/darkelf.png",
+          "bodyType": "female",
+          "variant": "darkelf"
+        },
+        {
+          "id": "body_darkelf_male",
+          "name": "Darkelf",
+          "path": "male/body/darkelf.png",
+          "bodyType": "male",
+          "variant": "darkelf"
+        },
+        {
+          "id": "body_darkelf2_female",
+          "name": "Darkelf2",
+          "path": "female/body/darkelf2.png",
+          "bodyType": "female",
+          "variant": "darkelf2"
+        },
+        {
+          "id": "body_darkelf2_male",
+          "name": "Darkelf2",
+          "path": "male/body/darkelf2.png",
+          "bodyType": "male",
+          "variant": "darkelf2"
+        },
+        {
+          "id": "body_light_female",
+          "name": "Light",
+          "path": "female/body/light.png",
+          "bodyType": "female",
+          "variant": "light"
+        },
+        {
+          "id": "body_light_male",
+          "name": "Light",
+          "path": "male/body/light.png",
+          "bodyType": "male",
+          "variant": "light"
+        },
+        {
+          "id": "body_orc_female",
+          "name": "Orc",
+          "path": "female/body/orc.png",
+          "bodyType": "female",
+          "variant": "orc"
+        },
+        {
+          "id": "body_orc_male",
+          "name": "Orc",
+          "path": "male/body/orc.png",
+          "bodyType": "male",
+          "variant": "orc"
+        },
+        {
+          "id": "body_red_orc_female",
+          "name": "Red Orc",
+          "path": "female/body/red_orc.png",
+          "bodyType": "female",
+          "variant": "orc"
+        },
+        {
+          "id": "body_red_orc_male",
+          "name": "Red Orc",
+          "path": "male/body/red_orc.png",
+          "bodyType": "male",
+          "variant": "orc"
+        },
+        {
+          "id": "body_skeleton_male",
+          "name": "Skeleton",
+          "path": "male/body/skeleton.png",
+          "bodyType": "male",
+          "variant": "skeleton"
+        },
+        {
+          "id": "body_tanned_female",
+          "name": "Tanned",
+          "path": "female/body/tanned.png",
+          "bodyType": "female",
+          "variant": "tanned"
+        },
+        {
+          "id": "body_tanned_male",
+          "name": "Tanned",
+          "path": "male/body/tanned.png",
+          "bodyType": "male",
+          "variant": "tanned"
+        },
+        {
+          "id": "body_tanned2_female",
+          "name": "Tanned2",
+          "path": "female/body/tanned2.png",
+          "bodyType": "female",
+          "variant": "tanned2"
+        },
+        {
+          "id": "body_tanned2_male",
+          "name": "Tanned2",
+          "path": "male/body/tanned2.png",
+          "bodyType": "male",
+          "variant": "tanned2"
+        },
+        {
+          "id": "body_dark",
+          "name": "Dark",
+          "path": "body/dark.png"
+        },
+        {
+          "id": "body_light",
+          "name": "Light",
+          "path": "body/light.png"
+        },
+        {
+          "id": "body_orc",
+          "name": "Orc",
+          "path": "body/orc.png"
+        },
+        {
+          "id": "body_skeleton",
+          "name": "Skeleton",
+          "path": "body/skeleton.png"
+        },
+        {
+          "id": "body_tanned",
+          "name": "Tanned",
+          "path": "body/tanned.png"
+        },
+        {
+          "id": "body_wulax_skeleton_body_male",
+          "name": "Skeleton Body",
+          "path": "male/body/wulax_skeleton_body.png",
+          "bodyType": "male"
+        }
+      ],
+      "zIndex": 1,
+      "variantFiltered": false,
+      "bodyTypeSpecific": true,
+      "slotKind": "body"
+    },
+    {
+      "type": "ears",
+      "displayName": "Ears",
+      "optional": true,
+      "options": [
+        {
+          "id": "ears_bigears",
+          "name": "Big Ears",
+          "path": "male/ears/bigears.png",
+          "tintable": true,
+          "bodyTypeOverrides": {
+            "female": "female/ears/bigears.png"
+          }
+        },
+        {
+          "id": "ears_elvenears",
+          "name": "Elven Ears",
+          "path": "male/ears/elvenears.png",
+          "tintable": true,
+          "bodyTypeOverrides": {
+            "female": "female/ears/elvenears.png"
+          }
+        },
+        {
+          "id": "ears_big",
+          "name": "Big",
+          "path": "either/ears/big.png",
+          "tintable": true
+        },
+        {
+          "id": "ears_elven",
+          "name": "Elven",
+          "path": "either/ears/elven.png",
+          "tintable": true
+        },
+        {
+          "id": "ears_long",
+          "name": "Long",
+          "path": "either/ears/long.png",
+          "tintable": true
+        }
+      ],
+      "zIndex": 2,
+      "variantFiltered": true,
+      "bodyTypeSpecific": true,
+      "slotKind": "feature"
+    },
+    {
+      "type": "eyes",
+      "displayName": "Eyes",
+      "optional": true,
+      "options": [
+        {
+          "id": "eyes_default",
+          "name": "Eyes",
+          "path": "male/eyes/eyes.png",
+          "tintable": true,
+          "bodyTypeOverrides": {
+            "female": "female/eyes/eyes.png"
+          }
+        },
+        {
+          "id": "eyes_casting_eyeglow_skeleton",
+          "name": "Casting Eyeglow (Skeleton)",
+          "path": "male/eyes/casting_eyeglow_skeleton.png",
+          "bodyType": "male",
+          "tintable": true,
+          "variant": "skeleton"
+        }
+      ],
+      "zIndex": 3,
+      "variantFiltered": true,
+      "bodyTypeSpecific": true,
+      "slotKind": "body"
+    },
+    {
+      "type": "nose",
+      "displayName": "Nose",
+      "optional": true,
+      "options": [
+        {
+          "id": "nose_bignose",
+          "name": "Big Nose",
+          "path": "male/nose/bignose.png",
+          "tintable": true,
+          "bodyTypeOverrides": {
+            "female": "female/nose/bignose.png"
+          }
+        },
+        {
+          "id": "nose_buttonnose",
+          "name": "Button Nose",
+          "path": "male/nose/buttonnose.png",
+          "tintable": true,
+          "bodyTypeOverrides": {
+            "female": "female/nose/buttonnose.png"
+          }
+        },
+        {
+          "id": "nose_straightnose",
+          "name": "Straight Nose",
+          "path": "male/nose/straightnose.png",
+          "tintable": true,
+          "bodyTypeOverrides": {
+            "female": "female/nose/straightnose.png"
+          }
+        },
+        {
+          "id": "nose_big",
+          "name": "Big",
+          "path": "male/nose/big.png",
+          "tintable": true,
+          "bodyTypeOverrides": {
+            "female": "female/nose/big.png"
+          }
+        },
+        {
+          "id": "nose_button",
+          "name": "Button",
+          "path": "male/nose/button.png",
+          "tintable": true,
+          "bodyTypeOverrides": {
+            "female": "female/nose/button.png"
+          }
+        },
+        {
+          "id": "nose_straight",
+          "name": "Straight",
+          "path": "male/nose/straight.png",
+          "tintable": true,
+          "bodyTypeOverrides": {
+            "female": "female/nose/straight.png"
+          }
+        }
+      ],
+      "zIndex": 4,
+      "variantFiltered": true,
+      "bodyTypeSpecific": true,
+      "slotKind": "feature"
+    },
+    {
+      "type": "feet",
+      "displayName": "Footwear",
+      "optional": true,
+      "options": [
+        {
+          "id": "feet_golden_boots_male",
+          "name": "Golden Boots Male",
+          "path": "male/feet/golden_boots_male.png",
+          "bodyTypeOverrides": {
+            "female": "female/feet/golden_boots_female.png"
+          },
+          "tintable": true,
+          "tintMode": "overlay"
+        },
+        {
+          "id": "feet_gray_female",
+          "name": "Gray",
+          "path": "female/feet/gray.png"
+        },
+        {
+          "id": "feet_maroon_shoes_male",
+          "name": "Maroon Shoes Male",
+          "path": "male/feet/maroon_shoes_male.png",
+          "tintable": true,
+          "bodyTypeOverrides": {
+            "female": "female/feet/maroon_shoes_female.png"
+          }
+        },
+        {
+          "id": "feet_metal_boots_male",
+          "name": "Metal Boots Male",
+          "path": "male/feet/metal_boots_male.png",
+          "bodyTypeOverrides": {
+            "female": "female/feet/metal_boots_female.png"
+          },
+          "tintable": true,
+          "tintMode": "overlay"
+        },
+        {
+          "id": "feet_white_female",
+          "name": "White",
+          "path": "female/feet/white.png",
+          "tintable": true
+        },
+        {
+          "id": "feet_shoes_black",
+          "name": "Shoes Black",
+          "path": "feet/shoes_black.png"
+        },
+        {
+          "id": "feet_shoes_brown",
+          "name": "Shoes Brown",
+          "path": "feet/shoes_brown.png"
+        },
+        {
+          "id": "feet_black_shoes_female",
+          "name": "Black Shoes",
+          "path": "female/feet/black_shoes_female.png",
+          "bodyType": "female"
+        },
+        {
+          "id": "feet_brown_shoes_female",
+          "name": "Brown Shoes",
+          "path": "female/feet/brown_shoes_female.png",
+          "bodyType": "female"
+        },
+        {
+          "id": "feet_golden_boots_female",
+          "name": "Golden Boots",
+          "path": "female/feet/golden_boots_female.png",
+          "bodyType": "female",
+          "tintable": true,
+          "tintMode": "overlay"
+        },
+        {
+          "id": "feet_maroon_shoes_female",
+          "name": "Maroon Shoes",
+          "path": "female/feet/maroon_shoes_female.png",
+          "bodyType": "female"
+        },
+        {
+          "id": "feet_metal_boots_female",
+          "name": "Metal Boots",
+          "path": "female/feet/metal_boots_female.png",
+          "bodyType": "female",
+          "tintable": true,
+          "tintMode": "overlay"
+        },
+        {
+          "id": "feet_steel_plate_boots_female",
+          "name": "Steel plate Boots",
+          "path": "female/feet/steel_plate_boots_female.png",
+          "bodyType": "female"
+        },
+        {
+          "id": "feet_white_boots_female",
+          "name": "Boots",
+          "path": "female/feet/white_boots_female.png",
+          "tintable": true,
+          "bodyType": "female"
+        },
+        {
+          "id": "feet_white_ghillies_female",
+          "name": "Ghillies",
+          "path": "female/feet/white_ghillies_female.png",
+          "tintable": true,
+          "bodyType": "female"
+        },
+        {
+          "id": "feet_white_sandals_female",
+          "name": "Sandals",
+          "path": "female/feet/white_sandals_female.png",
+          "tintable": true,
+          "bodyType": "female"
+        },
+        {
+          "id": "feet_white_shoes_female",
+          "name": "Shoes",
+          "path": "female/feet/white_shoes_female.png",
+          "tintable": true,
+          "bodyType": "female"
+        },
+        {
+          "id": "feet_white_slippers_female",
+          "name": "Slippers",
+          "path": "female/feet/white_slippers_female.png",
+          "tintable": true,
+          "bodyType": "female"
+        },
+        {
+          "id": "feet_steel_plate_boots_male",
+          "name": "Steel plate Boots",
+          "path": "male/feet/steel_plate_boots_male.png",
+          "bodyType": "male"
+        },
+        {
+          "id": "feet_white_boots_male",
+          "name": "Boots",
+          "path": "male/feet/white_boots_male.png",
+          "tintable": true,
+          "bodyType": "male"
+        },
+        {
+          "id": "feet_white_ghillies_male",
+          "name": "Ghillies",
+          "path": "male/feet/white_ghillies_male.png",
+          "tintable": true,
+          "bodyType": "male"
+        },
+        {
+          "id": "feet_white_sandals_male",
+          "name": "Sandals",
+          "path": "male/feet/white_sandals_male.png",
+          "tintable": true,
+          "bodyType": "male"
+        },
+        {
+          "id": "feet_white_shoes_male",
+          "name": "Shoes",
+          "path": "male/feet/white_shoes_male.png",
+          "tintable": true,
+          "bodyType": "male"
+        },
+        {
+          "id": "feet_white_slippers_male",
+          "name": "Slippers",
+          "path": "male/feet/white_slippers_male.png",
+          "tintable": true,
+          "bodyType": "male"
+        },
+        {
+          "id": "feet_wulax_plate_armor_shoes_male",
+          "name": "Plate Armor Shoes",
+          "path": "male/feet/wulax_plate_armor_shoes_male.png",
+          "bodyType": "male"
+        },
+        {
+          "id": "feet_wulax_shoes_brown_male",
+          "name": "Shoes Brown",
+          "path": "male/feet/wulax_shoes_brown_male.png",
+          "bodyType": "male"
+        }
+      ],
+      "zIndex": 5,
+      "variantFiltered": false,
+      "bodyTypeSpecific": false,
+      "slotKind": "wearable"
+    },
+    {
+      "type": "legs",
+      "displayName": "Pants/Skirts",
+      "optional": true,
+      "options": [
+        {
+          "id": "legs_golden_greaves_male",
+          "name": "Golden Greaves Male",
+          "path": "male/legs/golden_greaves_male.png",
+          "bodyTypeOverrides": {
+            "female": "female/legs/golden_greaves_female.png"
+          },
+          "tintable": true,
+          "tintMode": "overlay"
+        },
+        {
+          "id": "legs_magenta_pants_male",
+          "name": "Magenta Pants Male",
+          "path": "male/legs/magenta_pants_male.png",
+          "tintable": true,
+          "bodyTypeOverrides": {
+            "female": "female/legs/magenta_pants_female.png"
+          }
+        },
+        {
+          "id": "legs_metal_pants_male",
+          "name": "Metal Pants Male",
+          "path": "male/legs/metal_pants_male.png",
+          "tintable": true,
+          "bodyTypeOverrides": {
+            "female": "female/legs/metal_pants_female.png"
+          },
+          "tintMode": "overlay"
+        },
+        {
+          "id": "legs_red_pants_male",
+          "name": "Red Pants Male",
+          "path": "male/legs/red_pants_male.png",
+          "tintable": true,
+          "bodyTypeOverrides": {
+            "female": "female/legs/red_pants_female.png"
+          }
+        },
+        {
+          "id": "legs_robe_skirt_male_male",
+          "name": "Robe Skirt Male",
+          "path": "male/legs/robe_skirt_male.png",
+          "tintable": true
+        },
+        {
+          "id": "legs_robe_skirt_female_incomplete_female",
+          "name": "Robe Skirt Female Incomplete",
+          "path": "female/legs/robe_skirt_female_incomplete.png",
+          "tintable": true
+        },
+        {
+          "id": "legs_teal_pants_male",
+          "name": "Teal Pants Male",
+          "path": "male/legs/teal_pants_male.png",
+          "tintable": true,
+          "bodyTypeOverrides": {
+            "female": "female/legs/teal_pants_female.png"
+          }
+        },
+        {
+          "id": "legs_white_pants_male",
+          "name": "White Pants Male",
+          "path": "male/legs/white_pants_male.png",
+          "tintable": true,
+          "bodyTypeOverrides": {
+            "female": "female/legs/white_pants_female.png"
+          },
+          "variant": "white"
+        },
+        {
+          "id": "legs_golden_greaves_female",
+          "name": "Golden Greaves",
+          "path": "female/legs/golden_greaves_female.png",
+          "bodyType": "female",
+          "tintable": true,
+          "tintMode": "overlay"
+        },
+        {
+          "id": "legs_magenta_pants_female",
+          "name": "Magenta Pants",
+          "path": "female/legs/magenta_pants_female.png",
+          "bodyType": "female"
+        },
+        {
+          "id": "legs_metal_pants_female",
+          "name": "Metal Pants",
+          "path": "female/legs/metal_pants_female.png",
+          "bodyType": "female",
+          "tintable": true,
+          "tintMode": "overlay"
+        },
+        {
+          "id": "legs_red_pants_female",
+          "name": "Red Pants",
+          "path": "female/legs/red_pants_female.png",
+          "bodyType": "female"
+        },
+        {
+          "id": "legs_steel_plate_pants_female",
+          "name": "Steel plate Pants",
+          "path": "female/legs/steel_plate_pants_female.png",
+          "bodyType": "female"
+        },
+        {
+          "id": "legs_teal_pants_female",
+          "name": "Teal Pants",
+          "path": "female/legs/teal_pants_female.png",
+          "bodyType": "female"
+        },
+        {
+          "id": "legs_white_leggings_female",
+          "name": "Leggings",
+          "path": "female/legs/white_leggings_female.png",
+          "tintable": true,
+          "bodyType": "female"
+        },
+        {
+          "id": "legs_white_pants_female",
+          "name": "Pants",
+          "path": "female/legs/white_pants_female.png",
+          "tintable": true,
+          "bodyType": "female"
+        },
+        {
+          "id": "legs_white_skirt_belle_female",
+          "name": "Skirt Belle",
+          "path": "female/legs/white_skirt_belle_female.png",
+          "tintable": true,
+          "bodyType": "female"
+        },
+        {
+          "id": "legs_white_skirt_legion_female",
+          "name": "Skirt Legion",
+          "path": "female/legs/white_skirt_legion_female.png",
+          "tintable": true,
+          "bodyType": "female"
+        },
+        {
+          "id": "legs_white_skirt_overskirt_female",
+          "name": "Skirt Overskirt",
+          "path": "female/legs/white_skirt_overskirt_female.png",
+          "tintable": true,
+          "bodyType": "female"
+        },
+        {
+          "id": "legs_white_skirt_plain_female",
+          "name": "Skirt Plain",
+          "path": "female/legs/white_skirt_plain_female.png",
+          "tintable": true,
+          "bodyType": "female"
+        },
+        {
+          "id": "legs_white_skirt_slit_female",
+          "name": "Skirt Slit",
+          "path": "female/legs/white_skirt_slit_female.png",
+          "tintable": true,
+          "bodyType": "female"
+        },
+        {
+          "id": "legs_white_skirt_straight_female",
+          "name": "Skirt Straight",
+          "path": "female/legs/white_skirt_straight_female.png",
+          "tintable": true,
+          "bodyType": "female"
+        },
+        {
+          "id": "legs_pants_teal",
+          "name": "Pants Teal",
+          "path": "legs/pants_teal.png"
+        },
+        {
+          "id": "legs_pants_white",
+          "name": "Pants White",
+          "path": "legs/pants_white.png"
+        },
+        {
+          "id": "legs_steel_plate_pants_male",
+          "name": "Steel plate Pants",
+          "path": "male/legs/steel_plate_pants_male.png",
+          "bodyType": "male"
+        },
+        {
+          "id": "legs_white_skirt_plain_male",
+          "name": "Skirt Plain",
+          "path": "male/legs/white_skirt_plain_male.png",
+          "tintable": true,
+          "bodyType": "male"
+        },
+        {
+          "id": "legs_wulax_pants_greenish_male",
+          "name": "Pants Greenish",
+          "path": "male/legs/wulax_pants_greenish_male.png",
+          "bodyType": "male"
+        },
+        {
+          "id": "legs_wulax_plate_armor_pants_male",
+          "name": "Plate Armor Pants",
+          "path": "male/legs/wulax_plate_armor_pants_male.png",
+          "bodyType": "male"
+        },
+        {
+          "id": "legs_wulax_robe_skirt_male",
+          "name": "Robe Skirt",
+          "path": "male/legs/wulax_robe_skirt_male.png",
+          "bodyType": "male"
+        },
+        {
+          "id": "legs_formal_pants_male",
+          "name": "Formal pants",
+          "path": "male/legs/formal_pants_male.png",
+          "bodyType": "male",
+          "tintable": true
+        },
+        {
+          "id": "legs_formal_pants_stripes_male",
+          "name": "Formal pants Stripes",
+          "path": "male/legs/formal_pants_stripes_male.png",
+          "bodyType": "male"
+        }
+      ],
+      "zIndex": 6,
+      "variantFiltered": false,
+      "bodyTypeSpecific": false,
+      "slotKind": "wearable"
+    },
+    {
+      "type": "torso",
+      "displayName": "Shirt/Armor",
+      "optional": true,
+      "options": [
+        {
+          "id": "torso_arms_male",
+          "name": "Arms Male",
+          "path": "male/torso/arms_male.png",
+          "bodyTypeOverrides": {
+            "female": "female/torso/arms_female.png"
+          }
+        },
+        {
+          "id": "torso_blue_vest_female",
+          "name": "Blue Vest",
+          "path": "female/torso/blue_vest.png",
+          "tintable": true
+        },
+        {
+          "id": "torso_cape_blue_female",
+          "name": "Cape Blue",
+          "path": "female/torso/cape_blue.png",
+          "tintable": true
+        },
+        {
+          "id": "torso_cape_gray_female",
+          "name": "Cape Gray",
+          "path": "female/torso/cape_gray.png",
+          "tintable": true
+        },
+        {
+          "id": "torso_cape_green_female",
+          "name": "Cape Green",
+          "path": "female/torso/cape_green.png",
+          "tintable": true
+        },
+        {
+          "id": "torso_cape_lavender_female",
+          "name": "Cape Lavender",
+          "path": "female/torso/cape_lavender.png",
+          "tintable": true
+        },
+        {
+          "id": "torso_cape_maroon_female",
+          "name": "Cape Maroon",
+          "path": "female/torso/cape_maroon.png",
+          "tintable": true
+        },
+        {
+          "id": "torso_cape_pink_female",
+          "name": "Cape Pink",
+          "path": "female/torso/cape_pink.png",
+          "tintable": true
+        },
+        {
+          "id": "torso_cape_red_female",
+          "name": "Cape Red",
+          "path": "female/torso/cape_red.png",
+          "tintable": true
+        },
+        {
+          "id": "torso_cape_white_female",
+          "name": "Cape White",
+          "path": "female/torso/cape_white.png",
+          "tintable": true
+        },
+        {
+          "id": "torso_cape_yellow_female",
+          "name": "Cape Yellow",
+          "path": "female/torso/cape_yellow.png",
+          "tintable": true
+        },
+        {
+          "id": "torso_chest_male",
+          "name": "Chest Male",
+          "path": "male/torso/chest_male.png",
+          "bodyTypeOverrides": {
+            "female": "female/torso/chest_female.png"
+          }
+        },
+        {
+          "id": "torso_dress_w_sash_female_female",
+          "name": "Dress W Sash Female",
+          "path": "female/torso/dress_w_sash_female.png",
+          "tintable": true
+        },
+        {
+          "id": "torso_jacket_male",
+          "name": "Jacket Male",
+          "path": "male/torso/jacket_male.png",
+          "bodyTypeOverrides": {
+            "female": "female/torso/jacket_female.png"
+          }
+        },
+        {
+          "id": "torso_mail_male",
+          "name": "Mail Male",
+          "path": "male/torso/mail_male.png",
+          "bodyTypeOverrides": {
+            "female": "female/torso/mail_female.png"
+          },
+          "tintable": true,
+          "tintMode": "overlay"
+        },
+        {
+          "id": "torso_maroon_longsleeve_male",
+          "name": "Maroon Longsleeve",
+          "path": "male/torso/maroon_longsleeve.png",
+          "tintable": true
+        },
+        {
+          "id": "torso_maroon_pirate_female",
+          "name": "Maroon Pirate",
+          "path": "female/torso/maroon_pirate.png",
+          "tintable": true
+        },
+        {
+          "id": "torso_maroon_sleeveless_female",
+          "name": "Maroon Sleeveless",
+          "path": "female/torso/maroon_sleeveless.png",
+          "tintable": true
+        },
+        {
+          "id": "torso_maroon_tunic_female",
+          "name": "Maroon Tunic",
+          "path": "female/torso/maroon_tunic.png",
+          "tintable": true
+        },
+        {
+          "id": "torso_overskirt_female",
+          "name": "Overskirt",
+          "path": "female/torso/overskirt.png",
+          "tintable": true
+        },
+        {
+          "id": "torso_shoulders_male",
+          "name": "Shoulders Male",
+          "path": "male/torso/shoulders_male.png",
+          "bodyTypeOverrides": {
+            "female": "female/torso/shoulders_female.png"
+          }
+        },
+        {
+          "id": "torso_spikes_male_male",
+          "name": "Spikes Male",
+          "path": "male/torso/spikes_male.png"
+        },
+        {
+          "id": "torso_tattercape_blue_female",
+          "name": "Tattercape Blue",
+          "path": "female/torso/tattercape_blue.png",
+          "tintable": true
+        },
+        {
+          "id": "torso_tattercape_gray_female",
+          "name": "Tattercape Gray",
+          "path": "female/torso/tattercape_gray.png",
+          "tintable": true
+        },
+        {
+          "id": "torso_tattercape_green_female",
+          "name": "Tattercape Green",
+          "path": "female/torso/tattercape_green.png",
+          "tintable": true
+        },
+        {
+          "id": "torso_tattercape_maroon_female",
+          "name": "Tattercape Maroon",
+          "path": "female/torso/tattercape_maroon.png",
+          "tintable": true
+        },
+        {
+          "id": "torso_tattercape_pink_female",
+          "name": "Tattercape Pink",
+          "path": "female/torso/tattercape_pink.png",
+          "tintable": true
+        },
+        {
+          "id": "torso_tattercape_red_female",
+          "name": "Tattercape Red",
+          "path": "female/torso/tattercape_red.png",
+          "tintable": true
+        },
+        {
+          "id": "torso_tattercape_white_female",
+          "name": "Tattercape White",
+          "path": "female/torso/tattercape_white.png",
+          "tintable": true
+        },
+        {
+          "id": "torso_tattercape_yellow_female",
+          "name": "Tattercape Yellow",
+          "path": "female/torso/tattercape_yellow.png",
+          "tintable": true
+        },
+        {
+          "id": "torso_teal_longsleeve_male",
+          "name": "Teal Longsleeve",
+          "path": "male/torso/teal_longsleeve.png",
+          "tintable": true
+        },
+        {
+          "id": "torso_teal_pirate_female",
+          "name": "Teal Pirate",
+          "path": "female/torso/teal_pirate.png",
+          "tintable": true
+        },
+        {
+          "id": "torso_teal_sleeveless_female",
+          "name": "Teal Sleeveless",
+          "path": "female/torso/teal_sleeveless.png",
+          "tintable": true
+        },
+        {
+          "id": "torso_teal_tunic_female",
+          "name": "Teal Tunic",
+          "path": "female/torso/teal_tunic.png",
+          "tintable": true
+        },
+        {
+          "id": "torso_trimcape_whiteblue_female",
+          "name": "Trimcape Whiteblue",
+          "path": "female/torso/trimcape_whiteblue.png",
+          "tintable": true
+        },
+        {
+          "id": "torso_underdress_female",
+          "name": "Underdress",
+          "path": "female/torso/underdress.png",
+          "tintable": true
+        },
+        {
+          "id": "torso_white_longsleeve_male",
+          "name": "White Longsleeve",
+          "path": "male/torso/white_longsleeve.png",
+          "tintable": true
+        },
+        {
+          "id": "torso_white_pirate_female",
+          "name": "White Pirate",
+          "path": "female/torso/white_pirate.png",
+          "tintable": true
+        },
+        {
+          "id": "torso_white_sleeveless_female",
+          "name": "White Sleeveless",
+          "path": "female/torso/white_sleeveless.png",
+          "tintable": true
+        },
+        {
+          "id": "torso_white_tunic_female",
+          "name": "White Tunic",
+          "path": "female/torso/white_tunic.png",
+          "tintable": true
+        },
+        {
+          "id": "torso_arms_female",
+          "name": "Arms",
+          "path": "female/torso/arms_female.png",
+          "bodyType": "female"
+        },
+        {
+          "id": "torso_chest_female",
+          "name": "Chest",
+          "path": "female/torso/chest_female.png",
+          "bodyType": "female"
+        },
+        {
+          "id": "torso_jacket_female",
+          "name": "Jacket",
+          "path": "female/torso/jacket_female.png",
+          "bodyType": "female"
+        },
+        {
+          "id": "torso_mail_female",
+          "name": "Mail",
+          "path": "female/torso/mail_female.png",
+          "bodyType": "female",
+          "tintable": true,
+          "tintMode": "overlay"
+        },
+        {
+          "id": "torso_shoulders_female",
+          "name": "Shoulders",
+          "path": "female/torso/shoulders_female.png",
+          "bodyType": "female"
+        },
+        {
+          "id": "torso_steel_legion_armor_female",
+          "name": "Steel legion Armor",
+          "path": "female/torso/steel_legion_armor_female.png",
+          "bodyType": "female"
+        },
+        {
+          "id": "torso_steel_legion_shoulders_female",
+          "name": "Steel legion Shoulders",
+          "path": "female/torso/steel_legion_shoulders_female.png",
+          "bodyType": "female"
+        },
+        {
+          "id": "torso_steel_plate_armor_female",
+          "name": "Steel plate Armor",
+          "path": "female/torso/steel_plate_armor_female.png",
+          "bodyType": "female"
+        },
+        {
+          "id": "torso_steel_plate_shoulders_female",
+          "name": "Steel plate Shoulders",
+          "path": "female/torso/steel_plate_shoulders_female.png",
+          "bodyType": "female"
+        },
+        {
+          "id": "torso_white_apron_female",
+          "name": "Apron",
+          "path": "female/torso/white_apron_female.png",
+          "tintable": true,
+          "bodyType": "female"
+        },
+        {
+          "id": "torso_white_apron_full_female",
+          "name": "Apron Full",
+          "path": "female/torso/white_apron_full_female.png",
+          "tintable": true,
+          "bodyType": "female"
+        },
+        {
+          "id": "torso_white_apron_half_female",
+          "name": "Apron Half",
+          "path": "female/torso/white_apron_half_female.png",
+          "tintable": true,
+          "bodyType": "female"
+        },
+        {
+          "id": "torso_white_bauldron_female",
+          "name": "Bauldron",
+          "path": "female/torso/white_bauldron_female.png",
+          "tintable": true,
+          "bodyType": "female"
+        },
+        {
+          "id": "torso_white_blouse_female",
+          "name": "Blouse",
+          "path": "female/torso/white_blouse_female.png",
+          "tintable": true,
+          "bodyType": "female"
+        },
+        {
+          "id": "torso_white_blouse_longsleeve_female",
+          "name": "Blouse Longsleeve",
+          "path": "female/torso/white_blouse_longsleeve_female.png",
+          "tintable": true,
+          "bodyType": "female"
+        },
+        {
+          "id": "torso_white_bodice_female",
+          "name": "Bodice",
+          "path": "female/torso/white_bodice_female.png",
+          "tintable": true,
+          "bodyType": "female"
+        },
+        {
+          "id": "torso_white_corset_female",
+          "name": "Corset",
+          "path": "female/torso/white_corset_female.png",
+          "tintable": true,
+          "bodyType": "female"
+        },
+        {
+          "id": "torso_white_dress_slit_female",
+          "name": "Dress Slit",
+          "path": "female/torso/white_dress_slit_female.png",
+          "tintable": true,
+          "bodyType": "female"
+        },
+        {
+          "id": "torso_white_leather_armor_female",
+          "name": "Leather Armor",
+          "path": "female/torso/white_leather_armor_female.png",
+          "tintable": true,
+          "bodyType": "female"
+        },
+        {
+          "id": "torso_white_leather_shoulders_female",
+          "name": "Leather Shoulders",
+          "path": "female/torso/white_leather_shoulders_female.png",
+          "tintable": true,
+          "bodyType": "female"
+        },
+        {
+          "id": "torso_white_longsleeve_v3_female",
+          "name": "Longsleeve (v3)",
+          "path": "female/torso/white_longsleeve_v3_female.png",
+          "tintable": true,
+          "bodyType": "female"
+        },
+        {
+          "id": "torso_white_overalls_female",
+          "name": "Overalls",
+          "path": "female/torso/white_overalls_female.png",
+          "tintable": true,
+          "bodyType": "female"
+        },
+        {
+          "id": "torso_white_sash_female",
+          "name": "Sash",
+          "path": "female/torso/white_sash_female.png",
+          "tintable": true,
+          "bodyType": "female"
+        },
+        {
+          "id": "torso_white_scoop_shirt_female",
+          "name": "Scoop Shirt",
+          "path": "female/torso/white_scoop_shirt_female.png",
+          "tintable": true,
+          "bodyType": "female"
+        },
+        {
+          "id": "torso_white_shortsleeve_female",
+          "name": "Shortsleeve",
+          "path": "female/torso/white_shortsleeve_female.png",
+          "tintable": true,
+          "bodyType": "female"
+        },
+        {
+          "id": "torso_white_tabard_female",
+          "name": "Tabard",
+          "path": "female/torso/white_tabard_female.png",
+          "tintable": true,
+          "bodyType": "female"
+        },
+        {
+          "id": "torso_white_tanktop_female",
+          "name": "Tanktop",
+          "path": "female/torso/white_tanktop_female.png",
+          "tintable": true,
+          "bodyType": "female"
+        },
+        {
+          "id": "torso_gray_chainmail_male",
+          "name": "Gray chainmail",
+          "path": "male/torso/gray_chainmail_male.png",
+          "bodyType": "male"
+        },
+        {
+          "id": "torso_steel_legion_armor_male",
+          "name": "Steel legion Armor",
+          "path": "male/torso/steel_legion_armor_male.png",
+          "bodyType": "male"
+        },
+        {
+          "id": "torso_steel_legion_shoulders_male",
+          "name": "Steel legion Shoulders",
+          "path": "male/torso/steel_legion_shoulders_male.png",
+          "bodyType": "male"
+        },
+        {
+          "id": "torso_steel_plate_armor_male",
+          "name": "Steel plate Armor",
+          "path": "male/torso/steel_plate_armor_male.png",
+          "bodyType": "male"
+        },
+        {
+          "id": "torso_steel_plate_shoulders_male",
+          "name": "Steel plate Shoulders",
+          "path": "male/torso/steel_plate_shoulders_male.png",
+          "bodyType": "male"
+        },
+        {
+          "id": "torso_white_apron_male",
+          "name": "Apron",
+          "path": "male/torso/white_apron_male.png",
+          "tintable": true,
+          "bodyType": "male"
+        },
+        {
+          "id": "torso_white_bauldron_male",
+          "name": "Bauldron",
+          "path": "male/torso/white_bauldron_male.png",
+          "tintable": true,
+          "bodyType": "male"
+        },
+        {
+          "id": "torso_white_leather_armor_male",
+          "name": "Leather Armor",
+          "path": "male/torso/white_leather_armor_male.png",
+          "tintable": true,
+          "bodyType": "male"
+        },
+        {
+          "id": "torso_white_longsleeve_v3_male",
+          "name": "Longsleeve (v3)",
+          "path": "male/torso/white_longsleeve_v3_male.png",
+          "tintable": true,
+          "bodyType": "male"
+        },
+        {
+          "id": "torso_white_overalls_male",
+          "name": "Overalls",
+          "path": "male/torso/white_overalls_male.png",
+          "tintable": true,
+          "bodyType": "male"
+        },
+        {
+          "id": "torso_white_shortsleeve_male",
+          "name": "Shortsleeve",
+          "path": "male/torso/white_shortsleeve_male.png",
+          "tintable": true,
+          "bodyType": "male"
+        },
+        {
+          "id": "torso_white_tabard_male",
+          "name": "Tabard",
+          "path": "male/torso/white_tabard_male.png",
+          "tintable": true,
+          "bodyType": "male"
+        },
+        {
+          "id": "torso_wulax_chain_armor_jacket_male",
+          "name": "Chain Armor Jacket",
+          "path": "male/torso/wulax_chain_armor_jacket_male.png",
+          "bodyType": "male"
+        },
+        {
+          "id": "torso_wulax_chain_armor_torso_male",
+          "name": "Chain Armor Torso",
+          "path": "male/torso/wulax_chain_armor_torso_male.png",
+          "bodyType": "male"
+        },
+        {
+          "id": "torso_wulax_leather_armor_shoulders_male",
+          "name": "Leather Armor Shoulders",
+          "path": "male/torso/wulax_leather_armor_shoulders_male.png",
+          "bodyType": "male",
+          "tintable": true
+        },
+        {
+          "id": "torso_wulax_leather_armor_torso_male",
+          "name": "Leather Armor Torso",
+          "path": "male/torso/wulax_leather_armor_torso_male.png",
+          "bodyType": "male"
+        },
+        {
+          "id": "torso_wulax_leather_shirt_white_male",
+          "name": "Leather Shirt White",
+          "path": "male/torso/wulax_leather_shirt_white_male.png",
+          "tintable": true,
+          "bodyType": "male"
+        },
+        {
+          "id": "torso_wulax_plate_armor_shoulders_male",
+          "name": "Plate Armor Shoulders",
+          "path": "male/torso/wulax_plate_armor_shoulders_male.png",
+          "bodyType": "male",
+          "tintable": true,
+          "tintMode": "overlay"
+        },
+        {
+          "id": "torso_wulax_plate_armor_torso_male",
+          "name": "Plate Armor Torso",
+          "path": "male/torso/wulax_plate_armor_torso_male.png",
+          "bodyType": "male"
+        },
+        {
+          "id": "torso_wulax_robe_shirt_male",
+          "name": "Robe Shirt",
+          "path": "male/torso/wulax_robe_shirt_male.png",
+          "bodyType": "male",
+          "tintable": true
+        },
+        {
+          "id": "torso_chain_mail",
+          "name": "Chain Mail",
+          "path": "torso/chain_mail.png"
+        },
+        {
+          "id": "torso_leather_armor",
+          "name": "Leather Armor",
+          "path": "torso/leather_armor.png"
+        },
+        {
+          "id": "torso_plate_armor",
+          "name": "Plate Armor",
+          "path": "torso/plate_armor.png"
+        },
+        {
+          "id": "torso_shirt_brown",
+          "name": "Shirt Brown",
+          "path": "torso/shirt_brown.png"
+        },
+        {
+          "id": "torso_shirt_white",
+          "name": "Shirt White",
+          "path": "torso/shirt_white.png"
+        },
+        {
+          "id": "torso_formal_jacket_brown_stripes_male",
+          "name": "Formal jacket Brown Stripes",
+          "path": "male/torso/formal_jacket_brown_stripes_male.png",
+          "bodyType": "male"
+        },
+        {
+          "id": "torso_formal_shirt_male",
+          "name": "Formal shirt",
+          "path": "male/torso/formal_shirt_male.png",
+          "bodyType": "male",
+          "tintable": true
+        },
+        {
+          "id": "torso_formal_stripes_shirt_male",
+          "name": "Formal stripes Shirt",
+          "path": "male/torso/formal_stripes_shirt_male.png",
+          "bodyType": "male"
+        },
+        {
+          "id": "torso_formal_trenchcoat_male",
+          "name": "Formal trenchcoat",
+          "path": "male/torso/formal_trenchcoat_male.png",
+          "bodyType": "male",
+          "tintable": true
+        },
+        {
+          "id": "torso_formal_jacket_male",
+          "name": "Formal jacket",
+          "path": "male/torso/formal_jacket_male.png",
+          "tintable": true,
+          "bodyType": "male"
+        }
+      ],
+      "zIndex": 7,
+      "variantFiltered": false,
+      "bodyTypeSpecific": false,
+      "slotKind": "wearable"
+    },
+    {
+      "type": "belt",
+      "displayName": "Belt",
+      "optional": true,
+      "options": [
+        {
+          "id": "belt_bronze_female",
+          "name": "Bronze",
+          "path": "female/belt/bronze.png",
+          "tintable": true
+        },
+        {
+          "id": "belt_gold_female",
+          "name": "Gold",
+          "path": "female/belt/gold.png",
+          "tintable": true
+        },
+        {
+          "id": "belt_iron_female",
+          "name": "Iron",
+          "path": "female/belt/iron.png",
+          "tintable": true
+        },
+        {
+          "id": "belt_leather_male",
+          "name": "Leather Male",
+          "path": "male/belt/leather_male.png",
+          "tintable": true,
+          "bodyTypeOverrides": {
+            "female": "female/belt/leather_female.png"
+          }
+        },
+        {
+          "id": "belt_silver_female",
+          "name": "Silver",
+          "path": "female/belt/silver.png",
+          "tintable": true
+        },
+        {
+          "id": "belt_teal2_cloth_female_female",
+          "name": "Teal2 Cloth Female",
+          "path": "female/belt/teal2_cloth_female.png",
+          "tintable": true
+        },
+        {
+          "id": "belt_white_cloth_male",
+          "name": "White Cloth Male",
+          "path": "male/belt/white_cloth_male.png",
+          "tintable": true,
+          "bodyTypeOverrides": {
+            "female": "female/belt/white_cloth_female.png"
+          },
+          "variant": "white"
+        },
+        {
+          "id": "belt_leather",
+          "name": "Leather",
+          "path": "belt/leather.png"
+        },
+        {
+          "id": "belt_leather_female",
+          "name": "Leather",
+          "path": "female/belt/leather_female.png",
+          "bodyType": "female",
+          "tintable": true
+        },
+        {
+          "id": "belt_white_cloth_female",
+          "name": "Cloth",
+          "path": "female/belt/white_cloth_female.png",
+          "tintable": true,
+          "bodyType": "female"
+        },
+        {
+          "id": "belt_wulax_belt_leather_male",
+          "name": "Belt Leather",
+          "path": "male/belt/wulax_belt_leather_male.png",
+          "bodyType": "male"
+        },
+        {
+          "id": "belt_wulax_belt_rope_male",
+          "name": "Belt Rope",
+          "path": "male/belt/wulax_belt_rope_male.png",
+          "bodyType": "male",
+          "tintable": true
+        },
+        {
+          "id": "belt_formal_belt_male",
+          "name": "Formal belt",
+          "path": "male/belt/formal_belt_male.png",
+          "bodyType": "male",
+          "tintable": true
+        }
+      ],
+      "zIndex": 8,
+      "variantFiltered": false,
+      "bodyTypeSpecific": false,
+      "slotKind": "wearable"
+    },
+    {
+      "type": "hands",
+      "displayName": "Gloves/Bracers",
+      "optional": true,
+      "options": [
+        {
+          "id": "hands_bracelet",
+          "name": "Bracelet",
+          "path": "either/hands/bracelet.png"
+        },
+        {
+          "id": "hands_cloth_bracers_female_female",
+          "name": "Cloth Bracers Female",
+          "path": "female/hands/cloth_bracers_female.png",
+          "tintable": true
+        },
+        {
+          "id": "hands_golden_gloves_male",
+          "name": "Golden Gloves Male",
+          "path": "male/hands/golden_gloves_male.png",
+          "bodyTypeOverrides": {
+            "female": "female/hands/golden_gloves_female.png"
+          }
+        },
+        {
+          "id": "hands_leather_bracers_male",
+          "name": "Leather Bracers Male",
+          "path": "male/hands/leather_bracers_male.png",
+          "tintable": true,
+          "bodyTypeOverrides": {
+            "female": "female/hands/leather_bracers_female.png"
+          }
+        },
+        {
+          "id": "hands_metal_gloves_male",
+          "name": "Metal Gloves Male",
+          "path": "male/hands/metal_gloves_male.png",
+          "tintable": true,
+          "bodyTypeOverrides": {
+            "female": "female/hands/metal_gloves_female.png"
+          },
+          "tintMode": "overlay"
+        },
+        {
+          "id": "hands_white_cloth_bandages_female",
+          "name": "White Cloth Bandages",
+          "path": "female/hands/white_cloth_bandages.png",
+          "tintable": true,
+          "variant": "white"
+        },
+        {
+          "id": "hands_white_cloth_bracers_female",
+          "name": "White Cloth Bracers",
+          "path": "female/hands/white_cloth_bracers.png",
+          "tintable": true,
+          "variant": "white"
+        },
+        {
+          "id": "hands_golden_gloves_female",
+          "name": "Golden Gloves",
+          "path": "female/hands/golden_gloves_female.png",
+          "bodyType": "female"
+        },
+        {
+          "id": "hands_leather_bracers_female",
+          "name": "Leather Bracers",
+          "path": "female/hands/leather_bracers_female.png",
+          "bodyType": "female",
+          "tintable": true
+        },
+        {
+          "id": "hands_metal_gloves_female",
+          "name": "Metal Gloves",
+          "path": "female/hands/metal_gloves_female.png",
+          "bodyType": "female",
+          "tintable": true,
+          "tintMode": "overlay"
+        },
+        {
+          "id": "hands_steel_bracers_female",
+          "name": "Steel bracers",
+          "path": "female/hands/steel_bracers_female.png",
+          "bodyType": "female"
+        },
+        {
+          "id": "hands_steel_plate_arms_female",
+          "name": "Steel plate Arms",
+          "path": "female/hands/steel_plate_arms_female.png",
+          "bodyType": "female"
+        },
+        {
+          "id": "hands_white_gloves_female",
+          "name": "Gloves",
+          "path": "female/hands/white_gloves_female.png",
+          "tintable": true,
+          "bodyType": "female"
+        },
+        {
+          "id": "hands_golden_gloves",
+          "name": "Golden Gloves",
+          "path": "hands/golden_gloves.png"
+        },
+        {
+          "id": "hands_metal_gloves",
+          "name": "Metal Gloves",
+          "path": "hands/metal_gloves.png",
+          "tintable": true,
+          "tintMode": "overlay"
+        },
+        {
+          "id": "hands_steel_bracers_male",
+          "name": "Steel bracers",
+          "path": "male/hands/steel_bracers_male.png",
+          "bodyType": "male"
+        },
+        {
+          "id": "hands_white_gloves_male",
+          "name": "Gloves",
+          "path": "male/hands/white_gloves_male.png",
+          "tintable": true,
+          "bodyType": "male"
+        },
+        {
+          "id": "hands_wulax_leather_armor_bracers_male",
+          "name": "Leather Armor Bracers",
+          "path": "male/hands/wulax_leather_armor_bracers_male.png",
+          "bodyType": "male"
+        },
+        {
+          "id": "hands_wulax_plate_armor_gloves_male",
+          "name": "Plate Armor Gloves",
+          "path": "male/hands/wulax_plate_armor_gloves_male.png",
+          "bodyType": "male"
+        }
+      ],
+      "zIndex": 9,
+      "variantFiltered": false,
+      "bodyTypeSpecific": false,
+      "slotKind": "wearable"
+    },
+    {
+      "type": "facial",
+      "displayName": "Facial Hair",
+      "optional": true,
+      "options": [
+        {
+          "id": "facial_beard",
+          "name": "Beard",
+          "path": "male/facial/beard.png",
+          "tintable": true,
+          "bodyTypeOverrides": {
+            "female": "female/facial/beard.png"
+          }
+        },
+        {
+          "id": "facial_bigstache",
+          "name": "Bigstache",
+          "path": "male/facial/bigstache.png",
+          "tintable": true,
+          "bodyTypeOverrides": {
+            "female": "female/facial/bigstache.png"
+          }
+        },
+        {
+          "id": "facial_black",
+          "name": "Black",
+          "path": "male/facial/black.png",
+          "tintable": true,
+          "bodyTypeOverrides": {
+            "female": "female/facial/black.png"
+          },
+          "variant": "black"
+        },
+        {
+          "id": "facial_blonde",
+          "name": "Blonde",
+          "path": "male/facial/blonde.png",
+          "tintable": true,
+          "bodyTypeOverrides": {
+            "female": "female/facial/blonde.png"
+          }
+        },
+        {
+          "id": "facial_blonde2",
+          "name": "Blonde2",
+          "path": "male/facial/blonde2.png",
+          "tintable": true,
+          "bodyTypeOverrides": {
+            "female": "female/facial/blonde2.png"
+          }
+        },
+        {
+          "id": "facial_blue",
+          "name": "Blue",
+          "path": "male/facial/blue.png",
+          "tintable": true,
+          "bodyTypeOverrides": {
+            "female": "female/facial/blue.png"
+          }
+        },
+        {
+          "id": "facial_blue2",
+          "name": "Blue2",
+          "path": "male/facial/blue2.png",
+          "tintable": true,
+          "bodyTypeOverrides": {
+            "female": "female/facial/blue2.png"
+          }
+        },
+        {
+          "id": "facial_brown",
+          "name": "Brown",
+          "path": "male/facial/brown.png",
+          "tintable": true,
+          "bodyTypeOverrides": {
+            "female": "female/facial/brown.png"
+          },
+          "variant": "brown"
+        },
+        {
+          "id": "facial_brown2",
+          "name": "Brown2",
+          "path": "male/facial/brown2.png",
+          "tintable": true,
+          "bodyTypeOverrides": {
+            "female": "female/facial/brown2.png"
+          }
+        },
+        {
+          "id": "facial_brunette",
+          "name": "Brunette",
+          "path": "male/facial/brunette.png",
+          "tintable": true,
+          "bodyTypeOverrides": {
+            "female": "female/facial/brunette.png"
+          }
+        },
+        {
+          "id": "facial_brunette2",
+          "name": "Brunette2",
+          "path": "male/facial/brunette2.png",
+          "tintable": true,
+          "bodyTypeOverrides": {
+            "female": "female/facial/brunette2.png"
+          }
+        },
+        {
+          "id": "facial_dark_blonde",
+          "name": "Dark Blonde",
+          "path": "male/facial/dark-blonde.png",
+          "tintable": true,
+          "bodyTypeOverrides": {
+            "female": "female/facial/dark-blonde.png"
+          }
+        },
+        {
+          "id": "facial_fiveoclock",
+          "name": "Fiveoclock",
+          "path": "male/facial/fiveoclock.png",
+          "tintable": true,
+          "bodyTypeOverrides": {
+            "female": "female/facial/fiveoclock.png"
+          }
+        },
+        {
+          "id": "facial_frenchstache",
+          "name": "Frenchstache",
+          "path": "male/facial/frenchstache.png",
+          "tintable": true,
+          "bodyTypeOverrides": {
+            "female": "female/facial/frenchstache.png"
+          }
+        },
+        {
+          "id": "facial_winter",
+          "name": "Winter Beard",
+          "path": "male/facial/winter.png",
+          "tintable": true,
+          "bodyTypeOverrides": {
+            "female": "female/facial/winter.png"
+          }
+        },
+        {
+          "id": "facial_medium",
+          "name": "Medium Beard",
+          "path": "male/facial/medium.png",
+          "tintable": true,
+          "bodyTypeOverrides": {
+            "female": "female/facial/medium.png"
+          }
+        },
+        {
+          "id": "facial_trimmed",
+          "name": "Trimmed Beard",
+          "path": "male/facial/trimmed.png",
+          "tintable": true,
+          "bodyTypeOverrides": {
+            "female": "female/facial/trimmed.png"
+          }
+        },
+        {
+          "id": "facial_horseshoe",
+          "name": "Horseshoe Mustache",
+          "path": "male/facial/horseshoe.png",
+          "tintable": true,
+          "bodyTypeOverrides": {
+            "female": "female/facial/horseshoe.png"
+          }
+        },
+        {
+          "id": "facial_lampshade",
+          "name": "Lampshade Mustache",
+          "path": "male/facial/lampshade.png",
+          "tintable": true,
+          "bodyTypeOverrides": {
+            "female": "female/facial/lampshade.png"
+          }
+        },
+        {
+          "id": "facial_handlebar",
+          "name": "Handlebar Mustache",
+          "path": "male/facial/handlebar.png",
+          "tintable": true,
+          "bodyTypeOverrides": {
+            "female": "female/facial/handlebar.png"
+          }
+        },
+        {
+          "id": "facial_chevron",
+          "name": "Chevron Mustache",
+          "path": "male/facial/chevron.png",
+          "tintable": true,
+          "bodyTypeOverrides": {
+            "female": "female/facial/chevron.png"
+          }
+        },
+        {
+          "id": "facial_walrus",
+          "name": "Walrus Mustache",
+          "path": "male/facial/walrus.png",
+          "tintable": true,
+          "bodyTypeOverrides": {
+            "female": "female/facial/walrus.png"
+          }
+        },
+        {
+          "id": "facial_gold",
+          "name": "Gold",
+          "path": "male/facial/gold.png",
+          "tintable": true,
+          "bodyTypeOverrides": {
+            "female": "female/facial/gold.png"
+          }
+        },
+        {
+          "id": "facial_gray",
+          "name": "Gray",
+          "path": "male/facial/gray.png",
+          "tintable": true,
+          "bodyTypeOverrides": {
+            "female": "female/facial/gray.png"
+          }
+        },
+        {
+          "id": "facial_gray2",
+          "name": "Gray2",
+          "path": "male/facial/gray2.png",
+          "tintable": true,
+          "bodyTypeOverrides": {
+            "female": "female/facial/gray2.png"
+          }
+        },
+        {
+          "id": "facial_green",
+          "name": "Green",
+          "path": "male/facial/green.png",
+          "tintable": true,
+          "bodyTypeOverrides": {
+            "female": "female/facial/green.png"
+          }
+        },
+        {
+          "id": "facial_green2",
+          "name": "Green2",
+          "path": "male/facial/green2.png",
+          "tintable": true,
+          "bodyTypeOverrides": {
+            "female": "female/facial/green2.png"
+          }
+        },
+        {
+          "id": "facial_light_blonde",
+          "name": "Light Blonde",
+          "path": "male/facial/light-blonde.png",
+          "tintable": true,
+          "bodyTypeOverrides": {
+            "female": "female/facial/light-blonde.png"
+          }
+        },
+        {
+          "id": "facial_light_blonde2",
+          "name": "Light Blonde2",
+          "path": "male/facial/light-blonde2.png",
+          "tintable": true,
+          "bodyTypeOverrides": {
+            "female": "female/facial/light-blonde2.png"
+          }
+        },
+        {
+          "id": "facial_mustache",
+          "name": "Mustache",
+          "path": "male/facial/mustache.png",
+          "tintable": true,
+          "bodyTypeOverrides": {
+            "female": "female/facial/mustache.png"
+          }
+        },
+        {
+          "id": "facial_pink",
+          "name": "Pink",
+          "path": "male/facial/pink.png",
+          "tintable": true,
+          "bodyTypeOverrides": {
+            "female": "female/facial/pink.png"
+          }
+        },
+        {
+          "id": "facial_pink2",
+          "name": "Pink2",
+          "path": "male/facial/pink2.png",
+          "tintable": true,
+          "bodyTypeOverrides": {
+            "female": "female/facial/pink2.png"
+          }
+        },
+        {
+          "id": "facial_purple",
+          "name": "Purple",
+          "path": "male/facial/purple.png",
+          "tintable": true,
+          "bodyTypeOverrides": {
+            "female": "female/facial/purple.png"
+          }
+        },
+        {
+          "id": "facial_raven",
+          "name": "Raven",
+          "path": "male/facial/raven.png",
+          "tintable": true,
+          "bodyTypeOverrides": {
+            "female": "female/facial/raven.png"
+          }
+        },
+        {
+          "id": "facial_raven2",
+          "name": "Raven2",
+          "path": "male/facial/raven2.png",
+          "tintable": true,
+          "bodyTypeOverrides": {
+            "female": "female/facial/raven2.png"
+          }
+        },
+        {
+          "id": "facial_redhead",
+          "name": "Redhead",
+          "path": "male/facial/redhead.png",
+          "tintable": true,
+          "bodyTypeOverrides": {
+            "female": "female/facial/redhead.png"
+          }
+        },
+        {
+          "id": "facial_redhead2",
+          "name": "Redhead2",
+          "path": "male/facial/redhead2.png",
+          "tintable": true,
+          "bodyTypeOverrides": {
+            "female": "female/facial/redhead2.png"
+          }
+        },
+        {
+          "id": "facial_ruby_red",
+          "name": "Ruby Red",
+          "path": "male/facial/ruby-red.png",
+          "tintable": true,
+          "bodyTypeOverrides": {
+            "female": "female/facial/ruby-red.png"
+          }
+        },
+        {
+          "id": "facial_white",
+          "name": "White",
+          "path": "male/facial/white.png",
+          "tintable": true,
+          "bodyTypeOverrides": {
+            "female": "female/facial/white.png"
+          },
+          "variant": "white"
+        },
+        {
+          "id": "facial_white_blonde",
+          "name": "White Blonde",
+          "path": "male/facial/white-blonde.png",
+          "tintable": true,
+          "bodyTypeOverrides": {
+            "female": "female/facial/white-blonde.png"
+          }
+        },
+        {
+          "id": "facial_white_blonde2",
+          "name": "White Blonde2",
+          "path": "male/facial/white-blonde2.png",
+          "tintable": true,
+          "bodyTypeOverrides": {
+            "female": "female/facial/white-blonde2.png"
+          }
+        },
+        {
+          "id": "facial_white_cyan",
+          "name": "White Cyan",
+          "path": "male/facial/white-cyan.png",
+          "tintable": true,
+          "bodyTypeOverrides": {
+            "female": "female/facial/white-cyan.png"
+          }
+        },
+        {
+          "id": "facial_stubble",
+          "name": "Stubble",
+          "path": "facial/stubble.png"
+        },
+        {
+          "id": "facial_beard_female",
+          "name": "Beard",
+          "path": "female/facial/beard.png",
+          "bodyType": "female"
+        },
+        {
+          "id": "facial_bigstache_female",
+          "name": "Bigstache",
+          "path": "female/facial/bigstache.png",
+          "bodyType": "female"
+        },
+        {
+          "id": "facial_black_female",
+          "name": "Black",
+          "path": "female/facial/black.png",
+          "bodyType": "female"
+        },
+        {
+          "id": "facial_blonde_female",
+          "name": "Blonde",
+          "path": "female/facial/blonde.png",
+          "bodyType": "female"
+        },
+        {
+          "id": "facial_blonde2_female",
+          "name": "Blonde2",
+          "path": "female/facial/blonde2.png",
+          "bodyType": "female"
+        },
+        {
+          "id": "facial_blue_female",
+          "name": "Blue",
+          "path": "female/facial/blue.png",
+          "bodyType": "female"
+        },
+        {
+          "id": "facial_blue2_female",
+          "name": "Blue2",
+          "path": "female/facial/blue2.png",
+          "bodyType": "female"
+        },
+        {
+          "id": "facial_brown_female",
+          "name": "Brown",
+          "path": "female/facial/brown.png",
+          "bodyType": "female"
+        },
+        {
+          "id": "facial_brown2_female",
+          "name": "Brown2",
+          "path": "female/facial/brown2.png",
+          "bodyType": "female"
+        },
+        {
+          "id": "facial_brunette_female",
+          "name": "Brunette",
+          "path": "female/facial/brunette.png",
+          "bodyType": "female"
+        },
+        {
+          "id": "facial_brunette2_female",
+          "name": "Brunette2",
+          "path": "female/facial/brunette2.png",
+          "bodyType": "female"
+        },
+        {
+          "id": "facial_dark-blonde_female",
+          "name": "Dark-blonde",
+          "path": "female/facial/dark-blonde.png",
+          "bodyType": "female"
+        },
+        {
+          "id": "facial_fiveoclock_female",
+          "name": "Fiveoclock",
+          "path": "female/facial/fiveoclock.png",
+          "bodyType": "female"
+        },
+        {
+          "id": "facial_frenchstache_female",
+          "name": "Frenchstache",
+          "path": "female/facial/frenchstache.png",
+          "bodyType": "female"
+        },
+        {
+          "id": "facial_gold_female",
+          "name": "Gold",
+          "path": "female/facial/gold.png",
+          "bodyType": "female"
+        },
+        {
+          "id": "facial_gray_female",
+          "name": "Gray",
+          "path": "female/facial/gray.png",
+          "bodyType": "female"
+        },
+        {
+          "id": "facial_gray2_female",
+          "name": "Gray2",
+          "path": "female/facial/gray2.png",
+          "bodyType": "female"
+        },
+        {
+          "id": "facial_green_female",
+          "name": "Green",
+          "path": "female/facial/green.png",
+          "bodyType": "female"
+        },
+        {
+          "id": "facial_green2_female",
+          "name": "Green2",
+          "path": "female/facial/green2.png",
+          "bodyType": "female"
+        },
+        {
+          "id": "facial_light-blonde_female",
+          "name": "Light-blonde",
+          "path": "female/facial/light-blonde.png",
+          "bodyType": "female"
+        },
+        {
+          "id": "facial_light-blonde2_female",
+          "name": "Light-blonde2",
+          "path": "female/facial/light-blonde2.png",
+          "bodyType": "female"
+        },
+        {
+          "id": "facial_mustache_female",
+          "name": "Mustache",
+          "path": "female/facial/mustache.png",
+          "bodyType": "female"
+        },
+        {
+          "id": "facial_pink_female",
+          "name": "Pink",
+          "path": "female/facial/pink.png",
+          "bodyType": "female"
+        },
+        {
+          "id": "facial_pink2_female",
+          "name": "Pink2",
+          "path": "female/facial/pink2.png",
+          "bodyType": "female"
+        },
+        {
+          "id": "facial_purple_female",
+          "name": "Purple",
+          "path": "female/facial/purple.png",
+          "bodyType": "female"
+        },
+        {
+          "id": "facial_raven_female",
+          "name": "Raven",
+          "path": "female/facial/raven.png",
+          "bodyType": "female"
+        },
+        {
+          "id": "facial_raven2_female",
+          "name": "Raven2",
+          "path": "female/facial/raven2.png",
+          "bodyType": "female"
+        },
+        {
+          "id": "facial_redhead_female",
+          "name": "Redhead",
+          "path": "female/facial/redhead.png",
+          "bodyType": "female"
+        },
+        {
+          "id": "facial_redhead2_female",
+          "name": "Redhead2",
+          "path": "female/facial/redhead2.png",
+          "bodyType": "female"
+        },
+        {
+          "id": "facial_ruby-red_female",
+          "name": "Ruby-red",
+          "path": "female/facial/ruby-red.png",
+          "bodyType": "female"
+        },
+        {
+          "id": "facial_white-blonde_female",
+          "name": "White-blonde",
+          "path": "female/facial/white-blonde.png",
+          "bodyType": "female"
+        },
+        {
+          "id": "facial_white-blonde2_female",
+          "name": "White-blonde2",
+          "path": "female/facial/white-blonde2.png",
+          "bodyType": "female"
+        },
+        {
+          "id": "facial_white-cyan_female",
+          "name": "White-cyan",
+          "path": "female/facial/white-cyan.png",
+          "bodyType": "female"
+        },
+        {
+          "id": "facial_white_female",
+          "name": "White",
+          "path": "female/facial/white.png",
+          "bodyType": "female"
+        }
+      ],
+      "zIndex": 10,
+      "variantFiltered": false,
+      "bodyTypeSpecific": false,
+      "slotKind": "feature"
+    },
+    {
+      "type": "hair",
+      "displayName": "Hair",
+      "optional": true,
+      "options": [
+        {
+          "id": "hair_bangs",
+          "name": "Bangs",
+          "path": "male/hair/bangs.png",
+          "tintable": true,
+          "bodyTypeOverrides": {
+            "female": "female/hair/bangs.png"
+          }
+        },
+        {
+          "id": "hair_bangslong",
+          "name": "Bangslong",
+          "path": "male/hair/bangslong.png",
+          "tintable": true,
+          "bodyTypeOverrides": {
+            "female": "female/hair/bangslong.png"
+          }
+        },
+        {
+          "id": "hair_bangslong2",
+          "name": "Bangslong2",
+          "path": "male/hair/bangslong2.png",
+          "tintable": true,
+          "bodyTypeOverrides": {
+            "female": "female/hair/bangslong2.png"
+          }
+        },
+        {
+          "id": "hair_bangsshort",
+          "name": "Bangsshort",
+          "path": "male/hair/bangsshort.png",
+          "tintable": true,
+          "bodyTypeOverrides": {
+            "female": "female/hair/bangsshort.png"
+          }
+        },
+        {
+          "id": "hair_bedhead",
+          "name": "Bedhead",
+          "path": "male/hair/bedhead.png",
+          "tintable": true,
+          "bodyTypeOverrides": {
+            "female": "female/hair/bedhead.png"
+          }
+        },
+        {
+          "id": "hair_black",
+          "name": "Black",
+          "path": "male/hair/black.png",
+          "tintable": true,
+          "bodyTypeOverrides": {
+            "female": "female/hair/black.png"
+          }
+        },
+        {
+          "id": "hair_blonde",
+          "name": "Blonde",
+          "path": "male/hair/blonde.png",
+          "tintable": true,
+          "bodyTypeOverrides": {
+            "female": "female/hair/blonde.png"
+          }
+        },
+        {
+          "id": "hair_blonde2",
+          "name": "Blonde2",
+          "path": "male/hair/blonde2.png",
+          "tintable": true,
+          "bodyTypeOverrides": {
+            "female": "female/hair/blonde2.png"
+          }
+        },
+        {
+          "id": "hair_blue",
+          "name": "Blue",
+          "path": "male/hair/blue.png",
+          "tintable": true,
+          "bodyTypeOverrides": {
+            "female": "female/hair/blue.png"
+          }
+        },
+        {
+          "id": "hair_blue2",
+          "name": "Blue2",
+          "path": "male/hair/blue2.png",
+          "tintable": true,
+          "bodyTypeOverrides": {
+            "female": "female/hair/blue2.png"
+          }
+        },
+        {
+          "id": "hair_brown",
+          "name": "Brown",
+          "path": "male/hair/brown.png",
+          "tintable": true,
+          "bodyTypeOverrides": {
+            "female": "female/hair/brown.png"
+          }
+        },
+        {
+          "id": "hair_brown2",
+          "name": "Brown2",
+          "path": "male/hair/brown2.png",
+          "tintable": true,
+          "bodyTypeOverrides": {
+            "female": "female/hair/brown2.png"
+          }
+        },
+        {
+          "id": "hair_brunette",
+          "name": "Brunette",
+          "path": "male/hair/brunette.png",
+          "tintable": true,
+          "bodyTypeOverrides": {
+            "female": "female/hair/brunette.png"
+          }
+        },
+        {
+          "id": "hair_brunette2",
+          "name": "Brunette2",
+          "path": "male/hair/brunette2.png",
+          "tintable": true,
+          "bodyTypeOverrides": {
+            "female": "female/hair/brunette2.png"
+          }
+        },
+        {
+          "id": "hair_bunches",
+          "name": "Bunches",
+          "path": "male/hair/bunches.png",
+          "tintable": true,
+          "bodyTypeOverrides": {
+            "female": "female/hair/bunches.png"
+          }
+        },
+        {
+          "id": "hair_dark_blonde",
+          "name": "Dark Blonde",
+          "path": "male/hair/dark-blonde.png",
+          "tintable": true,
+          "bodyTypeOverrides": {
+            "female": "female/hair/dark-blonde.png"
+          }
+        },
+        {
+          "id": "hair_gold",
+          "name": "Gold",
+          "path": "male/hair/gold.png",
+          "tintable": true,
+          "bodyTypeOverrides": {
+            "female": "female/hair/gold.png"
+          }
+        },
+        {
+          "id": "hair_gray",
+          "name": "Gray",
+          "path": "male/hair/gray.png",
+          "tintable": true,
+          "bodyTypeOverrides": {
+            "female": "female/hair/gray.png"
+          }
+        },
+        {
+          "id": "hair_gray2",
+          "name": "Gray2",
+          "path": "male/hair/gray2.png",
+          "tintable": true,
+          "bodyTypeOverrides": {
+            "female": "female/hair/gray2.png"
+          }
+        },
+        {
+          "id": "hair_green",
+          "name": "Green",
+          "path": "male/hair/green.png",
+          "tintable": true,
+          "bodyTypeOverrides": {
+            "female": "female/hair/green.png"
+          }
+        },
+        {
+          "id": "hair_green2",
+          "name": "Green2",
+          "path": "male/hair/green2.png",
+          "tintable": true,
+          "bodyTypeOverrides": {
+            "female": "female/hair/green2.png"
+          }
+        },
+        {
+          "id": "hair_jewfro",
+          "name": "Jewfro",
+          "path": "male/hair/jewfro.png",
+          "tintable": true,
+          "bodyTypeOverrides": {
+            "female": "female/hair/jewfro.png"
+          }
+        },
+        {
+          "id": "hair_light_blonde",
+          "name": "Light Blonde",
+          "path": "male/hair/light-blonde.png",
+          "tintable": true,
+          "bodyTypeOverrides": {
+            "female": "female/hair/light-blonde.png"
+          }
+        },
+        {
+          "id": "hair_light_blonde2",
+          "name": "Light Blonde2",
+          "path": "male/hair/light-blonde2.png",
+          "tintable": true,
+          "bodyTypeOverrides": {
+            "female": "female/hair/light-blonde2.png"
+          }
+        },
+        {
+          "id": "hair_long",
+          "name": "Long",
+          "path": "male/hair/long.png",
+          "tintable": true,
+          "bodyTypeOverrides": {
+            "female": "female/hair/long.png"
+          }
+        },
+        {
+          "id": "hair_longhawk",
+          "name": "Longhawk",
+          "path": "male/hair/longhawk.png",
+          "tintable": true,
+          "bodyTypeOverrides": {
+            "female": "female/hair/longhawk.png"
+          }
+        },
+        {
+          "id": "hair_longknot",
+          "name": "Longknot",
+          "path": "male/hair/longknot.png",
+          "tintable": true,
+          "bodyTypeOverrides": {
+            "female": "female/hair/longknot.png"
+          }
+        },
+        {
+          "id": "hair_loose",
+          "name": "Loose",
+          "path": "male/hair/loose.png",
+          "tintable": true,
+          "bodyTypeOverrides": {
+            "female": "female/hair/loose.png"
+          }
+        },
+        {
+          "id": "hair_messy1",
+          "name": "Messy1",
+          "path": "male/hair/messy1.png",
+          "tintable": true,
+          "bodyTypeOverrides": {
+            "female": "female/hair/messy1.png"
+          }
+        },
+        {
+          "id": "hair_messy2",
+          "name": "Messy2",
+          "path": "male/hair/messy2.png",
+          "tintable": true,
+          "bodyTypeOverrides": {
+            "female": "female/hair/messy2.png"
+          }
+        },
+        {
+          "id": "hair_mohawk",
+          "name": "Mohawk",
+          "path": "male/hair/mohawk.png",
+          "tintable": true,
+          "bodyTypeOverrides": {
+            "female": "female/hair/mohawk.png"
+          }
+        },
+        {
+          "id": "hair_page",
+          "name": "Page",
+          "path": "male/hair/page.png",
+          "tintable": true,
+          "bodyTypeOverrides": {
+            "female": "female/hair/page.png"
+          }
+        },
+        {
+          "id": "hair_page2",
+          "name": "Page2",
+          "path": "male/hair/page2.png",
+          "tintable": true,
+          "bodyTypeOverrides": {
+            "female": "female/hair/page2.png"
+          }
+        },
+        {
+          "id": "hair_parted",
+          "name": "Parted",
+          "path": "male/hair/parted.png",
+          "tintable": true,
+          "bodyTypeOverrides": {
+            "female": "female/hair/parted.png"
+          }
+        },
+        {
+          "id": "hair_pink",
+          "name": "Pink",
+          "path": "male/hair/pink.png",
+          "tintable": true,
+          "bodyTypeOverrides": {
+            "female": "female/hair/pink.png"
+          }
+        },
+        {
+          "id": "hair_pink2",
+          "name": "Pink2",
+          "path": "male/hair/pink2.png",
+          "tintable": true,
+          "bodyTypeOverrides": {
+            "female": "female/hair/pink2.png"
+          }
+        },
+        {
+          "id": "hair_pixie",
+          "name": "Pixie",
+          "path": "male/hair/pixie.png",
+          "tintable": true,
+          "bodyTypeOverrides": {
+            "female": "female/hair/pixie.png"
+          }
+        },
+        {
+          "id": "hair_plain",
+          "name": "Plain",
+          "path": "male/hair/plain.png",
+          "tintable": true,
+          "bodyTypeOverrides": {
+            "female": "female/hair/plain.png"
+          }
+        },
+        {
+          "id": "hair_ponytail",
+          "name": "Ponytail",
+          "path": "male/hair/ponytail.png",
+          "tintable": true,
+          "bodyTypeOverrides": {
+            "female": "female/hair/ponytail.png"
+          }
+        },
+        {
+          "id": "hair_ponytail2",
+          "name": "Ponytail2",
+          "path": "male/hair/ponytail2.png",
+          "tintable": true,
+          "bodyTypeOverrides": {
+            "female": "female/hair/ponytail2.png"
+          }
+        },
+        {
+          "id": "hair_princess",
+          "name": "Princess",
+          "path": "male/hair/princess.png",
+          "tintable": true,
+          "bodyTypeOverrides": {
+            "female": "female/hair/princess.png"
+          }
+        },
+        {
+          "id": "hair_purple",
+          "name": "Purple",
+          "path": "male/hair/purple.png",
+          "tintable": true,
+          "bodyTypeOverrides": {
+            "female": "female/hair/purple.png"
+          }
+        },
+        {
+          "id": "hair_raven",
+          "name": "Raven",
+          "path": "male/hair/raven.png",
+          "tintable": true,
+          "bodyTypeOverrides": {
+            "female": "female/hair/raven.png"
+          }
+        },
+        {
+          "id": "hair_raven2",
+          "name": "Raven2",
+          "path": "male/hair/raven2.png",
+          "tintable": true,
+          "bodyTypeOverrides": {
+            "female": "female/hair/raven2.png"
+          }
+        },
+        {
+          "id": "hair_redhead",
+          "name": "Redhead",
+          "path": "male/hair/redhead.png",
+          "tintable": true,
+          "bodyTypeOverrides": {
+            "female": "female/hair/redhead.png"
+          }
+        },
+        {
+          "id": "hair_redhead2",
+          "name": "Redhead2",
+          "path": "male/hair/redhead2.png",
+          "tintable": true,
+          "bodyTypeOverrides": {
+            "female": "female/hair/redhead2.png"
+          }
+        },
+        {
+          "id": "hair_ruby_red",
+          "name": "Ruby Red",
+          "path": "male/hair/ruby-red.png",
+          "tintable": true,
+          "bodyTypeOverrides": {
+            "female": "female/hair/ruby-red.png"
+          }
+        },
+        {
+          "id": "hair_scrunchies_female",
+          "name": "Scrunchies",
+          "path": "female/hair/scrunchies.png",
+          "tintable": true
+        },
+        {
+          "id": "hair_shadows_dark2body_female",
+          "name": "Shadows Dark2body",
+          "path": "female/hair/shadows-dark2body.png",
+          "tintable": true
+        },
+        {
+          "id": "hair_shadows_darkbody_female",
+          "name": "Shadows Darkbody",
+          "path": "female/hair/shadows-darkbody.png",
+          "tintable": true
+        },
+        {
+          "id": "hair_shadows_darkbody_male",
+          "name": "Shadows Darkbody",
+          "path": "male/hair/shadows-darkbody.png",
+          "tintable": true
+        },
+        {
+          "id": "hair_shadows_lightbody_female",
+          "name": "Shadows Lightbody",
+          "path": "female/hair/shadows-lightbody.png",
+          "tintable": true
+        },
+        {
+          "id": "hair_shadows_lightbody_male",
+          "name": "Shadows Lightbody",
+          "path": "male/hair/shadows-lightbody.png",
+          "tintable": true
+        },
+        {
+          "id": "hair_shadows_tanned2body_female",
+          "name": "Shadows Tanned2body",
+          "path": "female/hair/shadows-tanned2body.png",
+          "tintable": true
+        },
+        {
+          "id": "hair_shadows_tanned2body_male",
+          "name": "Shadows Tanned2body",
+          "path": "male/hair/shadows-tanned2body.png",
+          "tintable": true
+        },
+        {
+          "id": "hair_shadows_tannedbody_female",
+          "name": "Shadows Tannedbody",
+          "path": "female/hair/shadows-tannedbody.png",
+          "tintable": true
+        },
+        {
+          "id": "hair_shadows_tannedbody_male",
+          "name": "Shadows Tannedbody",
+          "path": "male/hair/shadows-tannedbody.png",
+          "tintable": true
+        },
+        {
+          "id": "hair_shorthawk",
+          "name": "Shorthawk",
+          "path": "male/hair/shorthawk.png",
+          "tintable": true,
+          "bodyTypeOverrides": {
+            "female": "female/hair/shorthawk.png"
+          }
+        },
+        {
+          "id": "hair_shortknot",
+          "name": "Shortknot",
+          "path": "male/hair/shortknot.png",
+          "tintable": true,
+          "bodyTypeOverrides": {
+            "female": "female/hair/shortknot.png"
+          }
+        },
+        {
+          "id": "hair_shoulderl",
+          "name": "Shoulderl",
+          "path": "male/hair/shoulderl.png",
+          "tintable": true,
+          "bodyTypeOverrides": {
+            "female": "female/hair/shoulderl.png"
+          }
+        },
+        {
+          "id": "hair_shoulderr",
+          "name": "Shoulderr",
+          "path": "male/hair/shoulderr.png",
+          "tintable": true,
+          "bodyTypeOverrides": {
+            "female": "female/hair/shoulderr.png"
+          }
+        },
+        {
+          "id": "hair_swoop",
+          "name": "Swoop",
+          "path": "male/hair/swoop.png",
+          "tintable": true,
+          "bodyTypeOverrides": {
+            "female": "female/hair/swoop.png"
+          }
+        },
+        {
+          "id": "hair_unkempt",
+          "name": "Unkempt",
+          "path": "male/hair/unkempt.png",
+          "tintable": true,
+          "bodyTypeOverrides": {
+            "female": "female/hair/unkempt.png"
+          }
+        },
+        {
+          "id": "hair_white",
+          "name": "White",
+          "path": "male/hair/white.png",
+          "tintable": true,
+          "bodyTypeOverrides": {
+            "female": "female/hair/white.png"
+          }
+        },
+        {
+          "id": "hair_white_blonde",
+          "name": "White Blonde",
+          "path": "male/hair/white-blonde.png",
+          "tintable": true,
+          "bodyTypeOverrides": {
+            "female": "female/hair/white-blonde.png"
+          }
+        },
+        {
+          "id": "hair_white_blonde2",
+          "name": "White Blonde2",
+          "path": "male/hair/white-blonde2.png",
+          "tintable": true,
+          "bodyTypeOverrides": {
+            "female": "female/hair/white-blonde2.png"
+          }
+        },
+        {
+          "id": "hair_white_cyan",
+          "name": "White Cyan",
+          "path": "male/hair/white-cyan.png",
+          "tintable": true,
+          "bodyTypeOverrides": {
+            "female": "female/hair/white-cyan.png"
+          }
+        },
+        {
+          "id": "hair_xlong",
+          "name": "Xlong",
+          "path": "male/hair/xlong.png",
+          "tintable": true,
+          "bodyTypeOverrides": {
+            "female": "female/hair/xlong.png"
+          }
+        },
+        {
+          "id": "hair_xlongknot",
+          "name": "Xlongknot",
+          "path": "male/hair/xlongknot.png",
+          "tintable": true,
+          "bodyTypeOverrides": {
+            "female": "female/hair/xlongknot.png"
+          }
+        },
+        {
+          "id": "hair_bangs_female",
+          "name": "Bangs",
+          "path": "female/hair/bangs.png",
+          "bodyType": "female"
+        },
+        {
+          "id": "hair_bangslong_female",
+          "name": "Bangslong",
+          "path": "female/hair/bangslong.png",
+          "bodyType": "female"
+        },
+        {
+          "id": "hair_bangslong2_female",
+          "name": "Bangslong2",
+          "path": "female/hair/bangslong2.png",
+          "bodyType": "female"
+        },
+        {
+          "id": "hair_bangsshort_female",
+          "name": "Bangsshort",
+          "path": "female/hair/bangsshort.png",
+          "bodyType": "female"
+        },
+        {
+          "id": "hair_bedhead_female",
+          "name": "Bedhead",
+          "path": "female/hair/bedhead.png",
+          "bodyType": "female"
+        },
+        {
+          "id": "hair_black_female",
+          "name": "Black",
+          "path": "female/hair/black.png",
+          "bodyType": "female"
+        },
+        {
+          "id": "hair_blonde_female",
+          "name": "Blonde",
+          "path": "female/hair/blonde.png",
+          "bodyType": "female"
+        },
+        {
+          "id": "hair_blonde2_female",
+          "name": "Blonde2",
+          "path": "female/hair/blonde2.png",
+          "bodyType": "female"
+        },
+        {
+          "id": "hair_blue_female",
+          "name": "Blue",
+          "path": "female/hair/blue.png",
+          "bodyType": "female"
+        },
+        {
+          "id": "hair_blue2_female",
+          "name": "Blue2",
+          "path": "female/hair/blue2.png",
+          "bodyType": "female"
+        },
+        {
+          "id": "hair_brown_female",
+          "name": "Brown",
+          "path": "female/hair/brown.png",
+          "bodyType": "female"
+        },
+        {
+          "id": "hair_brown2_female",
+          "name": "Brown2",
+          "path": "female/hair/brown2.png",
+          "bodyType": "female"
+        },
+        {
+          "id": "hair_brunette_female",
+          "name": "Brunette",
+          "path": "female/hair/brunette.png",
+          "bodyType": "female"
+        },
+        {
+          "id": "hair_brunette2_female",
+          "name": "Brunette2",
+          "path": "female/hair/brunette2.png",
+          "bodyType": "female"
+        },
+        {
+          "id": "hair_bunches_female",
+          "name": "Bunches",
+          "path": "female/hair/bunches.png",
+          "bodyType": "female"
+        },
+        {
+          "id": "hair_dark-blonde_female",
+          "name": "Dark-blonde",
+          "path": "female/hair/dark-blonde.png",
+          "bodyType": "female"
+        },
+        {
+          "id": "hair_gold_female",
+          "name": "Gold",
+          "path": "female/hair/gold.png",
+          "bodyType": "female"
+        },
+        {
+          "id": "hair_gray_female",
+          "name": "Gray",
+          "path": "female/hair/gray.png",
+          "bodyType": "female"
+        },
+        {
+          "id": "hair_gray2_female",
+          "name": "Gray2",
+          "path": "female/hair/gray2.png",
+          "bodyType": "female"
+        },
+        {
+          "id": "hair_green_female",
+          "name": "Green",
+          "path": "female/hair/green.png",
+          "bodyType": "female"
+        },
+        {
+          "id": "hair_green2_female",
+          "name": "Green2",
+          "path": "female/hair/green2.png",
+          "bodyType": "female"
+        },
+        {
+          "id": "hair_jewfro_female",
+          "name": "Jewfro",
+          "path": "female/hair/jewfro.png",
+          "bodyType": "female"
+        },
+        {
+          "id": "hair_light-blonde_female",
+          "name": "Light-blonde",
+          "path": "female/hair/light-blonde.png",
+          "bodyType": "female"
+        },
+        {
+          "id": "hair_light-blonde2_female",
+          "name": "Light-blonde2",
+          "path": "female/hair/light-blonde2.png",
+          "bodyType": "female"
+        },
+        {
+          "id": "hair_long_female",
+          "name": "Long",
+          "path": "female/hair/long.png",
+          "bodyType": "female"
+        },
+        {
+          "id": "hair_longhawk_female",
+          "name": "Longhawk",
+          "path": "female/hair/longhawk.png",
+          "bodyType": "female"
+        },
+        {
+          "id": "hair_longknot_female",
+          "name": "Longknot",
+          "path": "female/hair/longknot.png",
+          "bodyType": "female"
+        },
+        {
+          "id": "hair_loose_female",
+          "name": "Loose",
+          "path": "female/hair/loose.png",
+          "bodyType": "female"
+        },
+        {
+          "id": "hair_messy1_female",
+          "name": "Messy1",
+          "path": "female/hair/messy1.png",
+          "bodyType": "female"
+        },
+        {
+          "id": "hair_messy2_female",
+          "name": "Messy2",
+          "path": "female/hair/messy2.png",
+          "bodyType": "female"
+        },
+        {
+          "id": "hair_mohawk_female",
+          "name": "Mohawk",
+          "path": "female/hair/mohawk.png",
+          "bodyType": "female"
+        },
+        {
+          "id": "hair_page_female",
+          "name": "Page",
+          "path": "female/hair/page.png",
+          "bodyType": "female"
+        },
+        {
+          "id": "hair_page2_female",
+          "name": "Page2",
+          "path": "female/hair/page2.png",
+          "bodyType": "female"
+        },
+        {
+          "id": "hair_parted_female",
+          "name": "Parted",
+          "path": "female/hair/parted.png",
+          "bodyType": "female"
+        },
+        {
+          "id": "hair_pink_female",
+          "name": "Pink",
+          "path": "female/hair/pink.png",
+          "bodyType": "female"
+        },
+        {
+          "id": "hair_pink2_female",
+          "name": "Pink2",
+          "path": "female/hair/pink2.png",
+          "bodyType": "female"
+        },
+        {
+          "id": "hair_pixie_female",
+          "name": "Pixie",
+          "path": "female/hair/pixie.png",
+          "bodyType": "female"
+        },
+        {
+          "id": "hair_plain_female",
+          "name": "Plain",
+          "path": "female/hair/plain.png",
+          "bodyType": "female"
+        },
+        {
+          "id": "hair_ponytail_female",
+          "name": "Ponytail",
+          "path": "female/hair/ponytail.png",
+          "bodyType": "female"
+        },
+        {
+          "id": "hair_ponytail2_female",
+          "name": "Ponytail2",
+          "path": "female/hair/ponytail2.png",
+          "bodyType": "female"
+        },
+        {
+          "id": "hair_princess_female",
+          "name": "Princess",
+          "path": "female/hair/princess.png",
+          "bodyType": "female"
+        },
+        {
+          "id": "hair_purple_female",
+          "name": "Purple",
+          "path": "female/hair/purple.png",
+          "bodyType": "female"
+        },
+        {
+          "id": "hair_raven_female",
+          "name": "Raven",
+          "path": "female/hair/raven.png",
+          "bodyType": "female"
+        },
+        {
+          "id": "hair_raven2_female",
+          "name": "Raven2",
+          "path": "female/hair/raven2.png",
+          "bodyType": "female"
+        },
+        {
+          "id": "hair_redhead_female",
+          "name": "Redhead",
+          "path": "female/hair/redhead.png",
+          "bodyType": "female"
+        },
+        {
+          "id": "hair_redhead2_female",
+          "name": "Redhead2",
+          "path": "female/hair/redhead2.png",
+          "bodyType": "female"
+        },
+        {
+          "id": "hair_ruby-red_female",
+          "name": "Ruby-red",
+          "path": "female/hair/ruby-red.png",
+          "bodyType": "female"
+        },
+        {
+          "id": "hair_shorthawk_female",
+          "name": "Shorthawk",
+          "path": "female/hair/shorthawk.png",
+          "bodyType": "female"
+        },
+        {
+          "id": "hair_shortknot_female",
+          "name": "Shortknot",
+          "path": "female/hair/shortknot.png",
+          "bodyType": "female"
+        },
+        {
+          "id": "hair_shoulderl_female",
+          "name": "Shoulderl",
+          "path": "female/hair/shoulderl.png",
+          "bodyType": "female"
+        },
+        {
+          "id": "hair_shoulderr_female",
+          "name": "Shoulderr",
+          "path": "female/hair/shoulderr.png",
+          "bodyType": "female"
+        },
+        {
+          "id": "hair_swoop_female",
+          "name": "Swoop",
+          "path": "female/hair/swoop.png",
+          "bodyType": "female"
+        },
+        {
+          "id": "hair_unkempt_female",
+          "name": "Unkempt",
+          "path": "female/hair/unkempt.png",
+          "bodyType": "female"
+        },
+        {
+          "id": "hair_white-blonde_female",
+          "name": "White-blonde",
+          "path": "female/hair/white-blonde.png",
+          "bodyType": "female"
+        },
+        {
+          "id": "hair_white-blonde2_female",
+          "name": "White-blonde2",
+          "path": "female/hair/white-blonde2.png",
+          "bodyType": "female"
+        },
+        {
+          "id": "hair_white-cyan_female",
+          "name": "White-cyan",
+          "path": "female/hair/white-cyan.png",
+          "bodyType": "female"
+        },
+        {
+          "id": "hair_white_female",
+          "name": "White",
+          "path": "female/hair/white.png",
+          "bodyType": "female"
+        },
+        {
+          "id": "hair_xlong_female",
+          "name": "Xlong",
+          "path": "female/hair/xlong.png",
+          "bodyType": "female"
+        },
+        {
+          "id": "hair_xlongknot_female",
+          "name": "Xlongknot",
+          "path": "female/hair/xlongknot.png",
+          "bodyType": "female"
+        }
+      ],
+      "zIndex": 11,
+      "variantFiltered": false,
+      "bodyTypeSpecific": false,
+      "slotKind": "body"
+    },
+    {
+      "type": "head",
+      "displayName": "Headwear",
+      "optional": true,
+      "options": [
+        {
+          "id": "head_bronze_female",
+          "name": "Bronze",
+          "path": "female/head/bronze.png"
+        },
+        {
+          "id": "head_chain_hood_male",
+          "name": "Chain Hood Male",
+          "path": "male/head/chain_hood_male.png",
+          "bodyTypeOverrides": {
+            "female": "female/head/chain_hood_female.png"
+          }
+        },
+        {
+          "id": "head_chainhat_male",
+          "name": "Chainhat Male",
+          "path": "male/head/chainhat_male.png",
+          "bodyTypeOverrides": {
+            "female": "female/head/chainhat_female.png"
+          }
+        },
+        {
+          "id": "head_cloth_hood_male",
+          "name": "Cloth Hood Male",
+          "path": "male/head/cloth_hood_male.png",
+          "tintable": true,
+          "bodyTypeOverrides": {
+            "female": "female/head/cloth_hood_female.png"
+          }
+        },
+        {
+          "id": "head_gold_female",
+          "name": "Gold",
+          "path": "female/head/gold.png"
+        },
+        {
+          "id": "head_golden_helm_male",
+          "name": "Golden Helm Male",
+          "path": "male/head/golden_helm_male.png",
+          "bodyTypeOverrides": {
+            "female": "female/head/golden_helm_female.png"
+          }
+        },
+        {
+          "id": "head_iron_female",
+          "name": "Iron",
+          "path": "female/head/iron.png"
+        },
+        {
+          "id": "head_leather_cap_male",
+          "name": "Leather Cap Male",
+          "path": "male/head/leather_cap_male.png",
+          "bodyTypeOverrides": {
+            "female": "female/head/leather_cap_female.png"
+          },
+          "tintable": true
+        },
+        {
+          "id": "head_metal_helm_male",
+          "name": "Metal Helm Male",
+          "path": "male/head/metal_helm_male.png",
+          "bodyTypeOverrides": {
+            "female": "female/head/metal_helm_female.png"
+          }
+        },
+        {
+          "id": "head_purple_female",
+          "name": "Purple",
+          "path": "female/head/purple.png"
+        },
+        {
+          "id": "head_red",
+          "name": "Red",
+          "path": "male/head/red.png",
+          "bodyTypeOverrides": {
+            "female": "female/head/red.png"
+          }
+        },
+        {
+          "id": "head_silver_female",
+          "name": "Silver",
+          "path": "female/head/silver.png"
+        },
+        {
+          "id": "head_horns_backwards",
+          "name": "Horns Backwards",
+          "path": "either/head/horns_backwards.png",
+          "tintable": true
+        },
+        {
+          "id": "head_horns_curled",
+          "name": "Horns Curled",
+          "path": "either/head/horns_curled.png",
+          "tintable": true
+        },
+        {
+          "id": "head_chainhat_female",
+          "name": "Chainhat",
+          "path": "female/head/chainhat_female.png",
+          "bodyType": "female"
+        },
+        {
+          "id": "head_chain_hood_female",
+          "name": "Chain Hood",
+          "path": "female/head/chain_hood_female.png",
+          "bodyType": "female"
+        },
+        {
+          "id": "head_cloth_hood_female",
+          "name": "Cloth Hood",
+          "path": "female/head/cloth_hood_female.png",
+          "bodyType": "female",
+          "tintable": true
+        },
+        {
+          "id": "head_golden_helm_female",
+          "name": "Golden Helm",
+          "path": "female/head/golden_helm_female.png",
+          "bodyType": "female"
+        },
+        {
+          "id": "head_leather_cap_female",
+          "name": "Leather Cap",
+          "path": "female/head/leather_cap_female.png",
+          "bodyType": "female",
+          "tintable": true
+        },
+        {
+          "id": "head_metal_helm_female",
+          "name": "Metal Helm",
+          "path": "female/head/metal_helm_female.png",
+          "bodyType": "female"
+        },
+        {
+          "id": "head_red_female",
+          "name": "Red",
+          "path": "female/head/red.png",
+          "bodyType": "female"
+        },
+        {
+          "id": "head_chain_helm",
+          "name": "Chain Helm",
+          "path": "head/chain_helm.png"
+        },
+        {
+          "id": "head_golden_helm",
+          "name": "Golden Helm",
+          "path": "head/golden_helm.png"
+        },
+        {
+          "id": "head_metal_helm",
+          "name": "Metal Helm",
+          "path": "head/metal_helm.png"
+        },
+        {
+          "id": "head_wulax_chain_armor_helmet_male",
+          "name": "Chain Armor Helmet",
+          "path": "male/head/wulax_chain_armor_helmet_male.png",
+          "bodyType": "male",
+          "tintable": true,
+          "tintMode": "overlay"
+        },
+        {
+          "id": "head_wulax_chain_armor_hood_male",
+          "name": "Chain Armor Hood",
+          "path": "male/head/wulax_chain_armor_hood_male.png",
+          "bodyType": "male"
+        },
+        {
+          "id": "head_wulax_leather_armor_hat_male",
+          "name": "Leather Armor Hat",
+          "path": "male/head/wulax_leather_armor_hat_male.png",
+          "bodyType": "male",
+          "tintable": true
+        },
+        {
+          "id": "head_wulax_plate_armor_helmet_male",
+          "name": "Plate Armor Helmet",
+          "path": "male/head/wulax_plate_armor_helmet_male.png",
+          "bodyType": "male",
+          "tintable": true,
+          "tintMode": "overlay"
+        },
+        {
+          "id": "head_wulax_robe_hood_male",
+          "name": "Robe Hood",
+          "path": "male/head/wulax_robe_hood_male.png",
+          "bodyType": "male",
+          "tintable": true
+        },
+        {
+          "id": "head_formal_tophat_male",
+          "name": "Formal tophat",
+          "path": "male/head/formal_tophat_male.png",
+          "tintable": true,
+          "bodyType": "male"
+        },
+        {
+          "id": "head_formal_bowler_male",
+          "name": "Formal bowler",
+          "path": "male/head/formal_bowler_male.png",
+          "tintable": true,
+          "bodyType": "male"
+        }
+      ],
+      "zIndex": 12,
+      "variantFiltered": false,
+      "bodyTypeSpecific": false,
+      "slotKind": "wearable"
+    },
+    {
+      "type": "neck",
+      "displayName": "Neck",
+      "optional": true,
+      "options": [
+        {
+          "id": "neck_capeclip_blue_female",
+          "name": "Capeclip Blue",
+          "path": "female/neck/capeclip_blue.png",
+          "tintable": true
+        },
+        {
+          "id": "neck_capeclip_gray_female",
+          "name": "Capeclip Gray",
+          "path": "female/neck/capeclip_gray.png",
+          "tintable": true
+        },
+        {
+          "id": "neck_capeclip_green_female",
+          "name": "Capeclip Green",
+          "path": "female/neck/capeclip_green.png",
+          "tintable": true
+        },
+        {
+          "id": "neck_capeclip_lavender_female",
+          "name": "Capeclip Lavender",
+          "path": "female/neck/capeclip_lavender.png",
+          "tintable": true
+        },
+        {
+          "id": "neck_capeclip_maroon_female",
+          "name": "Capeclip Maroon",
+          "path": "female/neck/capeclip_maroon.png",
+          "tintable": true
+        },
+        {
+          "id": "neck_capeclip_pink_female",
+          "name": "Capeclip Pink",
+          "path": "female/neck/capeclip_pink.png",
+          "tintable": true
+        },
+        {
+          "id": "neck_capeclip_red_female",
+          "name": "Capeclip Red",
+          "path": "female/neck/capeclip_red.png",
+          "tintable": true
+        },
+        {
+          "id": "neck_capeclip_white_female",
+          "name": "Capeclip White",
+          "path": "female/neck/capeclip_white.png",
+          "tintable": true
+        },
+        {
+          "id": "neck_capeclip_yellow_female",
+          "name": "Capeclip Yellow",
+          "path": "female/neck/capeclip_yellow.png",
+          "tintable": true
+        },
+        {
+          "id": "neck_capetie_blue_female",
+          "name": "Capetie Blue",
+          "path": "female/neck/capetie_blue.png",
+          "tintable": true
+        },
+        {
+          "id": "neck_capetie_gray_female",
+          "name": "Capetie Gray",
+          "path": "female/neck/capetie_gray.png",
+          "tintable": true
+        },
+        {
+          "id": "neck_capetie_green_female",
+          "name": "Capetie Green",
+          "path": "female/neck/capetie_green.png",
+          "tintable": true
+        },
+        {
+          "id": "neck_capetie_lavender_female",
+          "name": "Capetie Lavender",
+          "path": "female/neck/capetie_lavender.png",
+          "tintable": true
+        },
+        {
+          "id": "neck_capetie_maroon_female",
+          "name": "Capetie Maroon",
+          "path": "female/neck/capetie_maroon.png",
+          "tintable": true
+        },
+        {
+          "id": "neck_capetie_pink_female",
+          "name": "Capetie Pink",
+          "path": "female/neck/capetie_pink.png",
+          "tintable": true
+        },
+        {
+          "id": "neck_capetie_red_female",
+          "name": "Capetie Red",
+          "path": "female/neck/capetie_red.png",
+          "tintable": true
+        },
+        {
+          "id": "neck_capetie_white_female",
+          "name": "Capetie White",
+          "path": "female/neck/capetie_white.png",
+          "tintable": true
+        },
+        {
+          "id": "neck_capetie_yellow_female",
+          "name": "Capetie Yellow",
+          "path": "female/neck/capetie_yellow.png",
+          "tintable": true
+        },
+        {
+          "id": "neck_white_capeclip_female",
+          "name": "Capeclip",
+          "path": "female/neck/white_capeclip_female.png",
+          "tintable": true,
+          "bodyType": "female"
+        },
+        {
+          "id": "neck_white_capetie_female",
+          "name": "Capetie",
+          "path": "female/neck/white_capetie_female.png",
+          "tintable": true,
+          "bodyType": "female"
+        },
+        {
+          "id": "neck_white_capeclip_male",
+          "name": "Capeclip",
+          "path": "male/neck/white_capeclip_male.png",
+          "tintable": true,
+          "bodyType": "male"
+        },
+        {
+          "id": "neck_white_capetie_male",
+          "name": "Capetie",
+          "path": "male/neck/white_capetie_male.png",
+          "tintable": true,
+          "bodyType": "male"
+        },
+        {
+          "id": "neck_formal_bowtie_male",
+          "name": "Formal bowtie",
+          "path": "male/neck/formal_bowtie_male.png",
+          "bodyType": "male",
+          "tintable": true
+        },
+        {
+          "id": "neck_formal_necktie_male",
+          "name": "Formal necktie",
+          "path": "male/neck/formal_necktie_male.png",
+          "bodyType": "male",
+          "tintable": true
+        }
+      ],
+      "zIndex": 13,
+      "variantFiltered": false,
+      "bodyTypeSpecific": false,
+      "slotKind": "wearable"
+    },
+    {
+      "type": "accessories",
+      "displayName": "Accessories",
+      "optional": true,
+      "options": [
+        {
+          "id": "accessories_bronze_female",
+          "name": "Bronze",
+          "path": "female/accessories/bronze.png"
+        },
+        {
+          "id": "accessories_gold_female",
+          "name": "Gold",
+          "path": "female/accessories/gold.png"
+        },
+        {
+          "id": "accessories_iron_female",
+          "name": "Iron",
+          "path": "female/accessories/iron.png"
+        },
+        {
+          "id": "accessories_pirate_wc_sc_only_female",
+          "name": "Pirate Wc Sc Only",
+          "path": "female/accessories/pirate_wc_sc_only.png"
+        },
+        {
+          "id": "accessories_silver_female",
+          "name": "Silver",
+          "path": "female/accessories/silver.png"
+        },
+        {
+          "id": "accessories_formal_glasses_male",
+          "name": "Formal glasses",
+          "path": "male/accessories/formal_glasses_male.png",
+          "bodyType": "male"
+        },
+        {
+          "id": "accessories_formal_monocle_male",
+          "name": "Formal monocle",
+          "path": "male/accessories/formal_monocle_male.png",
+          "bodyType": "male"
+        }
+      ],
+      "zIndex": 14,
+      "variantFiltered": false,
+      "bodyTypeSpecific": false,
+      "slotKind": "wearable"
+    },
+    {
+      "type": "weapon",
+      "displayName": "Weapon",
+      "optional": true,
+      "options": [
+        {
+          "id": "weapon_arrow",
+          "name": "Arrow",
+          "path": "either/weapon/arrow.png"
+        },
+        {
+          "id": "weapon_arrow_skeleton",
+          "name": "Arrow Skeleton",
+          "path": "either/weapon/arrow_skeleton.png",
+          "variant": "skeleton"
+        },
+        {
+          "id": "weapon_bow",
+          "name": "Bow",
+          "path": "either/weapon/bow.png"
+        },
+        {
+          "id": "weapon_bow_skeleton",
+          "name": "Bow Skeleton",
+          "path": "either/weapon/bow_skeleton.png",
+          "variant": "skeleton"
+        },
+        {
+          "id": "weapon_dagger_male",
+          "name": "Dagger Male",
+          "path": "male/weapon/dagger_male.png",
+          "bodyTypeOverrides": {
+            "female": "female/weapon/dagger_female.png"
+          }
+        },
+        {
+          "id": "weapon_dragonspear",
+          "name": "Dragonspear",
+          "path": "either/weapon/dragonspear.png"
+        },
+        {
+          "id": "weapon_greatbow",
+          "name": "Greatbow",
+          "path": "either/weapon/greatbow.png"
+        },
+        {
+          "id": "weapon_longsword_male",
+          "name": "Longsword Male",
+          "path": "male/weapon/longsword_male.png",
+          "bodyTypeOverrides": {
+            "female": "female/weapon/longsword_female.png"
+          }
+        },
+        {
+          "id": "weapon_mace_male",
+          "name": "Mace Male",
+          "path": "male/weapon/mace_male.png",
+          "bodyTypeOverrides": {
+            "female": "female/weapon/mace_female.png"
+          }
+        },
+        {
+          "id": "weapon_rapier_male",
+          "name": "Rapier Male",
+          "path": "male/weapon/rapier_male.png",
+          "bodyTypeOverrides": {
+            "female": "female/weapon/rapier_female.png"
+          }
+        },
+        {
+          "id": "weapon_recurvebow",
+          "name": "Recurvebow",
+          "path": "either/weapon/recurvebow.png"
+        },
+        {
+          "id": "weapon_saber_male",
+          "name": "Saber Male",
+          "path": "male/weapon/saber_male.png",
+          "bodyTypeOverrides": {
+            "female": "female/weapon/saber_female.png"
+          }
+        },
+        {
+          "id": "weapon_shield_male_cutoutforbody_male",
+          "name": "Shield Male Cutoutforbody",
+          "path": "male/weapon/shield_male_cutoutforbody.png"
+        },
+        {
+          "id": "weapon_shield_male_cutoutforhat_male",
+          "name": "Shield Male Cutoutforhat",
+          "path": "male/weapon/shield_male_cutoutforhat.png"
+        },
+        {
+          "id": "weapon_spear",
+          "name": "Spear",
+          "path": "either/weapon/spear.png"
+        },
+        {
+          "id": "weapon_spear_male",
+          "name": "Spear Male",
+          "path": "male/weapon/spear_male.png",
+          "bodyTypeOverrides": {
+            "female": "female/weapon/spear_female.png"
+          }
+        },
+        {
+          "id": "weapon_steelwand_female_female",
+          "name": "Steelwand Female",
+          "path": "female/weapon/steelwand_female.png"
+        },
+        {
+          "id": "weapon_trident",
+          "name": "Trident",
+          "path": "either/weapon/trident.png"
+        },
+        {
+          "id": "weapon_woodwand_male",
+          "name": "Woodwand Male",
+          "path": "male/weapon/woodwand_male.png",
+          "bodyTypeOverrides": {
+            "female": "female/weapon/woodwand_female.png"
+          }
+        },
+        {
+          "id": "weapon_wulax_arrow",
+          "name": "Arrow",
+          "path": "either/weapon/wulax_arrow.png"
+        },
+        {
+          "id": "weapon_wulax_bow",
+          "name": "Bow",
+          "path": "either/weapon/wulax_bow.png"
+        },
+        {
+          "id": "weapon_wulax_dagger",
+          "name": "Dagger",
+          "path": "either/weapon/wulax_dagger.png"
+        },
+        {
+          "id": "weapon_wulax_shield_cutout_body",
+          "name": "Shield Cutout Body",
+          "path": "either/weapon/wulax_shield_cutout_body.png"
+        },
+        {
+          "id": "weapon_wulax_shield_cutout_helmet",
+          "name": "Shield Cutout Helmet",
+          "path": "either/weapon/wulax_shield_cutout_helmet.png"
+        },
+        {
+          "id": "weapon_wulax_spear",
+          "name": "Spear",
+          "path": "either/weapon/wulax_spear.png"
+        },
+        {
+          "id": "weapon_wulax_staff",
+          "name": "Staff",
+          "path": "either/weapon/wulax_staff.png"
+        },
+        {
+          "id": "weapon_dagger_female",
+          "name": "Dagger",
+          "path": "female/weapon/dagger_female.png",
+          "bodyType": "female"
+        },
+        {
+          "id": "weapon_longsword_female",
+          "name": "Longsword",
+          "path": "female/weapon/longsword_female.png",
+          "bodyType": "female"
+        },
+        {
+          "id": "weapon_mace_female",
+          "name": "Mace",
+          "path": "female/weapon/mace_female.png",
+          "bodyType": "female"
+        },
+        {
+          "id": "weapon_rapier_female",
+          "name": "Rapier",
+          "path": "female/weapon/rapier_female.png",
+          "bodyType": "female"
+        },
+        {
+          "id": "weapon_saber_female",
+          "name": "Saber",
+          "path": "female/weapon/saber_female.png",
+          "bodyType": "female"
+        },
+        {
+          "id": "weapon_spear_female",
+          "name": "Spear",
+          "path": "female/weapon/spear_female.png",
+          "bodyType": "female"
+        },
+        {
+          "id": "weapon_woodwand_female",
+          "name": "Woodwand",
+          "path": "female/weapon/woodwand_female.png",
+          "bodyType": "female"
+        },
+        {
+          "id": "weapon_dagger",
+          "name": "Dagger",
+          "path": "weapon/dagger.png"
+        },
+        {
+          "id": "weapon_wand",
+          "name": "Wand",
+          "path": "weapon/wand.png"
+        },
+        {
+          "id": "weapon_formal_cane",
+          "name": "Formal cane",
+          "path": "either/weapon/formal_cane.png"
+        },
+        {
+          "id": "weapon_formal_rifle",
+          "name": "Formal rifle",
+          "path": "either/weapon/formal_rifle.png"
+        }
+      ],
+      "zIndex": 15,
+      "variantFiltered": false,
+      "bodyTypeSpecific": false,
+      "slotKind": "wearable"
+    }
+  ]
+}

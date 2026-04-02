@@ -1,0 +1,34 @@
+{
+  "id": "fireplace_brick",
+  "name": "Brick Fireplace",
+  "description": "A large brick fireplace.",
+  "purposes": [
+    "decoration",
+    "lighting"
+  ],
+  "tags": [
+    "common",
+    "furniture",
+    "fireplace",
+    "tavern",
+    "residence",
+    "wall"
+  ],
+  "solid": true,
+  "layer": "default",
+  "spriteId": "fireplace",
+  "materials": [
+    "wood"
+  ],
+  "tintable": false,
+  "lightSource": {
+    "radius": 120,
+    "color": 16737826,
+    "intensity": 0.7,
+    "flicker": true,
+    "flickerSpeed": 250,
+    "flickerRange": 0.15,
+    "offsetX": 0,
+    "offsetY": -16
+  }
+}

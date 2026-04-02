@@ -1,0 +1,16 @@
+{
+  "id": "EVENT_visited_zephyr_spare_locker_1771811170225",
+  "date": "999.M1 12:29",
+  "placeId": "PLACE_zephyr_spare_locker",
+  "important": false,
+  "importanceScore": null,
+  "scope": null,
+  "relevantPlaceIds": null,
+  "eventType": "location_visited",
+  "category": "world",
+  "subject": "Zephyr Spare Locker",
+  "subjectId": "PLACE_zephyr_spare_locker",
+  "fact": "Visited Zephyr Spare Locker",
+  "significance": "minor",
+  "witnessIds": null
+}

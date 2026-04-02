@@ -1,0 +1,199 @@
+{
+  "id": "CHAR_skitters",
+  "label": "Skitters",
+  "description": "This individual is a goblin of compact build, with dark_green skin marked by soot-staining along the hands and mouth. Brown eyes sit wide in a narrow face, and black hair lies in a short, unkempt crest that never fully settles. The incisors are prominent and squared, giving the mouth a constant gnawing set, while the nose remains sharp and twitch-prone. Habitual crouch, quick head-tilts, and restless finger-work define a manner long adapted to scrounging within confined, glittering hollows.",
+  "short_description": "goblin male rat",
+  "tags": [],
+  "entityType": "character",
+  "info": {
+    "purpose": "rat",
+    "aliases": [
+      "Hollow-Rat",
+      "Glassvein Rat"
+    ],
+    "birthdate": "1407-10-19",
+    "deathdate": null,
+    "title": null,
+    "birthPlace": "The Glassvein Hollow",
+    "eyeColor": "brown",
+    "gender": "male",
+    "hairColor": "black",
+    "hairStyle": "unkempt",
+    "beardStyle": null,
+    "headType": "orc_male",
+    "skinTone": "dark_green",
+    "personality": "Territorial scavenger accustomed to tunnel-living, governed by hunger, curiosity, and an ingrained fear of open spaces; quick to hoard, quicker to flee, and persistent in returning to familiar routes and caches.",
+    "race": "goblin",
+    "messages": [],
+    "journal": [],
+    "sketches": [],
+    "verbosity": 3,
+    "conversationContext": null,
+    "storytellerState": null,
+    "isPlayer": false,
+    "storyComplete": false,
+    "routine": null,
+    "vesselRoutes": null,
+    "abstractLocation": null,
+    "npcBehavior": null,
+    "physicalState": null,
+    "pendingDeparture": null,
+    "pendingArrival": null,
+    "lastRoutineCheckPeriod": null,
+    "startingNarrative": null,
+    "startingCharacterState": null,
+    "clothing": [
+      {
+        "slot": "torso_under",
+        "itemId": "tunic",
+        "color": "#3a3a3a",
+        "contents": null
+      },
+      {
+        "slot": "legs",
+        "itemId": "cloth_pants",
+        "color": "#8b4513",
+        "contents": null
+      },
+      {
+        "slot": "feet",
+        "itemId": "boots",
+        "color": "#1a1a1a",
+        "contents": null
+      },
+      {
+        "slot": "belt",
+        "itemId": "rope_belt",
+        "color": "#d2b48c",
+        "contents": []
+      },
+      {
+        "slot": "head",
+        "itemId": "cloth_hood",
+        "color": "#3a3a3a",
+        "contents": null
+      }
+    ],
+    "enabledOverlayLayers": [],
+    "helmingVesselId": null,
+    "storytellerDisabled": false,
+    "rulesetState": {
+      "stats": {
+        "poise": 50,
+        "max_poise": 50
+      },
+      "conditions": [],
+      "statUsage": {},
+      "incapacitation": null,
+      "incapacitatedSince": null
+    },
+    "voiceId": "callum",
+    "spriteConfig": {
+      "bodyType": "male",
+      "layers": [
+        {
+          "type": "body",
+          "optionId": "body_base",
+          "tint": 3828528
+        },
+        {
+          "type": "body",
+          "optionId": "body_universal",
+          "tint": 3828528
+        },
+        {
+          "type": "legs",
+          "optionId": "legs_white_pants_male",
+          "tint": 9127187
+        },
+        {
+          "type": "feet",
+          "optionId": "feet_white_boots_male",
+          "tint": 1710618
+        },
+        {
+          "type": "belt",
+          "optionId": "belt_wulax_belt_rope_male",
+          "tint": 13808780
+        },
+        {
+          "type": "head",
+          "optionId": "head_cloth_hood_male",
+          "tint": 3815994
+        }
+      ],
+      "spriteHash": "b6c5e289eefe6dec",
+      "spriteUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/sprites/generated/b6c5e289eefe6dec.png"
+    },
+    "spriteId": "rat"
+  },
+  "position": {
+    "x": 912,
+    "y": 1488,
+    "width": 32,
+    "height": 48,
+    "parent": "PLACE_the_glassvein_hollow"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/gaardia/images/characters/CHAR_skitters.png?v=1772437526049",
+  "faceAnchorY": 0.24,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "talk"
+  },
+  "relationships": [
+    {
+      "targetId": "CHAR_calder_hurne",
+      "type": "enemy",
+      "disposition": -60,
+      "familiarity": 50,
+      "context": "Both occupy the Glassvein Hollow; Skitters’ scavenging/route-running would repeatedly cross Calder’s rigid patrol circuits, and Calder reacts to intrusion with persistent hostility.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_caldus_rein",
+      "type": "enemy",
+      "disposition": -60,
+      "familiarity": 50,
+      "context": "Same location; Caldus inexorably approaches intruders on its habitual routes, making it a consistent threat/hostile encounter for a tunnel-scavenger like Skitters.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_isarn_vell",
+      "type": "enemy",
+      "disposition": -60,
+      "familiarity": 50,
+      "context": "Same location; Isarn’s patrol-bound, ritualized hostility toward living bodies makes it a likely recurring hostile presence to Skitters’ territorial foraging.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_sable_wynth",
+      "type": "enemy",
+      "disposition": -60,
+      "familiarity": 50,
+      "context": "Same location; Sable reacts to sound/light with immediate hostility and performs searching motions at seams—areas Skitters would scrounge—creating repeated antagonistic contact.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_silex_corven",
+      "type": "enemy",
+      "disposition": -60,
+      "familiarity": 50,
+      "context": "Same location; Silex is an aggressive, route-bound undead fixated on shafts and narrow passages that Skitters uses, implying frequent hostile run-ins.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_verrin_halst",
+      "type": "enemy",
+      "disposition": -60,
+      "familiarity": 50,
+      "context": "Same location; Verrin is territorial and reflexively hostile on fixed circuits, conflicting with Skitters’ territorial scavenging and cache-running.",
+      "pendingGeneration": false
+    }
+  ],
+  "important": false
+}

@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_prismwound_asteroid",
+  "label": "Prismwound Asteroid",
+  "description": "Prismwound Asteroid is a dark, glass-skinned body trapped in Vesper Node’s polyhedral traffic of orbits, its rotation locked to the luminous filaments that cage the system. A continuous cleft splits the stone along a clean geometric chord, its walls vitrified into faceted planes that catch the stratified radiance in hard, spectral bands. The surface bears shallow, rule-straight terraces and pressure ridges aligned to the Hollow Lattice’s tensile lines, giving the rock the appearance of a quarried monument rather than a natural remnant. Along the cleft’s lip, lightless intervals pool in stable sheets, producing a persistent, measurable shadow that resists drift and scatter.",
+  "short_description": "glassy clefted asteroid",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "asteroid",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "asteroid",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/the_hollow_lattice/images/battles/PLACE_prismwound_asteroid.png?v=1772313802466",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 144,
+    "y": 704,
+    "width": 32,
+    "height": 32,
+    "parent": "PLACE_vesper_node",
+    "innerWidth": 1856,
+    "innerHeight": 672
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/the_hollow_lattice/images/places/PLACE_prismwound_asteroid.png?v=1772313889209",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

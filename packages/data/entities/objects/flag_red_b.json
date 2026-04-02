@@ -1,0 +1,21 @@
+{
+  "id": "flag_red_b",
+  "name": "Red Flag (Alt)",
+  "description": "Red pennant flag on a wooden pole, blowing in the opposite direction.",
+  "purposes": [
+    "decoration"
+  ],
+  "tags": [
+    "outdoor",
+    "decoration",
+    "market",
+    "banner"
+  ],
+  "solid": false,
+  "layer": "default",
+  "spriteId": "flag_red_b",
+  "materials": [
+    "wood",
+    "cloth"
+  ]
+}

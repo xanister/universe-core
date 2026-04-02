@@ -1,0 +1,255 @@
+{
+  "id": "CHAR_sera_vant",
+  "label": "Sera Vant",
+  "description": "This individual is a human woman of middle years, distinguished by an amber skinTone weathered by long hours in stale lamp-smoke and close heat. Brown eyes sit beneath heavy lids and a straight brow, lending a steady, appraising gaze suited to service behind a counter. Black hair is kept in a plain style and pulled back from a broad, practical face marked by fine lines at the mouth and nose. The hands are thick-knuckled and permanently callused, with faint old nicks that record years of working glass and cask fittings.",
+  "short_description": "female canteen barkeep",
+  "tags": [],
+  "entityType": "character",
+  "info": {
+    "purpose": "bartender",
+    "aliases": [
+      "Lantern Sera",
+      "The Measure-Keeper"
+    ],
+    "birthdate": "976.M41",
+    "deathdate": null,
+    "title": null,
+    "birthPlace": "Imperium Nihilus",
+    "eyeColor": "brown",
+    "gender": "female",
+    "hairColor": "black",
+    "hairStyle": "plain",
+    "beardStyle": null,
+    "headType": "human_female",
+    "skinTone": "amber",
+    "personality": "Orderly and unflappable, this bartender maintains strict measures, clean glasswork, and a controlled tone that discourages disorder without inviting confrontation. Speech is concise and transactional, with a practiced memory for faces, tabs, and preferred spirits. Loyalty is reserved for regulars who pay on time and staff who keep to house rules; violations receive immediate, unemotional refusal of service.",
+    "race": "human",
+    "messages": [],
+    "journal": [],
+    "sketches": [],
+    "verbosity": 3,
+    "conversationContext": null,
+    "storytellerState": null,
+    "isPlayer": false,
+    "storyComplete": false,
+    "routine": {
+      "schedule": {
+        "dawn": "home",
+        "morning": "work",
+        "afternoon": "work",
+        "evening": "work",
+        "night": "home"
+      },
+      "home": {
+        "placeId": "PLACE_lantern_bunkroom",
+        "description": "Quarters near The Pallid Lantern",
+        "areaHint": null
+      },
+      "work": {
+        "placeId": "PLACE_the_pallid_lantern",
+        "description": "The Pallid Lantern",
+        "areaHint": null
+      },
+      "leisure": null,
+      "variance": 0.2,
+      "activities": {
+        "work": "tavern_work"
+      }
+    },
+    "vesselRoutes": null,
+    "abstractLocation": null,
+    "npcBehavior": null,
+    "physicalState": null,
+    "pendingDeparture": null,
+    "pendingArrival": null,
+    "lastRoutineCheckPeriod": null,
+    "startingNarrative": null,
+    "startingCharacterState": null,
+    "clothing": [
+      {
+        "slot": "torso_under",
+        "itemId": "formal_shirt",
+        "color": "#f5f0e8",
+        "contents": null
+      },
+      {
+        "slot": "torso_mid",
+        "itemId": "apron",
+        "color": "#3a3a3a",
+        "contents": null
+      },
+      {
+        "slot": "torso_over",
+        "itemId": "formal_jacket",
+        "color": "#8b4513",
+        "contents": null
+      },
+      {
+        "slot": "legs",
+        "itemId": "formal_pants",
+        "color": "#1a1a1a",
+        "contents": null
+      },
+      {
+        "slot": "feet",
+        "itemId": "shoes",
+        "color": null,
+        "contents": null
+      },
+      {
+        "slot": "belt",
+        "itemId": "leather_belt",
+        "color": "#8b4513",
+        "contents": [
+          {
+            "id": "ci_1772157954464_vaq2gc",
+            "itemId": "unarmed",
+            "name": "unarmed",
+            "description": null,
+            "type": "weapon",
+            "quantity": 1,
+            "color": null,
+            "equipSlot": "weapon",
+            "plotId": null
+          }
+        ]
+      }
+    ],
+    "enabledOverlayLayers": [
+      "eyes",
+      "facial"
+    ],
+    "helmingVesselId": null,
+    "storytellerDisabled": false,
+    "rulesetState": {
+      "stats": {
+        "physical": 50,
+        "mental": 50,
+        "social": 50,
+        "poise": 50,
+        "max_poise": 50,
+        "bloodloss": 0,
+        "anxiety": 0,
+        "fatigue": 0,
+        "hunger": 0
+      },
+      "conditions": [],
+      "statUsage": {},
+      "incapacitation": null,
+      "incapacitatedSince": null
+    },
+    "voiceId": "bella",
+    "spriteConfig": {
+      "bodyType": "female",
+      "layers": [
+        {
+          "type": "body",
+          "optionId": "body_base",
+          "tint": 13936490
+        },
+        {
+          "type": "body",
+          "optionId": "body_universal",
+          "tint": 13936490
+        },
+        {
+          "type": "eyes",
+          "optionId": "eyes_eyes",
+          "tint": 7029286
+        },
+        {
+          "type": "hair",
+          "optionId": "hair_plain",
+          "tint": 1710618
+        },
+        {
+          "type": "torso",
+          "optionId": "torso_white_apron_female",
+          "tint": 3815994
+        },
+        {
+          "type": "feet",
+          "optionId": "feet_white_shoes_female",
+          "tint": 9127187
+        },
+        {
+          "type": "belt",
+          "optionId": "belt_leather_female",
+          "tint": 9127187
+        }
+      ],
+      "spriteHash": "b2033c2dd4a7482c",
+      "spriteUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/sprites/generated/b2033c2dd4a7482c.png",
+      "spriteScale": 1
+    }
+  },
+  "position": {
+    "x": 162,
+    "y": 417.4,
+    "width": 32,
+    "height": 48,
+    "parent": "PLACE_lantern_bunkroom"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/characters/CHAR_sera_vant.png?v=1772158009664",
+  "faceAnchorY": 0.17,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "talk"
+  },
+  "relationships": [
+    {
+      "targetId": "CHAR_serren_malque",
+      "type": "colleague",
+      "disposition": 10,
+      "familiarity": 50,
+      "context": "Both are staff/publicans operating within The Pallid Lantern spaces (Sera at the counter; Serren based in the Lantern guest cell), making regular professional coordination likely.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_sevrin_ansel",
+      "type": "colleague",
+      "disposition": 10,
+      "familiarity": 50,
+      "context": "Both work within The Pallid Lantern (Sera at the main Lantern; Sevrin in the Lantern bunkroom), implying shared shift coverage, inventory, and house-rule enforcement.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_sevrin_halcott",
+      "type": "colleague",
+      "disposition": 10,
+      "familiarity": 50,
+      "context": "Both are tied to The Pallid Lantern’s operations (Halcott in lanternkeepers’ quarters), suggesting a working relationship around management, supplies, or staffing.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_sevrin_lasko",
+      "type": "colleague",
+      "disposition": 10,
+      "familiarity": 50,
+      "context": "Shared Lanternkeepers’ quarters association indicates they are part of the same Lantern staff structure and likely coordinate duties and enforcement.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_sevrin_malko",
+      "type": "colleague",
+      "disposition": 10,
+      "familiarity": 50,
+      "context": "Both are bartending staff within The Pallid Lantern areas (bunkroom vs main Lantern), making overlap in routines, stock, and trouble-management likely.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_sevrin_palk",
+      "type": "colleague",
+      "disposition": 10,
+      "familiarity": 50,
+      "context": "Both work within The Pallid Lantern (Palk in the Lantern bunkroom), implying co-staff relationship and shared house procedures.",
+      "pendingGeneration": false
+    }
+  ],
+  "important": false
+}

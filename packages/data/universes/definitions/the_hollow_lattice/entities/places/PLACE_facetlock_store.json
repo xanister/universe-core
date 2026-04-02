@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_facetlock_store",
+  "label": "Facetlock Store",
+  "description": "Facetlock Store serves as the secured storage annex of the Sixfold Cask, set within a narrow wedge aligned to the tavern’s six-faceted geometry. Dark composite shelving rises in strict, repeating cells, each bay banded with luminous linework that records inventory as a continuous geometric script. Prismatic glass panels admit the port’s angular radiance in thin planes, turning stacked casks and sealed crates into hard-edged silhouettes. The floor is voidstone scored with regulated paths that guide load placement and damp the vibration transmitted from the mooring spines.",
+  "short_description": "secured prismatic storeroom",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "storage_room",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.9
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "door_wooden",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/the_hollow_lattice/images/battles/PLACE_facetlock_store.png?v=1772314104973",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 400,
+    "y": 160,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_the_sixfold_cask",
+    "innerWidth": 512,
+    "innerHeight": 768
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/the_hollow_lattice/images/places/PLACE_facetlock_store.png?v=1772314158454",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

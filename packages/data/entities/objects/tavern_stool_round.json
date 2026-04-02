@@ -1,0 +1,22 @@
+{
+  "id": "tavern_stool_round",
+  "name": "Round Tavern Stool",
+  "description": "A round-topped wooden stool.",
+  "purposes": [
+    "seating"
+  ],
+  "tags": [
+    "common",
+    "furniture",
+    "seating",
+    "tavern",
+    "bar"
+  ],
+  "solid": false,
+  "layer": "default",
+  "spriteId": "tavern_stool_round",
+  "materials": [
+    "wood"
+  ],
+  "tintable": false
+}

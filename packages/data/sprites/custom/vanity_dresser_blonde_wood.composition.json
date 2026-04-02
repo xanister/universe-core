@@ -1,0 +1,51 @@
+{
+  "spriteId": "vanity_dresser_blonde_wood",
+  "gridWidth": 2,
+  "gridHeight": 3,
+  "tileSize": 32,
+  "tiles": [
+    {
+      "tilesetId": "furniture-blonde",
+      "srcX": 96,
+      "srcY": 608,
+      "col": 0,
+      "row": 0
+    },
+    {
+      "tilesetId": "furniture-blonde",
+      "srcX": 128,
+      "srcY": 608,
+      "col": 1,
+      "row": 0
+    },
+    {
+      "tilesetId": "furniture-blonde",
+      "srcX": 96,
+      "srcY": 640,
+      "col": 0,
+      "row": 1
+    },
+    {
+      "tilesetId": "furniture-blonde",
+      "srcX": 128,
+      "srcY": 640,
+      "col": 1,
+      "row": 1
+    },
+    {
+      "tilesetId": "furniture-blonde",
+      "srcX": 96,
+      "srcY": 672,
+      "col": 0,
+      "row": 2
+    },
+    {
+      "tilesetId": "furniture-blonde",
+      "srcX": 128,
+      "srcY": 672,
+      "col": 1,
+      "row": 2
+    }
+  ],
+  "updatedAt": "2026-03-02T19:24:02.762Z"
+}

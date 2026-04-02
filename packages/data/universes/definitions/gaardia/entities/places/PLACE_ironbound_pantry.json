@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_ironbound_pantry",
+  "label": "Ironbound Pantry",
+  "description": "An enclosed storage chamber cut into Cindervale’s reused ashlar, its patched stonework cinched with riveted iron straps in the city’s later defensive style. Wall niches and low shelving hold sealed crocks, lime-dusted sacks, and tool bundles, arranged beneath tally marks scratched into the stone for rationing and levy accounting. The door is clad in iron and set with a simple bar, reflecting the city’s trade insecurity and the domestic need for controlled stores. Coal-smoke and powdered mortar settle into the corners, and the thick masonry keeps the chamber cool and soundless.",
+  "short_description": "cool iron-barred pantry",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "storage_room",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.9
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "door_wooden",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/gaardia/images/battles/PLACE_ironbound_pantry.png?v=1772217920065",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 656,
+    "y": 160,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_masons_hearthroom",
+    "innerWidth": 512,
+    "innerHeight": 768
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": null,
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

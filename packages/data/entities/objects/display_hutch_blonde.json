@@ -1,0 +1,21 @@
+{
+  "id": "display_hutch_blonde",
+  "name": "Display Hutch (Blonde)",
+  "description": "An open-fronted blonde wood hutch with display shelves and drawers.",
+  "purposes": [
+    "storage"
+  ],
+  "tags": [
+    "common",
+    "furniture",
+    "display",
+    "shop"
+  ],
+  "solid": true,
+  "layer": "default",
+  "spriteId": "display_hutch_blonde",
+  "materials": [
+    "wood"
+  ],
+  "tintable": false
+}

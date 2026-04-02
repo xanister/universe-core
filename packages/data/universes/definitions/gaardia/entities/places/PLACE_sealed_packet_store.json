@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_sealed_packet_store",
+  "label": "Sealed Packet Store",
+  "description": "Sealed Packet Store serves as the Registry House’s secured storage for docketed bundles, duplicate ledgers, and notarized copies awaiting filing or transport. Salvaged-ashlar walls are fitted with iron-studded shelving and pigeonholes, each face scored with tally marks and wax-stain rings from sealed strings. A low barrel vault and narrow slit-vent keep the space cool and dry, while an interior grille and secondary bolt emphasize controlled access over convenience. Hazard placards and interdiction notices are fixed at eye level beside a sand tray for spilled powder and damped ink.",
+  "short_description": "secured archival store",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "storage_room",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.9
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "door_wooden",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/gaardia/images/battles/PLACE_sealed_packet_store.png?v=1772218319501",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 496,
+    "y": 160,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_ashlar_registry_house",
+    "innerWidth": 480,
+    "innerHeight": 640
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": null,
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

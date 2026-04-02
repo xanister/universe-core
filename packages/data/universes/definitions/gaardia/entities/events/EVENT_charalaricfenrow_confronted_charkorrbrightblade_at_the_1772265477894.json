@@ -1,0 +1,20 @@
+{
+  "id": "EVENT_charalaricfenrow_confronted_charkorrbrightblade_at_the_1772265477894",
+  "date": "02.01.11 4A 15:38",
+  "placeId": "PLACE_the_quenched_pike",
+  "eventType": "turning_point",
+  "category": "world",
+  "subject": "The Quenched Pike",
+  "subjectId": "PLACE_the_quenched_pike",
+  "fact": "CHAR_alaric_fenrow confronted CHAR_korr_brightblade at The Quenched Pike and displayed a sealed tribunal writ ordering appearance at PLACE_ashlar_registry_house",
+  "significance": "major",
+  "witnessIds": [
+    "CHAR_korr_brightblade"
+  ],
+  "important": true,
+  "importanceScore": null,
+  "scope": "local",
+  "relevantPlaceIds": [
+    "PLACE_the_quenched_pike"
+  ]
+}

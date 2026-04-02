@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_the_prismatic_draught",
+  "label": "The Prismatic Draught",
+  "description": "The Prismatic Draught is a low, faceted tavern clad in dust-slick vitrified tiles, its outer skin banded to match Seamglass Meridian’s calibrated twilight measures. Interior walls incorporate lensing cistern panels that refract the copper-white light into steady color strata across the bar and benching, while grounded gutters run openly along the floor to bleed off electrostatic glass fallouts. The ceiling carries a lattice of mirror slats aligned to the city’s auroral geometry, producing an ordered shimmer that never breaks into glare. Fixtures favor fused-silicate slabs and scored metalwork, built to endure abrasive dust and the constant, hushlit reflection of the shallows outside.",
+  "short_description": "glasslit prism tavern",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "tavern",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "building_tavern",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/hushlight_expanse/images/battles/PLACE_the_prismatic_draught.png?v=1772313781762",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 2608,
+    "y": 896,
+    "width": 160,
+    "height": 256,
+    "parent": "PLACE_seamglass_meridian",
+    "innerWidth": 1152,
+    "innerHeight": 1120
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/hushlight_expanse/images/places/PLACE_the_prismatic_draught.png?v=1772313906960",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

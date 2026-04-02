@@ -1,0 +1,257 @@
+{
+  "id": "CHAR_severan_duskward",
+  "label": "Severan Duskward",
+  "description": "This individual is a broad-shouldered human of early middle years, built for sustained watch duty and close-quarters restraint. Brown eyes sit beneath a heavy brow, and brown hair is kept in a short, regulation cut that exposes a squared jawline. Bronze skin bears old knuckle-thickened calluses and a faint, healed split at the lower lip consistent with repeated blows. The overall physiognomy reads as disciplined and unadorned, shaped by routine drill rather than ornamentation.",
+  "short_description": "male city guard",
+  "tags": [],
+  "entityType": "character",
+  "info": {
+    "purpose": "guard",
+    "aliases": [
+      "Ashenward Watchman",
+      "Duskward"
+    ],
+    "birthdate": "984.M41",
+    "deathdate": null,
+    "title": null,
+    "birthPlace": "Vespera Tertius, Ashenward City",
+    "eyeColor": "brown",
+    "gender": "male",
+    "hairColor": "brown",
+    "hairStyle": "parted",
+    "beardStyle": "stubble",
+    "headType": "human_male",
+    "skinTone": "bronze",
+    "personality": "A regulation-minded watchman who enforces curfew and ration codes with procedural rigor. He favors clear warnings, precise paperwork, and public examples over improvisation, and he maintains a controlled temper under provocation. Loyalty is directed toward the chain of command and the stability of the streets, not toward private favors.",
+    "race": "human",
+    "messages": [],
+    "journal": [],
+    "sketches": [],
+    "verbosity": 3,
+    "conversationContext": null,
+    "storytellerState": null,
+    "isPlayer": false,
+    "storyComplete": false,
+    "routine": {
+      "schedule": {
+        "dawn": "work",
+        "morning": "work",
+        "afternoon": "work",
+        "evening": "leisure",
+        "night": "home"
+      },
+      "home": {
+        "placeId": "PLACE_vespera_tertius_ashenward_city",
+        "description": "Vespera Tertius Ashenward City",
+        "areaHint": null
+      },
+      "work": {
+        "placeId": "PLACE_vespera_tertius_ashenward_city",
+        "description": "Vespera Tertius Ashenward City",
+        "areaHint": null
+      },
+      "leisure": null,
+      "variance": 0.2,
+      "activities": {
+        "work": "guard_duty"
+      }
+    },
+    "vesselRoutes": null,
+    "abstractLocation": null,
+    "npcBehavior": null,
+    "physicalState": null,
+    "pendingDeparture": null,
+    "pendingArrival": null,
+    "lastRoutineCheckPeriod": null,
+    "startingNarrative": null,
+    "startingCharacterState": null,
+    "clothing": [
+      {
+        "slot": "torso_under",
+        "itemId": "longsleeve",
+        "color": "#f5f0e8",
+        "contents": null
+      },
+      {
+        "slot": "torso_over",
+        "itemId": "leather_armor",
+        "color": "#3a3a3a",
+        "contents": null
+      },
+      {
+        "slot": "torso_top",
+        "itemId": "leather_armor_shoulders",
+        "color": "#3a3a3a",
+        "contents": null
+      },
+      {
+        "slot": "legs",
+        "itemId": "cloth_pants",
+        "color": "#000080",
+        "contents": null
+      },
+      {
+        "slot": "feet",
+        "itemId": "boots",
+        "color": "#1a1a1a",
+        "contents": null
+      },
+      {
+        "slot": "belt",
+        "itemId": "leather_belt",
+        "color": "#1a1a1a",
+        "contents": [
+          {
+            "id": "ci_1771961028815_w97yzw",
+            "itemId": "steel_bracers",
+            "name": "steel_bracers",
+            "description": null,
+            "type": "weapon",
+            "quantity": 1,
+            "color": null,
+            "equipSlot": "weapon",
+            "plotId": null
+          }
+        ]
+      },
+      {
+        "slot": "hands",
+        "itemId": "leather_bracers",
+        "color": "#8b4513",
+        "contents": null
+      },
+      {
+        "slot": "head",
+        "itemId": "leather_cap",
+        "color": "#1a1a1a",
+        "contents": null
+      }
+    ],
+    "enabledOverlayLayers": [
+      "eyes",
+      "facial"
+    ],
+    "helmingVesselId": null,
+    "storytellerDisabled": false,
+    "rulesetState": {
+      "stats": {
+        "physical": 50,
+        "mental": 50,
+        "social": 50,
+        "poise": 50,
+        "max_poise": 50,
+        "bloodloss": 0,
+        "anxiety": 0,
+        "fatigue": 0,
+        "hunger": 0
+      },
+      "conditions": [],
+      "statUsage": {},
+      "incapacitation": null,
+      "incapacitatedSince": null
+    },
+    "voiceId": "daniel",
+    "spriteConfig": {
+      "bodyType": "male",
+      "layers": [
+        {
+          "type": "body",
+          "optionId": "body_base",
+          "tint": 11373408
+        },
+        {
+          "type": "body",
+          "optionId": "body_universal",
+          "tint": 11373408
+        },
+        {
+          "type": "eyes",
+          "optionId": "eyes_eyes",
+          "tint": 7029286
+        },
+        {
+          "type": "facial",
+          "optionId": "facial_beard",
+          "tint": 7029286
+        },
+        {
+          "type": "hair",
+          "optionId": "hair_parted",
+          "tint": 7029286
+        },
+        {
+          "type": "torso",
+          "optionId": "torso_white_longsleeve",
+          "tint": 16117992
+        },
+        {
+          "type": "torso",
+          "optionId": "torso_white_leather_armor_male",
+          "tint": 3815994
+        },
+        {
+          "type": "torso",
+          "optionId": "torso_wulax_leather_armor_shoulders_male",
+          "tint": 3815994
+        },
+        {
+          "type": "legs",
+          "optionId": "legs_white_pants_male",
+          "tint": 128
+        },
+        {
+          "type": "feet",
+          "optionId": "feet_white_boots_male",
+          "tint": 1710618
+        },
+        {
+          "type": "belt",
+          "optionId": "belt_leather_male",
+          "tint": 1710618
+        },
+        {
+          "type": "hands",
+          "optionId": "hands_leather_bracers_male",
+          "tint": 9127187
+        },
+        {
+          "type": "head",
+          "optionId": "head_leather_cap_male",
+          "tint": 1710618
+        }
+      ],
+      "spriteHash": "586607c685f03243",
+      "spriteUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/sprites/generated/586607c685f03243.png",
+      "spriteScale": 1
+    }
+  },
+  "position": {
+    "x": 1904,
+    "y": 1792,
+    "width": 32,
+    "height": 48,
+    "parent": "PLACE_vespera_tertius_ashenward_city"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/characters/CHAR_severan_duskward.png?v=1771961087294",
+  "faceAnchorY": 0.22,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "talk"
+  },
+  "relationships": [
+    {
+      "targetId": "CHAR_alaric_morn",
+      "type": "acquaintance",
+      "disposition": -1,
+      "familiarity": 40,
+      "context": "Both are in Ashenward City; as a watchman enforcing curfew and ration codes, Severan is likely to have at least a casual, procedural interaction with a newcomer/traveler like Alaric (e.g., checks, warnings, questioning).",
+      "pendingGeneration": false
+    }
+  ],
+  "important": false
+}

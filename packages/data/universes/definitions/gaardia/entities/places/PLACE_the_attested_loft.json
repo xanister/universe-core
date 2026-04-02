@@ -1,0 +1,60 @@
+{
+  "id": "PLACE_the_attested_loft",
+  "label": "The Attested Loft",
+  "description": "The Attested Loft serves as an upper-room lodging within The Writ and Tankard, reached above the soot-stained gable and its posted ordinances. A low, timbered ceiling and smoke-dark rafters hang over a narrow bedstead and a plain desk scored by years of ink and knife marks. The walls are limewashed over older stone, their patched cracks mirroring Varric Holdfast’s salvaged ashlar and newer brickwork. A small shuttered window admits a disciplined strip of light, and a nailed placard restates house rules with the same licensing cadence as the tavern below.",
+  "short_description": "smoke-dark loft bedroom",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "bedroom",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "door_wooden",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/gaardia/images/battles/PLACE_the_attested_loft.png?v=1772216406812",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 848,
+    "y": 160,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_the_writ_and_tankard",
+    "innerWidth": 448,
+    "innerHeight": 480
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": null,
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": [
+    "The Shuttered Loft"
+  ],
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

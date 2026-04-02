@@ -1,0 +1,21 @@
+{
+  "id": "ceramic_jar_plain",
+  "name": "Ceramic Storage Jar",
+  "description": "A large plain ceramic storage jar.",
+  "purposes": [
+    "storage"
+  ],
+  "tags": [
+    "common",
+    "container",
+    "storage",
+    "tavern"
+  ],
+  "solid": true,
+  "layer": "default",
+  "spriteId": "ceramic_jar_plain",
+  "materials": [
+    "ceramic"
+  ],
+  "tintable": false
+}

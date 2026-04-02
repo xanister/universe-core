@@ -1,0 +1,31 @@
+{
+  "label": "The Rainstain Chronicler",
+  "description": "The Rainstain Chronicler narrates like a case file left out in a storm—ink running, motives blurring, but the truth refusing to wash away. Clues arrive sideways through overheard remarks, compromised witnesses, and favors with interest. Every revelation feels earned, and every answer creates a new question.",
+  "pacing": "moderate",
+  "eventTypes": [
+    "shadowed stakeouts and tailing scenes",
+    "interrogations with unreliable witnesses",
+    "crime-scene examinations and forensic oddities",
+    "backroom bargains and favors called in",
+    "double-cross reveals and planted evidence",
+    "morally compromised rescue or protection jobs",
+    "deadline pressure from authorities or creditors",
+    "quiet character beats in late-night diners or rain-soaked streets",
+    "chases through alleys, rooftops, and transit lines"
+  ],
+  "arcStructure": {
+    "acts": 4,
+    "tensionCurve": "wave"
+  },
+  "storyStyle": "Mysteries are personal and messy: the central question is rarely “who did it?” but “who benefits, and what did it cost?” NPCs protect themselves first—lying by omission, selling partial truths, and leveraging relationships as currency—yet most have a human reason for their choices. Stakes escalate from reputation and leverage to lives and public fallout, with complications driven by corrupt institutions, missing time, and evidence that points at the wrong person for plausible reasons. Solutions reward legwork, social pressure, and pattern recognition more than brute force; violence is fast, consequential, and usually makes the case harder before it makes it easier.",
+  "tone": "noir, mystery",
+  "id": "STORYTELLER_the_rainstain_chronicler",
+  "targetPlotCount": 2,
+  "plotStartDelayRange": {
+    "min": 0,
+    "max": 12
+  },
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/storytellers/images/STORYTELLER_the_rainstain_chronicler.png",
+  "verbosity": 1,
+  "voiceId": "sarah"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "bench",
+  "purposes": [
+    "decoration"
+  ],
+  "spriteId": "bench",
+  "name": "Bench",
+  "description": "A Bench",
+  "tags": [
+    "common",
+    "furniture",
+    "seating"
+  ],
+  "materials": [
+    "wood"
+  ],
+  "solid": true,
+  "layer": "default",
+  "tintable": true
+}

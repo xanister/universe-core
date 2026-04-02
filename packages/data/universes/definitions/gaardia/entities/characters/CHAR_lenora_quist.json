@@ -1,0 +1,229 @@
+{
+  "id": "CHAR_lenora_quist",
+  "label": "Lenora Quist",
+  "description": "This individual is a human woman of early middle years, with brown eyes set beneath a straight brow that gives her face a settled, appraising cast. Brown hair is kept in a practical, close-tied arrangement, exposing a broad cheek line and a jaw strengthened by habitual clenching. Taupe skin bears the ingrained staining and faint old nicks common to hands long accustomed to glasswork and the handling of casks. Her build is compact and durable, with forearms and shoulders developed through repetitive bar labor rather than formal soldiery.",
+  "short_description": "aproned female bartender",
+  "tags": [],
+  "entityType": "character",
+  "info": {
+    "purpose": "bartender",
+    "aliases": [
+      "Nora",
+      "Quist of the Ledger"
+    ],
+    "birthdate": "1002-09-17",
+    "deathdate": null,
+    "title": null,
+    "birthPlace": "Gaardia",
+    "eyeColor": "brown",
+    "gender": "female",
+    "hairColor": "brown",
+    "hairStyle": "longknot",
+    "beardStyle": null,
+    "headType": "human_female",
+    "skinTone": "taupe",
+    "personality": "A disciplined keeper of house rules who maintains orderly service through precise measure, careful listening, and a strong memory for debts and names. She speaks plainly, tolerates no disorder near the counter, and uses controlled courtesy as an instrument of authority. In disputes she favors receipts, witnessed terms, and immediate settlement over sentiment.",
+    "race": "human",
+    "messages": [],
+    "journal": [],
+    "sketches": [],
+    "verbosity": 3,
+    "conversationContext": null,
+    "storytellerState": null,
+    "isPlayer": false,
+    "storyComplete": false,
+    "routine": {
+      "schedule": {
+        "dawn": "home",
+        "morning": "work",
+        "afternoon": "work",
+        "evening": "work",
+        "night": "home"
+      },
+      "home": {
+        "placeId": "PLACE_ledgerhouse_bedchamber",
+        "description": "Quarters near The Black Ledger",
+        "areaHint": null
+      },
+      "work": {
+        "placeId": "PLACE_the_black_ledger",
+        "description": "The Black Ledger",
+        "areaHint": null
+      },
+      "leisure": null,
+      "variance": 0.2,
+      "activities": {
+        "work": "tavern_work"
+      }
+    },
+    "vesselRoutes": null,
+    "abstractLocation": null,
+    "npcBehavior": null,
+    "physicalState": null,
+    "pendingDeparture": null,
+    "pendingArrival": null,
+    "lastRoutineCheckPeriod": null,
+    "startingNarrative": null,
+    "startingCharacterState": null,
+    "clothing": [
+      {
+        "slot": "torso_under",
+        "itemId": "shortsleeve",
+        "color": "#f5f0e8",
+        "contents": null
+      },
+      {
+        "slot": "torso_mid",
+        "itemId": "apron",
+        "color": "#1a1a1a",
+        "contents": null
+      },
+      {
+        "slot": "legs",
+        "itemId": "cloth_pants",
+        "color": "#3a3a3a",
+        "contents": null
+      },
+      {
+        "slot": "feet",
+        "itemId": "boots",
+        "color": "#8b4513",
+        "contents": null
+      },
+      {
+        "slot": "belt",
+        "itemId": "leather_belt",
+        "color": "#8b4513",
+        "contents": []
+      },
+      {
+        "slot": "hands",
+        "itemId": "cloth_gloves",
+        "color": null,
+        "contents": null
+      }
+    ],
+    "enabledOverlayLayers": [
+      "eyes",
+      "facial"
+    ],
+    "helmingVesselId": null,
+    "storytellerDisabled": false,
+    "rulesetState": {
+      "stats": {
+        "poise": 50,
+        "max_poise": 50
+      },
+      "conditions": [],
+      "statUsage": {},
+      "incapacitation": null,
+      "incapacitatedSince": null
+    },
+    "voiceId": "bella",
+    "spriteConfig": {
+      "bodyType": "female",
+      "layers": [
+        {
+          "type": "body",
+          "optionId": "body_base",
+          "tint": 12890264
+        },
+        {
+          "type": "body",
+          "optionId": "body_universal",
+          "tint": 12890264
+        },
+        {
+          "type": "eyes",
+          "optionId": "eyes_eyes",
+          "tint": 7029286
+        },
+        {
+          "type": "hair",
+          "optionId": "hair_longknot",
+          "tint": 7029286
+        },
+        {
+          "type": "torso",
+          "optionId": "torso_white_shortsleeve_female",
+          "tint": 16117992
+        },
+        {
+          "type": "torso",
+          "optionId": "torso_white_apron_female",
+          "tint": 1710618
+        },
+        {
+          "type": "legs",
+          "optionId": "legs_white_pants_female",
+          "tint": 3815994
+        },
+        {
+          "type": "feet",
+          "optionId": "feet_white_boots_female",
+          "tint": 9127187
+        },
+        {
+          "type": "belt",
+          "optionId": "belt_leather_female",
+          "tint": 9127187
+        },
+        {
+          "type": "hands",
+          "optionId": "hands_white_gloves_female",
+          "tint": null
+        }
+      ],
+      "spriteHash": "84ea2d80bb5470e7",
+      "spriteUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/sprites/generated/84ea2d80bb5470e7.png"
+    },
+    "assignedBedId": "OBJ_ledgerhouse_bedchamber_double_bed_0012",
+    "assignedWorkspaceId": "OBJ_the_black_ledger_desk_0034",
+    "assignedWorkspacePurpose": "workspace"
+  },
+  "position": {
+    "x": 344.7,
+    "y": 310.4,
+    "width": 32,
+    "height": 48,
+    "parent": "PLACE_ledgerhouse_bedchamber"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/gaardia/images/characters/CHAR_lenora_quist.png?v=1772327687446",
+  "faceAnchorY": 0.19,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "talk"
+  },
+  "relationships": [
+    {
+      "targetId": "CHAR_bramwell_nace",
+      "type": "colleague",
+      "disposition": 10,
+      "familiarity": 50,
+      "context": "Both are disciplined bar/inn staff with meticulous tab/ledger habits and enforcement of house rules; likely to have worked together or share professional practices.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_hollis_berane",
+      "type": "colleague",
+      "disposition": 10,
+      "familiarity": 50,
+      "context": "Shared procedural, account-keeping approach to maintaining order in an inn setting suggests they operate in the same line of work and may coordinate on house rules/tabs.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_marek_dael",
+      "type": "colleague",
+      "disposition": 10,
+      "familiarity": 50,
+      "context": "Both are exacting about measures and house rules and rely on calm authority and memory for faces; plausible professional overlap in a ledger/house-management role.",
+      "pendingGeneration": false
+    }
+  ],
+  "important": false
+}

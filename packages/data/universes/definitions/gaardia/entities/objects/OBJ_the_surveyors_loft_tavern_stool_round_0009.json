@@ -1,0 +1,54 @@
+{
+  "id": "OBJ_the_surveyors_loft_tavern_stool_round_0009",
+  "label": "Round Tavern Stool",
+  "description": "A round-topped wooden stool.",
+  "important": false,
+  "short_description": "round tavern stool",
+  "tags": [
+    "common",
+    "furniture",
+    "seating",
+    "tavern",
+    "bar"
+  ],
+  "entityType": "object",
+  "info": {
+    "purpose": "seating",
+    "solid": false,
+    "layer": "default",
+    "isStructural": false,
+    "material": null,
+    "tint": null,
+    "spriteConfig": {
+      "spriteId": "tavern_stool_round",
+      "frame": null,
+      "animationKey": null,
+      "animated": false,
+      "facing": "south"
+    },
+    "hp": null,
+    "maxHp": null,
+    "state": null,
+    "contents": null,
+    "lightSource": null,
+    "itemId": null,
+    "plotId": null
+  },
+  "position": {
+    "x": 592,
+    "y": 1152,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_the_surveyors_loft"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "relationships": [],
+  "image": null,
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": null
+}

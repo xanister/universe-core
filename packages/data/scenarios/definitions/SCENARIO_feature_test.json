@@ -1,0 +1,11 @@
+{
+  "id": "SCENARIO_feature_test",
+  "label": "The Ticking Box of Destiny (Probably)",
+  "description": "A courier has delivered a box. It ticks. The universe seems unreasonably invested in what you do next. A self-proclaimed expert lurks nearby. Destiny awaits, or at least mild satisfaction.",
+  "backgroundImage": "https://dmnpc-media.s3.us-east-1.amazonaws.com/scenarios/images/SCENARIO_random_adventure.png",
+  "universeId": "loonyverse",
+  "characterId": "CHAR_xanister_majere",
+  "playerStartId": "PLACE_termite_terrace_backlot_gate",
+  "storytellerId": "STORYTELLER_breakneck",
+  "plotId": "PLOT_feature_test"
+}

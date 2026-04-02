@@ -1,0 +1,72 @@
+{
+  "spriteId": "bread_oven",
+  "gridWidth": 3,
+  "gridHeight": 3,
+  "tileSize": 32,
+  "tiles": [
+    {
+      "tilesetId": "food-tavern-cooking",
+      "srcX": 224,
+      "srcY": 64,
+      "col": 0,
+      "row": 0
+    },
+    {
+      "tilesetId": "food-tavern-cooking",
+      "srcX": 256,
+      "srcY": 64,
+      "col": 1,
+      "row": 0
+    },
+    {
+      "tilesetId": "food-tavern-cooking",
+      "srcX": 288,
+      "srcY": 64,
+      "col": 2,
+      "row": 0
+    },
+    {
+      "tilesetId": "food-tavern-cooking",
+      "srcX": 224,
+      "srcY": 96,
+      "col": 0,
+      "row": 1
+    },
+    {
+      "tilesetId": "food-tavern-cooking",
+      "srcX": 256,
+      "srcY": 96,
+      "col": 1,
+      "row": 1
+    },
+    {
+      "tilesetId": "food-tavern-cooking",
+      "srcX": 288,
+      "srcY": 96,
+      "col": 2,
+      "row": 1
+    },
+    {
+      "tilesetId": "food-tavern-cooking",
+      "srcX": 224,
+      "srcY": 128,
+      "col": 0,
+      "row": 2
+    },
+    {
+      "tilesetId": "food-tavern-cooking",
+      "srcX": 256,
+      "srcY": 128,
+      "col": 1,
+      "row": 2
+    },
+    {
+      "tilesetId": "food-tavern-cooking",
+      "srcX": 288,
+      "srcY": 128,
+      "col": 2,
+      "row": 2
+    }
+  ],
+  "updatedAt": "2026-03-02T18:13:33.901Z"
+}

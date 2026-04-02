@@ -1,0 +1,52 @@
+{
+  "id": "OBJ_sanctuary_of_the_sealed_rite_fireplace_0239",
+  "label": "Fireplace",
+  "description": "A Fireplace",
+  "important": false,
+  "short_description": "fireplace",
+  "tags": [
+    "common",
+    "fixture",
+    "heating"
+  ],
+  "entityType": "object",
+  "info": {
+    "purpose": "decoration",
+    "solid": true,
+    "layer": "default",
+    "isStructural": false,
+    "material": null,
+    "tint": null,
+    "spriteConfig": {
+      "spriteId": "fireplace",
+      "frame": null,
+      "animationKey": null,
+      "animated": false,
+      "facing": "south"
+    },
+    "hp": null,
+    "maxHp": null,
+    "state": null,
+    "contents": null,
+    "lightSource": null,
+    "itemId": null,
+    "plotId": null
+  },
+  "position": {
+    "x": 1904,
+    "y": 1536,
+    "width": 96,
+    "height": 96,
+    "parent": "PLACE_sanctuary_of_the_sealed_rite"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "relationships": [],
+  "image": null,
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": null
+}

@@ -1,0 +1,56 @@
+{
+  "id": "OBJ_prism_coil_store_crate_stack_1840",
+  "label": "Stacked Crates",
+  "description": "A stack of wooden crates",
+  "important": false,
+  "short_description": "stacked crates",
+  "tags": [
+    "ship"
+  ],
+  "entityType": "object",
+  "info": {
+    "purpose": "storage",
+    "solid": true,
+    "layer": "default",
+    "isStructural": false,
+    "material": null,
+    "tint": null,
+    "spriteConfig": {
+      "spriteId": "crate_stack",
+      "frame": null,
+      "animationKey": null,
+      "animated": false,
+      "facing": "east"
+    },
+    "hp": null,
+    "maxHp": null,
+    "state": null,
+    "contents": [
+      "antidote_vial",
+      "longsleeve",
+      "boots"
+    ],
+    "lightSource": null,
+    "itemId": null,
+    "plotId": null
+  },
+  "position": {
+    "x": 64,
+    "y": 640,
+    "width": 64,
+    "height": 64,
+    "parent": "PLACE_prism_coil_store"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "relationships": [],
+  "image": null,
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "search"
+  }
+}

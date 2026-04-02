@@ -1,0 +1,18 @@
+{
+  "id": "EVENT_visited_the_gloam_lantern_1772161983164",
+  "date": "999.M1 13:48",
+  "placeId": "PLACE_the_gloam_lantern",
+  "important": false,
+  "importanceScore": null,
+  "scope": null,
+  "relevantPlaceIds": null,
+  "eventType": "location_visited",
+  "category": "world",
+  "subject": "The Gloam Lantern",
+  "subjectId": "PLACE_the_gloam_lantern",
+  "fact": "Visited The Gloam Lantern",
+  "significance": "minor",
+  "witnessIds": [
+    "CHAR_severin_ashcombe"
+  ]
+}

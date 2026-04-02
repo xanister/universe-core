@@ -1,0 +1,144 @@
+{
+  "media": [
+    {
+      "entityType": "music",
+      "mediaType": "audio",
+      "extension": "mp3",
+      "filename": "music/bg_mystery_tavern_slow.mp3",
+      "url": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/audio/music/bg_mystery_tavern_slow.mp3",
+      "size": 1440750,
+      "tags": [
+        "TAG_mystery",
+        "TAG_tavern",
+        "TAG_pace_slow"
+      ],
+      "description": "Eerie, otherworldly, magical, deliberate, contemplative tempo RPG music for a tavern setting."
+    },
+    {
+      "entityType": "music",
+      "mediaType": "audio",
+      "extension": "mp3",
+      "filename": "music/bg_progress_sailing_ship_medium.mp3",
+      "url": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/audio/music/bg_progress_sailing_ship_medium.mp3",
+      "size": 1439914,
+      "tags": [
+        "TAG_progress",
+        "TAG_sailing_ship",
+        "TAG_pace_medium"
+      ],
+      "description": "Suspenseful, uneasy, building anticipation, steady, balanced tempo RPG music for a sailing_ship setting."
+    },
+    {
+      "entityType": "music",
+      "mediaType": "audio",
+      "extension": "mp3",
+      "filename": "music/bg_calm_storage_room_slow.mp3",
+      "url": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/audio/music/bg_calm_storage_room_slow.mp3",
+      "size": 1441586,
+      "tags": [
+        "TAG_calm",
+        "TAG_storage_room",
+        "TAG_pace_slow"
+      ],
+      "description": "Peaceful, reflective, serene, deliberate, contemplative tempo RPG music for a storage_room setting."
+    },
+    {
+      "entityType": "music",
+      "mediaType": "audio",
+      "extension": "mp3",
+      "filename": "music/bg_combat_storage_room_fast.mp3",
+      "url": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/audio/music/bg_combat_storage_room_fast.mp3",
+      "size": 1440750,
+      "tags": [
+        "TAG_combat",
+        "TAG_storage_room",
+        "TAG_pace_fast"
+      ],
+      "description": "Intense, urgent, dangerous, urgent, energetic tempo RPG music for a storage_room setting."
+    },
+    {
+      "entityType": "music",
+      "mediaType": "audio",
+      "extension": "mp3",
+      "filename": "music/bg_melancholy_tavern_slow.mp3",
+      "url": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/audio/music/bg_melancholy_tavern_slow.mp3",
+      "size": 1440750,
+      "tags": [
+        "TAG_melancholy",
+        "TAG_tavern",
+        "TAG_pace_slow"
+      ],
+      "description": "Sad, somber, mournful, deliberate, contemplative tempo RPG music for a tavern setting."
+    },
+    {
+      "entityType": "music",
+      "mediaType": "audio",
+      "extension": "mp3",
+      "filename": "music/bg_mystery_storage_room_medium.mp3",
+      "url": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/audio/music/bg_mystery_storage_room_medium.mp3",
+      "size": 1440750,
+      "tags": [
+        "TAG_mystery",
+        "TAG_storage_room",
+        "TAG_pace_medium"
+      ],
+      "description": "Eerie, otherworldly, magical, steady, balanced tempo RPG music for a storage_room setting."
+    },
+    {
+      "entityType": "music",
+      "mediaType": "audio",
+      "extension": "mp3",
+      "filename": "music/bg_exploration_storage_room_medium.mp3",
+      "url": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/audio/music/bg_exploration_storage_room_medium.mp3",
+      "size": 1440750,
+      "tags": [
+        "TAG_exploration",
+        "TAG_storage_room",
+        "TAG_pace_medium"
+      ],
+      "description": "Curious, adventurous, forward-moving, steady, balanced tempo RPG music for a storage_room setting."
+    },
+    {
+      "entityType": "music",
+      "mediaType": "audio",
+      "extension": "mp3",
+      "filename": "music/bg_combat_cave_fast.mp3",
+      "url": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/audio/music/bg_combat_cave_fast.mp3",
+      "size": 1440750,
+      "tags": [
+        "TAG_combat",
+        "TAG_cave",
+        "TAG_pace_fast"
+      ],
+      "description": "Intense, urgent, dangerous, urgent, energetic tempo RPG music for a cave setting."
+    },
+    {
+      "entityType": "music",
+      "mediaType": "audio",
+      "extension": "mp3",
+      "filename": "music/bg_progress_tavern_medium.mp3",
+      "url": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/audio/music/bg_progress_tavern_medium.mp3",
+      "size": 1440750,
+      "tags": [
+        "TAG_progress",
+        "TAG_tavern",
+        "TAG_pace_medium"
+      ],
+      "description": "Suspenseful, uneasy, building anticipation, steady, balanced tempo RPG music for a tavern setting."
+    },
+    {
+      "entityType": "music",
+      "mediaType": "audio",
+      "extension": "mp3",
+      "filename": "music/bg_progress_residence_medium.mp3",
+      "url": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/audio/music/bg_progress_residence_medium.mp3",
+      "size": 1440750,
+      "tags": [
+        "TAG_progress",
+        "TAG_residence",
+        "TAG_pace_medium"
+      ],
+      "description": "Suspenseful, uneasy, building anticipation, steady, balanced tempo RPG music for a residence setting."
+    }
+  ]
+}

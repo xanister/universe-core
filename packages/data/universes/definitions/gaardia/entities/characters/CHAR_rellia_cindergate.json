@@ -1,0 +1,222 @@
+{
+  "id": "CHAR_rellia_cindergate",
+  "label": "Rellia Cindergate",
+  "description": "This individual presents as an undead human whose dried features and slack posture mark prolonged exposure to death’s desiccating tenure. Gray eyes sit deep in a light, fissured face, and brown hair lies in sparse, brittle lengths that no longer hold a living sheen. The mouth and jaw set in an uneven line, suggesting old fractures that healed without care and remain permanently misaligned. The overall build is wiry and undernourished, with rigid hands and forearms hardened into a laborer’s lasting shape.",
+  "short_description": "undead female rift drudge",
+  "tags": [],
+  "entityType": "character",
+  "info": {
+    "purpose": "undead",
+    "aliases": [
+      "Glass-Gatherer",
+      "Rift Drudge"
+    ],
+    "birthdate": "1021-10-03",
+    "deathdate": null,
+    "title": null,
+    "birthPlace": "Gaardia, Crown Marches",
+    "eyeColor": "gray",
+    "gender": "female",
+    "hairColor": "brown",
+    "hairStyle": "loose",
+    "beardStyle": null,
+    "headType": "human_female",
+    "skinTone": "light",
+    "personality": "A compulsive repeater of former routines, they respond to sound and motion with dull persistence and fixate on simple tasks until interrupted. They exhibit a pronounced aversion to open flame and sudden light, yet maintain a steady attraction to reflective surfaces and vitrified debris, which they gather and stack with ritual regularity. When confronted, they do not bargain or plead; they close distance in silence and continue until physically stopped.",
+    "race": "human",
+    "messages": [],
+    "journal": [],
+    "sketches": [],
+    "verbosity": 3,
+    "conversationContext": null,
+    "storytellerState": null,
+    "isPlayer": false,
+    "storyComplete": false,
+    "routine": {
+      "schedule": {
+        "dawn": "work",
+        "morning": "work",
+        "afternoon": "work",
+        "evening": "work",
+        "night": "work"
+      },
+      "home": {
+        "placeId": "PLACE_the_vitrified_rift",
+        "description": "The Vitrified Rift",
+        "areaHint": null
+      },
+      "work": {
+        "placeId": "PLACE_the_vitrified_rift",
+        "description": "The Vitrified Rift",
+        "areaHint": null
+      },
+      "leisure": null,
+      "variance": 0.2,
+      "activities": {
+        "work": "undead_patrol"
+      }
+    },
+    "vesselRoutes": null,
+    "abstractLocation": null,
+    "npcBehavior": null,
+    "physicalState": null,
+    "pendingDeparture": null,
+    "pendingArrival": null,
+    "lastRoutineCheckPeriod": null,
+    "startingNarrative": null,
+    "startingCharacterState": null,
+    "clothing": [
+      {
+        "slot": "torso_under",
+        "itemId": "tunic",
+        "color": "#808080",
+        "contents": null
+      },
+      {
+        "slot": "torso_over",
+        "itemId": "trenchcoat",
+        "color": "#3a3a3a",
+        "contents": null
+      },
+      {
+        "slot": "legs",
+        "itemId": "cloth_pants",
+        "color": "#8b4513",
+        "contents": null
+      },
+      {
+        "slot": "feet",
+        "itemId": "boots",
+        "color": "#1a1a1a",
+        "contents": null
+      },
+      {
+        "slot": "belt",
+        "itemId": "rope_belt",
+        "color": "#d2b48c",
+        "contents": []
+      },
+      {
+        "slot": "head",
+        "itemId": "cloth_hood",
+        "color": "#3a3a3a",
+        "contents": null
+      },
+      {
+        "slot": "hands",
+        "itemId": "cloth_gloves",
+        "color": "#808080",
+        "contents": null
+      }
+    ],
+    "enabledOverlayLayers": [
+      "eyes",
+      "facial"
+    ],
+    "helmingVesselId": null,
+    "storytellerDisabled": false,
+    "rulesetState": {
+      "stats": {
+        "poise": 50,
+        "max_poise": 50
+      },
+      "conditions": [],
+      "statUsage": {},
+      "incapacitation": null,
+      "incapacitatedSince": null
+    },
+    "voiceId": "sarah",
+    "spriteConfig": {
+      "bodyType": "female",
+      "layers": [
+        {
+          "type": "body",
+          "optionId": "body_base",
+          "tint": 15780008
+        },
+        {
+          "type": "body",
+          "optionId": "body_universal",
+          "tint": 15780008
+        },
+        {
+          "type": "eyes",
+          "optionId": "eyes_eyes",
+          "tint": 8423560
+        },
+        {
+          "type": "torso",
+          "optionId": "torso_white_tunic",
+          "tint": 8421504
+        },
+        {
+          "type": "legs",
+          "optionId": "legs_white_pants_female",
+          "tint": 9127187
+        },
+        {
+          "type": "feet",
+          "optionId": "feet_white_boots_female",
+          "tint": 1710618
+        },
+        {
+          "type": "head",
+          "optionId": "head_cloth_hood_female",
+          "tint": 3815994
+        },
+        {
+          "type": "hands",
+          "optionId": "hands_white_gloves_female",
+          "tint": 8421504
+        }
+      ],
+      "spriteHash": "0e149e85eec55f0d",
+      "spriteUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/sprites/generated/0e149e85eec55f0d.png"
+    }
+  },
+  "position": {
+    "x": 1328,
+    "y": 1520,
+    "width": 32,
+    "height": 48,
+    "parent": "PLACE_the_vitrified_rift"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/gaardia/images/portrait-pool/undead/0.png",
+  "faceAnchorY": 0.19,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "talk"
+  },
+  "relationships": [
+    {
+      "targetId": "CHAR_eldric_vitrane",
+      "type": "acquaintance",
+      "disposition": 0,
+      "familiarity": 40,
+      "context": "Both persist in PLACE_the_vitrified_rift with similar repetitive, fixation-driven undead behavior; likely to have encountered each other in overlapping routines rather than formed any cooperative bond.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_veskan_dorr",
+      "type": "acquaintance",
+      "disposition": 0,
+      "familiarity": 40,
+      "context": "Co-occupants of PLACE_the_vitrified_rift with patrol/route-like repetition and proximity-triggered hostility; likely to be aware of each other through repeated crossings.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_sevrik_ashmere",
+      "type": "acquaintance",
+      "disposition": 0,
+      "familiarity": 40,
+      "context": "Both operate within PLACE_the_vitrified_rift on fixed circuits and respond to stimuli with rigid, rote behavior; repeated contact is plausible without implying teamwork or hierarchy.",
+      "pendingGeneration": false
+    }
+  ],
+  "important": false
+}

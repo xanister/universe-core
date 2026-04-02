@@ -1,0 +1,8 @@
+{
+  "version": "3.0.0",
+  "basePath": "/sprites/terrain",
+  "description": "Terrain tilesets for autotile-based game backgrounds. Blob-47 tilesets derived from LPC terrain-v7.",
+  "license": "CC-BY-SA 3.0 / CC-BY-SA 4.0",
+  "source": "https://opengameart.org/content/lpc-terrains",
+  "credits": "See CREDITS.md"
+}

@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_gleamthread_dust_vault",
+  "label": "Gleamthread Dust Vault",
+  "description": "Gleamthread Dust Vault occupies a sealed rear chamber of Gleamthread Lapidary, built of basalt glass blockwork whose joints are traced with seam-line datum marks. Tiered vitrified shelving holds stoppered ampoules and slumped-glass bins, each set into mirror-slag recesses that stabilize the shop’s calibrated sightlines. The air remains deliberately dry and faintly charged, keeping glass dust fixed to collection trays and preventing drift across stored abrasives. A narrow slit-lamp fed from the lightwell casts copper-white bands across labeled strata, turning inventory into an optical register of grade and grit.",
+  "short_description": "charged dust storeroom",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "storage_room",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.9
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "door_wooden",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/hushlight_expanse/images/battles/PLACE_gleamthread_dust_vault.png?v=1772314126336",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 1520,
+    "y": 1152,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_gleamthread_lapidary",
+    "innerWidth": 512,
+    "innerHeight": 544
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/hushlight_expanse/images/places/PLACE_gleamthread_dust_vault.png?v=1772314174352",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

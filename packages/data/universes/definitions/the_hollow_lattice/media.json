@@ -1,0 +1,18 @@
+{
+  "media": [
+    {
+      "entityType": "music",
+      "mediaType": "audio",
+      "extension": "mp3",
+      "filename": "music/bg_exploration_sailing_ship_medium.mp3",
+      "url": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/the_hollow_lattice/audio/music/bg_exploration_sailing_ship_medium.mp3",
+      "size": 1440750,
+      "tags": [
+        "TAG_exploration",
+        "TAG_sailing_ship",
+        "TAG_pace_medium"
+      ],
+      "description": "Curious, adventurous, forward-moving, steady, balanced tempo RPG music for a sailing_ship setting."
+    }
+  ]
+}

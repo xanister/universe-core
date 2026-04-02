@@ -1,0 +1,24 @@
+{
+  "id": "trophy_wildcat",
+  "name": "Wildcat Trophy",
+  "description": "A mounted wildcat head on a wooden shield plaque.",
+  "purposes": [
+    "decoration",
+    "tavern",
+    "residence"
+  ],
+  "tags": [
+    "tavern",
+    "wall"
+  ],
+  "solid": false,
+  "layer": "overhead",
+  "spriteId": "trophy_wildcat",
+  "materials": [
+    "wood",
+    "leather",
+    "bone"
+  ],
+  "tintable": false,
+  "wallVerticalOffset": -1
+}

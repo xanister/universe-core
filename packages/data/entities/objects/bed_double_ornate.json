@@ -1,0 +1,21 @@
+{
+  "id": "bed_double_ornate",
+  "name": "Double Bed (Ornate)",
+  "description": "A luxurious double bed with an ornate patterned coverlet and fringe.",
+  "purposes": [
+    "sleeping"
+  ],
+  "tags": [
+    "common",
+    "furniture",
+    "bedroom"
+  ],
+  "solid": true,
+  "layer": "default",
+  "spriteId": "bed_double_ornate",
+  "materials": [
+    "wood",
+    "fabric"
+  ],
+  "tintable": false
+}

@@ -1,0 +1,20 @@
+{
+  "id": "EVENT_charperrinhalvay_surveyed_placecharterbreakquay_1772414892262",
+  "date": "06.01.11 4A 13:58",
+  "placeId": "PLACE_charterbreak_quay",
+  "eventType": null,
+  "category": "world",
+  "subject": "Charterbreak Quay",
+  "subjectId": "PLACE_charterbreak_quay",
+  "fact": "CHAR_perrin_halvay surveyed PLACE_charterbreak_quay",
+  "significance": "moderate",
+  "witnessIds": [
+    "CHAR_perrin_halvay"
+  ],
+  "important": false,
+  "importanceScore": null,
+  "scope": "local",
+  "relevantPlaceIds": [
+    "PLACE_charterbreak_quay"
+  ]
+}

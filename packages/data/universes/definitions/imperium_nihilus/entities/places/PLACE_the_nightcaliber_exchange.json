@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_the_nightcaliber_exchange",
+  "label": "The Nightcaliber Exchange",
+  "description": "The Nightcaliber Exchange is a compact arms-shop set into the vitrified stone of Vespera Tertius Nocturnis Bastion, its facade reinforced with scavenged wreck-plate and slit-like viewports. Racks and wall-lockers of blackened metal line the interior in regimented bays, each secured by numbered seals and heavy restraint bars suited to a fortress city under constant threat. The air carries the tang of promethium oil and abrasive ash, held at bay by gasketed doors and a low-pressure filtration hood that hums against the bastion’s vox-fouled atmosphere. A recessed counter of slagcrete and ceramite dominates the front, backed by a gridded ledger wall and a stubby auspex post built to function under auroral interference.",
+  "short_description": "fortress-city arms shop",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "weapon_shop",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "building_shop",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/battles/PLACE_the_nightcaliber_exchange.png?v=1771951228960",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 1424,
+    "y": 896,
+    "width": 160,
+    "height": 256,
+    "parent": "PLACE_vespera_tertius_nocturnis_bastion",
+    "innerWidth": 1024,
+    "innerHeight": 1920
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/places/PLACE_the_nightcaliber_exchange.png?v=1771951281089",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

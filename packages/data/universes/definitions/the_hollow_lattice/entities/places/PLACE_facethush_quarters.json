@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_facethush_quarters",
+  "label": "Facet-Hush Quarters",
+  "description": "Facet-Hush Quarters serves as the private sleeping room set behind the Armory’s angle-scored façade, its walls formed from prismatic panels ground to suppress glare into stable, low-spectrum planes. A narrow sleep dais of etched glass anchors the space, its gridlines continuing the shop’s calibration geometry in smaller scale. Storage is cut as rectilinear voids within dark crystalline slats, keeping personal effects in strict alignment with meridian angles. Illumination enters through a single slit aperture that splits light into fixed bands, leaving deliberate intervals of absolute shadow across the floor.",
+  "short_description": "prismatic sleeping chamber",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "bedroom",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "door_wooden",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/the_hollow_lattice/images/battles/PLACE_facethush_quarters.png?v=1772314371666",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 1808,
+    "y": 160,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_the_lattice_armory",
+    "innerWidth": 576,
+    "innerHeight": 608
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": null,
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

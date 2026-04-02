@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_courtyardlight_bedchamber",
+  "label": "Courtyardlight Bedchamber",
+  "description": "Courtyardlight Bedchamber constitutes a compact sleeping room opening onto the house’s inward court, where ribbed saltglass panes impose a steady, pale illumination. Basalt walls carry a mineral-wash finish and shallow buttress ribs that register the residence’s engineering against Brineshade’s tidal stresses. A low sleeping dais and built-in niches are cut directly into the masonry, minimizing loose furnishings in the mineral-laden air. Light is further regulated by a shuttered interior screen and layered baffles that reduce terminator glare without extinguishing optical clarity.",
+  "short_description": "pale-lit basalt bedroom",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "bedroom",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "door_wooden",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/the_brine_lattice/images/battles/PLACE_courtyardlight_bedchamber.png?v=1772313936179",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 784,
+    "y": 160,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_saltglass_courtyard_house",
+    "innerWidth": 512,
+    "innerHeight": 608
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/the_brine_lattice/images/places/PLACE_courtyardlight_bedchamber.png?v=1772314028765",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

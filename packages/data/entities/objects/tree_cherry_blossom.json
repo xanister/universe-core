@@ -1,0 +1,23 @@
+{
+  "id": "tree_cherry_blossom",
+  "name": "Cherry Blossom Tree",
+  "description": "A delicate tree adorned with pink blossoms. Adds a spring atmosphere to outdoor areas.",
+  "purposes": [
+    "tree"
+  ],
+  "tags": [
+    "outdoor",
+    "nature",
+    "tree",
+    "foliage",
+    "forest",
+    "blossom"
+  ],
+  "solid": true,
+  "layer": "default",
+  "spriteId": "tree_cherry_blossom",
+  "materials": [
+    "wood"
+  ],
+  "tintable": false
+}

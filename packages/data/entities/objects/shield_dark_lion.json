@@ -1,0 +1,22 @@
+{
+  "id": "shield_dark_lion",
+  "name": "Dark Heraldic Lion Shield",
+  "description": "A dark navy shield with a gold rampant lion.",
+  "purposes": [
+    "decoration",
+    "tavern",
+    "residence"
+  ],
+  "tags": [
+    "tavern",
+    "wall"
+  ],
+  "solid": false,
+  "layer": "overhead",
+  "spriteId": "shield_dark_lion",
+  "materials": [
+    "iron"
+  ],
+  "tintable": false,
+  "wallVerticalOffset": -1
+}

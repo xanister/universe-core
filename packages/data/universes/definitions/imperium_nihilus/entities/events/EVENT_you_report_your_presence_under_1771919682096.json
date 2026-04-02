@@ -1,0 +1,16 @@
+{
+  "id": "EVENT_you_report_your_presence_under_1771919682096",
+  "date": null,
+  "placeId": null,
+  "eventType": null,
+  "category": "world",
+  "subject": "Background",
+  "subjectId": null,
+  "fact": "You report your presence under Imperial authority and are directed to wait in a controlled civilian muster point: the Ashlight Canteen.",
+  "significance": "major",
+  "important": true,
+  "witnessIds": null,
+  "importanceScore": null,
+  "scope": null,
+  "relevantPlaceIds": null
+}

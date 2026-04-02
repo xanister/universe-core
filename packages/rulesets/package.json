@@ -1,0 +1,154 @@
+{
+  "name": "@dmnpc/rulesets",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Pluggable ruleset implementations for DMNPC game resolution",
+  "exports": {
+    ".": {
+      "@dmnpc-source": "./src/index.ts",
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "default": "./dist/index.js"
+    },
+    "./index.js": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "default": "./dist/index.js"
+    },
+    "./dice.js": {
+      "types": "./dist/dice.d.ts",
+      "import": "./dist/dice.js",
+      "default": "./dist/dice.js"
+    },
+    "./dice": {
+      "types": "./dist/dice.d.ts",
+      "import": "./dist/dice.js",
+      "default": "./dist/dice.js"
+    },
+    "./registry.js": {
+      "types": "./dist/registry.d.ts",
+      "import": "./dist/registry.js",
+      "default": "./dist/registry.js"
+    },
+    "./registry": {
+      "types": "./dist/registry.d.ts",
+      "import": "./dist/registry.js",
+      "default": "./dist/registry.js"
+    },
+    "./stat-generator.js": {
+      "@dmnpc-source": "./src/stat-generator.ts",
+      "types": "./dist/stat-generator.d.ts",
+      "import": "./dist/stat-generator.js",
+      "default": "./dist/stat-generator.js"
+    },
+    "./stat-generator": {
+      "@dmnpc-source": "./src/stat-generator.ts",
+      "types": "./dist/stat-generator.d.ts",
+      "import": "./dist/stat-generator.js",
+      "default": "./dist/stat-generator.js"
+    },
+    "./weapon-assigner.js": {
+      "@dmnpc-source": "./src/weapon-assigner.ts",
+      "types": "./dist/weapon-assigner.d.ts",
+      "import": "./dist/weapon-assigner.js",
+      "default": "./dist/weapon-assigner.js"
+    },
+    "./weapon-assigner": {
+      "@dmnpc-source": "./src/weapon-assigner.ts",
+      "types": "./dist/weapon-assigner.d.ts",
+      "import": "./dist/weapon-assigner.js",
+      "default": "./dist/weapon-assigner.js"
+    },
+    "./basic/basic-ruleset.js": {
+      "types": "./dist/basic/basic-ruleset.d.ts",
+      "import": "./dist/basic/basic-ruleset.js",
+      "default": "./dist/basic/basic-ruleset.js"
+    },
+    "./basic/basic-ruleset": {
+      "types": "./dist/basic/basic-ruleset.d.ts",
+      "import": "./dist/basic/basic-ruleset.js",
+      "default": "./dist/basic/basic-ruleset.js"
+    },
+    "./basic/combat-ai.js": {
+      "types": "./dist/basic/combat-ai.d.ts",
+      "import": "./dist/basic/combat-ai.js",
+      "default": "./dist/basic/combat-ai.js"
+    },
+    "./basic/combat-ai": {
+      "types": "./dist/basic/combat-ai.d.ts",
+      "import": "./dist/basic/combat-ai.js",
+      "default": "./dist/basic/combat-ai.js"
+    },
+    "./basic/combat-checks.js": {
+      "types": "./dist/basic/combat-checks.d.ts",
+      "import": "./dist/basic/combat-checks.js",
+      "default": "./dist/basic/combat-checks.js"
+    },
+    "./basic/combat-checks": {
+      "types": "./dist/basic/combat-checks.d.ts",
+      "import": "./dist/basic/combat-checks.js",
+      "default": "./dist/basic/combat-checks.js"
+    },
+    "./basic/modifier-stacking.js": {
+      "types": "./dist/basic/modifier-stacking.d.ts",
+      "import": "./dist/basic/modifier-stacking.js",
+      "default": "./dist/basic/modifier-stacking.js"
+    },
+    "./basic/modifier-stacking": {
+      "types": "./dist/basic/modifier-stacking.d.ts",
+      "import": "./dist/basic/modifier-stacking.js",
+      "default": "./dist/basic/modifier-stacking.js"
+    },
+    "./basic/date-utils.js": {
+      "types": "./dist/basic/date-utils.d.ts",
+      "import": "./dist/basic/date-utils.js",
+      "default": "./dist/basic/date-utils.js"
+    },
+    "./basic/date-utils": {
+      "types": "./dist/basic/date-utils.d.ts",
+      "import": "./dist/basic/date-utils.js",
+      "default": "./dist/basic/date-utils.js"
+    },
+    "./poc/poc-ruleset.js": {
+      "types": "./dist/poc/poc-ruleset.d.ts",
+      "import": "./dist/poc/poc-ruleset.js",
+      "default": "./dist/poc/poc-ruleset.js"
+    },
+    "./poc/poc-ruleset": {
+      "types": "./dist/poc/poc-ruleset.d.ts",
+      "import": "./dist/poc/poc-ruleset.js",
+      "default": "./dist/poc/poc-ruleset.js"
+    }
+  },
+  "files": [
+    "src",
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepare": "tsc",
+    "lint": "eslint src",
+    "lint:fix": "eslint src --fix",
+    "format": "prettier --write src",
+    "format:check": "prettier --check src",
+    "test": "vitest run",
+    "test:coverage": "vitest run --coverage",
+    "test:unit": "vitest run .unit.",
+    "test:watch": "vitest",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@dmnpc/types": "workspace:*"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.2",
+    "eslint": "^9.39.2",
+    "eslint-config-prettier": "^10.1.8",
+    "prettier": "^3.7.4",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.52.0",
+    "@vitest/coverage-v8": "^3.2.4",
+    "vite-tsconfig-paths": "^5.1.4",
+    "vitest": "^3.2.4"
+  }
+}

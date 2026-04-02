@@ -1,0 +1,21 @@
+{
+  "id": "porcelain_vase_blue",
+  "name": "Blue Porcelain Vase",
+  "description": "A decorative blue porcelain vase.",
+  "purposes": [
+    "decoration"
+  ],
+  "tags": [
+    "common",
+    "decoration",
+    "tavern",
+    "ornate"
+  ],
+  "solid": false,
+  "layer": "default",
+  "spriteId": "porcelain_vase_blue",
+  "materials": [
+    "ceramic"
+  ],
+  "tintable": false
+}

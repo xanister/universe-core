@@ -1,0 +1,163 @@
+[
+  {
+    "id": "human",
+    "label": "Human",
+    "allowedHeadTypes": ["human_male", "human_female", "human_male_elderly", "human_female_elderly"],
+    "allowedBodyTypes": ["male", "female", "muscular"],
+    "allowedSkinColors": ["amber", "bronze", "brown", "light", "olive", "taupe"],
+    "featureLayers": [
+      { "layerType": "eyes", "styles": ["default"], "chance": 1.0, "playerSelectable": false },
+      { "layerType": "nose", "styles": ["buttonnose"], "chance": 0, "playerSelectable": true },
+      { "layerType": "facial", "styles": ["beard", "bigstache", "mustache", "fiveoclock", "frenchstache", "stubble", "winter", "medium", "trimmed", "horseshoe", "lampshade", "handlebar", "chevron", "walrus"], "chance": 0.3, "playerSelectable": true }
+    ],
+    "genderHeadMap": { "male": "human_male", "female": "human_female" },
+    "playerSelectable": true
+  },
+  {
+    "id": "elf",
+    "label": "Elf",
+    "allowedHeadTypes": ["human_male", "human_female"],
+    "allowedBodyTypes": ["male", "female"],
+    "allowedSkinColors": ["light", "lavender", "pale_green", "amber", "bronze", "taupe"],
+    "featureLayers": [
+      { "layerType": "ears", "styles": ["elvenears"], "chance": 1.0, "playerSelectable": false },
+      { "layerType": "eyes", "styles": ["default"], "chance": 1.0, "playerSelectable": false },
+      { "layerType": "nose", "styles": ["buttonnose"], "chance": 0, "playerSelectable": true }
+    ],
+    "genderHeadMap": { "male": "human_male", "female": "human_female" },
+    "playerSelectable": true
+  },
+  {
+    "id": "orc",
+    "label": "Orc",
+    "allowedHeadTypes": ["orc_male", "orc_female"],
+    "allowedBodyTypes": ["male", "female", "muscular"],
+    "allowedSkinColors": ["green", "bright_green", "dark_green", "olive"],
+    "featureLayers": [],
+    "genderHeadMap": { "male": "orc_male", "female": "orc_female" },
+    "playerSelectable": true
+  },
+  {
+    "id": "wolf",
+    "label": "Wolf",
+    "allowedHeadTypes": ["wolf_male", "wolf_female"],
+    "allowedBodyTypes": ["male", "female", "muscular"],
+    "allowedSkinColors": ["fur_black", "fur_brown", "fur_copper", "fur_gold", "fur_grey", "fur_tan", "fur_white"],
+    "featureLayers": [],
+    "genderHeadMap": { "male": "wolf_male", "female": "wolf_female" },
+    "playerSelectable": true
+  },
+  {
+    "id": "lizard",
+    "label": "Lizard",
+    "allowedHeadTypes": ["lizard_male", "lizard_female"],
+    "allowedBodyTypes": ["male", "female"],
+    "allowedSkinColors": ["blue", "bright_green", "dark_green", "bronze", "green"],
+    "featureLayers": [],
+    "genderHeadMap": { "male": "lizard_male", "female": "lizard_female" },
+    "playerSelectable": true
+  },
+  {
+    "id": "minotaur",
+    "label": "Minotaur",
+    "allowedHeadTypes": ["minotaur"],
+    "allowedBodyTypes": ["muscular", "male"],
+    "allowedSkinColors": ["fur_brown", "fur_copper", "fur_gold", "fur_tan", "brown", "bronze"],
+    "featureLayers": [],
+    "genderHeadMap": null,
+    "playerSelectable": true
+  },
+  {
+    "id": "boarman",
+    "label": "Boarman",
+    "allowedHeadTypes": ["boarman"],
+    "allowedBodyTypes": ["male", "muscular"],
+    "allowedSkinColors": ["fur_brown", "fur_copper", "fur_tan", "brown", "bronze", "amber"],
+    "featureLayers": [],
+    "genderHeadMap": null,
+    "playerSelectable": true
+  },
+  {
+    "id": "skeleton",
+    "label": "Skeleton",
+    "allowedHeadTypes": ["skeleton"],
+    "allowedBodyTypes": ["skeleton"],
+    "allowedSkinColors": ["light"],
+    "featureLayers": [],
+    "genderHeadMap": null,
+    "playerSelectable": false
+  },
+  {
+    "id": "zombie",
+    "label": "Zombie",
+    "allowedHeadTypes": ["human_zombie", "zombie"],
+    "allowedBodyTypes": ["zombie"],
+    "allowedSkinColors": ["zombie", "zombie_green"],
+    "featureLayers": [],
+    "genderHeadMap": null,
+    "playerSelectable": false
+  },
+  {
+    "id": "child_human",
+    "label": "Human Child",
+    "allowedHeadTypes": ["human_child"],
+    "allowedBodyTypes": ["male", "female"],
+    "allowedSkinColors": ["amber", "bronze", "brown", "light", "olive", "taupe"],
+    "featureLayers": [
+      { "layerType": "eyes", "styles": ["default"], "chance": 1.0, "playerSelectable": false },
+      { "layerType": "nose", "styles": ["buttonnose"], "chance": 0, "playerSelectable": true }
+    ],
+    "genderHeadMap": null,
+    "playerSelectable": false
+  },
+  {
+    "id": "child_orc",
+    "label": "Orc Child",
+    "allowedHeadTypes": ["orc_child"],
+    "allowedBodyTypes": ["male", "female"],
+    "allowedSkinColors": ["green", "bright_green", "dark_green", "olive"],
+    "featureLayers": [],
+    "genderHeadMap": null,
+    "playerSelectable": false
+  },
+  {
+    "id": "child_wolf",
+    "label": "Wolf Child",
+    "allowedHeadTypes": ["wolf_child"],
+    "allowedBodyTypes": ["male", "female"],
+    "allowedSkinColors": ["fur_black", "fur_brown", "fur_copper", "fur_gold", "fur_grey", "fur_tan", "fur_white"],
+    "featureLayers": [],
+    "genderHeadMap": null,
+    "playerSelectable": false
+  },
+  {
+    "id": "child_lizard",
+    "label": "Lizard Child",
+    "allowedHeadTypes": ["lizard_child"],
+    "allowedBodyTypes": ["male", "female"],
+    "allowedSkinColors": ["blue", "bright_green", "dark_green", "bronze", "green"],
+    "featureLayers": [],
+    "genderHeadMap": null,
+    "playerSelectable": false
+  },
+  {
+    "id": "child_minotaur",
+    "label": "Minotaur Child",
+    "allowedHeadTypes": ["minotaur_child"],
+    "allowedBodyTypes": ["male", "female"],
+    "allowedSkinColors": ["fur_brown", "fur_copper", "fur_gold", "fur_tan", "brown", "bronze"],
+    "featureLayers": [],
+    "genderHeadMap": null,
+    "playerSelectable": false
+  },
+  {
+    "id": "child_boarman",
+    "label": "Boarman Child",
+    "allowedHeadTypes": ["boarman_child"],
+    "allowedBodyTypes": ["male", "female"],
+    "allowedSkinColors": ["fur_brown", "fur_copper", "fur_tan", "brown", "bronze", "amber"],
+    "featureLayers": [],
+    "genderHeadMap": null,
+    "playerSelectable": false
+  }
+]

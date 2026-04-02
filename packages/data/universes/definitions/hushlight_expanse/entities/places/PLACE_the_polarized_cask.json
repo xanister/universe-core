@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_the_polarized_cask",
+  "label": "The Polarized Cask",
+  "description": "The Polarized Cask operates as a pressurized tavern set into Halo Quietus Port’s black-ceramic concourse, its walls faced with prismatic laminates that break the copper-white twilight into disciplined bands. A long, low bar of vitrified glass runs the central axis, its surface threaded with faint charge channels that echo the system’s debris-belt arcs. Seating niches are recessed into sound-damping ribs, and the air-handling grilles maintain a constant hush suited to the port’s low-light servicing culture. Narrow observation slits of polarized mirror look onto approach lines without admitting glare, binding the room’s interior calm to the geometry of the heliopause halo.",
+  "short_description": "hushlit prismatic tavern",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "tavern",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "building_tavern",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/hushlight_expanse/images/battles/PLACE_the_polarized_cask.png?v=1772313878182",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 48,
+    "y": 2304,
+    "width": 160,
+    "height": 256,
+    "parent": "PLACE_halo_quietus_port",
+    "innerWidth": 1280,
+    "innerHeight": 1504
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/hushlight_expanse/images/places/PLACE_the_polarized_cask.png?v=1772313963509",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_meridian_sleepcell",
+  "label": "Meridian Sleepcell",
+  "description": "Meridian Sleepcell is a wedge-shaped bedroom cut into the dark crystalline strata behind The Refraction Cask, its walls faced in ground prismglass set to strict meridian angles. A low platform bed of fused shardglass anchors the narrow end of the chamber, while a recessed niche holds folded linens and sealed drinking flasks in light-absorbing alcoves. Lattice-aligned louvers admit a thin, regulated ribbon of refracted color that falls as a fixed band across the floor, leaving the remainder in engineered shadow. Faceted acoustic baffles line the ceiling ribs, maintaining the tavern’s disciplined quiet within a space built for rest.",
+  "short_description": "prismatic quiet sleepcell",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "bedroom",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "door_wooden",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/the_hollow_lattice/images/battles/PLACE_meridian_sleepcell.png?v=1772314087602",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 432,
+    "y": 160,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_the_refraction_cask",
+    "innerWidth": 608,
+    "innerHeight": 576
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/the_hollow_lattice/images/places/PLACE_meridian_sleepcell.png?v=1772314141177",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

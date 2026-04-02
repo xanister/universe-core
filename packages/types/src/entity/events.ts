@@ -1,0 +1,153 @@
+/**
+ * Event and fact types.
+ */
+
+/**
+ * How significant an event or fact is.
+ */
+export type EventSignificance = 'minor' | 'moderate' | 'major';
+
+/**
+ * A structured fact about an entity or event.
+ * Used for journal entries and context injection.
+ */
+export interface Fact {
+  /** In-game date when this fact was recorded (e.g., "02.01.1477 4A"). Optional for journal entry facts (inherited from JournalEntry.gameDate). */
+  date?: string;
+  /** Place ID where this fact was recorded (e.g., "PLACE_tavern"). */
+  placeId: string | null;
+  /** Category of the fact */
+  category: 'world' | 'relationship' | 'knowledge' | 'constraint';
+  /** Entity label or concept name this fact is about */
+  subject: string;
+  /** Entity ID if the subject is a known entity */
+  subjectId: string | null;
+  /** Concise description of the fact */
+  fact: string;
+  /** How significant this fact is */
+  significance: EventSignificance;
+  /** If true, this fact survives universe reset. Use for core character backstory/defining events. */
+  important: boolean;
+}
+
+/**
+ * Alias for Fact. Prefer using Fact directly for new code.
+ */
+export type JournalFact = Fact;
+
+/**
+ * Structured event types for categorizing universe events.
+ * Used for filtering, importance scoring, and semantic queries.
+ */
+export type EventType =
+  // Discovery & Information
+  | 'name_revealed' // Character's true name learned
+  | 'secret_learned' // Hidden information discovered
+  | 'location_discovered' // Learned about a place (heard of it)
+  | 'location_visited' // Physically visited a place
+
+  // Movement & Presence
+  | 'entity_arrived' // Character arrived at location
+  | 'entity_departed' // Character left location
+  | 'first_meeting' // Characters meet for first time
+  | 'vessel_departed' // Vessel departed from port
+  | 'vessel_arrived' // Vessel arrived at destination
+
+  // Relationships
+  | 'alliance_formed' // Positive relationship established
+  | 'betrayal' // Trust broken
+  | 'promise_made' // Commitment given
+
+  // Combat & Conflict
+  | 'combat_outcome' // Fight concluded
+  | 'injury_sustained' // Character hurt
+  | 'death' // Character died
+
+  // Story Progress
+  | 'goal_achieved' // Plot goal completed
+  | 'goal_failed' // Plot goal failed
+  | 'turning_point' // Major plot event triggered
+  | 'item_obtained' // Important item acquired
+  | 'item_lost' // Important item lost
+
+  // Historical/World Events (common knowledge)
+  | 'founding' // City/nation/organization founded
+  | 'war' // Major conflict or battle
+  | 'treaty' // Peace agreement or alliance
+  | 'catastrophe' // Natural disaster, magical cataclysm, plague
+  | 'ruler_change' // Coronation, death of ruler, coup
+  | 'discovery' // Major discovery or invention
+  | 'historical' // General historical event
+
+  // General
+  | 'other'; // Fallback for uncategorized events
+
+/**
+ * A universe-level event that happened in the world.
+ * Events are stored at the universe level as the single source of truth.
+ * Characters reference events through Memory objects.
+ */
+export interface UniverseEvent {
+  /** Unique identifier (EVENT_xxx format) */
+  id: string;
+  /** In-game date when this event occurred (e.g., "02.01.1477 4A") */
+  date: string | null;
+  /** Place ID where this event occurred */
+  placeId: string | null;
+  /** Structured event type for filtering and scoring */
+  eventType: EventType | null;
+  /** Category of the event */
+  category: 'world' | 'relationship' | 'knowledge' | 'constraint';
+  /** Entity label or concept name this event is about */
+  subject: string;
+  /** Entity ID if the subject is a known entity */
+  subjectId: string | null;
+  /** Concise description of what happened */
+  fact: string;
+  /** How significant this event is */
+  significance: EventSignificance;
+  /** If true, this event survives universe reset */
+  important: boolean;
+  /** Character IDs who witnessed or were involved in this event */
+  witnessIds: string[] | null;
+  /** Calculated importance score (0-100) for pruning decisions */
+  importanceScore: number | null;
+  /** Scope of common knowledge (for historical events) */
+  scope: 'global' | 'regional' | 'local' | null;
+  /** Place IDs where this event is particularly relevant (for historical events) */
+  relevantPlaceIds: string[] | null;
+}
+
+/**
+ * A journal entry written by a character, typically at the end of a day.
+ * Contains narrative content and structured facts for later reference.
+ */
+export interface JournalEntry {
+  /** The narrative journal content written from the character's perspective */
+  content: string;
+  /** Image URL (sketch/illustration for the entry) */
+  image: string | null;
+  /** In-game date when the entry was written (e.g., "02.01.1477 4A") */
+  gameDate: string;
+  /** Structured facts extracted from the journal content */
+  facts: JournalFact[];
+  /** Additional unstructured context that didn't fit the narrative format */
+  context: string | null;
+}
+
+/**
+ * A sketch/scene image generated by a character during gameplay.
+ * Created when the player performs creative actions like "I sketch the scene".
+ */
+export interface Sketch {
+  /** URL to the generated sketch image */
+  imageUrl: string;
+  /** In-game date when the sketch was created (e.g., "02.01.1477 4A") */
+  gameDate: string;
+  /** Place ID where the sketch was created */
+  placeId: string;
+  /** Display name of the place where the sketch was created */
+  placeLabel: string;
+  /** Focus description (what the player wanted to capture) */
+  focus: string | null;
+}

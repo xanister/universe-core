@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_the_index_lantern",
+  "label": "The Index Lantern",
+  "description": "The Index Lantern serves as a licensed tavern set into Continuum Anchorage’s ring of black composite and radiant conductor-ribs. Its vaulted interior carries transit indices as inlay along the walls and ceiling, converting navigational notation into permanent ornament. Seating bays are partitioned by pressure-rated bulkheads and acoustic baffles, while a central service bar of polished conductor-metal reflects the station’s fixed fields of darkness and radiance. Lighting remains steady under engineered time and inertia gradients, producing a controlled, unvarying gloom suited to interstitial layovers.",
+  "short_description": "dim indexed tavern",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "tavern",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "building_tavern",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/the_brine_lattice/images/battles/PLACE_the_index_lantern.png?v=1772313693940",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 2640,
+    "y": 896,
+    "width": 160,
+    "height": 256,
+    "parent": "PLACE_continuum_anchorage",
+    "innerWidth": 1120,
+    "innerHeight": 928
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/the_brine_lattice/images/places/PLACE_the_index_lantern.png?v=1772313746886",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

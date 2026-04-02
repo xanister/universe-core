@@ -1,0 +1,206 @@
+{
+  "id": "CHAR_serah_tindal",
+  "label": "Serah Tindal",
+  "description": "This individual is a human woman of settled middle years, set in a compact, well-fed frame shaped by long indoor labor rather than fieldwork. Brown eyes sit beneath carefully kept blonde hair worn in a tidy shoulderl style, and taupe skin bears the faint, permanent ink-stains and shallow finger-scars typical of constant handling of cord, wax, and coin. The face is broad through the cheek with a firm jawline and fine vertical lines at the mouth, features associated with habitual bargaining and close scrutiny. The hands remain the most defining mark: thickened at the fingertips, with hardened pads and a slight bend to two knuckles from repeated lifting of trade chests and casks.",
+  "short_description": "well-dressed female merchant",
+  "tags": [],
+  "entityType": "character",
+  "info": {
+    "purpose": "merchant",
+    "aliases": [
+      "Tally Serah",
+      "The Measure-Woman"
+    ],
+    "birthdate": "1089-04-18",
+    "deathdate": null,
+    "title": null,
+    "birthPlace": "Gaardia",
+    "eyeColor": "brown",
+    "gender": "female",
+    "hairColor": "blonde",
+    "hairStyle": "shoulderl",
+    "beardStyle": null,
+    "headType": "human_female",
+    "skinTone": "taupe",
+    "personality": "A methodical tavern-merchant who treats every exchange as a matter of record, valuation, and enforceable promise. She maintains meticulous tallies, insists on witnessed terms for credit, and cultivates a reputation for fair measures and punctual delivery. Her speech is economical, her hospitality professional, and her loyalties align with stable trade over factional display.",
+    "race": "human",
+    "messages": [],
+    "journal": [],
+    "sketches": [],
+    "verbosity": 3,
+    "conversationContext": null,
+    "storytellerState": null,
+    "isPlayer": false,
+    "storyComplete": false,
+    "routine": {
+      "schedule": {
+        "dawn": "home",
+        "morning": "work",
+        "afternoon": "work",
+        "evening": "leisure",
+        "night": "home"
+      },
+      "home": {
+        "placeId": "PLACE_charterhouse_narrow_bedchamber",
+        "description": "Quarters near The Quenched Pike",
+        "areaHint": null
+      },
+      "work": {
+        "placeId": "PLACE_the_quenched_pike",
+        "description": "The Quenched Pike",
+        "areaHint": null
+      },
+      "leisure": {
+        "favoriteSpot": null,
+        "preferredTagIds": [
+          "TAG_workplace_tavern"
+        ]
+      },
+      "variance": 0.2,
+      "activities": {
+        "work": "shopkeeping"
+      }
+    },
+    "vesselRoutes": null,
+    "abstractLocation": null,
+    "npcBehavior": null,
+    "physicalState": null,
+    "pendingDeparture": null,
+    "pendingArrival": null,
+    "lastRoutineCheckPeriod": null,
+    "startingNarrative": null,
+    "startingCharacterState": null,
+    "clothing": [
+      {
+        "slot": "torso_under",
+        "itemId": "formal_shirt",
+        "color": "#f5f0e8",
+        "contents": null
+      },
+      {
+        "slot": "torso_over",
+        "itemId": "formal_jacket",
+        "color": null,
+        "contents": null
+      },
+      {
+        "slot": "legs",
+        "itemId": "formal_pants",
+        "color": "#3a3a3a",
+        "contents": null
+      },
+      {
+        "slot": "feet",
+        "itemId": "shoes",
+        "color": "#1a1a1a",
+        "contents": null
+      },
+      {
+        "slot": "belt",
+        "itemId": "formal_belt",
+        "color": "#1a1a1a",
+        "contents": []
+      },
+      {
+        "slot": "accessories",
+        "itemId": "glasses",
+        "color": null,
+        "contents": null
+      }
+    ],
+    "enabledOverlayLayers": [
+      "eyes",
+      "facial"
+    ],
+    "helmingVesselId": null,
+    "storytellerDisabled": false,
+    "rulesetState": {
+      "stats": {},
+      "conditions": [],
+      "statUsage": {},
+      "incapacitation": null,
+      "incapacitatedSince": null
+    },
+    "voiceId": "bella",
+    "spriteConfig": {
+      "bodyType": "female",
+      "layers": [
+        {
+          "type": "body",
+          "optionId": "body_base",
+          "tint": 12890264
+        },
+        {
+          "type": "body",
+          "optionId": "body_universal",
+          "tint": 12890264
+        },
+        {
+          "type": "eyes",
+          "optionId": "eyes_eyes",
+          "tint": 7029286
+        },
+        {
+          "type": "hair",
+          "optionId": "hair_shoulderl",
+          "tint": 13936490
+        },
+        {
+          "type": "feet",
+          "optionId": "feet_white_shoes_female",
+          "tint": 1710618
+        }
+      ],
+      "spriteHash": "dfa37c2dfea19cd1",
+      "spriteUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/sprites/generated/dfa37c2dfea19cd1.png"
+    },
+    "assignedBedId": "OBJ_charterhouse_narrow_bedchamber_bed_single_0121",
+    "assignedWorkspaceId": "OBJ_the_quenched_pike_bar_counter_0007",
+    "assignedWorkspacePurpose": "workspace"
+  },
+  "position": {
+    "x": 208,
+    "y": 208,
+    "width": 32,
+    "height": 48,
+    "parent": "PLACE_charterhouse_narrow_bedchamber"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/gaardia/images/characters/CHAR_serah_tindal.png?v=1772575007775",
+  "faceAnchorY": 0.22,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "talk"
+  },
+  "relationships": [
+    {
+      "targetId": "CHAR_korr_brightblade",
+      "type": "colleague",
+      "disposition": 10,
+      "familiarity": 50,
+      "context": "Both are based at The Quenched Pike; Serah’s tavern-merchant work and Korr’s vigilance/discipline in civic spaces would put them in regular operational contact around rules, order, and licensed trade.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_lysander_broach",
+      "type": "colleague",
+      "disposition": 10,
+      "familiarity": 50,
+      "context": "Both operate at The Quenched Pike and are transaction/ledger-driven; likely coordinate on inventories, licensing compliance, and keeping trade orderly on-site.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_tamsin_crowle",
+      "type": "acquaintance",
+      "disposition": 0,
+      "familiarity": 40,
+      "context": "Both are at The Quenched Pike and share a tally-and-paperwork mindset; likely interact through deliveries, tags/receipts, and settling accounts rather than close personal ties.",
+      "pendingGeneration": false
+    }
+  ],
+  "important": false
+}

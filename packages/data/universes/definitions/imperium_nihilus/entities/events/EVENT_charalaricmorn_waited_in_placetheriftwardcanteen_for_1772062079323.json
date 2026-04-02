@@ -1,0 +1,22 @@
+{
+  "id": "EVENT_charalaricmorn_waited_in_placetheriftwardcanteen_for_1772062079323",
+  "date": "999.M1 11:20",
+  "placeId": "PLACE_the_riftward_canteen",
+  "eventType": null,
+  "category": "world",
+  "subject": "The Riftward Canteen",
+  "subjectId": "PLACE_the_riftward_canteen",
+  "fact": "CHAR_alaric_morn waited in PLACE_the_riftward_canteen for 480 minutes",
+  "significance": "moderate",
+  "witnessIds": [
+    "CHAR_alaric_morn",
+    "CHAR_sethran_doke",
+    "CHAR_tavian_marrec"
+  ],
+  "important": false,
+  "importanceScore": null,
+  "scope": "local",
+  "relevantPlaceIds": [
+    "PLACE_the_riftward_canteen"
+  ]
+}

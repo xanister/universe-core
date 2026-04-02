@@ -1,0 +1,22 @@
+{
+  "id": "pennant_green",
+  "name": "Green Pennant",
+  "description": "A small green triangular pennant flag.",
+  "purposes": [
+    "decoration"
+  ],
+  "tags": [
+    "common",
+    "decoration",
+    "tavern",
+    "wall"
+  ],
+  "solid": false,
+  "layer": "overhead",
+  "spriteId": "pennant_green",
+  "materials": [
+    "cloth"
+  ],
+  "tintable": false,
+  "wallVerticalOffset": -1
+}

@@ -1,0 +1,48 @@
+{
+  "id": "OBJ_the_shuttered_chamber_double_bed_0305",
+  "label": "Double Bed",
+  "description": "A comfortable double bed with a sturdy frame and soft bedding.",
+  "important": false,
+  "short_description": "double bed",
+  "tags": [],
+  "entityType": "object",
+  "info": {
+    "purpose": "sleeping",
+    "solid": true,
+    "layer": "default",
+    "isStructural": false,
+    "material": null,
+    "tint": null,
+    "spriteConfig": {
+      "spriteId": "double_bed_yellow",
+      "frame": null,
+      "animationKey": null,
+      "animated": false,
+      "facing": "south"
+    },
+    "hp": null,
+    "maxHp": null,
+    "state": null,
+    "contents": null,
+    "lightSource": null,
+    "itemId": null,
+    "plotId": null
+  },
+  "position": {
+    "x": 448,
+    "y": 256,
+    "width": 64,
+    "height": 96,
+    "parent": "PLACE_the_shuttered_chamber"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "relationships": [],
+  "image": null,
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": null
+}

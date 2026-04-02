@@ -1,0 +1,56 @@
+{
+  "id": "OBJ_the_vanishing_suite_crate_stack_0953",
+  "label": "Stacked Crates",
+  "description": "A stack of wooden crates",
+  "important": false,
+  "short_description": "stacked crates",
+  "tags": [
+    "ship"
+  ],
+  "entityType": "object",
+  "info": {
+    "purpose": "storage",
+    "solid": true,
+    "layer": "default",
+    "isStructural": false,
+    "material": null,
+    "tint": null,
+    "spriteConfig": {
+      "spriteId": "crate_stack",
+      "frame": null,
+      "animationKey": null,
+      "animated": false,
+      "facing": "south"
+    },
+    "hp": null,
+    "maxHp": null,
+    "state": null,
+    "contents": [
+      "silver_ring",
+      "sealed_letter",
+      "leather_belt"
+    ],
+    "lightSource": null,
+    "itemId": null,
+    "plotId": null
+  },
+  "position": {
+    "x": 160,
+    "y": 544,
+    "width": 64,
+    "height": 64,
+    "parent": "PLACE_the_vanishing_suite"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "relationships": [],
+  "image": null,
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "search"
+  }
+}

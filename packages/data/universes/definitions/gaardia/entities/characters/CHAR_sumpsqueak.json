@@ -1,0 +1,179 @@
+{
+  "id": "CHAR_sumpsqueak",
+  "label": "Sumpsqueak",
+  "description": "This individual is a small goblin of notably ratlike proportions, defined by bright_green skin and a narrow, wedge-shaped face adapted to squeezing through crevices. Brown eyes sit deep under heavy brow ridges, and black hair is kept in an unkempt, sparse line along the crown that leaves the ears and scalp largely exposed. The incisors are prominent and uneven, and the nose bears permanent abrasions consistent with repeated contact against stone and timber. Limbs are wiry and long-fingered, ending in hard, darkened nails suited to scrabbling over wet rock and refuse.",
+  "short_description": "ratlike goblin (nonbinary)",
+  "tags": [],
+  "entityType": "character",
+  "info": {
+    "purpose": "rat",
+    "aliases": [
+      "Grotto Rat",
+      "Saltwrit Rat"
+    ],
+    "birthdate": "-",
+    "deathdate": null,
+    "title": null,
+    "birthPlace": "The Saltwrit Grotto",
+    "eyeColor": "brown",
+    "gender": "nonbinary",
+    "hairColor": "black",
+    "hairStyle": "unkempt",
+    "beardStyle": null,
+    "headType": "orc_male",
+    "skinTone": "bright_green",
+    "personality": "A grotto-scavenger trained by hunger and habit, this rat is territorial over food caches and routes through the rockwork. They move by strict routines, memorize sounds and footsteps, and respond to intrusion with sudden, darting aggression before vanishing into cracks and culverts. They show a practiced indifference to light and stench, and treat larger beings as temporary weather—dangerous, unpredictable, and best endured at a distance.",
+    "race": "goblin",
+    "messages": [],
+    "journal": [],
+    "sketches": [],
+    "verbosity": 3,
+    "conversationContext": null,
+    "storytellerState": null,
+    "isPlayer": false,
+    "storyComplete": false,
+    "routine": null,
+    "vesselRoutes": null,
+    "abstractLocation": null,
+    "npcBehavior": null,
+    "physicalState": null,
+    "pendingDeparture": null,
+    "pendingArrival": null,
+    "lastRoutineCheckPeriod": null,
+    "startingNarrative": null,
+    "startingCharacterState": null,
+    "clothing": [
+      {
+        "slot": "torso_under",
+        "itemId": "tunic",
+        "color": "#3a3a3a",
+        "contents": null
+      },
+      {
+        "slot": "legs",
+        "itemId": "cloth_pants",
+        "color": "#8b4513",
+        "contents": null
+      },
+      {
+        "slot": "feet",
+        "itemId": "shoes",
+        "color": null,
+        "contents": null
+      },
+      {
+        "slot": "belt",
+        "itemId": "rope_belt",
+        "color": "#d2b48c",
+        "contents": []
+      },
+      {
+        "slot": "head",
+        "itemId": "cloth_hood",
+        "color": "#3a3a3a",
+        "contents": null
+      }
+    ],
+    "enabledOverlayLayers": [],
+    "helmingVesselId": null,
+    "storytellerDisabled": false,
+    "rulesetState": {
+      "stats": {},
+      "conditions": [],
+      "statUsage": {},
+      "incapacitation": null,
+      "incapacitatedSince": null
+    },
+    "voiceId": "river",
+    "spriteConfig": {
+      "bodyType": "male",
+      "layers": [
+        {
+          "type": "body",
+          "optionId": "body_base",
+          "tint": 6736964
+        },
+        {
+          "type": "body",
+          "optionId": "body_universal",
+          "tint": 6736964
+        },
+        {
+          "type": "legs",
+          "optionId": "legs_white_pants_male",
+          "tint": 9127187
+        },
+        {
+          "type": "feet",
+          "optionId": "feet_white_shoes_male",
+          "tint": 9127187
+        },
+        {
+          "type": "belt",
+          "optionId": "belt_wulax_belt_rope_male",
+          "tint": 13808780
+        },
+        {
+          "type": "head",
+          "optionId": "head_cloth_hood_male",
+          "tint": 3815994
+        }
+      ],
+      "spriteHash": "ae2f84786bba6b7a",
+      "spriteUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/sprites/generated/ae2f84786bba6b7a.png"
+    }
+  },
+  "position": {
+    "x": 4144,
+    "y": 1392,
+    "width": 32,
+    "height": 48,
+    "parent": "PLACE_the_saltwrit_grotto"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/gaardia/images/characters/CHAR_sumpsqueak.png?v=1772642162060",
+  "faceAnchorY": 0.25,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "talk"
+  },
+  "relationships": [
+    {
+      "targetId": "CHAR_brinewhisk",
+      "type": "rival",
+      "disposition": -20,
+      "familiarity": 50,
+      "context": "Both are territory-bound scavengers born and living in the Saltwrit Grotto, likely competing over caches and routes through the crevices.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_saltwrit_rat",
+      "type": "rival",
+      "disposition": -20,
+      "familiarity": 50,
+      "context": "Shared grotto habitat and scavenger/hoarder behavior makes competition over scraps, nesting materials, and safe passages likely.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_saltwrit_scurrier",
+      "type": "rival",
+      "disposition": -20,
+      "familiarity": 50,
+      "context": "Both are food-driven, route-memorizing scurriers in the same grotto; likely to clash or harry each other around established caches.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_skitters_1",
+      "type": "rival",
+      "disposition": -20,
+      "familiarity": 50,
+      "context": "Overlapping scavenging territory and opportunistic theft behavior in the same tunnels suggests a competitive relationship rather than cooperation.",
+      "pendingGeneration": false
+    }
+  ],
+  "important": false
+}

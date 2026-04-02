@@ -1,0 +1,20 @@
+{
+  "id": "bottle_red",
+  "name": "Red Bottle",
+  "description": "A slim red-brown bottle with a cork stopper.",
+  "purposes": [
+    "decoration"
+  ],
+  "tags": [
+    "common",
+    "drinkware",
+    "tavern"
+  ],
+  "solid": false,
+  "layer": "default",
+  "spriteId": "bottle_red",
+  "materials": [
+    "glass"
+  ],
+  "tintable": false
+}

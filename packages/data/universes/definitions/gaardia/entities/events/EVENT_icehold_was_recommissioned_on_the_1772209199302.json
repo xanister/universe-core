@@ -1,0 +1,16 @@
+{
+  "id": "EVENT_icehold_was_recommissioned_on_the_1772209199302",
+  "date": null,
+  "placeId": null,
+  "eventType": "historical",
+  "category": "world",
+  "subject": "History",
+  "subjectId": null,
+  "fact": "Icehold was recommissioned on the Eluscion Rim as a combined prison and works site, and during maintenance a prisoner escape occurred via ventworks leading to exposed exterior ledges, later used as a training caution in warden schools.",
+  "significance": "moderate",
+  "important": false,
+  "witnessIds": null,
+  "importanceScore": null,
+  "scope": "local",
+  "relevantPlaceIds": null
+}

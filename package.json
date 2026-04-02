@@ -1,0 +1,19 @@
+{
+  "name": "universe-core",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "turbo build",
+    "typecheck": "pnpm -r --if-present typecheck",
+    "test": "turbo test --concurrency=1"
+  },
+  "devDependencies": {
+    "turbo": "^2.8.10",
+    "typescript": "^5.9.3"
+  },
+  "engines": {
+    "node": ">=20.0.0",
+    "pnpm": ">=9.0.0"
+  },
+  "packageManager": "pnpm@10.28.1"
+}

@@ -1,0 +1,56 @@
+{
+  "id": "PLACE_quenched_pike_backroom_loft",
+  "label": "Quenched Pike Backroom Loft",
+  "description": "Quenched Pike Backroom Loft occupies a low-ceilinged chamber above the shop’s soot-dark rafters, reached by a steep internal stair and built into Cindervale’s fractured older masonry. A narrow cot and a rigid trunk stand against riveted iron strapping set into the walls, while a pegged rack for belts and scabbards reflects the premises’ licensed trade. A small shuttered window admits disciplined light through iron bars, and the air retains the permanent tang of oil, char, and quenched steel rising from below.",
+  "short_description": "spare barred-window loft",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "bedroom",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "door_wooden",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 112,
+    "y": 160,
+    "width": 32,
+    "height": 32,
+    "parent": "PLACE_the_quenched_pike"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": null,
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

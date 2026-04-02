@@ -1,0 +1,18 @@
+{
+  "id": "EVENT_visited_riftglass_hollow_1771916498297",
+  "date": "999.M1 12:15",
+  "placeId": "PLACE_riftglass_hollow",
+  "important": false,
+  "importanceScore": null,
+  "scope": null,
+  "relevantPlaceIds": null,
+  "eventType": "location_visited",
+  "category": "world",
+  "subject": "Riftglass Hollow",
+  "subjectId": "PLACE_riftglass_hollow",
+  "fact": "Visited Riftglass Hollow",
+  "significance": "minor",
+  "witnessIds": [
+    "CHAR_alaric_morn"
+  ]
+}

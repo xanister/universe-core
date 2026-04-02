@@ -1,0 +1,52 @@
+{
+  "id": "OBJ_lantern_ration_vault_boar_head_wall_mounted_0567",
+  "label": "Wall-Mounted Boar Head",
+  "description": "A taxidermied boar head mounted on a wooden plaque; a rustic trophy decoration.",
+  "important": false,
+  "short_description": "wall-mounted boar head",
+  "tags": [
+    "ship",
+    "tavern",
+    "wall"
+  ],
+  "entityType": "object",
+  "info": {
+    "purpose": "decoration",
+    "solid": false,
+    "layer": "overhead",
+    "isStructural": false,
+    "material": null,
+    "tint": null,
+    "spriteConfig": {
+      "spriteId": "boar_head",
+      "frame": null,
+      "animationKey": null,
+      "animated": false,
+      "facing": "west"
+    },
+    "hp": null,
+    "maxHp": null,
+    "state": null,
+    "contents": null,
+    "lightSource": null,
+    "itemId": null,
+    "plotId": null
+  },
+  "position": {
+    "x": 304,
+    "y": 576,
+    "width": 32,
+    "height": 32,
+    "parent": "PLACE_lantern_ration_vault"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "relationships": [],
+  "image": null,
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": null
+}

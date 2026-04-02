@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_the_shuttered_chamber",
+  "label": "The Shuttered Chamber",
+  "description": "The Shuttered Chamber is a compact upper-floor bedroom partitioned in limewashed plaster and framed by smoke-dark timber that matches the wary austerity of The Saltwax Lodging. A narrow slit window with deep brick reveals is secured by heavy shutters and an iron crossbar, admitting light in controlled bands while muting the ward’s night-glare. A rope-strung bedstead and a lidded trunk occupy most of the floor, their placement leaving a single straight path to the iron-hasped door. A small wall niche for lamp and papers stands beneath a painted hazard placard, preserving Varric Holdfast’s interdiction codes within private quarters.",
+  "short_description": "tight shuttered bedroom",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "bedroom",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "door_wooden",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/gaardia/images/battles/PLACE_the_shuttered_chamber.png?v=1772208788989",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 816,
+    "y": 160,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_the_saltwax_lodging",
+    "innerWidth": 512,
+    "innerHeight": 448
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/gaardia/images/places/PLACE_the_shuttered_chamber.png?v=1772208839193",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

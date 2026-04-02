@@ -1,0 +1,18 @@
+{
+  "id": "EVENT_korr_is_under_curfew_ordinance_1772323211224",
+  "date": "04.01.11 4A 11:11",
+  "placeId": "PLACE_the_quenched_pike",
+  "eventType": "other",
+  "category": "constraint",
+  "subject": "Korr Brightblade",
+  "subjectId": "CHAR_korr_brightblade",
+  "fact": "Korr is under curfew ordinance and must comply immediately with Watch directions or be logged for obstruction.",
+  "significance": "major",
+  "important": false,
+  "witnessIds": [
+    "CHAR_korr_brightblade"
+  ],
+  "importanceScore": null,
+  "scope": null,
+  "relevantPlaceIds": null
+}

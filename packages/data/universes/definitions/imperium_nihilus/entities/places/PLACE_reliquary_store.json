@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_reliquary_store",
+  "label": "Reliquary Store",
+  "description": "The Reliquary Store forms a sealed basalt chamber set behind ash-baffled bulkheads, its threshold fitted with layered gaskets to deny Ashenward grit and electrostatic charge. Copper grounding straps and a cage of conduit lattice cross the ceiling, tying the room into the temple’s larger discharge architecture. Slagcrete shelving and lockbarred niches hold sealed caskets and canisters, each bracketed with stamped inventory plates for austere custodial control. Narrow auroraglass clerestories admit bruise-colored bands of light that cut across soot-black walls and vitrified flooring.",
+  "short_description": "sealed reliquary store",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "storage_room",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.9
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "door_wooden",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/battles/PLACE_reliquary_store.png?v=1771959159386",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 880,
+    "y": 4928,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_temple_of_the_riftvigil",
+    "innerWidth": 480,
+    "innerHeight": 704
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/places/PLACE_reliquary_store.png?v=1771959210379",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

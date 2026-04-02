@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_lacrymara_tearvault",
+  "label": "Lacrymara Tearvault",
+  "description": "Lacrymara Tearvault is a deep fissure-cave cut into pale silicate bedrock and roofed by fused glassflow, where copper-white twilight filters through hairline cracks as thin, unwavering bands. The floor carries drifts of electrostatically charged glass dust that cling to basalt ribs and form crisp, windless ripples, preserving every disturbance as a lasting relief. Along the walls, reflective particulates have sintered into mirror-skins that repeat the planet’s auroral geometry in distorted, tessellated arcs. The air remains dry and cold, and sound collapses quickly against the vitrified surfaces into a muted, hushlit stillness.",
+  "short_description": "glass-dusted fissure cave",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "cave",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.9
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "stone_arch_ruins",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/hushlight_expanse/images/battles/PLACE_lacrymara_tearvault.png?v=1772314241802",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 736,
+    "y": 544,
+    "width": 48,
+    "height": 48,
+    "parent": "PLACE_lacrymara",
+    "innerWidth": 2656,
+    "innerHeight": 3552
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/hushlight_expanse/images/places/PLACE_lacrymara_tearvault.png?v=1772314291563",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

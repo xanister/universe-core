@@ -1,0 +1,59 @@
+{
+  "id": "PLACE_glasseam_hollow",
+  "label": "Glasseam Hollow",
+  "description": "Glasseam Hollow is a basalt cave cut through by a black, vitrified seam that runs like a frozen lightning-strike along the walls and ceiling. The floor slopes into a shallow basin of ash-fine grit and slag pebbles, where melt-glossed stone holds the cold with a persistent damp chill. Mineral efflorescence clings in pale crusts to fracture lines, catching the peak’s bruise-hued ambient light as a faint, oil-sheened glimmer. The chamber’s air remains heavy with metallic tang and stale dust, carrying the muffled resonance of distant rock stress through Sablecrown Peak’s rift-scarred mass.",
+  "short_description": "glassed basalt cave",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "cave",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.9
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "stone_arch_ruins",
+      "facing": "south",
+      "layer": "default"
+    },
+    "allowPlayerStart": false,
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/battles/PLACE_glasseam_hollow.png?v=1771817364213",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 6976,
+    "y": 3200,
+    "width": 48,
+    "height": 48,
+    "parent": "PLACE_sablecrown_peak",
+    "innerWidth": 4544,
+    "innerHeight": 1344
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/places/PLACE_glasseam_hollow.png?v=1771817412990",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

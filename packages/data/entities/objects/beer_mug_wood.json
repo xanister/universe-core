@@ -1,0 +1,20 @@
+{
+  "id": "beer_mug_wood",
+  "name": "Wooden Beer Mug",
+  "description": "A wooden beer mug with metal bands.",
+  "purposes": [
+    "decoration"
+  ],
+  "tags": [
+    "common",
+    "drinkware",
+    "tavern"
+  ],
+  "solid": false,
+  "layer": "default",
+  "spriteId": "beer_mug_wood",
+  "materials": [
+    "wood"
+  ],
+  "tintable": false
+}

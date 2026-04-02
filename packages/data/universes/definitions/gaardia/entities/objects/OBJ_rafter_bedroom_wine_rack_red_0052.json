@@ -1,0 +1,56 @@
+{
+  "id": "OBJ_rafter_bedroom_wine_rack_red_0052",
+  "label": "Wine Rack (Red Bottles)",
+  "description": "A tall wine rack filled with red bottles.",
+  "important": false,
+  "short_description": "wine rack (red bottles)",
+  "tags": [
+    "common",
+    "furniture",
+    "storage",
+    "tavern",
+    "bar"
+  ],
+  "entityType": "object",
+  "info": {
+    "purpose": "storage",
+    "solid": true,
+    "layer": "default",
+    "isStructural": false,
+    "material": null,
+    "tint": null,
+    "spriteConfig": {
+      "spriteId": "wine_rack_red",
+      "frame": null,
+      "animationKey": null,
+      "animated": false,
+      "facing": "south"
+    },
+    "hp": null,
+    "maxHp": null,
+    "state": null,
+    "contents": null,
+    "lightSource": null,
+    "itemId": null,
+    "plotId": null
+  },
+  "position": {
+    "x": 144,
+    "y": 288,
+    "width": 96,
+    "height": 128,
+    "parent": "PLACE_rafter_bedroom"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "relationships": [],
+  "image": null,
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "search"
+  }
+}

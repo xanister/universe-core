@@ -1,0 +1,20 @@
+{
+  "id": "EVENT_chartamsinroe_observed_surroundings_at_placethelatticewake_1772518826149",
+  "date": "01.01.19 P.S. 10:00",
+  "placeId": "PLACE_the_latticewake",
+  "eventType": null,
+  "category": "world",
+  "subject": "The Latticewake",
+  "subjectId": "PLACE_the_latticewake",
+  "fact": "[CHAR_tamsin_roe] observed surroundings at [PLACE_the_latticewake]",
+  "significance": "moderate",
+  "witnessIds": [
+    "CHAR_tamsin_roe"
+  ],
+  "important": false,
+  "importanceScore": null,
+  "scope": "local",
+  "relevantPlaceIds": [
+    "PLACE_the_latticewake"
+  ]
+}

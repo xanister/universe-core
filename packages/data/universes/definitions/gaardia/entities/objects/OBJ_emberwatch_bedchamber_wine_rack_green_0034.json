@@ -1,0 +1,56 @@
+{
+  "id": "OBJ_emberwatch_bedchamber_wine_rack_green_0034",
+  "label": "Wine Rack (Green Bottles)",
+  "description": "A tall wine rack filled with green bottles.",
+  "important": false,
+  "short_description": "wine rack (green bottles)",
+  "tags": [
+    "common",
+    "furniture",
+    "storage",
+    "tavern",
+    "bar"
+  ],
+  "entityType": "object",
+  "info": {
+    "purpose": "storage",
+    "solid": true,
+    "layer": "default",
+    "isStructural": false,
+    "material": null,
+    "tint": null,
+    "spriteConfig": {
+      "spriteId": "wine_rack_green",
+      "frame": null,
+      "animationKey": null,
+      "animated": false,
+      "facing": "south"
+    },
+    "hp": null,
+    "maxHp": null,
+    "state": null,
+    "contents": null,
+    "lightSource": null,
+    "itemId": null,
+    "plotId": null
+  },
+  "position": {
+    "x": 400,
+    "y": 512,
+    "width": 96,
+    "height": 128,
+    "parent": "PLACE_emberwatch_bedchamber"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "relationships": [],
+  "image": null,
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "search"
+  }
+}

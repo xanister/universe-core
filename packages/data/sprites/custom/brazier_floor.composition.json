@@ -1,0 +1,16 @@
+{
+  "spriteId": "brazier_floor",
+  "gridWidth": 1,
+  "gridHeight": 1,
+  "tileSize": 32,
+  "tiles": [
+    {
+      "tilesetId": "decor-fireplace",
+      "srcX": 0,
+      "srcY": 64,
+      "col": 0,
+      "row": 0
+    }
+  ],
+  "updatedAt": "2026-03-02T21:32:29.446Z"
+}

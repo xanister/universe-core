@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_the_angle_vault",
+  "label": "The Angle Vault",
+  "description": "The Angle Vault serves as The Caustic Loom’s storage room, a narrow chamber cut to the same rectilinear geometry that governs Kharion Meridian Confluence. Racked frames of dark crystalline stone hold wrapped prisms and caustic-channel fittings in numbered bays, each shelf aligned to preserve fixed incidence angles and prevent glare spill. The walls are scored with calibration grids that register the meridian color bars even in reduced light, while the ceiling’s laminar panes admit only a controlled, knife-edged band of radiance. A sealed floor trench of absolute shadow functions as a light-break, isolating sensitive stock from the shop’s active caustics.",
+  "short_description": "calibrated prism storage",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "storage_room",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.9
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "door_wooden",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/the_hollow_lattice/images/battles/PLACE_the_angle_vault.png?v=1772314092184",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 1040,
+    "y": 384,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_the_caustic_loom",
+    "innerWidth": 448,
+    "innerHeight": 640
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/the_hollow_lattice/images/places/PLACE_the_angle_vault.png?v=1772314145697",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

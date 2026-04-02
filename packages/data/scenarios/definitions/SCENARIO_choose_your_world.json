@@ -1,0 +1,9 @@
+{
+  "id": "SCENARIO_choose_your_world",
+  "label": "Choose Your World",
+  "description": "Select a universe to explore, then let fate decide the rest. Your character, storyteller, and starting situation will all be generated to fit the world you choose.",
+  "backgroundImage": "https://dmnpc-media.s3.us-east-1.amazonaws.com/scenarios/images/SCENARIO_choose_your_world.png",
+  "custom": {
+    "difficulty": "variable"
+  }
+}

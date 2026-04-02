@@ -1,0 +1,56 @@
+{
+  "id": "PLACE_the_severance_cistern",
+  "label": "The Severance Cistern",
+  "description": "A deep interior cave chamber cut by ancient fissures that run like seams through iron-dark stone, its walls scored with tool marks from abandoned extraction. A cold, mineral-rich seep gathers in a central basin, leaving pale crusts on ledges and a persistent metallic tang in the air. The ceiling drops into low arches supported by natural ribs of basalt, and scattered cairn-stones mark prior surveys and hazard boundaries. Sound carries with unusual clarity, turning small movements into prolonged echoes that complicate navigation and watch discipline.",
+  "short_description": "echoing basalt cistern",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "cave",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.9
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "stone_arch_ruins",
+      "facing": "south",
+      "layer": "floor"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 160,
+    "y": 1600,
+    "width": 64,
+    "height": 64,
+    "parent": "PLACE_anslem"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": null,
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

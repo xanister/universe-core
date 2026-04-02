@@ -1,0 +1,55 @@
+{
+  "id": "OBJ_lantern_keepers_cell_staging_construction_crate_0548",
+  "label": "Construction Materials",
+  "description": "Crate displayed at a build site while a new place is being generated",
+  "important": false,
+  "short_description": "construction materials",
+  "tags": [
+    "common",
+    "staging",
+    "construction",
+    "container"
+  ],
+  "entityType": "object",
+  "info": {
+    "purpose": "storage",
+    "solid": true,
+    "layer": "default",
+    "isStructural": false,
+    "material": null,
+    "tint": null,
+    "spriteConfig": {
+      "spriteId": "staging_construction_crate",
+      "frame": null,
+      "animationKey": null,
+      "animated": false,
+      "facing": "south"
+    },
+    "hp": null,
+    "maxHp": null,
+    "state": null,
+    "contents": null,
+    "lightSource": null,
+    "itemId": null,
+    "plotId": null
+  },
+  "position": {
+    "x": 368,
+    "y": 416,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_lantern_keepers_cell"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "relationships": [],
+  "image": null,
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "search"
+  }
+}

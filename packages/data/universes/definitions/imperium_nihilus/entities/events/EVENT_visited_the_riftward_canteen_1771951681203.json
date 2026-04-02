@@ -1,0 +1,18 @@
+{
+  "id": "EVENT_visited_the_riftward_canteen_1771951681203",
+  "date": "999.M1 13:48",
+  "placeId": "PLACE_the_riftward_canteen",
+  "important": false,
+  "importanceScore": null,
+  "scope": null,
+  "relevantPlaceIds": null,
+  "eventType": "location_visited",
+  "category": "world",
+  "subject": "The Riftward Canteen",
+  "subjectId": "PLACE_the_riftward_canteen",
+  "fact": "Visited The Riftward Canteen",
+  "significance": "minor",
+  "witnessIds": [
+    "CHAR_alaric_morn"
+  ]
+}

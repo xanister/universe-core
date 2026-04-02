@@ -1,0 +1,19 @@
+{
+  "id": "staging_hire_banner",
+  "purposes": [
+    "staging_hire"
+  ],
+  "spriteId": "staging_hire_banner",
+  "name": "Now Hiring Banner",
+  "description": "Gold pennant displayed at unfilled character slots during background population",
+  "tags": [
+    "common",
+    "staging",
+    "sign",
+    "decoration"
+  ],
+  "materials": [],
+  "solid": true,
+  "layer": "default",
+  "tintable": false
+}

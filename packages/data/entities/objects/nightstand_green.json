@@ -1,0 +1,22 @@
+{
+  "id": "nightstand_green",
+  "name": "Nightstand (Green Wood)",
+  "description": "A simple green-painted bedside table with a single drawer.",
+  "purposes": [
+    "side_table",
+    "decoration",
+    "storage"
+  ],
+  "tags": [
+    "common",
+    "furniture",
+    "bedroom"
+  ],
+  "solid": true,
+  "layer": "default",
+  "spriteId": "nightstand_green",
+  "materials": [
+    "wood"
+  ],
+  "tintable": false
+}

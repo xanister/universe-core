@@ -1,0 +1,36 @@
+{
+  "spriteId": "boar_head",
+  "gridWidth": 1,
+  "gridHeight": 1,
+  "tileSize": 32,
+  "tiles": [
+    {
+      "tilesetId": "decor-tavern",
+      "srcX": 0,
+      "srcY": 1088,
+      "col": 0,
+      "row": 0
+    }
+  ],
+  "directionTiles": {
+    "east": [
+      {
+        "tilesetId": "decor-tavern",
+        "srcX": 0,
+        "srcY": 1152,
+        "col": 0,
+        "row": 0
+      }
+    ],
+    "west": [
+      {
+        "tilesetId": "decor-tavern",
+        "srcX": 0,
+        "srcY": 1120,
+        "col": 0,
+        "row": 0
+      }
+    ]
+  },
+  "updatedAt": "2026-02-23T03:21:02.894Z"
+}

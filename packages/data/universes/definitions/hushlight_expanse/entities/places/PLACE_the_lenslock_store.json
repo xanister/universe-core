@@ -1,0 +1,56 @@
+{
+  "id": "PLACE_the_lenslock_store",
+  "label": "The Lenslock Store",
+  "description": "The Lenslock Store serves as the sealed utility chamber of Cisternhold Quarters, set behind faceted vitrified tile and a gasketed threshold designed to resist charged glass dust. Recessed shelving and lidded bins follow the wall’s grounded channels, keeping supplies elevated above the undersill cistern line and its maintenance access. A narrow mirrored light slit admits copper-white twilight in fixed bands that register on inlaid calibration marks, allowing inventory to be read without open flame. The floor is fused silicate scored with drain grooves, directing stray particulate into a small settling sump for later removal.",
+  "short_description": "sealed lenslit storage",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "storage_room",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.9
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "door_wooden",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 496,
+    "y": 160,
+    "width": 32,
+    "height": 32,
+    "parent": "PLACE_cisternhold_quarters"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": null,
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

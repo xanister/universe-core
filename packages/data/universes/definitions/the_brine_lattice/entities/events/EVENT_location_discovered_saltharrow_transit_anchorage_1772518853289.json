@@ -1,0 +1,18 @@
+{
+  "id": "EVENT_location_discovered_saltharrow_transit_anchorage_1772518853289",
+  "date": "C 01.01.8127 10:03",
+  "placeId": null,
+  "important": false,
+  "importanceScore": null,
+  "scope": null,
+  "relevantPlaceIds": null,
+  "eventType": "location_discovered",
+  "category": "knowledge",
+  "subject": "Saltharrow Transit Anchorage",
+  "subjectId": "PLACE_saltharrow_transit_anchorage",
+  "fact": "Learned about Saltharrow Transit Anchorage",
+  "significance": "minor",
+  "witnessIds": [
+    "CHAR_tamsin_rook"
+  ]
+}

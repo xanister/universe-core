@@ -1,0 +1,18 @@
+{
+  "id": "EVENT_visited_riftwake_landing_1772153209850",
+  "date": "999.M1 18:17",
+  "placeId": "PLACE_riftwake_landing",
+  "important": false,
+  "importanceScore": null,
+  "scope": null,
+  "relevantPlaceIds": null,
+  "eventType": "location_visited",
+  "category": "world",
+  "subject": "Riftwake Landing",
+  "subjectId": "PLACE_riftwake_landing",
+  "fact": "Visited Riftwake Landing",
+  "significance": "minor",
+  "witnessIds": [
+    "CHAR_severin_ashcombe"
+  ]
+}

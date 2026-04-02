@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_the_shardlock_cellar",
+  "label": "The Shardlock Cellar",
+  "description": "The Shardlock Cellar occupies a low, wedge-shaped chamber behind the Prismworn Cask’s basalt-glass vault, sealed with dust-gasketed panels that blunt the escarpment’s chill drafts. Racks of leaded crystal crates and mirror-slag kegs line the walls in strict bands, their faces scored with seam-line indices that preserve the tavern’s calibrated sightlines even in storage. A narrow condenser runnel cuts along the floor to a sump of reflective fines, keeping the air mineral-dry and leaving a persistent metallic brightness on the black glass. Prism-baffled lamps throw fractured copper-white glints across numbered niches, rendering inventories legible without spoiling the room’s measured hush.",
+  "short_description": "prism-lit storage cellar",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "storage_room",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.9
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "door_wooden",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/hushlight_expanse/images/battles/PLACE_the_shardlock_cellar.png?v=1772313895506",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 496,
+    "y": 160,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_the_prismworn_cask",
+    "innerWidth": 480,
+    "innerHeight": 640
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/hushlight_expanse/images/places/PLACE_the_shardlock_cellar.png?v=1772313961357",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

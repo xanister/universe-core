@@ -1,0 +1,72 @@
+{
+  "spriteId": "bunk_bed",
+  "gridWidth": 3,
+  "gridHeight": 3,
+  "tileSize": 32,
+  "tiles": [
+    {
+      "tilesetId": "furniture-upholstery",
+      "srcX": 224,
+      "srcY": 480,
+      "col": 0,
+      "row": 0
+    },
+    {
+      "tilesetId": "furniture-upholstery",
+      "srcX": 256,
+      "srcY": 480,
+      "col": 1,
+      "row": 0
+    },
+    {
+      "tilesetId": "furniture-upholstery",
+      "srcX": 288,
+      "srcY": 480,
+      "col": 2,
+      "row": 0
+    },
+    {
+      "tilesetId": "furniture-upholstery",
+      "srcX": 224,
+      "srcY": 512,
+      "col": 0,
+      "row": 1
+    },
+    {
+      "tilesetId": "furniture-upholstery",
+      "srcX": 256,
+      "srcY": 512,
+      "col": 1,
+      "row": 1
+    },
+    {
+      "tilesetId": "furniture-upholstery",
+      "srcX": 288,
+      "srcY": 512,
+      "col": 2,
+      "row": 1
+    },
+    {
+      "tilesetId": "furniture-upholstery",
+      "srcX": 224,
+      "srcY": 544,
+      "col": 0,
+      "row": 2
+    },
+    {
+      "tilesetId": "furniture-upholstery",
+      "srcX": 256,
+      "srcY": 544,
+      "col": 1,
+      "row": 2
+    },
+    {
+      "tilesetId": "furniture-upholstery",
+      "srcX": 288,
+      "srcY": 544,
+      "col": 2,
+      "row": 2
+    }
+  ],
+  "updatedAt": "2026-03-02T15:50:42.326Z"
+}

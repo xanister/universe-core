@@ -1,0 +1,23 @@
+{
+  "id": "well",
+  "name": "Well",
+  "description": "Stone well with a wooden windlass frame.",
+  "purposes": [
+    "decoration",
+    "village_landmark"
+  ],
+  "tags": [
+    "outdoor",
+    "water",
+    "village",
+    "stone",
+    "wood"
+  ],
+  "solid": true,
+  "layer": "default",
+  "spriteId": "well",
+  "materials": [
+    "stone",
+    "wood"
+  ]
+}

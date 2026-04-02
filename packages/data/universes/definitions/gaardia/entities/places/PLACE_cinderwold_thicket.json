@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_cinderwold_thicket",
+  "label": "Cinderwold Thicket",
+  "description": "Cinderwold Thicket is a dense frontier forest rooted in ash-black soils left by the continent-scale catastrophe, where stands of charred trunks persist beside hard regrowth. Stone boundary posts and collapsed corduroy trackways mark former licensed timber lines now swallowed by underbrush, their runes deliberately defaced to void old claims. The canopy breaks into soot-bright clearings that collect cold fog and mute sound, producing a landscape suited to ambush and concealment. Interdiction nails and weathered warning boards at the margins record codified hazards associated with liminal breaches from Ahm’a and Limbo.",
+  "short_description": "ash-dark frontier woods",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "forest",
+    "environment": {
+      "type": "exterior",
+      "hasWeather": true,
+      "temperature": {
+        "enabled": true,
+        "base": null,
+        "modifiersApply": true
+      },
+      "maxDarkness": null
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "tree_canopy_small",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/gaardia/images/battles/PLACE_cinderwold_thicket.png?v=1772208356699",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 2784,
+    "y": 1696,
+    "width": 48,
+    "height": 48,
+    "parent": "PLACE_anslem",
+    "innerWidth": 6208,
+    "innerHeight": 2080
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/gaardia/images/places/PLACE_cinderwold_thicket.png?v=1772208406669",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

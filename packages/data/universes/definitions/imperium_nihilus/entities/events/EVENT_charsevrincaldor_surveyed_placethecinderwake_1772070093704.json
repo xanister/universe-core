@@ -1,0 +1,24 @@
+{
+  "id": "EVENT_charsevrincaldor_surveyed_placethecinderwake_1772070093704",
+  "date": "999.M1 15:00",
+  "placeId": "PLACE_the_cinderwake",
+  "eventType": null,
+  "category": "world",
+  "subject": "The Cinderwake",
+  "subjectId": "PLACE_the_cinderwake",
+  "fact": "CHAR_sevrin_caldor surveyed PLACE_the_cinderwake",
+  "significance": "moderate",
+  "witnessIds": [
+    "CHAR_sevrin_caldor",
+    "CHAR_kael_orsino",
+    "CHAR_kestrel_arvant",
+    "CHAR_severan_dusk",
+    "CHAR_severin_drach"
+  ],
+  "important": false,
+  "importanceScore": null,
+  "scope": "local",
+  "relevantPlaceIds": [
+    "PLACE_the_cinderwake"
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_sanctum_of_the_severed_star",
+  "label": "Sanctum of the Severed Star",
+  "description": "The Sanctum of the Severed Star serves as a fortified chapel within Cyrenth Bastion-City, its plan set in thick ferrocrete bays sheathed in void-black adamantine to match the city’s siege architecture. A ribbed nave runs beneath armored ribs and shuttered clerestories, where bruise-hued auroral light filters through sanctified glass scored with wards against empyrean taint. Recessed altars and reliquary niches occupy blast-rated side chapels, while airlocks and decontamination grates are built into the threshold in strict accordance with quarantine protocol. Vox-baffles and hymn resonators line the walls, enforcing a disciplined acoustics suited to rites conducted under isolation and alarm.",
+  "short_description": "fortified aurora-lit chapel",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "temple",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "world_map_temple",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/battles/PLACE_sanctum_of_the_severed_star.png?v=1771996014086",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 144,
+    "y": 224,
+    "width": 96,
+    "height": 96,
+    "parent": "PLACE_cyrenth_bastioncity",
+    "innerWidth": 2624,
+    "innerHeight": 5440
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/places/PLACE_sanctum_of_the_severed_star.png?v=1771996067313",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

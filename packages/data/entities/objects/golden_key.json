@@ -1,0 +1,24 @@
+{
+  "id": "golden_key",
+  "name": "Golden Key",
+  "description": "An ornate key with a sun-shaped head",
+  "purposes": [
+    "item"
+  ],
+  "tags": [
+    "item",
+    "common",
+    "ship"
+  ],
+  "solid": false,
+  "layer": "default",
+  "spriteId": "golden_key",
+  "materials": [
+    "gold"
+  ],
+  "tintable": true,
+  "defaultTint": 16766720,
+  "canContain": false,
+  "states": null,
+  "lightSource": null
+}

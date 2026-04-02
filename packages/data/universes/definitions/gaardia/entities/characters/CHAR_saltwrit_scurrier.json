@@ -1,0 +1,137 @@
+{
+  "id": "CHAR_saltwrit_scurrier",
+  "label": "Saltwrit Scurrier",
+  "description": "This individual is a goblin-sized rat habituated to brine-soaked stone and human refuse, with brown eyes set in a narrow, wedge-shaped face. Fur_brown fur lies close to a lean frame, broken by a torn left ear and a thin notch-scarring along the muzzle from repeated fights in confined passages. Yellowed incisors protrude slightly, and the long tail shows bare, callused rings from constant scraping against salt-crusted masonry. Its movements are defined by wary, opportunistic attention to sound and scent, consistent with a scavenger entrenched in a trafficked grotto.",
+  "short_description": "wary male rat",
+  "tags": [],
+  "entityType": "character",
+  "info": {
+    "purpose": "rat",
+    "aliases": [
+      "Grotto Rat",
+      "Saltwrit Rat"
+    ],
+    "birthdate": "—",
+    "deathdate": null,
+    "title": null,
+    "birthPlace": "The Saltwrit Grotto",
+    "eyeColor": "brown",
+    "gender": "male",
+    "hairColor": "brown",
+    "hairStyle": "unkempt",
+    "beardStyle": null,
+    "headType": "orc_male",
+    "skinTone": "green",
+    "personality": "Food-driven and risk-aware, it keeps to edges and cover, learns routes that avoid boots and torches, and returns repeatedly to the same hidden caches. It responds aggressively to rival vermin and retreats instantly from sudden light or loud metallic noise.",
+    "race": "goblin",
+    "messages": [],
+    "journal": [],
+    "sketches": [],
+    "verbosity": 3,
+    "conversationContext": null,
+    "storytellerState": null,
+    "isPlayer": false,
+    "storyComplete": false,
+    "routine": null,
+    "vesselRoutes": null,
+    "abstractLocation": null,
+    "npcBehavior": null,
+    "physicalState": null,
+    "pendingDeparture": null,
+    "pendingArrival": null,
+    "lastRoutineCheckPeriod": null,
+    "startingNarrative": null,
+    "startingCharacterState": null,
+    "clothing": [],
+    "enabledOverlayLayers": [],
+    "helmingVesselId": null,
+    "storytellerDisabled": false,
+    "rulesetState": {
+      "stats": {
+        "poise": 50,
+        "max_poise": 50
+      },
+      "conditions": [],
+      "statUsage": {},
+      "incapacitation": null,
+      "incapacitatedSince": null
+    },
+    "voiceId": "callum",
+    "spriteConfig": {
+      "bodyType": "male",
+      "layers": [
+        {
+          "type": "body",
+          "optionId": "body_base",
+          "tint": 7061319
+        },
+        {
+          "type": "body",
+          "optionId": "body_universal",
+          "tint": 7061319
+        },
+        {
+          "type": "hair",
+          "optionId": "hair_unkempt",
+          "tint": 7029286
+        }
+      ],
+      "spriteHash": "e13e45ef85669c57",
+      "spriteUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/sprites/generated/e13e45ef85669c57.png"
+    },
+    "spriteId": "rat"
+  },
+  "position": {
+    "x": 1603,
+    "y": 2288,
+    "width": 32,
+    "height": 48,
+    "parent": "PLACE_the_saltwrit_grotto"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/gaardia/images/characters/CHAR_saltwrit_scurrier.png?v=1772437681371",
+  "faceAnchorY": 0.23,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "talk"
+  },
+  "relationships": [
+    {
+      "targetId": "CHAR_drenic_malrow",
+      "type": "enemy",
+      "disposition": -60,
+      "familiarity": 50,
+      "context": "Both are entrenched in PLACE_the_saltwrit_grotto; Drenic is territorial toward intrusions, making hostile encounters with a scavenging rat likely.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_iscel_varn",
+      "type": "enemy",
+      "disposition": -60,
+      "familiarity": 50,
+      "context": "Iscel enforces boundaries in the grotto with intolerance for deviation; a cache-returning scavenger would frequently cross/violate such boundaries and be driven off.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_ivo_relland",
+      "type": "rival",
+      "disposition": -20,
+      "familiarity": 50,
+      "context": "Both occupy and defend narrow passages/hoarded debris in the grotto; competition over chokepoints and refuse piles is likely.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_ostel_var",
+      "type": "enemy",
+      "disposition": -60,
+      "familiarity": 50,
+      "context": "Ostel reacts to intrusion with abrupt territorial violence along tunnels/ledges, which would put it in direct conflict with a rat that keeps to those routes.",
+      "pendingGeneration": false
+    }
+  ],
+  "important": false
+}

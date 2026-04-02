@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_mineral_lockroom",
+  "label": "Mineral Lockroom",
+  "description": "Mineral Lockroom serves as the primary storage chamber of Saltglass Courtyard House, set behind a thick basalt partition to buffer the interior from Brineshade’s mineral haze. Salt-cemented shelving and recessed niches line the walls, their edges sealed with crystalline grout to limit salt bloom and abrasion. The ceiling carries shallow buttress ribs tied into the residence’s load structure, maintaining alignment under the city’s measurable tidal stresses. Light enters as a narrow, pale spill filtered through the courtyard’s saltglass, leaving the room’s corners in persistent, cool shadow.",
+  "short_description": "sealed basalt storeroom",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "storage_room",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.9
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "door_wooden",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/the_brine_lattice/images/battles/PLACE_mineral_lockroom.png?v=1772313936178",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 720,
+    "y": 160,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_saltglass_courtyard_house",
+    "innerWidth": 448,
+    "innerHeight": 640
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/the_brine_lattice/images/places/PLACE_mineral_lockroom.png?v=1772314024567",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

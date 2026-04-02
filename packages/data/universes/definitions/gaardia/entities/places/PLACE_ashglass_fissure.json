@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_ashglass_fissure",
+  "label": "Ashglass Fissure",
+  "description": "Ashglass Fissure occupies a caldera-split seam within Griefcairn Peak’s basalt, where the walls bear a permanent sheen of vitrified slag and razor-edged ash-glass. The passage narrows into a low, wind-fed corridor that carries abrasive grit inward, polishing the rock into dark, striated planes. Near the back, collapsed scree forms a talus choke, its stones fused in places by old heat and threaded with hairline cracks. The air remains cold and metallic, and sound compresses into short, hard echoes against the glassed stone.",
+  "short_description": "vitrified basalt cave",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "cave",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.9
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "stone_arch_ruins",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/gaardia/images/battles/PLACE_ashglass_fissure.png?v=1772208990624",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 1728,
+    "y": 576,
+    "width": 48,
+    "height": 48,
+    "parent": "PLACE_griefcairn_peak",
+    "innerWidth": 4096,
+    "innerHeight": 1568
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/gaardia/images/places/PLACE_ashglass_fissure.png?v=1772209039593",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

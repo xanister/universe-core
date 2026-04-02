@@ -1,0 +1,20 @@
+{
+  "id": "water_glass",
+  "name": "Water Glass",
+  "description": "A glass mug filled with water.",
+  "purposes": [
+    "decoration"
+  ],
+  "tags": [
+    "common",
+    "drinkware",
+    "tavern"
+  ],
+  "solid": false,
+  "layer": "default",
+  "spriteId": "water_glass",
+  "materials": [
+    "glass"
+  ],
+  "tintable": false
+}

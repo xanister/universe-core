@@ -1,0 +1,21 @@
+{
+  "id": "plate_large",
+  "name": "Large Plate",
+  "description": "A large dark metal dinner plate.",
+  "purposes": [
+    "decoration",
+    "surface_item"
+  ],
+  "tags": [
+    "common",
+    "tableware",
+    "tavern"
+  ],
+  "solid": false,
+  "layer": "default",
+  "spriteId": "plate_large",
+  "materials": [
+    "iron"
+  ],
+  "tintable": false
+}

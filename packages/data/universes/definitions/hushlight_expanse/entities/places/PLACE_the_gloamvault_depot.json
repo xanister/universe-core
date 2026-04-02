@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_the_gloamvault_depot",
+  "label": "The Gloamvault Depot",
+  "description": "The Gloamvault Depot is a basalt-glass warehouse set into Seamline Concord’s escarpment face, its load-bearing ribs fused with mirror-slag that catches the city’s copper-white seam-lines as rigid bands. Interior aisles run on calibrated sightlines aligned to the auroral girdle, enforced by inlaid reflective markers that serve both inventory discipline and navigation reference. Electrostatic baffles along the ceiling hold Lacrymara’s glass dust in fixed veils, reducing particulate drift while giving stored goods a dulled, crystalline sheen. Cistern-fed humidity channels cut the floor in narrow trenches, preserving delicate cargo in the planet’s twilight-dry air.",
+  "short_description": "basalt-glass cargo depot",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "warehouse",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "small_walled_town",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/hushlight_expanse/images/battles/PLACE_the_gloamvault_depot.png?v=1772314139541",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 2304,
+    "y": 448,
+    "width": 48,
+    "height": 48,
+    "parent": "PLACE_seamline_concord",
+    "innerWidth": 3776,
+    "innerHeight": 1728
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/hushlight_expanse/images/places/PLACE_the_gloamvault_depot.png?v=1772314189656",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

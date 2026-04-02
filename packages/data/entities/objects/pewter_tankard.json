@@ -1,0 +1,20 @@
+{
+  "id": "pewter_tankard",
+  "name": "Pewter Tankard",
+  "description": "A tall dark pewter tankard with a handle.",
+  "purposes": [
+    "decoration"
+  ],
+  "tags": [
+    "common",
+    "drinkware",
+    "tavern"
+  ],
+  "solid": false,
+  "layer": "default",
+  "spriteId": "pewter_tankard",
+  "materials": [
+    "iron"
+  ],
+  "tintable": false
+}

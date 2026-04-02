@@ -1,0 +1,51 @@
+{
+  "spriteId": "curtain_window_open",
+  "gridWidth": 2,
+  "gridHeight": 3,
+  "tileSize": 32,
+  "tiles": [
+    {
+      "tilesetId": "furniture-upholstery",
+      "srcX": 192,
+      "srcY": 0,
+      "col": 0,
+      "row": 0
+    },
+    {
+      "tilesetId": "furniture-upholstery",
+      "srcX": 224,
+      "srcY": 0,
+      "col": 1,
+      "row": 0
+    },
+    {
+      "tilesetId": "furniture-upholstery",
+      "srcX": 192,
+      "srcY": 32,
+      "col": 0,
+      "row": 1
+    },
+    {
+      "tilesetId": "furniture-upholstery",
+      "srcX": 224,
+      "srcY": 32,
+      "col": 1,
+      "row": 1
+    },
+    {
+      "tilesetId": "furniture-upholstery",
+      "srcX": 192,
+      "srcY": 64,
+      "col": 0,
+      "row": 2
+    },
+    {
+      "tilesetId": "furniture-upholstery",
+      "srcX": 224,
+      "srcY": 64,
+      "col": 1,
+      "row": 2
+    }
+  ],
+  "updatedAt": "2026-03-02T15:50:41.355Z"
+}

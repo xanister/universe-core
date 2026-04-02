@@ -1,0 +1,21 @@
+{
+  "id": "planter_stone",
+  "name": "Stone Planter",
+  "description": "Round stone planter with a low leafy bush.",
+  "purposes": [
+    "decoration"
+  ],
+  "tags": [
+    "outdoor",
+    "decoration",
+    "garden",
+    "stone",
+    "plant"
+  ],
+  "solid": true,
+  "layer": "default",
+  "spriteId": "planter_stone",
+  "materials": [
+    "stone"
+  ]
+}

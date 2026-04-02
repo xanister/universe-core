@@ -1,0 +1,291 @@
+{
+  "id": "CHAR_tamsin_varrow",
+  "label": "Tamsin Varrow",
+  "description": "This individual is a human woman of early middle age, marked by brown eyes set under steady brows and a light complexion kept plain by long indoor hours. Black hair is worn in a tight ponytail that emphasizes an angular jaw and a straight, unsoftened mouth line. The hands show lasting thickened calluses at the fingers and heel of the palm, consistent with repetitive work and heavy glassware. A faint, old burn-sheen crosses the inner forearm, left as a permanent record of spilled spirits and flame.",
+  "short_description": "aproned female bartender",
+  "tags": [],
+  "entityType": "character",
+  "info": {
+    "purpose": "bartender",
+    "aliases": [
+      "Tam",
+      "Ledger-Tam"
+    ],
+    "birthdate": "1003-11-18",
+    "deathdate": null,
+    "title": null,
+    "birthPlace": "Gaardia",
+    "eyeColor": "brown",
+    "gender": "female",
+    "hairColor": "black",
+    "hairStyle": "ponytail",
+    "beardStyle": null,
+    "headType": "human_female",
+    "skinTone": "light",
+    "personality": "A disciplined house-bartender known for strict measure, rapid mental tallying, and an unbroken habit of watching hands as closely as faces. She maintains the establishment’s tab-keeping customs with meticulous adherence to ledger order, refusing credit outside formal notation and witness. Her manner is restrained and transactional, reserving warmth for regulars who respect the rules of the bar.",
+    "race": "human",
+    "messages": [],
+    "journal": [],
+    "sketches": [],
+    "verbosity": 3,
+    "conversationContext": null,
+    "storytellerState": null,
+    "isPlayer": false,
+    "storyComplete": false,
+    "routine": {
+      "schedule": {
+        "dawn": "home",
+        "morning": "work",
+        "afternoon": "work",
+        "evening": "work",
+        "night": "home"
+      },
+      "home": {
+        "placeId": "PLACE_ledgerhouse_bedchamber",
+        "description": "Quarters near The Black Ledger",
+        "areaHint": null
+      },
+      "work": {
+        "placeId": "PLACE_the_black_ledger",
+        "description": "The Black Ledger",
+        "areaHint": null
+      },
+      "leisure": null,
+      "variance": 0.2,
+      "activities": {
+        "work": "tavern_work"
+      }
+    },
+    "vesselRoutes": null,
+    "abstractLocation": null,
+    "npcBehavior": null,
+    "physicalState": null,
+    "pendingDeparture": null,
+    "pendingArrival": null,
+    "lastRoutineCheckPeriod": null,
+    "startingNarrative": null,
+    "startingCharacterState": null,
+    "clothing": [
+      {
+        "slot": "torso_under",
+        "itemId": "blouse",
+        "color": "#f5f0e8",
+        "contents": null
+      },
+      {
+        "slot": "torso_mid",
+        "itemId": "apron",
+        "color": "#1a1a1a",
+        "contents": null
+      },
+      {
+        "slot": "torso_over",
+        "itemId": "formal_jacket",
+        "color": null,
+        "contents": null
+      },
+      {
+        "slot": "legs",
+        "itemId": "formal_pants",
+        "color": "#3a3a3a",
+        "contents": null
+      },
+      {
+        "slot": "feet",
+        "itemId": "shoes",
+        "color": null,
+        "contents": null
+      },
+      {
+        "slot": "belt",
+        "itemId": "formal_belt",
+        "color": "#1a1a1a",
+        "contents": []
+      },
+      {
+        "slot": "hands",
+        "itemId": "cloth_gloves",
+        "color": null,
+        "contents": null
+      }
+    ],
+    "enabledOverlayLayers": [
+      "eyes",
+      "facial"
+    ],
+    "helmingVesselId": null,
+    "storytellerDisabled": false,
+    "rulesetState": {
+      "stats": {},
+      "conditions": [],
+      "statUsage": {},
+      "incapacitation": null,
+      "incapacitatedSince": null
+    },
+    "voiceId": "bella",
+    "spriteConfig": {
+      "bodyType": "female",
+      "layers": [
+        {
+          "type": "body",
+          "optionId": "body_base",
+          "tint": 15780008
+        },
+        {
+          "type": "body",
+          "optionId": "body_universal",
+          "tint": 15780008
+        },
+        {
+          "type": "eyes",
+          "optionId": "eyes_eyes",
+          "tint": 7029286
+        },
+        {
+          "type": "hair",
+          "optionId": "hair_ponytail",
+          "tint": 1710618
+        },
+        {
+          "type": "torso",
+          "optionId": "torso_white_blouse_female",
+          "tint": 16117992
+        },
+        {
+          "type": "torso",
+          "optionId": "torso_white_apron_female",
+          "tint": 1710618
+        },
+        {
+          "type": "feet",
+          "optionId": "feet_white_shoes_female",
+          "tint": 9127187
+        },
+        {
+          "type": "hands",
+          "optionId": "hands_white_gloves_female",
+          "tint": null
+        }
+      ],
+      "spriteHash": "6b680bd5c17ff1dc",
+      "spriteUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/sprites/generated/6b680bd5c17ff1dc.png"
+    }
+  },
+  "position": {
+    "x": 976,
+    "y": 176,
+    "width": 32,
+    "height": 48,
+    "parent": "PLACE_the_black_ledger"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/gaardia/images/characters/CHAR_tamsin_varrow.png?v=1772575282397",
+  "faceAnchorY": 0.17,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "talk"
+  },
+  "relationships": [
+    {
+      "targetId": "CHAR_bramwell_nace",
+      "type": "colleague",
+      "disposition": 10,
+      "familiarity": 50,
+      "context": "Both are disciplined house-bartenders/ledger-keepers with strict tab customs; likely to have professional overlap or shared practices in the same trade.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_gideon_marr",
+      "type": "acquaintance",
+      "disposition": 0,
+      "familiarity": 40,
+      "context": "Gideon is closely tied to Ledgerhouse accounting/credit customs; as a tab-keeper at The Black Ledger, Tamsin would plausibly know him through shared ledger norms and patrons.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_hollis_berane",
+      "type": "colleague",
+      "disposition": 10,
+      "familiarity": 50,
+      "context": "Both are procedural public-house staff focused on accounts and rule enforcement; plausible professional connection through similar work.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_lenora_quist",
+      "type": "colleague",
+      "disposition": 10,
+      "familiarity": 50,
+      "context": "Both are disciplined keepers of house rules and witnessed terms for debts; likely professional familiarity among ledger-minded publicans.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_marek_dael",
+      "type": "colleague",
+      "disposition": 10,
+      "familiarity": 50,
+      "context": "Marek is an exacting house-rule bartender tied to ledgerkeeping; plausible trade relationship with Tamsin given her tab/ledger role.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_merris_kade",
+      "type": "colleague",
+      "disposition": 10,
+      "familiarity": 50,
+      "context": "Both are house bartenders with strict measure and prompt debt recording; likely to know each other professionally.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_rowan_sutter",
+      "type": "colleague",
+      "disposition": 10,
+      "familiarity": 50,
+      "context": "Both are public-house professionals emphasizing measure, tabs, and de-escalation to protect the house; plausible professional peer.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_sabin_tallow",
+      "type": "colleague",
+      "disposition": 10,
+      "familiarity": 50,
+      "context": "Sabin is a publican focused on rigorous measure and debt recording; likely professional contact for a bartender at The Black Ledger.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_serah_tindal",
+      "type": "acquaintance",
+      "disposition": 0,
+      "familiarity": 40,
+      "context": "Serah is a tavern-merchant centered on recorded exchange and witnessed credit; likely to have transactional dealings with The Black Ledger’s tab-keeping bartender.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_tamsin_korrow",
+      "type": "colleague",
+      "disposition": 10,
+      "familiarity": 50,
+      "context": "Both run bars by ledger of debts/favors and enforce boundaries via written terms; plausible professional peer.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_tamsin_werrick",
+      "type": "colleague",
+      "disposition": 10,
+      "familiarity": 50,
+      "context": "Both are transaction-minded, rule-driven bartenders with careful account keeping; likely to know each other through the same line of work.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_veynor_kelm",
+      "type": "colleague",
+      "disposition": 10,
+      "familiarity": 50,
+      "context": "Veynor is Ledgerhouse-based bar staff with precise tab/favor memory; plausible professional connection due to overlapping ledgerhouse/ledger-keeping culture.",
+      "pendingGeneration": false
+    }
+  ],
+  "important": false
+}

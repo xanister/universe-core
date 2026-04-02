@@ -1,0 +1,73 @@
+{
+  "spriteId": "door_wooden",
+  "gridWidth": 1,
+  "gridHeight": 2,
+  "tileSize": 32,
+  "tiles": [
+    {
+      "tilesetId": "door-interior",
+      "srcX": 480,
+      "srcY": 320,
+      "col": 0,
+      "row": 0
+    },
+    {
+      "tilesetId": "door-interior",
+      "srcX": 480,
+      "srcY": 352,
+      "col": 0,
+      "row": 1
+    }
+  ],
+  "directionTiles": {
+    "north": [
+      {
+        "tilesetId": "door-interior",
+        "srcX": 480,
+        "srcY": 320,
+        "col": 0,
+        "row": 0
+      },
+      {
+        "tilesetId": "door-interior",
+        "srcX": 480,
+        "srcY": 352,
+        "col": 0,
+        "row": 1
+      }
+    ],
+    "east": [
+      {
+        "tilesetId": "door-interior",
+        "srcX": 480,
+        "srcY": 320,
+        "col": 0,
+        "row": 0
+      },
+      {
+        "tilesetId": "door-interior",
+        "srcX": 480,
+        "srcY": 352,
+        "col": 0,
+        "row": 1
+      }
+    ],
+    "west": [
+      {
+        "tilesetId": "door-interior",
+        "srcX": 480,
+        "srcY": 320,
+        "col": 0,
+        "row": 0
+      },
+      {
+        "tilesetId": "door-interior",
+        "srcX": 480,
+        "srcY": 352,
+        "col": 0,
+        "row": 1
+      }
+    ]
+  },
+  "updatedAt": "2026-02-23T08:30:14.530Z"
+}

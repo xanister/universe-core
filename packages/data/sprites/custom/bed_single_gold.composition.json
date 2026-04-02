@@ -1,0 +1,97 @@
+{
+  "spriteId": "bed_single_gold",
+  "gridWidth": 3,
+  "gridHeight": 2,
+  "tileSize": 32,
+  "tiles": [
+    {
+      "tilesetId": "furniture-upholstery",
+      "srcX": 192,
+      "srcY": 576,
+      "col": 0,
+      "row": 0
+    },
+    {
+      "tilesetId": "furniture-upholstery",
+      "srcX": 224,
+      "srcY": 576,
+      "col": 1,
+      "row": 0
+    },
+    {
+      "tilesetId": "furniture-upholstery",
+      "srcX": 256,
+      "srcY": 576,
+      "col": 2,
+      "row": 0
+    },
+    {
+      "tilesetId": "furniture-upholstery",
+      "srcX": 192,
+      "srcY": 608,
+      "col": 0,
+      "row": 1
+    },
+    {
+      "tilesetId": "furniture-upholstery",
+      "srcX": 224,
+      "srcY": 608,
+      "col": 1,
+      "row": 1
+    },
+    {
+      "tilesetId": "furniture-upholstery",
+      "srcX": 256,
+      "srcY": 608,
+      "col": 2,
+      "row": 1
+    }
+  ],
+  "directionTiles": {
+    "north": [
+      {
+        "tilesetId": "furniture-upholstery",
+        "srcX": 192,
+        "srcY": 640,
+        "col": 0,
+        "row": 0
+      },
+      {
+        "tilesetId": "furniture-upholstery",
+        "srcX": 224,
+        "srcY": 640,
+        "col": 1,
+        "row": 0
+      },
+      {
+        "tilesetId": "furniture-upholstery",
+        "srcX": 256,
+        "srcY": 640,
+        "col": 2,
+        "row": 0
+      },
+      {
+        "tilesetId": "furniture-upholstery",
+        "srcX": 192,
+        "srcY": 672,
+        "col": 0,
+        "row": 1
+      },
+      {
+        "tilesetId": "furniture-upholstery",
+        "srcX": 224,
+        "srcY": 672,
+        "col": 1,
+        "row": 1
+      },
+      {
+        "tilesetId": "furniture-upholstery",
+        "srcX": 256,
+        "srcY": 672,
+        "col": 2,
+        "row": 1
+      }
+    ]
+  },
+  "updatedAt": "2026-03-02T15:50:43.285Z"
+}

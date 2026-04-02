@@ -1,0 +1,153 @@
+{
+  "id": "CHAR_glassvein_rat",
+  "label": "Glassvein Rat",
+  "description": "This small goblin presents the gaunt frame, narrow muzzle, and prominent incisors associated in Gaardian bestiaries with so-called ratfolk intrusions into abandoned workings. Bright_green skin lies tight over corded limbs, while black hair grows in sparse, grease-clumped strands along the crown and nape. Brown eyes sit deep beneath a low brow ridge, giving the face a continual, watchful cast. The hands are long-fingered and callused, adapted to squeezing through rubble, gnawing bindings, and worrying at stored provisions.",
+  "short_description": "goblin female rat",
+  "tags": [],
+  "entityType": "character",
+  "info": {
+    "purpose": "rat",
+    "aliases": [
+      "Hollow Rat",
+      "Glassvein Gnawer"
+    ],
+    "birthdate": "Unknown",
+    "deathdate": null,
+    "title": null,
+    "birthPlace": "The Glassvein Hollow",
+    "eyeColor": "brown",
+    "gender": "female",
+    "hairColor": "black",
+    "hairStyle": "unkempt",
+    "beardStyle": null,
+    "headType": "orc_female",
+    "skinTone": "bright_green",
+    "personality": "Territorial and food-driven, this individual maintains a strict mental map of scent-trails, crawlways, and hiding niches, returning repeatedly to proven caches. They avoid direct confrontation, relying on sudden darts, biting holds, and the use of tight stone gaps to break pursuit. They display persistent gnawing and hoarding behaviors, stripping cordage and leather for nesting and stashing scraps in dry fissures.",
+    "race": "goblin",
+    "messages": [],
+    "journal": [],
+    "sketches": [],
+    "verbosity": 3,
+    "conversationContext": null,
+    "storytellerState": null,
+    "isPlayer": false,
+    "storyComplete": false,
+    "routine": null,
+    "vesselRoutes": null,
+    "abstractLocation": null,
+    "npcBehavior": null,
+    "physicalState": null,
+    "pendingDeparture": null,
+    "pendingArrival": null,
+    "lastRoutineCheckPeriod": null,
+    "startingNarrative": null,
+    "startingCharacterState": null,
+    "clothing": [],
+    "enabledOverlayLayers": [],
+    "helmingVesselId": null,
+    "storytellerDisabled": false,
+    "rulesetState": {
+      "stats": {
+        "poise": 50,
+        "max_poise": 50
+      },
+      "conditions": [],
+      "statUsage": {},
+      "incapacitation": null,
+      "incapacitatedSince": null
+    },
+    "voiceId": "lily",
+    "spriteConfig": {
+      "bodyType": "female",
+      "layers": [
+        {
+          "type": "body",
+          "optionId": "body_base",
+          "tint": 6736964
+        },
+        {
+          "type": "body",
+          "optionId": "body_universal",
+          "tint": 6736964
+        },
+        {
+          "type": "hair",
+          "optionId": "hair_unkempt",
+          "tint": 1710618
+        }
+      ],
+      "spriteHash": "4d15fb074d6af06b",
+      "spriteUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/sprites/generated/4d15fb074d6af06b.png"
+    },
+    "spriteId": "rat"
+  },
+  "position": {
+    "x": 1168,
+    "y": 1360,
+    "width": 32,
+    "height": 48,
+    "parent": "PLACE_the_glassvein_hollow"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": null,
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "talk"
+  },
+  "relationships": [
+    {
+      "targetId": "CHAR_calder_hurne",
+      "type": "enemy",
+      "disposition": -60,
+      "familiarity": 50,
+      "context": "Both inhabit the Glassvein Hollow and are territorial; an undead intruder-reactor on fixed routes would be a persistent hazard to a living scavenger/hoarder.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_caldus_rein",
+      "type": "enemy",
+      "disposition": -60,
+      "familiarity": 50,
+      "context": "Shares the same confined location; the revenant’s inexorable approach to intrusions makes it a likely hostile presence the ratfolk avoids.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_isarn_vell",
+      "type": "enemy",
+      "disposition": -60,
+      "familiarity": 50,
+      "context": "Co-located in the Hollow; this patrol-bound remnant reacts with ritualized hostility to living proximity, creating an adversarial relationship.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_sable_wynth",
+      "type": "enemy",
+      "disposition": -60,
+      "familiarity": 50,
+      "context": "Same location; immediate hostility to sound/light and lunges at living bodies would put it in conflict with a sneaking, food-driven goblin.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_silex_corven",
+      "type": "enemy",
+      "disposition": -60,
+      "familiarity": 50,
+      "context": "Same location and overlapping use of narrow passages/shafts; Silex’s aggressive patrol behavior makes it a recurrent threat/antagonist.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_verrin_halst",
+      "type": "enemy",
+      "disposition": -60,
+      "familiarity": 50,
+      "context": "Both are territorial in the same hollow; Verrin’s reflexive hostility toward intrusion would likely clash with the rat’s scavenging routes and caches.",
+      "pendingGeneration": false
+    }
+  ],
+  "important": false
+}

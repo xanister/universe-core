@@ -1,0 +1,23 @@
+{
+  "id": "EVENT_chardanelvossik_surveyed_placethecinderwake_deck_and_1771944524418",
+  "date": "999.M1 05:57",
+  "placeId": "PLACE_the_cinderwake",
+  "eventType": null,
+  "category": "world",
+  "subject": "The Cinderwake",
+  "subjectId": "PLACE_the_cinderwake",
+  "fact": "CHAR_danel_vossik surveyed PLACE_the_cinderwake deck and surroundings",
+  "significance": "moderate",
+  "witnessIds": [
+    "CHAR_danel_vossik",
+    "CHAR_kael_orsino",
+    "CHAR_severan_dusk",
+    "CHAR_severin_drach"
+  ],
+  "important": false,
+  "importanceScore": null,
+  "scope": "local",
+  "relevantPlaceIds": [
+    "PLACE_the_cinderwake"
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "id": "PLACE_the_ironbound_locker",
+  "label": "The Ironbound Locker",
+  "description": "The Ironbound Locker serves as a compact storespace opening off the Ironband Passage, its timber walls cinched with riveted iron straps in the same siege-minded fashion as the corridor beyond. Tiered shelving and chain-secured racks line the bulkheads, leaving a narrow central aisle kept clear for rapid inventory and issue. Canvas-wrapped bins and tarred crates dominate the floor, their surfaces dulled by ash grit and sealed against damp. A shuttered lantern box throws a cold, disciplined light over devotional glyphs cut above the threshold, marking the room as regulated and sanctioned storage.",
+  "short_description": "chain-racked storage room",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "storage_room",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.9
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "door_wooden",
+      "facing": "south",
+      "layer": "default"
+    },
+    "allowPlayerStart": false,
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/battles/PLACE_the_ironbound_locker.png?v=1771817033825",
+    "inheritedRequiredTags": [
+      "ship"
+    ]
+  },
+  "position": {
+    "x": 176,
+    "y": 160,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_the_ironband_passage",
+    "innerWidth": 512,
+    "innerHeight": 544
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/places/PLACE_the_ironbound_locker.png?v=1771817088707",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

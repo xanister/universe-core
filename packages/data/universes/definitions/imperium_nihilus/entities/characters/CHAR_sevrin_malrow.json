@@ -1,0 +1,1304 @@
+{
+  "id": "CHAR_sevrin_malrow",
+  "label": "Sevrin Malrow",
+  "description": "This individual is a human traveler of early adulthood, defined by a lean build hardened by long distance roadwork and irregular sleep. Brown eyes sit beneath black hair worn in a messy2 style, giving the face a restless, searching cast. Light skin shows weathering at the brow and nose consistent with exposure to ash-laden winds rather than indoor life. A narrow jawline and long-fingered hands reinforce the impression of someone formed by constant movement and sparse comforts.",
+  "short_description": "young male traveler",
+  "tags": [],
+  "entityType": "character",
+  "info": {
+    "purpose": "player",
+    "aliases": [
+      "Sev",
+      "Ashlight Newcomer"
+    ],
+    "birthdate": "004.M42",
+    "deathdate": null,
+    "title": null,
+    "birthPlace": "Imperium Nihilus",
+    "eyeColor": "brown",
+    "gender": "male",
+    "hairColor": "black",
+    "hairStyle": "messy2",
+    "beardStyle": "stubble",
+    "headType": "human_male",
+    "skinTone": "light",
+    "personality": "They present as earnest and forward-leaning in conversation, openly declaring a search for adventure and purpose rather than profit alone. They listen intently, ask direct questions about roads, work, and dangers, and commit quickly once a course is chosen. They show disciplined restraint with strangers while maintaining a clear willingness to take risks when a path promises meaning.",
+    "race": "human",
+    "messages": [
+      {
+        "role": "user",
+        "action": "input",
+        "opts": {
+          "text": "I look around."
+        },
+        "date": "999.M1 01:44",
+        "omitFromTranscript": false,
+        "hidden": false
+      },
+      {
+        "date": "999.M1 01:46",
+        "omitFromTranscript": false,
+        "hidden": false,
+        "role": "assistant",
+        "action": "narration",
+        "opts": {
+          "text": "Bruise-violet lantern light washes over soot-dark timber, riveted sheet-metal bulkheads, and a long drain-grated counter; the thick pressure-doors and gasketed shutters sit sealed like a sermon against the ash outside while caged vox-receivers hiss with officious interference. Behind the bar, several working bartenders keep their stations with practiced, weary precision, and a lone young traveler sits within view; the only clear way out is the pressure-door leading back to Vespera Tertius."
+        }
+      },
+      {
+        "role": "user",
+        "action": "input",
+        "opts": {
+          "text": "I wait 480 minutes."
+        },
+        "date": "999.M1 01:47",
+        "omitFromTranscript": false,
+        "hidden": false
+      },
+      {
+        "role": "assistant",
+        "action": "milestone",
+        "opts": {
+          "type": "character_arrived",
+          "label": "Danel Vossik",
+          "subtext": null,
+          "entityId": "CHAR_danel_vossik",
+          "checkDetail": null,
+          "combatData": null
+        },
+        "date": null,
+        "omitFromTranscript": true,
+        "hidden": false
+      },
+      {
+        "date": null,
+        "omitFromTranscript": true,
+        "hidden": false,
+        "role": "assistant",
+        "action": "wait",
+        "opts": {
+          "durationMs": 800
+        }
+      },
+      {
+        "date": "999.M1 05:47",
+        "omitFromTranscript": false,
+        "hidden": false,
+        "role": "assistant",
+        "action": "narration",
+        "opts": {
+          "text": "As the long wait drags toward dawn, The Ashlight Canteen’s sealed doors thump from the outside—three ceremonial knocks, then a fourth like someone forgot the liturgy. Ash-dusted officials squeeze in with a scroll-case and a dented brass wreath, arguing over who is authorized to look solemn in here, while regulars pull their cups closer like etiquette is contagious; the young traveler at the table goes rigid the moment he spots the wreath."
+        }
+      },
+      {
+        "role": "assistant",
+        "action": "dialog",
+        "opts": {
+          "characterId": "CHAR_edrin_fallow",
+          "text": "No civic observances in the beverage lane. That’s painted on the floor in spirit, if not pigment."
+        },
+        "date": "999.M1 05:47",
+        "omitFromTranscript": false,
+        "hidden": false
+      },
+      {
+        "role": "assistant",
+        "action": "dialog",
+        "opts": {
+          "characterId": "CHAR_tamsin_rowe",
+          "text": "If you track ash on my clean boards for a Blessing of Dawn, I’m charging you a sin-tax and calling it tradition."
+        },
+        "date": "999.M1 05:47",
+        "omitFromTranscript": false,
+        "hidden": false
+      },
+      {
+        "role": "assistant",
+        "action": "dialog",
+        "opts": {
+          "characterId": "CHAR_danel_vossik",
+          "text": "It’s the Day of Approved Cheer. We need a public witness, a poured cup, and someone with a face that reads grateful on command."
+        },
+        "date": "999.M1 05:47",
+        "omitFromTranscript": false,
+        "hidden": false
+      },
+      {
+        "role": "assistant",
+        "action": "dialog",
+        "opts": {
+          "characterId": "CHAR_orris_malk",
+          "text": "Grateful costs extra. Also, the last time we hosted a ceremony, the shrine tried to confiscate the tip jar as an unlicensed reliquary."
+        },
+        "date": "999.M1 05:47",
+        "omitFromTranscript": false,
+        "hidden": false
+      },
+      {
+        "role": "assistant",
+        "action": "dialog",
+        "opts": {
+          "characterId": "CHAR_rhett_marrow",
+          "text": "Don’t pick me. I’m not local. I’m famously not local. I have papers that say so in three inks."
+        },
+        "date": "999.M1 05:47",
+        "omitFromTranscript": false,
+        "hidden": false
+      },
+      {
+        "role": "assistant",
+        "action": "dialog",
+        "opts": {
+          "characterId": "CHAR_jorren_halvik",
+          "text": "Papers don’t outrank pageantry, lad. Sit up straight before they bless you crooked."
+        },
+        "date": "999.M1 05:47",
+        "omitFromTranscript": false,
+        "hidden": false
+      },
+      {
+        "role": "assistant",
+        "action": "dialog",
+        "opts": {
+          "characterId": "CHAR_soren_halbrecht",
+          "text": "One witness, one cup, one signature—then you leave and we all pretend this never happened. That’s the deal."
+        },
+        "date": "999.M1 05:47",
+        "omitFromTranscript": false,
+        "hidden": false
+      },
+      {
+        "role": "assistant",
+        "action": "dialog",
+        "opts": {
+          "characterId": "CHAR_danel_vossik",
+          "text": "Correct. Also the wreath must be worn by the most socially significant person present, per subsection seven."
+        },
+        "date": "999.M1 05:47",
+        "omitFromTranscript": false,
+        "hidden": false
+      },
+      {
+        "role": "assistant",
+        "action": "milestone",
+        "opts": {
+          "type": "quest_received",
+          "label": "New Quest",
+          "entityId": "plot_1772050265276",
+          "subtext": null,
+          "checkDetail": null,
+          "combatData": null
+        },
+        "date": null,
+        "omitFromTranscript": true,
+        "hidden": false
+      },
+      {
+        "role": "assistant",
+        "action": "milestone",
+        "opts": {
+          "type": "goal_revealed",
+          "label": "Trace and decode the repeating vox-canticle before it collapses into noise—or becomes something else.",
+          "subtext": null,
+          "entityId": "GOAL_trace_the_canticle",
+          "checkDetail": null,
+          "combatData": null
+        },
+        "date": null,
+        "omitFromTranscript": true,
+        "hidden": false
+      },
+      {
+        "role": "user",
+        "action": "input",
+        "opts": {
+          "text": "I wait 480 minutes."
+        },
+        "date": "999.M1 07:32",
+        "omitFromTranscript": false,
+        "hidden": false
+      },
+      {
+        "date": "999.M1 15:32",
+        "omitFromTranscript": false,
+        "hidden": false,
+        "role": "assistant",
+        "action": "narration",
+        "opts": {
+          "text": "Hours into the wait, the canteen’s pressure-doors cycle and a clerk in rain-slick robes barges in with a stamped wreath-case; the room instantly reorganizes itself around the idea that someone must be Important Right Now. The barkeep thumps a ledger onto the counter, and several bartenders start arguing in practiced whispers about subsection seven while glancing your way like you’re a convenient piece of furniture that can sign its own name."
+        }
+      },
+      {
+        "date": null,
+        "omitFromTranscript": true,
+        "hidden": false,
+        "role": "assistant",
+        "action": "wait",
+        "opts": {
+          "durationMs": 600
+        }
+      },
+      {
+        "role": "assistant",
+        "action": "dialog",
+        "opts": {
+          "characterId": "CHAR_corvin_rake",
+          "text": "Day of Approved Cheer, everyone look suitably improved by it, yes? One witness, one cup, one signature, and nobody gets blessed crooked on my boards."
+        },
+        "date": "999.M1 15:32",
+        "omitFromTranscript": false,
+        "hidden": false
+      },
+      {
+        "role": "assistant",
+        "action": "dialog",
+        "opts": {
+          "characterId": "CHAR_danel_vossik",
+          "text": "I’m not local, I told you. My papers are literally tricolour and they still tried to congratulate me for existing."
+        },
+        "date": "999.M1 15:32",
+        "omitFromTranscript": false,
+        "hidden": false
+      },
+      {
+        "role": "assistant",
+        "action": "dialog",
+        "opts": {
+          "characterId": "CHAR_edrin_fallow",
+          "text": "Subsection seven says the wreath goes to the most socially significant person present, which is either a noble, a saint, or whoever looks like they can afford fines."
+        },
+        "date": "999.M1 15:32",
+        "omitFromTranscript": false,
+        "hidden": false
+      },
+      {
+        "role": "assistant",
+        "action": "dialog",
+        "opts": {
+          "characterId": "CHAR_tamsin_rowe",
+          "text": "Oh brilliant, now it’s looking at the quiet one. If the wreath lands there, we’ll be filing forms until our grandchildren are promoted to ash."
+        },
+        "date": "999.M1 15:32",
+        "omitFromTranscript": false,
+        "hidden": false
+      },
+      {
+        "role": "assistant",
+        "action": "dialog",
+        "opts": {
+          "characterId": "CHAR_jorren_halvik",
+          "text": "No, no, the quiet one is clearly the witness. The witness is always the person who didn’t volunteer; it’s etiquette, like drowning."
+        },
+        "date": "999.M1 15:32",
+        "omitFromTranscript": false,
+        "hidden": false
+      },
+      {
+        "role": "assistant",
+        "action": "dialog",
+        "opts": {
+          "characterId": "CHAR_orris_malk",
+          "text": "If we mis-rank significance, the shrine confiscates the tip jar again as an unlicensed reliquary. I’m still paying off last season’s sanctified interest."
+        },
+        "date": "999.M1 15:32",
+        "omitFromTranscript": false,
+        "hidden": false
+      },
+      {
+        "role": "assistant",
+        "action": "dialog",
+        "opts": {
+          "characterId": "CHAR_corvin_rake",
+          "text": "Right then. Cup gets poured, name gets signed, wreath gets placed on the Correct Head, and anyone mentioning my sin-tax out loud is paying it twice."
+        },
+        "date": "999.M1 15:32",
+        "omitFromTranscript": false,
+        "hidden": false
+      },
+      {
+        "role": "assistant",
+        "action": "milestone",
+        "opts": {
+          "type": "location_entered",
+          "label": "Vespera Tertius",
+          "subtext": null,
+          "entityId": "PLACE_vespera_tertius",
+          "checkDetail": null,
+          "combatData": null
+        },
+        "date": null,
+        "omitFromTranscript": true,
+        "hidden": false
+      },
+      {
+        "role": "assistant",
+        "action": "milestone",
+        "opts": {
+          "type": "location_entered",
+          "label": "Vespera Tertius Nocturnis Bastion",
+          "subtext": null,
+          "entityId": "PLACE_vespera_tertius_nocturnis_bastion",
+          "checkDetail": null,
+          "combatData": null
+        },
+        "date": null,
+        "omitFromTranscript": true,
+        "hidden": false
+      },
+      {
+        "role": "assistant",
+        "action": "milestone",
+        "opts": {
+          "type": "location_entered",
+          "label": "Vespera Tertius",
+          "subtext": null,
+          "entityId": "PLACE_vespera_tertius",
+          "checkDetail": null,
+          "combatData": null
+        },
+        "date": null,
+        "omitFromTranscript": true,
+        "hidden": false
+      },
+      {
+        "role": "assistant",
+        "action": "milestone",
+        "opts": {
+          "type": "location_entered",
+          "label": "Vespera Tertius Nocturnis Bastion",
+          "subtext": null,
+          "entityId": "PLACE_vespera_tertius_nocturnis_bastion",
+          "checkDetail": null,
+          "combatData": null
+        },
+        "date": null,
+        "omitFromTranscript": true,
+        "hidden": false
+      }
+    ],
+    "journal": [
+      {
+        "content": "You push through the Ashlight Canteen’s pressure-doors and let them thud shut behind you, because on Vespera Tertius the wind is an opinionated thing that never stops arguing. Bruise-violet lanterns paint the soot-black room in penitential color while the counter’s drain grates wait patiently for the next inevitable mess—faith is eternal, and so is cleanup.\n\nYou take a seat where you can watch both doors and the caged vox-wall that spits mangled half-news through constant interference, the Imperium’s grand proclamations reduced to stutters and static like a sermon delivered underwater. You’re here because you’re between roads, between orders, and between whatever you were before and whatever you’re trying to become, and this is the sort of place that doesn’t ask for poetry—just credentials and a quiet tone.",
+        "gameDate": "999.M1 01:44",
+        "facts": [
+          {
+            "placeId": null,
+            "category": "world",
+            "subject": "Current Situation",
+            "subjectId": null,
+            "fact": "The ash storms here aren’t weather so much as policy: they come often, they sting, and they punish anyone who lingers outside too long.",
+            "significance": "minor",
+            "important": false
+          },
+          {
+            "placeId": null,
+            "category": "world",
+            "subject": "Current Situation",
+            "subjectId": null,
+            "fact": "The caged vox receivers can’t be trusted for clarity—most transmissions arrive clipped, delayed, or warped by interference from the sky and the Rift’s long shadow.",
+            "significance": "minor",
+            "important": false
+          },
+          {
+            "placeId": null,
+            "category": "knowledge",
+            "subject": "Current Situation",
+            "subjectId": null,
+            "fact": "In Nihilus, being earnest is fine; being openly uncertain is not, so you keep your questions practical and your faith appropriately loud.",
+            "significance": "minor",
+            "important": false
+          }
+        ],
+        "image": null,
+        "context": null
+      }
+    ],
+    "sketches": [],
+    "verbosity": 3,
+    "conversationContext": null,
+    "storytellerState": {
+      "storytellerId": "STORYTELLER_the_lemon_sour_satirist",
+      "voiceId": "jessica",
+      "activePlots": [
+        {
+          "id": "plot_1772050265276",
+          "plan": {
+            "label": "Echoes in the Ash-Choir",
+            "description": "You find yourself in the Ashlight Canteen on Vespera Tertius, where the violet lanterns fight a losing war against soot and static. The caged vox-receivers hiss with interference—yet one channel keeps spitting the same half-prayer and the same coordinates, as if the planet itself is trying to confess. In Imperium Nihilus, silence is death and messages are weapons; a single corrupted transmission can damn a world or save it. Your charter is clear: follow the signal, identify the source, and burn out whatever is making the Emperor’s air taste like warp-lightning.",
+            "plot": "Opening hook: amid the canteen’s usual interference, one vox-channel repeats a clipped canticle and a set of coordinates that do not match any sanctioned route. Sevrin Malrow’s mission-charter arrives as a Sealed Letter, binding him to trace the transmission before it draws something worse than raiders through the Rift-dark. Edrin Fallow points Sevrin toward tithe cargo tied to the Ashfall Ledgerhouse, where an Administratum clerk has vanished and the ash-warehouses are being sealed under “emergency rite.” The culprit is a local vox-cult led by a Mechanicus-aligned magos using stolen astropathic implants and scrapcode to assemble an illegal relay-rite—promising desperate authorities communication and munitions at the price of a widening warp-bleed. The twist is that the rite is being quietly tolerated by parts of the local bureaucracy and clergy who would rather risk damnation than accept isolation, and they will obstruct any investigation that threatens their ‘miracle.’ As the ash-storms worsen and the vox grows clearer—too clear—Sevrin must choose between consecrating the relay under brutal Imperial sanction or destroying it outright, knowing either path will stain him in someone’s ledger.",
+            "characters": [
+              {
+                "role": "informant",
+                "description": "A sturdy, middle-aged bartender with brown skin, heavy brows, and old pock-scars; he keeps his voice low and his eyes moving, like a man who has learned that walls listen.",
+                "publicFace": "A canteen man who hears everything and sells only drink and directions.",
+                "hiddenTruth": "He has been paid in ration-chits and protection to misdirect investigators away from certain shipments—until the killings started and the vox began speaking in his dead sister’s voice.",
+                "locationHint": "Behind the counter or near the caged vox-receivers in the Ashlight Canteen.",
+                "introductionProgress": 0,
+                "name": "Edrin Fallow",
+                "matchHint": "",
+                "entityId": "CHAR_edrin_fallow"
+              },
+              {
+                "role": "ally",
+                "description": "A young traveler with a courier’s posture—light on his feet, eyes always counting exits—carrying himself with the careful calm of someone who has delivered messages that got people executed.",
+                "publicFace": "A sanctioned runner attached to your wider Imperial charter, ‘just a messenger’ with a clean seal and a dirty route-map.",
+                "hiddenTruth": "He has seen the same canticle on two other worlds since the Rift tore open, and fears this is not a local crime but a repeating pattern—an infection that learns.",
+                "locationHint": "Lingering near pressure-doors, docking corridors, and any place where papers are stamped rather than truth spoken.",
+                "introductionProgress": 10,
+                "name": "Danel Vossik",
+                "matchHint": "",
+                "entityId": "CHAR_danel_vossik"
+              },
+              {
+                "role": "antagonist",
+                "description": "A tall, robed figure heavy with augmetics and incense-chains; vox-grilles whisper under his words, and his mechadendrites move with devotional precision that never quite hides impatience.",
+                "publicFace": "A ‘relay caretaker’ performing emergency rites to keep Vespera Tertius connected to the wider Imperium.",
+                "hiddenTruth": "He is running a heretek relay-rite powered by stolen astropathic hardware and warp-tainted scrapcode; each successful ‘message’ is a hook set into the local noosphere—and into human souls.",
+                "locationHint": "Near sealed relay infrastructure, restricted vaults, and any place stamped with Mechanicus wards.",
+                "introductionProgress": 55,
+                "name": "",
+                "matchHint": "augmetic vox-magos overseeing emergency relay rites"
+              },
+              {
+                "role": "victim",
+                "description": "A thin, ash-pale clerk in stained sealskin wraps, fingers inked and trembling; eyes haunted as if he can still hear the paperwork screaming.",
+                "publicFace": "A missing Administratum functionary tied to tithe manifests and warehouse seals.",
+                "hiddenTruth": "He helped authorize illegal lockdowns and redirected supply to the relay-rite; he knows the names of those complicit, but his mind is being eroded by the same signal he enabled.",
+                "locationHint": "Wherever the investigation finds ‘clean’ paperwork amid dirty ash—sealed offices, stores, or behind a locked bulkhead.",
+                "introductionProgress": 35,
+                "name": "",
+                "matchHint": "terror-struck Administratum tithe-clerk caught in a cover-up"
+              }
+            ],
+            "places": [
+              {
+                "placeId": "PLACE_ashfall_ledgerhouse",
+                "storyRole": "evidence_cache"
+              },
+              {
+                "placeId": "PLACE_ashlight_stores",
+                "storyRole": "investigation_hub"
+              },
+              {
+                "placeId": "PLACE_riftmurmur_hollow",
+                "storyRole": "final_confrontation"
+              }
+            ],
+            "items": [
+              {
+                "itemId": "sealed_letter",
+                "tint": null,
+                "locationHint": "Handed to Sevrin in the Ashlight Canteen amid vox-static, bearing a binding seal tied to his charter.",
+                "placement": "ground"
+              },
+              {
+                "itemId": "bronze_medallion",
+                "tint": null,
+                "locationHint": "Hidden in a locked cashbox or supply crate in the Ashlight Stores—kept as ‘insurance’ by someone who handles bribes.",
+                "placement": "container"
+              },
+              {
+                "itemId": "golden_key",
+                "tint": null,
+                "locationHint": "Secured inside a sealed strongbox in the Ashfall Ledgerhouse, near the unlisted lower-vault manifests.",
+                "placement": "container"
+              },
+              {
+                "itemId": "iron_amulet",
+                "tint": null,
+                "locationHint": "Stashed behind filter-coils in the Ash-Filter Store, wrapped in prayer-strips and smelling of machine-oil and incense.",
+                "placement": "container"
+              }
+            ],
+            "turningPoints": [
+              {
+                "id": "TP_inciting_vox_order",
+                "progressTarget": 0,
+                "dramaticRole": "inciting_incident",
+                "involvedCharacter": "Danel Vossik",
+                "triggerOnFlags": null,
+                "essentialInformation": [
+                  "The player learns they are under a binding Imperial charter to trace a repeating corrupted vox-canticle on Vespera Tertius.",
+                  "The player learns the signal’s pattern points toward tithe logistics connected to the Ashfall Ledgerhouse.",
+                  "The player learns delay risks the signal ‘locking in’ and drawing further attention through the warp-saturated void-lanes."
+                ],
+                "triggerConditions": null,
+                "conditionTimeoutHours": null,
+                "triggered": true,
+                "triggeredAt": "999.M1 05:47",
+                "triggeredByEventId": "event_1772050574812",
+                "outcome": null,
+                "flagsSet": null,
+                "conditionsEligibleSince": null
+              },
+              {
+                "id": "TP_rising_body_and_seal",
+                "progressTarget": 38,
+                "dramaticRole": "rising_action",
+                "involvedCharacter": "Edrin Fallow",
+                "triggerOnFlags": null,
+                "essentialInformation": [
+                  "The player learns someone is harvesting sanctioned astropathic or vox-implant components from victims to power a device.",
+                  "The player learns a specific official seal is being used to block inquiry and force ‘emergency’ warehouse lockdowns."
+                ],
+                "triggerConditions": [
+                  {
+                    "type": "min_hours_since_last_event",
+                    "purposes": null,
+                    "placeStoryRole": null,
+                    "periods": null,
+                    "characterName": null,
+                    "hours": 4
+                  },
+                  {
+                    "type": "location_purpose",
+                    "purposes": [
+                      "tavern",
+                      "market"
+                    ],
+                    "placeStoryRole": null,
+                    "periods": null,
+                    "characterName": null,
+                    "hours": null
+                  },
+                  {
+                    "type": "not_in_combat",
+                    "purposes": null,
+                    "placeStoryRole": null,
+                    "periods": null,
+                    "characterName": null,
+                    "hours": null
+                  }
+                ],
+                "conditionTimeoutHours": null,
+                "triggered": false,
+                "triggeredAt": null,
+                "triggeredByEventId": null,
+                "outcome": null,
+                "flagsSet": null,
+                "conditionsEligibleSince": null
+              },
+              {
+                "id": "TP_midpoint_key_to_the_ledgerhouse",
+                "progressTarget": 55,
+                "dramaticRole": "midpoint",
+                "involvedCharacter": "Danel Vossik",
+                "triggerOnFlags": null,
+                "essentialInformation": [
+                  "The player learns the Ashfall Ledgerhouse has a sealed lower section not recorded on public manifests.",
+                  "The player learns a physical key and a matching crest-mark are required to access the relevant vaults without triggering lethal ‘sanction’ measures.",
+                  "The player learns the relay-rite is timed to a near-future window (the next night cycle) when the planet’s interference briefly thins."
+                ],
+                "triggerConditions": [
+                  {
+                    "type": "min_hours_since_last_event",
+                    "purposes": null,
+                    "placeStoryRole": null,
+                    "periods": null,
+                    "characterName": null,
+                    "hours": 4
+                  },
+                  {
+                    "type": "specific_location",
+                    "purposes": null,
+                    "placeStoryRole": "evidence_cache",
+                    "periods": null,
+                    "characterName": null,
+                    "hours": null
+                  },
+                  {
+                    "type": "not_in_combat",
+                    "purposes": null,
+                    "placeStoryRole": null,
+                    "periods": null,
+                    "characterName": null,
+                    "hours": null
+                  }
+                ],
+                "conditionTimeoutHours": null,
+                "triggered": false,
+                "triggeredAt": null,
+                "triggeredByEventId": null,
+                "outcome": null,
+                "flagsSet": null,
+                "conditionsEligibleSince": null
+              },
+              {
+                "id": "TP_crisis_choir_cage_awakes",
+                "progressTarget": 70,
+                "dramaticRole": "crisis",
+                "involvedCharacter": "Edrin Fallow",
+                "triggerOnFlags": null,
+                "essentialInformation": [
+                  "The player learns the source is an active ‘choir-cage’/relay assembly that is already causing localized warp-bleed and auditory phenomena.",
+                  "The player learns there is a sanctioned method to ward the mind during approach, but using such a ward risks marking the bearer to the rite’s sensors."
+                ],
+                "triggerConditions": [
+                  {
+                    "type": "min_hours_since_last_event",
+                    "purposes": null,
+                    "placeStoryRole": null,
+                    "periods": null,
+                    "characterName": null,
+                    "hours": 6
+                  },
+                  {
+                    "type": "time_of_day",
+                    "purposes": null,
+                    "placeStoryRole": null,
+                    "periods": [
+                      "evening",
+                      "night"
+                    ],
+                    "characterName": null,
+                    "hours": null
+                  },
+                  {
+                    "type": "not_in_combat",
+                    "purposes": null,
+                    "placeStoryRole": null,
+                    "periods": null,
+                    "characterName": null,
+                    "hours": null
+                  }
+                ],
+                "conditionTimeoutHours": 36,
+                "triggered": false,
+                "triggeredAt": null,
+                "triggeredByEventId": null,
+                "outcome": null,
+                "flagsSet": null,
+                "conditionsEligibleSince": null
+              },
+              {
+                "id": "TP_climax_relay_rite_confrontation",
+                "progressTarget": 85,
+                "dramaticRole": "climax",
+                "involvedCharacter": "",
+                "triggerOnFlags": null,
+                "essentialInformation": [
+                  "The player learns stopping the event requires an irreversible choice: destroy the relay-assembly or attempt a brutal consecration and containment under Imperial sanction.",
+                  "The player learns the rite’s operator is offering a ‘working channel’ in exchange for silence and continued supply—temptation framed as duty."
+                ],
+                "triggerConditions": [
+                  {
+                    "type": "min_hours_since_last_event",
+                    "purposes": null,
+                    "placeStoryRole": null,
+                    "periods": null,
+                    "characterName": null,
+                    "hours": 4
+                  },
+                  {
+                    "type": "specific_location",
+                    "purposes": null,
+                    "placeStoryRole": "final_confrontation",
+                    "periods": null,
+                    "characterName": null,
+                    "hours": null
+                  }
+                ],
+                "conditionTimeoutHours": 24,
+                "triggered": false,
+                "triggeredAt": null,
+                "triggeredByEventId": null,
+                "outcome": null,
+                "flagsSet": null,
+                "conditionsEligibleSince": null
+              },
+              {
+                "id": "TP_resolution_ink_and_ashes",
+                "progressTarget": 93,
+                "dramaticRole": "resolution",
+                "involvedCharacter": "Danel Vossik",
+                "triggerOnFlags": null,
+                "essentialInformation": [
+                  "The player learns the aftermath will be judged by distant authorities on delayed, fragmentary evidence—yet judgment will still come.",
+                  "The player learns their report (or lack of it) will decide who receives protection, who gets purged, and which compromise becomes policy."
+                ],
+                "triggerConditions": [
+                  {
+                    "type": "min_hours_since_last_event",
+                    "purposes": null,
+                    "placeStoryRole": null,
+                    "periods": null,
+                    "characterName": null,
+                    "hours": 2
+                  },
+                  {
+                    "type": "location_purpose",
+                    "purposes": [
+                      "tavern",
+                      "market"
+                    ],
+                    "placeStoryRole": null,
+                    "periods": null,
+                    "characterName": null,
+                    "hours": null
+                  },
+                  {
+                    "type": "not_in_combat",
+                    "purposes": null,
+                    "placeStoryRole": null,
+                    "periods": null,
+                    "characterName": null,
+                    "hours": null
+                  }
+                ],
+                "conditionTimeoutHours": null,
+                "triggered": false,
+                "triggeredAt": null,
+                "triggeredByEventId": null,
+                "outcome": null,
+                "flagsSet": null,
+                "conditionsEligibleSince": null
+              }
+            ],
+            "possibleFlags": [
+              {
+                "id": "acquired_sealed_letter",
+                "triggerDescription": "Set when the player obtains the Sealed Letter tied to their charter."
+              },
+              {
+                "id": "used_sealed_letter",
+                "triggerDescription": "Set when the player uses the Sealed Letter to demand access, authority, or cooperation."
+              },
+              {
+                "id": "acquired_bronze_medallion",
+                "triggerDescription": "Set when the player acquires the Bronze Medallion bearing the relevant crest-seal."
+              },
+              {
+                "id": "used_bronze_medallion",
+                "triggerDescription": "Set when the player uses the Bronze Medallion to bypass a checkpoint, open a sealed route, or prove a connection."
+              },
+              {
+                "id": "acquired_golden_key",
+                "triggerDescription": "Set when the player acquires the Golden Key needed for the ledgerhouse vault access."
+              },
+              {
+                "id": "used_golden_key",
+                "triggerDescription": "Set when the player uses the Golden Key to open the sealed ledgerhouse access point."
+              },
+              {
+                "id": "acquired_iron_amulet",
+                "triggerDescription": "Set when the player acquires the Iron Amulet used as a ward against the signal’s psychic pressure."
+              },
+              {
+                "id": "used_iron_amulet",
+                "triggerDescription": "Set when the player uses the Iron Amulet to shield themselves during the approach or confrontation."
+              },
+              {
+                "id": "decoded_vox_fragment",
+                "triggerDescription": "Set when the player successfully identifies the repeating vox-canticle pattern and its destination."
+              },
+              {
+                "id": "signal_lost",
+                "triggerDescription": "Set when the player’s actions cause the trail to go cold (e.g., evidence destroyed, witnesses dispersed, or the transmission pattern collapses beyond tracing)."
+              },
+              {
+                "id": "confronted_magos",
+                "triggerDescription": "Set when the player directly confronts the rite’s operator at the relay-crypt."
+              },
+              {
+                "id": "magos_killed",
+                "triggerDescription": "Set when the player kills the heretek vox-magos."
+              },
+              {
+                "id": "magos_escaped",
+                "triggerDescription": "Set when the heretek vox-magos escapes the confrontation alive."
+              },
+              {
+                "id": "relay_destroyed",
+                "triggerDescription": "Set when the player destroys the relay/choir-cage assembly so it cannot be used again."
+              },
+              {
+                "id": "relay_consecrated",
+                "triggerDescription": "Set when the player completes a sanctioned containment/consecration that keeps limited function while preventing immediate warp-bleed."
+              },
+              {
+                "id": "psyker_recovered",
+                "triggerDescription": "Set when any surviving sanctioned psyker asset is secured for transfer to Imperial custody (e.g., Astra Telepathica/Black Ships protocol)."
+              },
+              {
+                "id": "psyker_executed",
+                "triggerDescription": "Set when the player executes the compromised psyker asset to prevent further corruption."
+              },
+              {
+                "id": "psyker_consumed",
+                "triggerDescription": "Set when the choir asset is lost to the warp-bleed or consumed during the rite."
+              },
+              {
+                "id": "report_filed",
+                "triggerDescription": "Set when the player submits a formal report/evidence packet through their chartered chain of command."
+              },
+              {
+                "id": "report_suppressed",
+                "triggerDescription": "Set when the player chooses (or is forced) to withhold, falsify, or lose the report of what occurred."
+              }
+            ],
+            "goals": [
+              {
+                "id": "GOAL_trace_the_canticle",
+                "description": "Trace and decode the repeating vox-canticle before it collapses into noise—or becomes something else.",
+                "progressBoost": 30,
+                "revealOnFlags": [],
+                "successFlags": [
+                  "decoded_vox_fragment"
+                ],
+                "failureFlags": [
+                  "signal_lost"
+                ],
+                "failureDeadlineHours": 72,
+                "hidden": false,
+                "destinationPlaceId": null,
+                "goalType": null,
+                "stakes": null,
+                "personalHook": null,
+                "dramaticQuestion": null,
+                "immediateHint": null,
+                "blockedByFlags": null,
+                "status": "pending",
+                "revealedAt": "999.M1 05:47"
+              },
+              {
+                "id": "GOAL_open_the_ledgerhouse_path",
+                "description": "Gain access to the Ashfall Ledgerhouse’s sealed lower section without triggering a purge-lockdown.",
+                "progressBoost": 30,
+                "revealOnFlags": [
+                  "decoded_vox_fragment",
+                  "acquired_bronze_medallion"
+                ],
+                "successFlags": [
+                  "used_golden_key"
+                ],
+                "failureFlags": [
+                  "signal_lost"
+                ],
+                "failureDeadlineHours": 72,
+                "hidden": false,
+                "destinationPlaceId": null,
+                "goalType": null,
+                "stakes": null,
+                "personalHook": null,
+                "dramaticQuestion": null,
+                "immediateHint": null,
+                "blockedByFlags": null,
+                "status": null,
+                "revealedAt": null
+              },
+              {
+                "id": "GOAL_end_the_relay_rite",
+                "description": "Stop the illegal relay-rite at its source—by destruction or sanctioned containment—before it broadcasts damnation across the ash-wastes.",
+                "progressBoost": 45,
+                "revealOnFlags": [
+                  "used_golden_key",
+                  "used_iron_amulet"
+                ],
+                "successFlags": [
+                  "relay_destroyed",
+                  "relay_consecrated"
+                ],
+                "failureFlags": [
+                  "magos_escaped"
+                ],
+                "failureDeadlineHours": 48,
+                "hidden": false,
+                "destinationPlaceId": null,
+                "goalType": null,
+                "stakes": null,
+                "personalHook": null,
+                "dramaticQuestion": null,
+                "immediateHint": null,
+                "blockedByFlags": null,
+                "status": null,
+                "revealedAt": null
+              },
+              {
+                "id": "GOAL_decide_the_asset",
+                "description": "Decide the fate of the compromised choir/psyker asset: recover for custody or execute to prevent corruption.",
+                "progressBoost": 25,
+                "revealOnFlags": [
+                  "used_iron_amulet",
+                  "used_golden_key"
+                ],
+                "successFlags": [
+                  "psyker_recovered",
+                  "psyker_executed"
+                ],
+                "failureFlags": [
+                  "psyker_consumed"
+                ],
+                "failureDeadlineHours": 48,
+                "hidden": false,
+                "destinationPlaceId": null,
+                "goalType": null,
+                "stakes": null,
+                "personalHook": null,
+                "dramaticQuestion": null,
+                "immediateHint": null,
+                "blockedByFlags": null,
+                "status": null,
+                "revealedAt": null
+              },
+              {
+                "id": "GOAL_put_it_in_ink",
+                "description": "Ensure the outcome is recorded through your chartered authority—so the next purge, protection, or requisition falls on the right necks.",
+                "progressBoost": 20,
+                "revealOnFlags": [
+                  "relay_destroyed",
+                  "relay_consecrated"
+                ],
+                "successFlags": [
+                  "report_filed"
+                ],
+                "failureFlags": [
+                  "report_suppressed"
+                ],
+                "failureDeadlineHours": 96,
+                "hidden": false,
+                "destinationPlaceId": null,
+                "goalType": null,
+                "stakes": null,
+                "personalHook": null,
+                "dramaticQuestion": null,
+                "immediateHint": null,
+                "blockedByFlags": null,
+                "status": null,
+                "revealedAt": null
+              }
+            ],
+            "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/plots/plot_1772050214166.png",
+            "plotStartDelay": 4,
+            "endingCards": [
+              {
+                "condition": {
+                  "type": "flag_set",
+                  "flag": "relay_destroyed"
+                },
+                "title": "Purity by Fire",
+                "text": "The relay-crypt is left as slag and silence. Vespera Tertius remains deaf, but the warp-echo fades—at least here, for now.",
+                "image": null
+              },
+              {
+                "condition": {
+                  "type": "flag_set",
+                  "flag": "relay_consecrated"
+                },
+                "title": "A Working Blasphemy",
+                "text": "The signal returns, thin and controlled, bought with rites, chains, and bodies. The world breathes easier, and the Emperor’s accountants will call it ‘necessary.’",
+                "image": null
+              },
+              {
+                "condition": {
+                  "type": "flag_set",
+                  "flag": "magos_escaped"
+                },
+                "title": "The Heretek Unbound",
+                "text": "The magos slips into the ash-dark with his scrapcode intact. Somewhere beyond the storm-walls, the canticle begins again—learning your name.",
+                "image": null
+              },
+              {
+                "condition": {
+                  "type": "flag_set",
+                  "flag": "report_filed"
+                },
+                "title": "Stamped and Sent",
+                "text": "Your report is sealed and forwarded into the Rift’s broken arteries. It may arrive late, corrupted, or not at all—but you have placed truth into the Imperium’s teeth.",
+                "image": null
+              },
+              {
+                "condition": {
+                  "type": "always",
+                  "flag": ""
+                },
+                "title": "Imperium Nihilus Endures",
+                "text": "The ash keeps falling, the war keeps counting, and faith remains the only currency that never devalues—no matter how much blood it costs.",
+                "image": null
+              }
+            ],
+            "credits": {
+              "title": "Generated Adventure",
+              "entries": [
+                {
+                  "role": "Plot",
+                  "name": "Storyteller"
+                },
+                {
+                  "role": "World",
+                  "name": "Imperium Nihilus"
+                }
+              ]
+            },
+            "characterCentric": false,
+            "centralDramaticQuestion": null,
+            "dramaticSubQuestions": null
+          },
+          "progressLevel": 12,
+          "storyFlags": [],
+          "nextEventAtGameDate": "999.M1 05:47",
+          "events": [
+            {
+              "id": "event_1772050955874",
+              "type": "public misunderstandings and reputation spirals",
+              "description": "During the long wait, a Day of Approved Cheer clerk arrives and triggers an argument over ceremony rules, insisting on a witness, a poured cup, and a signature. The staff’s etiquette panic and subsection-seven wreath rule begins steering unwanted public attention toward you, risking a reputation spiral and shrine interference.",
+              "timestamp": "999.M1 15:32",
+              "affectedEntities": [],
+              "arcId": null,
+              "placeId": "PLACE_the_ashlight_canteen",
+              "sceneSummary": "In The Ashlight Canteen: Hours into the wait, the canteen’s pressure-doors cycle and a clerk in rain-slick robes barges in with a stamped wreath-case; the room instantly reorganizes itself around the idea that someone must be Important Right Now. The barkeep thumps a ledger onto the counter, and several bartenders start arg...",
+              "charactersPresent": [
+                "Corvin Rake",
+                "Danel Vossik",
+                "Edrin Fallow",
+                "Jorren Halvik",
+                "Orris Malk",
+                "Rhett Marrow",
+                "Silan Jett",
+                "Soren Halbrecht",
+                "Tamsin Rowe",
+                "Tomas Avenro"
+              ]
+            },
+            {
+              "id": "event_1772050574812",
+              "type": "festival chaos and civic ceremonies gone sideways",
+              "description": "A dawn civic-festival delegation barged into the Ashlight Canteen to conduct a mandatory Day of Approved Cheer ceremony, demanding a witness, a poured cup, and a ‘socially significant’ wreath-wearer, sparking immediate arguments and anxious attention from a traveler trying not to be chosen.",
+              "timestamp": "999.M1 05:47",
+              "affectedEntities": [],
+              "arcId": null,
+              "placeId": "PLACE_the_ashlight_canteen",
+              "sceneSummary": "In The Ashlight Canteen: As the long wait drags toward dawn, The Ashlight Canteen’s sealed doors thump from the outside—three ceremonial knocks, then a fourth like someone forgot the liturgy. Ash-dusted officials squeeze in with a scroll-case and a dented brass wreath, arguing over who is authorized to look solemn in here, ...",
+              "charactersPresent": [
+                "Danel Vossik",
+                "Edrin Fallow",
+                "Jorren Halvik",
+                "Orris Malk",
+                "Rhett Marrow",
+                "Silan Jett",
+                "Soren Halbrecht",
+                "Tamsin Rowe",
+                "Tomas Avenro"
+              ]
+            }
+          ],
+          "endedAt": null
+        }
+      ],
+      "generationInProgress": false,
+      "eventHistory": [],
+      "storytellerSelectedAt": "999.M1 01:44",
+      "custom": {}
+    },
+    "isPlayer": true,
+    "storyComplete": false,
+    "routine": null,
+    "vesselRoutes": null,
+    "abstractLocation": null,
+    "npcBehavior": null,
+    "physicalState": null,
+    "pendingDeparture": null,
+    "pendingArrival": null,
+    "lastRoutineCheckPeriod": "night",
+    "startingNarrative": "You push through the Ashlight Canteen’s pressure-doors and let them thud shut behind you, because on Vespera Tertius the wind is an opinionated thing that never stops arguing. Bruise-violet lanterns paint the soot-black room in penitential color while the counter’s drain grates wait patiently for the next inevitable mess—faith is eternal, and so is cleanup.\n\nYou take a seat where you can watch both doors and the caged vox-wall that spits mangled half-news through constant interference, the Imperium’s grand proclamations reduced to stutters and static like a sermon delivered underwater. You’re here because you’re between roads, between orders, and between whatever you were before and whatever you’re trying to become, and this is the sort of place that doesn’t ask for poetry—just credentials and a quiet tone.",
+    "startingCharacterState": "Restless but controlled; alert, purpose-hungry, and careful not to look like someone with questions the wrong people might answer.",
+    "clothing": [
+      {
+        "slot": "torso_under",
+        "itemId": "longsleeve",
+        "color": "#f5f0e8",
+        "contents": null
+      },
+      {
+        "slot": "torso_over",
+        "itemId": "trenchcoat",
+        "color": "#3a3a3a",
+        "contents": null
+      },
+      {
+        "slot": "legs",
+        "itemId": "cloth_pants",
+        "color": "#8b4513",
+        "contents": null
+      },
+      {
+        "slot": "feet",
+        "itemId": "boots",
+        "color": "#1a1a1a",
+        "contents": null
+      },
+      {
+        "slot": "belt",
+        "itemId": "leather_belt",
+        "color": "#8b4513",
+        "contents": []
+      }
+    ],
+    "enabledOverlayLayers": [
+      "eyes",
+      "facial"
+    ],
+    "helmingVesselId": null,
+    "storytellerDisabled": false,
+    "rulesetState": {
+      "stats": {
+        "physical": 50,
+        "mental": 50,
+        "social": 50,
+        "poise": 50,
+        "max_poise": 50,
+        "bloodloss": 0,
+        "anxiety": 0,
+        "fatigue": 0,
+        "hunger": 0
+      },
+      "conditions": [],
+      "statUsage": {},
+      "incapacitation": null,
+      "incapacitatedSince": null
+    },
+    "voiceId": "will",
+    "spriteConfig": {
+      "bodyType": "male",
+      "layers": [
+        {
+          "type": "body",
+          "optionId": "body_base",
+          "tint": 15780008
+        },
+        {
+          "type": "body",
+          "optionId": "body_universal",
+          "tint": 15780008
+        },
+        {
+          "type": "eyes",
+          "optionId": "eyes_eyes",
+          "tint": 7029286
+        },
+        {
+          "type": "facial",
+          "optionId": "facial_beard",
+          "tint": 1710618
+        },
+        {
+          "type": "hair",
+          "optionId": "hair_messy2",
+          "tint": 1710618
+        },
+        {
+          "type": "torso",
+          "optionId": "torso_white_longsleeve",
+          "tint": 16117992
+        },
+        {
+          "type": "torso",
+          "optionId": "torso_formal_trenchcoat_male",
+          "tint": 3815994
+        },
+        {
+          "type": "legs",
+          "optionId": "legs_white_pants_male",
+          "tint": 9127187
+        },
+        {
+          "type": "feet",
+          "optionId": "feet_white_boots_male",
+          "tint": 1710618
+        },
+        {
+          "type": "belt",
+          "optionId": "belt_leather_male",
+          "tint": 9127187
+        }
+      ],
+      "spriteHash": "11e2961405c92b77",
+      "spriteUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/sprites/generated/11e2961405c92b77.png",
+      "spriteScale": 1
+    }
+  },
+  "position": {
+    "x": 776.0000000000009,
+    "y": 780.0000000000006,
+    "width": 32,
+    "height": 48,
+    "parent": "PLACE_vespera_tertius_nocturnis_bastion"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/characters/CHAR_sevrin_malrow.png?v=1772049966379",
+  "faceAnchorY": 0.2,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "talk"
+  },
+  "relationships": [
+    {
+      "targetId": "CHAR_edrin_fallow",
+      "type": "acquaintance",
+      "disposition": 0,
+      "familiarity": 40,
+      "context": "Both are currently at the Ashlight Canteen; Sevrin is likely to have interacted with Edrin for service, rules, and local road information.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_jorren_halvik",
+      "type": "acquaintance",
+      "disposition": 0,
+      "familiarity": 40,
+      "context": "Shared location at the Ashlight Canteen makes a basic patron-to-bartender familiarity likely.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_orris_malk",
+      "type": "acquaintance",
+      "disposition": 0,
+      "familiarity": 40,
+      "context": "Same venue (Ashlight Canteen); Sevrin’s direct questioning about routes/work would naturally run through the bar staff.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_rhett_marrow",
+      "type": "acquaintance",
+      "disposition": 0,
+      "familiarity": 40,
+      "context": "Both are restless, purpose-driven newcomers using the Ashlight Canteen as a foothold; likely to have sized each other up or traded notes on routes/contracts.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_silan_jett",
+      "type": "acquaintance",
+      "disposition": 0,
+      "familiarity": 40,
+      "context": "Same location; Silan’s role as an information-gating bartender aligns with Sevrin seeking dangers, work, and roads.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_soren_halbrecht",
+      "type": "acquaintance",
+      "disposition": 0,
+      "familiarity": 40,
+      "context": "Co-present at the Ashlight Canteen; likely to know each other at least superficially via bar interactions and house rules.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_tamsin_rowe",
+      "type": "acquaintance",
+      "disposition": 0,
+      "familiarity": 40,
+      "context": "Both at the Ashlight Canteen; Sevrin’s disciplined but forward style would likely register with a staffer who tracks faces and tabs.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_tomas_avenro",
+      "type": "acquaintance",
+      "disposition": 0,
+      "familiarity": 40,
+      "context": "Same canteen; Tomas’ practical counsel and enforcement of standards fit a likely point of contact for a traveler asking direct questions.",
+      "pendingGeneration": false
+    }
+  ],
+  "important": false
+}

@@ -1,0 +1,93 @@
+{
+  "spriteId": "pipe_organ_blonde_wood",
+  "gridWidth": 3,
+  "gridHeight": 4,
+  "tileSize": 32,
+  "tiles": [
+    {
+      "tilesetId": "furniture-blonde",
+      "srcX": 160,
+      "srcY": 800,
+      "col": 0,
+      "row": 0
+    },
+    {
+      "tilesetId": "furniture-blonde",
+      "srcX": 192,
+      "srcY": 800,
+      "col": 1,
+      "row": 0
+    },
+    {
+      "tilesetId": "furniture-blonde",
+      "srcX": 224,
+      "srcY": 800,
+      "col": 2,
+      "row": 0
+    },
+    {
+      "tilesetId": "furniture-blonde",
+      "srcX": 160,
+      "srcY": 832,
+      "col": 0,
+      "row": 1
+    },
+    {
+      "tilesetId": "furniture-blonde",
+      "srcX": 192,
+      "srcY": 832,
+      "col": 1,
+      "row": 1
+    },
+    {
+      "tilesetId": "furniture-blonde",
+      "srcX": 224,
+      "srcY": 832,
+      "col": 2,
+      "row": 1
+    },
+    {
+      "tilesetId": "furniture-blonde",
+      "srcX": 160,
+      "srcY": 864,
+      "col": 0,
+      "row": 2
+    },
+    {
+      "tilesetId": "furniture-blonde",
+      "srcX": 192,
+      "srcY": 864,
+      "col": 1,
+      "row": 2
+    },
+    {
+      "tilesetId": "furniture-blonde",
+      "srcX": 224,
+      "srcY": 864,
+      "col": 2,
+      "row": 2
+    },
+    {
+      "tilesetId": "furniture-blonde",
+      "srcX": 160,
+      "srcY": 896,
+      "col": 0,
+      "row": 3
+    },
+    {
+      "tilesetId": "furniture-blonde",
+      "srcX": 192,
+      "srcY": 896,
+      "col": 1,
+      "row": 3
+    },
+    {
+      "tilesetId": "furniture-blonde",
+      "srcX": 224,
+      "srcY": 896,
+      "col": 2,
+      "row": 3
+    }
+  ],
+  "updatedAt": "2026-03-02T21:32:22.490Z"
+}

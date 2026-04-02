@@ -1,0 +1,206 @@
+{
+  "id": "CHAR_tamsin_corrow",
+  "label": "Tamsin Corrow",
+  "description": "This individual presents the compact, orderly build associated with deskbound work and long hours under lamplight. Brown eyes set beneath straight brows track details with habitual precision, while brunette hair kept in a plain arrangement frames an oval face marked by faint ink-stains along the cuticles. Light skin shows the even pallor of an indoor occupation, and the mouth holds a firm line shaped by constant recitation of terms and figures. The hands remain notably steady and fine-boned, formed for seals, ledgers, and the handling of bond papers.",
+  "short_description": "robed female clerk",
+  "tags": [],
+  "entityType": "character",
+  "info": {
+    "purpose": "clerk",
+    "aliases": [
+      "Bondstore Clerk Corrow",
+      "Corrow of the Ledger Desk"
+    ],
+    "birthdate": "1002-11-18",
+    "deathdate": null,
+    "title": null,
+    "birthPlace": "Gaardia",
+    "eyeColor": "brown",
+    "gender": "female",
+    "hairColor": "brunette",
+    "hairStyle": "plain",
+    "beardStyle": null,
+    "headType": "human_female",
+    "skinTone": "light",
+    "personality": "Methodical and rule-bound, they maintain strict adherence to bond protocols and archival order, speaking in clipped, formal phrasing and insisting on proper seals, witnesses, and filing. They display a guarded civility toward customers and an institutional loyalty to the Bondstore’s procedures, treating deviations as matters for written correction rather than argument.",
+    "race": "human",
+    "messages": [],
+    "journal": [],
+    "sketches": [],
+    "verbosity": 3,
+    "conversationContext": null,
+    "storytellerState": null,
+    "isPlayer": false,
+    "storyComplete": false,
+    "routine": {
+      "schedule": {
+        "dawn": "home",
+        "morning": "work",
+        "afternoon": "work",
+        "evening": "leisure",
+        "night": "home"
+      },
+      "home": {
+        "placeId": "PLACE_charterhouse_narrow_bedchamber",
+        "description": "Quarters near Ruinward Bondstore",
+        "areaHint": null
+      },
+      "work": {
+        "placeId": "PLACE_ruinward_bondstore",
+        "description": "Ruinward Bondstore",
+        "areaHint": null
+      },
+      "leisure": {
+        "favoriteSpot": null,
+        "preferredTagIds": [
+          "TAG_workplace_tavern"
+        ]
+      },
+      "variance": 0.2,
+      "activities": {
+        "work": "shopkeeping"
+      }
+    },
+    "vesselRoutes": null,
+    "abstractLocation": null,
+    "npcBehavior": null,
+    "physicalState": null,
+    "pendingDeparture": null,
+    "pendingArrival": null,
+    "lastRoutineCheckPeriod": null,
+    "startingNarrative": null,
+    "startingCharacterState": null,
+    "clothing": [
+      {
+        "slot": "torso_under",
+        "itemId": "robe_shirt",
+        "color": "#f5f0e8",
+        "contents": null
+      },
+      {
+        "slot": "torso_mid",
+        "itemId": "sash",
+        "color": "#000080",
+        "contents": null
+      },
+      {
+        "slot": "torso_over",
+        "itemId": "formal_jacket",
+        "color": "#3a3a3a",
+        "contents": null
+      },
+      {
+        "slot": "legs",
+        "itemId": "formal_pants",
+        "color": "#1a1a1a",
+        "contents": null
+      },
+      {
+        "slot": "feet",
+        "itemId": "shoes",
+        "color": "#1a1a1a",
+        "contents": null
+      },
+      {
+        "slot": "neck",
+        "itemId": "necktie",
+        "color": "#000080",
+        "contents": null
+      },
+      {
+        "slot": "accessories",
+        "itemId": "glasses",
+        "color": null,
+        "contents": null
+      }
+    ],
+    "enabledOverlayLayers": [
+      "eyes",
+      "facial"
+    ],
+    "helmingVesselId": null,
+    "storytellerDisabled": false,
+    "rulesetState": {
+      "stats": {},
+      "conditions": [],
+      "statUsage": {},
+      "incapacitation": null,
+      "incapacitatedSince": null
+    },
+    "voiceId": "alice",
+    "spriteConfig": {
+      "bodyType": "female",
+      "layers": [
+        {
+          "type": "body",
+          "optionId": "body_base",
+          "tint": 15780008
+        },
+        {
+          "type": "body",
+          "optionId": "body_universal",
+          "tint": 15780008
+        },
+        {
+          "type": "eyes",
+          "optionId": "eyes_eyes",
+          "tint": 7029286
+        },
+        {
+          "type": "hair",
+          "optionId": "hair_plain",
+          "tint": 4863784
+        },
+        {
+          "type": "torso",
+          "optionId": "torso_white_sash_female",
+          "tint": 128
+        },
+        {
+          "type": "feet",
+          "optionId": "feet_white_shoes_female",
+          "tint": 1710618
+        }
+      ],
+      "spriteHash": "0126f9abceeb09d7",
+      "spriteUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/sprites/generated/0126f9abceeb09d7.png"
+    }
+  },
+  "position": {
+    "x": 346.2,
+    "y": 348.4,
+    "width": 32,
+    "height": 48,
+    "parent": "PLACE_charterhouse_narrow_bedchamber"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/gaardia/images/characters/CHAR_tamsin_corrow.png?v=1772642244101",
+  "faceAnchorY": 0.16,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "talk"
+  },
+  "relationships": [
+    {
+      "targetId": "CHAR_heward_lornick",
+      "type": "colleague",
+      "disposition": 10,
+      "familiarity": 50,
+      "context": "Both are bondstore clerks with the same procedural, record- and seal-focused work style; likely work within the same Bondstore administration.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_tobyn_harrowick",
+      "type": "colleague",
+      "disposition": 10,
+      "familiarity": 50,
+      "context": "Both are stationed at PLACE_ruinward_bondstore; Tobyn handles crates/sealed lots while Tamsin handles ledgers/bond papers, making routine coordination likely.",
+      "pendingGeneration": false
+    }
+  ],
+  "important": false
+}

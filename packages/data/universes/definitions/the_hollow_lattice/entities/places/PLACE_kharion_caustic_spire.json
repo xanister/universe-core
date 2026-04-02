@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_kharion_caustic_spire",
+  "label": "Kharion Caustic Spire",
+  "description": "Kharion Caustic Spire rises from the prismworld’s vitreous crust as a steep, many-faced monolith, its planes cut to lattice-aligned angles that preserve the planet’s rigid geometry. Its glassy flanks split Vesper Node’s meridian radiance into fixed caustic sheets that sweep the surrounding slopes in enduring bands, separated by intervals of absolute shadow. High terraces of dark crystalline strata interrupt the ascent in rectilinear steps, exposing grid-patterned seams that mirror the system’s polyhedral arcs. A thin laminar sky shears along the summit, forming stable, planar cloud-sheets that lock the peak into repeating weather-fronts.",
+  "short_description": "lattice-cut glass spire",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "mountain",
+    "environment": {
+      "type": "exterior",
+      "hasWeather": true,
+      "temperature": {
+        "enabled": true,
+        "base": null,
+        "modifiersApply": true
+      },
+      "maxDarkness": null
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "world_map_mountain",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/the_hollow_lattice/images/battles/PLACE_kharion_caustic_spire.png?v=1772314235026",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 2736,
+    "y": 2048,
+    "width": 96,
+    "height": 96,
+    "parent": "PLACE_kharion_prismworld",
+    "innerWidth": 4160,
+    "innerHeight": 3520
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/the_hollow_lattice/images/places/PLACE_kharion_caustic_spire.png?v=1772314286898",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

@@ -1,0 +1,18 @@
+{
+  "id": "EVENT_name_revealed_alaric_morn_salen_aft_1772170764805",
+  "date": "999.M1 04:00",
+  "placeId": null,
+  "important": false,
+  "importanceScore": null,
+  "scope": null,
+  "relevantPlaceIds": null,
+  "eventType": "name_revealed",
+  "category": "knowledge",
+  "subject": "Salen Aft",
+  "subjectId": "CHAR_salen_aft",
+  "fact": "Learned the name \"Salen Aft\"",
+  "significance": "minor",
+  "witnessIds": [
+    "CHAR_alaric_morn"
+  ]
+}

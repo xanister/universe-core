@@ -1,0 +1,1773 @@
+{
+  "spriteId": "ship_sloop",
+  "gridWidth": 29,
+  "gridHeight": 9,
+  "tileSize": 32,
+  "tiles": [
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 0,
+      "srcY": 448,
+      "col": 0,
+      "row": 1
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 0,
+      "srcY": 480,
+      "col": 0,
+      "row": 2
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 0,
+      "srcY": 512,
+      "col": 0,
+      "row": 3
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 0,
+      "srcY": 544,
+      "col": 0,
+      "row": 4
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 0,
+      "srcY": 576,
+      "col": 0,
+      "row": 5
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 0,
+      "srcY": 608,
+      "col": 0,
+      "row": 6
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 0,
+      "srcY": 640,
+      "col": 0,
+      "row": 7
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 0,
+      "srcY": 672,
+      "col": 0,
+      "row": 8
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 32,
+      "srcY": 480,
+      "col": 1,
+      "row": 2
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 32,
+      "srcY": 512,
+      "col": 1,
+      "row": 3
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 32,
+      "srcY": 544,
+      "col": 1,
+      "row": 4
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 32,
+      "srcY": 576,
+      "col": 1,
+      "row": 5
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 32,
+      "srcY": 608,
+      "col": 1,
+      "row": 6
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 32,
+      "srcY": 640,
+      "col": 1,
+      "row": 7
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 64,
+      "srcY": 480,
+      "col": 2,
+      "row": 2
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 64,
+      "srcY": 512,
+      "col": 2,
+      "row": 3
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 64,
+      "srcY": 544,
+      "col": 2,
+      "row": 4
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 64,
+      "srcY": 576,
+      "col": 2,
+      "row": 5
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 64,
+      "srcY": 608,
+      "col": 2,
+      "row": 6
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 64,
+      "srcY": 640,
+      "col": 2,
+      "row": 7
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 64,
+      "srcY": 672,
+      "col": 2,
+      "row": 8
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 96,
+      "srcY": 448,
+      "col": 3,
+      "row": 1
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 96,
+      "srcY": 480,
+      "col": 3,
+      "row": 2
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 544,
+      "srcY": 544,
+      "col": 3,
+      "row": 3
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 544,
+      "srcY": 544,
+      "col": 3,
+      "row": 4
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 96,
+      "srcY": 576,
+      "col": 3,
+      "row": 5
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 96,
+      "srcY": 608,
+      "col": 3,
+      "row": 6
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 96,
+      "srcY": 640,
+      "col": 3,
+      "row": 7
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 96,
+      "srcY": 672,
+      "col": 3,
+      "row": 8
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 128,
+      "srcY": 448,
+      "col": 4,
+      "row": 1
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 128,
+      "srcY": 480,
+      "col": 4,
+      "row": 2
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 224,
+      "srcY": 512,
+      "col": 4,
+      "row": 3
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 224,
+      "srcY": 512,
+      "col": 4,
+      "row": 4
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 128,
+      "srcY": 576,
+      "col": 4,
+      "row": 5
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 128,
+      "srcY": 608,
+      "col": 4,
+      "row": 6
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 128,
+      "srcY": 640,
+      "col": 4,
+      "row": 7
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 128,
+      "srcY": 672,
+      "col": 4,
+      "row": 8
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 160,
+      "srcY": 448,
+      "col": 5,
+      "row": 1
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 160,
+      "srcY": 480,
+      "col": 5,
+      "row": 2
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 224,
+      "srcY": 512,
+      "col": 5,
+      "row": 3
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 224,
+      "srcY": 512,
+      "col": 5,
+      "row": 4
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 224,
+      "srcY": 512,
+      "col": 5,
+      "row": 5
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 160,
+      "srcY": 608,
+      "col": 5,
+      "row": 6
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 160,
+      "srcY": 640,
+      "col": 5,
+      "row": 7
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 160,
+      "srcY": 672,
+      "col": 5,
+      "row": 8
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 192,
+      "srcY": 448,
+      "col": 6,
+      "row": 1
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 224,
+      "srcY": 512,
+      "col": 6,
+      "row": 2
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 224,
+      "srcY": 512,
+      "col": 6,
+      "row": 3
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 224,
+      "srcY": 512,
+      "col": 6,
+      "row": 4
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 544,
+      "srcY": 544,
+      "col": 6,
+      "row": 5
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 192,
+      "srcY": 608,
+      "col": 6,
+      "row": 6
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 192,
+      "srcY": 640,
+      "col": 6,
+      "row": 7
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 192,
+      "srcY": 672,
+      "col": 6,
+      "row": 8
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 224,
+      "srcY": 448,
+      "col": 7,
+      "row": 1
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 224,
+      "srcY": 480,
+      "col": 7,
+      "row": 2
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 224,
+      "srcY": 512,
+      "col": 7,
+      "row": 3
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 224,
+      "srcY": 544,
+      "col": 7,
+      "row": 4
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 224,
+      "srcY": 576,
+      "col": 7,
+      "row": 5
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 224,
+      "srcY": 608,
+      "col": 7,
+      "row": 6
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 224,
+      "srcY": 640,
+      "col": 7,
+      "row": 7
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 224,
+      "srcY": 672,
+      "col": 7,
+      "row": 8
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 256,
+      "srcY": 448,
+      "col": 8,
+      "row": 1
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 256,
+      "srcY": 480,
+      "col": 8,
+      "row": 2
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 256,
+      "srcY": 512,
+      "col": 8,
+      "row": 3
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 256,
+      "srcY": 544,
+      "col": 8,
+      "row": 4
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 256,
+      "srcY": 576,
+      "col": 8,
+      "row": 5
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 256,
+      "srcY": 608,
+      "col": 8,
+      "row": 6
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 256,
+      "srcY": 640,
+      "col": 8,
+      "row": 7
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 256,
+      "srcY": 672,
+      "col": 8,
+      "row": 8
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 256,
+      "srcY": 448,
+      "col": 9,
+      "row": 1
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 544,
+      "srcY": 544,
+      "col": 9,
+      "row": 2
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 544,
+      "srcY": 544,
+      "col": 9,
+      "row": 3
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 288,
+      "srcY": 544,
+      "col": 9,
+      "row": 4
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 544,
+      "srcY": 544,
+      "col": 9,
+      "row": 4
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 544,
+      "srcY": 544,
+      "col": 9,
+      "row": 5
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 544,
+      "srcY": 544,
+      "col": 9,
+      "row": 6
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 256,
+      "srcY": 608,
+      "col": 9,
+      "row": 6
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 256,
+      "srcY": 640,
+      "col": 9,
+      "row": 7
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 256,
+      "srcY": 672,
+      "col": 9,
+      "row": 8
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 256,
+      "srcY": 448,
+      "col": 10,
+      "row": 1
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 224,
+      "srcY": 544,
+      "col": 10,
+      "row": 2
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 224,
+      "srcY": 544,
+      "col": 10,
+      "row": 3
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 224,
+      "srcY": 544,
+      "col": 10,
+      "row": 4
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 224,
+      "srcY": 512,
+      "col": 10,
+      "row": 5
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 224,
+      "srcY": 512,
+      "col": 10,
+      "row": 6
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 256,
+      "srcY": 608,
+      "col": 10,
+      "row": 6
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 256,
+      "srcY": 640,
+      "col": 10,
+      "row": 7
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 256,
+      "srcY": 672,
+      "col": 10,
+      "row": 8
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 256,
+      "srcY": 448,
+      "col": 11,
+      "row": 1
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 224,
+      "srcY": 512,
+      "col": 11,
+      "row": 2
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 160,
+      "srcY": 480,
+      "col": 11,
+      "row": 3
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 224,
+      "srcY": 512,
+      "col": 11,
+      "row": 4
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 224,
+      "srcY": 512,
+      "col": 11,
+      "row": 5
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 224,
+      "srcY": 512,
+      "col": 11,
+      "row": 6
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 256,
+      "srcY": 608,
+      "col": 11,
+      "row": 6
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 256,
+      "srcY": 640,
+      "col": 11,
+      "row": 7
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 256,
+      "srcY": 672,
+      "col": 11,
+      "row": 8
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 256,
+      "srcY": 448,
+      "col": 12,
+      "row": 1
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 224,
+      "srcY": 544,
+      "col": 12,
+      "row": 2
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 224,
+      "srcY": 512,
+      "col": 12,
+      "row": 3
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 224,
+      "srcY": 512,
+      "col": 12,
+      "row": 4
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 224,
+      "srcY": 512,
+      "col": 12,
+      "row": 5
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 544,
+      "srcY": 544,
+      "col": 12,
+      "row": 6
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 256,
+      "srcY": 608,
+      "col": 12,
+      "row": 6
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 256,
+      "srcY": 640,
+      "col": 12,
+      "row": 7
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 256,
+      "srcY": 672,
+      "col": 12,
+      "row": 8
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 256,
+      "srcY": 448,
+      "col": 13,
+      "row": 1
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 224,
+      "srcY": 544,
+      "col": 13,
+      "row": 2
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 224,
+      "srcY": 480,
+      "col": 13,
+      "row": 3
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 224,
+      "srcY": 512,
+      "col": 13,
+      "row": 4
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 224,
+      "srcY": 544,
+      "col": 13,
+      "row": 5
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 224,
+      "srcY": 576,
+      "col": 13,
+      "row": 6
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 256,
+      "srcY": 608,
+      "col": 13,
+      "row": 6
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 256,
+      "srcY": 640,
+      "col": 13,
+      "row": 7
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 256,
+      "srcY": 672,
+      "col": 13,
+      "row": 8
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 256,
+      "srcY": 448,
+      "col": 14,
+      "row": 1
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 224,
+      "srcY": 512,
+      "col": 14,
+      "row": 2
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 256,
+      "srcY": 480,
+      "col": 14,
+      "row": 3
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 256,
+      "srcY": 512,
+      "col": 14,
+      "row": 4
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 256,
+      "srcY": 544,
+      "col": 14,
+      "row": 5
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 256,
+      "srcY": 576,
+      "col": 14,
+      "row": 6
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 256,
+      "srcY": 608,
+      "col": 14,
+      "row": 6
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 256,
+      "srcY": 640,
+      "col": 14,
+      "row": 7
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 256,
+      "srcY": 672,
+      "col": 14,
+      "row": 8
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 256,
+      "srcY": 448,
+      "col": 15,
+      "row": 1
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 224,
+      "srcY": 544,
+      "col": 15,
+      "row": 2
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 224,
+      "srcY": 512,
+      "col": 15,
+      "row": 3
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 224,
+      "srcY": 544,
+      "col": 15,
+      "row": 4
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 224,
+      "srcY": 512,
+      "col": 15,
+      "row": 5
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 224,
+      "srcY": 544,
+      "col": 15,
+      "row": 6
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 256,
+      "srcY": 608,
+      "col": 15,
+      "row": 6
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 256,
+      "srcY": 640,
+      "col": 15,
+      "row": 7
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 256,
+      "srcY": 672,
+      "col": 15,
+      "row": 8
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 256,
+      "srcY": 448,
+      "col": 16,
+      "row": 1
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 160,
+      "srcY": 480,
+      "col": 16,
+      "row": 2
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 224,
+      "srcY": 512,
+      "col": 16,
+      "row": 3
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 224,
+      "srcY": 512,
+      "col": 16,
+      "row": 4
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 224,
+      "srcY": 512,
+      "col": 16,
+      "row": 5
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 224,
+      "srcY": 512,
+      "col": 16,
+      "row": 6
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 256,
+      "srcY": 608,
+      "col": 16,
+      "row": 6
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 256,
+      "srcY": 640,
+      "col": 16,
+      "row": 7
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 256,
+      "srcY": 672,
+      "col": 16,
+      "row": 8
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 256,
+      "srcY": 448,
+      "col": 17,
+      "row": 1
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 224,
+      "srcY": 512,
+      "col": 17,
+      "row": 2
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 224,
+      "srcY": 512,
+      "col": 17,
+      "row": 3
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 224,
+      "srcY": 512,
+      "col": 17,
+      "row": 4
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 544,
+      "srcY": 544,
+      "col": 17,
+      "row": 5
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 224,
+      "srcY": 544,
+      "col": 17,
+      "row": 6
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 256,
+      "srcY": 608,
+      "col": 17,
+      "row": 6
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 256,
+      "srcY": 640,
+      "col": 17,
+      "row": 7
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 256,
+      "srcY": 672,
+      "col": 17,
+      "row": 8
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 256,
+      "srcY": 448,
+      "col": 18,
+      "row": 1
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 224,
+      "srcY": 480,
+      "col": 18,
+      "row": 2
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 224,
+      "srcY": 512,
+      "col": 18,
+      "row": 3
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 224,
+      "srcY": 544,
+      "col": 18,
+      "row": 4
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 224,
+      "srcY": 576,
+      "col": 18,
+      "row": 5
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 224,
+      "srcY": 512,
+      "col": 18,
+      "row": 6
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 256,
+      "srcY": 608,
+      "col": 18,
+      "row": 6
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 256,
+      "srcY": 640,
+      "col": 18,
+      "row": 7
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 256,
+      "srcY": 672,
+      "col": 18,
+      "row": 8
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 256,
+      "srcY": 448,
+      "col": 19,
+      "row": 1
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 256,
+      "srcY": 480,
+      "col": 19,
+      "row": 2
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 256,
+      "srcY": 512,
+      "col": 19,
+      "row": 3
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 256,
+      "srcY": 544,
+      "col": 19,
+      "row": 4
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 256,
+      "srcY": 576,
+      "col": 19,
+      "row": 5
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 224,
+      "srcY": 512,
+      "col": 19,
+      "row": 6
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 256,
+      "srcY": 608,
+      "col": 19,
+      "row": 6
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 256,
+      "srcY": 640,
+      "col": 19,
+      "row": 7
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 256,
+      "srcY": 672,
+      "col": 19,
+      "row": 8
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 256,
+      "srcY": 448,
+      "col": 20,
+      "row": 1
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 224,
+      "srcY": 544,
+      "col": 20,
+      "row": 2
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 224,
+      "srcY": 512,
+      "col": 20,
+      "row": 3
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 160,
+      "srcY": 480,
+      "col": 20,
+      "row": 4
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 224,
+      "srcY": 512,
+      "col": 20,
+      "row": 5
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 224,
+      "srcY": 512,
+      "col": 20,
+      "row": 6
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 256,
+      "srcY": 608,
+      "col": 20,
+      "row": 6
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 256,
+      "srcY": 640,
+      "col": 20,
+      "row": 7
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 256,
+      "srcY": 672,
+      "col": 20,
+      "row": 8
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 256,
+      "srcY": 448,
+      "col": 21,
+      "row": 1
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 224,
+      "srcY": 512,
+      "col": 21,
+      "row": 2
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 224,
+      "srcY": 544,
+      "col": 21,
+      "row": 3
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 224,
+      "srcY": 512,
+      "col": 21,
+      "row": 4
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 224,
+      "srcY": 512,
+      "col": 21,
+      "row": 5
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 224,
+      "srcY": 512,
+      "col": 21,
+      "row": 6
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 256,
+      "srcY": 608,
+      "col": 21,
+      "row": 6
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 256,
+      "srcY": 640,
+      "col": 21,
+      "row": 7
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 256,
+      "srcY": 672,
+      "col": 21,
+      "row": 8
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 256,
+      "srcY": 448,
+      "col": 22,
+      "row": 1
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 224,
+      "srcY": 544,
+      "col": 22,
+      "row": 2
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 224,
+      "srcY": 512,
+      "col": 22,
+      "row": 3
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 224,
+      "srcY": 480,
+      "col": 22,
+      "row": 4
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 224,
+      "srcY": 512,
+      "col": 22,
+      "row": 5
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 224,
+      "srcY": 544,
+      "col": 22,
+      "row": 6
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 256,
+      "srcY": 608,
+      "col": 22,
+      "row": 6
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 256,
+      "srcY": 640,
+      "col": 22,
+      "row": 7
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 256,
+      "srcY": 672,
+      "col": 22,
+      "row": 8
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 256,
+      "srcY": 448,
+      "col": 23,
+      "row": 1
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 224,
+      "srcY": 544,
+      "col": 23,
+      "row": 2
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 224,
+      "srcY": 512,
+      "col": 23,
+      "row": 3
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 256,
+      "srcY": 480,
+      "col": 23,
+      "row": 4
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 256,
+      "srcY": 512,
+      "col": 23,
+      "row": 5
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 256,
+      "srcY": 544,
+      "col": 23,
+      "row": 6
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 256,
+      "srcY": 608,
+      "col": 23,
+      "row": 6
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 256,
+      "srcY": 640,
+      "col": 23,
+      "row": 7
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 256,
+      "srcY": 672,
+      "col": 23,
+      "row": 8
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 256,
+      "srcY": 448,
+      "col": 24,
+      "row": 1
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 224,
+      "srcY": 512,
+      "col": 24,
+      "row": 2
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 224,
+      "srcY": 512,
+      "col": 24,
+      "row": 3
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 224,
+      "srcY": 512,
+      "col": 24,
+      "row": 4
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 224,
+      "srcY": 512,
+      "col": 24,
+      "row": 5
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 224,
+      "srcY": 512,
+      "col": 24,
+      "row": 6
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 256,
+      "srcY": 608,
+      "col": 24,
+      "row": 6
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 256,
+      "srcY": 640,
+      "col": 24,
+      "row": 7
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 256,
+      "srcY": 672,
+      "col": 24,
+      "row": 8
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 512,
+      "srcY": 416,
+      "col": 25,
+      "row": 0
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 512,
+      "srcY": 448,
+      "col": 25,
+      "row": 1
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 512,
+      "srcY": 480,
+      "col": 25,
+      "row": 2
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 512,
+      "srcY": 480,
+      "col": 25,
+      "row": 3
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 512,
+      "srcY": 480,
+      "col": 25,
+      "row": 4
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 512,
+      "srcY": 576,
+      "col": 25,
+      "row": 5
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 512,
+      "srcY": 608,
+      "col": 25,
+      "row": 6
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 480,
+      "srcY": 640,
+      "col": 25,
+      "row": 7
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 512,
+      "srcY": 640,
+      "col": 25,
+      "row": 7
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 512,
+      "srcY": 672,
+      "col": 25,
+      "row": 8
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 544,
+      "srcY": 416,
+      "col": 26,
+      "row": 0
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 224,
+      "srcY": 512,
+      "col": 26,
+      "row": 1
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 224,
+      "srcY": 512,
+      "col": 26,
+      "row": 2
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 224,
+      "srcY": 512,
+      "col": 26,
+      "row": 3
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 544,
+      "srcY": 544,
+      "col": 26,
+      "row": 4
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 544,
+      "srcY": 576,
+      "col": 26,
+      "row": 5
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 544,
+      "srcY": 608,
+      "col": 26,
+      "row": 6
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 544,
+      "srcY": 640,
+      "col": 26,
+      "row": 7
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 544,
+      "srcY": 672,
+      "col": 26,
+      "row": 8
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 576,
+      "srcY": 416,
+      "col": 27,
+      "row": 0
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 576,
+      "srcY": 448,
+      "col": 27,
+      "row": 1
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 224,
+      "srcY": 512,
+      "col": 27,
+      "row": 2
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 224,
+      "srcY": 512,
+      "col": 27,
+      "row": 3
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 576,
+      "srcY": 544,
+      "col": 27,
+      "row": 4
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 576,
+      "srcY": 576,
+      "col": 27,
+      "row": 5
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 576,
+      "srcY": 608,
+      "col": 27,
+      "row": 6
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 576,
+      "srcY": 640,
+      "col": 27,
+      "row": 7
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 608,
+      "srcY": 672,
+      "col": 27,
+      "row": 8
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 576,
+      "srcY": 672,
+      "col": 27,
+      "row": 8
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 608,
+      "srcY": 416,
+      "col": 28,
+      "row": 0
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 608,
+      "srcY": 448,
+      "col": 28,
+      "row": 1
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 608,
+      "srcY": 480,
+      "col": 28,
+      "row": 2
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 608,
+      "srcY": 512,
+      "col": 28,
+      "row": 3
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 608,
+      "srcY": 544,
+      "col": 28,
+      "row": 4
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 608,
+      "srcY": 576,
+      "col": 28,
+      "row": 5
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 608,
+      "srcY": 608,
+      "col": 28,
+      "row": 6
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 608,
+      "srcY": 640,
+      "col": 28,
+      "row": 7
+    },
+    {
+      "tilesetId": "ship-sailing-exterior",
+      "srcX": 608,
+      "srcY": 672,
+      "col": 28,
+      "row": 8
+    }
+  ],
+  "updatedAt": "2026-02-15T17:23:53.053Z"
+}

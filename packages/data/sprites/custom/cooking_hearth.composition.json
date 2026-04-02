@@ -1,0 +1,149 @@
+{
+  "spriteId": "cooking_hearth",
+  "gridWidth": 4,
+  "gridHeight": 5,
+  "tileSize": 32,
+  "tiles": [
+    {
+      "tilesetId": "food-tavern-cooking",
+      "srcX": 0,
+      "srcY": 0,
+      "col": 0,
+      "row": 0
+    },
+    {
+      "tilesetId": "food-tavern-cooking",
+      "srcX": 32,
+      "srcY": 0,
+      "col": 1,
+      "row": 0
+    },
+    {
+      "tilesetId": "food-tavern-cooking",
+      "srcX": 64,
+      "srcY": 0,
+      "col": 2,
+      "row": 0
+    },
+    {
+      "tilesetId": "food-tavern-cooking",
+      "srcX": 96,
+      "srcY": 0,
+      "col": 3,
+      "row": 0
+    },
+    {
+      "tilesetId": "food-tavern-cooking",
+      "srcX": 0,
+      "srcY": 32,
+      "col": 0,
+      "row": 1
+    },
+    {
+      "tilesetId": "food-tavern-cooking",
+      "srcX": 32,
+      "srcY": 32,
+      "col": 1,
+      "row": 1
+    },
+    {
+      "tilesetId": "food-tavern-cooking",
+      "srcX": 64,
+      "srcY": 32,
+      "col": 2,
+      "row": 1
+    },
+    {
+      "tilesetId": "food-tavern-cooking",
+      "srcX": 96,
+      "srcY": 32,
+      "col": 3,
+      "row": 1
+    },
+    {
+      "tilesetId": "food-tavern-cooking",
+      "srcX": 0,
+      "srcY": 64,
+      "col": 0,
+      "row": 2
+    },
+    {
+      "tilesetId": "food-tavern-cooking",
+      "srcX": 32,
+      "srcY": 64,
+      "col": 1,
+      "row": 2
+    },
+    {
+      "tilesetId": "food-tavern-cooking",
+      "srcX": 64,
+      "srcY": 64,
+      "col": 2,
+      "row": 2
+    },
+    {
+      "tilesetId": "food-tavern-cooking",
+      "srcX": 96,
+      "srcY": 64,
+      "col": 3,
+      "row": 2
+    },
+    {
+      "tilesetId": "food-tavern-cooking",
+      "srcX": 0,
+      "srcY": 96,
+      "col": 0,
+      "row": 3
+    },
+    {
+      "tilesetId": "food-tavern-cooking",
+      "srcX": 32,
+      "srcY": 96,
+      "col": 1,
+      "row": 3
+    },
+    {
+      "tilesetId": "food-tavern-cooking",
+      "srcX": 64,
+      "srcY": 96,
+      "col": 2,
+      "row": 3
+    },
+    {
+      "tilesetId": "food-tavern-cooking",
+      "srcX": 96,
+      "srcY": 96,
+      "col": 3,
+      "row": 3
+    },
+    {
+      "tilesetId": "food-tavern-cooking",
+      "srcX": 0,
+      "srcY": 128,
+      "col": 0,
+      "row": 4
+    },
+    {
+      "tilesetId": "food-tavern-cooking",
+      "srcX": 32,
+      "srcY": 128,
+      "col": 1,
+      "row": 4
+    },
+    {
+      "tilesetId": "food-tavern-cooking",
+      "srcX": 64,
+      "srcY": 128,
+      "col": 2,
+      "row": 4
+    },
+    {
+      "tilesetId": "food-tavern-cooking",
+      "srcX": 96,
+      "srcY": 128,
+      "col": 3,
+      "row": 4
+    }
+  ],
+  "updatedAt": "2026-03-02T18:00:48.934Z"
+}

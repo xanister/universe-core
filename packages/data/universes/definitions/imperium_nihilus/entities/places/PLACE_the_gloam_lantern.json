@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_the_gloam_lantern",
+  "label": "The Gloam Lantern",
+  "description": "The Gloam Lantern occupies a repurposed inspection hall beneath Cyrenth Bastion-City’s armored arcades, its walls faced in void-black adamantine plates scarred by impact scoring. Low, lumen-shielded fixtures cast regimented bands of light across riveted benches and a long ferrocrete bar, while air-scrubbers and brass-grilled vents maintain the city’s quarantine discipline. A shrine-niche of stamped aquilae and votive glass divides the drinking floor from a curtained ration counter, linking refreshment to the enclave’s logistics. Auspex-warning lamps hang above the thresholds, their hard color reflecting the bruise-hued aurorae that bleed through narrow slit-windows high in the facade.",
+  "short_description": "lumen-dim ration tavern",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "tavern",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "building_tavern",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/battles/PLACE_the_gloam_lantern.png?v=1771995653027",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 272,
+    "y": 2048,
+    "width": 160,
+    "height": 256,
+    "parent": "PLACE_cyrenth_bastioncity",
+    "innerWidth": 1024,
+    "innerHeight": 800
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/places/PLACE_the_gloam_lantern.png?v=1771995704693",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": true
+}

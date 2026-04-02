@@ -1,0 +1,22 @@
+{
+  "id": "EVENT_charsevrinacastus_waited_aboard_placetheashenlateen_1772049835574",
+  "date": "999.M1 17:43",
+  "placeId": "PLACE_the_ashen_lateen",
+  "eventType": null,
+  "category": "world",
+  "subject": "The Ashen Lateen",
+  "subjectId": "PLACE_the_ashen_lateen",
+  "fact": "CHAR_sevrin_acastus waited aboard PLACE_the_ashen_lateen",
+  "significance": "moderate",
+  "witnessIds": [
+    "CHAR_sevrin_acastus",
+    "CHAR_lucian_greve",
+    "CHAR_lysander_quell"
+  ],
+  "important": false,
+  "importanceScore": null,
+  "scope": "local",
+  "relevantPlaceIds": [
+    "PLACE_the_ashen_lateen"
+  ]
+}

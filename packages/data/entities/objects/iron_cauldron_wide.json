@@ -1,0 +1,22 @@
+{
+  "id": "iron_cauldron_wide",
+  "name": "Wide Iron Cauldron",
+  "description": "A wide iron cauldron for stews.",
+  "purposes": [
+    "cooking"
+  ],
+  "tags": [
+    "common",
+    "container",
+    "cooking",
+    "tavern",
+    "iron"
+  ],
+  "solid": true,
+  "layer": "default",
+  "spriteId": "iron_cauldron_wide",
+  "materials": [
+    "iron"
+  ],
+  "tintable": false
+}

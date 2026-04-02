@@ -1,0 +1,271 @@
+{
+  "id": "CHAR_tomasin_krell",
+  "label": "Tomasin Krell",
+  "description": "This individual is a middle-aged human of broad, compact build, marked by taupe skin weathered into permanent lines at the brow and mouth. Brown eyes sit deep beneath heavy lids, giving a steady, appraising cast to the face. Brown hair is worn in a plain style, kept close and practical, with a clean-shaven jaw that emphasizes a squared chin. The hands are notably thick-fingered and calloused, consistent with long years of repetitive work and the handling of heavy casks.",
+  "short_description": "aproned male bartender",
+  "tags": [],
+  "entityType": "character",
+  "info": {
+    "purpose": "bartender",
+    "aliases": [
+      "Krell",
+      "Ledger-Pour"
+    ],
+    "birthdate": "1167-04-19",
+    "deathdate": null,
+    "title": null,
+    "birthPlace": "Gaardia",
+    "eyeColor": "brown",
+    "gender": "male",
+    "hairColor": "brown",
+    "hairStyle": "plain",
+    "beardStyle": null,
+    "headType": "human_male",
+    "skinTone": "taupe",
+    "personality": "A disciplined tavern professional who keeps strict measure, remembers debts and faces, and enforces house order through calm insistence rather than display. He speaks plainly, maintains meticulous standards of service, and treats discretion as a trade obligation within The Black Ledger’s walls.",
+    "race": "human",
+    "messages": [],
+    "journal": [],
+    "sketches": [],
+    "verbosity": 3,
+    "conversationContext": null,
+    "storytellerState": null,
+    "isPlayer": false,
+    "storyComplete": false,
+    "routine": {
+      "schedule": {
+        "dawn": "home",
+        "morning": "work",
+        "afternoon": "work",
+        "evening": "work",
+        "night": "home"
+      },
+      "home": {
+        "placeId": "PLACE_ledgerhouse_bedchamber",
+        "description": "Quarters near The Black Ledger",
+        "areaHint": null
+      },
+      "work": {
+        "placeId": "PLACE_the_black_ledger",
+        "description": "The Black Ledger",
+        "areaHint": null
+      },
+      "leisure": null,
+      "variance": 0.2,
+      "activities": {
+        "work": "tavern_work"
+      }
+    },
+    "vesselRoutes": null,
+    "abstractLocation": null,
+    "npcBehavior": null,
+    "physicalState": null,
+    "pendingDeparture": null,
+    "pendingArrival": null,
+    "lastRoutineCheckPeriod": null,
+    "startingNarrative": null,
+    "startingCharacterState": null,
+    "clothing": [
+      {
+        "slot": "torso_under",
+        "itemId": "formal_shirt",
+        "color": "#f5f0e8",
+        "contents": null
+      },
+      {
+        "slot": "torso_mid",
+        "itemId": "apron",
+        "color": "#1a1a1a",
+        "contents": null
+      },
+      {
+        "slot": "torso_over",
+        "itemId": "formal_jacket",
+        "color": "#3a3a3a",
+        "contents": null
+      },
+      {
+        "slot": "legs",
+        "itemId": "formal_pants",
+        "color": "#1a1a1a",
+        "contents": null
+      },
+      {
+        "slot": "feet",
+        "itemId": "shoes",
+        "color": "#1a1a1a",
+        "contents": null
+      },
+      {
+        "slot": "belt",
+        "itemId": "leather_belt",
+        "color": "#8b4513",
+        "contents": []
+      }
+    ],
+    "enabledOverlayLayers": [
+      "eyes",
+      "facial"
+    ],
+    "helmingVesselId": null,
+    "storytellerDisabled": false,
+    "rulesetState": {
+      "stats": {},
+      "conditions": [],
+      "statUsage": {},
+      "incapacitation": null,
+      "incapacitatedSince": null
+    },
+    "voiceId": "eric",
+    "spriteConfig": {
+      "bodyType": "male",
+      "layers": [
+        {
+          "type": "body",
+          "optionId": "body_base",
+          "tint": 12890264
+        },
+        {
+          "type": "body",
+          "optionId": "body_universal",
+          "tint": 12890264
+        },
+        {
+          "type": "eyes",
+          "optionId": "eyes_eyes",
+          "tint": 7029286
+        },
+        {
+          "type": "hair",
+          "optionId": "hair_plain",
+          "tint": 7029286
+        },
+        {
+          "type": "torso",
+          "optionId": "torso_formal_shirt_male",
+          "tint": 16117992
+        },
+        {
+          "type": "torso",
+          "optionId": "torso_white_apron_male",
+          "tint": 1710618
+        },
+        {
+          "type": "torso",
+          "optionId": "torso_formal_jacket_male",
+          "tint": 3815994
+        },
+        {
+          "type": "legs",
+          "optionId": "legs_formal_pants_male",
+          "tint": 1710618
+        },
+        {
+          "type": "feet",
+          "optionId": "feet_white_shoes_male",
+          "tint": 1710618
+        },
+        {
+          "type": "belt",
+          "optionId": "belt_leather_male",
+          "tint": 9127187
+        }
+      ],
+      "spriteHash": "7f7231f4739eef4c",
+      "spriteUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/sprites/generated/7f7231f4739eef4c.png"
+    }
+  },
+  "position": {
+    "x": 72.5,
+    "y": 398.7,
+    "width": 32,
+    "height": 48,
+    "parent": "PLACE_ledgerhouse_bedchamber"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/gaardia/images/characters/CHAR_tomasin_krell.png?v=1772603720008",
+  "faceAnchorY": 0.15,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "talk"
+  },
+  "relationships": [
+    {
+      "targetId": "CHAR_elowen_tarse",
+      "type": "colleague",
+      "disposition": 10,
+      "familiarity": 50,
+      "context": "Both are bar staff operating within The Black Ledger, sharing the same house norms around strict measure, debts, and discretion.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_gideon_marr",
+      "type": "colleague",
+      "disposition": 10,
+      "familiarity": 50,
+      "context": "Works in the same Ledgerhouse/Black Ledger environment with similar role emphasis on accounts, precedent, and quiet dispute handling.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_lenora_quist",
+      "type": "colleague",
+      "disposition": 10,
+      "familiarity": 50,
+      "context": "Another Ledgerhouse bartender/keeper of rules; likely works the same establishment shifts or adjacent duties.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_marek_dael",
+      "type": "colleague",
+      "disposition": 10,
+      "familiarity": 50,
+      "context": "Located in the Ledgerkeep/Ledgerhouse sphere and described as an exacting house professional—likely part of the same staff structure.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_merris_kade",
+      "type": "colleague",
+      "disposition": 10,
+      "familiarity": 50,
+      "context": "Both are disciplined house bartenders within the Black Ledger/Ledgerhouse setting, focused on tabs, procedure, and boundaries.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_sabin_tallow",
+      "type": "colleague",
+      "disposition": 10,
+      "familiarity": 50,
+      "context": "Another Ledgerhouse publican with rigorous measure and debt-recording; likely works alongside Tomasin under the same house rules.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_tamsin_marle",
+      "type": "colleague",
+      "disposition": 10,
+      "familiarity": 50,
+      "context": "Ledgerhouse bartender with matching service standards and enforcement style; logically a co-worker in the same establishment.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_tamsin_varrow",
+      "type": "colleague",
+      "disposition": 10,
+      "familiarity": 50,
+      "context": "Ledgerhouse house-bartender maintaining tab customs; likely part of the same internal team at/attached to The Black Ledger.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_veynor_kelm",
+      "type": "colleague",
+      "disposition": 10,
+      "familiarity": 50,
+      "context": "Ledgerhouse bar-runner with discretion and strict accounting; plausibly another staff member Tomasin works with regularly.",
+      "pendingGeneration": false
+    }
+  ],
+  "important": false
+}

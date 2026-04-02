@@ -1,0 +1,334 @@
+{
+  "id": "PLOT_motley_love_knot",
+  "label": "Motley Love-knot",
+  "description": "A celebrated romance at court turns sour as private humiliations become public spectacles—and each new “love token” leaves a body behind. Follow the blood-thread through masked revels and tender lies, and decide who deserves mercy when affection itself is the weapon.",
+  "plot": "Opening Hook: at a lavish gathering, a courtly love-poem is recited with cruelly specific details that only two lovers should know, and a guest is later found quietly dead with petals in their mouth.\n\nA beloved young noble known for generosity and reckless romance becomes the center of escalating intimate humiliations that ruin reputations just before each victim dies. The culprit appears to be a witty motley performer favored at court, whose jokes cut too precisely and whose gifts arrive at impossible times, suggesting glamour-magic and access to private chambers. As the player investigates, a reclusive court mystic who reads emotions as auras reveals the humiliations carry a binding enchantment: shame is being harvested like fuel, and the murders are the final “seal” of the spell. Midway through, the player uncovers a twist—evidence suggests the noble has been using lovers as pawns in blackmail and politics, and the motley’s cruelty may be aimed at exposing a rot the court refuses to name. A stern household guard-captain torn between duty and loyalty obstructs the inquiry, fearing scandal more than bloodshed, while the motley offers bargains that blur justice into vengeance. The finale forces a moral choice during a masked rite: stop a love-saint ritual that could enthrall the court, and decide whether to protect the noble, condemn them, or let the motley’s “liberation” finish its work—knowing any outcome will stain innocents.",
+  "characters": [
+    {
+      "role": "client",
+      "description": "Elegant and visibly exhausted; smiles too easily, as if performing sincerity. Speaks in warm promises, but flinches at sudden laughter.",
+      "publicFace": "A generous romantic trying to survive a vicious smear campaign without dragging the household into scandal.",
+      "hiddenTruth": "Has cultivated lovers as political leverage, keeping tokens, letters, and secrets that could ruin many; may be willing to trade someone else’s life to keep their own reputation intact.",
+      "locationHint": "gilded noble manor with mirrored galleries and guarded private suites",
+      "introductionProgress": 0,
+      "matchHint": "beloved young noble known for generosity and reckless romance"
+    },
+    {
+      "role": "antagonist",
+      "description": "Bright-eyed, quick-handed, dressed in patched finery and bells; their grin never reaches their eyes. Moves like someone always measuring exits.",
+      "publicFace": "A harmless entertainer whose biting humor keeps powerful people honest.",
+      "hiddenTruth": "Uses glamour-magic and staged intimacy to weaponize affection; is harvesting shame and death to power a rite meant to punish the court—or to seize control of it.",
+      "locationHint": "backstage maze beneath the court theater and service corridors leading into noble quarters",
+      "introductionProgress": 20,
+      "matchHint": "witty motley performer favored at court with unsettling insight"
+    },
+    {
+      "role": "informant",
+      "description": "Ink-stained fingers, sleepless eyes, and a quiet voice that makes people lean in. Keeps wards sewn into hems and speaks in careful metaphors.",
+      "publicFace": "A scholar-mage hired to soothe courtly tempers and interpret omens.",
+      "hiddenTruth": "Knows the rite’s emotional mechanics and has studied forbidden devotional magic; will aid the player, but only if the outcome reduces future harm—even at the cost of one life.",
+      "locationHint": "hidden archive containing forbidden knowledge and a curtained alcove near the court chapel",
+      "introductionProgress": 35,
+      "matchHint": "reclusive court mystic who reads emotions as auras"
+    },
+    {
+      "role": "obstacle",
+      "description": "Square-shouldered, pragmatic, and scarred; watches every hand like it might hold a blade. Speaks with clipped restraint and disapproving silence.",
+      "publicFace": "A loyal protector trying to keep peace and prevent panic.",
+      "hiddenTruth": "Has been suppressing evidence and redirecting patrols to contain scandal; fears that truth will collapse the household and spark street violence.",
+      "locationHint": "guard barracks adjoining the manor and checkpoint corridors near the great hall",
+      "introductionProgress": 15,
+      "matchHint": "stern household guard-captain torn between duty and loyalty"
+    }
+  ],
+  "places": [
+    {
+      "description": "Gold-leafed halls and endless mirrors amplify whispers into accusations; servants’ passages thread behind tapestries like veins. A perfect place for secrets to multiply and for small cruelties to become public theater.",
+      "storyRole": "Primary investigation hub where humiliations are staged, alibis are forged, and access to private lives is the true currency.",
+      "matchHint": "gilded noble manor with mirrored galleries and guarded private suites"
+    },
+    {
+      "description": "A cramped underworld of rope, paint, prop blades, and trapdoors; laughter above, silence below. The air smells of dust, perfume, and cold iron.",
+      "storyRole": "Where evidence of fabricated romances, enchanted costumes, and hidden routes can be found—and where the motley can vanish between heartbeats.",
+      "matchHint": "backstage maze beneath the court theater and service corridors leading into noble quarters"
+    },
+    {
+      "description": "A damp, candlelit niche of old devotion where vows were once made to sanctify love; now the icon’s face is scratched away. The stone seems to drink sound, leaving only heartbeat and drip.",
+      "storyRole": "Ritual site where shame-binding glamour can be completed into mass enthrallment—or shattered at a terrible personal cost.",
+      "matchHint": "candlelit shrine to a forgotten love-saint in the catacombs"
+    }
+  ],
+  "items": [],
+  "turningPoints": [
+    {
+      "id": "TP_banquet_death",
+      "progressTarget": 0,
+      "dramaticRole": "inciting_incident",
+      "involvedCharacter": "beloved young noble known for generosity and reckless romance",
+      "essentialInformation": [
+        "the player learns a lover connected to the noble has died under suspiciously intimate circumstances",
+        "the player learns the humiliations are escalating and are aimed at isolating the noble socially",
+        "the player learns another 'love token' is expected soon, implying imminent danger"
+      ],
+      "triggerOnFlags": [],
+      "triggerConditions": null,
+      "conditionTimeoutHours": null,
+      "conditionsEligibleSince": null
+    },
+    {
+      "id": "TP_shame_spell_trace",
+      "progressTarget": 40,
+      "dramaticRole": "rising_action",
+      "involvedCharacter": "reclusive court mystic who reads emotions as auras",
+      "essentialInformation": [
+        "the player learns the humiliations carry a consistent glamour signature that binds victims through shame",
+        "the player learns the culprit has backstage access and knowledge of private correspondence"
+      ],
+      "triggerOnFlags": [],
+      "triggerConditions": null,
+      "conditionTimeoutHours": null,
+      "conditionsEligibleSince": null
+    },
+    {
+      "id": "TP_pawns_and_pacts",
+      "progressTarget": 55,
+      "dramaticRole": "midpoint",
+      "involvedCharacter": "stern household guard-captain torn between duty and loyalty",
+      "essentialInformation": [
+        "the player learns the noble has been leveraging lovers' secrets for influence",
+        "the player learns the murders are part of a structured rite rather than random revenge"
+      ],
+      "triggerOnFlags": [],
+      "triggerConditions": null,
+      "conditionTimeoutHours": null,
+      "conditionsEligibleSince": null
+    },
+    {
+      "id": "TP_masquerade_deadline",
+      "progressTarget": 70,
+      "dramaticRole": "crisis",
+      "involvedCharacter": "witty motley performer favored at court with unsettling insight",
+      "essentialInformation": [
+        "the player learns the rite will culminate during an imminent masked celebration",
+        "the player learns stopping the rite requires either breaking the glamour's focus or exposing the scandal publicly"
+      ],
+      "triggerOnFlags": [],
+      "triggerConditions": null,
+      "conditionTimeoutHours": null,
+      "conditionsEligibleSince": null
+    },
+    {
+      "id": "TP_rite_in_motion",
+      "progressTarget": 85,
+      "dramaticRole": "climax",
+      "involvedCharacter": "witty motley performer favored at court with unsettling insight",
+      "essentialInformation": [
+        "the player learns the rite is actively converting collective shame into control and must be stopped immediately",
+        "the player learns both the noble and the motley offer mutually exclusive bargains that will decide who is sacrificed and who is spared"
+      ],
+      "triggerOnFlags": [],
+      "triggerConditions": null,
+      "conditionTimeoutHours": null,
+      "conditionsEligibleSince": null
+    },
+    {
+      "id": "TP_after_the_masks",
+      "progressTarget": 92,
+      "dramaticRole": "resolution",
+      "involvedCharacter": "reclusive court mystic who reads emotions as auras",
+      "essentialInformation": [
+        "the player learns the court's stability now depends on what truth is revealed and what is buried",
+        "the player learns surviving relationships and loyalties have been permanently altered by the player's choice"
+      ],
+      "triggerOnFlags": [],
+      "triggerConditions": null,
+      "conditionTimeoutHours": null,
+      "conditionsEligibleSince": null
+    }
+  ],
+  "possibleFlags": [
+    {
+      "id": "court_death_witnessed",
+      "triggerDescription": "Set when the player witnesses or confirms the first intimate murder tied to the courtly romance."
+    },
+    {
+      "id": "humiliation_evidence_collected",
+      "triggerDescription": "Set when the player gathers concrete evidence linking the humiliations across victims (letters, tokens, witness accounts, or magical residue)."
+    },
+    {
+      "id": "suspect_misidentified",
+      "triggerDescription": "Set when the player publicly or privately accuses the wrong person, causing leads to sour and allies to withdraw."
+    },
+    {
+      "id": "performer_link_discovered",
+      "triggerDescription": "Set when the player uncovers a credible connection between the motley performer and the humiliations/murders (routes, props, glamours, or testimony)."
+    },
+    {
+      "id": "ritual_site_found",
+      "triggerDescription": "Set when the player locates the catacomb shrine or otherwise identifies where the rite must be completed."
+    },
+    {
+      "id": "watch_alerted",
+      "triggerDescription": "Set when the household guard is put on high alert due to the player's actions, increasing obstruction and risk."
+    },
+    {
+      "id": "investigation_stalled",
+      "triggerDescription": "Set when the investigation is effectively blocked (evidence destroyed, key witness silenced, or access revoked)."
+    },
+    {
+      "id": "noble_dark_secret_learned",
+      "triggerDescription": "Set when the player learns the noble has been exploiting lovers' secrets for leverage."
+    },
+    {
+      "id": "ritual_stopped",
+      "triggerDescription": "Set when the player disrupts the rite so it cannot complete (by breaking the focus, severing the glamour, or preventing the final act)."
+    },
+    {
+      "id": "ritual_completed",
+      "triggerDescription": "Set when the rite completes despite the player's efforts, granting the antagonist their intended effect."
+    },
+    {
+      "id": "public_scandal_revealed",
+      "triggerDescription": "Set when the player ensures the truth becomes widely known (court and city), preventing a quiet cover-up."
+    },
+    {
+      "id": "coverup_accepted",
+      "triggerDescription": "Set when the player agrees to suppress the truth to preserve stability or protect specific people."
+    },
+    {
+      "id": "civil_violence_ignited",
+      "triggerDescription": "Set when the player's actions trigger riots, vigilantism, or purge-like reprisals in response to the revelations."
+    }
+  ],
+  "goals": [
+    {
+      "id": "GOAL_follow_blood_thread",
+      "description": "Find the pattern behind the humiliations and the murders before the next 'love token' arrives.",
+      "progressBoost": 25,
+      "revealOnFlags": [
+        "court_death_witnessed"
+      ],
+      "successFlags": [
+        "humiliation_evidence_collected"
+      ],
+      "failureFlags": [
+        "investigation_stalled"
+      ],
+      "failureDeadlineHours": 48
+    },
+    {
+      "id": "GOAL_name_the_hand",
+      "description": "Identify who is turning affection into a weapon, and prove it well enough that your accusation matters.",
+      "progressBoost": 25,
+      "revealOnFlags": [
+        "humiliation_evidence_collected"
+      ],
+      "successFlags": [
+        "performer_link_discovered"
+      ],
+      "failureFlags": [
+        "suspect_misidentified"
+      ],
+      "failureDeadlineHours": 72
+    },
+    {
+      "id": "GOAL_find_the_shrine",
+      "description": "Locate where the murders are being 'sealed' into a larger working before the court celebration begins.",
+      "progressBoost": 20,
+      "revealOnFlags": [
+        "performer_link_discovered"
+      ],
+      "successFlags": [
+        "ritual_site_found"
+      ],
+      "failureFlags": [
+        "watch_alerted"
+      ],
+      "failureDeadlineHours": 24
+    },
+    {
+      "id": "GOAL_break_the_rite",
+      "description": "Stop the masked rite before shame becomes a leash on the entire court.",
+      "progressBoost": 35,
+      "revealOnFlags": [
+        "ritual_site_found"
+      ],
+      "successFlags": [
+        "ritual_stopped"
+      ],
+      "failureFlags": [
+        "ritual_completed"
+      ],
+      "failureDeadlineHours": 6
+    },
+    {
+      "id": "GOAL_choose_the_story",
+      "description": "Decide what happens after the rite—expose the truth to everyone or help bury it to prevent collapse.",
+      "progressBoost": 30,
+      "revealOnFlags": [
+        "ritual_stopped",
+        "ritual_completed"
+      ],
+      "successFlags": [
+        "public_scandal_revealed",
+        "coverup_accepted"
+      ],
+      "failureFlags": [
+        "civil_violence_ignited"
+      ],
+      "failureDeadlineHours": 12
+    }
+  ],
+  "endingCards": [
+    {
+      "condition": {
+        "type": "always",
+        "flag": ""
+      },
+      "title": "ash on velvet",
+      "text": "In the wake of laughter turned poisonous, the court remembers that love is never just love—it is leverage, hunger, and faith stitched together."
+    },
+    {
+      "condition": {
+        "type": "flag_set",
+        "flag": "ritual_stopped"
+      },
+      "title": "the chain breaks",
+      "text": "The glamour snaps before it can settle over the revelers, but the violence behind the jokes is now undeniable—and someone must answer for it."
+    },
+    {
+      "condition": {
+        "type": "flag_set",
+        "flag": "ritual_completed"
+      },
+      "title": "a gentler tyranny",
+      "text": "The rite completes, and the court’s smiles become easier, softer, and less their own; the murders fade into rumor as obedience feels like relief."
+    },
+    {
+      "condition": {
+        "type": "flag_set",
+        "flag": "public_scandal_revealed"
+      },
+      "title": "truth with teeth",
+      "text": "The story spills into streets and servants’ quarters alike; reputations shatter, old protections fail, and the powerful discover they can bleed like anyone."
+    },
+    {
+      "condition": {
+        "type": "flag_set",
+        "flag": "coverup_accepted"
+      },
+      "title": "silence paid in blood",
+      "text": "The household endures and the panic never comes, but every spared scandal leaves a residue—an unspoken debt that will be collected in quieter ways."
+    }
+  ],
+  "credits": {
+    "title": "motley love-knot",
+    "entries": [
+      {
+        "role": "Plot",
+        "name": "Storyteller"
+      }
+    ]
+  },
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/plots/images/PLOT_motley_love_knot.png"
+}

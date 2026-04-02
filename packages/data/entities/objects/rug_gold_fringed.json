@@ -1,0 +1,20 @@
+{
+  "id": "rug_gold_fringed",
+  "name": "Rug (Gold, Fringed)",
+  "description": "A small square gold rug with decorative fringe.",
+  "purposes": [
+    "floor_covering"
+  ],
+  "tags": [
+    "common",
+    "furniture",
+    "bedroom"
+  ],
+  "solid": false,
+  "layer": "floor",
+  "spriteId": "rug_gold_fringed",
+  "materials": [
+    "fabric"
+  ],
+  "tintable": false
+}

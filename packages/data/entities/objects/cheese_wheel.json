@@ -1,0 +1,18 @@
+{
+  "id": "cheese_wheel",
+  "name": "Cheese Wheel",
+  "description": "A round cheese wheel with a slice cut out.",
+  "purposes": [
+    "decoration"
+  ],
+  "tags": [
+    "common",
+    "food",
+    "tavern"
+  ],
+  "solid": false,
+  "layer": "default",
+  "spriteId": "cheese_wheel",
+  "materials": [],
+  "tintable": false
+}

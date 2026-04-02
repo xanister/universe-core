@@ -1,0 +1,21 @@
+{
+  "id": "EVENT_charalaricmorn_greeted_charkaelenvos_at_placevesperatertiusnocturnisbastion_1772032778628",
+  "date": "999.M1 09:28",
+  "placeId": "PLACE_vespera_tertius_nocturnis_bastion",
+  "eventType": null,
+  "category": "relationship",
+  "subject": "Kaelen Vos",
+  "subjectId": "CHAR_kaelen_vos",
+  "fact": "CHAR_alaric_morn greeted CHAR_kaelen_vos at PLACE_vespera_tertius_nocturnis_bastion",
+  "significance": "moderate",
+  "witnessIds": [
+    "CHAR_alaric_morn",
+    "CHAR_kaelen_vos"
+  ],
+  "important": false,
+  "importanceScore": null,
+  "scope": "local",
+  "relevantPlaceIds": [
+    "PLACE_vespera_tertius_nocturnis_bastion"
+  ]
+}

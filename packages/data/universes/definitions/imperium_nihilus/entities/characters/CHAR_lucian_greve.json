@@ -1,0 +1,243 @@
+{
+  "id": "CHAR_lucian_greve",
+  "label": "Lucian Greve",
+  "description": "This individual is a broad-shouldered adult male with brown eyes set beneath a heavy brow ridge that gives the face a permanently focused cast. Black hair, kept in a shortknot, exposes a square jaw and a nose flattened by long-ago blunt impact. Light skin shows chronic weathering across the cheeks and a persistent redness at the bridge of the nose consistent with years in harsh air. The hands are notably thick-fingered and callused, a permanent record of repeated strain against rope, wheel, and timber.",
+  "short_description": "male helmsman at wheel",
+  "tags": [],
+  "entityType": "character",
+  "info": {
+    "purpose": "helmsman",
+    "aliases": [
+      "Lateen Wheelman",
+      "Greve"
+    ],
+    "birthdate": "778.M41",
+    "deathdate": null,
+    "title": null,
+    "birthPlace": "Nihilus void-lanes",
+    "eyeColor": "brown",
+    "gender": "male",
+    "hairColor": "black",
+    "hairStyle": "shortknot",
+    "beardStyle": "stubble",
+    "headType": "human_male",
+    "skinTone": "light",
+    "personality": "A disciplined ship-handler who speaks in terse, practical phrases and measures every action against wind, tide, and momentum. He maintains strict routine at the helm, tolerates no interference during a turn, and treats navigation as a craft learned through repetition rather than debate.",
+    "race": "human",
+    "messages": [],
+    "journal": [],
+    "sketches": [],
+    "verbosity": 3,
+    "conversationContext": null,
+    "storytellerState": null,
+    "isPlayer": false,
+    "storyComplete": false,
+    "routine": {
+      "schedule": {
+        "dawn": "home",
+        "morning": "home",
+        "afternoon": "work",
+        "evening": "work",
+        "night": "work"
+      },
+      "home": {
+        "placeId": "PLACE_the_ashen_lateen",
+        "description": "The Ashen Lateen",
+        "areaHint": null
+      },
+      "work": {
+        "placeId": "PLACE_the_ashen_lateen",
+        "description": "The Ashen Lateen",
+        "areaHint": null
+      },
+      "leisure": null,
+      "variance": 0.2,
+      "activities": {
+        "work": "vessel_work"
+      }
+    },
+    "vesselRoutes": null,
+    "abstractLocation": null,
+    "npcBehavior": null,
+    "physicalState": null,
+    "pendingDeparture": null,
+    "pendingArrival": null,
+    "lastRoutineCheckPeriod": null,
+    "startingNarrative": null,
+    "startingCharacterState": null,
+    "clothing": [
+      {
+        "slot": "torso_under",
+        "itemId": "longsleeve",
+        "color": "#f5f0e8",
+        "contents": null
+      },
+      {
+        "slot": "torso_over",
+        "itemId": "trenchcoat",
+        "color": "#3a3a3a",
+        "contents": null
+      },
+      {
+        "slot": "legs",
+        "itemId": "cloth_pants",
+        "color": "#000080",
+        "contents": null
+      },
+      {
+        "slot": "feet",
+        "itemId": "boots",
+        "color": "#8b4513",
+        "contents": null
+      },
+      {
+        "slot": "belt",
+        "itemId": "leather_belt",
+        "color": "#8b4513",
+        "contents": [
+          {
+            "id": "ci_1771823726611_07xkfo",
+            "itemId": "unarmed",
+            "name": "unarmed",
+            "description": null,
+            "type": "weapon",
+            "quantity": 1,
+            "color": null,
+            "equipSlot": "weapon",
+            "plotId": null
+          }
+        ]
+      },
+      {
+        "slot": "hands",
+        "itemId": "leather_bracers",
+        "color": "#8b4513",
+        "contents": null
+      }
+    ],
+    "enabledOverlayLayers": [
+      "eyes",
+      "facial"
+    ],
+    "helmingVesselId": null,
+    "storytellerDisabled": false,
+    "rulesetState": {
+      "stats": {
+        "physical": 50,
+        "mental": 50,
+        "social": 50,
+        "poise": 50,
+        "max_poise": 50,
+        "bloodloss": 0,
+        "anxiety": 0,
+        "fatigue": 0,
+        "hunger": 0
+      },
+      "conditions": [],
+      "statUsage": {},
+      "incapacitation": null,
+      "incapacitatedSince": null
+    },
+    "voiceId": "daniel",
+    "spriteConfig": {
+      "bodyType": "male",
+      "layers": [
+        {
+          "type": "body",
+          "optionId": "body_base",
+          "tint": 15780008
+        },
+        {
+          "type": "body",
+          "optionId": "body_universal",
+          "tint": 15780008
+        },
+        {
+          "type": "eyes",
+          "optionId": "eyes_eyes",
+          "tint": 7029286
+        },
+        {
+          "type": "facial",
+          "optionId": "facial_beard",
+          "tint": 1710618
+        },
+        {
+          "type": "hair",
+          "optionId": "hair_shortknot",
+          "tint": 1710618
+        },
+        {
+          "type": "torso",
+          "optionId": "torso_white_longsleeve",
+          "tint": 16117992
+        },
+        {
+          "type": "torso",
+          "optionId": "torso_formal_trenchcoat_male",
+          "tint": 3815994
+        },
+        {
+          "type": "legs",
+          "optionId": "legs_white_pants_male",
+          "tint": 128
+        },
+        {
+          "type": "feet",
+          "optionId": "feet_white_boots_male",
+          "tint": 9127187
+        },
+        {
+          "type": "belt",
+          "optionId": "belt_leather_male",
+          "tint": 9127187
+        },
+        {
+          "type": "hands",
+          "optionId": "hands_leather_bracers_male",
+          "tint": 9127187
+        }
+      ],
+      "spriteHash": "12a8df3d1b42d56a",
+      "spriteUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/sprites/generated/12a8df3d1b42d56a.png",
+      "spriteScale": 1
+    }
+  },
+  "position": {
+    "x": 880,
+    "y": 704,
+    "width": 32,
+    "height": 48,
+    "parent": "PLACE_the_ashen_lateen"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/characters/CHAR_lucian_greve.png?v=1771823781632",
+  "faceAnchorY": 0.19,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "talk"
+  },
+  "relationships": [
+    {
+      "targetId": "CHAR_lysander_quell",
+      "type": "colleague",
+      "disposition": 10,
+      "familiarity": 50,
+      "context": "Both are disciplined ship-focused professionals stationed on PLACE_the_ashen_lateen; Lucian is a ship-handler/helmsman type and Lysander appears to govern the vessel, making regular operational interaction likely.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_lysander_quell",
+      "type": "superior",
+      "disposition": 0,
+      "familiarity": 50,
+      "context": "Lysander 'governs by clear orders' on deck, implying command authority; Lucian’s strict helm routine suggests a skilled crew role under that command structure.",
+      "pendingGeneration": false
+    }
+  ],
+  "important": false
+}

@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_ashlight_back_chamber",
+  "label": "Ashlight Back Chamber",
+  "description": "Ashlight Back Chamber is a narrow private room set behind the tavern’s basalt-block shell, insulated from Vespera Tertius’ ash winds by double-gasketed partitions. Soot-dark planks and riveted sheet-metal panels continue the Canteen’s utilitarian finish, while a low cot-frame and a battered locker sit on a grated floor designed for washdown. Violet-glass light filters through a shuttered slit-vent, staining the room in bruise hues that mirror the world’s auroral glare. Grounded chains and ceiling baffles suppress the electrostatic charge, and the walls carry the faint hiss of caged vox interference from the taproom beyond.",
+  "short_description": "spartan private bedroom",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "bedroom",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "door_wooden",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/battles/PLACE_ashlight_back_chamber.png?v=1771872523072",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 624,
+    "y": 160,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_the_ashlight_canteen",
+    "innerWidth": 448,
+    "innerHeight": 512
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/places/PLACE_ashlight_back_chamber.png?v=1771872582261",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

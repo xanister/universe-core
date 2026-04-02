@@ -1,0 +1,229 @@
+{
+  "id": "brine_lantern",
+  "name": "Brine Lantern",
+  "version": "1.0.0",
+  "description": "The world is an endless dusk-ocean, its surface broken by drifting salt-reefs and floating city-rings that orbit slow, bioluminescent storms. Long ago, the Sun was traded away in a pact to end a plague of mirrored dreams; in its place, enormous “lantern squids” rise from the abyss, shedding warm light and memory-waves that keep communities sane. Trade is measured in salts, stories, and stored recollections, and the most feared crime is to steal a name—because names anchor identity against the sea’s forgetting. Beneath every calm current, older intelligences sift the brine, listening for spoken history like sharks for blood.",
+  "custom": {},
+  "rules": "1) True daylight does not exist; illumination comes from lantern squids, storm-glow, and engineered phosphor.\n2) Memory is a tangible resource: it can be bottled, traded, weaponized, or lost to the sea’s \"forgetting.\" Losing too much causes Drift—identity erosion and hallucinated pasts.\n3) Spoken oaths bind physically when made under lantern-light; breaking them attracts the attention of abyssal auditors.\n4) Metal corrodes rapidly unless etched with salt-runes; stone and bone are prized materials.\n5) Navigation relies on story-maps: routes are stabilized by being widely remembered. Unremembered paths literally unravel into dangerous, shifting currents.\n6) Resurrection is impossible; however, a person may leave behind an Echo (a partial memory-imprint) that can guide or mislead the living.",
+  "tone": "mythic maritime weirdness with intimate character drama and creeping existential dread",
+  "style": "moody bioluminescent seascape, high-detail painterly fantasy with ink-dark shadows and neon brine highlights",
+  "mapStyle": null,
+  "image": null,
+  "date": "01.01.312 A.P. 10:00",
+  "calendar": {
+    "name": "Brine Lantern Calendar",
+    "calendarType": "standard",
+    "months": [
+      {
+        "name": "Lanternrise",
+        "days": 30
+      },
+      {
+        "name": "Driftmonth",
+        "days": 30
+      },
+      {
+        "name": "Brinewarm",
+        "days": 30
+      },
+      {
+        "name": "Calmwater",
+        "days": 30
+      },
+      {
+        "name": "Stormglow",
+        "days": 30
+      },
+      {
+        "name": "Saltfall",
+        "days": 30
+      },
+      {
+        "name": "Deepnight",
+        "days": 30
+      },
+      {
+        "name": "Rookcurrent",
+        "days": 30
+      },
+      {
+        "name": "Foamturn",
+        "days": 30
+      },
+      {
+        "name": "Reefhold",
+        "days": 30
+      },
+      {
+        "name": "Gloaming",
+        "days": 30
+      },
+      {
+        "name": "Tidewane",
+        "days": 30
+      }
+    ],
+    "time": {
+      "hoursPerDay": 24,
+      "minutesPerHour": 60
+    },
+    "eras": [
+      {
+        "id": 1,
+        "name": "After the Pact",
+        "shortName": "A.P.",
+        "backwards": false,
+        "transitionEra": 0
+      },
+      {
+        "id": 2,
+        "name": "Before the Pact",
+        "shortName": "B.P.",
+        "backwards": true,
+        "transitionEra": 1
+      }
+    ],
+    "defaultEra": 1,
+    "seasons": null,
+    "format": {
+      "dateSeparator": ".",
+      "timeSeparator": ":",
+      "eraPosition": "suffix",
+      "monthDisplay": "number",
+      "yearFirst": false,
+      "use24Hour": false,
+      "yearOnlyTemplate": "",
+      "millenniumPrefix": ""
+    }
+  },
+  "weather": null,
+  "weatherSeverity": null,
+  "climate": null,
+  "music": null,
+  "races": [
+    {
+      "id": "tidebound",
+      "label": "Tidebound",
+      "description": "Amphibious folk adapted to pressure and brine, marked by faint glowlines along their joints that brighten when they recall strong emotions. They are prized as navigators because their bodies can \"feel\" unraveling routes before maps fail.",
+      "rarity": "common",
+      "spriteHints": {
+        "humanoidBody": true,
+        "spriteArchetype": "lizard",
+        "defaultSkinColor": "dark_green",
+        "allowedSkinColors": [
+          "dark_green",
+          "green",
+          "blue"
+        ],
+        "allowedEyeColors": [
+          "yellow",
+          "green",
+          "blue",
+          "orange"
+        ],
+        "allowedHairColors": null,
+        "featureLayers": null
+      }
+    },
+    {
+      "id": "saltwrought",
+      "label": "Saltwrought",
+      "description": "Artisan-born beings grown in brine-vats around bone scaffolds, their bodies latticed with crystalline salt that can be carved into wards. They must periodically \"re-seed\" their cores with fresh salt or begin to crumble into glittering dust.",
+      "rarity": "uncommon",
+      "spriteHints": {
+        "humanoidBody": true,
+        "spriteArchetype": "human",
+        "defaultSkinColor": "taupe",
+        "allowedSkinColors": [
+          "taupe",
+          "light",
+          "bronze"
+        ],
+        "allowedEyeColors": [
+          "gray",
+          "blue",
+          "purple",
+          "yellow"
+        ],
+        "allowedHairColors": null,
+        "featureLayers": null
+      }
+    },
+    {
+      "id": "reefkin",
+      "label": "Reefkin",
+      "description": "Symbiotic collectives of coral-polyp intellect housed in a single moving frame; their 'skin' is living reef that blooms with color as they speak. They cannot lie under lantern-light without their coral paling—an involuntary tell that makes them both trusted and exploited.",
+      "rarity": "uncommon",
+      "spriteHints": {
+        "humanoidBody": true,
+        "spriteArchetype": "orc",
+        "defaultSkinColor": "bright_green",
+        "allowedSkinColors": [
+          "bright_green",
+          "green"
+        ],
+        "allowedEyeColors": [
+          "blue",
+          "green",
+          "orange",
+          "purple"
+        ],
+        "allowedHairColors": null,
+        "featureLayers": null
+      }
+    },
+    {
+      "id": "gloam_sailor",
+      "label": "Gloam Sailor",
+      "description": "Humans altered by long exposure to memory-waves: their pupils are ringed like tidecharts and they can 'taste' old events lingering in places. They are prone to Drift if they linger too long among the unremembered currents.",
+      "rarity": "common",
+      "spriteHints": {
+        "humanoidBody": true,
+        "spriteArchetype": "human",
+        "defaultSkinColor": "olive",
+        "allowedSkinColors": [
+          "olive",
+          "light",
+          "brown",
+          "bronze"
+        ],
+        "allowedEyeColors": [
+          "gray",
+          "blue",
+          "green",
+          "purple"
+        ],
+        "allowedHairColors": null,
+        "featureLayers": null
+      }
+    },
+    {
+      "id": "inkborn",
+      "label": "Inkborn",
+      "description": "Cephalopod-descended shapeshifters who can rearrange surface features like living calligraphy, but only while holding a fresh secret. When their secrets are exposed, their forms stiffen and become painfully literal.",
+      "rarity": "rare",
+      "spriteHints": {
+        "humanoidBody": true,
+        "spriteArchetype": "elf",
+        "defaultSkinColor": "lavender",
+        "allowedSkinColors": [
+          "lavender",
+          "taupe"
+        ],
+        "allowedEyeColors": [
+          "purple",
+          "yellow",
+          "red",
+          "gray"
+        ],
+        "allowedHairColors": null,
+        "featureLayers": null
+      }
+    }
+  ],
+  "rootPlaceId": "",
+  "rulesetId": null,
+  "defaultStartPlaceId": null,
+  "stagingSpriteTheme": "fantasy",
+  "hungerFatigueEnabled": false
+}

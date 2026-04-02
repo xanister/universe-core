@@ -1,0 +1,20 @@
+{
+  "id": "bottle_amber",
+  "name": "Amber Bottle",
+  "description": "A slim amber glass bottle with a cork stopper.",
+  "purposes": [
+    "decoration"
+  ],
+  "tags": [
+    "common",
+    "drinkware",
+    "tavern"
+  ],
+  "solid": false,
+  "layer": "default",
+  "spriteId": "bottle_amber",
+  "materials": [
+    "glass"
+  ],
+  "tintable": false
+}

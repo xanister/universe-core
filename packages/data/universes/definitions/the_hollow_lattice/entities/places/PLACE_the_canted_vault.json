@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_the_canted_vault",
+  "label": "The Canted Vault",
+  "description": "The Canted Vault serves as The Refraction House’s principal storage room, built as a narrow chamber whose glass walls tilt in opposed angles to break the meridian glare into orderly, non-overlapping bands. Dark crystalline shelving rises in rectilinear tiers, its edges beveled to prevent stray reflections from crossing the engineered shadow strip that bisects the floor. Recessed niches hold sealed prism-caskets and lattice-marked crates, each bay indexed by color angle rather than script. The ceiling carries a faceted baffle that arrests laminar sky-light at the threshold, preserving a stable, cool dimness suited to long keeping.",
+  "short_description": "canted dim storage vault",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "storage_room",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.9
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "door_wooden",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 592,
+    "y": 160,
+    "width": 32,
+    "height": 32,
+    "parent": "PLACE_the_refraction_house"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": null,
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": [
+    "The Index Vault"
+  ],
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

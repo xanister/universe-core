@@ -1,0 +1,16 @@
+{
+  "spriteId": "shield_wood_cross",
+  "gridWidth": 1,
+  "gridHeight": 1,
+  "tileSize": 32,
+  "tiles": [
+    {
+      "tilesetId": "decor-tavern",
+      "srcX": 96,
+      "srcY": 1248,
+      "col": 0,
+      "row": 0
+    }
+  ],
+  "updatedAt": "2026-03-01T21:09:22.833Z"
+}

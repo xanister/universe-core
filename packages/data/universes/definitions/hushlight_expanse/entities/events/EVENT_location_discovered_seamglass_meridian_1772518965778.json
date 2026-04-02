@@ -1,0 +1,18 @@
+{
+  "id": "EVENT_location_discovered_seamglass_meridian_1772518965778",
+  "date": "01.01.312 D3 10:03",
+  "placeId": null,
+  "important": false,
+  "importanceScore": null,
+  "scope": null,
+  "relevantPlaceIds": null,
+  "eventType": "location_discovered",
+  "category": "knowledge",
+  "subject": "Seamglass Meridian",
+  "subjectId": "PLACE_seamglass_meridian",
+  "fact": "Learned about Seamglass Meridian",
+  "significance": "minor",
+  "witnessIds": [
+    "CHAR_ceryn_halden"
+  ]
+}

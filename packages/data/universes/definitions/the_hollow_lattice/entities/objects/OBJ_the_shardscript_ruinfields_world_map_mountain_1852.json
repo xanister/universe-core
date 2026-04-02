@@ -1,0 +1,53 @@
+{
+  "id": "OBJ_the_shardscript_ruinfields_world_map_mountain_1852",
+  "label": "Mountain",
+  "description": "A mountain from the world map tileset",
+  "important": false,
+  "short_description": "mountain",
+  "tags": [
+    "common",
+    "world_map",
+    "mountain",
+    "terrain"
+  ],
+  "entityType": "object",
+  "info": {
+    "purpose": "decoration",
+    "solid": true,
+    "layer": "default",
+    "isStructural": false,
+    "material": null,
+    "tint": null,
+    "spriteConfig": {
+      "spriteId": "world_map_mountain",
+      "frame": null,
+      "animationKey": null,
+      "animated": false,
+      "facing": "south"
+    },
+    "hp": null,
+    "maxHp": null,
+    "state": null,
+    "contents": null,
+    "lightSource": null,
+    "itemId": null,
+    "plotId": null
+  },
+  "position": {
+    "x": 368,
+    "y": 1600,
+    "width": 96,
+    "height": 96,
+    "parent": "PLACE_the_shardscript_ruinfields"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "relationships": [],
+  "image": null,
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": null
+}

@@ -1,0 +1,59 @@
+{
+  "id": "PLACE_sablecrown_peak",
+  "label": "Sablecrown Peak",
+  "description": "Sablecrown Peak rises as a rift-scarred mountain mass above the ash plains of Cyrenth Vale, its dark basalt faces cut by long, glassed seams left by atmospheric fallout and empyrean discharge. The summit ridge remains crowned in wind-packed grey snow that carries a metallic sheen beneath the bruise-hued aurorae. Narrow ledges and shattered scree fields define its approaches, with exposed strata revealing bands of slag, obsidian, and ancient fortification rubble fused into the rock. From its high shoulders, the vale’s bastioned enclaves and sealed transit corridors register as hard lines against the planet’s cold, veiled luminance.",
+  "short_description": "rift-scarred basalt peak",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "mountain",
+    "environment": {
+      "type": "exterior",
+      "hasWeather": true,
+      "temperature": {
+        "enabled": true,
+        "base": null,
+        "modifiersApply": true
+      },
+      "maxDarkness": null
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "world_map_mountain",
+      "facing": "south",
+      "layer": "default"
+    },
+    "allowPlayerStart": false,
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/battles/PLACE_sablecrown_peak.png?v=1771817328901",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 208,
+    "y": 1248,
+    "width": 96,
+    "height": 96,
+    "parent": "PLACE_cyrenth_vale",
+    "innerWidth": 7104,
+    "innerHeight": 4576
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/places/PLACE_sablecrown_peak.png?v=1771817376552",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

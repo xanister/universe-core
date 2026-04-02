@@ -1,0 +1,132 @@
+{
+  "id": "ruins",
+  "name": "Ruins",
+  "description": "Crumbling remains of an ancient structure",
+  "purposes": [
+    "ruins"
+  ],
+  "spriteId": "stone_arch_ruins",
+  "variants": [
+    {
+      "id": "A",
+      "scale": "feet",
+      "environment": {
+        "type": "exterior",
+        "hasWeather": true,
+        "temperature": {
+          "enabled": true,
+          "base": null,
+          "modifiersApply": true
+        },
+        "maxDarkness": null
+      },
+      "slots": [
+        {
+          "positionAlgorithm": "random",
+          "min": 0,
+          "max": 1,
+          "nearPurpose": null,
+          "inheritableTags": null,
+          "distribution": "even",
+          "forbiddenTags": null,
+          "purpose": "exit",
+          "slotSize": null,
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "preferDistrict": null,
+          "distributionGroup": null,
+          "requiredTags": null
+        },
+        {
+          "max": 8,
+          "positionAlgorithm": "random_valid",
+          "nearPurpose": null,
+          "inheritableTags": null,
+          "distribution": "even",
+          "forbiddenTags": null,
+          "purpose": "decoration",
+          "slotSize": null,
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "preferDistrict": null,
+          "distributionGroup": null,
+          "requiredTags": null
+        },
+        {
+          "max": 3,
+          "positionAlgorithm": "random_valid",
+          "nearPurpose": null,
+          "inheritableTags": null,
+          "distribution": "even",
+          "forbiddenTags": null,
+          "purpose": "storage",
+          "min": 0,
+          "slotSize": null,
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "preferDistrict": null,
+          "distributionGroup": null,
+          "requiredTags": null
+        }
+      ],
+      "description": "Crumbling ruins of an ancient structure",
+      "weight": 1,
+      "width": {
+        "min": 45,
+        "max": 160
+      },
+      "height": {
+        "min": 40,
+        "max": 140
+      },
+      "terrainLayers": [
+        {
+          "id": "rubble",
+          "tilesetId": "terrain-cobble-dark",
+          "renderOrder": 0,
+          "blocking": "blocks",
+          "terrain": "wall",
+          "procedural": false,
+          "fill": [
+            46,
+            47,
+            48
+          ],
+          "type": "fill",
+          "inheritable": true
+        },
+        {
+          "id": "clearing",
+          "tilesetId": "terrain-cobble-tan",
+          "renderOrder": 1,
+          "blocking": "unblocks",
+          "terrain": "land",
+          "procedural": false,
+          "fill": [],
+          "type": "noise_patch",
+          "shapePreset": "clearing",
+          "autotileAgainst": [],
+          "withinTerrain": null,
+          "autotilePreset": "canonical",
+          "inheritable": false
+        }
+      ],
+      "defaultBlocked": false
+    }
+  ],
+  "characterScale": 1,
+  "timeScale": 1,
+  "interactionZone": null
+}

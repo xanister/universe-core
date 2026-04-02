@@ -1,0 +1,18 @@
+{
+  "id": "EVENT_visited_anslem_1772415065540",
+  "date": "06.01.11 4A 15:46",
+  "placeId": "PLACE_anslem",
+  "important": false,
+  "importanceScore": null,
+  "scope": null,
+  "relevantPlaceIds": null,
+  "eventType": "location_visited",
+  "category": "world",
+  "subject": "Anslem",
+  "subjectId": "PLACE_anslem",
+  "fact": "Visited Anslem",
+  "significance": "minor",
+  "witnessIds": [
+    "CHAR_perrin_halvay"
+  ]
+}

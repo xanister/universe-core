@@ -1,0 +1,286 @@
+{
+  "id": "planet",
+  "name": "Planet",
+  "description": "A celestial body with terrain",
+  "purposes": [
+    "planet"
+  ],
+  "spriteId": "planet_terran",
+  "variants": [
+    {
+      "id": "A",
+      "scale": "miles",
+      "environment": {
+        "type": "exterior",
+        "hasWeather": true,
+        "temperature": {
+          "enabled": true,
+          "base": null,
+          "modifiersApply": true
+        },
+        "maxDarkness": null
+      },
+      "width": {
+        "min": 100,
+        "max": 150
+      },
+      "height": {
+        "min": 75,
+        "max": 100
+      },
+      "terrainLayers": [
+        {
+          "id": "ocean",
+          "tilesetId": "terrain-ocean",
+          "renderOrder": 0,
+          "type": "fill",
+          "fill": [
+            46
+          ],
+          "blocking": "blocks",
+          "terrain": "water",
+          "procedural": false,
+          "inheritable": true
+        },
+        {
+          "id": "ocean_waves",
+          "tilesetId": "terrain-ocean",
+          "renderOrder": 0,
+          "type": "animated_overlay",
+          "fill": [
+            46,
+            47,
+            48,
+            49
+          ],
+          "frames": [
+            46,
+            47,
+            48,
+            49
+          ],
+          "tickMs": 400,
+          "density": 8,
+          "blocking": null,
+          "terrain": "void",
+          "procedural": false,
+          "inheritable": true
+        },
+        {
+          "id": "continents",
+          "tilesetId": "terrain-grass",
+          "renderOrder": 0,
+          "type": "noise_patch",
+          "shapePreset": "continent",
+          "autotileAgainst": [],
+          "withinTerrain": null,
+          "autotilePreset": "canonical",
+          "blocking": "unblocks",
+          "terrain": "land",
+          "fill": [],
+          "procedural": false,
+          "inheritable": false
+        },
+        {
+          "id": "forests",
+          "tilesetId": "terrain-grass-dark",
+          "renderOrder": 2,
+          "blocking": null,
+          "terrain": "forest",
+          "procedural": false,
+          "fill": [],
+          "type": "noise_patch",
+          "shapePreset": "patches",
+          "autotilePreset": "canonical",
+          "autotileAgainst": [],
+          "withinTerrain": "continents",
+          "inheritable": false
+        },
+        {
+          "id": "coast",
+          "tilesetId": "terrain-sand-light",
+          "terrain": "land",
+          "renderOrder": 1,
+          "blocking": "unblocks",
+          "procedural": false,
+          "fill": [],
+          "inheritable": false,
+          "type": "coastline",
+          "sourceLayerId": "ocean",
+          "beachWidth": 2,
+          "autotilePreset": "canonical",
+          "autotileAgainst": [],
+          "altCenterCount": 0
+        }
+      ],
+      "slots": [
+        {
+          "positionAlgorithm": "on_land",
+          "min": 1,
+          "max": 2,
+          "nearPurpose": null,
+          "inheritableTags": null,
+          "distribution": "even",
+          "forbiddenTags": null,
+          "purpose": "city",
+          "slotSize": null,
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "preferDistrict": null,
+          "distributionGroup": null,
+          "requiredTags": null
+        },
+        {
+          "positionAlgorithm": "on_land",
+          "max": 1,
+          "min": 1,
+          "nearPurpose": null,
+          "inheritableTags": null,
+          "distribution": "even",
+          "forbiddenTags": null,
+          "purpose": "forest",
+          "slotSize": null,
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "preferDistrict": null,
+          "distributionGroup": null,
+          "requiredTags": null
+        },
+        {
+          "positionAlgorithm": "on_water",
+          "min": 1,
+          "max": 1,
+          "nearPurpose": null,
+          "inheritableTags": null,
+          "distribution": "even",
+          "forbiddenTags": null,
+          "purpose": "sailing_ship",
+          "slotSize": null,
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "preferDistrict": null,
+          "distributionGroup": null,
+          "requiredTags": null
+        },
+        {
+          "positionAlgorithm": "on_coast",
+          "requiredTags": null,
+          "min": 1,
+          "max": 1,
+          "nearPurpose": null,
+          "inheritableTags": null,
+          "distribution": "even",
+          "forbiddenTags": null,
+          "purpose": "harbor",
+          "slotSize": null,
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "preferDistrict": null,
+          "distributionGroup": null
+        },
+        {
+          "positionAlgorithm": "on_land",
+          "requiredTags": null,
+          "min": 1,
+          "max": 2,
+          "nearPurpose": null,
+          "inheritableTags": null,
+          "distribution": "even",
+          "forbiddenTags": null,
+          "purpose": "cave",
+          "slotSize": null,
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "preferDistrict": null,
+          "distributionGroup": null
+        },
+        {
+          "positionAlgorithm": "on_land",
+          "requiredTags": null,
+          "min": 0,
+          "max": 2,
+          "nearPurpose": null,
+          "inheritableTags": null,
+          "distribution": "even",
+          "forbiddenTags": null,
+          "purpose": "lake",
+          "slotSize": null,
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "preferDistrict": null,
+          "distributionGroup": null
+        },
+        {
+          "positionAlgorithm": "on_land",
+          "requiredTags": null,
+          "min": 0,
+          "max": 2,
+          "nearPurpose": null,
+          "inheritableTags": null,
+          "distribution": "even",
+          "forbiddenTags": null,
+          "purpose": "mountain",
+          "slotSize": null,
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "preferDistrict": null,
+          "distributionGroup": null
+        },
+        {
+          "positionAlgorithm": "on_land",
+          "requiredTags": null,
+          "min": 0,
+          "max": 1,
+          "nearPurpose": null,
+          "inheritableTags": null,
+          "distribution": "even",
+          "forbiddenTags": null,
+          "purpose": "ruins",
+          "slotSize": null,
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "preferDistrict": null,
+          "distributionGroup": null
+        }
+      ],
+      "description": "A planet with continents and oceans",
+      "weight": 1,
+      "defaultBlocked": false
+    }
+  ],
+  "characterScale": 1,
+  "timeScale": 1,
+  "interactionZone": null
+}

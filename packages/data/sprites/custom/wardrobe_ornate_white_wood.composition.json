@@ -1,0 +1,65 @@
+{
+  "spriteId": "wardrobe_ornate_white_wood",
+  "gridWidth": 2,
+  "gridHeight": 4,
+  "tileSize": 32,
+  "tiles": [
+    {
+      "tilesetId": "furniture-white",
+      "srcX": 192,
+      "srcY": 288,
+      "col": 0,
+      "row": 0
+    },
+    {
+      "tilesetId": "furniture-white",
+      "srcX": 224,
+      "srcY": 288,
+      "col": 1,
+      "row": 0
+    },
+    {
+      "tilesetId": "furniture-white",
+      "srcX": 192,
+      "srcY": 320,
+      "col": 0,
+      "row": 1
+    },
+    {
+      "tilesetId": "furniture-white",
+      "srcX": 224,
+      "srcY": 320,
+      "col": 1,
+      "row": 1
+    },
+    {
+      "tilesetId": "furniture-white",
+      "srcX": 192,
+      "srcY": 352,
+      "col": 0,
+      "row": 2
+    },
+    {
+      "tilesetId": "furniture-white",
+      "srcX": 224,
+      "srcY": 352,
+      "col": 1,
+      "row": 2
+    },
+    {
+      "tilesetId": "furniture-white",
+      "srcX": 192,
+      "srcY": 384,
+      "col": 0,
+      "row": 3
+    },
+    {
+      "tilesetId": "furniture-white",
+      "srcX": 224,
+      "srcY": 384,
+      "col": 1,
+      "row": 3
+    }
+  ],
+  "updatedAt": "2026-03-02T19:23:57.704Z"
+}

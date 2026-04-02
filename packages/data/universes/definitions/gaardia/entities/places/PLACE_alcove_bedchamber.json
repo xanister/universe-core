@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_alcove_bedchamber",
+  "label": "Alcove Bedchamber",
+  "description": "This narrow bedchamber occupies the sleeping alcove cut into Cindervale’s reused ashlar, where patched blocks and riveted iron straps remain visible beneath smoke-darkened limewash. A low cot and a rope-strung pallet stand beneath a canvas screen that turns the hearth’s glow into a dull, ember-colored light. Wall niches serve as built-in storage, their edges chipped and soot-scored from long habitation. The air holds coal-smoke and lime dust, and sound transmits clearly through the thick masonry into the surrounding works.",
+  "short_description": "smoke-stained sleeping alcove",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "bedroom",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "door_wooden",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/gaardia/images/battles/PLACE_alcove_bedchamber.png?v=1772208913003",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 400,
+    "y": 160,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_masons_hearthroom",
+    "innerWidth": 448,
+    "innerHeight": 480
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/gaardia/images/places/PLACE_alcove_bedchamber.png?v=1772208959955",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

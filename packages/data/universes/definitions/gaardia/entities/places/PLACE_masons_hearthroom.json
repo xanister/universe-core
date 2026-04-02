@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_masons_hearthroom",
+  "label": "Masons' Hearthroom",
+  "description": "A compact residence built into Cindervale’s reused ashlar, its patched ancient blocks strapped with riveted iron bands that match the city’s later bastions. The main chamber is dominated by a soot-scored hearth and a narrow sleeping alcove screened by hanging canvas, with storage niches cut directly into the thick wall. A license-stone plaque is mortared beside the lintel, inscribed with toll marks and quarantine ordinances in the city’s standardized hand. Sound carries thinly through the masonry, and the air retains a persistent taint of coal-smoke and lime dust from the surrounding ruinfield works.",
+  "short_description": "smoke-stained hearthroom",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "residence",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "building_residence",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/gaardia/images/battles/PLACE_masons_hearthroom.png?v=1772208855505",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 2096,
+    "y": 1760,
+    "width": 160,
+    "height": 256,
+    "parent": "PLACE_cindervale",
+    "innerWidth": 1024,
+    "innerHeight": 1024
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/gaardia/images/places/PLACE_masons_hearthroom.png?v=1772208906062",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

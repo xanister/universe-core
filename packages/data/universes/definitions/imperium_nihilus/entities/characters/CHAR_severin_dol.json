@@ -1,0 +1,238 @@
+{
+  "id": "CHAR_severin_dol",
+  "label": "Severin Dol",
+  "description": "This individual is an undead human of gaunt proportions, with pale_green skin drawn tight across prominent cheekbones and a jawline worn to angular severity. Gray eyes sit deep in heavy sockets, fixing the gaze with a funerary stillness that defines the face. White hair persists in sparse, uneven growth, kept in an unkempt style that emphasizes the neglect of death over the habits of life. The body bears old fractures set poorly and rigidly, leaving an unmistakable asymmetry in the shoulders and a permanent, lurching alignment.",
+  "short_description": "undead male hollow wight",
+  "tags": [],
+  "entityType": "character",
+  "info": {
+    "purpose": "undead",
+    "aliases": [
+      "The Hollow Wight",
+      "Fulgurite Dead"
+    ],
+    "birthdate": "Unknown",
+    "deathdate": null,
+    "title": null,
+    "birthPlace": "Fulgurite Hollow",
+    "eyeColor": "gray",
+    "gender": "male",
+    "hairColor": "white",
+    "hairStyle": "unkempt",
+    "beardStyle": "stubble",
+    "headType": "human_male",
+    "skinTone": "taupe",
+    "personality": "A silent, place-bound revenant defined by rote hostility and ritual attention to old boundaries; it responds to intrusion with methodical violence and withdraws without pursuit once its immediate ground is cleared.",
+    "race": "human",
+    "messages": [],
+    "journal": [],
+    "sketches": [],
+    "verbosity": 3,
+    "conversationContext": null,
+    "storytellerState": null,
+    "isPlayer": false,
+    "storyComplete": false,
+    "routine": {
+      "schedule": {
+        "dawn": "work",
+        "morning": "work",
+        "afternoon": "work",
+        "evening": "work",
+        "night": "work"
+      },
+      "home": {
+        "placeId": "PLACE_fulgurite_hollow",
+        "description": "Fulgurite Hollow",
+        "areaHint": null
+      },
+      "work": {
+        "placeId": "PLACE_fulgurite_hollow",
+        "description": "Fulgurite Hollow",
+        "areaHint": null
+      },
+      "leisure": null,
+      "variance": 0.2,
+      "activities": {
+        "work": "undead_patrol"
+      }
+    },
+    "vesselRoutes": null,
+    "abstractLocation": null,
+    "npcBehavior": null,
+    "physicalState": null,
+    "pendingDeparture": null,
+    "pendingArrival": null,
+    "lastRoutineCheckPeriod": null,
+    "startingNarrative": null,
+    "startingCharacterState": null,
+    "clothing": [
+      {
+        "slot": "torso_under",
+        "itemId": "tunic",
+        "color": "#3a3a3a",
+        "contents": null
+      },
+      {
+        "slot": "torso_over",
+        "itemId": "tattercape",
+        "color": "#1a1a1a",
+        "contents": null
+      },
+      {
+        "slot": "legs",
+        "itemId": "cloth_pants",
+        "color": "#808080",
+        "contents": null
+      },
+      {
+        "slot": "feet",
+        "itemId": "boots",
+        "color": "#8b4513",
+        "contents": null
+      },
+      {
+        "slot": "belt",
+        "itemId": "rope_belt",
+        "color": "#d2b48c",
+        "contents": [
+          {
+            "id": "ci_1772086940673_qql395",
+            "itemId": "unarmed",
+            "name": "unarmed",
+            "description": null,
+            "type": "weapon",
+            "quantity": 1,
+            "color": null,
+            "equipSlot": "weapon",
+            "plotId": null
+          }
+        ]
+      }
+    ],
+    "enabledOverlayLayers": [
+      "eyes",
+      "facial"
+    ],
+    "helmingVesselId": null,
+    "storytellerDisabled": false,
+    "rulesetState": {
+      "stats": {
+        "physical": 50,
+        "mental": 50,
+        "social": 50,
+        "poise": 50,
+        "max_poise": 50,
+        "bloodloss": 0,
+        "anxiety": 0,
+        "fatigue": 0,
+        "hunger": 0
+      },
+      "conditions": [],
+      "statUsage": {},
+      "incapacitation": null,
+      "incapacitatedSince": null
+    },
+    "voiceId": "brian",
+    "spriteConfig": {
+      "bodyType": "male",
+      "layers": [
+        {
+          "type": "body",
+          "optionId": "body_base",
+          "tint": 12890264
+        },
+        {
+          "type": "body",
+          "optionId": "body_universal",
+          "tint": 12890264
+        },
+        {
+          "type": "eyes",
+          "optionId": "eyes_eyes",
+          "tint": 8423560
+        },
+        {
+          "type": "facial",
+          "optionId": "facial_beard",
+          "tint": 15262944
+        },
+        {
+          "type": "hair",
+          "optionId": "hair_unkempt",
+          "tint": 15262944
+        },
+        {
+          "type": "legs",
+          "optionId": "legs_white_pants_male",
+          "tint": 8421504
+        },
+        {
+          "type": "feet",
+          "optionId": "feet_white_boots_male",
+          "tint": 9127187
+        },
+        {
+          "type": "belt",
+          "optionId": "belt_wulax_belt_rope_male",
+          "tint": 13808780
+        }
+      ],
+      "spriteHash": "27b146c775b560ff",
+      "spriteUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/sprites/generated/27b146c775b560ff.png",
+      "spriteScale": 1
+    }
+  },
+  "position": {
+    "x": 176,
+    "y": 2080,
+    "width": 32,
+    "height": 48,
+    "parent": "PLACE_fulgurite_hollow"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/portrait-pool/undead/2.png",
+  "faceAnchorY": 0.17,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "talk"
+  },
+  "relationships": [
+    {
+      "targetId": "CHAR_sevrin_bale",
+      "type": "acquaintance",
+      "disposition": 0,
+      "familiarity": 40,
+      "context": "Both are silent, duty-bound revenants occupying Fulgurite Hollow with near-identical intrusion responses; likely aware of each other’s presence and territories.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_severan_holt_2",
+      "type": "acquaintance",
+      "disposition": 0,
+      "familiarity": 40,
+      "context": "Share the same location and (likely) overlapping boundary-focused routines in Fulgurite Hollow; plausibly recognize one another as neighboring territorial dead.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_severin_drahl_2",
+      "type": "acquaintance",
+      "disposition": 0,
+      "familiarity": 40,
+      "context": "Same birthplace and current location (Fulgurite Hollow) with similar ritual patrol behaviors; likely familiar as another place-bound revenant.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_severin_duskward",
+      "type": "acquaintance",
+      "disposition": 0,
+      "familiarity": 40,
+      "context": "Both keep silent watch/patrol patterns within Fulgurite Hollow; likely have incidental awareness through repeated territorial encounters.",
+      "pendingGeneration": false
+    }
+  ],
+  "important": false
+}

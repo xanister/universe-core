@@ -1,0 +1,20 @@
+{
+  "id": "pewter_plate_set",
+  "name": "Pewter Service Set",
+  "description": "A pewter serving set with plate and vessels.",
+  "purposes": [
+    "decoration"
+  ],
+  "tags": [
+    "common",
+    "drinkware",
+    "tavern"
+  ],
+  "solid": false,
+  "layer": "default",
+  "spriteId": "pewter_plate_set",
+  "materials": [
+    "iron"
+  ],
+  "tintable": false
+}

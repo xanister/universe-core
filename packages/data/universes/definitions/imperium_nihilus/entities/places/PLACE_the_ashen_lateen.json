@@ -1,0 +1,59 @@
+{
+  "id": "PLACE_the_ashen_lateen",
+  "label": "The Ashen Lateen",
+  "description": "The Ashen Lateen is a river-going sailing vessel adapted to Cyrenth Vale’s cold, veiled light, its hull plated with riveted iron bands over weathered timber. A single lateen rig rises above a low, fortified bulwark line, with shuttered lantern boxes and chain-shot racks built into the rails for siege-ward travel. Its decks are sealed by canvas-and-leather dodgers to blunt ashfall and auroral grit, while carved devotionals and warning glyphs mark the companionways as sanctioned spaces. The ship’s profile remains austere and utilitarian, reflecting the fortress-world’s culture of endurance and guarded transit.",
+  "short_description": "iron-banded lateen ship",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "sailing_ship",
+    "environment": {
+      "type": "exterior",
+      "hasWeather": true,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": null
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "sailing_ship_sloop",
+      "facing": "south",
+      "layer": "default"
+    },
+    "allowPlayerStart": true,
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/battles/PLACE_the_ashen_lateen.png?v=1771816911725",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 3632,
+    "y": 768,
+    "width": 64,
+    "height": 64,
+    "parent": "PLACE_cyrenth_vale",
+    "innerWidth": 1280,
+    "innerHeight": 1280
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/places/PLACE_the_ashen_lateen.png?v=1771816964413",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": true
+}

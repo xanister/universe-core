@@ -1,0 +1,32 @@
+{
+  "id": "torch_wall_mounted",
+  "purposes": [
+    "lighting"
+  ],
+  "spriteId": "torch_wall_mounted",
+  "name": "Wall mounted torch",
+  "description": "A wall mounted torch",
+  "tags": [
+    "common",
+    "lighting",
+    "tavern",
+    "ship",
+    "wall"
+  ],
+  "materials": [],
+  "solid": false,
+  "layer": "default",
+  "wallVerticalOffset": -1,
+  "tintable": false,
+  "animated": true,
+  "lightSource": {
+    "radius": 96,
+    "color": 16755268,
+    "intensity": 0.37,
+    "flicker": true,
+    "flickerSpeed": 200,
+    "flickerRange": 0.15,
+    "offsetX": 2,
+    "offsetY": -22
+  }
+}

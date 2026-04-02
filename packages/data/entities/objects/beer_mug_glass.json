@@ -1,0 +1,20 @@
+{
+  "id": "beer_mug_glass",
+  "name": "Glass Beer Mug",
+  "description": "A tall glass mug brimming with frothy beer.",
+  "purposes": [
+    "decoration"
+  ],
+  "tags": [
+    "common",
+    "drinkware",
+    "tavern"
+  ],
+  "solid": false,
+  "layer": "default",
+  "spriteId": "beer_mug_glass",
+  "materials": [
+    "glass"
+  ],
+  "tintable": false
+}

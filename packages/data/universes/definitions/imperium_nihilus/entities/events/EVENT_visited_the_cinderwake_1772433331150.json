@@ -1,0 +1,18 @@
+{
+  "id": "EVENT_visited_the_cinderwake_1772433331150",
+  "date": "999.M1 16:31",
+  "placeId": "PLACE_the_cinderwake",
+  "important": false,
+  "importanceScore": null,
+  "scope": null,
+  "relevantPlaceIds": null,
+  "eventType": "location_visited",
+  "category": "world",
+  "subject": "The Cinderwake",
+  "subjectId": "PLACE_the_cinderwake",
+  "fact": "Visited The Cinderwake",
+  "significance": "minor",
+  "witnessIds": [
+    "CHAR_sevrin_caldor"
+  ]
+}

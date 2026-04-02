@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_the_brine_lantern_anchorage",
+  "label": "The Brine Lantern Anchorage",
+  "description": "The Brine Lantern Anchorage stands as a fixed port-of-call in the open Cosmos, built around a ring of black basalt-composite docks that hold position against vacuum by constant gravitic shear. A central lumen spire burns with salt-white radiance, casting hard light across berths, inspection galleries, and pressurized concourses whose walls bear star-chart mosaics etched with epochal drift. The port’s outer skin carries layered micrometeoroid scarring and ritualized numbering, marking docking rights by sequence rather than nation. Transit lanes radiate from the anchorage as disciplined corridors of beacon buoys, imposing ordered approach through otherwise indifferent starfields.",
+  "short_description": "salt-lit orbital port",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "spaceport",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "spaceport",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/brine_lantern/images/battles/PLACE_the_brine_lantern_anchorage.png?v=1772314643028",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 4944,
+    "y": 2048,
+    "width": 32,
+    "height": 32,
+    "parent": "PLACE_cosmos",
+    "innerWidth": 2080,
+    "innerHeight": 2208
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": null,
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

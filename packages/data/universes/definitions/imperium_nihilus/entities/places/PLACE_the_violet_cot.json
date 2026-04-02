@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_the_violet_cot",
+  "label": "The Violet Cot",
+  "description": "The Violet Cot is a narrow chamber cut into the basalt-block mass of The Ashlight Canteen, its walls clad in riveted sheet metal to resist the ash-world’s grit and charge. A low sleeping platform and a footlocker sit on a grated deck fitted with a central drain, mirroring the taproom’s washdown pragmatism. Gasketed shutters over a slit-window and a double-latched inner door hold back wind-driven ash while grounded chains and ceiling baffles dampen static discharge. Illumination comes from a violet-glass sconce that stains the room in bruise-colored light and flattens detail into hard-edged shadow.",
+  "short_description": "tight violet-lit bedroom",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "bedroom",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "door_wooden",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/battles/PLACE_the_violet_cot.png?v=1771872637140",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 720,
+    "y": 160,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_the_ashlight_canteen",
+    "innerWidth": 448,
+    "innerHeight": 512
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/places/PLACE_the_violet_cot.png?v=1771872691153",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

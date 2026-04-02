@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_gutterlight_loft",
+  "label": "Gutterlight Loft",
+  "description": "Gutterlight Loft occupies a narrow upper chamber of The Prismatic Draught, its faceted walls tiled in dust-slick vitrified plates scored with the tavern’s calibration marks. A recessed sleeping niche is set into fused-silicate masonry, with a low slab dais and a fitted canopy of mirrored slats that holds the copper-white twilight in disciplined bands. An open, grounded gutter runs along the baseboards and into a small lens-drain basin, preventing electrostatic glass fallouts from accumulating in corners. A single slit-window of thickened prism glass admits the city’s seam-line glow without glare, throwing steady chromatic strata across the floor.",
+  "short_description": "prism-lit loft bedroom",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "bedroom",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "door_wooden",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/hushlight_expanse/images/battles/PLACE_gutterlight_loft.png?v=1772314027428",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 1040,
+    "y": 160,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_the_prismatic_draught",
+    "innerWidth": 608,
+    "innerHeight": 608
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/hushlight_expanse/images/places/PLACE_gutterlight_loft.png?v=1772314077615",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

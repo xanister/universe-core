@@ -1,0 +1,16 @@
+{
+  "id": "EVENT_jareks_progress_depends_on_ship_1771831496936",
+  "date": "999.M1 06:54",
+  "placeId": "PLACE_zephyr_rivet_passage",
+  "eventType": "other",
+  "category": "constraint",
+  "subject": "Jarek Morn",
+  "subjectId": null,
+  "fact": "Jarek’s progress depends on ship bureaucracy; sealed documents require permissions and are being obstructed by shifting ‘rules.’",
+  "significance": "major",
+  "important": false,
+  "witnessIds": null,
+  "importanceScore": null,
+  "scope": null,
+  "relevantPlaceIds": null
+}

@@ -1,0 +1,18 @@
+{
+  "id": "grilled_steak",
+  "name": "Grilled Steak",
+  "description": "A seared steak with grill marks.",
+  "purposes": [
+    "decoration"
+  ],
+  "tags": [
+    "common",
+    "food",
+    "tavern"
+  ],
+  "solid": false,
+  "layer": "default",
+  "spriteId": "grilled_steak",
+  "materials": [],
+  "tintable": false
+}

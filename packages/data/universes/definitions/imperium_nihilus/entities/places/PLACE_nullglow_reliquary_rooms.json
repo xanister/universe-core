@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_nullglow_reliquary_rooms",
+  "label": "Nullglow Reliquary Rooms",
+  "description": "Nullglow Reliquary Rooms forms a compact residence inset into a vitrified-stone hab tier of Vespera Tertius Nocturnis Bastion, its walls thickened with slagcrete and scavenged plasteel to blunt auroral backwash and electrostatic storm pressure. A narrow antechamber opens onto a sleeping alcove and a combined refectory-work space, all lit by hooded lumen strips and screened by layered insulation curtains. Built-in storage niches and a sealed wash recess are arranged around a central ventilation spine fitted with overbuilt filters against ash fall and vox-buzzing grit. The floorplate carries shock-bolted stanchions and cable conduits that tie the rooms into the bastion’s shielded utilities and enclosed skyway network.",
+  "short_description": "shielded hab rooms",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "residence",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "building_residence",
+      "facing": "east",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/battles/PLACE_nullglow_reliquary_rooms.png?v=1772157404089",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 848,
+    "y": 960,
+    "width": 160,
+    "height": 256,
+    "parent": "PLACE_vespera_tertius_nocturnis_bastion",
+    "innerWidth": 1216,
+    "innerHeight": 832
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/places/PLACE_nullglow_reliquary_rooms.png?v=1772157455787",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

@@ -1,0 +1,236 @@
+{
+  "id": "CHAR_a_fatigued_deckhand_messenger",
+  "label": "A Fatigued Deckhand Messenger",
+  "description": "This individual presents as a lean, overworked voidhand of early middle years, with a stooped set to the shoulders that reads as long familiarity with shipboard labor. Brown eyes sit deep beneath prominent brow ridges, giving the face a permanently strained, watchful cast. Black hair is kept short and practical, with an uneven hairline and flattened growth patterns consistent with frequent headgear wear. Bronze skin shows embedded grime-lines at the knuckles and along the wrists, marking a life of repetitive manual work.",
+  "short_description": "tired male deckhand",
+  "tags": [],
+  "entityType": "character",
+  "info": {
+    "purpose": "player",
+    "aliases": [
+      "Deckhand Messenger",
+      "Chit-Runner"
+    ],
+    "birthdate": "012.M42",
+    "deathdate": null,
+    "title": null,
+    "birthPlace": "Riftward void-lanes, shipboard",
+    "eyeColor": "brown",
+    "gender": "male",
+    "hairColor": "black",
+    "hairStyle": "plain",
+    "beardStyle": "stubble",
+    "headType": "human_male",
+    "skinTone": "bronze",
+    "personality": "Taciturn and dutiful, this deckhand functions as a shipboard runner trusted with sealed chits and time-critical errands. He speaks in clipped, serviceable phrasing and keeps to procedure, prioritizing delivery and confirmation over conversation. Long shifts and irregular rotations shape a habit of quiet endurance and an aversion to needless attention.",
+    "race": "human",
+    "messages": [],
+    "journal": [],
+    "sketches": [],
+    "verbosity": 3,
+    "conversationContext": null,
+    "storytellerState": null,
+    "isPlayer": false,
+    "storyComplete": false,
+    "routine": null,
+    "vesselRoutes": null,
+    "abstractLocation": null,
+    "npcBehavior": null,
+    "physicalState": null,
+    "pendingDeparture": null,
+    "pendingArrival": null,
+    "lastRoutineCheckPeriod": null,
+    "startingNarrative": null,
+    "startingCharacterState": null,
+    "clothing": [
+      {
+        "slot": "torso_under",
+        "itemId": "longsleeve",
+        "color": "#f5f0e8",
+        "contents": null
+      },
+      {
+        "slot": "torso_over",
+        "itemId": "overalls",
+        "color": "#000080",
+        "contents": null
+      },
+      {
+        "slot": "belt",
+        "itemId": "rope_belt",
+        "color": "#d2b48c",
+        "contents": [
+          {
+            "id": "ci_1772066927653_4pm3a8",
+            "itemId": "unarmed",
+            "name": "unarmed",
+            "description": null,
+            "type": "weapon",
+            "quantity": 1,
+            "color": null,
+            "equipSlot": "weapon",
+            "plotId": null
+          }
+        ]
+      },
+      {
+        "slot": "feet",
+        "itemId": "boots",
+        "color": "#8b4513",
+        "contents": null
+      },
+      {
+        "slot": "head",
+        "itemId": "leather_cap",
+        "color": "#1a1a1a",
+        "contents": null
+      },
+      {
+        "slot": "hands",
+        "itemId": "cloth_gloves",
+        "color": "#808080",
+        "contents": null
+      }
+    ],
+    "enabledOverlayLayers": [
+      "eyes",
+      "facial"
+    ],
+    "helmingVesselId": null,
+    "storytellerDisabled": false,
+    "rulesetState": {
+      "stats": {
+        "physical": 48,
+        "mental": 46,
+        "social": 45,
+        "poise": 46,
+        "max_poise": 46,
+        "bloodloss": 0,
+        "anxiety": 0,
+        "fatigue": 0,
+        "hunger": 0
+      },
+      "conditions": [],
+      "statUsage": {},
+      "incapacitation": null,
+      "incapacitatedSince": null
+    },
+    "voiceId": "chris",
+    "spriteConfig": {
+      "bodyType": "male",
+      "layers": [
+        {
+          "type": "body",
+          "optionId": "body_base",
+          "tint": 11373408
+        },
+        {
+          "type": "body",
+          "optionId": "body_universal",
+          "tint": 11373408
+        },
+        {
+          "type": "eyes",
+          "optionId": "eyes_eyes",
+          "tint": 7029286
+        },
+        {
+          "type": "facial",
+          "optionId": "facial_beard",
+          "tint": 1710618
+        },
+        {
+          "type": "hair",
+          "optionId": "hair_plain",
+          "tint": 1710618
+        },
+        {
+          "type": "torso",
+          "optionId": "torso_white_longsleeve",
+          "tint": 16117992
+        },
+        {
+          "type": "torso",
+          "optionId": "torso_white_overalls_male",
+          "tint": 128
+        },
+        {
+          "type": "belt",
+          "optionId": "belt_wulax_belt_rope_male",
+          "tint": 13808780
+        },
+        {
+          "type": "feet",
+          "optionId": "feet_white_boots_male",
+          "tint": 9127187
+        },
+        {
+          "type": "head",
+          "optionId": "head_leather_cap_male",
+          "tint": 1710618
+        },
+        {
+          "type": "hands",
+          "optionId": "hands_white_gloves_male",
+          "tint": 8421504
+        }
+      ],
+      "spriteHash": "005c18f4745fcb0e",
+      "spriteUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/sprites/generated/005c18f4745fcb0e.png",
+      "spriteScale": 1
+    }
+  },
+  "position": {
+    "x": 784,
+    "y": 432,
+    "width": 32,
+    "height": 48,
+    "parent": "PLACE_the_gloam_lantern"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/characters/CHAR_a_fatigued_deckhand_messenger.png?v=1772066983829",
+  "faceAnchorY": 0.2,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "talk"
+  },
+  "relationships": [
+    {
+      "targetId": "CHAR_sethran_doke",
+      "type": "acquaintance",
+      "disposition": 0,
+      "familiarity": 40,
+      "context": "Both regularly present at the Riftward Canteen; as a canteen professional, Sethran would likely recognize a recurring deckhand runner handling errands or deliveries.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_tamsin_corrow",
+      "type": "acquaintance",
+      "disposition": 0,
+      "familiarity": 40,
+      "context": "Shared location at the Riftward Canteen; Tamsin’s face-memory and control of the bar makes it likely she knows the deckhand as a regular messenger/customer.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_tavian_marrec",
+      "type": "acquaintance",
+      "disposition": 0,
+      "familiarity": 40,
+      "context": "Both operate around the Riftward Canteen; Tavian’s attentive routine would likely include recognizing a fatigued runner who comes through on shipboard errands.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_severin_ashcombe",
+      "type": null,
+      "familiarity": 20,
+      "disposition": 12,
+      "context": null,
+      "pendingGeneration": false
+    }
+  ],
+  "important": false
+}

@@ -1,0 +1,55 @@
+{
+  "id": "PLACE_ashglass_lake",
+  "label": "Ashglass Lake",
+  "description": "Ashglass Lake occupies a shallow impact basin in Anslem’s broken frontier, its shores ringed by slaggy stones and wind-gnawed ruin fragments. The water carries a persistent metallic sheen, with pale mineral scum gathering along the leeward banks and staining any timber left at the edge. Low cairn lines and collapsed survey posts mark former jurisdictional boundaries, now used as informal wayfinding in a landscape where charters routinely fail. Night fog lies heavy over the surface and is treated in regional hazard codes as a liminal indicator, warranting posted interdiction when it thickens.",
+  "short_description": "metal-sheened ruin lake",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "lake",
+    "environment": {
+      "type": "exterior",
+      "hasWeather": true,
+      "temperature": {
+        "enabled": true,
+        "base": null,
+        "modifiersApply": true
+      }
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "world_map_pond",
+      "facing": "south",
+      "layer": "floor"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 1376,
+    "y": 1984,
+    "width": 64,
+    "height": 64,
+    "parent": "PLACE_anslem"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": null,
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

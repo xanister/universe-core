@@ -1,0 +1,20 @@
+{
+  "id": "EVENT_charalaricfenrow_confronted_charkorrbrightblade_at_the_1772322850035",
+  "date": "04.01.11 4A 10:41",
+  "placeId": "PLACE_the_quenched_pike",
+  "eventType": "turning_point",
+  "category": "world",
+  "subject": "The Quenched Pike",
+  "subjectId": "PLACE_the_quenched_pike",
+  "fact": "CHAR_alaric_fenrow confronted CHAR_korr_brightblade at The Quenched Pike with an immediate compliance ultimatum and threat of seizure",
+  "significance": "major",
+  "witnessIds": [
+    "CHAR_korr_brightblade"
+  ],
+  "important": true,
+  "importanceScore": null,
+  "scope": "local",
+  "relevantPlaceIds": [
+    "PLACE_the_quenched_pike"
+  ]
+}

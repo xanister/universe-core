@@ -1,0 +1,23 @@
+{
+  "id": "shield_round_wood",
+  "name": "Wooden Round Shield",
+  "description": "A wooden round shield with a center boss.",
+  "purposes": [
+    "decoration",
+    "tavern",
+    "residence"
+  ],
+  "tags": [
+    "tavern",
+    "wall"
+  ],
+  "solid": false,
+  "layer": "overhead",
+  "spriteId": "shield_round_wood",
+  "materials": [
+    "wood",
+    "iron"
+  ],
+  "tintable": false,
+  "wallVerticalOffset": -1
+}

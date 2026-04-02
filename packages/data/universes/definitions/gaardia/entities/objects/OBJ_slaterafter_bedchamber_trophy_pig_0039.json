@@ -1,0 +1,51 @@
+{
+  "id": "OBJ_slaterafter_bedchamber_trophy_pig_0039",
+  "label": "Pig Trophy",
+  "description": "A mounted pig head on a wooden shield plaque.",
+  "important": false,
+  "short_description": "pig trophy",
+  "tags": [
+    "tavern",
+    "wall"
+  ],
+  "entityType": "object",
+  "info": {
+    "purpose": "decoration",
+    "solid": false,
+    "layer": "overhead",
+    "isStructural": false,
+    "material": null,
+    "tint": null,
+    "spriteConfig": {
+      "spriteId": "trophy_pig",
+      "frame": null,
+      "animationKey": null,
+      "animated": false,
+      "facing": "west"
+    },
+    "hp": null,
+    "maxHp": null,
+    "state": null,
+    "contents": null,
+    "lightSource": null,
+    "itemId": null,
+    "plotId": null
+  },
+  "position": {
+    "x": 528,
+    "y": 192,
+    "width": 32,
+    "height": 32,
+    "parent": "PLACE_slaterafter_bedchamber"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "relationships": [],
+  "image": null,
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": null
+}

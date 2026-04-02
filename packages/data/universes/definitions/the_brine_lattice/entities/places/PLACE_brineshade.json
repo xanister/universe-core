@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_brineshade",
+  "label": "Brineshade",
+  "description": "Brineshade stands as an inner planet of the Saltharrow System, set under the primary’s hard white radiance and tracked as a major marker along the system’s charted transit lanes. Its surface presents extensive saline flats and dark basaltic uplands, laid out in broad continental plates that reflect the system’s pronounced gravitic gradients in measurable tidal stresses. A thin, mineral-laden atmosphere carries persistent haze bands that brighten sharply when the star crests the horizon, producing high-contrast terminator zones used in optical navigation. Orbital surveys record stable resonances with the surrounding particulate belts, securing predictable approaches despite the system’s steep gravitational contours.",
+  "short_description": "saline basalt world",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "planet",
+    "environment": {
+      "type": "exterior",
+      "hasWeather": true,
+      "temperature": {
+        "enabled": true,
+        "base": null,
+        "modifiersApply": true
+      },
+      "maxDarkness": null
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "planet_terran",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/the_brine_lattice/images/battles/PLACE_brineshade.png?v=1772313683718",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 4912,
+    "y": 2656,
+    "width": 32,
+    "height": 32,
+    "parent": "PLACE_saltharrow_system",
+    "innerWidth": 3328,
+    "innerHeight": 2816
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/the_brine_lattice/images/places/PLACE_brineshade.png?v=1772313734022",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

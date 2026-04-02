@@ -1,0 +1,22 @@
+{
+  "id": "crate",
+  "name": "Crate",
+  "description": "A simple wooden crate",
+  "purposes": [
+    "storage",
+    "ship_deck_decoration"
+  ],
+  "tags": [
+    "common",
+    "storage",
+    "ship"
+  ],
+  "solid": true,
+  "layer": "default",
+  "spriteId": "crate",
+  "materials": [
+    "wood"
+  ],
+  "tintable": true,
+  "canContain": true
+}

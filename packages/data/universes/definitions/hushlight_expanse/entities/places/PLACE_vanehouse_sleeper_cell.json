@@ -1,0 +1,60 @@
+{
+  "id": "PLACE_vanehouse_sleeper_cell",
+  "label": "Vanehouse Sleeper Cell",
+  "description": "Vanehouse Sleeper Cell is a compact berth compartment recessed off Vanehouse Passage, sealed by a gasketed hatch to preserve the corridor’s dry, ozonated air and dust discipline. Matte black bulkheads are scored with copper-white heading bands that fall through a narrow prism-slit, laying fixed light lines across the bunk and stowage faces. A ribbed sleeping recess and strap-down lockerwork are integrated into the structure, with grounded conductor-strip trims tying the room into the Prismwake’s discharge network. A shallow catch-tray threshold and micro-drain lead to a sealed scupper cistern, ensuring glass-dust falloff never migrates back into the passage.",
+  "short_description": "sealed prism-lit berth",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "bedroom",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "door_wooden",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/hushlight_expanse/images/battles/PLACE_vanehouse_sleeper_cell.png?v=1772314025432",
+    "inheritedRequiredTags": [
+      "ship"
+    ]
+  },
+  "position": {
+    "x": 304,
+    "y": 160,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_vanehouse_passage",
+    "innerWidth": 576,
+    "innerHeight": 544
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/hushlight_expanse/images/places/PLACE_vanehouse_sleeper_cell.png?v=1772314075608",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

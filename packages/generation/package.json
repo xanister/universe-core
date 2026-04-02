@@ -1,0 +1,1161 @@
+{
+  "name": "@dmnpc/generation",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "DMNPC content generation -- characters, places, universes, media, layouts",
+  "exports": {
+    "./agent/generator-config.js": {
+      "types": "./dist/agent/generator-config.d.ts",
+      "import": "./dist/agent/generator-config.js",
+      "default": "./dist/agent/generator-config.js"
+    },
+    "./agent/generator-config": {
+      "types": "./dist/agent/generator-config.d.ts",
+      "import": "./dist/agent/generator-config.js",
+      "default": "./dist/agent/generator-config.js"
+    },
+    "./agent/generator-orchestrator.js": {
+      "types": "./dist/agent/generator-orchestrator.d.ts",
+      "import": "./dist/agent/generator-orchestrator.js",
+      "default": "./dist/agent/generator-orchestrator.js"
+    },
+    "./agent/generator-orchestrator": {
+      "types": "./dist/agent/generator-orchestrator.d.ts",
+      "import": "./dist/agent/generator-orchestrator.js",
+      "default": "./dist/agent/generator-orchestrator.js"
+    },
+    "./agent/generator-prompts.js": {
+      "types": "./dist/agent/generator-prompts.d.ts",
+      "import": "./dist/agent/generator-prompts.js",
+      "default": "./dist/agent/generator-prompts.js"
+    },
+    "./agent/generator-prompts": {
+      "types": "./dist/agent/generator-prompts.d.ts",
+      "import": "./dist/agent/generator-prompts.js",
+      "default": "./dist/agent/generator-prompts.js"
+    },
+    "./agent/tool-registry.js": {
+      "types": "./dist/agent/tool-registry.d.ts",
+      "import": "./dist/agent/tool-registry.js",
+      "default": "./dist/agent/tool-registry.js"
+    },
+    "./agent/tool-registry": {
+      "types": "./dist/agent/tool-registry.d.ts",
+      "import": "./dist/agent/tool-registry.js",
+      "default": "./dist/agent/tool-registry.js"
+    },
+    "./agent/tools/create-entity.js": {
+      "types": "./dist/agent/tools/create-entity.d.ts",
+      "import": "./dist/agent/tools/create-entity.js",
+      "default": "./dist/agent/tools/create-entity.js"
+    },
+    "./agent/tools/create-entity": {
+      "types": "./dist/agent/tools/create-entity.d.ts",
+      "import": "./dist/agent/tools/create-entity.js",
+      "default": "./dist/agent/tools/create-entity.js"
+    },
+    "./agent/tools/create-layout-template.js": {
+      "types": "./dist/agent/tools/create-layout-template.d.ts",
+      "import": "./dist/agent/tools/create-layout-template.js",
+      "default": "./dist/agent/tools/create-layout-template.js"
+    },
+    "./agent/tools/create-layout-template": {
+      "types": "./dist/agent/tools/create-layout-template.d.ts",
+      "import": "./dist/agent/tools/create-layout-template.js",
+      "default": "./dist/agent/tools/create-layout-template.js"
+    },
+    "./agent/tools/plan-generation.js": {
+      "types": "./dist/agent/tools/plan-generation.d.ts",
+      "import": "./dist/agent/tools/plan-generation.js",
+      "default": "./dist/agent/tools/plan-generation.js"
+    },
+    "./agent/tools/plan-generation": {
+      "types": "./dist/agent/tools/plan-generation.d.ts",
+      "import": "./dist/agent/tools/plan-generation.js",
+      "default": "./dist/agent/tools/plan-generation.js"
+    },
+    "./agent/tools/query-universe.js": {
+      "types": "./dist/agent/tools/query-universe.d.ts",
+      "import": "./dist/agent/tools/query-universe.js",
+      "default": "./dist/agent/tools/query-universe.js"
+    },
+    "./agent/tools/query-universe": {
+      "types": "./dist/agent/tools/query-universe.d.ts",
+      "import": "./dist/agent/tools/query-universe.js",
+      "default": "./dist/agent/tools/query-universe.js"
+    },
+    "./agent/tools/signal-complete.js": {
+      "types": "./dist/agent/tools/signal-complete.d.ts",
+      "import": "./dist/agent/tools/signal-complete.js",
+      "default": "./dist/agent/tools/signal-complete.js"
+    },
+    "./agent/tools/signal-complete": {
+      "types": "./dist/agent/tools/signal-complete.d.ts",
+      "import": "./dist/agent/tools/signal-complete.js",
+      "default": "./dist/agent/tools/signal-complete.js"
+    },
+    "./agent/types.js": {
+      "types": "./dist/agent/types.d.ts",
+      "import": "./dist/agent/types.js",
+      "default": "./dist/agent/types.js"
+    },
+    "./agent/types": {
+      "types": "./dist/agent/types.d.ts",
+      "import": "./dist/agent/types.js",
+      "default": "./dist/agent/types.js"
+    },
+    "./agent/validation.js": {
+      "types": "./dist/agent/validation.d.ts",
+      "import": "./dist/agent/validation.js",
+      "default": "./dist/agent/validation.js"
+    },
+    "./agent/validation": {
+      "types": "./dist/agent/validation.d.ts",
+      "import": "./dist/agent/validation.js",
+      "default": "./dist/agent/validation.js"
+    },
+    "./autotile/autotile-47-lpc.js": {
+      "types": "./dist/autotile/autotile-47-lpc.d.ts",
+      "import": "./dist/autotile/autotile-47-lpc.js",
+      "default": "./dist/autotile/autotile-47-lpc.js"
+    },
+    "./autotile/autotile-47-lpc": {
+      "types": "./dist/autotile/autotile-47-lpc.d.ts",
+      "import": "./dist/autotile/autotile-47-lpc.js",
+      "default": "./dist/autotile/autotile-47-lpc.js"
+    },
+    "./autotile/autotile-47.js": {
+      "types": "./dist/autotile/autotile-47.d.ts",
+      "import": "./dist/autotile/autotile-47.js",
+      "default": "./dist/autotile/autotile-47.js"
+    },
+    "./autotile/autotile-47": {
+      "types": "./dist/autotile/autotile-47.d.ts",
+      "import": "./dist/autotile/autotile-47.js",
+      "default": "./dist/autotile/autotile-47.js"
+    },
+    "./autotile/blob-47.js": {
+      "types": "./dist/autotile/blob-47.d.ts",
+      "import": "./dist/autotile/blob-47.js",
+      "default": "./dist/autotile/blob-47.js"
+    },
+    "./autotile/blob-47": {
+      "types": "./dist/autotile/blob-47.d.ts",
+      "import": "./dist/autotile/blob-47.js",
+      "default": "./dist/autotile/blob-47.js"
+    },
+    "./autotile/boundary-autotile.js": {
+      "types": "./dist/autotile/boundary-autotile.d.ts",
+      "import": "./dist/autotile/boundary-autotile.js",
+      "default": "./dist/autotile/boundary-autotile.js"
+    },
+    "./autotile/boundary-autotile": {
+      "types": "./dist/autotile/boundary-autotile.d.ts",
+      "import": "./dist/autotile/boundary-autotile.js",
+      "default": "./dist/autotile/boundary-autotile.js"
+    },
+    "./autotile/index.js": {
+      "types": "./dist/autotile/index.d.ts",
+      "import": "./dist/autotile/index.js",
+      "default": "./dist/autotile/index.js"
+    },
+    "./autotile/index": {
+      "types": "./dist/autotile/index.d.ts",
+      "import": "./dist/autotile/index.js",
+      "default": "./dist/autotile/index.js"
+    },
+    "./autotile/presets/autotile47-lpc.js": {
+      "types": "./dist/autotile/presets/autotile47-lpc.d.ts",
+      "import": "./dist/autotile/presets/autotile47-lpc.js",
+      "default": "./dist/autotile/presets/autotile47-lpc.js"
+    },
+    "./autotile/presets/autotile47-lpc": {
+      "types": "./dist/autotile/presets/autotile47-lpc.d.ts",
+      "import": "./dist/autotile/presets/autotile47-lpc.js",
+      "default": "./dist/autotile/presets/autotile47-lpc.js"
+    },
+    "./autotile/presets/autotile47.js": {
+      "types": "./dist/autotile/presets/autotile47.d.ts",
+      "import": "./dist/autotile/presets/autotile47.js",
+      "default": "./dist/autotile/presets/autotile47.js"
+    },
+    "./autotile/presets/autotile47": {
+      "types": "./dist/autotile/presets/autotile47.d.ts",
+      "import": "./dist/autotile/presets/autotile47.js",
+      "default": "./dist/autotile/presets/autotile47.js"
+    },
+    "./autotile/presets/canonical.js": {
+      "types": "./dist/autotile/presets/canonical.d.ts",
+      "import": "./dist/autotile/presets/canonical.js",
+      "default": "./dist/autotile/presets/canonical.js"
+    },
+    "./autotile/presets/canonical": {
+      "types": "./dist/autotile/presets/canonical.d.ts",
+      "import": "./dist/autotile/presets/canonical.js",
+      "default": "./dist/autotile/presets/canonical.js"
+    },
+    "./autotile/presets/gamemaker.js": {
+      "types": "./dist/autotile/presets/gamemaker.d.ts",
+      "import": "./dist/autotile/presets/gamemaker.js",
+      "default": "./dist/autotile/presets/gamemaker.js"
+    },
+    "./autotile/presets/gamemaker": {
+      "types": "./dist/autotile/presets/gamemaker.d.ts",
+      "import": "./dist/autotile/presets/gamemaker.js",
+      "default": "./dist/autotile/presets/gamemaker.js"
+    },
+    "./autotile/presets/index.js": {
+      "types": "./dist/autotile/presets/index.d.ts",
+      "import": "./dist/autotile/presets/index.js",
+      "default": "./dist/autotile/presets/index.js"
+    },
+    "./autotile/presets/index": {
+      "types": "./dist/autotile/presets/index.d.ts",
+      "import": "./dist/autotile/presets/index.js",
+      "default": "./dist/autotile/presets/index.js"
+    },
+    "./autotile/presets/wang16.js": {
+      "types": "./dist/autotile/presets/wang16.d.ts",
+      "import": "./dist/autotile/presets/wang16.js",
+      "default": "./dist/autotile/presets/wang16.js"
+    },
+    "./autotile/presets/wang16": {
+      "types": "./dist/autotile/presets/wang16.d.ts",
+      "import": "./dist/autotile/presets/wang16.js",
+      "default": "./dist/autotile/presets/wang16.js"
+    },
+    "./autotile/presets/wang2corner.js": {
+      "types": "./dist/autotile/presets/wang2corner.d.ts",
+      "import": "./dist/autotile/presets/wang2corner.js",
+      "default": "./dist/autotile/presets/wang2corner.js"
+    },
+    "./autotile/presets/wang2corner": {
+      "types": "./dist/autotile/presets/wang2corner.d.ts",
+      "import": "./dist/autotile/presets/wang2corner.js",
+      "default": "./dist/autotile/presets/wang2corner.js"
+    },
+    "./autotile/wang-16.js": {
+      "types": "./dist/autotile/wang-16.d.ts",
+      "import": "./dist/autotile/wang-16.js",
+      "default": "./dist/autotile/wang-16.js"
+    },
+    "./autotile/wang-16": {
+      "types": "./dist/autotile/wang-16.d.ts",
+      "import": "./dist/autotile/wang-16.js",
+      "default": "./dist/autotile/wang-16.js"
+    },
+    "./autotile/wang-2corner.js": {
+      "types": "./dist/autotile/wang-2corner.d.ts",
+      "import": "./dist/autotile/wang-2corner.js",
+      "default": "./dist/autotile/wang-2corner.js"
+    },
+    "./autotile/wang-2corner": {
+      "types": "./dist/autotile/wang-2corner.d.ts",
+      "import": "./dist/autotile/wang-2corner.js",
+      "default": "./dist/autotile/wang-2corner.js"
+    },
+    "./character/character-clarification-provider.js": {
+      "types": "./dist/character/character-clarification-provider.d.ts",
+      "import": "./dist/character/character-clarification-provider.js",
+      "default": "./dist/character/character-clarification-provider.js"
+    },
+    "./character/character-clarification-provider": {
+      "types": "./dist/character/character-clarification-provider.d.ts",
+      "import": "./dist/character/character-clarification-provider.js",
+      "default": "./dist/character/character-clarification-provider.js"
+    },
+    "./character/character-sprite-helper.js": {
+      "types": "./dist/character/character-sprite-helper.d.ts",
+      "import": "./dist/character/character-sprite-helper.js",
+      "default": "./dist/character/character-sprite-helper.js"
+    },
+    "./character/character-sprite-helper": {
+      "types": "./dist/character/character-sprite-helper.d.ts",
+      "import": "./dist/character/character-sprite-helper.js",
+      "default": "./dist/character/character-sprite-helper.js"
+    },
+    "./character/portrait-pool.js": {
+      "types": "./dist/character/portrait-pool.d.ts",
+      "import": "./dist/character/portrait-pool.js",
+      "default": "./dist/character/portrait-pool.js"
+    },
+    "./character/portrait-pool": {
+      "types": "./dist/character/portrait-pool.d.ts",
+      "import": "./dist/character/portrait-pool.js",
+      "default": "./dist/character/portrait-pool.js"
+    },
+    "./character/slot-character-populator.js": {
+      "types": "./dist/character/slot-character-populator.d.ts",
+      "import": "./dist/character/slot-character-populator.js",
+      "default": "./dist/character/slot-character-populator.js"
+    },
+    "./character/slot-character-populator": {
+      "types": "./dist/character/slot-character-populator.d.ts",
+      "import": "./dist/character/slot-character-populator.js",
+      "default": "./dist/character/slot-character-populator.js"
+    },
+    "./character/slot-routine-builder.js": {
+      "types": "./dist/character/slot-routine-builder.d.ts",
+      "import": "./dist/character/slot-routine-builder.js",
+      "default": "./dist/character/slot-routine-builder.js"
+    },
+    "./character/slot-routine-builder": {
+      "types": "./dist/character/slot-routine-builder.d.ts",
+      "import": "./dist/character/slot-routine-builder.js",
+      "default": "./dist/character/slot-routine-builder.js"
+    },
+    "./character/template-character-builder.js": {
+      "types": "./dist/character/template-character-builder.d.ts",
+      "import": "./dist/character/template-character-builder.js",
+      "default": "./dist/character/template-character-builder.js"
+    },
+    "./character/template-character-builder": {
+      "types": "./dist/character/template-character-builder.d.ts",
+      "import": "./dist/character/template-character-builder.js",
+      "default": "./dist/character/template-character-builder.js"
+    },
+    "./character/template-character-generator.js": {
+      "types": "./dist/character/template-character-generator.d.ts",
+      "import": "./dist/character/template-character-generator.js",
+      "default": "./dist/character/template-character-generator.js"
+    },
+    "./character/template-character-generator": {
+      "types": "./dist/character/template-character-generator.d.ts",
+      "import": "./dist/character/template-character-generator.js",
+      "default": "./dist/character/template-character-generator.js"
+    },
+    "./character/voice-matcher.js": {
+      "types": "./dist/character/voice-matcher.d.ts",
+      "import": "./dist/character/voice-matcher.js",
+      "default": "./dist/character/voice-matcher.js"
+    },
+    "./character/voice-matcher": {
+      "types": "./dist/character/voice-matcher.d.ts",
+      "import": "./dist/character/voice-matcher.js",
+      "default": "./dist/character/voice-matcher.js"
+    },
+    "./character-generator.js": {
+      "types": "./dist/character-generator.d.ts",
+      "import": "./dist/character-generator.js",
+      "default": "./dist/character-generator.js"
+    },
+    "./character-generator": {
+      "types": "./dist/character-generator.d.ts",
+      "import": "./dist/character-generator.js",
+      "default": "./dist/character-generator.js"
+    },
+    "./document/document-clarification-provider.js": {
+      "types": "./dist/document/document-clarification-provider.d.ts",
+      "import": "./dist/document/document-clarification-provider.js",
+      "default": "./dist/document/document-clarification-provider.js"
+    },
+    "./document/document-clarification-provider": {
+      "types": "./dist/document/document-clarification-provider.d.ts",
+      "import": "./dist/document/document-clarification-provider.js",
+      "default": "./dist/document/document-clarification-provider.js"
+    },
+    "./document/document-parser.js": {
+      "types": "./dist/document/document-parser.d.ts",
+      "import": "./dist/document/document-parser.js",
+      "default": "./dist/document/document-parser.js"
+    },
+    "./document/document-parser": {
+      "types": "./dist/document/document-parser.d.ts",
+      "import": "./dist/document/document-parser.js",
+      "default": "./dist/document/document-parser.js"
+    },
+    "./document/document-processor.js": {
+      "types": "./dist/document/document-processor.d.ts",
+      "import": "./dist/document/document-processor.js",
+      "default": "./dist/document/document-processor.js"
+    },
+    "./document/document-processor": {
+      "types": "./dist/document/document-processor.d.ts",
+      "import": "./dist/document/document-processor.js",
+      "default": "./dist/document/document-processor.js"
+    },
+    "./document/document-storage.js": {
+      "types": "./dist/document/document-storage.d.ts",
+      "import": "./dist/document/document-storage.js",
+      "default": "./dist/document/document-storage.js"
+    },
+    "./document/document-storage": {
+      "types": "./dist/document/document-storage.d.ts",
+      "import": "./dist/document/document-storage.js",
+      "default": "./dist/document/document-storage.js"
+    },
+    "./document/template-document-merger.js": {
+      "types": "./dist/document/template-document-merger.d.ts",
+      "import": "./dist/document/template-document-merger.js",
+      "default": "./dist/document/template-document-merger.js"
+    },
+    "./document/template-document-merger": {
+      "types": "./dist/document/template-document-merger.d.ts",
+      "import": "./dist/document/template-document-merger.js",
+      "default": "./dist/document/template-document-merger.js"
+    },
+    "./document/world-population-audit.js": {
+      "types": "./dist/document/world-population-audit.d.ts",
+      "import": "./dist/document/world-population-audit.js",
+      "default": "./dist/document/world-population-audit.js"
+    },
+    "./document/world-population-audit": {
+      "types": "./dist/document/world-population-audit.d.ts",
+      "import": "./dist/document/world-population-audit.js",
+      "default": "./dist/document/world-population-audit.js"
+    },
+    "./entity-enrichment.js": {
+      "types": "./dist/entity-enrichment.d.ts",
+      "import": "./dist/entity-enrichment.js",
+      "default": "./dist/entity-enrichment.js"
+    },
+    "./entity-enrichment": {
+      "types": "./dist/entity-enrichment.d.ts",
+      "import": "./dist/entity-enrichment.js",
+      "default": "./dist/entity-enrichment.js"
+    },
+    "./generation-context.js": {
+      "types": "./dist/generation-context.d.ts",
+      "import": "./dist/generation-context.js",
+      "default": "./dist/generation-context.js"
+    },
+    "./generation-context": {
+      "types": "./dist/generation-context.d.ts",
+      "import": "./dist/generation-context.js",
+      "default": "./dist/generation-context.js"
+    },
+    "./id-generator.js": {
+      "types": "./dist/id-generator.d.ts",
+      "import": "./dist/id-generator.js",
+      "default": "./dist/id-generator.js"
+    },
+    "./id-generator": {
+      "types": "./dist/id-generator.d.ts",
+      "import": "./dist/id-generator.js",
+      "default": "./dist/id-generator.js"
+    },
+    "./job-matching.js": {
+      "types": "./dist/job-matching.d.ts",
+      "import": "./dist/job-matching.js",
+      "default": "./dist/job-matching.js"
+    },
+    "./job-matching": {
+      "types": "./dist/job-matching.d.ts",
+      "import": "./dist/job-matching.js",
+      "default": "./dist/job-matching.js"
+    },
+    "./media/audio-generator.js": {
+      "types": "./dist/media/audio-generator.d.ts",
+      "import": "./dist/media/audio-generator.js",
+      "default": "./dist/media/audio-generator.js"
+    },
+    "./media/audio-generator": {
+      "types": "./dist/media/audio-generator.d.ts",
+      "import": "./dist/media/audio-generator.js",
+      "default": "./dist/media/audio-generator.js"
+    },
+    "./media/background-music-generator.js": {
+      "types": "./dist/media/background-music-generator.d.ts",
+      "import": "./dist/media/background-music-generator.js",
+      "default": "./dist/media/background-music-generator.js"
+    },
+    "./media/background-music-generator": {
+      "types": "./dist/media/background-music-generator.d.ts",
+      "import": "./dist/media/background-music-generator.js",
+      "default": "./dist/media/background-music-generator.js"
+    },
+    "./media/battle-background-generator.js": {
+      "types": "./dist/media/battle-background-generator.d.ts",
+      "import": "./dist/media/battle-background-generator.js",
+      "default": "./dist/media/battle-background-generator.js"
+    },
+    "./media/battle-background-generator": {
+      "types": "./dist/media/battle-background-generator.d.ts",
+      "import": "./dist/media/battle-background-generator.js",
+      "default": "./dist/media/battle-background-generator.js"
+    },
+    "./media/entity-image-service.js": {
+      "types": "./dist/media/entity-image-service.d.ts",
+      "import": "./dist/media/entity-image-service.js",
+      "default": "./dist/media/entity-image-service.js"
+    },
+    "./media/entity-image-service": {
+      "types": "./dist/media/entity-image-service.d.ts",
+      "import": "./dist/media/entity-image-service.js",
+      "default": "./dist/media/entity-image-service.js"
+    },
+    "./media/music-generator.js": {
+      "types": "./dist/media/music-generator.d.ts",
+      "import": "./dist/media/music-generator.js",
+      "default": "./dist/media/music-generator.js"
+    },
+    "./media/music-generator": {
+      "types": "./dist/media/music-generator.d.ts",
+      "import": "./dist/media/music-generator.js",
+      "default": "./dist/media/music-generator.js"
+    },
+    "./media/music-selector.js": {
+      "types": "./dist/media/music-selector.d.ts",
+      "import": "./dist/media/music-selector.js",
+      "default": "./dist/media/music-selector.js"
+    },
+    "./media/music-selector": {
+      "types": "./dist/media/music-selector.d.ts",
+      "import": "./dist/media/music-selector.js",
+      "default": "./dist/media/music-selector.js"
+    },
+    "./media/plot-image-generator.js": {
+      "types": "./dist/media/plot-image-generator.d.ts",
+      "import": "./dist/media/plot-image-generator.js",
+      "default": "./dist/media/plot-image-generator.js"
+    },
+    "./media/plot-image-generator": {
+      "types": "./dist/media/plot-image-generator.d.ts",
+      "import": "./dist/media/plot-image-generator.js",
+      "default": "./dist/media/plot-image-generator.js"
+    },
+    "./media/scene-image-generator.js": {
+      "types": "./dist/media/scene-image-generator.d.ts",
+      "import": "./dist/media/scene-image-generator.js",
+      "default": "./dist/media/scene-image-generator.js"
+    },
+    "./media/scene-image-generator": {
+      "types": "./dist/media/scene-image-generator.d.ts",
+      "import": "./dist/media/scene-image-generator.js",
+      "default": "./dist/media/scene-image-generator.js"
+    },
+    "./media/speech-generator.js": {
+      "types": "./dist/media/speech-generator.d.ts",
+      "import": "./dist/media/speech-generator.js",
+      "default": "./dist/media/speech-generator.js"
+    },
+    "./media/speech-generator": {
+      "types": "./dist/media/speech-generator.d.ts",
+      "import": "./dist/media/speech-generator.js",
+      "default": "./dist/media/speech-generator.js"
+    },
+    "./media/sprite-generation-service.js": {
+      "types": "./dist/media/sprite-generation-service.d.ts",
+      "import": "./dist/media/sprite-generation-service.js",
+      "default": "./dist/media/sprite-generation-service.js"
+    },
+    "./media/sprite-generation-service": {
+      "types": "./dist/media/sprite-generation-service.d.ts",
+      "import": "./dist/media/sprite-generation-service.js",
+      "default": "./dist/media/sprite-generation-service.js"
+    },
+    "./media-helpers.js": {
+      "types": "./dist/media-helpers.d.ts",
+      "import": "./dist/media-helpers.js",
+      "default": "./dist/media-helpers.js"
+    },
+    "./media-helpers": {
+      "types": "./dist/media-helpers.d.ts",
+      "import": "./dist/media-helpers.js",
+      "default": "./dist/media-helpers.js"
+    },
+    "./narrative/historical-event-creator.js": {
+      "types": "./dist/narrative/historical-event-creator.d.ts",
+      "import": "./dist/narrative/historical-event-creator.js",
+      "default": "./dist/narrative/historical-event-creator.js"
+    },
+    "./narrative/historical-event-creator": {
+      "types": "./dist/narrative/historical-event-creator.d.ts",
+      "import": "./dist/narrative/historical-event-creator.js",
+      "default": "./dist/narrative/historical-event-creator.js"
+    },
+    "./narrative/journal-entry-generator.js": {
+      "types": "./dist/narrative/journal-entry-generator.d.ts",
+      "import": "./dist/narrative/journal-entry-generator.js",
+      "default": "./dist/narrative/journal-entry-generator.js"
+    },
+    "./narrative/journal-entry-generator": {
+      "types": "./dist/narrative/journal-entry-generator.d.ts",
+      "import": "./dist/narrative/journal-entry-generator.js",
+      "default": "./dist/narrative/journal-entry-generator.js"
+    },
+    "./narrative/plot-clarification-provider.js": {
+      "types": "./dist/narrative/plot-clarification-provider.d.ts",
+      "import": "./dist/narrative/plot-clarification-provider.js",
+      "default": "./dist/narrative/plot-clarification-provider.js"
+    },
+    "./narrative/plot-clarification-provider": {
+      "types": "./dist/narrative/plot-clarification-provider.d.ts",
+      "import": "./dist/narrative/plot-clarification-provider.js",
+      "default": "./dist/narrative/plot-clarification-provider.js"
+    },
+    "./narrative/routine-generator.js": {
+      "types": "./dist/narrative/routine-generator.d.ts",
+      "import": "./dist/narrative/routine-generator.js",
+      "default": "./dist/narrative/routine-generator.js"
+    },
+    "./narrative/routine-generator": {
+      "types": "./dist/narrative/routine-generator.d.ts",
+      "import": "./dist/narrative/routine-generator.js",
+      "default": "./dist/narrative/routine-generator.js"
+    },
+    "./object-generator.js": {
+      "types": "./dist/object-generator.d.ts",
+      "import": "./dist/object-generator.js",
+      "default": "./dist/object-generator.js"
+    },
+    "./object-generator": {
+      "types": "./dist/object-generator.d.ts",
+      "import": "./dist/object-generator.js",
+      "default": "./dist/object-generator.js"
+    },
+    "./object-sprite-resolver.js": {
+      "types": "./dist/object-sprite-resolver.d.ts",
+      "import": "./dist/object-sprite-resolver.js",
+      "default": "./dist/object-sprite-resolver.js"
+    },
+    "./object-sprite-resolver": {
+      "types": "./dist/object-sprite-resolver.d.ts",
+      "import": "./dist/object-sprite-resolver.js",
+      "default": "./dist/object-sprite-resolver.js"
+    },
+    "./place/canonical-place-hints.js": {
+      "types": "./dist/place/canonical-place-hints.d.ts",
+      "import": "./dist/place/canonical-place-hints.js",
+      "default": "./dist/place/canonical-place-hints.js"
+    },
+    "./place/canonical-place-hints": {
+      "types": "./dist/place/canonical-place-hints.d.ts",
+      "import": "./dist/place/canonical-place-hints.js",
+      "default": "./dist/place/canonical-place-hints.js"
+    },
+    "./place/capacity-rules.js": {
+      "types": "./dist/place/capacity-rules.d.ts",
+      "import": "./dist/place/capacity-rules.js",
+      "default": "./dist/place/capacity-rules.js"
+    },
+    "./place/capacity-rules": {
+      "types": "./dist/place/capacity-rules.d.ts",
+      "import": "./dist/place/capacity-rules.js",
+      "default": "./dist/place/capacity-rules.js"
+    },
+    "./place/layout-template-generator.js": {
+      "types": "./dist/place/layout-template-generator.d.ts",
+      "import": "./dist/place/layout-template-generator.js",
+      "default": "./dist/place/layout-template-generator.js"
+    },
+    "./place/layout-template-generator": {
+      "types": "./dist/place/layout-template-generator.d.ts",
+      "import": "./dist/place/layout-template-generator.js",
+      "default": "./dist/place/layout-template-generator.js"
+    },
+    "./place/object-type-generator.js": {
+      "types": "./dist/place/object-type-generator.d.ts",
+      "import": "./dist/place/object-type-generator.js",
+      "default": "./dist/place/object-type-generator.js"
+    },
+    "./place/object-type-generator": {
+      "types": "./dist/place/object-type-generator.d.ts",
+      "import": "./dist/place/object-type-generator.js",
+      "default": "./dist/place/object-type-generator.js"
+    },
+    "./place/occupancy.js": {
+      "types": "./dist/place/occupancy.d.ts",
+      "import": "./dist/place/occupancy.js",
+      "default": "./dist/place/occupancy.js"
+    },
+    "./place/occupancy": {
+      "types": "./dist/place/occupancy.d.ts",
+      "import": "./dist/place/occupancy.js",
+      "default": "./dist/place/occupancy.js"
+    },
+    "./place/place-clarification-provider.js": {
+      "types": "./dist/place/place-clarification-provider.d.ts",
+      "import": "./dist/place/place-clarification-provider.js",
+      "default": "./dist/place/place-clarification-provider.js"
+    },
+    "./place/place-clarification-provider": {
+      "types": "./dist/place/place-clarification-provider.d.ts",
+      "import": "./dist/place/place-clarification-provider.js",
+      "default": "./dist/place/place-clarification-provider.js"
+    },
+    "./place/place-layout-service.js": {
+      "types": "./dist/place/place-layout-service.d.ts",
+      "import": "./dist/place/place-layout-service.js",
+      "default": "./dist/place/place-layout-service.js"
+    },
+    "./place/place-layout-service": {
+      "types": "./dist/place/place-layout-service.d.ts",
+      "import": "./dist/place/place-layout-service.js",
+      "default": "./dist/place/place-layout-service.js"
+    },
+    "./place/vessel-route-builder.js": {
+      "types": "./dist/place/vessel-route-builder.d.ts",
+      "import": "./dist/place/vessel-route-builder.js",
+      "default": "./dist/place/vessel-route-builder.js"
+    },
+    "./place/vessel-route-builder": {
+      "types": "./dist/place/vessel-route-builder.d.ts",
+      "import": "./dist/place/vessel-route-builder.js",
+      "default": "./dist/place/vessel-route-builder.js"
+    },
+    "./place/world-bible-matcher.js": {
+      "types": "./dist/place/world-bible-matcher.d.ts",
+      "import": "./dist/place/world-bible-matcher.js",
+      "default": "./dist/place/world-bible-matcher.js"
+    },
+    "./place/world-bible-matcher": {
+      "types": "./dist/place/world-bible-matcher.d.ts",
+      "import": "./dist/place/world-bible-matcher.js",
+      "default": "./dist/place/world-bible-matcher.js"
+    },
+    "./place/world-bible-merger.js": {
+      "types": "./dist/place/world-bible-merger.d.ts",
+      "import": "./dist/place/world-bible-merger.js",
+      "default": "./dist/place/world-bible-merger.js"
+    },
+    "./place/world-bible-merger": {
+      "types": "./dist/place/world-bible-merger.d.ts",
+      "import": "./dist/place/world-bible-merger.js",
+      "default": "./dist/place/world-bible-merger.js"
+    },
+    "./place-generator.js": {
+      "types": "./dist/place-generator.d.ts",
+      "import": "./dist/place-generator.js",
+      "default": "./dist/place-generator.js"
+    },
+    "./place-generator": {
+      "types": "./dist/place-generator.d.ts",
+      "import": "./dist/place-generator.js",
+      "default": "./dist/place-generator.js"
+    },
+    "./place-layout/ai-augment.js": {
+      "types": "./dist/place-layout/ai-augment.d.ts",
+      "import": "./dist/place-layout/ai-augment.js",
+      "default": "./dist/place-layout/ai-augment.js"
+    },
+    "./place-layout/ai-augment": {
+      "types": "./dist/place-layout/ai-augment.d.ts",
+      "import": "./dist/place-layout/ai-augment.js",
+      "default": "./dist/place-layout/ai-augment.js"
+    },
+    "./place-layout/algorithms/against-wall-placement.js": {
+      "types": "./dist/place-layout/algorithms/against-wall-placement.d.ts",
+      "import": "./dist/place-layout/algorithms/against-wall-placement.js",
+      "default": "./dist/place-layout/algorithms/against-wall-placement.js"
+    },
+    "./place-layout/algorithms/against-wall-placement": {
+      "types": "./dist/place-layout/algorithms/against-wall-placement.d.ts",
+      "import": "./dist/place-layout/algorithms/against-wall-placement.js",
+      "default": "./dist/place-layout/algorithms/against-wall-placement.js"
+    },
+    "./place-layout/algorithms/algorithm-types.js": {
+      "types": "./dist/place-layout/algorithms/algorithm-types.d.ts",
+      "import": "./dist/place-layout/algorithms/algorithm-types.js",
+      "default": "./dist/place-layout/algorithms/algorithm-types.js"
+    },
+    "./place-layout/algorithms/algorithm-types": {
+      "types": "./dist/place-layout/algorithms/algorithm-types.d.ts",
+      "import": "./dist/place-layout/algorithms/algorithm-types.js",
+      "default": "./dist/place-layout/algorithms/algorithm-types.js"
+    },
+    "./place-layout/algorithms/cave-generator.js": {
+      "types": "./dist/place-layout/algorithms/cave-generator.d.ts",
+      "import": "./dist/place-layout/algorithms/cave-generator.js",
+      "default": "./dist/place-layout/algorithms/cave-generator.js"
+    },
+    "./place-layout/algorithms/cave-generator": {
+      "types": "./dist/place-layout/algorithms/cave-generator.d.ts",
+      "import": "./dist/place-layout/algorithms/cave-generator.js",
+      "default": "./dist/place-layout/algorithms/cave-generator.js"
+    },
+    "./place-layout/algorithms/cave-placement.js": {
+      "types": "./dist/place-layout/algorithms/cave-placement.d.ts",
+      "import": "./dist/place-layout/algorithms/cave-placement.js",
+      "default": "./dist/place-layout/algorithms/cave-placement.js"
+    },
+    "./place-layout/algorithms/cave-placement": {
+      "types": "./dist/place-layout/algorithms/cave-placement.d.ts",
+      "import": "./dist/place-layout/algorithms/cave-placement.js",
+      "default": "./dist/place-layout/algorithms/cave-placement.js"
+    },
+    "./place-layout/algorithms/district-identifier.js": {
+      "types": "./dist/place-layout/algorithms/district-identifier.d.ts",
+      "import": "./dist/place-layout/algorithms/district-identifier.js",
+      "default": "./dist/place-layout/algorithms/district-identifier.js"
+    },
+    "./place-layout/algorithms/district-identifier": {
+      "types": "./dist/place-layout/algorithms/district-identifier.d.ts",
+      "import": "./dist/place-layout/algorithms/district-identifier.js",
+      "default": "./dist/place-layout/algorithms/district-identifier.js"
+    },
+    "./place-layout/algorithms/floor-placement.js": {
+      "types": "./dist/place-layout/algorithms/floor-placement.d.ts",
+      "import": "./dist/place-layout/algorithms/floor-placement.js",
+      "default": "./dist/place-layout/algorithms/floor-placement.js"
+    },
+    "./place-layout/algorithms/floor-placement": {
+      "types": "./dist/place-layout/algorithms/floor-placement.d.ts",
+      "import": "./dist/place-layout/algorithms/floor-placement.js",
+      "default": "./dist/place-layout/algorithms/floor-placement.js"
+    },
+    "./place-layout/algorithms/in-wall-placement.js": {
+      "types": "./dist/place-layout/algorithms/in-wall-placement.d.ts",
+      "import": "./dist/place-layout/algorithms/in-wall-placement.js",
+      "default": "./dist/place-layout/algorithms/in-wall-placement.js"
+    },
+    "./place-layout/algorithms/in-wall-placement": {
+      "types": "./dist/place-layout/algorithms/in-wall-placement.d.ts",
+      "import": "./dist/place-layout/algorithms/in-wall-placement.js",
+      "default": "./dist/place-layout/algorithms/in-wall-placement.js"
+    },
+    "./place-layout/algorithms/index.js": {
+      "types": "./dist/place-layout/algorithms/index.d.ts",
+      "import": "./dist/place-layout/algorithms/index.js",
+      "default": "./dist/place-layout/algorithms/index.js"
+    },
+    "./place-layout/algorithms/index": {
+      "types": "./dist/place-layout/algorithms/index.d.ts",
+      "import": "./dist/place-layout/algorithms/index.js",
+      "default": "./dist/place-layout/algorithms/index.js"
+    },
+    "./place-layout/algorithms/path-generator.js": {
+      "types": "./dist/place-layout/algorithms/path-generator.d.ts",
+      "import": "./dist/place-layout/algorithms/path-generator.js",
+      "default": "./dist/place-layout/algorithms/path-generator.js"
+    },
+    "./place-layout/algorithms/path-generator": {
+      "types": "./dist/place-layout/algorithms/path-generator.d.ts",
+      "import": "./dist/place-layout/algorithms/path-generator.js",
+      "default": "./dist/place-layout/algorithms/path-generator.js"
+    },
+    "./place-layout/algorithms/placement-algorithms.js": {
+      "types": "./dist/place-layout/algorithms/placement-algorithms.d.ts",
+      "import": "./dist/place-layout/algorithms/placement-algorithms.js",
+      "default": "./dist/place-layout/algorithms/placement-algorithms.js"
+    },
+    "./place-layout/algorithms/placement-algorithms": {
+      "types": "./dist/place-layout/algorithms/placement-algorithms.d.ts",
+      "import": "./dist/place-layout/algorithms/placement-algorithms.js",
+      "default": "./dist/place-layout/algorithms/placement-algorithms.js"
+    },
+    "./place-layout/algorithms/placement-tile-sets.js": {
+      "types": "./dist/place-layout/algorithms/placement-tile-sets.d.ts",
+      "import": "./dist/place-layout/algorithms/placement-tile-sets.js",
+      "default": "./dist/place-layout/algorithms/placement-tile-sets.js"
+    },
+    "./place-layout/algorithms/placement-tile-sets": {
+      "types": "./dist/place-layout/algorithms/placement-tile-sets.d.ts",
+      "import": "./dist/place-layout/algorithms/placement-tile-sets.js",
+      "default": "./dist/place-layout/algorithms/placement-tile-sets.js"
+    },
+    "./place-layout/algorithms/placement-utils.js": {
+      "types": "./dist/place-layout/algorithms/placement-utils.d.ts",
+      "import": "./dist/place-layout/algorithms/placement-utils.js",
+      "default": "./dist/place-layout/algorithms/placement-utils.js"
+    },
+    "./place-layout/algorithms/placement-utils": {
+      "types": "./dist/place-layout/algorithms/placement-utils.d.ts",
+      "import": "./dist/place-layout/algorithms/placement-utils.js",
+      "default": "./dist/place-layout/algorithms/placement-utils.js"
+    },
+    "./place-layout/algorithms/road-generator.js": {
+      "types": "./dist/place-layout/algorithms/road-generator.d.ts",
+      "import": "./dist/place-layout/algorithms/road-generator.js",
+      "default": "./dist/place-layout/algorithms/road-generator.js"
+    },
+    "./place-layout/algorithms/road-generator": {
+      "types": "./dist/place-layout/algorithms/road-generator.d.ts",
+      "import": "./dist/place-layout/algorithms/road-generator.js",
+      "default": "./dist/place-layout/algorithms/road-generator.js"
+    },
+    "./place-layout/algorithms/road-placement.js": {
+      "types": "./dist/place-layout/algorithms/road-placement.d.ts",
+      "import": "./dist/place-layout/algorithms/road-placement.js",
+      "default": "./dist/place-layout/algorithms/road-placement.js"
+    },
+    "./place-layout/algorithms/road-placement": {
+      "types": "./dist/place-layout/algorithms/road-placement.d.ts",
+      "import": "./dist/place-layout/algorithms/road-placement.js",
+      "default": "./dist/place-layout/algorithms/road-placement.js"
+    },
+    "./place-layout/algorithms/shape-algorithms.js": {
+      "types": "./dist/place-layout/algorithms/shape-algorithms.d.ts",
+      "import": "./dist/place-layout/algorithms/shape-algorithms.js",
+      "default": "./dist/place-layout/algorithms/shape-algorithms.js"
+    },
+    "./place-layout/algorithms/shape-algorithms": {
+      "types": "./dist/place-layout/algorithms/shape-algorithms.d.ts",
+      "import": "./dist/place-layout/algorithms/shape-algorithms.js",
+      "default": "./dist/place-layout/algorithms/shape-algorithms.js"
+    },
+    "./place-layout/algorithms/surface-placement.js": {
+      "types": "./dist/place-layout/algorithms/surface-placement.d.ts",
+      "import": "./dist/place-layout/algorithms/surface-placement.js",
+      "default": "./dist/place-layout/algorithms/surface-placement.js"
+    },
+    "./place-layout/algorithms/surface-placement": {
+      "types": "./dist/place-layout/algorithms/surface-placement.d.ts",
+      "import": "./dist/place-layout/algorithms/surface-placement.js",
+      "default": "./dist/place-layout/algorithms/surface-placement.js"
+    },
+    "./place-layout/algorithms/terrain-placement.js": {
+      "types": "./dist/place-layout/algorithms/terrain-placement.d.ts",
+      "import": "./dist/place-layout/algorithms/terrain-placement.js",
+      "default": "./dist/place-layout/algorithms/terrain-placement.js"
+    },
+    "./place-layout/algorithms/terrain-placement": {
+      "types": "./dist/place-layout/algorithms/terrain-placement.d.ts",
+      "import": "./dist/place-layout/algorithms/terrain-placement.js",
+      "default": "./dist/place-layout/algorithms/terrain-placement.js"
+    },
+    "./place-layout/classifier.js": {
+      "types": "./dist/place-layout/classifier.d.ts",
+      "import": "./dist/place-layout/classifier.js",
+      "default": "./dist/place-layout/classifier.js"
+    },
+    "./place-layout/classifier": {
+      "types": "./dist/place-layout/classifier.d.ts",
+      "import": "./dist/place-layout/classifier.js",
+      "default": "./dist/place-layout/classifier.js"
+    },
+    "./place-layout/connectivity-simulation.js": {
+      "types": "./dist/place-layout/connectivity-simulation.d.ts",
+      "import": "./dist/place-layout/connectivity-simulation.js",
+      "default": "./dist/place-layout/connectivity-simulation.js"
+    },
+    "./place-layout/connectivity-simulation": {
+      "types": "./dist/place-layout/connectivity-simulation.d.ts",
+      "import": "./dist/place-layout/connectivity-simulation.js",
+      "default": "./dist/place-layout/connectivity-simulation.js"
+    },
+    "./place-layout/connectivity.js": {
+      "types": "./dist/place-layout/connectivity.d.ts",
+      "import": "./dist/place-layout/connectivity.js",
+      "default": "./dist/place-layout/connectivity.js"
+    },
+    "./place-layout/connectivity": {
+      "types": "./dist/place-layout/connectivity.d.ts",
+      "import": "./dist/place-layout/connectivity.js",
+      "default": "./dist/place-layout/connectivity.js"
+    },
+    "./place-layout/container-populator.js": {
+      "types": "./dist/place-layout/container-populator.d.ts",
+      "import": "./dist/place-layout/container-populator.js",
+      "default": "./dist/place-layout/container-populator.js"
+    },
+    "./place-layout/container-populator": {
+      "types": "./dist/place-layout/container-populator.d.ts",
+      "import": "./dist/place-layout/container-populator.js",
+      "default": "./dist/place-layout/container-populator.js"
+    },
+    "./place-layout/generator.js": {
+      "types": "./dist/place-layout/generator.d.ts",
+      "import": "./dist/place-layout/generator.js",
+      "default": "./dist/place-layout/generator.js"
+    },
+    "./place-layout/generator": {
+      "types": "./dist/place-layout/generator.d.ts",
+      "import": "./dist/place-layout/generator.js",
+      "default": "./dist/place-layout/generator.js"
+    },
+    "./place-layout/index.js": {
+      "types": "./dist/place-layout/index.d.ts",
+      "import": "./dist/place-layout/index.js",
+      "default": "./dist/place-layout/index.js"
+    },
+    "./place-layout/index": {
+      "types": "./dist/place-layout/index.d.ts",
+      "import": "./dist/place-layout/index.js",
+      "default": "./dist/place-layout/index.js"
+    },
+    "./place-layout/layers/context-populator.js": {
+      "types": "./dist/place-layout/layers/context-populator.d.ts",
+      "import": "./dist/place-layout/layers/context-populator.js",
+      "default": "./dist/place-layout/layers/context-populator.js"
+    },
+    "./place-layout/layers/context-populator": {
+      "types": "./dist/place-layout/layers/context-populator.d.ts",
+      "import": "./dist/place-layout/layers/context-populator.js",
+      "default": "./dist/place-layout/layers/context-populator.js"
+    },
+    "./place-layout/layers/shape-generator.js": {
+      "types": "./dist/place-layout/layers/shape-generator.d.ts",
+      "import": "./dist/place-layout/layers/shape-generator.js",
+      "default": "./dist/place-layout/layers/shape-generator.js"
+    },
+    "./place-layout/layers/shape-generator": {
+      "types": "./dist/place-layout/layers/shape-generator.d.ts",
+      "import": "./dist/place-layout/layers/shape-generator.js",
+      "default": "./dist/place-layout/layers/shape-generator.js"
+    },
+    "./place-layout/layout-templates.js": {
+      "types": "./dist/place-layout/layout-templates.d.ts",
+      "import": "./dist/place-layout/layout-templates.js",
+      "default": "./dist/place-layout/layout-templates.js"
+    },
+    "./place-layout/layout-templates": {
+      "types": "./dist/place-layout/layout-templates.d.ts",
+      "import": "./dist/place-layout/layout-templates.js",
+      "default": "./dist/place-layout/layout-templates.js"
+    },
+    "./place-layout/object-catalog.js": {
+      "types": "./dist/place-layout/object-catalog.d.ts",
+      "import": "./dist/place-layout/object-catalog.js",
+      "default": "./dist/place-layout/object-catalog.js"
+    },
+    "./place-layout/object-catalog": {
+      "types": "./dist/place-layout/object-catalog.d.ts",
+      "import": "./dist/place-layout/object-catalog.js",
+      "default": "./dist/place-layout/object-catalog.js"
+    },
+    "./place-layout/object-factory.js": {
+      "types": "./dist/place-layout/object-factory.d.ts",
+      "import": "./dist/place-layout/object-factory.js",
+      "default": "./dist/place-layout/object-factory.js"
+    },
+    "./place-layout/object-factory": {
+      "types": "./dist/place-layout/object-factory.d.ts",
+      "import": "./dist/place-layout/object-factory.js",
+      "default": "./dist/place-layout/object-factory.js"
+    },
+    "./place-layout/object-selector.js": {
+      "types": "./dist/place-layout/object-selector.d.ts",
+      "import": "./dist/place-layout/object-selector.js",
+      "default": "./dist/place-layout/object-selector.js"
+    },
+    "./place-layout/object-selector": {
+      "types": "./dist/place-layout/object-selector.d.ts",
+      "import": "./dist/place-layout/object-selector.js",
+      "default": "./dist/place-layout/object-selector.js"
+    },
+    "./place-layout/wall-styles.js": {
+      "types": "./dist/place-layout/wall-styles.d.ts",
+      "import": "./dist/place-layout/wall-styles.js",
+      "default": "./dist/place-layout/wall-styles.js"
+    },
+    "./place-layout/wall-styles": {
+      "types": "./dist/place-layout/wall-styles.d.ts",
+      "import": "./dist/place-layout/wall-styles.js",
+      "default": "./dist/place-layout/wall-styles.js"
+    },
+    "./purpose-loader.js": {
+      "types": "./dist/purpose-loader.d.ts",
+      "import": "./dist/purpose-loader.js",
+      "default": "./dist/purpose-loader.js"
+    },
+    "./purpose-loader": {
+      "types": "./dist/purpose-loader.d.ts",
+      "import": "./dist/purpose-loader.js",
+      "default": "./dist/purpose-loader.js"
+    },
+    "./scenario-generator.js": {
+      "types": "./dist/scenario-generator.d.ts",
+      "import": "./dist/scenario-generator.js",
+      "default": "./dist/scenario-generator.js"
+    },
+    "./scenario-generator": {
+      "types": "./dist/scenario-generator.d.ts",
+      "import": "./dist/scenario-generator.js",
+      "default": "./dist/scenario-generator.js"
+    },
+    "./sprite-dimensions.js": {
+      "types": "./dist/sprite-dimensions.d.ts",
+      "import": "./dist/sprite-dimensions.js",
+      "default": "./dist/sprite-dimensions.js"
+    },
+    "./sprite-dimensions": {
+      "types": "./dist/sprite-dimensions.d.ts",
+      "import": "./dist/sprite-dimensions.js",
+      "default": "./dist/sprite-dimensions.js"
+    },
+    "./sprite-frame-utils.js": {
+      "types": "./dist/sprite-frame-utils.d.ts",
+      "import": "./dist/sprite-frame-utils.js",
+      "default": "./dist/sprite-frame-utils.js"
+    },
+    "./sprite-frame-utils": {
+      "types": "./dist/sprite-frame-utils.d.ts",
+      "import": "./dist/sprite-frame-utils.js",
+      "default": "./dist/sprite-frame-utils.js"
+    },
+    "./starting-situation-generator.js": {
+      "types": "./dist/starting-situation-generator.d.ts",
+      "import": "./dist/starting-situation-generator.js",
+      "default": "./dist/starting-situation-generator.js"
+    },
+    "./starting-situation-generator": {
+      "types": "./dist/starting-situation-generator.d.ts",
+      "import": "./dist/starting-situation-generator.js",
+      "default": "./dist/starting-situation-generator.js"
+    },
+    "./template-matcher.js": {
+      "types": "./dist/template-matcher.d.ts",
+      "import": "./dist/template-matcher.js",
+      "default": "./dist/template-matcher.js"
+    },
+    "./template-matcher": {
+      "types": "./dist/template-matcher.d.ts",
+      "import": "./dist/template-matcher.js",
+      "default": "./dist/template-matcher.js"
+    },
+    "./universe-generator.js": {
+      "types": "./dist/universe-generator.d.ts",
+      "import": "./dist/universe-generator.js",
+      "default": "./dist/universe-generator.js"
+    },
+    "./universe-generator": {
+      "types": "./dist/universe-generator.d.ts",
+      "import": "./dist/universe-generator.js",
+      "default": "./dist/universe-generator.js"
+    },
+    "./universe-validator.js": {
+      "types": "./dist/universe-validator.d.ts",
+      "import": "./dist/universe-validator.js",
+      "default": "./dist/universe-validator.js"
+    },
+    "./universe-validator": {
+      "types": "./dist/universe-validator.d.ts",
+      "import": "./dist/universe-validator.js",
+      "default": "./dist/universe-validator.js"
+    }
+  },
+  "files": [
+    "src",
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint src",
+    "lint:fix": "eslint src --fix",
+    "format": "prettier --write src",
+    "format:check": "prettier --check src",
+    "test": "vitest run",
+    "test:coverage": "vitest run --coverage",
+    "test:unit": "vitest run .unit.",
+    "test:integration": "vitest run .integration.",
+    "test:watch": "vitest",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@dmnpc/core": "workspace:*",
+    "@dmnpc/data": "workspace:*",
+    "@dmnpc/sprites": "workspace:*",
+    "@dmnpc/types": "workspace:*",
+    "@xanister/reagent": "git+https://github.com/xanister/reagent.git",
+    "http-errors": "^2.0.1",
+    "zod": "^4.3.6",
+    "mammoth": "^1.11.0",
+    "pdf-parse-new": "^2.0.0",
+    "sharp": "^0.33.5",
+    "simplex-noise": "^4.0.3"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.2",
+    "@types/http-errors": "^2.0.5",
+    "@types/node": "^25.0.3",
+    "eslint": "^9.39.2",
+    "eslint-config-prettier": "^10.1.8",
+    "prettier": "^3.7.4",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.52.0",
+    "@vitest/coverage-v8": "^3.2.4",
+    "vite-tsconfig-paths": "^5.1.4",
+    "vitest": "^3.2.4"
+  }
+}

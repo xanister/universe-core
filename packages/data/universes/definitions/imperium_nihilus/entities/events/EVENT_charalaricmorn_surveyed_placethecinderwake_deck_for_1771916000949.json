@@ -1,0 +1,22 @@
+{
+  "id": "EVENT_charalaricmorn_surveyed_placethecinderwake_deck_for_1771916000949",
+  "date": "999.M1 08:41",
+  "placeId": "PLACE_the_cinderwake",
+  "eventType": null,
+  "category": "world",
+  "subject": "The Cinderwake",
+  "subjectId": "PLACE_the_cinderwake",
+  "fact": "CHAR_alaric_morn surveyed PLACE_the_cinderwake deck for immediate surroundings",
+  "significance": "moderate",
+  "witnessIds": [
+    "CHAR_alaric_morn",
+    "CHAR_severan_dusk",
+    "CHAR_severin_drach"
+  ],
+  "important": false,
+  "importanceScore": null,
+  "scope": "local",
+  "relevantPlaceIds": [
+    "PLACE_the_cinderwake"
+  ]
+}

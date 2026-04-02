@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_kharion_prismworld",
+  "label": "Kharion Prismworld",
+  "description": "Kharion Prismworld is a faceted planet locked into Vesper Node’s tensile geometry, its limb resolving into crisp planes rather than a continuous curve. A shell of vitreous crust refracts the system’s stratified radiance into fixed meridian bands, producing enduring corridors of glare and intervals of absolute shadow. Along the equatorial line, fracture-belts expose dark crystalline strata arranged in rectilinear grids that mirror the polyhedral arcs of nearby planetoid orbits. The upper atmosphere forms thin, laminar sheets that shear cleanly along lattice-aligned fronts, rendering weather as stable, repeating patterns.",
+  "short_description": "faceted glass-crust world",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "planet",
+    "environment": {
+      "type": "exterior",
+      "hasWeather": true,
+      "temperature": {
+        "enabled": true,
+        "base": null,
+        "modifiersApply": true
+      },
+      "maxDarkness": null
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "planet_terran",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/the_hollow_lattice/images/battles/PLACE_kharion_prismworld.png?v=1772313867041",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 3984,
+    "y": 384,
+    "width": 32,
+    "height": 32,
+    "parent": "PLACE_vesper_node",
+    "innerWidth": 3584,
+    "innerHeight": 2624
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/the_hollow_lattice/images/places/PLACE_kharion_prismworld.png?v=1772313935057",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

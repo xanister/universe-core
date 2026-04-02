@@ -1,0 +1,342 @@
+{
+  "id": "PLOT_the_sealed_burden",
+  "label": "The Sealed Burden",
+  "description": "A desperate patron hires you to carry a sealed package across hostile lands—no questions, no opening. As the road darkens and whispers gather, you must decide what “safe delivery” truly means.",
+  "plot": "Opening hook: even untouched, the package occasionally weeps cold ash from its seams and makes nearby flames burn a sickly blue. A desperate patron hires the player to deliver a sealed package to a far-off fortress-library and insists it must remain unopened, promising life-changing pay and quiet favors. Along the road, an organized hunter-network led by a soft-spoken cult agent closes in, using bribed checkpoints, staged “rescues,” and cursed hounds that track the package’s faint spiritual leak. The player learns the package is not merely contraband but a binding vessel for a starving presence that can be used to purge a spreading blight—or unleash it as a controllable weapon—depending on who performs the final rite. If the seal is broken, the presence lashes out: shadows warp, memories bleed into the air, and the opener becomes spiritually “tagged,” drawing more horrors and weakening nearby wards. At the fortress-library, an exhausted archivist-priest admits the delivery is part of a grim bargain: to save many, someone must pay a personal cost, and the patron’s story omits who is meant to suffer. The climax forces a choice under pressure—deliver, destroy, or bargain—while deciding what to do about the cult agent’s offer of “order” bought with blood.",
+  "characters": [
+    {
+      "role": "client",
+      "description": "A well-dressed, sleepless patron with ink-stained fingers and a practiced, pleading smile; their hands tremble when they mention the seal.",
+      "publicFace": "A charitable sponsor funding “relief efforts” and offering honest work to capable adventurers.",
+      "hiddenTruth": "They arranged the delivery to force a final ritual at the destination, hoping the player will become the convenient sacrifice if things go wrong.",
+      "locationHint": "a crowded market district where hired blades and couriers gather",
+      "introductionProgress": 0,
+      "matchHint": "desperate patron posing as a charitable sponsor"
+    },
+    {
+      "role": "informant",
+      "description": "A scarred road-guide with a cracked voice and sharp eyes who reads tracks like scripture and never sleeps near open fires.",
+      "publicFace": "A helpful guide who knows safe routes, smugglers’ signals, and which shrines still hold power.",
+      "hiddenTruth": "They once helped move similar sealed cargo; they feel guilty and are trying to steer the player toward the least-harmful outcome without admitting their role.",
+      "locationHint": "an old roadside tavern used by caravans and mercenaries",
+      "introductionProgress": 20,
+      "matchHint": "scarred road-guide hiding guilt from past courier work"
+    },
+    {
+      "role": "antagonist",
+      "description": "A calm, soft-spoken organizer in practical travel gear whose politeness never reaches their eyes; they carry ritual thread and keepsake bones.",
+      "publicFace": "A legitimate security coordinator offering protection, escorts, and “official” paperwork to pass checkpoints.",
+      "hiddenTruth": "They lead a cult cell that wants the bound presence for controlled purges and political leverage, and they will happily burn villages to prevent the package being destroyed.",
+      "locationHint": "a border checkpoint where guards accept bribes and favors",
+      "introductionProgress": 35,
+      "matchHint": "soft-spoken cult agent posing as a security coordinator"
+    },
+    {
+      "role": "ally",
+      "description": "An exhausted keeper of records with ash-gray hair and warding scars along the forearms; they speak like someone used to confessions.",
+      "publicFace": "A strict custodian of a fortress-library who believes containment and sacrifice are sometimes necessary.",
+      "hiddenTruth": "They intend to subvert the planned rite if shown a viable alternative, but fear the consequences of defying their order and the wards failing.",
+      "locationHint": "a remote fortress-library dedicated to curses and containment",
+      "introductionProgress": 60,
+      "matchHint": "exhausted archivist-priest torn between duty and mercy"
+    }
+  ],
+  "places": [
+    {
+      "description": "A muddy sprawl of stalls and candlelit arcades where minor charms are sold beside stolen relics; watchmen look away for coin.",
+      "storyRole": "Where the job is offered and where the first subtle signs of pursuit and corruption appear.",
+      "matchHint": "crowded market district where couriers and smugglers trade favors"
+    },
+    {
+      "description": "A narrow, wind-scoured route lined with half-buried ward-stones and broken shrines; the air tastes metallic at dusk.",
+      "storyRole": "A chokepoint for ambushes and the first major test of whether the player will keep the package sealed.",
+      "matchHint": "wind-scoured mountain pass lined with failing ward-stones"
+    },
+    {
+      "description": "A fortress of black stone and chained bells, its halls packed with censored tomes and sealed reliquaries; wards hum like distant insects.",
+      "storyRole": "The destination and moral crucible where the package’s purpose is revealed and the final decision is made.",
+      "matchHint": "remote fortress-library studying curses and containment"
+    }
+  ],
+  "items": [],
+  "turningPoints": [
+    {
+      "id": "TP_delivery_request",
+      "progressTarget": 0,
+      "dramaticRole": "inciting_incident",
+      "involvedCharacter": "desperate patron posing as a charitable sponsor",
+      "essentialInformation": [
+        "the player learns they are being hired to deliver a sealed package to a far-off destination",
+        "the player learns the package must be kept safe and unopened, and tampering is strongly warned against",
+        "the player learns someone else is likely searching for the package, making the route dangerous"
+      ],
+      "triggerOnFlags": [],
+      "triggerConditions": null,
+      "conditionTimeoutHours": null,
+      "conditionsEligibleSince": null
+    },
+    {
+      "id": "TP_first_pursuit",
+      "progressTarget": 40,
+      "dramaticRole": "rising_action",
+      "involvedCharacter": "scarred road-guide hiding guilt from past courier work",
+      "essentialInformation": [
+        "the player learns the package can be tracked by unnatural means, suggesting it leaks a faint presence",
+        "the player learns pursuit is organized rather than random banditry, implying a network with resources"
+      ],
+      "triggerOnFlags": [],
+      "triggerConditions": null,
+      "conditionTimeoutHours": null,
+      "conditionsEligibleSince": null
+    },
+    {
+      "id": "TP_seal_complication",
+      "progressTarget": 55,
+      "dramaticRole": "midpoint",
+      "involvedCharacter": "soft-spoken cult agent posing as a security coordinator",
+      "essentialInformation": [
+        "the player learns opening or cracking the seal causes a strange event that marks the opener and worsens nearby distortions",
+        "the player learns the package contains a bound presence that can be used for cleansing or weaponization depending on the final rite",
+        "the player learns at least one faction prefers the player alive only if they remain controllable"
+      ],
+      "triggerOnFlags": [],
+      "triggerConditions": null,
+      "conditionTimeoutHours": null,
+      "conditionsEligibleSince": null
+    },
+    {
+      "id": "TP_truth_at_destination",
+      "progressTarget": 72,
+      "dramaticRole": "crisis",
+      "involvedCharacter": "exhausted archivist-priest torn between duty and mercy",
+      "essentialInformation": [
+        "the player learns the destination’s planned ritual requires a personal cost and someone is meant to bear it",
+        "the player learns the original hiring story omitted who benefits and who pays, forcing a moral choice under time pressure"
+      ],
+      "triggerOnFlags": [],
+      "triggerConditions": null,
+      "conditionTimeoutHours": null,
+      "conditionsEligibleSince": null
+    },
+    {
+      "id": "TP_final_rite_or_ruin",
+      "progressTarget": 85,
+      "dramaticRole": "climax",
+      "involvedCharacter": "soft-spoken cult agent posing as a security coordinator",
+      "essentialInformation": [
+        "the player must choose what ultimately happens to the package: deliver it, destroy it, or surrender it as part of a bargain",
+        "the player learns the bound presence cannot be safely ignored—indecision risks a breach or takeover"
+      ],
+      "triggerOnFlags": [],
+      "triggerConditions": null,
+      "conditionTimeoutHours": null,
+      "conditionsEligibleSince": null
+    },
+    {
+      "id": "TP_after_the_bells",
+      "progressTarget": 92,
+      "dramaticRole": "resolution",
+      "involvedCharacter": "exhausted archivist-priest torn between duty and mercy",
+      "essentialInformation": [
+        "the player learns their choice reshapes local safety and future persecution: containment, uncontrolled spread, or authoritarian “purges”",
+        "the player learns whether they carry ongoing spiritual consequences depends on if the seal was broken and what bargain was made"
+      ],
+      "triggerOnFlags": [],
+      "triggerConditions": null,
+      "conditionTimeoutHours": null,
+      "conditionsEligibleSince": null
+    }
+  ],
+  "goals": [
+    {
+      "id": "GOAL_take_the_job",
+      "description": "Accept custody of the sealed package and the terms of delivery.",
+      "progressBoost": 25,
+      "revealOnFlags": [
+        "package_accepted"
+      ],
+      "successFlags": [
+        "package_accepted"
+      ],
+      "failureFlags": [],
+      "failureDeadlineHours": 0
+    },
+    {
+      "id": "GOAL_keep_it_unopened",
+      "description": "Keep the package sealed while you travel, resisting curiosity, coercion, and “helpful” offers.",
+      "progressBoost": 35,
+      "revealOnFlags": [
+        "package_accepted"
+      ],
+      "successFlags": [
+        "package_kept_sealed"
+      ],
+      "failureFlags": [
+        "package_opened"
+      ],
+      "failureDeadlineHours": 0
+    },
+    {
+      "id": "GOAL_reach_the_destination",
+      "description": "Survive the road and reach the far-off destination with the package still in your possession.",
+      "progressBoost": 35,
+      "revealOnFlags": [
+        "package_accepted"
+      ],
+      "successFlags": [
+        "destination_reached"
+      ],
+      "failureFlags": [
+        "package_surrendered"
+      ],
+      "failureDeadlineHours": 0
+    },
+    {
+      "id": "GOAL_decide_the_package_fate",
+      "description": "Make a final decision: deliver the package, destroy it, or surrender it to the pursuers.",
+      "progressBoost": 45,
+      "revealOnFlags": [
+        "destination_reached",
+        "package_opened"
+      ],
+      "successFlags": [
+        "package_delivered",
+        "package_destroyed",
+        "package_surrendered"
+      ],
+      "failureFlags": [],
+      "failureDeadlineHours": 0
+    },
+    {
+      "id": "GOAL_end_the_pursuit",
+      "description": "Remove the pursuing leader as an immediate threat—by defeating them or binding them with a bargain.",
+      "progressBoost": 40,
+      "revealOnFlags": [
+        "destination_reached",
+        "package_surrendered"
+      ],
+      "successFlags": [
+        "antagonist_defeated",
+        "pact_made"
+      ],
+      "failureFlags": [],
+      "failureDeadlineHours": 0
+    },
+    {
+      "id": "GOAL_pay_the_cost",
+      "description": "Decide whether to accept the required cost to stabilize what you’ve set in motion.",
+      "progressBoost": 30,
+      "revealOnFlags": [
+        "package_delivered",
+        "package_destroyed",
+        "package_surrendered",
+        "pact_made"
+      ],
+      "successFlags": [
+        "blood_price_paid"
+      ],
+      "failureFlags": [
+        "blood_price_refused"
+      ],
+      "failureDeadlineHours": 0
+    }
+  ],
+  "possibleFlags": [
+    {
+      "id": "package_accepted",
+      "triggerDescription": "Set when the player agrees to take custody of the sealed package."
+    },
+    {
+      "id": "package_opened",
+      "triggerDescription": "Set when the player opens the package or breaks the seal enough to expose its contents."
+    },
+    {
+      "id": "package_kept_sealed",
+      "triggerDescription": "Set when the player reaches the destination without ever opening or significantly breaking the seal."
+    },
+    {
+      "id": "destination_reached",
+      "triggerDescription": "Set when the player arrives at the remote destination with the package still in their possession."
+    },
+    {
+      "id": "package_delivered",
+      "triggerDescription": "Set when the player hands the package to the intended recipient or places it into the destination’s custody."
+    },
+    {
+      "id": "package_destroyed",
+      "triggerDescription": "Set when the player successfully destroys the package and its binding vessel in a way that prevents simple recovery."
+    },
+    {
+      "id": "package_surrendered",
+      "triggerDescription": "Set when the player gives the package to the pursuing faction or relinquishes it under coercion."
+    },
+    {
+      "id": "antagonist_defeated",
+      "triggerDescription": "Set when the player defeats the main pursuing leader (by combat, exposure, or removing their operational control)."
+    },
+    {
+      "id": "pact_made",
+      "triggerDescription": "Set when the player makes a binding bargain with a major faction regarding the package’s use or their own marked state."
+    },
+    {
+      "id": "blood_price_paid",
+      "triggerDescription": "Set when the player accepts a personal or moral cost to stabilize the outcome (sacrifice, confession, binding oath, or equivalent)."
+    },
+    {
+      "id": "blood_price_refused",
+      "triggerDescription": "Set when the player refuses the demanded cost despite understanding the consequences."
+    }
+  ],
+  "endingCards": [
+    {
+      "condition": {
+        "type": "flag_set",
+        "flag": "package_delivered"
+      },
+      "title": "Delivered Into Darkness",
+      "text": "The wards take the package—along with the weight of whatever bargain made that possible. The world grows quieter for now, but you wonder who the silence is truly serving."
+    },
+    {
+      "condition": {
+        "type": "flag_set",
+        "flag": "package_destroyed"
+      },
+      "title": "Ashes and Afterimages",
+      "text": "You deny every faction their prize, but the act leaves scars on land and spirit. Some call you a savior; others swear you doomed them without knowing it."
+    },
+    {
+      "condition": {
+        "type": "flag_set",
+        "flag": "package_surrendered"
+      },
+      "title": "The Price of Convenience",
+      "text": "The pursuers take the package and the future tightens like a noose. Order returns in brutal strokes, and your name becomes useful leverage."
+    },
+    {
+      "condition": {
+        "type": "flag_set",
+        "flag": "pact_made"
+      },
+      "title": "A Covenant Written in Blood",
+      "text": "You survive by agreement, not victory. The pact protects you—for as long as you keep paying what it demands."
+    },
+    {
+      "condition": {
+        "type": "always",
+        "flag": ""
+      },
+      "title": "The Road Remembers",
+      "text": "In the weeks after, rumors follow you: blue-burning fires, missing prayers, and a sealed thing that made honest people choose dishonesty. Whatever you did, something out there learned your shape."
+    }
+  ],
+  "credits": {
+    "title": "The Sealed Burden",
+    "entries": [
+      {
+        "role": "Plot",
+        "name": "Storyteller"
+      }
+    ]
+  },
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/plots/images/PLOT_the_sealed_burden.png"
+}

@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_auroral_gaugeworks",
+  "label": "Auroral Gaugeworks",
+  "description": "Auroral Gaugeworks is a calibrated workshop built into Seamline Concord’s faultside terrace, its walls faced in basalt glass scored with measurement grids that remain legible under copper-white twilight. Bench lines align to the city’s auroral sightlines, and mirror-slag inlays in the floor translate radiance gradients into fixed reference angles for fine optical fitting. Sealed vitrarium cabinets hold electrostatically pinned glass dust and charged shards, sorted by hue and residual arc, to ensure repeatable refractive behavior. A shallow cistern trough along the rear wall circulates reflective particulates, maintaining the hushlit geometry required for precision fabrication.",
+  "short_description": "precision optical workshop",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "workshop",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "building_shop",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/hushlight_expanse/images/battles/PLACE_auroral_gaugeworks.png?v=1772314235799",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 2160,
+    "y": 1056,
+    "width": 160,
+    "height": 256,
+    "parent": "PLACE_seamline_concord",
+    "innerWidth": 2464,
+    "innerHeight": 2528
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/hushlight_expanse/images/places/PLACE_auroral_gaugeworks.png?v=1772314284453",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

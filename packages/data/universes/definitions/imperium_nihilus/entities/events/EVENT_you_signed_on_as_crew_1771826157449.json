@@ -1,0 +1,16 @@
+{
+  "id": "EVENT_you_signed_on_as_crew_1771826157449",
+  "date": null,
+  "placeId": null,
+  "eventType": null,
+  "category": "world",
+  "subject": "Background",
+  "subjectId": null,
+  "fact": "You signed on as crew under an Imperial chartered voyage, taking a berth aboard the Ashen Zephyr as it prepares to sail Vespera Tertius’s ash-storm seas.",
+  "significance": "major",
+  "important": true,
+  "witnessIds": null,
+  "importanceScore": null,
+  "scope": null,
+  "relevantPlaceIds": null
+}

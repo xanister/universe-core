@@ -1,0 +1,16 @@
+{
+  "spriteId": "pennant_blue",
+  "gridWidth": 1,
+  "gridHeight": 1,
+  "tileSize": 32,
+  "tiles": [
+    {
+      "tilesetId": "decor-tavern",
+      "srcX": 32,
+      "srcY": 1600,
+      "col": 0,
+      "row": 0
+    }
+  ],
+  "updatedAt": "2026-03-01T21:05:56.839Z"
+}

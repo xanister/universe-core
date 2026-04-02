@@ -1,0 +1,20 @@
+{
+  "id": "glass_set_blue",
+  "name": "Blue Glass Set",
+  "description": "A set of blue glass drinking cups.",
+  "purposes": [
+    "decoration"
+  ],
+  "tags": [
+    "common",
+    "drinkware",
+    "tavern"
+  ],
+  "solid": false,
+  "layer": "default",
+  "spriteId": "glass_set_blue",
+  "materials": [
+    "glass"
+  ],
+  "tintable": false
+}

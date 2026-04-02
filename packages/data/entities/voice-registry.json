@@ -1,0 +1,502 @@
+[
+  {
+    "id": "sarah",
+    "name": "Sarah - Mature & Reassuring",
+    "description": "Warm, confident female voice. Excellent for narrators, leaders, and mentor figures.",
+    "source": "preset",
+    "enabled": true,
+    "metadata": {
+      "gender": "female",
+      "ageRange": "middle-aged",
+      "accent": "American",
+      "traits": [
+        "warm",
+        "confident",
+        "reassuring",
+        "mature"
+      ],
+      "suitableFor": [
+        "narrator",
+        "leader",
+        "mentor",
+        "noble"
+      ]
+    },
+    "provider": {
+      "type": "elevenlabs",
+      "voiceId": "EXAVITQu4vr4xnSDxMaL",
+      "settings": {
+        "stability": 0.5,
+        "similarityBoost": 0.75,
+        "style": 0,
+        "speed": 1
+      }
+    }
+  },
+  {
+    "id": "daniel",
+    "name": "Daniel - Steady Broadcaster",
+    "description": "Authoritative male voice with a calm, measured delivery. Good for guards, officials, and serious characters.",
+    "source": "preset",
+    "enabled": true,
+    "metadata": {
+      "gender": "male",
+      "ageRange": "middle-aged",
+      "accent": "British",
+      "traits": [
+        "authoritative",
+        "steady",
+        "measured",
+        "calm"
+      ],
+      "suitableFor": [
+        "guard",
+        "official",
+        "noble",
+        "military"
+      ]
+    },
+    "provider": {
+      "type": "elevenlabs",
+      "voiceId": "onwK4e9ZLuTAKqWW03F9",
+      "settings": {
+        "stability": 0.8,
+        "similarityBoost": 0.75,
+        "style": 0.24,
+        "speed": 0.96
+      }
+    }
+  },
+  {
+    "id": "river",
+    "name": "River - Relaxed & Neutral",
+    "description": "Calm, relaxed nonbinary voice with neutral affect. Suitable for sages, AI-like characters, and philosophical types.",
+    "source": "preset",
+    "enabled": true,
+    "metadata": {
+      "gender": "nonbinary",
+      "ageRange": "middle-aged",
+      "accent": "",
+      "traits": [
+        "relaxed",
+        "neutral",
+        "calm",
+        "measured"
+      ],
+      "suitableFor": [
+        "sage",
+        "merchant",
+        "scholar",
+        "mystic"
+      ]
+    },
+    "provider": {
+      "type": "elevenlabs",
+      "voiceId": "SAz9YHcvj6GT2YYXdXww",
+      "settings": {
+        "stability": 0.7,
+        "similarityBoost": 0.75,
+        "style": 0.15,
+        "speed": 0.95
+      }
+    }
+  },
+  {
+    "id": "bella",
+    "name": "Bella - Professional & Warm",
+    "description": "Bright, professional female voice with warmth. Great for innkeepers, merchants, and welcoming characters.",
+    "source": "preset",
+    "enabled": true,
+    "metadata": {
+      "gender": "female",
+      "ageRange": "middle-aged",
+      "accent": "American",
+      "traits": [
+        "professional",
+        "warm",
+        "bright",
+        "friendly"
+      ],
+      "suitableFor": [
+        "innkeeper",
+        "merchant",
+        "bartender",
+        "healer"
+      ]
+    },
+    "provider": {
+      "type": "elevenlabs",
+      "voiceId": "hpp4J3VqNfWAUOO0d1Us",
+      "settings": {
+        "stability": 0.78,
+        "similarityBoost": 0.75,
+        "style": 0.25,
+        "speed": 0.97
+      }
+    }
+  },
+  {
+    "id": "adam",
+    "name": "Adam - Deep & Versatile",
+    "description": "Deep, versatile male voice. Good default for male characters and template generation.",
+    "source": "preset",
+    "enabled": true,
+    "metadata": {
+      "gender": "male",
+      "ageRange": "middle-aged",
+      "accent": "American",
+      "traits": [
+        "deep",
+        "versatile",
+        "clear",
+        "neutral"
+      ],
+      "suitableFor": [
+        "warrior",
+        "merchant",
+        "guard",
+        "adventurer"
+      ]
+    },
+    "provider": {
+      "type": "elevenlabs",
+      "voiceId": "pNInz6obpgDQGcFmaJgB",
+      "settings": {
+        "stability": 0.5,
+        "similarityBoost": 0.75,
+        "style": 0,
+        "speed": 1
+      }
+    }
+  },
+  {
+    "id": "eric",
+    "name": "Eric - Smooth & Trustworthy",
+    "description": "Smooth, trustworthy male voice. Ideal for bartenders, diplomats, and code brokers.",
+    "source": "preset",
+    "enabled": true,
+    "metadata": {
+      "gender": "male",
+      "ageRange": "middle-aged",
+      "accent": "American",
+      "traits": [
+        "smooth",
+        "trustworthy",
+        "composed",
+        "articulate"
+      ],
+      "suitableFor": [
+        "bartender",
+        "diplomat",
+        "spy",
+        "merchant"
+      ]
+    },
+    "provider": {
+      "type": "elevenlabs",
+      "voiceId": "cjVigY5qzO86Huf0OWal",
+      "settings": {
+        "stability": 0.77,
+        "similarityBoost": 0.76,
+        "style": 0.2,
+        "speed": 0.94
+      }
+    }
+  },
+  {
+    "id": "lily",
+    "name": "Lily - Velvety Actress",
+    "description": "Velvety, theatrical female voice with dramatic flair. Perfect for mystics, performers, and enigmatic characters.",
+    "source": "preset",
+    "enabled": true,
+    "metadata": {
+      "gender": "female",
+      "ageRange": "young",
+      "accent": "British",
+      "traits": [
+        "velvety",
+        "theatrical",
+        "enigmatic",
+        "dramatic"
+      ],
+      "suitableFor": [
+        "mystic",
+        "performer",
+        "sorceress",
+        "noble"
+      ]
+    },
+    "provider": {
+      "type": "elevenlabs",
+      "voiceId": "pFZP5JQG7iQjIQuC4Bku",
+      "settings": {
+        "stability": 0.75,
+        "similarityBoost": 0.77,
+        "style": 0.33,
+        "speed": 0.95
+      }
+    }
+  },
+  {
+    "id": "jessica",
+    "name": "Jessica - Playful & Bright",
+    "description": "Playful, bright female voice with youthful energy. Great for tavern staff, young adventurers, and lively characters.",
+    "source": "preset",
+    "enabled": true,
+    "metadata": {
+      "gender": "female",
+      "ageRange": "young",
+      "accent": "American",
+      "traits": [
+        "playful",
+        "bright",
+        "energetic",
+        "youthful"
+      ],
+      "suitableFor": [
+        "barmaid",
+        "adventurer",
+        "thief",
+        "entertainer"
+      ]
+    },
+    "provider": {
+      "type": "elevenlabs",
+      "voiceId": "cgSgspJ2msm6clMCkdW9",
+      "settings": {
+        "stability": 0.5,
+        "similarityBoost": 0.75,
+        "style": 0,
+        "speed": 1
+      }
+    }
+  },
+  {
+    "id": "callum",
+    "name": "Callum - Husky Trickster",
+    "description": "Husky, energetic male voice with a mischievous quality. Suits rogues, tricksters, and fast-talking characters.",
+    "source": "preset",
+    "enabled": true,
+    "metadata": {
+      "gender": "male",
+      "ageRange": "young",
+      "accent": "British",
+      "traits": [
+        "husky",
+        "mischievous",
+        "energetic",
+        "sly"
+      ],
+      "suitableFor": [
+        "rogue",
+        "trickster",
+        "smuggler",
+        "spy"
+      ]
+    },
+    "provider": {
+      "type": "elevenlabs",
+      "voiceId": "N2lVS1w4EtoT3dr4eOWO",
+      "settings": {
+        "stability": 0.46,
+        "similarityBoost": 0.75,
+        "style": 0.42,
+        "speed": 1.08
+      }
+    }
+  },
+  {
+    "id": "chris",
+    "name": "Chris - Charming & Down-to-Earth",
+    "description": "Charming, down-to-earth male voice. Good for common folk, clerks, and approachable characters.",
+    "source": "preset",
+    "enabled": true,
+    "metadata": {
+      "gender": "male",
+      "ageRange": "middle-aged",
+      "accent": "American",
+      "traits": [
+        "charming",
+        "down-to-earth",
+        "friendly",
+        "casual"
+      ],
+      "suitableFor": [
+        "clerk",
+        "farmer",
+        "worker",
+        "innkeeper"
+      ]
+    },
+    "provider": {
+      "type": "elevenlabs",
+      "voiceId": "iP95p4xoKVk53GoZ742B",
+      "settings": {
+        "stability": 0.72,
+        "similarityBoost": 0.78,
+        "style": 0.23,
+        "speed": 1
+      }
+    }
+  },
+  {
+    "id": "george",
+    "name": "George - Warm Storyteller",
+    "description": "Warm, captivating male voice with storytelling charm. Ideal for bards, narrators, and charismatic characters.",
+    "source": "preset",
+    "enabled": true,
+    "metadata": {
+      "gender": "male",
+      "ageRange": "middle-aged",
+      "accent": "British",
+      "traits": [
+        "warm",
+        "captivating",
+        "charismatic",
+        "theatrical"
+      ],
+      "suitableFor": [
+        "bard",
+        "narrator",
+        "merchant",
+        "noble"
+      ]
+    },
+    "provider": {
+      "type": "elevenlabs",
+      "voiceId": "JBFqnCBsd6RMkjVDRZzb",
+      "settings": {
+        "stability": 0.62,
+        "similarityBoost": 0.75,
+        "style": 0.5,
+        "speed": 1.05
+      }
+    }
+  },
+  {
+    "id": "brian",
+    "name": "Brian - Deep & Resonant",
+    "description": "Deep, resonant male voice with gravitas. Suits veterans, commanders, and authoritative elder characters.",
+    "source": "preset",
+    "enabled": true,
+    "metadata": {
+      "gender": "male",
+      "ageRange": "elderly",
+      "accent": "American",
+      "traits": [
+        "deep",
+        "resonant",
+        "commanding",
+        "gruff"
+      ],
+      "suitableFor": [
+        "veteran",
+        "commander",
+        "blacksmith",
+        "warrior"
+      ]
+    },
+    "provider": {
+      "type": "elevenlabs",
+      "voiceId": "nPczCjzI2devNBz1zQrb",
+      "settings": {
+        "stability": 0.5,
+        "similarityBoost": 0.75,
+        "style": 0,
+        "speed": 1
+      }
+    }
+  },
+  {
+    "id": "alice",
+    "name": "Alice - Clear Educator",
+    "description": "Clear, articulate female voice with an educational quality. Great for clerks, librarians, and knowledgeable characters.",
+    "source": "preset",
+    "enabled": true,
+    "metadata": {
+      "gender": "female",
+      "ageRange": "middle-aged",
+      "accent": "British",
+      "traits": [
+        "clear",
+        "articulate",
+        "knowledgeable",
+        "composed"
+      ],
+      "suitableFor": [
+        "clerk",
+        "librarian",
+        "scholar",
+        "healer"
+      ]
+    },
+    "provider": {
+      "type": "elevenlabs",
+      "voiceId": "Xb7hH8MSUJpSbSDYk0k2",
+      "settings": {
+        "stability": 0.78,
+        "similarityBoost": 0.75,
+        "style": 0.22,
+        "speed": 1.02
+      }
+    }
+  },
+  {
+    "id": "will",
+    "name": "Will - Relaxed Optimist",
+    "description": "Relaxed, optimistic male voice with warmth. Suits friendly adventurers, jesters, and positive characters.",
+    "source": "preset",
+    "enabled": true,
+    "metadata": {
+      "gender": "male",
+      "ageRange": "young",
+      "accent": "American",
+      "traits": [
+        "relaxed",
+        "optimistic",
+        "warm",
+        "friendly"
+      ],
+      "suitableFor": [
+        "adventurer",
+        "jester",
+        "bard",
+        "traveler"
+      ]
+    },
+    "provider": {
+      "type": "elevenlabs",
+      "voiceId": "bIHbv24MWmeRgasZH58o",
+      "settings": {
+        "stability": 0.5,
+        "similarityBoost": 0.75,
+        "style": 0,
+        "speed": 1
+      }
+    }
+  },
+  {
+    "id": "cloned-nick",
+    "name": "Nick",
+    "description": "Fast",
+    "source": "clone",
+    "enabled": true,
+    "metadata": {
+      "gender": "male",
+      "ageRange": "middle-aged",
+      "accent": "",
+      "traits": [],
+      "suitableFor": []
+    },
+    "provider": {
+      "type": "elevenlabs",
+      "voiceId": "KNxekZ3WHunA3CrhQbnx",
+      "settings": {
+        "stability": 0.5,
+        "similarityBoost": 0.75,
+        "style": 0,
+        "speed": 1
+      }
+    }
+  }
+]

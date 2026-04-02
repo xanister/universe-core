@@ -1,0 +1,16 @@
+{
+  "id": "EVENT_visited_zephyr_watch_berth_1771814545763",
+  "date": "999.M1 21:59",
+  "placeId": "PLACE_zephyr_watch_berth",
+  "important": false,
+  "importanceScore": null,
+  "scope": null,
+  "relevantPlaceIds": null,
+  "eventType": "location_visited",
+  "category": "world",
+  "subject": "Zephyr Watch Berth",
+  "subjectId": "PLACE_zephyr_watch_berth",
+  "fact": "Visited Zephyr Watch Berth",
+  "significance": "minor",
+  "witnessIds": null
+}

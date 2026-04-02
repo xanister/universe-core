@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_sablelink_bunk_alcove",
+  "label": "Sablelink Bunk Alcove",
+  "description": "Sablelink Bunk Alcove is a compact sleeping chamber carved from the flat’s slagcrete shell, its surfaces clad in black vitrystone tiles polished dull by abrasive dust. A built-in bunk is set within a recessed niche, with underframe lockers and narrow wall cubbies sized for sealed personal stowage. Layered shutters cover a slit viewport backed by vox-dampening mesh, admitting only a bruise-hued wash from the rift-lit nightside. Overarmored ceiling conduits and heavy gasketed seams emphasize the room’s function as a sealed refuge against ash ingress and electrostatic discharge.",
+  "short_description": "sealed bunk alcove",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "bedroom",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "door_wooden",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/battles/PLACE_sablelink_bunk_alcove.png?v=1771950926221",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 592,
+    "y": 160,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_sablelink_skyway_flat",
+    "innerWidth": 512,
+    "innerHeight": 512
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/places/PLACE_sablelink_bunk_alcove.png?v=1771950979408",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

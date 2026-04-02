@@ -1,0 +1,21 @@
+{
+  "id": "boat_row",
+  "name": "Rowboat",
+  "description": "Small wooden rowboat viewed from above. Found at docks and riverbanks.",
+  "purposes": [
+    "decoration"
+  ],
+  "tags": [
+    "outdoor",
+    "nautical",
+    "harbor",
+    "water",
+    "boat"
+  ],
+  "solid": true,
+  "layer": "default",
+  "spriteId": "boat_row",
+  "materials": [
+    "wood"
+  ]
+}

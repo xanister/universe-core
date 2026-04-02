@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_the_underlumen_bunkroom",
+  "label": "The Underlumen Bunkroom",
+  "description": "The Underlumen Bunkroom forms a narrow sleeping chamber cut from the inspection hall’s former records alcove, its ferrocrete shell clad in patched void-black plating. Tiered bunks of riveted metal line the walls in strict rows, with lockable ration-chests set beneath each frame and a single folding desk bolted to the floor. Lumen-shielded strips emit a constant, regulated glow that never fully dispels the tavern’s prevailing dim, while brass-grilled vents and an overworked scrubber keep the air sharp with disinfectant. A slit-window set high in the wall admits a thin wash of bruise-hued aurorae, flattening color into austere grey-blue tones.",
+  "short_description": "austere tiered bunks",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "bedroom",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "door_wooden",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/battles/PLACE_the_underlumen_bunkroom.png?v=1771995852304",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 784,
+    "y": 160,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_the_gloam_lantern",
+    "innerWidth": 512,
+    "innerHeight": 480
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/places/PLACE_the_underlumen_bunkroom.png?v=1771995904201",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

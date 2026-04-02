@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_cinder_cantina_stores",
+  "label": "Cinder Cantina Stores",
+  "description": "Cinder Cantina Stores forms a narrow, slagcrete-walled chamber recessed behind the tavern’s ribbed vaulting, its ceiling crossed by soot-dark conduit and sealed service runs. Stacked plasteel crates and locking caskets line riveted shelving, all dusted in the fine ash that infiltrates even pressurized interiors. A single violet lumen-strip and emergency glow-panels throw hard reflections across oiled stone flags marked with drag-scrapes and tally stencils. Intake grilles and vox-baffle housings are set into the rear wall, maintaining the cantina’s muffled, airtight character against Ashenward City’s ash-gales.",
+  "short_description": "ash-dusted store room",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "storage_room",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.9
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "door_wooden",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/battles/PLACE_cinder_cantina_stores.png?v=1771958954881",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 880,
+    "y": 160,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_the_cinder_cantina",
+    "innerWidth": 512,
+    "innerHeight": 608
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/places/PLACE_cinder_cantina_stores.png?v=1771959006194",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

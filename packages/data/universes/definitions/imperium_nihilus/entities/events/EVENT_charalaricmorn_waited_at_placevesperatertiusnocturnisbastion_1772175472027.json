@@ -1,0 +1,24 @@
+{
+  "id": "EVENT_charalaricmorn_waited_at_placevesperatertiusnocturnisbastion_1772175472027",
+  "date": "999.M1 17:40",
+  "placeId": "PLACE_vespera_tertius_nocturnis_bastion",
+  "eventType": null,
+  "category": "world",
+  "subject": "Vespera Tertius Nocturnis Bastion",
+  "subjectId": "PLACE_vespera_tertius_nocturnis_bastion",
+  "fact": "CHAR_alaric_morn waited at PLACE_vespera_tertius_nocturnis_bastion",
+  "significance": "moderate",
+  "witnessIds": [
+    "CHAR_alaric_morn",
+    "CHAR_a_fatigued_deckhand_messenger",
+    "CHAR_danel_vossik",
+    "CHAR_iscar_venn",
+    "CHAR_kaelen_vos"
+  ],
+  "important": false,
+  "importanceScore": null,
+  "scope": "local",
+  "relevantPlaceIds": [
+    "PLACE_vespera_tertius_nocturnis_bastion"
+  ]
+}

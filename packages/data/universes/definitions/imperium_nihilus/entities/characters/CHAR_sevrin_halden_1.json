@@ -1,0 +1,304 @@
+{
+  "id": "CHAR_sevrin_halden_1",
+  "label": "Sevrin Halden",
+  "description": "This individual is a middle-aged male of light skinTone, set in a square-jawed face marked by deep nasolabial folds earned through years of public work. Brown eyes sit beneath heavy lids and thick brows, giving a steady, appraising cast to the gaze. Black hair is kept in a plain style with a disciplined hairline and slight recession at the temples. The hands are broad and permanently callused, with old nicks across the knuckles that attest to long familiarity with hard surfaces and broken glass.",
+  "short_description": "male canteen bartender (apron)",
+  "tags": [],
+  "entityType": "character",
+  "info": {
+    "purpose": "bartender",
+    "aliases": [
+      "Sev",
+      "Ashlight Pourmaster"
+    ],
+    "birthdate": "980.M41",
+    "deathdate": null,
+    "title": null,
+    "birthPlace": "Imperium Nihilus",
+    "eyeColor": "brown",
+    "gender": "male",
+    "hairColor": "black",
+    "hairStyle": "plain",
+    "beardStyle": "stubble",
+    "headType": "human_male",
+    "skinTone": "light",
+    "personality": "A practiced canteen bartender who runs service with clipped courtesy and a clear memory for faces, tabs, and trouble. He keeps conversation controlled, offers measured advice when asked, and enforces house rules without theatrics. He values reliability, dislikes waste, and treats the bar as a disciplined workstation rather than a social stage.",
+    "race": "human",
+    "messages": [],
+    "journal": [],
+    "sketches": [],
+    "verbosity": 3,
+    "conversationContext": null,
+    "storytellerState": null,
+    "isPlayer": false,
+    "storyComplete": false,
+    "routine": {
+      "schedule": {
+        "dawn": "home",
+        "morning": "work",
+        "afternoon": "work",
+        "evening": "work",
+        "night": "home"
+      },
+      "home": {
+        "placeId": "PLACE_ashlight_crew_bunkroom",
+        "description": "Quarters near The Ashlight Canteen",
+        "areaHint": null
+      },
+      "work": {
+        "placeId": "PLACE_the_ashlight_canteen",
+        "description": "The Ashlight Canteen",
+        "areaHint": null
+      },
+      "leisure": null,
+      "variance": 0.2,
+      "activities": {
+        "work": "tavern_work"
+      }
+    },
+    "vesselRoutes": null,
+    "abstractLocation": null,
+    "npcBehavior": null,
+    "physicalState": null,
+    "pendingDeparture": null,
+    "pendingArrival": null,
+    "lastRoutineCheckPeriod": null,
+    "startingNarrative": null,
+    "startingCharacterState": null,
+    "clothing": [
+      {
+        "slot": "torso_under",
+        "itemId": "shortsleeve",
+        "color": "#f5f0e8",
+        "contents": null
+      },
+      {
+        "slot": "torso_mid",
+        "itemId": "apron",
+        "color": "#3a3a3a",
+        "contents": null
+      },
+      {
+        "slot": "legs",
+        "itemId": "cloth_pants",
+        "color": "#1a1a1a",
+        "contents": null
+      },
+      {
+        "slot": "feet",
+        "itemId": "boots",
+        "color": "#8b4513",
+        "contents": null
+      },
+      {
+        "slot": "belt",
+        "itemId": "leather_belt",
+        "color": "#8b4513",
+        "contents": [
+          {
+            "id": "ci_1772204936558_gg73t4",
+            "itemId": "unarmed",
+            "name": "unarmed",
+            "description": null,
+            "type": "weapon",
+            "quantity": 1,
+            "color": null,
+            "equipSlot": "weapon",
+            "plotId": null
+          }
+        ]
+      }
+    ],
+    "enabledOverlayLayers": [
+      "eyes",
+      "facial"
+    ],
+    "helmingVesselId": null,
+    "storytellerDisabled": false,
+    "rulesetState": {
+      "stats": {
+        "physical": 50,
+        "mental": 50,
+        "social": 50,
+        "poise": 50,
+        "max_poise": 50,
+        "bloodloss": 0,
+        "anxiety": 0,
+        "fatigue": 0,
+        "hunger": 0
+      },
+      "conditions": [],
+      "statUsage": {},
+      "incapacitation": null,
+      "incapacitatedSince": null
+    },
+    "voiceId": "eric",
+    "spriteConfig": {
+      "bodyType": "male",
+      "layers": [
+        {
+          "type": "body",
+          "optionId": "body_base",
+          "tint": 15780008
+        },
+        {
+          "type": "body",
+          "optionId": "body_universal",
+          "tint": 15780008
+        },
+        {
+          "type": "eyes",
+          "optionId": "eyes_eyes",
+          "tint": 7029286
+        },
+        {
+          "type": "facial",
+          "optionId": "facial_beard",
+          "tint": 1710618
+        },
+        {
+          "type": "hair",
+          "optionId": "hair_plain",
+          "tint": 1710618
+        },
+        {
+          "type": "torso",
+          "optionId": "torso_white_shortsleeve_male",
+          "tint": 16117992
+        },
+        {
+          "type": "torso",
+          "optionId": "torso_white_apron_male",
+          "tint": 3815994
+        },
+        {
+          "type": "legs",
+          "optionId": "legs_white_pants_male",
+          "tint": 1710618
+        },
+        {
+          "type": "feet",
+          "optionId": "feet_white_boots_male",
+          "tint": 9127187
+        },
+        {
+          "type": "belt",
+          "optionId": "belt_leather_male",
+          "tint": 9127187
+        }
+      ],
+      "spriteHash": "5e188c81e0a277a2",
+      "spriteUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/sprites/generated/5e188c81e0a277a2.png",
+      "spriteScale": 1
+    }
+  },
+  "position": {
+    "x": 284.2,
+    "y": 366.3,
+    "width": 32,
+    "height": 48,
+    "parent": "PLACE_ashlight_crew_bunkroom"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/characters/CHAR_sevrin_halden_1.png?v=1772204995328",
+  "faceAnchorY": 0.2,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "talk"
+  },
+  "relationships": [
+    {
+      "targetId": "CHAR_corvin_rake",
+      "type": "colleague",
+      "disposition": 10,
+      "familiarity": 50,
+      "context": "Both are bartenders working within the Ashlight Canteen spaces (front canteen vs back chamber), likely on the same staff/rotation.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_edrin_fallow",
+      "type": "colleague",
+      "disposition": 10,
+      "familiarity": 50,
+      "context": "Shared role as disciplined bartender/account-keeper tied to the Ashlight Canteen back-chamber operations; likely co-staff.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_orris_malk",
+      "type": "colleague",
+      "disposition": 10,
+      "familiarity": 50,
+      "context": "Both run strict, methodical bar service for the Ashlight; same workplace implies regular coordination.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_rhett_marrow",
+      "type": "acquaintance",
+      "disposition": 0,
+      "familiarity": 40,
+      "context": "Rhett uses the Ashlight Canteen as a foothold and Sevrin is a working bartender there, so they likely know each other as patron and staff.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_savin_holt",
+      "type": "colleague",
+      "disposition": 10,
+      "familiarity": 50,
+      "context": "Savin is housed in the Ashlight crew bunkroom, implying Ashlight staff; Sevrin works the Ashlight bar, making them likely coworkers.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_sevrin_malrow",
+      "type": "acquaintance",
+      "disposition": 0,
+      "familiarity": 40,
+      "context": "Both are present at the Ashlight Canteen location; likely know each other at least by face through repeated contact.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_silan_jett",
+      "type": "colleague",
+      "disposition": 10,
+      "familiarity": 50,
+      "context": "Silan operates from the Ashlight back chamber with similar bar-enforcement duties; likely part of the same staff.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_soren_halbrecht",
+      "type": "colleague",
+      "disposition": 10,
+      "familiarity": 50,
+      "context": "Soren is a bartender stationed in the Ashlight back chamber; Sevrin runs service in the canteen, suggesting shared shifts/supply coordination.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_soren_mavick",
+      "type": "colleague",
+      "disposition": 10,
+      "familiarity": 50,
+      "context": "Both appear to be Ashlight bartending staff (canteen vs back chamber), making a professional working relationship likely.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_tamsin_rowe",
+      "type": "colleague",
+      "disposition": 10,
+      "familiarity": 50,
+      "context": "Tamsin works from the Ashlight back chamber with the same operational focus; likely coworker in the same establishment.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_tomas_avenro",
+      "type": "colleague",
+      "disposition": 10,
+      "familiarity": 50,
+      "context": "Tomas is an exacting bartender in the Ashlight back chamber; Sevrin works the canteen front, implying shared workplace and procedures.",
+      "pendingGeneration": false
+    }
+  ],
+  "important": false
+}

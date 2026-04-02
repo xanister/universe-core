@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_the_basalt_arsenal",
+  "label": "The Basalt Arsenal",
+  "description": "The Basalt Arsenal operates as a regulated weapon shop set into Brineshade Terminator City’s fused basalt platforms, its façade recessed behind shuttered arcades to blunt Saltharrow’s hard white glare. Interior walls are faced with salt-cemented stone and matte light-baffle panels, creating a controlled, low-reflectance showroom that preserves optical clarity. Racked display bays and sealed inspection alcoves line the perimeter, while a central counter anchors ledgers, measures, and standardized fittings. The structure’s joints and shelving are visibly overbuilt with stress bracing suited to the city’s recorded tidal strains and gravitic gradients.",
+  "short_description": "low-glare arms showroom",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "weapon_shop",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "building_shop",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/the_brine_lattice/images/battles/PLACE_the_basalt_arsenal.png?v=1772314086690",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 2256,
+    "y": 960,
+    "width": 160,
+    "height": 256,
+    "parent": "PLACE_brineshade_terminator_city",
+    "innerWidth": 1632,
+    "innerHeight": 2016
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/the_brine_lattice/images/places/PLACE_the_basalt_arsenal.png?v=1772314140603",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

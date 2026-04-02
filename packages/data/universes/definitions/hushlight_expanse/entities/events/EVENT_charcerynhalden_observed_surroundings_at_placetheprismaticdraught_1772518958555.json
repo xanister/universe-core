@@ -1,0 +1,20 @@
+{
+  "id": "EVENT_charcerynhalden_observed_surroundings_at_placetheprismaticdraught_1772518958555",
+  "date": "01.01.312 D3 10:00",
+  "placeId": "PLACE_the_prismatic_draught",
+  "eventType": null,
+  "category": "world",
+  "subject": "The Prismatic Draught",
+  "subjectId": "PLACE_the_prismatic_draught",
+  "fact": "CHAR_ceryn_halden observed surroundings at PLACE_the_prismatic_draught",
+  "significance": "moderate",
+  "witnessIds": [
+    "CHAR_ceryn_halden"
+  ],
+  "important": false,
+  "importanceScore": null,
+  "scope": "local",
+  "relevantPlaceIds": [
+    "PLACE_the_prismatic_draught"
+  ]
+}

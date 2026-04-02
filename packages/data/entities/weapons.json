@@ -1,0 +1,71 @@
+{
+  "version": "1.0",
+  "weapons": [
+    {
+      "id": "iron_sword",
+      "name": "Iron Sword",
+      "description": "A standard iron blade, balanced for thrust and parry",
+      "weaponType": "sword",
+      "baseDamage": 8,
+      "statModifiers": { "physical": 3 },
+      "grantedActions": ["thrust", "riposte"],
+      "range": 1,
+      "manifestOptionId": "weapon_dagger_male"
+    },
+    {
+      "id": "battle_axe",
+      "name": "Battle Axe",
+      "description": "A heavy-headed axe that cleaves through multiple foes",
+      "weaponType": "axe",
+      "baseDamage": 10,
+      "statModifiers": { "physical": 5 },
+      "grantedActions": ["cleave"],
+      "range": 1,
+      "manifestOptionId": "weapon_dagger_male"
+    },
+    {
+      "id": "hunting_bow",
+      "name": "Hunting Bow",
+      "description": "A recurve bow suited for precise ranged attacks",
+      "weaponType": "bow",
+      "baseDamage": 6,
+      "statModifiers": { "dexterity": 3 },
+      "grantedActions": ["aimed_shot"],
+      "range": 2,
+      "manifestOptionId": "weapon_bow"
+    },
+    {
+      "id": "mace",
+      "name": "Mace",
+      "description": "A flanged mace that rattles opponents on impact",
+      "weaponType": "mace",
+      "baseDamage": 7,
+      "statModifiers": { "physical": 4 },
+      "grantedActions": ["bash"],
+      "range": 1,
+      "manifestOptionId": "weapon_dagger_male"
+    },
+    {
+      "id": "wooden_staff",
+      "name": "Wooden Staff",
+      "description": "A sturdy wooden staff that aids focus and concentration",
+      "weaponType": "staff",
+      "baseDamage": 4,
+      "statModifiers": { "mental": 5 },
+      "grantedActions": [],
+      "range": 1,
+      "manifestOptionId": "weapon_woodwand_male"
+    },
+    {
+      "id": "unarmed",
+      "name": "Unarmed",
+      "description": "Fighting with bare fists",
+      "weaponType": "unarmed",
+      "baseDamage": 3,
+      "statModifiers": {},
+      "grantedActions": [],
+      "range": 1,
+      "manifestOptionId": null
+    }
+  ]
+}

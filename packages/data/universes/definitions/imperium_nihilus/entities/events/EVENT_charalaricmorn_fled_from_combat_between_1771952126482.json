@@ -1,0 +1,24 @@
+{
+  "id": "EVENT_charalaricmorn_fled_from_combat_between_1771952126482",
+  "date": "999.M1 06:18",
+  "placeId": "PLACE_riftglass_hollow",
+  "eventType": "combat_outcome",
+  "category": "world",
+  "subject": "Combat",
+  "subjectId": null,
+  "fact": "CHAR_alaric_morn fled from combat between CHAR_alaric_morn and CHAR_othram_vels, CHAR_cyran_vell, CHAR_maelon_strake, CHAR_mareth_vane, CHAR_marrowin_sable, CHAR_verekan_thricebound (1 rounds)",
+  "significance": "major",
+  "important": false,
+  "witnessIds": [
+    "CHAR_alaric_morn",
+    "CHAR_othram_vels",
+    "CHAR_cyran_vell",
+    "CHAR_maelon_strake",
+    "CHAR_mareth_vane",
+    "CHAR_marrowin_sable",
+    "CHAR_verekan_thricebound"
+  ],
+  "importanceScore": null,
+  "scope": null,
+  "relevantPlaceIds": null
+}

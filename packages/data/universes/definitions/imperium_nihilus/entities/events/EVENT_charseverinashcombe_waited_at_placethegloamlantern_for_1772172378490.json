@@ -1,0 +1,28 @@
+{
+  "id": "EVENT_charseverinashcombe_waited_at_placethegloamlantern_for_1772172378490",
+  "date": "999.M1 13:17",
+  "placeId": "PLACE_the_gloam_lantern",
+  "eventType": null,
+  "category": "world",
+  "subject": "The Gloam Lantern",
+  "subjectId": "PLACE_the_gloam_lantern",
+  "fact": "CHAR_severin_ashcombe waited at PLACE_the_gloam_lantern for 480 minutes",
+  "significance": "moderate",
+  "witnessIds": [
+    "CHAR_severin_ashcombe",
+    "CHAR_a_fatigued_deckhand_messenger",
+    "CHAR_sevrin_halberd",
+    "CHAR_sevrin_halcott",
+    "CHAR_sevrin_halden",
+    "CHAR_sevrin_lasko",
+    "CHAR_sevrin_malco",
+    "CHAR_tavian_lork",
+    "CHAR_tired_male_deckhand"
+  ],
+  "important": false,
+  "importanceScore": null,
+  "scope": "local",
+  "relevantPlaceIds": [
+    "PLACE_the_gloam_lantern"
+  ]
+}

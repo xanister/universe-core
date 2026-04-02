@@ -1,0 +1,20 @@
+{
+  "id": "bottle_square",
+  "name": "Square Bottle",
+  "description": "A large square green glass bottle.",
+  "purposes": [
+    "decoration"
+  ],
+  "tags": [
+    "common",
+    "drinkware",
+    "tavern"
+  ],
+  "solid": false,
+  "layer": "default",
+  "spriteId": "bottle_square",
+  "materials": [
+    "glass"
+  ],
+  "tintable": false
+}

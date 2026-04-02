@@ -1,0 +1,63 @@
+{
+  "id": "OBJ_quarantine_strongroom_torch_wall_mounted_0706",
+  "label": "Wall mounted torch",
+  "description": "A wall mounted torch",
+  "important": false,
+  "short_description": "wall mounted torch",
+  "tags": [
+    "common",
+    "lighting",
+    "tavern",
+    "ship",
+    "wall"
+  ],
+  "entityType": "object",
+  "info": {
+    "purpose": "lighting",
+    "solid": false,
+    "layer": "overhead",
+    "isStructural": false,
+    "material": null,
+    "tint": null,
+    "spriteConfig": {
+      "spriteId": "torch_wall_mounted",
+      "frame": null,
+      "animationKey": null,
+      "animated": false,
+      "facing": "west"
+    },
+    "hp": null,
+    "maxHp": null,
+    "state": null,
+    "contents": null,
+    "lightSource": {
+      "radius": 96,
+      "color": 16755268,
+      "intensity": 0.37,
+      "flicker": true,
+      "flickerSpeed": 200,
+      "flickerRange": 0.15,
+      "offsetX": 2,
+      "offsetY": -22
+    },
+    "itemId": null,
+    "plotId": null
+  },
+  "position": {
+    "x": 304,
+    "y": 640,
+    "width": 32,
+    "height": 32,
+    "parent": "PLACE_quarantine_strongroom"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "relationships": [],
+  "image": null,
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": null
+}

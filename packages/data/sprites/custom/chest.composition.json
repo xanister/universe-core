@@ -1,0 +1,16 @@
+{
+  "spriteId": "chest",
+  "gridWidth": 1,
+  "gridHeight": 1,
+  "tileSize": 32,
+  "tiles": [
+    {
+      "tilesetId": "container-generic",
+      "srcX": 256,
+      "srcY": 256,
+      "col": 0,
+      "row": 0
+    }
+  ],
+  "updatedAt": "2026-02-26T05:28:35.345Z"
+}

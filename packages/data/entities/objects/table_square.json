@@ -1,0 +1,22 @@
+{
+  "id": "table_square",
+  "name": "Square Table",
+  "description": "A Square Table",
+  "purposes": [
+    "table"
+  ],
+  "tags": [
+    "common",
+    "furniture"
+  ],
+  "solid": true,
+  "layer": "default",
+  "spriteId": "table_square",
+  "materials": [
+    "wood",
+    "oak",
+    "pine",
+    "mahogany"
+  ],
+  "tintable": true
+}

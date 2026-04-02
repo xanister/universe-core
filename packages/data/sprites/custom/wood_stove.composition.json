@@ -1,0 +1,114 @@
+{
+  "spriteId": "wood_stove",
+  "gridWidth": 3,
+  "gridHeight": 5,
+  "tileSize": 32,
+  "tiles": [
+    {
+      "tilesetId": "food-tavern-cooking",
+      "srcX": 320,
+      "srcY": 0,
+      "col": 0,
+      "row": 0
+    },
+    {
+      "tilesetId": "food-tavern-cooking",
+      "srcX": 352,
+      "srcY": 0,
+      "col": 1,
+      "row": 0
+    },
+    {
+      "tilesetId": "food-tavern-cooking",
+      "srcX": 384,
+      "srcY": 0,
+      "col": 2,
+      "row": 0
+    },
+    {
+      "tilesetId": "food-tavern-cooking",
+      "srcX": 320,
+      "srcY": 32,
+      "col": 0,
+      "row": 1
+    },
+    {
+      "tilesetId": "food-tavern-cooking",
+      "srcX": 352,
+      "srcY": 32,
+      "col": 1,
+      "row": 1
+    },
+    {
+      "tilesetId": "food-tavern-cooking",
+      "srcX": 384,
+      "srcY": 32,
+      "col": 2,
+      "row": 1
+    },
+    {
+      "tilesetId": "food-tavern-cooking",
+      "srcX": 320,
+      "srcY": 64,
+      "col": 0,
+      "row": 2
+    },
+    {
+      "tilesetId": "food-tavern-cooking",
+      "srcX": 352,
+      "srcY": 64,
+      "col": 1,
+      "row": 2
+    },
+    {
+      "tilesetId": "food-tavern-cooking",
+      "srcX": 384,
+      "srcY": 64,
+      "col": 2,
+      "row": 2
+    },
+    {
+      "tilesetId": "food-tavern-cooking",
+      "srcX": 320,
+      "srcY": 96,
+      "col": 0,
+      "row": 3
+    },
+    {
+      "tilesetId": "food-tavern-cooking",
+      "srcX": 352,
+      "srcY": 96,
+      "col": 1,
+      "row": 3
+    },
+    {
+      "tilesetId": "food-tavern-cooking",
+      "srcX": 384,
+      "srcY": 96,
+      "col": 2,
+      "row": 3
+    },
+    {
+      "tilesetId": "food-tavern-cooking",
+      "srcX": 320,
+      "srcY": 128,
+      "col": 0,
+      "row": 4
+    },
+    {
+      "tilesetId": "food-tavern-cooking",
+      "srcX": 352,
+      "srcY": 128,
+      "col": 1,
+      "row": 4
+    },
+    {
+      "tilesetId": "food-tavern-cooking",
+      "srcX": 384,
+      "srcY": 128,
+      "col": 2,
+      "row": 4
+    }
+  ],
+  "updatedAt": "2026-03-02T18:13:34.227Z"
+}

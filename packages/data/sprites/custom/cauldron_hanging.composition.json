@@ -1,0 +1,23 @@
+{
+  "spriteId": "cauldron_hanging",
+  "gridWidth": 1,
+  "gridHeight": 2,
+  "tileSize": 32,
+  "tiles": [
+    {
+      "tilesetId": "food-tavern-cooking",
+      "srcX": 0,
+      "srcY": 224,
+      "col": 0,
+      "row": 0
+    },
+    {
+      "tilesetId": "food-tavern-cooking",
+      "srcX": 0,
+      "srcY": 256,
+      "col": 0,
+      "row": 1
+    }
+  ],
+  "updatedAt": "2026-03-02T18:00:56.201Z"
+}

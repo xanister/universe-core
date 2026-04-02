@@ -1,0 +1,16 @@
+{
+  "id": "EVENT_inbound_traffic_is_delayed_by_1771878251429",
+  "date": null,
+  "placeId": null,
+  "eventType": null,
+  "category": "world",
+  "subject": "Background",
+  "subjectId": null,
+  "fact": "Inbound traffic is delayed by intermittent approach corridors, forcing you to wait in the berth frontage among cargo crews and transients.",
+  "significance": "minor",
+  "important": true,
+  "witnessIds": null,
+  "importanceScore": null,
+  "scope": null,
+  "relevantPlaceIds": null
+}

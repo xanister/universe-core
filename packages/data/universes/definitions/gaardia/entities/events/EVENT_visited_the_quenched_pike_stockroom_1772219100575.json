@@ -1,0 +1,18 @@
+{
+  "id": "EVENT_visited_the_quenched_pike_stockroom_1772219100575",
+  "date": "02.01.11 4A 08:23",
+  "placeId": "PLACE_the_quenched_pike_stockroom",
+  "important": false,
+  "importanceScore": null,
+  "scope": null,
+  "relevantPlaceIds": null,
+  "eventType": "location_visited",
+  "category": "world",
+  "subject": "The Quenched Pike Stockroom",
+  "subjectId": "PLACE_the_quenched_pike_stockroom",
+  "fact": "Visited The Quenched Pike Stockroom",
+  "significance": "minor",
+  "witnessIds": [
+    "CHAR_korr_brightblade"
+  ]
+}

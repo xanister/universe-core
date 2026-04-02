@@ -1,0 +1,53 @@
+{
+  "id": "OBJ_the_blackwrit_causeway_ship_rope_coil_0430",
+  "label": "Coiled Rope",
+  "description": "A coil of heavy ship's rope",
+  "important": false,
+  "short_description": "coiled rope",
+  "tags": [
+    "common",
+    "ship",
+    "rope",
+    "decoration"
+  ],
+  "entityType": "object",
+  "info": {
+    "purpose": "decoration",
+    "solid": true,
+    "layer": "default",
+    "isStructural": false,
+    "material": null,
+    "tint": null,
+    "spriteConfig": {
+      "spriteId": "ship_rope_coil",
+      "frame": null,
+      "animationKey": null,
+      "animated": false,
+      "facing": "south"
+    },
+    "hp": null,
+    "maxHp": null,
+    "state": null,
+    "contents": null,
+    "lightSource": null,
+    "itemId": null,
+    "plotId": null
+  },
+  "position": {
+    "x": 304,
+    "y": 1344,
+    "width": 32,
+    "height": 32,
+    "parent": "PLACE_the_blackwrit_causeway"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "relationships": [],
+  "image": null,
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": null
+}

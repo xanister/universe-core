@@ -1,0 +1,21 @@
+{
+  "id": "bed_single_white",
+  "name": "Single Bed (White)",
+  "description": "A simple single bed with white linen.",
+  "purposes": [
+    "sleeping"
+  ],
+  "tags": [
+    "common",
+    "furniture",
+    "bedroom"
+  ],
+  "solid": true,
+  "layer": "default",
+  "spriteId": "bed_single_white",
+  "materials": [
+    "wood",
+    "fabric"
+  ],
+  "tintable": false
+}

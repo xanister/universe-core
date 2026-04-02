@@ -1,0 +1,239 @@
+{
+  "id": "CHAR_tomas_harrowden",
+  "label": "Tomas Harrowden",
+  "description": "This individual is a broad-shouldered adult of heavy bone and disciplined carriage, marked by a broken nose set slightly off-center from old service blows. Brown eyes sit deep under a pronounced brow ridge, giving the face a fixed, assessing cast. Black hair is kept in a close ponytail2 to clear the jawline and ears, emphasizing the squared jaw and thick neck typical of garrison men. Light skin shows weathering at the temples and along the forearms, consistent with years on exposed battlements.",
+  "short_description": "mail-clad male guard",
+  "tags": [],
+  "entityType": "character",
+  "info": {
+    "purpose": "guard",
+    "aliases": [
+      "Gate-Harrow",
+      "Harrowden"
+    ],
+    "birthdate": "1213-04-19",
+    "deathdate": null,
+    "title": null,
+    "birthPlace": "Varric Holdfast",
+    "eyeColor": "brown",
+    "gender": "male",
+    "hairColor": "black",
+    "hairStyle": "ponytail2",
+    "beardStyle": "stubble",
+    "headType": "human_male",
+    "skinTone": "light",
+    "personality": "A rule-bound holdfast guardsman trained to enforce gate protocol, curfew warrants, and muster orders without deviation. He maintains meticulous watch logs, favors plain procedure over improvisation, and treats every traveler as a ledger entry until proven otherwise. He shows restrained loyalty to the Crown’s law and the holdfast’s chain of command, with open contempt for bribe-culture and private ducal exemptions.",
+    "race": "human",
+    "messages": [],
+    "journal": [],
+    "sketches": [],
+    "verbosity": 3,
+    "conversationContext": null,
+    "storytellerState": null,
+    "isPlayer": false,
+    "storyComplete": false,
+    "routine": {
+      "schedule": {
+        "dawn": "work",
+        "morning": "work",
+        "afternoon": "work",
+        "evening": "leisure",
+        "night": "home"
+      },
+      "home": {
+        "placeId": "PLACE_varric_holdfast",
+        "description": "Varric Holdfast",
+        "areaHint": null
+      },
+      "work": {
+        "placeId": "PLACE_varric_holdfast",
+        "description": "Varric Holdfast",
+        "areaHint": null
+      },
+      "leisure": null,
+      "variance": 0.2,
+      "activities": {
+        "work": "guard_duty"
+      }
+    },
+    "vesselRoutes": null,
+    "abstractLocation": null,
+    "npcBehavior": null,
+    "physicalState": null,
+    "pendingDeparture": null,
+    "pendingArrival": null,
+    "lastRoutineCheckPeriod": null,
+    "startingNarrative": null,
+    "startingCharacterState": null,
+    "clothing": [
+      {
+        "slot": "torso_under",
+        "itemId": "tunic",
+        "color": "#f5f0e8",
+        "contents": null
+      },
+      {
+        "slot": "torso_over",
+        "itemId": "mail",
+        "color": null,
+        "contents": null
+      },
+      {
+        "slot": "torso_top",
+        "itemId": "shoulders",
+        "color": null,
+        "contents": null
+      },
+      {
+        "slot": "legs",
+        "itemId": "cloth_pants",
+        "color": "#3a3a3a",
+        "contents": null
+      },
+      {
+        "slot": "feet",
+        "itemId": "boots",
+        "color": "#8b4513",
+        "contents": null
+      },
+      {
+        "slot": "belt",
+        "itemId": "leather_belt",
+        "color": "#8b4513",
+        "contents": [
+          {
+            "id": "ci_1772216689061_zavnq9",
+            "itemId": "sash",
+            "name": "sash",
+            "description": null,
+            "type": "weapon",
+            "quantity": 1,
+            "color": "#dc143c",
+            "equipSlot": "weapon",
+            "plotId": null
+          }
+        ]
+      },
+      {
+        "slot": "hands",
+        "itemId": "leather_bracers",
+        "color": "#8b4513",
+        "contents": null
+      },
+      {
+        "slot": "head",
+        "itemId": "chain_coif",
+        "color": null,
+        "contents": null
+      }
+    ],
+    "enabledOverlayLayers": [
+      "eyes",
+      "facial"
+    ],
+    "helmingVesselId": null,
+    "storytellerDisabled": false,
+    "rulesetState": {
+      "stats": {
+        "poise": 50,
+        "max_poise": 50
+      },
+      "conditions": [],
+      "statUsage": {},
+      "incapacitation": null,
+      "incapacitatedSince": null
+    },
+    "voiceId": "daniel",
+    "spriteConfig": {
+      "bodyType": "male",
+      "layers": [
+        {
+          "type": "body",
+          "optionId": "body_base",
+          "tint": 15780008
+        },
+        {
+          "type": "body",
+          "optionId": "body_universal",
+          "tint": 15780008
+        },
+        {
+          "type": "eyes",
+          "optionId": "eyes_eyes",
+          "tint": 7029286
+        },
+        {
+          "type": "facial",
+          "optionId": "facial_beard",
+          "tint": 1710618
+        },
+        {
+          "type": "torso",
+          "optionId": "torso_mail_male",
+          "tint": 12632256
+        },
+        {
+          "type": "torso",
+          "optionId": "torso_shoulders_male",
+          "tint": 12632256
+        },
+        {
+          "type": "legs",
+          "optionId": "legs_white_pants_male",
+          "tint": 3815994
+        },
+        {
+          "type": "feet",
+          "optionId": "feet_white_boots_male",
+          "tint": 9127187
+        },
+        {
+          "type": "belt",
+          "optionId": "belt_leather_male",
+          "tint": 9127187
+        },
+        {
+          "type": "hands",
+          "optionId": "hands_leather_bracers_male",
+          "tint": 9127187
+        },
+        {
+          "type": "head",
+          "optionId": "head_chainhat_male",
+          "tint": 12632256
+        }
+      ],
+      "spriteHash": "e9b42b759e78ded1",
+      "spriteUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/sprites/generated/e9b42b759e78ded1.png"
+    }
+  },
+  "position": {
+    "x": 1232,
+    "y": 2288,
+    "width": 32,
+    "height": 48,
+    "parent": "PLACE_varric_holdfast"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/gaardia/images/characters/CHAR_tomas_harrowden.png?v=1772216744930",
+  "faceAnchorY": 0.19,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "talk"
+  },
+  "relationships": [
+    {
+      "targetId": "CHAR_garron_mavek",
+      "type": "colleague",
+      "disposition": 10,
+      "familiarity": 50,
+      "context": "Both are rule-bound holdfast watch/guardsmen stationed at Varric Holdfast, focused on gate protocol and watch logs, making a direct professional working relationship likely.",
+      "pendingGeneration": false
+    }
+  ],
+  "important": false
+}

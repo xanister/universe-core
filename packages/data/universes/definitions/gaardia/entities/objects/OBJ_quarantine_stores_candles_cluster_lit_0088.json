@@ -1,0 +1,59 @@
+{
+  "id": "OBJ_quarantine_stores_candles_cluster_lit_0088",
+  "label": "Lit Candle Cluster",
+  "description": "A small cluster of candles burning with a warm, steady glow.",
+  "important": false,
+  "short_description": "lit candle cluster",
+  "tags": [
+    "ship"
+  ],
+  "entityType": "object",
+  "info": {
+    "purpose": "lighting",
+    "solid": false,
+    "layer": "default",
+    "isStructural": false,
+    "material": null,
+    "tint": null,
+    "spriteConfig": {
+      "spriteId": "candles_cluster",
+      "frame": null,
+      "animationKey": null,
+      "animated": false,
+      "facing": "south"
+    },
+    "hp": null,
+    "maxHp": null,
+    "state": null,
+    "contents": null,
+    "lightSource": {
+      "radius": 96,
+      "color": 16755268,
+      "intensity": 0.26,
+      "flicker": true,
+      "flickerSpeed": 200,
+      "flickerRange": 0.15,
+      "offsetX": 1,
+      "offsetY": -23
+    },
+    "itemId": null,
+    "plotId": null
+  },
+  "position": {
+    "x": 208,
+    "y": 608,
+    "width": 32,
+    "height": 32,
+    "parent": "PLACE_quarantine_stores"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "relationships": [],
+  "image": null,
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": null
+}

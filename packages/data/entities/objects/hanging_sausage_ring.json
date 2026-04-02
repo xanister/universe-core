@@ -1,0 +1,18 @@
+{
+  "id": "hanging_sausage_ring",
+  "name": "Hanging Sausage Ring",
+  "description": "A ring of cured sausage hanging from a hook.",
+  "purposes": [
+    "decoration"
+  ],
+  "tags": [
+    "common",
+    "food",
+    "tavern"
+  ],
+  "solid": false,
+  "layer": "overhead",
+  "spriteId": "hanging_sausage_ring",
+  "materials": [],
+  "tintable": false
+}

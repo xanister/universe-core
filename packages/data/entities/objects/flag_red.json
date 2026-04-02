@@ -1,0 +1,21 @@
+{
+  "id": "flag_red",
+  "name": "Red Flag",
+  "description": "Red pennant flag on a wooden pole, blowing in the wind.",
+  "purposes": [
+    "decoration"
+  ],
+  "tags": [
+    "outdoor",
+    "decoration",
+    "market",
+    "banner"
+  ],
+  "solid": false,
+  "layer": "default",
+  "spriteId": "flag_red",
+  "materials": [
+    "wood",
+    "cloth"
+  ]
+}

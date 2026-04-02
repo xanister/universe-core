@@ -1,0 +1,93 @@
+{
+  "spriteId": "pew_long_back_white_wood",
+  "gridWidth": 6,
+  "gridHeight": 2,
+  "tileSize": 32,
+  "tiles": [
+    {
+      "tilesetId": "furniture-white",
+      "srcX": 0,
+      "srcY": 352,
+      "col": 0,
+      "row": 0
+    },
+    {
+      "tilesetId": "furniture-white",
+      "srcX": 32,
+      "srcY": 352,
+      "col": 1,
+      "row": 0
+    },
+    {
+      "tilesetId": "furniture-white",
+      "srcX": 64,
+      "srcY": 352,
+      "col": 2,
+      "row": 0
+    },
+    {
+      "tilesetId": "furniture-white",
+      "srcX": 96,
+      "srcY": 352,
+      "col": 3,
+      "row": 0
+    },
+    {
+      "tilesetId": "furniture-white",
+      "srcX": 128,
+      "srcY": 352,
+      "col": 4,
+      "row": 0
+    },
+    {
+      "tilesetId": "furniture-white",
+      "srcX": 160,
+      "srcY": 352,
+      "col": 5,
+      "row": 0
+    },
+    {
+      "tilesetId": "furniture-white",
+      "srcX": 0,
+      "srcY": 384,
+      "col": 0,
+      "row": 1
+    },
+    {
+      "tilesetId": "furniture-white",
+      "srcX": 32,
+      "srcY": 384,
+      "col": 1,
+      "row": 1
+    },
+    {
+      "tilesetId": "furniture-white",
+      "srcX": 64,
+      "srcY": 384,
+      "col": 2,
+      "row": 1
+    },
+    {
+      "tilesetId": "furniture-white",
+      "srcX": 96,
+      "srcY": 384,
+      "col": 3,
+      "row": 1
+    },
+    {
+      "tilesetId": "furniture-white",
+      "srcX": 128,
+      "srcY": 384,
+      "col": 4,
+      "row": 1
+    },
+    {
+      "tilesetId": "furniture-white",
+      "srcX": 160,
+      "srcY": 384,
+      "col": 5,
+      "row": 1
+    }
+  ],
+  "updatedAt": "2026-03-02T21:32:18.052Z"
+}

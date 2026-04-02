@@ -1,0 +1,952 @@
+{
+  "clothing": {
+    "longsleeve": {
+      "slot": "torso_under",
+      "pattern": "white_longsleeve",
+      "tags": [
+        "cloth",
+        "formal",
+        "merchant",
+        "scholar",
+        "noble"
+      ],
+      "name": "Long-sleeved shirt",
+      "defaultColor": null
+    },
+    "tunic": {
+      "slot": "torso_under",
+      "pattern": "white_tunic",
+      "tags": [
+        "cloth",
+        "simple",
+        "laborer",
+        "civilian",
+        "rogue"
+      ],
+      "name": "Simple tunic",
+      "defaultColor": null
+    },
+    "pirate_shirt": {
+      "slot": "torso_under",
+      "pattern": "white_pirate",
+      "tags": [
+        "cloth",
+        "seafaring",
+        "pirate",
+        "sailor"
+      ],
+      "name": "Pirate-style shirt",
+      "defaultColor": null
+    },
+    "sleeveless": {
+      "slot": "torso_under",
+      "pattern": "white_sleeveless",
+      "tags": [
+        "cloth",
+        "rugged",
+        "laborer",
+        "sailor"
+      ],
+      "name": "Sleeveless shirt",
+      "defaultColor": null
+    },
+    "shortsleeve": {
+      "slot": "torso_under",
+      "pattern": "white_shortsleeve",
+      "tags": [
+        "cloth",
+        "simple",
+        "laborer",
+        "civilian",
+        "sailor"
+      ],
+      "name": "Short-sleeved shirt",
+      "defaultColor": null
+    },
+    "blouse": {
+      "slot": "torso_under",
+      "pattern": "white_blouse",
+      "tags": [
+        "cloth",
+        "formal",
+        "civilian",
+        "merchant"
+      ],
+      "name": "Blouse",
+      "defaultColor": null
+    },
+    "formal_shirt": {
+      "slot": "torso_under",
+      "pattern": "formal_shirt",
+      "tags": [
+        "cloth",
+        "formal",
+        "gentleman",
+        "noble"
+      ],
+      "name": "Formal dress shirt",
+      "defaultColor": null
+    },
+    "apron": {
+      "slot": "torso_mid",
+      "pattern": "white_apron",
+      "tags": [
+        "cloth",
+        "laborer",
+        "civilian"
+      ],
+      "name": "Apron",
+      "defaultColor": null
+    },
+    "tabard": {
+      "slot": "torso_mid",
+      "pattern": "white_tabard",
+      "tags": [
+        "cloth",
+        "military",
+        "guard",
+        "formal"
+      ],
+      "name": "Tabard",
+      "defaultColor": null
+    },
+    "corset": {
+      "slot": "torso_mid",
+      "pattern": "white_corset",
+      "tags": [
+        "cloth",
+        "formal",
+        "noble"
+      ],
+      "name": "Corset",
+      "defaultColor": null
+    },
+    "jacket": {
+      "slot": "torso_over",
+      "pattern": "jacket",
+      "tags": [
+        "cloth",
+        "formal",
+        "merchant",
+        "noble",
+        "civilian"
+      ],
+      "name": "Fitted jacket",
+      "defaultColor": "brown"
+    },
+    "mail": {
+      "slot": "torso_over",
+      "pattern": "mail",
+      "tags": [
+        "armor",
+        "military",
+        "guard",
+        "armored"
+      ],
+      "name": "Chainmail armor",
+      "defaultColor": "silver"
+    },
+    "leather_armor": {
+      "slot": "torso_over",
+      "pattern": "white_leather_armor",
+      "tags": [
+        "armor",
+        "leather",
+        "military",
+        "rogue"
+      ],
+      "name": "Leather armor",
+      "defaultColor": null
+    },
+    "plate_armor": {
+      "slot": "torso_over",
+      "pattern": "steel_plate_armor",
+      "tags": [
+        "armor",
+        "military",
+        "guard",
+        "armored"
+      ],
+      "name": "Plate armor",
+      "defaultColor": "silver"
+    },
+    "overalls": {
+      "slot": "torso_over",
+      "pattern": "white_overalls",
+      "tags": [
+        "cloth",
+        "laborer",
+        "civilian"
+      ],
+      "name": "Overalls",
+      "defaultColor": null
+    },
+    "trenchcoat": {
+      "slot": "torso_over",
+      "pattern": "formal_trenchcoat",
+      "tags": [
+        "cloth",
+        "formal",
+        "gentleman",
+        "rogue"
+      ],
+      "name": "Trenchcoat",
+      "defaultColor": null
+    },
+    "shoulders": {
+      "slot": "torso_top",
+      "pattern": "shoulders",
+      "tags": [
+        "armor",
+        "military",
+        "guard",
+        "armored"
+      ],
+      "name": "Plate shoulder armor",
+      "defaultColor": "silver"
+    },
+    "cloth_pants": {
+      "slot": "legs",
+      "pattern": "white_pants",
+      "tags": [
+        "cloth",
+        "common"
+      ],
+      "name": "Cloth pants",
+      "defaultColor": null
+    },
+    "metal_pants": {
+      "slot": "legs",
+      "pattern": "metal_pants",
+      "tags": [
+        "armor",
+        "military",
+        "guard",
+        "armored"
+      ],
+      "name": "Metal leg armor",
+      "defaultColor": "silver"
+    },
+    "golden_greaves": {
+      "slot": "legs",
+      "pattern": "golden_greaves",
+      "tags": [
+        "armor",
+        "noble",
+        "armored"
+      ],
+      "name": "Golden greaves",
+      "defaultColor": "gold"
+    },
+    "robe_skirt": {
+      "slot": "legs",
+      "pattern": "robe_skirt",
+      "tags": [
+        "cloth",
+        "scholar",
+        "formal"
+      ],
+      "name": "Robe skirt",
+      "defaultColor": null
+    },
+    "leggings": {
+      "slot": "legs",
+      "pattern": "white_leggings",
+      "tags": [
+        "cloth",
+        "common",
+        "simple"
+      ],
+      "name": "Leggings",
+      "defaultColor": null
+    },
+    "skirt": {
+      "slot": "legs",
+      "pattern": "white_skirt_plain",
+      "tags": [
+        "cloth",
+        "common",
+        "civilian"
+      ],
+      "name": "Plain skirt",
+      "defaultColor": null
+    },
+    "formal_pants": {
+      "slot": "legs",
+      "pattern": "formal_pants",
+      "tags": [
+        "cloth",
+        "formal",
+        "gentleman",
+        "noble"
+      ],
+      "name": "Formal pants",
+      "defaultColor": null
+    },
+    "shoes": {
+      "slot": "feet",
+      "pattern": "white_shoes",
+      "tags": [
+        "common",
+        "formal"
+      ],
+      "name": "Shoes",
+      "defaultColor": "brown"
+    },
+    "metal_boots": {
+      "slot": "feet",
+      "pattern": "metal_boots",
+      "tags": [
+        "armor",
+        "military",
+        "guard",
+        "armored"
+      ],
+      "name": "Metal boots",
+      "defaultColor": "silver"
+    },
+    "golden_boots": {
+      "slot": "feet",
+      "pattern": "golden_boots",
+      "tags": [
+        "armor",
+        "noble",
+        "armored"
+      ],
+      "name": "Golden boots",
+      "defaultColor": "gold"
+    },
+    "boots": {
+      "slot": "feet",
+      "pattern": "white_boots",
+      "tags": [
+        "common",
+        "military",
+        "rugged"
+      ],
+      "name": "Boots",
+      "defaultColor": null
+    },
+    "sandals": {
+      "slot": "feet",
+      "pattern": "white_sandals",
+      "tags": [
+        "common",
+        "simple",
+        "civilian"
+      ],
+      "name": "Sandals",
+      "defaultColor": null
+    },
+    "slippers": {
+      "slot": "feet",
+      "pattern": "white_slippers",
+      "tags": [
+        "common",
+        "formal",
+        "scholar",
+        "noble"
+      ],
+      "name": "Slippers",
+      "defaultColor": null
+    },
+    "leather_belt": {
+      "slot": "belt",
+      "pattern": "leather",
+      "tags": [
+        "leather",
+        "common"
+      ],
+      "name": "Leather belt",
+      "defaultColor": null
+    },
+    "rope_belt": {
+      "slot": "belt",
+      "pattern": "wulax_belt_rope",
+      "tags": [
+        "cloth",
+        "simple",
+        "rogue",
+        "scholar"
+      ],
+      "name": "Rope belt",
+      "defaultColor": null
+    },
+    "formal_belt": {
+      "slot": "belt",
+      "pattern": "formal_belt",
+      "tags": [
+        "leather",
+        "formal",
+        "gentleman"
+      ],
+      "name": "Formal belt",
+      "defaultColor": null
+    },
+    "cape": {
+      "slot": "behind_body",
+      "pattern": "cape_white",
+      "tags": [
+        "cloth",
+        "noble",
+        "formal"
+      ],
+      "name": "Cape",
+      "defaultColor": null
+    },
+    "tattercape": {
+      "slot": "behind_body",
+      "pattern": "tattercape_white",
+      "tags": [
+        "cloth",
+        "rogue",
+        "tattered"
+      ],
+      "name": "Tattered cape",
+      "defaultColor": null
+    },
+    "iverness_cape": {
+      "slot": "behind_body",
+      "pattern": "formal_iverness_cape",
+      "tags": [
+        "cloth",
+        "formal",
+        "gentleman",
+        "noble"
+      ],
+      "name": "Inverness cape",
+      "defaultColor": null
+    },
+    "chain_armor_hood": {
+      "slot": "head",
+      "pattern": "wulax_chain_armor_hood",
+      "tags": [
+        "armor",
+        "military"
+      ],
+      "name": "Chain armor hood",
+      "defaultColor": "silver",
+      "hidesHair": true
+    },
+    "chain_coif": {
+      "slot": "head",
+      "pattern": "chainhat",
+      "tags": [
+        "armor",
+        "military"
+      ],
+      "name": "Chain coif",
+      "defaultColor": "silver",
+      "hidesHair": true
+    },
+    "chain_hood": {
+      "slot": "head",
+      "pattern": "chain_hood",
+      "tags": [
+        "armor",
+        "military"
+      ],
+      "name": "Chain hood",
+      "defaultColor": "silver",
+      "hidesHair": true
+    },
+    "cloth_hood": {
+      "slot": "head",
+      "pattern": "cloth_hood",
+      "tags": [
+        "cloth",
+        "rogue",
+        "scholar"
+      ],
+      "name": "Cloth hood",
+      "defaultColor": null,
+      "hidesHair": true
+    },
+    "leather_cap": {
+      "slot": "head",
+      "pattern": "leather_cap",
+      "tags": [
+        "leather",
+        "common"
+      ],
+      "name": "Leather cap",
+      "defaultColor": null
+    },
+    "robe_hood": {
+      "slot": "head",
+      "pattern": "wulax_robe_hood",
+      "tags": [
+        "cloth",
+        "scholar",
+        "rogue"
+      ],
+      "name": "Robe hood",
+      "defaultColor": null,
+      "hidesHair": true
+    },
+    "plate_helmet": {
+      "slot": "head",
+      "pattern": "wulax_plate_armor_helmet",
+      "tags": [
+        "armor",
+        "military",
+        "armored"
+      ],
+      "name": "Plate helmet",
+      "defaultColor": "silver",
+      "hidesHair": true
+    },
+    "chain_helmet": {
+      "slot": "head",
+      "pattern": "wulax_chain_armor_helmet",
+      "tags": [
+        "armor",
+        "military",
+        "guard"
+      ],
+      "name": "Chain helmet",
+      "defaultColor": "silver",
+      "hidesHair": true
+    },
+    "metal_helm": {
+      "slot": "head",
+      "pattern": "metal_helm",
+      "tags": [
+        "armor",
+        "military"
+      ],
+      "name": "Metal helmet",
+      "defaultColor": "silver",
+      "hidesHair": true
+    },
+    "tophat": {
+      "slot": "head",
+      "pattern": "formal_tophat",
+      "tags": [
+        "cloth",
+        "formal",
+        "gentleman",
+        "noble"
+      ],
+      "name": "Top hat",
+      "defaultColor": "black"
+    },
+    "bowler_hat": {
+      "slot": "head",
+      "pattern": "formal_bowler",
+      "tags": [
+        "cloth",
+        "formal",
+        "gentleman",
+        "merchant"
+      ],
+      "name": "Bowler hat",
+      "defaultColor": "black"
+    },
+    "leather_bracers": {
+      "slot": "hands",
+      "pattern": "leather_bracers",
+      "tags": [
+        "leather",
+        "military",
+        "rogue"
+      ],
+      "name": "Leather bracers",
+      "defaultColor": null
+    },
+    "metal_gloves": {
+      "slot": "hands",
+      "pattern": "metal_gloves",
+      "tags": [
+        "armor",
+        "military",
+        "guard",
+        "armored"
+      ],
+      "name": "Metal gauntlets",
+      "defaultColor": "silver"
+    },
+    "cloth_gloves": {
+      "slot": "hands",
+      "pattern": "white_gloves",
+      "tags": [
+        "cloth",
+        "common",
+        "formal"
+      ],
+      "name": "Cloth gloves",
+      "defaultColor": null
+    },
+    "bowtie": {
+      "slot": "neck",
+      "pattern": "formal_bowtie",
+      "tags": [
+        "cloth",
+        "formal",
+        "gentleman",
+        "noble"
+      ],
+      "name": "Bowtie",
+      "defaultColor": null
+    },
+    "necktie": {
+      "slot": "neck",
+      "pattern": "formal_necktie",
+      "tags": [
+        "cloth",
+        "formal",
+        "gentleman",
+        "merchant"
+      ],
+      "name": "Necktie",
+      "defaultColor": null
+    },
+    "monocle": {
+      "slot": "accessories",
+      "pattern": "formal_monocle",
+      "tags": [
+        "formal",
+        "gentleman",
+        "noble"
+      ],
+      "name": "Monocle",
+      "defaultColor": "gold"
+    },
+    "glasses": {
+      "slot": "accessories",
+      "pattern": "formal_glasses",
+      "tags": [
+        "formal",
+        "gentleman",
+        "scholar"
+      ],
+      "name": "Round glasses",
+      "defaultColor": "silver"
+    },
+    "formal_jacket": {
+      "slot": "torso_over",
+      "pattern": "formal_jacket",
+      "tags": [
+        "cloth",
+        "formal",
+        "gentleman",
+        "noble",
+        "merchant"
+      ],
+      "name": "Formal jacket",
+      "defaultColor": "brown"
+    },
+    "bauldron": {
+      "slot": "torso_top",
+      "pattern": "white_bauldron",
+      "tags": [
+        "armor",
+        "military",
+        "guard"
+      ],
+      "name": "Pauldron",
+      "defaultColor": null
+    },
+    "ghillies": {
+      "slot": "feet",
+      "pattern": "white_ghillies",
+      "tags": [
+        "common",
+        "simple",
+        "civilian"
+      ],
+      "name": "Ghillies",
+      "defaultColor": null
+    },
+    "cloth_belt": {
+      "slot": "belt",
+      "pattern": "white_cloth",
+      "tags": [
+        "cloth",
+        "common",
+        "simple"
+      ],
+      "name": "Cloth belt",
+      "defaultColor": null
+    },
+    "capeclip": {
+      "slot": "neck",
+      "pattern": "white_capeclip",
+      "tags": [
+        "cloth",
+        "formal",
+        "noble"
+      ],
+      "name": "Cape clip",
+      "defaultColor": null
+    },
+    "capetie": {
+      "slot": "neck",
+      "pattern": "white_capetie",
+      "tags": [
+        "cloth",
+        "formal",
+        "noble"
+      ],
+      "name": "Cape tie",
+      "defaultColor": null
+    },
+    "steel_bracers": {
+      "slot": "hands",
+      "pattern": "steel_bracers",
+      "tags": [
+        "armor",
+        "military",
+        "guard",
+        "armored"
+      ],
+      "name": "Steel bracers",
+      "defaultColor": "silver"
+    },
+    "bodice": {
+      "slot": "torso_mid",
+      "pattern": "white_bodice",
+      "tags": [
+        "cloth",
+        "formal",
+        "civilian"
+      ],
+      "name": "Bodice",
+      "defaultColor": null
+    },
+    "scoop_shirt": {
+      "slot": "torso_under",
+      "pattern": "white_scoop_shirt",
+      "tags": [
+        "cloth",
+        "simple",
+        "civilian"
+      ],
+      "name": "Scoop-neck shirt",
+      "defaultColor": null
+    },
+    "tanktop": {
+      "slot": "torso_under",
+      "pattern": "white_tanktop",
+      "tags": [
+        "cloth",
+        "simple",
+        "civilian",
+        "laborer"
+      ],
+      "name": "Tank top",
+      "defaultColor": null
+    },
+    "dress_slit": {
+      "slot": "torso_over",
+      "pattern": "white_dress_slit",
+      "tags": [
+        "cloth",
+        "formal",
+        "noble"
+      ],
+      "name": "Slit dress",
+      "defaultColor": null
+    },
+    "sash": {
+      "slot": "torso_mid",
+      "pattern": "white_sash",
+      "tags": [
+        "cloth",
+        "formal",
+        "noble"
+      ],
+      "name": "Sash",
+      "defaultColor": null
+    },
+    "underdress": {
+      "slot": "torso_under",
+      "pattern": "underdress",
+      "tags": [
+        "cloth",
+        "simple",
+        "civilian"
+      ],
+      "name": "Underdress",
+      "defaultColor": null
+    },
+    "overskirt": {
+      "slot": "torso_over",
+      "pattern": "overskirt",
+      "tags": [
+        "cloth",
+        "formal",
+        "noble"
+      ],
+      "name": "Overskirt",
+      "defaultColor": null
+    },
+    "skirt_belle": {
+      "slot": "legs",
+      "pattern": "white_skirt_belle",
+      "tags": [
+        "cloth",
+        "formal",
+        "noble",
+        "civilian"
+      ],
+      "name": "Belle skirt",
+      "defaultColor": null
+    },
+    "skirt_legion": {
+      "slot": "legs",
+      "pattern": "white_skirt_legion",
+      "tags": [
+        "cloth",
+        "military",
+        "formal"
+      ],
+      "name": "Legion skirt",
+      "defaultColor": null
+    },
+    "skirt_overskirt": {
+      "slot": "legs",
+      "pattern": "white_skirt_overskirt",
+      "tags": [
+        "cloth",
+        "formal",
+        "noble"
+      ],
+      "name": "Overskirt (legs)",
+      "defaultColor": null
+    },
+    "skirt_slit": {
+      "slot": "legs",
+      "pattern": "white_skirt_slit",
+      "tags": [
+        "cloth",
+        "formal",
+        "civilian"
+      ],
+      "name": "Slit skirt",
+      "defaultColor": null
+    },
+    "skirt_straight": {
+      "slot": "legs",
+      "pattern": "white_skirt_straight",
+      "tags": [
+        "cloth",
+        "simple",
+        "civilian"
+      ],
+      "name": "Straight skirt",
+      "defaultColor": null
+    },
+    "steel_legion_armor": {
+      "slot": "torso_over",
+      "pattern": "steel_legion_armor",
+      "tags": [
+        "armor",
+        "military",
+        "guard",
+        "armored"
+      ],
+      "name": "Legion plate armor",
+      "defaultColor": "silver"
+    },
+    "steel_legion_shoulders": {
+      "slot": "torso_top",
+      "pattern": "steel_legion_shoulders",
+      "tags": [
+        "armor",
+        "military",
+        "guard",
+        "armored"
+      ],
+      "name": "Legion shoulder armor",
+      "defaultColor": "silver"
+    },
+    "golden_gloves": {
+      "slot": "hands",
+      "pattern": "golden_gloves",
+      "tags": [
+        "armor",
+        "noble",
+        "armored"
+      ],
+      "name": "Golden gauntlets",
+      "defaultColor": "gold"
+    },
+    "golden_helm": {
+      "slot": "head",
+      "pattern": "golden_helm",
+      "tags": [
+        "armor",
+        "noble",
+        "armored"
+      ],
+      "name": "Golden helmet",
+      "defaultColor": "gold",
+      "hidesHair": true
+    },
+    "chain_armor_jacket": {
+      "slot": "torso_over",
+      "pattern": "wulax_chain_armor_jacket",
+      "tags": [
+        "armor",
+        "military"
+      ],
+      "name": "Chain armor jacket",
+      "defaultColor": "silver"
+    },
+    "leather_armor_shoulders": {
+      "slot": "torso_top",
+      "pattern": "wulax_leather_armor_shoulders",
+      "tags": [
+        "armor",
+        "leather",
+        "military",
+        "rogue"
+      ],
+      "name": "Leather armor shoulders",
+      "defaultColor": null
+    },
+    "robe_shirt": {
+      "slot": "torso_under",
+      "pattern": "wulax_robe_shirt",
+      "tags": [
+        "cloth",
+        "scholar"
+      ],
+      "name": "Robe shirt",
+      "defaultColor": null
+    },
+    "horns_backwards": {
+      "slot": "head",
+      "pattern": "horns_backwards",
+      "tags": [
+        "fantasy",
+        "monster"
+      ],
+      "name": "Backwards horns",
+      "defaultColor": null
+    },
+    "horns_curled": {
+      "slot": "head",
+      "pattern": "horns_curled",
+      "tags": [
+        "fantasy",
+        "monster"
+      ],
+      "name": "Curled horns",
+      "defaultColor": null
+    },
+    "leather_armor_hat": {
+      "slot": "head",
+      "pattern": "wulax_leather_armor_hat",
+      "tags": [
+        "armor",
+        "leather",
+        "military",
+        "rogue"
+      ],
+      "name": "Leather armor hat",
+      "defaultColor": null
+    }
+  }
+}

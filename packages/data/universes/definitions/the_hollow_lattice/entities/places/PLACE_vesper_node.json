@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_vesper_node",
+  "label": "Vesper Node",
+  "description": "Vesper Node constitutes a compact star system suspended within a single repeating cell of the Hollow Lattice, its primary sun caged by six luminous filaments that pin its mass to the void-channel geometry. A ring of dark, glassy planetoids follows fixed polyhedral arcs, their orbits aligned to the tensile lines that define all distance in the region. The interplanetary medium manifests as disciplined bands of radiance and lightless interval, arranged in stratified planes rather than diffuse dust. At the system’s periphery, nested lattice-horizons resolve into hard angles that impose measurable boundaries on drift, trajectory, and tide.",
+  "short_description": "filament-caged star system",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "star_system",
+    "environment": {
+      "type": "space",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": false,
+        "base": null,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.6
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "star_sun",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/the_hollow_lattice/images/battles/PLACE_vesper_node.png?v=1772313769095",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 4832,
+    "y": 1216,
+    "width": 64,
+    "height": 64,
+    "parent": "PLACE_cosmos",
+    "innerWidth": 4416,
+    "innerHeight": 2528
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/the_hollow_lattice/images/places/PLACE_vesper_node.png?v=1772313824754",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

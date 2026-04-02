@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_ashglass_quarters",
+  "label": "Ashglass Quarters",
+  "description": "Ashglass Quarters is a compact residential suite set within the Pale Meridian Enclave’s stepped ferrocrete terraces, its walls cast thick for blast resistance and thermal retention. The plan resolves into a narrow antechamber and a single living bay, both lit by recessed lumen strips behind armored glass slats that preserve blackout discipline beneath the bruise-hued aurorae. Built-in bunks and storage lockers are mortared into the structure, and a fold-down ration alcove is set beside a sealed wash niche to conserve water and heat. The only external aperture is a slit-window facing a covered causeway, its shutter mechanism keyed to enclave warning beacons and auspex alerts.",
+  "short_description": "sealed ferrocrete suite",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "residence",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "building_residence",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/battles/PLACE_ashglass_quarters.png?v=1771996559353",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 1200,
+    "y": 2368,
+    "width": 160,
+    "height": 256,
+    "parent": "PLACE_pale_meridian_enclave",
+    "innerWidth": 672,
+    "innerHeight": 896
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/places/PLACE_ashglass_quarters.png?v=1771996609768",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_dustglass_reserve",
+  "label": "Dustglass Reserve",
+  "description": "Dustglass Reserve serves as The Prismwright Arcade’s controlled backroom for stock that must remain electrically quiet and optically uncompromised. Faceted shelving of grounded alloy holds sealed ampoules of charged glass dust, prismatic blanks, and gauged fittings, each nested in matte-silicate cradles that suppress stray reflections. The walls incorporate narrow lensing cisterns and drain gutters that route washwater and particulate into calibrated channels, keeping the room free of conductive grit. Copper-white twilight reaches the space only through ribbed baffles, yielding a stable, low-glare illumination suited to metrological storage.",
+  "short_description": "grounded prism storage",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "storage_room",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.9
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "door_wooden",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/hushlight_expanse/images/battles/PLACE_dustglass_reserve.png?v=1772313868431",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 176,
+    "y": 512,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_the_prismwright_arcade",
+    "innerWidth": 512,
+    "innerHeight": 576
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/hushlight_expanse/images/places/PLACE_dustglass_reserve.png?v=1772313935719",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

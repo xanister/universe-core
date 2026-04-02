@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_cosmos",
+  "label": "Cosmos",
+  "description": "The foundational totality of the Hushlight Expanse, containing all matter, energy, time, and law within a single continuous reality. Its structure is recorded as a lattice of starfields and void-basins where light attenuates into long, cold gradients that define navigation and distance. Vast currents of particulate radiance trace stable routes across interstellar gulfs, giving the universe its characteristic hushlit aspect. Every world, ruin, and orbiting remnant remains embedded in this greater framework, governed by immutable cosmological order.",
+  "short_description": "root of all existence",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "cosmos",
+    "environment": {
+      "type": "space",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": false,
+        "base": null,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.6
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "star_sun",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/hushlight_expanse/images/battles/PLACE_cosmos.png?v=1772313589759",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 0,
+    "y": 0,
+    "width": 64,
+    "height": 64,
+    "parent": null,
+    "innerWidth": 10880,
+    "innerHeight": 8576
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/hushlight_expanse/images/places/PLACE_cosmos.png?v=1772313637531",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": true
+}

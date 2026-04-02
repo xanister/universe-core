@@ -1,0 +1,61 @@
+{
+  "id": "OBJ_charterlock_store_candelabra_floor_0026",
+  "label": "Floor Candelabra",
+  "description": "A tall ornate silver candelabra with many candles.",
+  "important": false,
+  "short_description": "floor candelabra",
+  "tags": [
+    "common",
+    "lighting",
+    "tavern"
+  ],
+  "entityType": "object",
+  "info": {
+    "purpose": "lighting",
+    "solid": true,
+    "layer": "default",
+    "isStructural": false,
+    "material": null,
+    "tint": null,
+    "spriteConfig": {
+      "spriteId": "candelabra_floor",
+      "frame": null,
+      "animationKey": null,
+      "animated": false,
+      "facing": "south"
+    },
+    "hp": null,
+    "maxHp": null,
+    "state": null,
+    "contents": null,
+    "lightSource": {
+      "radius": 120,
+      "color": 16755268,
+      "intensity": 0.45,
+      "flicker": true,
+      "flickerSpeed": 200,
+      "flickerRange": 0.1,
+      "offsetX": 0,
+      "offsetY": -20
+    },
+    "itemId": null,
+    "plotId": null
+  },
+  "position": {
+    "x": 256,
+    "y": 544,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_charterlock_store"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "relationships": [],
+  "image": null,
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": null
+}

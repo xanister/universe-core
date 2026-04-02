@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_meridian_ledgerhouse",
+  "label": "Meridian Ledgerhouse",
+  "description": "Meridian Ledgerhouse is a compact habitation suite set deep within the Pale Meridian Enclave’s ferrocrete terraces, its plan arranged for prolonged seal and rationed living. The walls are clad in pale plasteel panels scored by service numerals, and the ceilings carry redundant conduit runs that route power, vox, and air through armored junction boxes. A narrow antechamber opens onto a main living bay with fixed bunks and fold-down tables bolted to the deck, while a recessed alcove contains a sealed wash niche and storage lockers with tamper latches. Lighting remains a constant, low lumen strip-glow suited to blackout doctrine, and the air carries the dry sterility of filtered circulation.",
+  "short_description": "sealed habitation suite",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "residence",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "building_residence",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/battles/PLACE_meridian_ledgerhouse.png?v=1771996259795",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 2224,
+    "y": 2912,
+    "width": 160,
+    "height": 256,
+    "parent": "PLACE_pale_meridian_enclave",
+    "innerWidth": 736,
+    "innerHeight": 1024
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/places/PLACE_meridian_ledgerhouse.png?v=1771996313717",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

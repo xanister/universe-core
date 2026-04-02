@@ -1,0 +1,396 @@
+{
+  "id": "PLOT_the_three_day_custody",
+  "label": "The Three-Day Custody",
+  "description": "A stranger forces a sealed item into your hands and demands you protect it for three days—then vanishes. Soon, people who should not know you exist begin hunting you for what you carry.",
+  "universeId": null,
+  "requiredPlaceTags": null,
+  "plot": "Opening hook: the item is oddly warm and leaves a faint residue on the skin that won’t wash off.\nA breathless courier with haunted eyes and hurried manners shoves a sealed item into the players’ hands, orders them to protect it for three days, and disappears before questions can be asked. Almost immediately, a patient collector of forbidden valuables who weaponizes contracts uses watchers, bribed officials, and hired muscle to triangulate the item’s location, forcing the players to keep moving and seek help. A streetwise clerk-for-hire who knows how to read seals and paperwork helps the players discover a twist: the item is designed to “attach” responsibility and access rights to whoever holds it continuously until the third day, turning the protectors into the legal/ritual owner on record. When the courier returns at the three-day mark, they try to take the item back—because the collector’s contract can only be completed once someone else has been made the recorded holder, making the players the perfect scapegoats. A dutiful local enforcer torn between orders and conscience tightens the net, but can be convinced that the paperwork and pursuit don’t add up. In the climax, the players choose whether to surrender the item in a controlled sting, keep it and accept the consequences of ownership, or destroy it to break the scheme—each option reshaping who gets blamed, who gains power, and who comes after them next.",
+  "characters": [
+    {
+      "role": "client",
+      "description": "Breathless, travel-worn, with shaking hands and eyes that keep checking exits; speaks in clipped phrases and refuses to answer questions.",
+      "publicFace": "A terrified messenger trying to keep something out of the wrong hands.",
+      "hiddenTruth": "They are part of the collector’s laundering chain (willingly or under duress) and used the players to transfer ownership/culpability during the three-day attunement window.",
+      "locationHint": "crowded transit concourse where deals happen fast",
+      "introductionProgress": 0,
+      "matchHint": "breathless courier with haunted eyes and hurried manners"
+    },
+    {
+      "role": "antagonist",
+      "description": "Immaculate or carefully maintained appearance, calm voice, patient smile; never raises their tone, prefers signed promises to open threats.",
+      "publicFace": "A respectable dealer/administrator who ‘recovers lost property’ for a fee.",
+      "hiddenTruth": "They engineered the three-day custody to force ownership onto a disposable holder, then reclaim the item while pinning every associated crime or breach on the players.",
+      "locationHint": "private office above a legitimate front business with discreet security",
+      "introductionProgress": 70,
+      "matchHint": "patient collector of forbidden valuables who weaponizes contracts"
+    },
+    {
+      "role": "informant",
+      "description": "Quick-eyed, ink-stained fingers, practical clothing with hidden pockets; constantly scribbling, counting, and cross-referencing.",
+      "publicFace": "A fixer who can decode seals, tags, and official language for the right price.",
+      "hiddenTruth": "They have been burned by the collector before and will help—partly for pay, partly for revenge—but may try to keep a copy of any incriminating proof.",
+      "locationHint": "backroom workshop that can analyze odd items",
+      "introductionProgress": 25,
+      "matchHint": "streetwise clerk-for-hire who knows how to read seals and paperwork"
+    },
+    {
+      "role": "obstacle",
+      "description": "Uniformed or clearly marked authority figure, tired posture, watchful eyes; speaks formally but hesitates when orders seem wrong.",
+      "publicFace": "An enforcer tasked with stopping disturbances and recovering a ‘stolen’ item.",
+      "hiddenTruth": "Their superiors are compromised; if shown convincing evidence, they can become a reluctant ally or at least look the other way at a key moment.",
+      "locationHint": "checkpoint-controlled street junctions and administrative corridors",
+      "introductionProgress": 35,
+      "matchHint": "dutiful local enforcer torn between orders and conscience"
+    }
+  ],
+  "places": [
+    {
+      "description": "A loud, tight-packed knot of travelers, vendors, and security where anonymity is possible but every mistake is witnessed by someone.",
+      "storyRole": "Inciting scene and recurring pressure-cooker location for tails, near-misses, and the first signs the players are being tracked.",
+      "matchHint": "crowded transit concourse where deals happen fast"
+    },
+    {
+      "description": "A cramped, tool-littered room smelling of solvents, paper, and hot metal; shelves of odd locks, seals, and reference ledgers.",
+      "storyRole": "Where the players can learn what the item is, how the three-day mechanism works, and what kinds of authorities might recognize it.",
+      "matchHint": "backroom workshop that can analyze odd items"
+    },
+    {
+      "description": "An out-of-the-way structure with multiple entrances, echoing interior space, and signs of recent ‘professional’ use—chalk marks, crates, and lookout points.",
+      "storyRole": "Likely handoff site for the courier’s return and the final confrontation with the collector’s people.",
+      "matchHint": "riverfront warehouse used for discreet handoffs"
+    }
+  ],
+  "items": [],
+  "turningPoints": [
+    {
+      "id": "TP_forced_custody",
+      "progressTarget": 0,
+      "dramaticRole": "inciting_incident",
+      "involvedCharacter": "breathless courier with haunted eyes and hurried manners",
+      "triggerOnFlags": [],
+      "essentialInformation": [
+        "The player learns they have been compelled to safeguard a sealed item for exactly three days.",
+        "The player learns the courier disappears immediately, preventing questions and consent."
+      ],
+      "triggerConditions": null,
+      "conditionTimeoutHours": null,
+      "conditionsEligibleSince": null,
+      "triggered": false,
+      "triggeredAt": null,
+      "triggeredByEventId": null,
+      "outcome": null,
+      "flagsSet": null
+    },
+    {
+      "id": "TP_the_hunt_begins",
+      "progressTarget": 35,
+      "dramaticRole": "rising_action",
+      "involvedCharacter": "dutiful local enforcer torn between orders and conscience",
+      "triggerOnFlags": [],
+      "essentialInformation": [
+        "The player learns multiple parties are actively tracking the item, not just the players.",
+        "The player learns ordinary channels (guards/officials/bounty agents) have been primed to treat the item as stolen or dangerous."
+      ],
+      "triggerConditions": null,
+      "conditionTimeoutHours": null,
+      "conditionsEligibleSince": null,
+      "triggered": false,
+      "triggeredAt": null,
+      "triggeredByEventId": null,
+      "outcome": null,
+      "flagsSet": null
+    },
+    {
+      "id": "TP_contract_in_the_seal",
+      "progressTarget": 55,
+      "dramaticRole": "midpoint",
+      "involvedCharacter": "streetwise clerk-for-hire who knows how to read seals and paperwork",
+      "triggerOnFlags": [],
+      "essentialInformation": [
+        "The player learns the item’s seal encodes a transfer mechanism that assigns responsibility/ownership to whoever holds it through the third day.",
+        "The player learns the three-day timer is the point at which the item becomes usable or claimable in a way that creates a clear ‘owner on record’."
+      ],
+      "triggerConditions": null,
+      "conditionTimeoutHours": null,
+      "conditionsEligibleSince": null,
+      "triggered": false,
+      "triggeredAt": null,
+      "triggeredByEventId": null,
+      "outcome": null,
+      "flagsSet": null
+    },
+    {
+      "id": "TP_return_and_reclaim",
+      "progressTarget": 70,
+      "dramaticRole": "crisis",
+      "involvedCharacter": "breathless courier with haunted eyes and hurried manners",
+      "triggerOnFlags": [],
+      "essentialInformation": [
+        "The player learns the courier’s return is meant to complete the transfer and leave the players holding the blame.",
+        "The player learns refusing the handoff triggers an immediate attempt to seize the item by force or coercion."
+      ],
+      "triggerConditions": null,
+      "conditionTimeoutHours": null,
+      "conditionsEligibleSince": null,
+      "triggered": false,
+      "triggeredAt": null,
+      "triggeredByEventId": null,
+      "outcome": null,
+      "flagsSet": null
+    },
+    {
+      "id": "TP_final_exchange",
+      "progressTarget": 85,
+      "dramaticRole": "climax",
+      "involvedCharacter": "patient collector of forbidden valuables who weaponizes contracts",
+      "triggerOnFlags": [],
+      "essentialInformation": [
+        "The player learns the collector’s scheme depends on controlling the narrative of ‘lawful recovery’ while the players become the documented culprit.",
+        "The player learns the item’s fate (surrender, keep, or destroy) will determine who gains leverage and who becomes the target afterward."
+      ],
+      "triggerConditions": null,
+      "conditionTimeoutHours": null,
+      "conditionsEligibleSince": null,
+      "triggered": false,
+      "triggeredAt": null,
+      "triggeredByEventId": null,
+      "outcome": null,
+      "flagsSet": null
+    },
+    {
+      "id": "TP_fallout",
+      "progressTarget": 92,
+      "dramaticRole": "resolution",
+      "involvedCharacter": "dutiful local enforcer torn between orders and conscience",
+      "triggerOnFlags": [],
+      "essentialInformation": [
+        "The player learns the immediate consequences of their choice ripple outward through local power structures and future pursuit.",
+        "The player learns whether the contract trail points at them or at the collector."
+      ],
+      "triggerConditions": null,
+      "conditionTimeoutHours": null,
+      "conditionsEligibleSince": null,
+      "triggered": false,
+      "triggeredAt": null,
+      "triggeredByEventId": null,
+      "outcome": null,
+      "flagsSet": null
+    }
+  ],
+  "goals": [
+    {
+      "id": "GOAL_survive_three_days",
+      "description": "Keep the sealed item out of enemy hands until the end of the third day.",
+      "progressBoost": 35,
+      "revealOnFlags": [],
+      "successFlags": [
+        "three_days_survived"
+      ],
+      "failureFlags": [
+        "item_lost_early"
+      ],
+      "failureDeadlineHours": 72,
+      "hidden": false,
+      "destinationPlaceId": null,
+      "goalType": null,
+      "stakes": null,
+      "personalHook": null,
+      "dramaticQuestion": null,
+      "immediateHint": null,
+      "blockedByFlags": null,
+      "status": null,
+      "revealedAt": null
+    },
+    {
+      "id": "GOAL_learn_the_seal",
+      "description": "Figure out what the item is and why the three-day deadline matters.",
+      "progressBoost": 25,
+      "revealOnFlags": [
+        "item_received"
+      ],
+      "successFlags": [
+        "truth_uncovered"
+      ],
+      "failureFlags": [
+        "leads_exhausted"
+      ],
+      "failureDeadlineHours": 48,
+      "hidden": false,
+      "destinationPlaceId": null,
+      "goalType": null,
+      "stakes": null,
+      "personalHook": null,
+      "dramaticQuestion": null,
+      "immediateHint": null,
+      "blockedByFlags": null,
+      "status": null,
+      "revealedAt": null
+    },
+    {
+      "id": "GOAL_face_the_return",
+      "description": "Handle the courier’s return without becoming the scapegoat—by forcing the truth into the open, taking control of the handoff, or breaking the scheme.",
+      "progressBoost": 40,
+      "revealOnFlags": [
+        "courier_returns"
+      ],
+      "successFlags": [
+        "collector_driven_off",
+        "deal_struck"
+      ],
+      "failureFlags": [
+        "collector_escapes"
+      ],
+      "failureDeadlineHours": 6,
+      "hidden": false,
+      "destinationPlaceId": null,
+      "goalType": null,
+      "stakes": null,
+      "personalHook": null,
+      "dramaticQuestion": null,
+      "immediateHint": null,
+      "blockedByFlags": null,
+      "status": null,
+      "revealedAt": null
+    },
+    {
+      "id": "GOAL_decide_item_fate",
+      "description": "Choose the item’s final outcome: surrender it, keep it, or destroy it.",
+      "progressBoost": 30,
+      "revealOnFlags": [
+        "three_days_survived"
+      ],
+      "successFlags": [
+        "item_surrendered",
+        "item_kept",
+        "item_destroyed"
+      ],
+      "failureFlags": [
+        "item_lost_early"
+      ],
+      "failureDeadlineHours": 6,
+      "hidden": false,
+      "destinationPlaceId": null,
+      "goalType": null,
+      "stakes": null,
+      "personalHook": null,
+      "dramaticQuestion": null,
+      "immediateHint": null,
+      "blockedByFlags": null,
+      "status": null,
+      "revealedAt": null
+    }
+  ],
+  "possibleFlags": [
+    {
+      "id": "item_received",
+      "triggerDescription": "Set when the players accept or are forced to take physical custody of the sealed item."
+    },
+    {
+      "id": "protection_started",
+      "triggerDescription": "Set when the players commit to the three-day protection (even reluctantly), marking the timer as begun."
+    },
+    {
+      "id": "item_lost_early",
+      "triggerDescription": "Set if the item is taken from the players or irretrievably lost before the three days are completed."
+    },
+    {
+      "id": "three_days_survived",
+      "triggerDescription": "Set when the players still possess the item at the end of the third day."
+    },
+    {
+      "id": "truth_uncovered",
+      "triggerDescription": "Set when the players learn the seal functions as a transfer-of-responsibility/ownership mechanism tied to continuous custody."
+    },
+    {
+      "id": "leads_exhausted",
+      "triggerDescription": "Set if the players fail to uncover what the item is after significant investigation and opportunities are spent."
+    },
+    {
+      "id": "courier_returns",
+      "triggerDescription": "Set when the original courier reappears to demand the item back at the three-day mark."
+    },
+    {
+      "id": "item_surrendered",
+      "triggerDescription": "Set when the players hand the item over to the courier/collector side (voluntarily or under duress) during the final exchange."
+    },
+    {
+      "id": "item_kept",
+      "triggerDescription": "Set when the players refuse to surrender the item and retain custody after the final exchange."
+    },
+    {
+      "id": "item_destroyed",
+      "triggerDescription": "Set when the players destroy or permanently neutralize the item to prevent anyone from using it."
+    },
+    {
+      "id": "collector_driven_off",
+      "triggerDescription": "Set when the players defeat, outmaneuver, or publicly expose the collector enough to stop the immediate reclaim attempt."
+    },
+    {
+      "id": "collector_escapes",
+      "triggerDescription": "Set when the collector avoids consequences and remains free to retaliate later."
+    },
+    {
+      "id": "deal_struck",
+      "triggerDescription": "Set when the players negotiate a binding compromise (bribe, trade, blackmail, or official bargain) that ends the immediate conflict."
+    }
+  ],
+  "endingCards": [
+    {
+      "condition": {
+        "type": "flag_set",
+        "flag": "item_lost_early"
+      },
+      "title": "A Convenient Culprit",
+      "text": "With the item gone, the story hardens around you: witnesses remember you carrying it, and someone else writes the ending. Whatever was inside the seal, it now moves against you from the shadows.",
+      "image": null
+    },
+    {
+      "condition": {
+        "type": "flag_set",
+        "flag": "item_surrendered"
+      },
+      "title": "Signed Away",
+      "text": "You hand it over, and the pressure eases—too quickly. Within days, rumors and records begin pointing to you as the last ‘responsible’ holder, unless you took steps to turn the exchange into a trap.",
+      "image": null
+    },
+    {
+      "condition": {
+        "type": "flag_set",
+        "flag": "item_kept"
+      },
+      "title": "New Owners, New Enemies",
+      "text": "Keeping it grants leverage, but also paints a target on your back. The contract’s imprint makes you the easiest person to blame—and the only person who can decide how it’s used.",
+      "image": null
+    },
+    {
+      "condition": {
+        "type": "flag_set",
+        "flag": "item_destroyed"
+      },
+      "title": "Broken Chain",
+      "text": "Destroying it snaps the collector’s clean paper trail and ruins the planned transfer. The collector’s network loses a tool, but you gain a lasting reputation as someone who can’t be bought.",
+      "image": null
+    },
+    {
+      "condition": {
+        "type": "always",
+        "flag": ""
+      },
+      "title": "Three Days Remembered",
+      "text": "The three-day custody changes what the world believes about you—competent protectors, reckless criminals, or dangerous independents. Someone who wanted you disposable now has to account for you.",
+      "image": null
+    }
+  ],
+  "credits": {
+    "title": "The Three-Day Custody",
+    "entries": [
+      {
+        "role": "Plot",
+        "name": "Storyteller"
+      }
+    ]
+  },
+  "plotStartDelay": null,
+  "image": null,
+  "vesselConfig": null
+}

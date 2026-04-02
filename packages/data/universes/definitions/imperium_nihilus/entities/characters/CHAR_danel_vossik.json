@@ -1,0 +1,764 @@
+{
+  "id": "CHAR_danel_vossik",
+  "label": "Danel Vossik",
+  "description": "A lean young adult of human stock, bearing light skin marked by wind-chap across the cheeks and a long-healed cut at the right brow. Blue eyes sit deep under straight brows, giving the face an intent, forward-looking cast. Blonde hair is worn in a messy2 fall that frames an angular jaw and prominent cheekbones. The hands show early callus at the palms and fingers, consistent with steady travel and habitual gear-handling.",
+  "short_description": "young male traveler",
+  "tags": [],
+  "entityType": "character",
+  "info": {
+    "purpose": "player",
+    "aliases": [
+      "Voss"
+    ],
+    "birthdate": "998.M41",
+    "deathdate": null,
+    "title": null,
+    "birthPlace": "The Cinderwake",
+    "eyeColor": "blue",
+    "gender": "male",
+    "hairColor": "blonde",
+    "hairStyle": "messy2",
+    "beardStyle": null,
+    "headType": "human_male",
+    "skinTone": "light",
+    "personality": "Restless and purposeful, this newcomer measures life by roads taken and risks accepted, treating each encounter as a test of character and competence. He pursues adventure as a disciplined search for meaning, preferring direct action and honest bargains over idle talk. He maintains a practical optimism that survives hardship and keeps him moving when others settle.",
+    "race": "human",
+    "messages": [
+      {
+        "role": "user",
+        "action": "input",
+        "opts": {
+          "text": "I look around."
+        },
+        "date": "999.M1 05:57",
+        "omitFromTranscript": false,
+        "hidden": false
+      },
+      {
+        "date": "999.M1 05:59",
+        "omitFromTranscript": false,
+        "hidden": false,
+        "role": "assistant",
+        "action": "narration",
+        "opts": {
+          "text": "Dawn’s clouded light lies dull on the soot-dark plating; tether rings stud the cinder-scoured deck, low bulwarks hem the edge, and braced rigging and cable-stays hum faintly with a prickling electrostatic charge, shuttered lantern housings giving only a grudging gray. Near the helm the lean helmsman keeps the ship steady with both hands, the broad-shouldered captain stands watchful a few paces off like a verdict, and a young traveler lingers by the lash points and hatch coamings, eyes roaming as if measuring who belongs."
+        }
+      },
+      {
+        "role": "user",
+        "action": "input",
+        "opts": {
+          "text": "I look around."
+        },
+        "date": "999.M1 06:00",
+        "omitFromTranscript": false,
+        "hidden": false
+      },
+      {
+        "date": "999.M1 06:02",
+        "omitFromTranscript": false,
+        "hidden": false,
+        "role": "assistant",
+        "action": "narration",
+        "opts": {
+          "text": "Cloudy dawn leaks a flat gray light over ash-scored planking, tether rings, low bulwarks, soot-dark plating, shuttered lanterns, and cable-braced rigging on iron-banded spars; beyond the rail, violet storm-glare stains the horizon like a bruise that won’t confess. Two young travelers linger near the weathered rail, the helmsman stands braced at the wheel like it owes him money, and the captain paces with the proprietorial impatience of a man supervising the concept of safety; from here no obvious gangplank or easy exit shows, and everything looks cinched down for hard weather."
+        }
+      },
+      {
+        "role": "user",
+        "action": "input",
+        "opts": {
+          "text": "I do a complex dance"
+        },
+        "date": "999.M1 06:03",
+        "omitFromTranscript": false,
+        "hidden": false
+      },
+      {
+        "role": "assistant",
+        "action": "milestone",
+        "opts": {
+          "type": "skill_check",
+          "label": "⚔ Perform a complex dance on the deck.",
+          "subtext": "Success!",
+          "entityId": null,
+          "checkDetail": {
+            "type": "standard",
+            "stat": "dexterity",
+            "statValue": 50,
+            "roll": 16,
+            "modifier": 20,
+            "target": 70
+          },
+          "combatData": null
+        },
+        "date": null,
+        "omitFromTranscript": true,
+        "hidden": false
+      },
+      {
+        "date": "999.M1 06:08",
+        "omitFromTranscript": false,
+        "hidden": false,
+        "role": "assistant",
+        "action": "narration",
+        "opts": {
+          "text": "Flat gray dawn watches in judgment as the ship rolls underfoot; the routine threads between tether rings and bulwark with irritating competence, ending cleanly without so much as a toe to the wrong plank. The two young travelers blink, then grin at each other like they’ve just been handed a free scandal, while the helmsman flicks a quick approving glance and keeps the wheel like it’s a religious obligation; the captain’s pacing stutters, offended that grace has occurred without permits."
+        }
+      },
+      {
+        "date": "999.M1 06:08",
+        "omitFromTranscript": false,
+        "hidden": false,
+        "role": "assistant",
+        "action": "dialog",
+        "opts": {
+          "characterId": "CHAR_danel_vossik",
+          "text": "Well. That’s one way to keep warm without paying for rum."
+        }
+      },
+      {
+        "date": "999.M1 06:08",
+        "omitFromTranscript": false,
+        "hidden": false,
+        "role": "assistant",
+        "action": "dialog",
+        "opts": {
+          "characterId": "CHAR_severan_dusk",
+          "text": "Good footwork. Don’t do it near the lines."
+        }
+      },
+      {
+        "role": "assistant",
+        "action": "dialog",
+        "opts": {
+          "characterId": "CHAR_kael_orsino",
+          "text": "If the storm takes us, at least we’ll die cultured."
+        },
+        "date": "999.M1 06:08",
+        "omitFromTranscript": false,
+        "hidden": false
+      },
+      {
+        "role": "assistant",
+        "action": "dialog",
+        "opts": {
+          "characterId": "CHAR_severin_drach",
+          "text": "Marvelous. Now, unless that dance is rated for rigging maintenance, kindly keep your heroics where they don’t tempt the sea to notice us."
+        },
+        "date": "999.M1 06:08",
+        "omitFromTranscript": false,
+        "hidden": false
+      },
+      {
+        "role": "assistant",
+        "action": "milestone",
+        "opts": {
+          "type": "location_entered",
+          "label": "Vespera Tertius",
+          "subtext": null,
+          "entityId": "PLACE_vespera_tertius",
+          "checkDetail": null,
+          "combatData": null
+        },
+        "date": null,
+        "omitFromTranscript": true,
+        "hidden": false
+      },
+      {
+        "role": "assistant",
+        "action": "milestone",
+        "opts": {
+          "type": "location_entered",
+          "label": "Vespera Tertius Shard Basilica",
+          "subtext": null,
+          "entityId": "PLACE_vespera_tertius_shard_basilica",
+          "checkDetail": null,
+          "combatData": null
+        },
+        "date": null,
+        "omitFromTranscript": true,
+        "hidden": false
+      },
+      {
+        "role": "assistant",
+        "action": "milestone",
+        "opts": {
+          "type": "location_entered",
+          "label": "Vespera Tertius",
+          "subtext": null,
+          "entityId": "PLACE_vespera_tertius",
+          "checkDetail": null,
+          "combatData": null
+        },
+        "date": null,
+        "omitFromTranscript": true,
+        "hidden": false
+      },
+      {
+        "role": "assistant",
+        "action": "milestone",
+        "opts": {
+          "type": "location_entered",
+          "label": "Vespera Tertius Sablewater Lake",
+          "subtext": null,
+          "entityId": "PLACE_vespera_tertius_sablewater_lake",
+          "checkDetail": null,
+          "combatData": null
+        },
+        "date": null,
+        "omitFromTranscript": true,
+        "hidden": false
+      },
+      {
+        "role": "assistant",
+        "action": "milestone",
+        "opts": {
+          "type": "location_entered",
+          "label": "Vespera Tertius",
+          "subtext": null,
+          "entityId": "PLACE_vespera_tertius",
+          "checkDetail": null,
+          "combatData": null
+        },
+        "date": null,
+        "omitFromTranscript": true,
+        "hidden": false
+      },
+      {
+        "role": "assistant",
+        "action": "milestone",
+        "opts": {
+          "type": "location_entered",
+          "label": "Vespera Tertius Nocturnis Bastion",
+          "subtext": null,
+          "entityId": "PLACE_vespera_tertius_nocturnis_bastion",
+          "checkDetail": null,
+          "combatData": null
+        },
+        "date": null,
+        "omitFromTranscript": true,
+        "hidden": false
+      },
+      {
+        "role": "assistant",
+        "action": "milestone",
+        "opts": {
+          "type": "location_entered",
+          "label": "Vespera Tertius Nocturnis Bastion",
+          "subtext": null,
+          "entityId": "PLACE_vespera_tertius_nocturnis_bastion",
+          "checkDetail": null,
+          "combatData": null
+        },
+        "date": null,
+        "omitFromTranscript": true,
+        "hidden": false
+      },
+      {
+        "role": "assistant",
+        "action": "milestone",
+        "opts": {
+          "type": "location_entered",
+          "label": "Vespera Tertius Nocturnis Bastion",
+          "subtext": null,
+          "entityId": "PLACE_vespera_tertius_nocturnis_bastion",
+          "checkDetail": null,
+          "combatData": null
+        },
+        "date": null,
+        "omitFromTranscript": true,
+        "hidden": false
+      },
+      {
+        "role": "user",
+        "action": "input",
+        "opts": {
+          "text": "I step toward the bastion guards, hands visible. “What’s the price for passage and work in there?” My eyes stay on their weapons.",
+          "classifiedActions": [
+            {
+              "type": "Dialogue",
+              "intent": "greet male bastion guard",
+              "targetRef": null,
+              "targetId": "CHAR_kaelen_vos",
+              "suggestedDifficulty": "trivial",
+              "suggestedStat": null,
+              "opposedBy": null,
+              "actionId": null,
+              "combatInitiated": false
+            }
+          ]
+        },
+        "date": "999.M1 09:20",
+        "omitFromTranscript": false,
+        "hidden": false
+      },
+      {
+        "date": "999.M1 09:25",
+        "omitFromTranscript": false,
+        "hidden": false,
+        "role": "assistant",
+        "action": "narration",
+        "opts": {
+          "text": "Clear morning light lays hard edges on the vitrified wall as Kaelen Vos squares his stance and lifts two fingers in a tight, procedural signal; Iscar Venn stays half a pace back, eyes tracking your hands and then the weapon racks, while the young male traveler goes still, listening. Kaelen’s gaze flicks to the armory counter/desk and then back, jaw set."
+        }
+      },
+      {
+        "date": null,
+        "omitFromTranscript": true,
+        "hidden": false,
+        "role": "assistant",
+        "action": "face",
+        "opts": {
+          "characterId": "CHAR_kaelen_vos",
+          "targetCharacterId": "CHAR_alaric_morn",
+          "direction": "up"
+        }
+      },
+      {
+        "date": "999.M1 09:25",
+        "omitFromTranscript": false,
+        "hidden": false,
+        "role": "assistant",
+        "action": "dialog",
+        "opts": {
+          "characterId": "CHAR_kaelen_vos",
+          "text": "Passage is after registration: name, purpose, and declare any arms. Gate fee for transients—bond if you’re staying to work."
+        }
+      },
+      {
+        "role": "assistant",
+        "action": "dialog",
+        "opts": {
+          "characterId": "CHAR_kaelen_vos",
+          "text": "Work isn’t hired at the gate; you report to the labor hall or quartermaster for day-chits and assessment. Hands shown is noted—step down off the counter and keep clear of the weapons."
+        },
+        "date": "999.M1 09:25",
+        "omitFromTranscript": false,
+        "hidden": false
+      },
+      {
+        "role": "assistant",
+        "action": "move_hint",
+        "opts": {
+          "targetId": "CHAR_kaelen_vos"
+        },
+        "date": null,
+        "omitFromTranscript": true,
+        "hidden": false
+      },
+      {
+        "role": "user",
+        "action": "input",
+        "opts": {
+          "text": "I say hello"
+        },
+        "date": "999.M1 09:28",
+        "omitFromTranscript": false,
+        "hidden": false
+      },
+      {
+        "date": "999.M1 09:29",
+        "omitFromTranscript": false,
+        "hidden": false,
+        "role": "assistant",
+        "action": "narration",
+        "opts": {
+          "text": "Clear morning light cuts across the black glassy stone; Kaelen Vos doesn’t relax, just angles his chin down in a curt acknowledgment while keeping his eyes on your hands. Iscar Venn stays half a step back, weight set, and the young male traveler looks away as if he hadn’t heard."
+        }
+      },
+      {
+        "date": "999.M1 09:29",
+        "omitFromTranscript": false,
+        "hidden": false,
+        "role": "assistant",
+        "action": "dialog",
+        "opts": {
+          "characterId": "CHAR_kaelen_vos",
+          "text": "Morning. Step down off the counter and keep your hands where I can see them."
+        }
+      },
+      {
+        "role": "assistant",
+        "action": "dialog",
+        "opts": {
+          "characterId": "CHAR_kaelen_vos",
+          "text": "Now—name, purpose, and declare any arms."
+        },
+        "date": "999.M1 09:29",
+        "omitFromTranscript": false,
+        "hidden": false
+      },
+      {
+        "role": "assistant",
+        "action": "move_hint",
+        "opts": {
+          "targetId": "CHAR_kaelen_vos"
+        },
+        "date": null,
+        "omitFromTranscript": true,
+        "hidden": false
+      },
+      {
+        "role": "assistant",
+        "action": "milestone",
+        "opts": {
+          "type": "location_entered",
+          "label": "Vespera Tertius Nocturnis Bastion",
+          "subtext": null,
+          "entityId": "PLACE_vespera_tertius_nocturnis_bastion",
+          "checkDetail": null,
+          "combatData": null
+        },
+        "date": null,
+        "omitFromTranscript": true,
+        "hidden": false
+      },
+      {
+        "role": "assistant",
+        "action": "milestone",
+        "opts": {
+          "type": "location_entered",
+          "label": "Vespera Tertius Nocturnis Bastion",
+          "subtext": null,
+          "entityId": "PLACE_vespera_tertius_nocturnis_bastion",
+          "checkDetail": null,
+          "combatData": null
+        },
+        "date": null,
+        "omitFromTranscript": true,
+        "hidden": false
+      },
+      {
+        "role": "assistant",
+        "action": "milestone",
+        "opts": {
+          "type": "location_entered",
+          "label": "Vespera Tertius Nocturnis Bastion",
+          "subtext": null,
+          "entityId": "PLACE_vespera_tertius_nocturnis_bastion",
+          "checkDetail": null,
+          "combatData": null
+        },
+        "date": null,
+        "omitFromTranscript": true,
+        "hidden": false
+      },
+      {
+        "role": "assistant",
+        "action": "milestone",
+        "opts": {
+          "type": "location_entered",
+          "label": "Vespera Tertius Nocturnis Bastion",
+          "subtext": null,
+          "entityId": "PLACE_vespera_tertius_nocturnis_bastion",
+          "checkDetail": null,
+          "combatData": null
+        },
+        "date": null,
+        "omitFromTranscript": true,
+        "hidden": false
+      },
+      {
+        "role": "assistant",
+        "action": "milestone",
+        "opts": {
+          "type": "location_entered",
+          "label": "Vespera Tertius Nocturnis Bastion",
+          "subtext": null,
+          "entityId": "PLACE_vespera_tertius_nocturnis_bastion",
+          "checkDetail": null,
+          "combatData": null
+        },
+        "date": null,
+        "omitFromTranscript": true,
+        "hidden": false
+      },
+      {
+        "role": "assistant",
+        "action": "milestone",
+        "opts": {
+          "type": "location_entered",
+          "label": "Vespera Tertius Nocturnis Bastion",
+          "subtext": null,
+          "entityId": "PLACE_vespera_tertius_nocturnis_bastion",
+          "checkDetail": null,
+          "combatData": null
+        },
+        "date": null,
+        "omitFromTranscript": true,
+        "hidden": false
+      },
+      {
+        "role": "assistant",
+        "action": "milestone",
+        "opts": {
+          "type": "location_entered",
+          "label": "Vespera Tertius Nocturnis Bastion",
+          "subtext": null,
+          "entityId": "PLACE_vespera_tertius_nocturnis_bastion",
+          "checkDetail": null,
+          "combatData": null
+        },
+        "date": null,
+        "omitFromTranscript": true,
+        "hidden": false
+      },
+      {
+        "role": "assistant",
+        "action": "milestone",
+        "opts": {
+          "type": "location_entered",
+          "label": "Vespera Tertius Nocturnis Bastion",
+          "subtext": null,
+          "entityId": "PLACE_vespera_tertius_nocturnis_bastion",
+          "checkDetail": null,
+          "combatData": null
+        },
+        "date": null,
+        "omitFromTranscript": true,
+        "hidden": false
+      }
+    ],
+    "journal": [
+      {
+        "content": "You stand on the soot-plated deck of the Cinderwake as ash drifts like dirty snow and violet storm-glare leaks through shuttered lantern slits. Tethers bite your palms when the electrostatic gale tugs the rigging, and the ship’s iron-banded spars creak with the slow, prayerful strain of endurance under rift-shadowed skies.\n\nYou are here by Imperial charter and necessity: a sanctioned asset moving where vox and astropath fail, trading certainty for passage. Around you, crew and armsmen keep their faith close and their eyes closer, because in Imperium Nihilus even a simple crossing feels like a vow spoken with blood in the mouth.",
+        "gameDate": "999.M1 05:57",
+        "facts": [
+          {
+            "placeId": null,
+            "category": "world",
+            "subject": "Current Situation",
+            "subjectId": null,
+            "fact": "The Great Rift has made messages and travel unreliable; ships like this are used because safer options often don’t exist.",
+            "significance": "minor",
+            "important": false
+          },
+          {
+            "placeId": null,
+            "category": "world",
+            "subject": "Current Situation",
+            "subjectId": null,
+            "fact": "The Cinderwake’s plating, sealed seams, and cable-braced rigging are meant to survive ashfall and electrostatic gales.",
+            "significance": "minor",
+            "important": false
+          },
+          {
+            "placeId": null,
+            "category": "knowledge",
+            "subject": "Current Situation",
+            "subjectId": null,
+            "fact": "As a charter-bound operative, you’re expected to obey Imperial protocol aboard ship—disobedience invites punishment fast and public.",
+            "significance": "minor",
+            "important": false
+          }
+        ],
+        "image": null,
+        "context": null
+      }
+    ],
+    "sketches": [],
+    "verbosity": 3,
+    "conversationContext": null,
+    "storytellerState": {
+      "storytellerId": "STORYTELLER_the_saffron_veil_bard",
+      "voiceId": "lily",
+      "activePlots": [],
+      "generationInProgress": false,
+      "eventHistory": [],
+      "storytellerSelectedAt": "999.M1 05:57",
+      "custom": {}
+    },
+    "isPlayer": true,
+    "storyComplete": false,
+    "routine": null,
+    "vesselRoutes": null,
+    "abstractLocation": null,
+    "npcBehavior": null,
+    "physicalState": null,
+    "pendingDeparture": null,
+    "pendingArrival": null,
+    "lastRoutineCheckPeriod": "night",
+    "startingNarrative": "You stand on the soot-plated deck of the Cinderwake as ash drifts like dirty snow and violet storm-glare leaks through shuttered lantern slits. Tethers bite your palms when the electrostatic gale tugs the rigging, and the ship’s iron-banded spars creak with the slow, prayerful strain of endurance under rift-shadowed skies.\n\nYou are here by Imperial charter and necessity: a sanctioned asset moving where vox and astropath fail, trading certainty for passage. Around you, crew and armsmen keep their faith close and their eyes closer, because in Imperium Nihilus even a simple crossing feels like a vow spoken with blood in the mouth.",
+    "startingCharacterState": "Restless, keyed to motion and risk, holding practical optimism under disciplined caution.",
+    "clothing": [
+      {
+        "slot": "torso_under",
+        "itemId": "tunic",
+        "color": "#f5f0e8",
+        "contents": null
+      },
+      {
+        "slot": "torso_over",
+        "itemId": "trenchcoat",
+        "color": "#3a3a3a",
+        "contents": null
+      },
+      {
+        "slot": "legs",
+        "itemId": "cloth_pants",
+        "color": "#8b4513",
+        "contents": null
+      },
+      {
+        "slot": "feet",
+        "itemId": "boots",
+        "color": "#1a1a1a",
+        "contents": null
+      },
+      {
+        "slot": "belt",
+        "itemId": "leather_belt",
+        "color": null,
+        "contents": []
+      },
+      {
+        "slot": "hands",
+        "itemId": "leather_bracers",
+        "color": "#8b4513",
+        "contents": null
+      },
+      {
+        "slot": "head",
+        "itemId": "leather_cap",
+        "color": "#8b4513",
+        "contents": null
+      }
+    ],
+    "enabledOverlayLayers": [
+      "eyes",
+      "facial"
+    ],
+    "helmingVesselId": null,
+    "storytellerDisabled": false,
+    "rulesetState": {
+      "stats": {
+        "physical": 50,
+        "mental": 50,
+        "social": 50,
+        "poise": 50,
+        "max_poise": 50,
+        "bloodloss": 0,
+        "anxiety": 0,
+        "fatigue": 0,
+        "hunger": 0
+      },
+      "conditions": [],
+      "statUsage": {},
+      "incapacitation": null,
+      "incapacitatedSince": null
+    },
+    "voiceId": "will",
+    "spriteConfig": {
+      "bodyType": "male",
+      "layers": [
+        {
+          "type": "body",
+          "optionId": "body_base",
+          "tint": 15780008
+        },
+        {
+          "type": "body",
+          "optionId": "body_universal",
+          "tint": 15780008
+        },
+        {
+          "type": "eyes",
+          "optionId": "eyes_eyes",
+          "tint": 4491485
+        },
+        {
+          "type": "hair",
+          "optionId": "hair_messy2",
+          "tint": 13936490
+        },
+        {
+          "type": "torso",
+          "optionId": "torso_formal_trenchcoat_male",
+          "tint": 3815994
+        },
+        {
+          "type": "legs",
+          "optionId": "legs_white_pants_male",
+          "tint": 9127187
+        },
+        {
+          "type": "feet",
+          "optionId": "feet_white_boots_male",
+          "tint": 1710618
+        },
+        {
+          "type": "belt",
+          "optionId": "belt_leather_male",
+          "tint": null
+        },
+        {
+          "type": "hands",
+          "optionId": "hands_leather_bracers_male",
+          "tint": 9127187
+        },
+        {
+          "type": "head",
+          "optionId": "head_leather_cap_male",
+          "tint": 9127187
+        }
+      ],
+      "spriteHash": "450ba5c74c0396e9",
+      "spriteUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/sprites/generated/450ba5c74c0396e9.png",
+      "spriteScale": 1
+    }
+  },
+  "position": {
+    "x": 1456,
+    "y": 1232,
+    "width": 32,
+    "height": 48,
+    "parent": "PLACE_vespera_tertius_nocturnis_bastion"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/characters/CHAR_danel_vossik.png?v=1771944499975",
+  "faceAnchorY": 0.18,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "talk"
+  },
+  "relationships": [
+    {
+      "targetId": "CHAR_kael_orsino",
+      "type": "acquaintance",
+      "disposition": 0,
+      "familiarity": 40,
+      "context": "Both are currently in PLACE_the_cinderwake with similarly restless, goal-oriented temperaments; likely to have crossed paths or sized each other up in a traveler/crew context.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_severan_dusk",
+      "type": "acquaintance",
+      "disposition": 0,
+      "familiarity": 40,
+      "context": "Both are in PLACE_the_cinderwake and Severan is a watch-keeper; Danel’s travel/gear-handling suggests he could have encountered him during routine movements around the vessel/port.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_severin_drach",
+      "type": "acquaintance",
+      "disposition": 0,
+      "familiarity": 40,
+      "context": "Both are in PLACE_the_cinderwake; as a commander, Severin would be a known figure to newcomers moving through ship/crew spaces, making a basic recognition-level relationship plausible.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_kestrel_arvant",
+      "type": null,
+      "familiarity": 20,
+      "disposition": 5,
+      "context": null,
+      "pendingGeneration": false
+    }
+  ],
+  "important": false
+}

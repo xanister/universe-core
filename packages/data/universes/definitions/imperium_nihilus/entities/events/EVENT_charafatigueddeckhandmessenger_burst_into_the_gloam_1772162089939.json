@@ -1,0 +1,20 @@
+{
+  "id": "EVENT_charafatigueddeckhandmessenger_burst_into_the_gloam_1772162089939",
+  "date": "999.M1 13:48",
+  "placeId": "PLACE_the_gloam_lantern",
+  "eventType": "turning_point",
+  "category": "world",
+  "subject": "The Gloam Lantern",
+  "subjectId": "PLACE_the_gloam_lantern",
+  "fact": "CHAR_a_fatigued_deckhand_messenger burst into The Gloam Lantern and warned CHAR_severin_ashcombe that a sealed dispatch must be safeguarded because it can trigger powerful Imperial action, and that someone at the docks is intercepting or killing messengers tied to missing tithes.",
+  "significance": "major",
+  "witnessIds": [
+    "CHAR_severin_ashcombe"
+  ],
+  "important": true,
+  "importanceScore": null,
+  "scope": "local",
+  "relevantPlaceIds": [
+    "PLACE_the_gloam_lantern"
+  ]
+}

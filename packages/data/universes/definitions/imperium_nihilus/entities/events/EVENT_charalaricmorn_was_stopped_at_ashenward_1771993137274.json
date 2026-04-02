@@ -1,0 +1,20 @@
+{
+  "id": "EVENT_charalaricmorn_was_stopped_at_ashenward_1771993137274",
+  "date": "999.M1 16:36",
+  "placeId": "PLACE_vespera_tertius_ashenward_city",
+  "eventType": "turning_point",
+  "category": "world",
+  "subject": "Vespera Tertius Ashenward City",
+  "subjectId": "PLACE_vespera_tertius_ashenward_city",
+  "fact": "CHAR_alaric_morn was stopped at Ashenward City perimeter by CHAR_seren_malkor and CHAR_severan_duskward after a dock-runner report linked a Cinderwake crew death to a sealed Imperial order and escalating unnatural interference; guards conveyed that a warding relic aboard the Cinderwake must be secured before docking.",
+  "significance": "major",
+  "witnessIds": [
+    "CHAR_alaric_morn"
+  ],
+  "important": true,
+  "importanceScore": null,
+  "scope": "local",
+  "relevantPlaceIds": [
+    "PLACE_vespera_tertius_ashenward_city"
+  ]
+}

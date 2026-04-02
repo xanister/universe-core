@@ -1,0 +1,704 @@
+{
+  "id": "temple",
+  "name": "Temple",
+  "description": "A place of worship",
+  "purposes": [
+    "temple"
+  ],
+  "spriteId": "building_temple",
+  "variants": [
+    {
+      "id": "A",
+      "scale": "feet",
+      "environment": {
+        "type": "interior",
+        "hasWeather": false,
+        "temperature": {
+          "enabled": true,
+          "base": 18,
+          "modifiersApply": false
+        },
+        "maxDarkness": 0.5
+      },
+      "slots": [
+        {
+          "positionAlgorithm": "in_wall",
+          "min": 0,
+          "max": 1,
+          "nearPurpose": null,
+          "inheritableTags": null,
+          "distribution": "even",
+          "forbiddenTags": null,
+          "purpose": "exit",
+          "slotSize": null,
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "preferDistrict": null,
+          "distributionGroup": null,
+          "requiredTags": null
+        },
+        {
+          "max": 1,
+          "positionAlgorithm": "random_valid",
+          "nearPurpose": null,
+          "inheritableTags": null,
+          "distribution": "even",
+          "forbiddenTags": null,
+          "purpose": "storage_room",
+          "min": 0,
+          "slotSize": null,
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "preferDistrict": null,
+          "distributionGroup": null,
+          "requiredTags": null
+        },
+        {
+          "max": 1,
+          "positionAlgorithm": "random_valid",
+          "nearPurpose": null,
+          "inheritableTags": null,
+          "distribution": "even",
+          "forbiddenTags": null,
+          "purpose": "anchor",
+          "slotSize": null,
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "preferDistrict": null,
+          "distributionGroup": null,
+          "requiredTags": null
+        },
+        {
+          "max": 4,
+          "positionAlgorithm": "random_valid",
+          "nearPurpose": null,
+          "inheritableTags": null,
+          "distribution": "even",
+          "forbiddenTags": null,
+          "purpose": "seating",
+          "slotSize": null,
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "preferDistrict": null,
+          "distributionGroup": null,
+          "requiredTags": null
+        },
+        {
+          "max": 2,
+          "positionAlgorithm": "random_valid",
+          "nearPurpose": null,
+          "inheritableTags": null,
+          "distribution": "even",
+          "forbiddenTags": null,
+          "purpose": "decoration",
+          "min": 0,
+          "slotSize": null,
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "preferDistrict": null,
+          "distributionGroup": null,
+          "requiredTags": null
+        },
+        {
+          "min": 1,
+          "max": 1,
+          "positionAlgorithm": "near_slot",
+          "nearPurpose": "anchor",
+          "inheritableTags": null,
+          "distribution": "even",
+          "forbiddenTags": null,
+          "purpose": "priest",
+          "slotSize": null,
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "preferDistrict": null,
+          "distributionGroup": null,
+          "requiredTags": null
+        },
+        {
+          "positionAlgorithm": "on_surface",
+          "distribution": "random",
+          "requiredTags": ["lighting"],
+          "forbiddenTags": null,
+          "inheritableTags": null,
+          "min": 0,
+          "max": 2,
+          "nearPurpose": "anchor",
+          "purpose": "surface_item",
+          "slotSize": null,
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "preferDistrict": null,
+          "distributionGroup": null
+        },
+        {
+          "min": 1,
+          "max": 1,
+          "positionAlgorithm": "in_wall",
+          "nearPurpose": null,
+          "inheritableTags": null,
+          "distribution": "even",
+          "forbiddenTags": null,
+          "purpose": "bedroom",
+          "slotSize": null,
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "preferDistrict": null,
+          "distributionGroup": null,
+          "requiredTags": null
+        }
+      ],
+      "description": "A small shrine or chapel",
+      "weight": 2,
+      "width": {
+        "min": 40,
+        "max": 150
+      },
+      "height": {
+        "min": 50,
+        "max": 200
+      },
+      "terrainLayers": [
+        {
+          "id": "room",
+          "type": "t_shape",
+          "tilesetId": "floor-interior",
+          "renderOrder": 0,
+          "blocking": "unblocks",
+          "terrain": "land",
+          "fill": [
+            1376,
+            1377
+          ],
+          "procedural": false,
+          "inheritable": false,
+          "minArmWidth": 6
+        },
+        {
+          "id": "walls",
+          "type": "wall",
+          "tilesetId": "wall-interior",
+          "renderOrder": 2000,
+          "blocking": null,
+          "terrain": "wall",
+          "fill": [
+            1504
+          ],
+          "procedural": false,
+          "inheritable": false,
+          "wallStyle": "brick_brown"
+        },
+        {
+          "id": "wall_faces",
+          "type": "wall_face",
+          "tilesetId": "wall-interior",
+          "renderOrder": 1,
+          "blocking": null,
+          "terrain": "wall",
+          "fill": [],
+          "procedural": false,
+          "inheritable": false,
+          "wallLayerId": "walls",
+          "roomLayerId": "room",
+          "wallStyle": "brick_brown"
+        }
+      ],
+      "defaultBlocked": true
+    },
+    {
+      "id": "B",
+      "scale": "feet",
+      "environment": {
+        "type": "interior",
+        "hasWeather": false,
+        "temperature": {
+          "enabled": true,
+          "base": 18,
+          "modifiersApply": false
+        },
+        "maxDarkness": 0.5
+      },
+      "slots": [
+        {
+          "positionAlgorithm": "in_wall",
+          "min": 0,
+          "max": 1,
+          "nearPurpose": null,
+          "inheritableTags": null,
+          "distribution": "even",
+          "forbiddenTags": null,
+          "purpose": "exit",
+          "slotSize": null,
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "preferDistrict": null,
+          "distributionGroup": null,
+          "requiredTags": null
+        },
+        {
+          "max": 2,
+          "positionAlgorithm": "random_valid",
+          "nearPurpose": null,
+          "inheritableTags": null,
+          "distribution": "even",
+          "forbiddenTags": null,
+          "purpose": "storage_room",
+          "min": 0,
+          "slotSize": null,
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "preferDistrict": null,
+          "distributionGroup": null,
+          "requiredTags": null
+        },
+        {
+          "max": 3,
+          "positionAlgorithm": "random_valid",
+          "nearPurpose": null,
+          "inheritableTags": null,
+          "distribution": "even",
+          "forbiddenTags": null,
+          "purpose": "bedroom",
+          "min": 1,
+          "slotSize": null,
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "preferDistrict": null,
+          "distributionGroup": null,
+          "requiredTags": null
+        },
+        {
+          "max": 1,
+          "positionAlgorithm": "random_valid",
+          "nearPurpose": null,
+          "inheritableTags": null,
+          "distribution": "even",
+          "forbiddenTags": null,
+          "purpose": "anchor",
+          "slotSize": null,
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "preferDistrict": null,
+          "distributionGroup": null,
+          "requiredTags": null
+        },
+        {
+          "max": 8,
+          "positionAlgorithm": "random_valid",
+          "nearPurpose": null,
+          "inheritableTags": null,
+          "distribution": "even",
+          "forbiddenTags": null,
+          "purpose": "seating",
+          "slotSize": null,
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "preferDistrict": null,
+          "distributionGroup": null,
+          "requiredTags": null
+        },
+        {
+          "max": 3,
+          "positionAlgorithm": "random_valid",
+          "nearPurpose": null,
+          "inheritableTags": null,
+          "distribution": "even",
+          "forbiddenTags": null,
+          "purpose": "decoration",
+          "min": 0,
+          "slotSize": null,
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "preferDistrict": null,
+          "distributionGroup": null,
+          "requiredTags": null
+        },
+        {
+          "min": 1,
+          "max": 2,
+          "positionAlgorithm": "near_slot",
+          "nearPurpose": "anchor",
+          "inheritableTags": null,
+          "distribution": "even",
+          "forbiddenTags": null,
+          "purpose": "priest",
+          "slotSize": null,
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "preferDistrict": null,
+          "distributionGroup": null,
+          "requiredTags": null
+        },
+        {
+          "positionAlgorithm": "on_surface",
+          "distribution": "random",
+          "requiredTags": ["lighting"],
+          "forbiddenTags": null,
+          "inheritableTags": null,
+          "min": 0,
+          "max": 2,
+          "nearPurpose": "anchor",
+          "purpose": "surface_item",
+          "slotSize": null,
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "preferDistrict": null,
+          "distributionGroup": null
+        }
+      ],
+      "description": "A temple with clergy quarters",
+      "weight": 3,
+      "width": {
+        "min": 40,
+        "max": 150
+      },
+      "height": {
+        "min": 50,
+        "max": 200
+      },
+      "terrainLayers": [
+        {
+          "id": "room",
+          "type": "t_shape",
+          "tilesetId": "floor-interior",
+          "renderOrder": 0,
+          "blocking": "unblocks",
+          "terrain": "land",
+          "fill": [
+            1376,
+            1377
+          ],
+          "procedural": false,
+          "inheritable": false,
+          "minArmWidth": 6
+        },
+        {
+          "id": "walls",
+          "type": "wall",
+          "tilesetId": "wall-interior",
+          "renderOrder": 2000,
+          "blocking": null,
+          "terrain": "wall",
+          "fill": [
+            1504
+          ],
+          "procedural": false,
+          "inheritable": false,
+          "wallStyle": "brick_brown"
+        },
+        {
+          "id": "wall_faces",
+          "type": "wall_face",
+          "tilesetId": "wall-interior",
+          "renderOrder": 1,
+          "blocking": null,
+          "terrain": "wall",
+          "fill": [],
+          "procedural": false,
+          "inheritable": false,
+          "wallLayerId": "walls",
+          "roomLayerId": "room",
+          "wallStyle": "brick_brown"
+        }
+      ],
+      "defaultBlocked": true
+    },
+    {
+      "id": "C",
+      "scale": "feet",
+      "environment": {
+        "type": "interior",
+        "hasWeather": false,
+        "temperature": {
+          "enabled": true,
+          "base": 18,
+          "modifiersApply": false
+        },
+        "maxDarkness": 0.5
+      },
+      "slots": [
+        {
+          "positionAlgorithm": "in_wall",
+          "min": 0,
+          "max": 1,
+          "nearPurpose": null,
+          "inheritableTags": null,
+          "distribution": "even",
+          "forbiddenTags": null,
+          "purpose": "exit",
+          "slotSize": null,
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "preferDistrict": null,
+          "distributionGroup": null,
+          "requiredTags": null
+        },
+        {
+          "max": 3,
+          "positionAlgorithm": "random_valid",
+          "nearPurpose": null,
+          "inheritableTags": null,
+          "distribution": "even",
+          "forbiddenTags": null,
+          "purpose": "storage_room",
+          "min": 0,
+          "slotSize": null,
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "preferDistrict": null,
+          "distributionGroup": null,
+          "requiredTags": null
+        },
+        {
+          "max": 6,
+          "positionAlgorithm": "random_valid",
+          "nearPurpose": null,
+          "inheritableTags": null,
+          "distribution": "even",
+          "forbiddenTags": null,
+          "purpose": "bedroom",
+          "min": 1,
+          "slotSize": null,
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "preferDistrict": null,
+          "distributionGroup": null,
+          "requiredTags": null
+        },
+        {
+          "max": 1,
+          "positionAlgorithm": "random_valid",
+          "nearPurpose": null,
+          "inheritableTags": null,
+          "distribution": "even",
+          "forbiddenTags": null,
+          "purpose": "anchor",
+          "slotSize": null,
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "preferDistrict": null,
+          "distributionGroup": null,
+          "requiredTags": null
+        },
+        {
+          "max": 12,
+          "positionAlgorithm": "random_valid",
+          "nearPurpose": null,
+          "inheritableTags": null,
+          "distribution": "even",
+          "forbiddenTags": null,
+          "purpose": "seating",
+          "slotSize": null,
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "preferDistrict": null,
+          "distributionGroup": null,
+          "requiredTags": null
+        },
+        {
+          "max": 5,
+          "positionAlgorithm": "random_valid",
+          "nearPurpose": null,
+          "inheritableTags": null,
+          "distribution": "even",
+          "forbiddenTags": null,
+          "purpose": "decoration",
+          "min": 0,
+          "slotSize": null,
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "preferDistrict": null,
+          "distributionGroup": null,
+          "requiredTags": null
+        },
+        {
+          "min": 1,
+          "max": 2,
+          "positionAlgorithm": "near_slot",
+          "nearPurpose": "anchor",
+          "inheritableTags": null,
+          "distribution": "even",
+          "forbiddenTags": null,
+          "purpose": "priest",
+          "slotSize": null,
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "preferDistrict": null,
+          "distributionGroup": null,
+          "requiredTags": null
+        },
+        {
+          "positionAlgorithm": "on_surface",
+          "distribution": "random",
+          "requiredTags": ["lighting"],
+          "forbiddenTags": null,
+          "inheritableTags": null,
+          "min": 0,
+          "max": 2,
+          "nearPurpose": "anchor",
+          "purpose": "surface_item",
+          "slotSize": null,
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "preferDistrict": null,
+          "distributionGroup": null
+        }
+      ],
+      "description": "A grand cathedral with dormitories",
+      "weight": 1,
+      "width": {
+        "min": 40,
+        "max": 150
+      },
+      "height": {
+        "min": 50,
+        "max": 200
+      },
+      "terrainLayers": [
+        {
+          "id": "room",
+          "type": "t_shape",
+          "tilesetId": "floor-interior",
+          "renderOrder": 0,
+          "blocking": "unblocks",
+          "terrain": "land",
+          "fill": [
+            1376,
+            1377
+          ],
+          "procedural": false,
+          "inheritable": false,
+          "minArmWidth": 6
+        },
+        {
+          "id": "walls",
+          "type": "wall",
+          "tilesetId": "wall-interior",
+          "renderOrder": 2000,
+          "blocking": null,
+          "terrain": "wall",
+          "fill": [
+            1504
+          ],
+          "procedural": false,
+          "inheritable": false,
+          "wallStyle": "brick_brown"
+        },
+        {
+          "id": "wall_faces",
+          "type": "wall_face",
+          "tilesetId": "wall-interior",
+          "renderOrder": 1,
+          "blocking": null,
+          "terrain": "wall",
+          "fill": [],
+          "procedural": false,
+          "inheritable": false,
+          "wallLayerId": "walls",
+          "roomLayerId": "room",
+          "wallStyle": "brick_brown"
+        }
+      ],
+      "defaultBlocked": true
+    }
+  ],
+  "characterScale": 1,
+  "timeScale": 1,
+  "interactionZone": null
+}

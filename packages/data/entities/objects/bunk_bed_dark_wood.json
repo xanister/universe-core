@@ -1,0 +1,22 @@
+{
+  "id": "bunk_bed_dark_wood",
+  "name": "Bunk Bed",
+  "description": "A sturdy dark wood bunk bed with ladder, sleeping two in stacked bunks.",
+  "purposes": [
+    "sleeping",
+    "bedroom"
+  ],
+  "tags": [
+    "common",
+    "furniture",
+    "sleeping"
+  ],
+  "solid": true,
+  "layer": "default",
+  "spriteId": "bunk_bed_dark_wood",
+  "materials": [
+    "wood",
+    "linen"
+  ],
+  "tintable": false
+}

@@ -1,0 +1,59 @@
+{
+  "id": "PLACE_vitrifall_hollow",
+  "label": "Vitrifall Hollow",
+  "description": "Vitrifall Hollow opens beneath Graveward Ridge as a low, wind-scoured cavern whose walls are glazed with vitrified fallout and streaked by rift-burn discoloration. The passageways run in abrupt, fractured angles, as if the rock mass has been sheared and rejoined under enormous strain. Thin films of condensed mineral salts crust the floor, crunching into pale drifts where abrasive air currents funnel inward from hidden cracks. The interior holds a constant bruise-tinted dusk reflected from glassy stone, turning every surface into a cold, lightless mirror.",
+  "short_description": "glassy rift-scarred cave",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "cave",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.9
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "stone_arch_ruins",
+      "facing": "south",
+      "layer": "default"
+    },
+    "allowPlayerStart": false,
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/battles/PLACE_vitrifall_hollow.png?v=1771817529482",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 1344,
+    "y": 2080,
+    "width": 48,
+    "height": 48,
+    "parent": "PLACE_graveward_ridge",
+    "innerWidth": 4000,
+    "innerHeight": 2784
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/places/PLACE_vitrifall_hollow.png?v=1771817577775",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

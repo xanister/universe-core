@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_cisternhold_quarters",
+  "label": "Cisternhold Quarters",
+  "description": "Cisternhold Quarters is a compact residence built into the lee of Seamglass Meridian’s causeway foundations, where faultlight seam-lines remain steady enough to permit lens-calibrated living spaces. Faceted interior walls are clad in dust-slick vitrified tile, scored with grounded channels that collect electrostatic glass fallouts into a sealed, undersill cistern. Copper-white twilight enters through narrow, mirrored light slits that split the city’s calibrated bands into fixed measures for local timekeeping. The plan centers on a low hearthstone of fused silicate and a ring of recessed alcoves designed to keep surfaces clear of drifting glass dust.",
+  "short_description": "lenslit cistern home",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "residence",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "building_residence",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/hushlight_expanse/images/battles/PLACE_cisternhold_quarters.png?v=1772314357136",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 2256,
+    "y": 2176,
+    "width": 160,
+    "height": 256,
+    "parent": "PLACE_seamglass_meridian",
+    "innerWidth": 928,
+    "innerHeight": 736
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": null,
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

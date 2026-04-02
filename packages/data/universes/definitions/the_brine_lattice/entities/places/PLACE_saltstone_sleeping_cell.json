@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_saltstone_sleeping_cell",
+  "label": "Saltstone Sleeping Cell",
+  "description": "Saltstone Sleeping Cell serves as a compact bedroom cut into the fused basalt mass of Terminus Shutterhouse, its proportions governed by thick partition walls that dampen terminator temperature swings. A recessed sleep platform rises from the floor as a single basalt-saltstone unit, flanked by carved storage niches that eliminate freestanding furnishings under persistent tidal stresses. The sole aperture remains deep-set behind layered shutter baffles that admit controlled bands of light without exposing the room to Saltharrow’s hard white glare. Polished saltstone thresholds and dust-catching grooves at the base of the walls manage mineral-laden haze carried in from the city’s shuttered arcades.",
+  "short_description": "compact basalt bedroom",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "bedroom",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "door_wooden",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/the_brine_lattice/images/battles/PLACE_saltstone_sleeping_cell.png?v=1772314327298",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 48,
+    "y": 160,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_terminus_shutterhouse",
+    "innerWidth": 640,
+    "innerHeight": 608
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/the_brine_lattice/images/places/PLACE_saltstone_sleeping_cell.png?v=1772314375218",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

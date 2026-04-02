@@ -1,0 +1,21 @@
+{
+  "id": "pew_carved_blonde",
+  "name": "Carved Church Pew (Blonde)",
+  "description": "A blonde wood pew with a decorative carved back panel.",
+  "purposes": [
+    "seating"
+  ],
+  "tags": [
+    "common",
+    "furniture",
+    "seating",
+    "temple"
+  ],
+  "solid": true,
+  "layer": "default",
+  "spriteId": "pew_carved_blonde",
+  "materials": [
+    "wood"
+  ],
+  "tintable": false
+}

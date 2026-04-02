@@ -1,0 +1,20 @@
+{
+  "id": "bottle_green",
+  "name": "Green Bottle",
+  "description": "A slim green glass bottle with a cork stopper.",
+  "purposes": [
+    "decoration"
+  ],
+  "tags": [
+    "common",
+    "drinkware",
+    "tavern"
+  ],
+  "solid": false,
+  "layer": "default",
+  "spriteId": "bottle_green",
+  "materials": [
+    "glass"
+  ],
+  "tintable": false
+}

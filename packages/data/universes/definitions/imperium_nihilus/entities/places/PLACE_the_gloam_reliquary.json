@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_the_gloam_reliquary",
+  "label": "The Gloam Reliquary",
+  "description": "The Gloam Reliquary serves as a regulated shop within Cyrenth Bastion-City’s armored arcades, its frontage set behind a pressure-sealed vestibule and a heavy shutter of void-black adamantine. Display niches are cut into ferrocrete walls like a munitorum catalogue, each compartment marked with stenciled lot codes and purity seals beneath cold lumen strips. The air carries the antiseptic tang of decontamination agents, and a recessed counter is screened by mesh and armored glass to enforce quarantine protocol. Auspex housings and tamper-evident locks dominate the fittings, reflecting a commerce shaped by siege logistics and contamination control.",
+  "short_description": "sealed relic-trade shop",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "shop",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "building_shop",
+      "facing": "west",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/battles/PLACE_the_gloam_reliquary.png?v=1771995662006",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 240,
+    "y": 1152,
+    "width": 160,
+    "height": 256,
+    "parent": "PLACE_cyrenth_bastioncity",
+    "innerWidth": 1280,
+    "innerHeight": 1312
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/places/PLACE_the_gloam_reliquary.png?v=1771995712215",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

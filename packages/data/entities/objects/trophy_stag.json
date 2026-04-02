@@ -1,0 +1,24 @@
+{
+  "id": "trophy_stag",
+  "name": "Stag Trophy",
+  "description": "A mounted stag head with large antlers on a wooden shield plaque.",
+  "purposes": [
+    "decoration",
+    "tavern",
+    "residence"
+  ],
+  "tags": [
+    "tavern",
+    "wall"
+  ],
+  "solid": false,
+  "layer": "overhead",
+  "spriteId": "trophy_stag",
+  "materials": [
+    "wood",
+    "leather",
+    "bone"
+  ],
+  "tintable": false,
+  "wallVerticalOffset": -1
+}

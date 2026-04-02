@@ -1,0 +1,56 @@
+{
+  "id": "PLACE_prismbreak_haven",
+  "label": "Prismbreak Haven",
+  "description": "Prismbreak Haven is a littoral city built along the terraced rim of an ancient impact basin where Vitrasea’s glass-salted rafts grind against evaporite shelves. Its seawalls are faced with fused silicate blocks and banded with mirrored inlays that catch the Saltglass System’s prismatic veils, turning streets into controlled corridors of refracted light. Low, pressure-tight arcades and stepped cistern towers dominate the skyline, engineered for the planet’s thin alkaline air and the steady drift of charged dust. Night illumination is defined by permanent auroral spill across magnetized crustal arcs, which the city’s glazed surfaces amplify into moving bands over roofs and canals.",
+  "short_description": "prismatic basin port city",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "city",
+    "environment": {
+      "type": "exterior",
+      "hasWeather": true,
+      "temperature": {
+        "enabled": true,
+        "base": null,
+        "modifiersApply": true
+      },
+      "maxDarkness": null
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "small_walled_town",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 896,
+    "y": 1216,
+    "width": 64,
+    "height": 64,
+    "parent": "PLACE_vitrasea"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": null,
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

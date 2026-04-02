@@ -1,0 +1,29 @@
+{
+  "id": "chest",
+  "name": "Chest",
+  "description": "A storage chest",
+  "purposes": [
+    "storage"
+  ],
+  "tags": [
+    "common",
+    "furniture",
+    "storage",
+    "ship"
+  ],
+  "solid": true,
+  "layer": "default",
+  "spriteId": "chest",
+  "materials": [
+    "wood",
+    "iron"
+  ],
+  "tintable": true,
+  "canContain": true,
+  "states": [
+    "closed",
+    "open",
+    "locked"
+  ],
+  "lightSource": null
+}

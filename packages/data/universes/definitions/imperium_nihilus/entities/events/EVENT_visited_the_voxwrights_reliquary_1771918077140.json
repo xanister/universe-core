@@ -1,0 +1,18 @@
+{
+  "id": "EVENT_visited_the_voxwrights_reliquary_1771918077140",
+  "date": "999.M1 16:28",
+  "placeId": "PLACE_the_voxwrights_reliquary",
+  "important": false,
+  "importanceScore": null,
+  "scope": null,
+  "relevantPlaceIds": null,
+  "eventType": "location_visited",
+  "category": "world",
+  "subject": "The Voxwright's Reliquary",
+  "subjectId": "PLACE_the_voxwrights_reliquary",
+  "fact": "Visited The Voxwright's Reliquary",
+  "significance": "minor",
+  "witnessIds": [
+    "CHAR_maris_keene"
+  ]
+}

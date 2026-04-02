@@ -1,0 +1,161 @@
+{
+  "id": "CHAR_glassvein_rat_1",
+  "label": "Glassvein Rat",
+  "description": "This individual is a small goblin-bodied vermin of the hollow, built low to the ground with a long, whip-like tail and a wedge-shaped muzzle. Bright_green skin shows patchy thinning along the flanks from constant burrowing and abrasion, while black hair lies in a greasy, short ridge from crown to nape. Yellow eyes sit wide and alert, framed by torn ears and prominent incisors set in an overlong jaw. The forepaws are narrow and dexterous, ending in hooked claws hardened by stone and glass-grit.",
+  "short_description": "ratlike goblin vermin (nonbina",
+  "tags": [],
+  "entityType": "character",
+  "info": {
+    "purpose": "rat",
+    "aliases": [
+      "Hollow Rat",
+      "Glassvein Vermin"
+    ],
+    "birthdate": "Unknown",
+    "deathdate": null,
+    "title": null,
+    "birthPlace": "The Glassvein Hollow",
+    "eyeColor": "yellow",
+    "gender": "nonbinary",
+    "hairColor": "black",
+    "hairStyle": "shorthawk",
+    "beardStyle": null,
+    "headType": "orc_male",
+    "skinTone": "bright_green",
+    "personality": "Territorial and food-driven, it moves by scent and sound, hoarding scraps in tight crevices and returning to established runs with disciplined regularity. It avoids open light, bites decisively when cornered, and tests intruders with quick feints before committing to flight or attack.",
+    "race": "goblin",
+    "messages": [],
+    "journal": [],
+    "sketches": [],
+    "verbosity": 3,
+    "conversationContext": null,
+    "storytellerState": null,
+    "isPlayer": false,
+    "storyComplete": false,
+    "routine": null,
+    "vesselRoutes": null,
+    "abstractLocation": null,
+    "npcBehavior": null,
+    "physicalState": null,
+    "pendingDeparture": null,
+    "pendingArrival": null,
+    "lastRoutineCheckPeriod": null,
+    "startingNarrative": null,
+    "startingCharacterState": null,
+    "clothing": [],
+    "enabledOverlayLayers": [],
+    "helmingVesselId": null,
+    "storytellerDisabled": false,
+    "rulesetState": {
+      "stats": {
+        "poise": 50,
+        "max_poise": 50
+      },
+      "conditions": [],
+      "statUsage": {},
+      "incapacitation": null,
+      "incapacitatedSince": null
+    },
+    "voiceId": "river",
+    "spriteConfig": {
+      "bodyType": "male",
+      "layers": [
+        {
+          "type": "body",
+          "optionId": "body_base",
+          "tint": 6736964
+        },
+        {
+          "type": "body",
+          "optionId": "body_universal",
+          "tint": 6736964
+        },
+        {
+          "type": "hair",
+          "optionId": "hair_shorthawk",
+          "tint": 1710618
+        }
+      ],
+      "spriteHash": "2d4ea4c9e1bf113c",
+      "spriteUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/sprites/generated/2d4ea4c9e1bf113c.png"
+    },
+    "spriteId": "rat"
+  },
+  "position": {
+    "x": 1840,
+    "y": 240,
+    "width": 32,
+    "height": 48,
+    "parent": "PLACE_the_glassvein_hollow"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/gaardia/images/characters/CHAR_glassvein_rat_1.png?v=1772437580459",
+  "faceAnchorY": 0.33,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "talk"
+  },
+  "relationships": [
+    {
+      "targetId": "CHAR_skitters",
+      "type": "rival",
+      "disposition": -20,
+      "familiarity": 50,
+      "context": "Both are territorial tunnel-dwelling scavengers in the Glassvein Hollow with overlapping hoarding/caching behavior, making competition for food and runs likely.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_calder_hurne",
+      "type": "enemy",
+      "disposition": -60,
+      "familiarity": 50,
+      "context": "Shares the same location and likely crosses patrol routes; the rat tests intruders and bites when cornered, while Calder reacts to intrusion with persistent hostile pursuit.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_caldus_rein",
+      "type": "enemy",
+      "disposition": -60,
+      "familiarity": 50,
+      "context": "Same confined-hollow environment; the revenant’s inexorable approach to intrusions makes it a likely threat to a living scavenger that relies on stealth and flight.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_isarn_vell",
+      "type": "enemy",
+      "disposition": -60,
+      "familiarity": 50,
+      "context": "Isarn maintains patrol habits and responds to proximity/footfalls with ritualized hostility; a rat moving through established runs would frequently trigger and be targeted.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_sable_wynth",
+      "type": "enemy",
+      "disposition": -60,
+      "familiarity": 50,
+      "context": "Sable reacts to sound/light with immediate hostility and lunges toward nearby living bodies; the rat is a common living presence in the corridors and thus a likely target.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_silex_corven",
+      "type": "enemy",
+      "disposition": -60,
+      "familiarity": 50,
+      "context": "Silex patrols shafts and narrow passages and responds to disturbance with aggression; these are the same spaces the rat uses for travel and caching, creating repeated hostile encounters.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_verrin_halst",
+      "type": "enemy",
+      "disposition": -60,
+      "familiarity": 50,
+      "context": "Verrin is territorial and reflexively hostile to intrusions along fixed circuits; the rat’s foraging routes would bring it into conflict with those circuits.",
+      "pendingGeneration": false
+    }
+  ],
+  "important": false
+}

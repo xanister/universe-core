@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_the_oathcutter",
+  "label": "The Oathcutter",
+  "description": "A broad-beamed sailing ship built for contested waters, its tar-dark hull reinforced with iron strakes and stitched with heavy pitch seams. The deck carries a low, armored forecastle and a compact sterncastle whose shuttered ports protect charts, seals, and ledgers against spray and seizure. Lawmarks and registry plaques are bolted to the mainmast partners, asserting licensure and jurisdiction in a maritime frontier where authority is routinely challenged. A run of warding nails and salt-caked sigils lines the rails, treated as standard hazard protocol in waters subject to liminal breach and interdiction.",
+  "short_description": "armored tar-dark ship",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "sailing_ship",
+    "environment": {
+      "type": "exterior",
+      "hasWeather": true,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": null
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "sailing_ship_sloop",
+      "facing": "south",
+      "layer": "floor"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": "PLACE_charterbreak_quay",
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/gaardia/images/battles/PLACE_the_oathcutter.png?v=1772208464166",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 656,
+    "y": 1504,
+    "width": 64,
+    "height": 64,
+    "parent": "PLACE_anslem",
+    "innerWidth": 1280,
+    "innerHeight": 1280
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/gaardia/images/places/PLACE_the_oathcutter.png?v=1772208517558",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": true
+}

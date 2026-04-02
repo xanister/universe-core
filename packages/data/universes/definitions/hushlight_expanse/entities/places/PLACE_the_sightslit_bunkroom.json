@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_the_sightslit_bunkroom",
+  "label": "The Sightslit Bunkroom",
+  "description": "The Sightslit Bunkroom is a narrow sleeping chamber cut into the same basalt-glass mass as The Shearline Arsenal, its ceiling line following the escarpment’s engineered angles. A single slit-window is set with mirror-slag louvers that segment Lacrymara’s copper-white twilight into measured bands, preserving the shop’s navigational alignment even at rest. The walls carry dust-pinned matte panels and fused hooks for gear, while a low bunk is built directly from vitrified stone with a recessed drawer sealed against electrostatic glass grit. The floor’s inlaid seam-line strip provides a fixed orientation line that continues the Concord’s calibrated street geometry indoors.",
+  "short_description": "narrow grit-sealed bunk",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "bedroom",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "door_wooden",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/hushlight_expanse/images/battles/PLACE_the_sightslit_bunkroom.png?v=1772314163610",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 1680,
+    "y": 160,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_the_shearline_arsenal",
+    "innerWidth": 608,
+    "innerHeight": 608
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/hushlight_expanse/images/places/PLACE_the_sightslit_bunkroom.png?v=1772314210942",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

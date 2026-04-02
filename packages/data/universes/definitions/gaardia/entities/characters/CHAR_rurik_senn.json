@@ -1,0 +1,232 @@
+{
+  "id": "CHAR_rurik_senn",
+  "label": "Rurik Senn",
+  "description": "This individual is an undead humanoid preserved by Rift heat and ash, with brown skin fused into a glassy sheen where old burns have vitrified the surface. Brown eyes sit deep beneath a heavy brow ridge, and gray hair lies in sparse, brittle strands across a scalp marked by heat-cracked scarification. The frame remains broad-shouldered and compact, with rigid joints and thickened fingers that retain a laborer’s proportions despite death. The face holds a fixed jawline and collapsed nasal bridge, giving a grave-mask symmetry typical of long-exposed Rift remains.",
+  "short_description": "undead male rift remnant",
+  "tags": [],
+  "entityType": "character",
+  "info": {
+    "purpose": "undead",
+    "aliases": [
+      "Glass-Scab Walker",
+      "Rift Remnant"
+    ],
+    "birthdate": "1289-11-03",
+    "deathdate": null,
+    "title": null,
+    "birthPlace": "Gaardia",
+    "eyeColor": "brown",
+    "gender": "male",
+    "hairColor": "gray",
+    "hairStyle": "messy1",
+    "beardStyle": "stubble",
+    "headType": "human_male",
+    "skinTone": "brown",
+    "personality": "A silent, territorial revenant defined by rote persistence and the narrow instincts of place-bound dead. It patrols familiar circuits among slag and shattered stone, reacting to motion with abrupt violence and to firelight with a conditioned, reflexive aversion. It exhibits no speech and no curiosity, but it recognizes repeated trespassers and escalates its pursuit with methodical endurance.",
+    "race": "human",
+    "messages": [],
+    "journal": [],
+    "sketches": [],
+    "verbosity": 3,
+    "conversationContext": null,
+    "storytellerState": null,
+    "isPlayer": false,
+    "storyComplete": false,
+    "routine": {
+      "schedule": {
+        "dawn": "work",
+        "morning": "work",
+        "afternoon": "work",
+        "evening": "work",
+        "night": "work"
+      },
+      "home": {
+        "placeId": "PLACE_the_vitrified_rift",
+        "description": "The Vitrified Rift",
+        "areaHint": null
+      },
+      "work": {
+        "placeId": "PLACE_the_vitrified_rift",
+        "description": "The Vitrified Rift",
+        "areaHint": null
+      },
+      "leisure": null,
+      "variance": 0.2,
+      "activities": {
+        "work": "undead_patrol"
+      }
+    },
+    "vesselRoutes": null,
+    "abstractLocation": null,
+    "npcBehavior": null,
+    "physicalState": null,
+    "pendingDeparture": null,
+    "pendingArrival": null,
+    "lastRoutineCheckPeriod": null,
+    "startingNarrative": null,
+    "startingCharacterState": null,
+    "clothing": [
+      {
+        "slot": "torso_under",
+        "itemId": "tunic",
+        "color": "#3a3a3a",
+        "contents": null
+      },
+      {
+        "slot": "torso_over",
+        "itemId": "trenchcoat",
+        "color": "#1a1a1a",
+        "contents": null
+      },
+      {
+        "slot": "legs",
+        "itemId": "cloth_pants",
+        "color": "#808080",
+        "contents": null
+      },
+      {
+        "slot": "feet",
+        "itemId": "boots",
+        "color": "#8b4513",
+        "contents": null
+      },
+      {
+        "slot": "hands",
+        "itemId": "cloth_gloves",
+        "color": "#1a1a1a",
+        "contents": null
+      },
+      {
+        "slot": "head",
+        "itemId": "cloth_hood",
+        "color": "#3a3a3a",
+        "contents": null
+      },
+      {
+        "slot": "belt",
+        "itemId": "rope_belt",
+        "color": "#d2b48c",
+        "contents": []
+      }
+    ],
+    "enabledOverlayLayers": [
+      "eyes",
+      "facial"
+    ],
+    "helmingVesselId": null,
+    "storytellerDisabled": false,
+    "rulesetState": {
+      "stats": {
+        "poise": 50,
+        "max_poise": 50
+      },
+      "conditions": [],
+      "statUsage": {},
+      "incapacitation": null,
+      "incapacitatedSince": null
+    },
+    "voiceId": "brian",
+    "spriteConfig": {
+      "bodyType": "male",
+      "layers": [
+        {
+          "type": "body",
+          "optionId": "body_base",
+          "tint": 7029286
+        },
+        {
+          "type": "body",
+          "optionId": "body_universal",
+          "tint": 7029286
+        },
+        {
+          "type": "eyes",
+          "optionId": "eyes_eyes",
+          "tint": 7029286
+        },
+        {
+          "type": "facial",
+          "optionId": "facial_beard",
+          "tint": 8421504
+        },
+        {
+          "type": "torso",
+          "optionId": "torso_formal_trenchcoat_male",
+          "tint": 1710618
+        },
+        {
+          "type": "legs",
+          "optionId": "legs_white_pants_male",
+          "tint": 8421504
+        },
+        {
+          "type": "feet",
+          "optionId": "feet_white_boots_male",
+          "tint": 9127187
+        },
+        {
+          "type": "hands",
+          "optionId": "hands_white_gloves_male",
+          "tint": 1710618
+        },
+        {
+          "type": "head",
+          "optionId": "head_cloth_hood_male",
+          "tint": 3815994
+        },
+        {
+          "type": "belt",
+          "optionId": "belt_wulax_belt_rope_male",
+          "tint": 13808780
+        }
+      ],
+      "spriteHash": "7f1525120ccac3c9",
+      "spriteUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/sprites/generated/7f1525120ccac3c9.png"
+    }
+  },
+  "position": {
+    "x": 560,
+    "y": 144,
+    "width": 32,
+    "height": 48,
+    "parent": "PLACE_the_vitrified_rift"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/gaardia/images/portrait-pool/undead/2.png",
+  "faceAnchorY": 0.14,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "talk"
+  },
+  "relationships": [
+    {
+      "targetId": "CHAR_eldric_vitrane",
+      "type": "acquaintance",
+      "disposition": 0,
+      "familiarity": 40,
+      "context": "Both are site-bound undead remnants operating on rote patrol patterns within PLACE_the_vitrified_rift, making repeated nonverbal awareness/recognition plausible.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_veskan_dorr",
+      "type": "acquaintance",
+      "disposition": 0,
+      "familiarity": 40,
+      "context": "Both persist as territorial, violent Rift remnants in PLACE_the_vitrified_rift with boundary/patrol behaviors, so they likely have encountered each other as overlapping hazards.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_sevrik_ashmere",
+      "type": "acquaintance",
+      "disposition": 0,
+      "familiarity": 40,
+      "context": "Shared location (PLACE_the_vitrified_rift) and similar methodical patrol behavior makes repeated mutual recognition/avoidance likely.",
+      "pendingGeneration": false
+    }
+  ],
+  "important": false
+}

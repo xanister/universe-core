@@ -1,0 +1,21 @@
+{
+  "id": "tavern_chair_small",
+  "name": "Small Tavern Chair",
+  "description": "A compact wooden chair.",
+  "purposes": [
+    "seating"
+  ],
+  "tags": [
+    "common",
+    "furniture",
+    "seating",
+    "tavern"
+  ],
+  "solid": false,
+  "layer": "default",
+  "spriteId": "tavern_chair_small",
+  "materials": [
+    "wood"
+  ],
+  "tintable": false
+}

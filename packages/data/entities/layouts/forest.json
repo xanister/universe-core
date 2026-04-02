@@ -1,0 +1,91 @@
+{
+  "id": "forest",
+  "name": "Forest",
+  "description": "A wooded area with clearings and paths through dense trees",
+  "purposes": [
+    "forest"
+  ],
+  "spriteId": "tree_canopy_small",
+  "variants": [
+    {
+      "id": "A",
+      "scale": "feet",
+      "environment": {
+        "type": "exterior",
+        "hasWeather": true,
+        "temperature": {
+          "enabled": true,
+          "base": null,
+          "modifiersApply": true
+        },
+        "maxDarkness": null
+      },
+      "slots": [
+        {
+          "positionAlgorithm": "random_valid",
+          "min": 0,
+          "max": 1,
+          "nearPurpose": null,
+          "inheritableTags": null,
+          "distribution": "even",
+          "forbiddenTags": null,
+          "purpose": "exit",
+          "slotSize": null,
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "preferDistrict": null,
+          "distributionGroup": null,
+          "requiredTags": null
+        }
+      ],
+      "description": "A wooded area with clearings carved through dense forest",
+      "weight": 1,
+      "width": {
+        "min": 60,
+        "max": 250
+      },
+      "height": {
+        "min": 50,
+        "max": 200
+      },
+      "terrainLayers": [
+        {
+          "id": "trees",
+          "tilesetId": "terrain-grass-dark",
+          "renderOrder": 0,
+          "blocking": "blocks",
+          "terrain": "dense_forest",
+          "procedural": false,
+          "fill": [
+            46
+          ],
+          "type": "fill",
+          "inheritable": true
+        },
+        {
+          "id": "clearing",
+          "tilesetId": "terrain-grass",
+          "renderOrder": 1,
+          "blocking": "unblocks",
+          "terrain": "land",
+          "procedural": false,
+          "fill": [],
+          "type": "noise_patch",
+          "shapePreset": "clearing",
+          "autotileAgainst": [],
+          "withinTerrain": null,
+          "autotilePreset": "canonical",
+          "inheritable": false
+        }
+      ],
+      "defaultBlocked": false
+    }
+  ],
+  "characterScale": 1,
+  "timeScale": 1,
+  "interactionZone": null
+}

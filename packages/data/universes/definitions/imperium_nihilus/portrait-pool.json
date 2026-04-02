@@ -1,0 +1,24 @@
+{
+  "undead": [
+    {
+      "url": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/portrait-pool/undead/0.png",
+      "faceAnchorY": 0.17
+    },
+    {
+      "url": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/portrait-pool/undead/1.png",
+      "faceAnchorY": 0.18
+    },
+    {
+      "url": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/portrait-pool/undead/2.png",
+      "faceAnchorY": 0.17
+    },
+    {
+      "url": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/portrait-pool/undead/3.png",
+      "faceAnchorY": 0.21
+    },
+    {
+      "url": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/portrait-pool/undead/4.png",
+      "faceAnchorY": 0.19
+    }
+  ]
+}

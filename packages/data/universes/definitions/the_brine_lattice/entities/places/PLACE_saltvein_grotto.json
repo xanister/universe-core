@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_saltvein_grotto",
+  "label": "Saltvein Grotto",
+  "description": "Saltvein Grotto forms a deep interior hollow within the columnar basalt of Darksalt Rampart, where evaporite seams widen into banded walls of black stone and pale crystalline salt. The chamber floor lies under a crust of brine-dried residue, fractured into plates by the massif’s tidal stresses. Narrow fissures admit mineral haze that settles in low layers, dulling sound and softening outlines without obscuring the grotto’s sharp, reflective salt faces.",
+  "short_description": "salt-veined basalt cave",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "cave",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.9
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "stone_arch_ruins",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/the_brine_lattice/images/battles/PLACE_saltvein_grotto.png?v=1772314209357",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 2304,
+    "y": 1664,
+    "width": 48,
+    "height": 48,
+    "parent": "PLACE_darksalt_rampart",
+    "innerWidth": 4544,
+    "innerHeight": 4064
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/the_brine_lattice/images/places/PLACE_saltvein_grotto.png?v=1772314261305",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

@@ -1,0 +1,61 @@
+{
+  "id": "PLACE_the_antistatic_vault",
+  "label": "The Antistatic Vault",
+  "description": "The Antistatic Vault occupies a sealed back chamber of the Prismwright Exchange, lined with vitrified basalt panels scored into a rectilinear grid that matches Seamline Concord’s navigational sightlines. Stepped shelving and lens-crates sit within grounded metal frames, their edges fitted with finned dissipation strips that bleed Lacrymara’s charged glass dust into the floor’s buried conductors. Narrow caged light-slits admit attenuated copper-white radiance, which breaks into disciplined bands across mirror-slag placards used for inventory and calibration reference. The air remains dry and faintly ozonated, and every surface bears a persistent, muted grit of electrostatically pinned dust kept from the stored optics by strict shielding and spacing.",
+  "short_description": "sealed antistatic store",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "storage_room",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.9
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "door_wooden",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/hushlight_expanse/images/battles/PLACE_the_antistatic_vault.png?v=1772313883447",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 1168,
+    "y": 320,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_the_prismwright_exchange",
+    "innerWidth": 448,
+    "innerHeight": 704
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/hushlight_expanse/images/places/PLACE_the_antistatic_vault.png?v=1772313936319",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": [
+    "The Dust Ledger Vault",
+    "The Grounding Vault"
+  ],
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

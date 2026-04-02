@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_riftmurmur_hollow",
+  "label": "Riftmurmur Hollow",
+  "description": "Riftmurmur Hollow is a deep basalt cave cut along a fault-line beneath Cyrenth Vale’s rift-scarred escarpments, its walls vitrified in places into dull, bruise-sheened glass. The interior air carries a constant subsonic vibration that trembles through stone, and thin curtains of mineral seepage leave iron-black stains across the floor. Jagged columns and collapse fans break the passages into narrow runs and sudden chambers, forcing movement along sharp, deliberate lines. Auspex returns degrade within the deeper pockets where empyrean interference saturates the rock and deadens signal clarity.",
+  "short_description": "vibrating basalt cave",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "cave",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.9
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "stone_arch_ruins",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/battles/PLACE_riftmurmur_hollow.png?v=1771996763325",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 2720,
+    "y": 1280,
+    "width": 48,
+    "height": 48,
+    "parent": "PLACE_cyrenth_vale",
+    "innerWidth": 2912,
+    "innerHeight": 1600
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/places/PLACE_riftmurmur_hollow.png?v=1771996811791",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

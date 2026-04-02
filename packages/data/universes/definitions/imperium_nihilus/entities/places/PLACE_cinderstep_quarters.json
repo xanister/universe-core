@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_cinderstep_quarters",
+  "label": "Cinderstep Quarters",
+  "description": "Cinderstep Quarters is a compact habitation suite cut into Cyrenth Bastion-City’s stepped ferrocrete superstructure, its walls clad in void-black adamantine ribs that double as blast bracing. A pressure-sealed vestibule opens onto a narrow living bay with built-in bunks, ration lockers, and a recessed wash alcove designed for strict contamination control. Illumination comes from lumen strips set behind armored grilles, casting hard light over scoured surfaces and stenciled quarantine notices. A single slit-window of thickened plasglass admits the city’s bruise-hued auroral glow while maintaining full seal integrity.",
+  "short_description": "sealed austere quarters",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "residence",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "building_residence",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/battles/PLACE_cinderstep_quarters.png?v=1771995964787",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 656,
+    "y": 1824,
+    "width": 160,
+    "height": 256,
+    "parent": "PLACE_cyrenth_bastioncity",
+    "innerWidth": 864,
+    "innerHeight": 960
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/places/PLACE_cinderstep_quarters.png?v=1771996013589",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

@@ -1,0 +1,16 @@
+{
+  "id": "EVENT_name_revealed_sila_marrin_oren_vell_1771826171806",
+  "date": "999.M1 00:12",
+  "placeId": null,
+  "important": false,
+  "importanceScore": null,
+  "scope": null,
+  "relevantPlaceIds": null,
+  "eventType": "name_revealed",
+  "category": "knowledge",
+  "subject": "Oren Vell",
+  "subjectId": null,
+  "fact": "Learned the name \"Oren Vell\"",
+  "significance": "minor",
+  "witnessIds": null
+}

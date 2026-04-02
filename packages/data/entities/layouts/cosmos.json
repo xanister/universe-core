@@ -1,0 +1,152 @@
+{
+  "id": "cosmos",
+  "name": "Cosmos",
+  "description": "The universe containing star systems and nebulae",
+  "purposes": [
+    "cosmos"
+  ],
+  "spriteId": "star_sun",
+  "variants": [
+    {
+      "id": "A",
+      "scale": "lightyears",
+      "environment": {
+        "type": "space",
+        "hasWeather": false,
+        "temperature": {
+          "enabled": false,
+          "base": null,
+          "modifiersApply": false
+        },
+        "maxDarkness": 0.6
+      },
+      "width": {
+        "min": 200,
+        "max": 400
+      },
+      "height": {
+        "min": 150,
+        "max": 300
+      },
+      "terrainLayers": [
+        {
+          "id": "starfield",
+          "tilesetId": "terrain-grass-dark",
+          "type": "starfield",
+          "blocking": null,
+          "terrain": "space",
+          "procedural": true,
+          "renderOrder": 5999,
+          "fill": [
+            0
+          ],
+          "inheritable": true
+        },
+        {
+          "id": "nebula",
+          "tilesetId": "terrain-nebula-purple",
+          "type": "noise_patch",
+          "shapePreset": "nebula",
+          "blocking": null,
+          "terrain": "nebula",
+          "withinTerrain": null,
+          "autotileAgainst": [
+            "nebula",
+            "dense_nebula"
+          ],
+          "autotilePreset": "canonical",
+          "renderOrder": 6000,
+          "fill": [],
+          "procedural": false,
+          "inheritable": false
+        },
+        {
+          "id": "dense_nebula",
+          "tilesetId": "terrain-nebula-blue",
+          "type": "noise_patch",
+          "shapePreset": "sub_nebula",
+          "blocking": null,
+          "terrain": "nebula",
+          "withinTerrain": "nebula",
+          "autotileAgainst": [
+            "nebula",
+            "dense_nebula"
+          ],
+          "autotilePreset": "canonical",
+          "renderOrder": 6001,
+          "fill": [],
+          "procedural": false,
+          "inheritable": false
+        }
+      ],
+      "slots": [
+        {
+          "positionAlgorithm": "open_space",
+          "min": 0,
+          "max": 1,
+          "nearPurpose": null,
+          "inheritableTags": null,
+          "distribution": "even",
+          "forbiddenTags": null,
+          "purpose": "exit",
+          "slotSize": null,
+          "flags": {
+            "isStructural": true,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "preferDistrict": null,
+          "distributionGroup": null,
+          "requiredTags": null
+        },
+        {
+          "positionAlgorithm": "open_space",
+          "min": 1,
+          "max": 1,
+          "nearPurpose": null,
+          "inheritableTags": null,
+          "distribution": "even",
+          "forbiddenTags": null,
+          "purpose": "star_system",
+          "slotSize": null,
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "preferDistrict": null,
+          "distributionGroup": null,
+          "requiredTags": null
+        },
+        {
+          "positionAlgorithm": "open_space",
+          "requiredTags": null,
+          "min": null,
+          "max": 1,
+          "nearPurpose": null,
+          "inheritableTags": null,
+          "distribution": "even",
+          "forbiddenTags": null,
+          "purpose": "spaceport",
+          "slotSize": null,
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "preferDistrict": null,
+          "distributionGroup": null
+        }
+      ],
+      "description": "A galaxy-scale map with nebulae and star systems",
+      "weight": 1,
+      "defaultBlocked": false
+    }
+  ],
+  "characterScale": 1,
+  "timeScale": 1,
+  "interactionZone": null
+}

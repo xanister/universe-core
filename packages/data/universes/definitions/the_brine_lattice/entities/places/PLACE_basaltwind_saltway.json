@@ -1,0 +1,60 @@
+{
+  "id": "PLACE_basaltwind_saltway",
+  "label": "Basaltwind Saltway",
+  "description": "Basaltwind Saltway serves as the primary interior passage linking the vessel’s sealed compartments, cut low and narrow within the dark, salt-scoured hull. The bulkheads are clad in corrosion-tolerant plating scored by mineral abrasion, while recessed service conduits run in straight, lidded channels to preserve watertight integrity. Ceiling lamps sit behind thickened glass to withstand constant grit, casting a hard, pale light that emphasizes the ship’s austere fittings. Flush deck plates and minimal handholds reflect The Basaltwind’s deliberate preference for sealed hardware over ornament in Brineshade’s saline basins.",
+  "short_description": "narrow salt-scored corridor",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "ship_corridor",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "ship_hatch",
+      "facing": "south",
+      "layer": "floor"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/the_brine_lattice/images/battles/PLACE_basaltwind_saltway.png?v=1772313814839",
+    "inheritedRequiredTags": [
+      "ship"
+    ]
+  },
+  "position": {
+    "x": 784,
+    "y": 672,
+    "width": 96,
+    "height": 96,
+    "parent": "PLACE_the_basaltwind",
+    "innerWidth": 480,
+    "innerHeight": 512
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/the_brine_lattice/images/places/PLACE_basaltwind_saltway.png?v=1772313929738",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

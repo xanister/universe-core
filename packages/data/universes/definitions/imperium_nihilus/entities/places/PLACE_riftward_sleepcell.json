@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_riftward_sleepcell",
+  "label": "Riftward Sleepcell",
+  "description": "Riftward Sleepcell is a compact residential unit cut into the bastion’s interlocked hab tiers, its walls cast from black slagcrete and faced with scuffed vitrified panels. A recessed cot-niche, a fold-down work surface, and sealed storage lockers are built into the structure as fixed fittings, conserving space against the city’s dense vertical plan. Lighting remains low and regulated behind grit-proof louvers, with conduit runs and vox-shielding mesh exposed along the ceiling to blunt auroral backwash. The air is filtered through a narrow intake duct fitted with ash screens, leaving a permanent tang of ozone and stone dust in the fabric-lined interior.",
+  "short_description": "compact fortified sleepcell",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "residence",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "building_residence",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/battles/PLACE_riftward_sleepcell.png?v=1772146096468",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 1136,
+    "y": 1376,
+    "width": 160,
+    "height": 256,
+    "parent": "PLACE_vespera_tertius_nocturnis_bastion",
+    "innerWidth": 800,
+    "innerHeight": 864
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/places/PLACE_riftward_sleepcell.png?v=1772146145644",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

@@ -1,0 +1,19 @@
+{
+  "id": "world_map_mountain",
+  "purposes": [
+    "decoration"
+  ],
+  "spriteId": "world_map_mountain",
+  "name": "Mountain",
+  "description": "A mountain from the world map tileset",
+  "tags": [
+    "common",
+    "world_map",
+    "mountain",
+    "terrain"
+  ],
+  "materials": [],
+  "solid": true,
+  "layer": "default",
+  "tintable": false
+}

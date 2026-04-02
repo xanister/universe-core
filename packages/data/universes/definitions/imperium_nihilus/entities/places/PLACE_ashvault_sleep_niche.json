@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_ashvault_sleep_niche",
+  "label": "Ashvault Sleep Niche",
+  "description": "Ashvault Sleep Niche is a narrow, enclosed sleeping recess partitioned from the habartment’s main compartment by a sliding hygiene screen and gasketed trim. A single built-in bunk dominates the bay, its frame of void-black bracing bolted directly into the ferrocrete ribs and fitted with a restraint strap for alert-cycle drills. Recessed lumen strips sit behind a louvered diffuser, maintaining a cold, regulated light that reflects off scrubbed surfaces and standardized tally slates. A shallow stowage void beneath the bunk and a sealed vent head at the niche’s crown reinforce the cell’s quarantine-ready, filtration-dependent design.",
+  "short_description": "sealed sleep nook",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "bedroom",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "door_wooden",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/battles/PLACE_ashvault_sleep_niche.png?v=1771995757094",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 240,
+    "y": 160,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_ashvault_habcell",
+    "innerWidth": 448,
+    "innerHeight": 448
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/places/PLACE_ashvault_sleep_niche.png?v=1771995817175",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

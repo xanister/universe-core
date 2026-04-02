@@ -1,0 +1,60 @@
+{
+  "id": "PLACE_the_filament_alcove",
+  "label": "The Filament Alcove",
+  "description": "The Filament Alcove is a compact sleeping chamber cut into the glass-dark composite behind the cantina’s sound-baffled panels, its surfaces scored with the Anchorage’s repeating cell-grids. Radiant strands set into rectilinear ceiling channels provide hard-edged, metered illumination that divides the space into strict intervals. A wall-berth of matte latticework folds flush when stowed, leaving a narrow floor lane aligned to the cantina’s axial geometry. A single mooring-view slit, precision-framed and glare-damped, admits a disciplined slice of the void-channels beyond.",
+  "short_description": "lattice-lit berth alcove",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "bedroom",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "door_wooden",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/the_hollow_lattice/images/battles/PLACE_the_filament_alcove.png?v=1772313947506",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 496,
+    "y": 160,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_the_null_cantina",
+    "innerWidth": 576,
+    "innerHeight": 608
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/the_hollow_lattice/images/places/PLACE_the_filament_alcove.png?v=1772314028388",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": [
+    "The Filament Sleeper"
+  ],
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

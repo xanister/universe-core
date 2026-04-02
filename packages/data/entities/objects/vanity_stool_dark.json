@@ -1,0 +1,22 @@
+{
+  "id": "vanity_stool_dark",
+  "name": "Vanity Stool (Dark Wood)",
+  "description": "A round upholstered pedestal stool on dark wood legs, used at a vanity table.",
+  "purposes": [
+    "seating"
+  ],
+  "tags": [
+    "common",
+    "furniture",
+    "bedroom",
+    "seating"
+  ],
+  "solid": false,
+  "layer": "default",
+  "spriteId": "vanity_stool_dark",
+  "materials": [
+    "wood",
+    "fabric"
+  ],
+  "tintable": false
+}

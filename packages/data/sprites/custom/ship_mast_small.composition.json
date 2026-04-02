@@ -1,0 +1,408 @@
+{
+  "spriteId": "ship_mast_small",
+  "gridWidth": 3,
+  "gridHeight": 13,
+  "tileSize": 32,
+  "tiles": [
+    {
+      "tilesetId": "ship-rigging",
+      "srcX": 96,
+      "srcY": 0,
+      "col": 0,
+      "row": 0
+    },
+    {
+      "tilesetId": "ship-rigging",
+      "srcX": 96,
+      "srcY": 32,
+      "col": 0,
+      "row": 1
+    },
+    {
+      "tilesetId": "ship-rigging",
+      "srcX": 96,
+      "srcY": 64,
+      "col": 0,
+      "row": 2
+    },
+    {
+      "tilesetId": "ship-rigging",
+      "srcX": 96,
+      "srcY": 96,
+      "col": 0,
+      "row": 3
+    },
+    {
+      "tilesetId": "ship-rigging",
+      "srcX": 96,
+      "srcY": 128,
+      "col": 0,
+      "row": 4
+    },
+    {
+      "tilesetId": "ship-rigging",
+      "srcX": 96,
+      "srcY": 160,
+      "col": 0,
+      "row": 5
+    },
+    {
+      "tilesetId": "ship-rigging",
+      "srcX": 96,
+      "srcY": 192,
+      "col": 0,
+      "row": 6
+    },
+    {
+      "tilesetId": "ship-rigging",
+      "srcX": 96,
+      "srcY": 224,
+      "col": 0,
+      "row": 7
+    },
+    {
+      "tilesetId": "ship-rigging",
+      "srcX": 96,
+      "srcY": 256,
+      "col": 0,
+      "row": 8
+    },
+    {
+      "tilesetId": "ship-rigging",
+      "srcX": 96,
+      "srcY": 288,
+      "col": 0,
+      "row": 9
+    },
+    {
+      "tilesetId": "ship-rigging",
+      "srcX": 96,
+      "srcY": 320,
+      "col": 0,
+      "row": 10
+    },
+    {
+      "tilesetId": "ship-rigging",
+      "srcX": 128,
+      "srcY": 0,
+      "col": 1,
+      "row": 0
+    },
+    {
+      "tilesetId": "ship-rigging",
+      "srcX": 896,
+      "srcY": 0,
+      "col": 1,
+      "row": 1
+    },
+    {
+      "tilesetId": "ship-rigging",
+      "srcX": 128,
+      "srcY": 32,
+      "col": 1,
+      "row": 1
+    },
+    {
+      "tilesetId": "ship-rigging",
+      "srcX": 960,
+      "srcY": 0,
+      "col": 1,
+      "row": 2
+    },
+    {
+      "tilesetId": "ship-rigging",
+      "srcX": 128,
+      "srcY": 64,
+      "col": 1,
+      "row": 2
+    },
+    {
+      "tilesetId": "ship-rigging",
+      "srcX": 960,
+      "srcY": 32,
+      "col": 1,
+      "row": 3
+    },
+    {
+      "tilesetId": "ship-rigging",
+      "srcX": 128,
+      "srcY": 96,
+      "col": 1,
+      "row": 3
+    },
+    {
+      "tilesetId": "ship-rigging",
+      "srcX": 960,
+      "srcY": 64,
+      "col": 1,
+      "row": 4
+    },
+    {
+      "tilesetId": "ship-rigging",
+      "srcX": 128,
+      "srcY": 128,
+      "col": 1,
+      "row": 4
+    },
+    {
+      "tilesetId": "ship-rigging",
+      "srcX": 960,
+      "srcY": 96,
+      "col": 1,
+      "row": 5
+    },
+    {
+      "tilesetId": "ship-rigging",
+      "srcX": 128,
+      "srcY": 160,
+      "col": 1,
+      "row": 5
+    },
+    {
+      "tilesetId": "ship-rigging",
+      "srcX": 960,
+      "srcY": 128,
+      "col": 1,
+      "row": 6
+    },
+    {
+      "tilesetId": "ship-rigging",
+      "srcX": 128,
+      "srcY": 192,
+      "col": 1,
+      "row": 6
+    },
+    {
+      "tilesetId": "ship-rigging",
+      "srcX": 960,
+      "srcY": 160,
+      "col": 1,
+      "row": 7
+    },
+    {
+      "tilesetId": "ship-rigging",
+      "srcX": 128,
+      "srcY": 224,
+      "col": 1,
+      "row": 7
+    },
+    {
+      "tilesetId": "ship-rigging",
+      "srcX": 960,
+      "srcY": 192,
+      "col": 1,
+      "row": 8
+    },
+    {
+      "tilesetId": "ship-rigging",
+      "srcX": 128,
+      "srcY": 256,
+      "col": 1,
+      "row": 8
+    },
+    {
+      "tilesetId": "ship-rigging",
+      "srcX": 960,
+      "srcY": 224,
+      "col": 1,
+      "row": 9
+    },
+    {
+      "tilesetId": "ship-rigging",
+      "srcX": 128,
+      "srcY": 288,
+      "col": 1,
+      "row": 9
+    },
+    {
+      "tilesetId": "ship-rigging",
+      "srcX": 960,
+      "srcY": 256,
+      "col": 1,
+      "row": 10
+    },
+    {
+      "tilesetId": "ship-rigging",
+      "srcX": 128,
+      "srcY": 320,
+      "col": 1,
+      "row": 10
+    },
+    {
+      "tilesetId": "ship-rigging",
+      "srcX": 960,
+      "srcY": 288,
+      "col": 1,
+      "row": 11
+    },
+    {
+      "tilesetId": "ship-rigging",
+      "srcX": 896,
+      "srcY": 320,
+      "col": 1,
+      "row": 12
+    },
+    {
+      "tilesetId": "ship-rigging",
+      "srcX": 160,
+      "srcY": 0,
+      "col": 2,
+      "row": 0
+    },
+    {
+      "tilesetId": "ship-rigging",
+      "srcX": 928,
+      "srcY": 0,
+      "col": 2,
+      "row": 1
+    },
+    {
+      "tilesetId": "ship-rigging",
+      "srcX": 160,
+      "srcY": 32,
+      "col": 2,
+      "row": 1
+    },
+    {
+      "tilesetId": "ship-rigging",
+      "srcX": 992,
+      "srcY": 0,
+      "col": 2,
+      "row": 2
+    },
+    {
+      "tilesetId": "ship-rigging",
+      "srcX": 160,
+      "srcY": 64,
+      "col": 2,
+      "row": 2
+    },
+    {
+      "tilesetId": "ship-rigging",
+      "srcX": 992,
+      "srcY": 32,
+      "col": 2,
+      "row": 3
+    },
+    {
+      "tilesetId": "ship-rigging",
+      "srcX": 160,
+      "srcY": 96,
+      "col": 2,
+      "row": 3
+    },
+    {
+      "tilesetId": "ship-rigging",
+      "srcX": 992,
+      "srcY": 64,
+      "col": 2,
+      "row": 4
+    },
+    {
+      "tilesetId": "ship-rigging",
+      "srcX": 160,
+      "srcY": 128,
+      "col": 2,
+      "row": 4
+    },
+    {
+      "tilesetId": "ship-rigging",
+      "srcX": 992,
+      "srcY": 96,
+      "col": 2,
+      "row": 5
+    },
+    {
+      "tilesetId": "ship-rigging",
+      "srcX": 160,
+      "srcY": 160,
+      "col": 2,
+      "row": 5
+    },
+    {
+      "tilesetId": "ship-rigging",
+      "srcX": 992,
+      "srcY": 128,
+      "col": 2,
+      "row": 6
+    },
+    {
+      "tilesetId": "ship-rigging",
+      "srcX": 160,
+      "srcY": 192,
+      "col": 2,
+      "row": 6
+    },
+    {
+      "tilesetId": "ship-rigging",
+      "srcX": 992,
+      "srcY": 160,
+      "col": 2,
+      "row": 7
+    },
+    {
+      "tilesetId": "ship-rigging",
+      "srcX": 160,
+      "srcY": 224,
+      "col": 2,
+      "row": 7
+    },
+    {
+      "tilesetId": "ship-rigging",
+      "srcX": 992,
+      "srcY": 192,
+      "col": 2,
+      "row": 8
+    },
+    {
+      "tilesetId": "ship-rigging",
+      "srcX": 160,
+      "srcY": 256,
+      "col": 2,
+      "row": 8
+    },
+    {
+      "tilesetId": "ship-rigging",
+      "srcX": 992,
+      "srcY": 224,
+      "col": 2,
+      "row": 9
+    },
+    {
+      "tilesetId": "ship-rigging",
+      "srcX": 160,
+      "srcY": 288,
+      "col": 2,
+      "row": 9
+    },
+    {
+      "tilesetId": "ship-rigging",
+      "srcX": 992,
+      "srcY": 256,
+      "col": 2,
+      "row": 10
+    },
+    {
+      "tilesetId": "ship-rigging",
+      "srcX": 160,
+      "srcY": 320,
+      "col": 2,
+      "row": 10
+    },
+    {
+      "tilesetId": "ship-rigging",
+      "srcX": 992,
+      "srcY": 288,
+      "col": 2,
+      "row": 11
+    },
+    {
+      "tilesetId": "ship-rigging",
+      "srcX": 928,
+      "srcY": 320,
+      "col": 2,
+      "row": 12
+    }
+  ],
+  "updatedAt": "2026-02-15T16:52:43.650Z"
+}

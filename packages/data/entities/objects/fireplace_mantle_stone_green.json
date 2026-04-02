@@ -1,0 +1,22 @@
+{
+  "id": "fireplace_mantle_stone_green",
+  "name": "Stone Fireplace Mantle (Green)",
+  "description": "An ornate stone and green wood fireplace with a cream-coloured arched mantle surround.",
+  "purposes": [
+    "decoration"
+  ],
+  "tags": [
+    "furniture",
+    "decoration",
+    "temple",
+    "fireplace"
+  ],
+  "solid": true,
+  "layer": "default",
+  "spriteId": "fireplace_mantle_stone_green",
+  "materials": [
+    "stone",
+    "wood"
+  ],
+  "tintable": false
+}

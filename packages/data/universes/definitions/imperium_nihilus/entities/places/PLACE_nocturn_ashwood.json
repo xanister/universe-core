@@ -1,0 +1,59 @@
+{
+  "id": "PLACE_nocturn_ashwood",
+  "label": "Nocturn Ashwood",
+  "description": "Nocturn Ashwood is a dense temperate forest on Cyrenth Vale, rooted in ash-laden soils laid down by centuries of atmospheric fallout. Its trunks rise tall and close-set, their bark stained dark by soot and mineral deposition, while the canopy filters the planet’s cold, veiled luminance into a perpetual dusk. Bruise-hued aurorae from the rift-shadowed sky flicker across wet leaves and lichen, casting intermittent color through the understory. The ground is threaded with shallow gullies and slag-strewn clearings that preserve the marks of long siege logistics and neglected perimeter works.",
+  "short_description": "rift-dim ash forest",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "forest",
+    "environment": {
+      "type": "exterior",
+      "hasWeather": true,
+      "temperature": {
+        "enabled": true,
+        "base": null,
+        "modifiersApply": true
+      },
+      "maxDarkness": null
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "tree_canopy_small",
+      "facing": "south",
+      "layer": "default"
+    },
+    "allowPlayerStart": false,
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/battles/PLACE_nocturn_ashwood.png?v=1771816906820",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 1600,
+    "y": 2048,
+    "width": 48,
+    "height": 48,
+    "parent": "PLACE_cyrenth_vale",
+    "innerWidth": 3296,
+    "innerHeight": 1856
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/places/PLACE_nocturn_ashwood.png?v=1771816956301",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

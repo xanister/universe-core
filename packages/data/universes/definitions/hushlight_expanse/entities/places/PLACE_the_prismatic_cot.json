@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_the_prismatic_cot",
+  "label": "The Prismatic Cot",
+  "description": "The Prismatic Cot occupies a narrow rear volume of The Prismwright Exchange, walled in basalt glass whose surface is dulled by an electrostatically pinned grit. A low sleeping platform sits beneath a shuttered caged lightwell, where copper-white twilight resolves into banded reflections across mirror-slag panels set for optical alignment. Built-in shelves and a recessed wash niche are edged with antistatic fins, keeping Lacrymara’s charged glass dust from gathering on linens and instruments. Seam-line calibration marks continue across the threshold stone, binding the private room to Seamline Concord’s civic geometry.",
+  "short_description": "spare prism-lit bedroom",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "bedroom",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "door_wooden",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/hushlight_expanse/images/battles/PLACE_the_prismatic_cot.png?v=1772313894842",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 592,
+    "y": 160,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_the_prismwright_exchange",
+    "innerWidth": 512,
+    "innerHeight": 640
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/hushlight_expanse/images/places/PLACE_the_prismatic_cot.png?v=1772313983921",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

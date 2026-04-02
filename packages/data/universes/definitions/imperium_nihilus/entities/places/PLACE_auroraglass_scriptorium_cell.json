@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_auroraglass_scriptorium_cell",
+  "label": "Auroraglass Scriptorium Cell",
+  "description": "Auroraglass prisms set high in the basalt wall admit narrow bands of bruise-violet light, cutting across a slab-built sleeping niche and a recessed lectern fixed in slagcrete. Copper grounding straps lace the ceiling and descend to a floor grate, their riveted runs designed to bleed electrostatic charge into the temple’s insulated lattice. The furnishings remain austere and permanent: a stone plinth for effects, a wall niche for devotional texts, and a shuttered vox-silence vent packed with ash baffles. The chamber’s surfaces carry a permanent film of soot, sealed under waxed sealant that resists Ashenward City’s abrasive gales.",
+  "short_description": "austere auroral-lit cell",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "bedroom",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "door_wooden",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/battles/PLACE_auroraglass_scriptorium_cell.png?v=1771959276147",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 400,
+    "y": 352,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_temple_of_the_riftvigil",
+    "innerWidth": 512,
+    "innerHeight": 480
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/places/PLACE_auroraglass_scriptorium_cell.png?v=1771959330475",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

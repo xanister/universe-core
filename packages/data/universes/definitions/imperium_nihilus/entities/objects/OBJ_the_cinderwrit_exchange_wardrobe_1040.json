@@ -1,0 +1,54 @@
+{
+  "id": "OBJ_the_cinderwrit_exchange_wardrobe_1040",
+  "label": "Wardrobe",
+  "description": "A tall wooden wardrobe",
+  "important": false,
+  "short_description": "wardrobe",
+  "tags": [
+    "common",
+    "furniture",
+    "storage"
+  ],
+  "entityType": "object",
+  "info": {
+    "purpose": "storage",
+    "solid": true,
+    "layer": "default",
+    "isStructural": false,
+    "material": null,
+    "tint": null,
+    "spriteConfig": {
+      "spriteId": "wardrobe",
+      "frame": null,
+      "animationKey": null,
+      "animated": false,
+      "facing": "south"
+    },
+    "hp": null,
+    "maxHp": null,
+    "state": null,
+    "contents": null,
+    "lightSource": null,
+    "itemId": null,
+    "plotId": null
+  },
+  "position": {
+    "x": 672,
+    "y": 1312,
+    "width": 64,
+    "height": 96,
+    "parent": "PLACE_the_cinderwrit_exchange"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "relationships": [],
+  "image": null,
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "search"
+  }
+}

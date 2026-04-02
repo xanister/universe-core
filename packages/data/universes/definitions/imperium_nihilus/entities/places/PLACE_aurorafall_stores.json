@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_aurorafall_stores",
+  "label": "Aurorafall Stores",
+  "description": "Aurorafall Stores is a narrow, pressure-tight compartment partitioned from the habcell’s central aisle, its walls formed of slagcrete ribs clad in black vitrified panels to resist ash grit. Racked shelving and stacked lockbins rise to the low ceiling, lashed with restraint webbing and scored with stenciled inventory tallies. Service conduits and insulated vox cabling pass through sealed junction boxes overhead, their housings overbuilt against the bastion’s constant interference and electrostatic discharge. The air remains notably dry and filtered, carrying the faint tang of sealant and machine oil from gasketed fittings.",
+  "short_description": "sealed racked storeroom",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "storage_room",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.9
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "door_wooden",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/battles/PLACE_aurorafall_stores.png?v=1771950534723",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 48,
+    "y": 160,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_aurorafall_habcell",
+    "innerWidth": 480,
+    "innerHeight": 640
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/places/PLACE_aurorafall_stores.png?v=1771950594384",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

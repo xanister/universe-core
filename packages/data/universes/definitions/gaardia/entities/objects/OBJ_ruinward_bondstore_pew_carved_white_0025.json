@@ -1,0 +1,53 @@
+{
+  "id": "OBJ_ruinward_bondstore_pew_carved_white_0025",
+  "label": "Carved Church Pew (White)",
+  "description": "A white wood pew with a decorative carved back panel.",
+  "important": false,
+  "short_description": "carved church pew (white)",
+  "tags": [
+    "common",
+    "furniture",
+    "seating",
+    "temple"
+  ],
+  "entityType": "object",
+  "info": {
+    "purpose": "seating",
+    "solid": true,
+    "layer": "default",
+    "isStructural": false,
+    "material": null,
+    "tint": null,
+    "spriteConfig": {
+      "spriteId": "pew_carved_white",
+      "frame": null,
+      "animationKey": null,
+      "animated": false,
+      "facing": "south"
+    },
+    "hp": null,
+    "maxHp": null,
+    "state": null,
+    "contents": null,
+    "lightSource": null,
+    "itemId": null,
+    "plotId": null
+  },
+  "position": {
+    "x": 1328,
+    "y": 1440,
+    "width": 96,
+    "height": 32,
+    "parent": "PLACE_ruinward_bondstore"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "relationships": [],
+  "image": null,
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": null
+}

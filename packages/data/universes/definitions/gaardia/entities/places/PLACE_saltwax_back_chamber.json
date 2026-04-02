@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_saltwax_back_chamber",
+  "label": "Saltwax Back Chamber",
+  "description": "Saltwax Back Chamber forms a compact sleeping room set into the brick thickness along the inner rampart wall, its corners squared by salvaged ashlar blocks. Limewashed plaster and a low-beamed ceiling confine the space, while a shuttered slit window admits a narrow bar of daylight and keeps the wards’ night-glare contained. An iron-hasped door closes to a simple peg rail, a rope-slung pallet frame, and a battered chest sized for travel papers and licensed seals. A wall plaque repeats Varric Holdfast’s interdiction symbols in plain script, treating frontier hazard codes as ordinary household instruction.",
+  "short_description": "narrow shuttered bedroom",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "bedroom",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "door_wooden",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/gaardia/images/battles/PLACE_saltwax_back_chamber.png?v=1772208787392",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 528,
+    "y": 160,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_the_saltwax_lodging",
+    "innerWidth": 480,
+    "innerHeight": 448
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/gaardia/images/places/PLACE_saltwax_back_chamber.png?v=1772208836461",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

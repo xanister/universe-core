@@ -1,0 +1,54 @@
+{
+  "id": "OBJ_ruinward_bondstore_wardrobe_white_0020",
+  "label": "Wardrobe (White Wood)",
+  "description": "An ornate double-door armoire in white-painted wood with decorative carved top.",
+  "important": false,
+  "short_description": "wardrobe (white wood)",
+  "tags": [
+    "common",
+    "furniture",
+    "bedroom"
+  ],
+  "entityType": "object",
+  "info": {
+    "purpose": "storage",
+    "solid": true,
+    "layer": "default",
+    "isStructural": false,
+    "material": null,
+    "tint": null,
+    "spriteConfig": {
+      "spriteId": "wardrobe_white",
+      "frame": null,
+      "animationKey": null,
+      "animated": false,
+      "facing": "south"
+    },
+    "hp": null,
+    "maxHp": null,
+    "state": null,
+    "contents": null,
+    "lightSource": null,
+    "itemId": null,
+    "plotId": null
+  },
+  "position": {
+    "x": 624,
+    "y": 2400,
+    "width": 64,
+    "height": 96,
+    "parent": "PLACE_ruinward_bondstore"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "relationships": [],
+  "image": null,
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "search"
+  }
+}

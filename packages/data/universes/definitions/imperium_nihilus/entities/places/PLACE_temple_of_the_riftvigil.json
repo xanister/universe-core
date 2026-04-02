@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_temple_of_the_riftvigil",
+  "label": "Temple of the Rift-Vigil",
+  "description": "The Temple of the Rift-Vigil occupies a buttressed basalt nave sealed behind layered blast-doors and ash baffles, its exterior clad in slagcrete ribs that shed the city’s abrasive gales. Inside, soot-black pillars rise to a vaulted ceiling webbed with copper grounding lattices, built to bleed off the electrostatic charge that regularly scours Ashenward City. Violet auroral glare enters through narrow prisms of auroraglass, casting hard-edged bands of light across votive plinths and shielded reliquary recesses. Vox-silencing insulation and redundant beacon housings make the sanctuary a liturgical relay point as well as a place of devotion under the fracture of long-range transmission.",
+  "short_description": "basalt auroral-lit temple",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "temple",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "world_map_temple",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/battles/PLACE_temple_of_the_riftvigil.png?v=1771959095152",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 2672,
+    "y": 2592,
+    "width": 96,
+    "height": 96,
+    "parent": "PLACE_vespera_tertius_ashenward_city",
+    "innerWidth": 1440,
+    "innerHeight": 5888
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/places/PLACE_temple_of_the_riftvigil.png?v=1771959144004",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

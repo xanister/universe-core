@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_riftshade_hearthroom",
+  "label": "Riftshade Hearthroom",
+  "description": "Riftshade Hearthroom is a compact domestic chamber set within the interlocked hab-tiers of Vespera Tertius Nocturnis Bastion, its walls poured in slagcrete and faced with soot-dark panels to resist ash infiltration. A recessed heat-niche of black vitrified stone anchors the room, its fluework routed into the bastion’s sealed service voids to prevent stormback draft. Narrow, armored view-slits carry auroral spill as a bruise-colored sheen across worn furnishings and stenciled devotional placards. The ceiling is crossed by shielded conduit runs and a redundant vox baffle, reflecting the city’s permanent interference and overbuilt life-support doctrine.",
+  "short_description": "ashen bastion hearthroom",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "residence",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "building_residence",
+      "facing": "west",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/battles/PLACE_riftshade_hearthroom.png?v=1772146101484",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 400,
+    "y": 1600,
+    "width": 160,
+    "height": 256,
+    "parent": "PLACE_vespera_tertius_nocturnis_bastion",
+    "innerWidth": 1088,
+    "innerHeight": 896
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/places/PLACE_riftshade_hearthroom.png?v=1772146151225",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_the_nullglow_alcove",
+  "label": "The Nullglow Alcove",
+  "description": "The Nullglow Alcove is a compact sleeping chamber set behind the prismatic laminates of The Polarized Cask, insulated from concourse vibration by sound-damping ribs. Its walls are clad in matte black-ceramic panels that swallow stray reflections, leaving only thin, regulated bands of copper-white twilight from a polarized slit above the berth. A recessed locker bank of vitrified glass is etched with charge-channel filaments that mirror the debris-belt arcs, serving as both storage and passive field shielding. Air-handling grilles maintain the tavern’s characteristic hush, and the floor plate is sprung to quiet footfall within the pressurized shell.",
+  "short_description": "matte hushlit sleep alcove",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "bedroom",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "door_wooden",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/hushlight_expanse/images/battles/PLACE_the_nullglow_alcove.png?v=1772314087778",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 688,
+    "y": 160,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_the_polarized_cask",
+    "innerWidth": 608,
+    "innerHeight": 544
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/hushlight_expanse/images/places/PLACE_the_nullglow_alcove.png?v=1772314136884",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

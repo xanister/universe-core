@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_cosmos",
+  "label": "Cosmos",
+  "description": "The root of all existence in Brine Lantern, comprising the totality of space, time, matter, and the ordered void between. Vast starfields, drifting nebulae, and lightless interstellar reaches define its primary geography, punctuated by fixed laws that govern motion, decay, and formation. Its structure records deep epochs through the distribution of galaxies and the lingering radiation of early creation. Every realm and sea-born legend traces its ultimate provenance to this encompassing expanse.",
+  "short_description": "root of existence",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "cosmos",
+    "environment": {
+      "type": "space",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": false,
+        "base": null,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.6
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "star_sun",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/brine_lantern/images/battles/PLACE_cosmos.png?v=1772314584814",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 0,
+    "y": 0,
+    "width": 64,
+    "height": 64,
+    "parent": null,
+    "innerWidth": 8768,
+    "innerHeight": 7232
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/brine_lantern/images/places/PLACE_cosmos.png?v=1772314631886",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": true
+}

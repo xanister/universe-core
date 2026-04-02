@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_nightwatch_chamber",
+  "label": "Nightwatch Chamber",
+  "description": "The Nightwatch Chamber is a compact sleeping room cut into vitrified basalt behind the Riftward Canteen’s wreck-metal skin, its surfaces sealed with tar-black jointing against ash and electrostatic grit. A recessed cot-niche and a slabbed writing ledge are built directly into the wall, leaving the floor clear for a narrow kit-locker bolted to the stone. Bruise-hued light bleeds through a baffled transom, while vox-suppression lining continues across the door and ceiling to preserve the canteen’s controlled quiet. Condenser grilles and hard gaskets keep the air dry and metallic, with the city’s distant relays reduced to a muted tremor.",
+  "short_description": "sealed basalt bedroom",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "bedroom",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "door_wooden",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/battles/PLACE_nightwatch_chamber.png?v=1771950149107",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 80,
+    "y": 160,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_the_riftward_canteen",
+    "innerWidth": 448,
+    "innerHeight": 448
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/places/PLACE_nightwatch_chamber.png?v=1771950202159",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

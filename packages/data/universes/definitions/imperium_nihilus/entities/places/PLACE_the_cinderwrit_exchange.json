@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_the_cinderwrit_exchange",
+  "label": "The Cinderwrit Exchange",
+  "description": "The Cinderwrit Exchange is a narrow mercantile chamber cut into Ashenward City’s basalt-and-slagcrete streetwall, its frontage sealed behind overlapping blast shutters scored by ash abrasion. Inside, tiered bins and lock-cages are set into the masonry and plated in dull ceramite, arranged for rapid inventory under intermittent stormlight. A shielded vox-counter and bead-curtained receipt alcove dominate the center aisle, built to function amid the city’s constant signal corruption. The air carries the dry bite of grit, and the floor is vitrified paving worn to a violet sheen by electrostatic ash.",
+  "short_description": "ash-dusted trade shop",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "shop",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "building_shop",
+      "facing": "west",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/battles/PLACE_the_cinderwrit_exchange.png?v=1771958869374",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 1872,
+    "y": 1536,
+    "width": 160,
+    "height": 256,
+    "parent": "PLACE_vespera_tertius_ashenward_city",
+    "innerWidth": 896,
+    "innerHeight": 1632
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/places/PLACE_the_cinderwrit_exchange.png?v=1771958919590",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

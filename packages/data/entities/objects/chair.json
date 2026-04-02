@@ -1,0 +1,22 @@
+{
+  "id": "chair",
+  "name": "Chair",
+  "description": "A simple wooden chair",
+  "purposes": [
+    "seating"
+  ],
+  "tags": [
+    "common",
+    "furniture",
+    "seating"
+  ],
+  "solid": true,
+  "layer": "default",
+  "spriteId": "chair",
+  "materials": [
+    "wood",
+    "oak",
+    "pine"
+  ],
+  "tintable": true
+}

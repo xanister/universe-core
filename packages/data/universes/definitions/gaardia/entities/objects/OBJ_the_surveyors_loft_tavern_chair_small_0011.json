@@ -1,0 +1,53 @@
+{
+  "id": "OBJ_the_surveyors_loft_tavern_chair_small_0011",
+  "label": "Small Tavern Chair",
+  "description": "A compact wooden chair.",
+  "important": false,
+  "short_description": "small tavern chair",
+  "tags": [
+    "common",
+    "furniture",
+    "seating",
+    "tavern"
+  ],
+  "entityType": "object",
+  "info": {
+    "purpose": "seating",
+    "solid": false,
+    "layer": "default",
+    "isStructural": false,
+    "material": null,
+    "tint": null,
+    "spriteConfig": {
+      "spriteId": "tavern_chair_small",
+      "frame": null,
+      "animationKey": null,
+      "animated": false,
+      "facing": "south"
+    },
+    "hp": null,
+    "maxHp": null,
+    "state": null,
+    "contents": null,
+    "lightSource": null,
+    "itemId": null,
+    "plotId": null
+  },
+  "position": {
+    "x": 272,
+    "y": 256,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_the_surveyors_loft"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "relationships": [],
+  "image": null,
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": null
+}

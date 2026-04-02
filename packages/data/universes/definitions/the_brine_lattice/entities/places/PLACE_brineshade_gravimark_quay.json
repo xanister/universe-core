@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_brineshade_gravimark_quay",
+  "label": "Brineshade Gravimark Quay",
+  "description": "Brineshade Gravimark Quay forms a hardened basalt landing frontage cut into the saline flats at the edge of Brineshade’s high-contrast terminator zone. Its approach lanes are scored with luminous gravitic reference marks, aligned to Saltharrow’s pronounced gradients to standardize descent vectors under the star’s hard white radiance. Salt-rimed gantries and sealed mooring pylons rise above mineral haze bands, their surfaces etched by persistent tidal stresses. Shielded service galleries run behind the berth line, built low against wind-scoured flats and engineered for rapid turnover along the system’s charted transit lanes.",
+  "short_description": "salt-rimed basalt quay",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "harbor",
+    "environment": {
+      "type": "exterior",
+      "hasWeather": true,
+      "temperature": {
+        "enabled": true,
+        "base": null,
+        "modifiersApply": true
+      },
+      "maxDarkness": null
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "world_map_dock",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/the_brine_lattice/images/battles/PLACE_brineshade_gravimark_quay.png?v=1772313899218",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 1136,
+    "y": 2112,
+    "width": 96,
+    "height": 48,
+    "parent": "PLACE_brineshade",
+    "innerWidth": 1504,
+    "innerHeight": 1280
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/the_brine_lattice/images/places/PLACE_brineshade_gravimark_quay.png?v=1772313980655",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

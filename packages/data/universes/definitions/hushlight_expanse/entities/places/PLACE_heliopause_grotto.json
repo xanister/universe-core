@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_heliopause_grotto",
+  "label": "Heliopause Grotto",
+  "description": "Heliopause Grotto is a subsurface cavity cut into Lacrymara’s fault-limned bedrock, its ceilings laminated with glass dust that has sintered into mirror-bright plates. Copper-white twilight filters through narrow fissures, breaking into regimented bands that echo Vesperglass System’s halo geometry across the cave walls. The floor is a shallow, mineral-brined sump whose suspended reflective particulates render depth unreadable and amplify the hushlit gradients. Polished seam-lines run through the chamber like inlaid filaments, marking tectonic stresses with a steady, cold luminescence.",
+  "short_description": "mirror-bright twilight cave",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "cave",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.9
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "stone_arch_ruins",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/hushlight_expanse/images/battles/PLACE_heliopause_grotto.png?v=1772314355420",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 3008,
+    "y": 1472,
+    "width": 48,
+    "height": 48,
+    "parent": "PLACE_lacrymara",
+    "innerWidth": 2624,
+    "innerHeight": 1728
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/hushlight_expanse/images/places/PLACE_heliopause_grotto.png?v=1772314401954",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_the_quiet_bunkroom",
+  "label": "The Quiet Bunkroom",
+  "description": "The Quiet Bunkroom is a narrow sleeping bay partitioned off the Riftward Canteen’s basalt vaults with riveted wreck-metal panels and a sealable bulkhead. Tiered bunks are bolted directly into the vitrified stone, their frames braced against the bastion’s constant vibration and distant thunder of electrostatic storms. Mesh-baffled lumen strips cast the same bruise-hued light as the drinking hall, while vox-suppression sheeting and condenser vents keep ash grit and interference out of the air. Lockers of slag-stained steel line the inner wall, their surfaces etched by repeated cleaning solvents and abrasive dust.",
+  "short_description": "sealed bunks in gloom",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "bedroom",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "door_wooden",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/battles/PLACE_the_quiet_bunkroom.png?v=1771950033554",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 144,
+    "y": 160,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_the_riftward_canteen",
+    "innerWidth": 512,
+    "innerHeight": 480
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/places/PLACE_the_quiet_bunkroom.png?v=1771950089305",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

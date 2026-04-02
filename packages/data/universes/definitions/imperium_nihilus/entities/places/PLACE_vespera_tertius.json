@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_vespera_tertius",
+  "label": "Vespera Tertius",
+  "description": "Vespera Tertius is a rift-shadowed world orbiting within the Gloamreach System, its nightside permanently washed in bruise-colored auroral glare cast by the empyrean-stained void. The planet’s surface is dominated by basaltic plateaus, glassy impact fields, and ash-choked basins where electrostatic storms scrape the horizon with violet lightning. Orbital space remains cluttered by neglected Imperial infrastructure and drifting wreckage, forcing approach vectors into narrow, beacon-marked corridors. Vox propagation across the world suffers constant interference, and long-range transmissions fracture into delayed, corrupted fragments as a fixed condition of its atmosphere and orbit.",
+  "short_description": "rift-shadowed ash world",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "planet",
+    "environment": {
+      "type": "exterior",
+      "hasWeather": true,
+      "temperature": {
+        "enabled": true,
+        "base": null,
+        "modifiersApply": true
+      },
+      "maxDarkness": null
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "planet_terran",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/battles/PLACE_vespera_tertius.png?v=1771302726619",
+    "inheritedRequiredTags": null,
+    "timeScale": 1
+  },
+  "position": {
+    "x": 624,
+    "y": 2080,
+    "width": 32,
+    "height": 32,
+    "parent": "PLACE_gloamreach_system",
+    "innerWidth": 4544,
+    "innerHeight": 3104
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/places/PLACE_vespera_tertius.png",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

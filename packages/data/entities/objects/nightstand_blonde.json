@@ -1,0 +1,22 @@
+{
+  "id": "nightstand_blonde",
+  "name": "Nightstand (Blonde Wood)",
+  "description": "A simple blonde wood bedside table with a single drawer.",
+  "purposes": [
+    "side_table",
+    "decoration",
+    "storage"
+  ],
+  "tags": [
+    "common",
+    "furniture",
+    "bedroom"
+  ],
+  "solid": true,
+  "layer": "default",
+  "spriteId": "nightstand_blonde",
+  "materials": [
+    "wood"
+  ],
+  "tintable": false
+}

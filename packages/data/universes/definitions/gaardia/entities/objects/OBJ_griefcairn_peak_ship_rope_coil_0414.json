@@ -1,0 +1,53 @@
+{
+  "id": "OBJ_griefcairn_peak_ship_rope_coil_0414",
+  "label": "Coiled Rope",
+  "description": "A coil of heavy ship's rope",
+  "important": false,
+  "short_description": "coiled rope",
+  "tags": [
+    "common",
+    "ship",
+    "rope",
+    "decoration"
+  ],
+  "entityType": "object",
+  "info": {
+    "purpose": "decoration",
+    "solid": true,
+    "layer": "default",
+    "isStructural": false,
+    "material": null,
+    "tint": null,
+    "spriteConfig": {
+      "spriteId": "ship_rope_coil",
+      "frame": null,
+      "animationKey": null,
+      "animated": false,
+      "facing": "south"
+    },
+    "hp": null,
+    "maxHp": null,
+    "state": null,
+    "contents": null,
+    "lightSource": null,
+    "itemId": null,
+    "plotId": null
+  },
+  "position": {
+    "x": 3824,
+    "y": 1536,
+    "width": 32,
+    "height": 32,
+    "parent": "PLACE_griefcairn_peak"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "relationships": [],
+  "image": null,
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": null
+}

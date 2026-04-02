@@ -1,0 +1,22 @@
+{
+  "id": "pennant_red",
+  "name": "Red Pennant",
+  "description": "A small red triangular pennant flag.",
+  "purposes": [
+    "decoration"
+  ],
+  "tags": [
+    "common",
+    "decoration",
+    "tavern",
+    "wall"
+  ],
+  "solid": false,
+  "layer": "overhead",
+  "spriteId": "pennant_red",
+  "materials": [
+    "cloth"
+  ],
+  "tintable": false,
+  "wallVerticalOffset": -1
+}

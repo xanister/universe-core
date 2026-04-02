@@ -1,0 +1,59 @@
+{
+  "id": "PLACE_vesperglass_pierworks",
+  "label": "Vesperglass Pierworks",
+  "description": "Vesperglass Pierworks consists of a low, ash-caked quay of poured ferrocrete anchored into the lake’s rift-scarred bedrock. Its mooring points and cleats are cast as integral fittings, their edges rounded by fallout abrasion and long disuse. A line of sealed service hatches and conduit collars runs the quay’s spine, matching the abandoned intake pylons that punctuate the nearby shoreline. The water at its face remains unnaturally motionless, holding the bruise-hued aurora as a dull, unbroken reflection.",
+  "short_description": "ash-caked ferrocrete dock",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "harbor",
+    "environment": {
+      "type": "exterior",
+      "hasWeather": true,
+      "temperature": {
+        "enabled": true,
+        "base": null,
+        "modifiersApply": true
+      },
+      "maxDarkness": null
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "world_map_dock",
+      "facing": "south",
+      "layer": "default"
+    },
+    "allowPlayerStart": true,
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/battles/PLACE_vesperglass_pierworks.png?v=1771817363047",
+    "inheritedRequiredTags": null,
+    "timeScale": 1
+  },
+  "position": {
+    "x": 992,
+    "y": 2080,
+    "width": 96,
+    "height": 48,
+    "parent": "PLACE_vesperglass_lake",
+    "innerWidth": 1792,
+    "innerHeight": 1120
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/places/PLACE_vesperglass_pierworks.png?v=1771817411797",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

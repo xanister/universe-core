@@ -1,0 +1,19 @@
+{
+  "id": "EVENT_tavian_roake_identifies_himself_as_1772607095930",
+  "date": "11.01.11 4A 08:26",
+  "placeId": "PLACE_the_quenched_pike",
+  "eventType": "first_meeting",
+  "category": "relationship",
+  "subject": "Tavian Roake",
+  "subjectId": "CHAR_tavian_roake",
+  "fact": "Tavian Roake identifies himself as a licensed peddler of boltcloth and lamp-oil, fearing Registry trouble.",
+  "significance": "moderate",
+  "important": false,
+  "witnessIds": [
+    "CHAR_tavian_roake",
+    "CHAR_korr_brightblade"
+  ],
+  "importanceScore": null,
+  "scope": null,
+  "relevantPlaceIds": null
+}

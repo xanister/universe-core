@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_auroral_measure_room",
+  "label": "Auroral Measure Room",
+  "description": "Auroral Measure Room serves as an upstairs lodging chamber within The Prismatic Draught, its faceted walls faced in vitrified tile scored with timekeeping marks keyed to Seamglass Meridian’s calibrated twilight bands. A narrow lensing cistern panel replaces a conventional window, stratifying the copper-white glow into fixed color registers that fall across a fused-silicate sleeping dais and a low writing shelf. Open grounded gutters trace the room’s perimeter, their metal grates set flush to drain electrostatic glass dust without interrupting the floor’s geometric patterning. Overhead, a small field of mirror slats aligns to the city’s auroral geometry, keeping the chamber’s light ordered and glareless.",
+  "short_description": "ordered prism-lit bedroom",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "bedroom",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "door_wooden",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/hushlight_expanse/images/battles/PLACE_auroral_measure_room.png?v=1772313876474",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 880,
+    "y": 160,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_the_prismatic_draught",
+    "innerWidth": 544,
+    "innerHeight": 512
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/hushlight_expanse/images/places/PLACE_auroral_measure_room.png?v=1772313935754",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

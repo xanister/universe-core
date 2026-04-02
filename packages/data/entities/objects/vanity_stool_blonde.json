@@ -1,0 +1,22 @@
+{
+  "id": "vanity_stool_blonde",
+  "name": "Vanity Stool (Blonde Wood)",
+  "description": "A round upholstered pedestal stool on blonde wood legs.",
+  "purposes": [
+    "seating"
+  ],
+  "tags": [
+    "common",
+    "furniture",
+    "bedroom",
+    "seating"
+  ],
+  "solid": false,
+  "layer": "default",
+  "spriteId": "vanity_stool_blonde",
+  "materials": [
+    "wood",
+    "fabric"
+  ],
+  "tintable": false
+}

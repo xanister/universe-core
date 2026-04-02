@@ -1,0 +1,1230 @@
+{
+  "themes": [
+    "civilizational collapse and reconstruction after continent-scale catastrophes",
+    "legitimacy of rule through lineage, ritual, and codified law",
+    "rule of law versus emergency prerogative and institutional checks",
+    "religious fragmentation, licensing, and competing orthodoxies",
+    "control of information about magic, monsters, and forbidden rites",
+    "trade politics, maritime insecurity, and shifting merchant–noble power",
+    "frontier survival amid ruins, banditry, and supernatural threats",
+    "cosmological uncertainty and hazardous exploration of liminal realms",
+    "memory, commemoration, and the political uses of history"
+  ],
+  "characters": [
+    {
+      "name": "Meliora",
+      "title": "Queen",
+      "aliases": [
+        "Meliora I",
+        "Queen Meliora I",
+        "the Pale",
+        "The Pale",
+        "Pale Child"
+      ],
+      "description": "Reigning monarch of Gaardia, crowned in 1312 4A after the death of her brother Ulric V; her reign is defined by contested succession, negotiations with rival polities and duchies, infrastructure repair (including reopening the east road toward Ghond), and balancing the Privy Synod, Crown-Faith institutions, nobles, and merchant interests.",
+      "temporalStatus": "contemporary",
+      "activeEra": "Fourth Age (1312–1472 4A)"
+    },
+    {
+      "name": "Jovaen Vallace",
+      "title": "Magister",
+      "aliases": [
+        "Vallace"
+      ],
+      "description": "Archivist of the Crown-Law Chamber who compiled and circulated a structured summary of the Lex Gaardium, including quotations, amendments, and recent legal controversies affecting trade, magic regulation, and exceptional jurisdictions.",
+      "temporalStatus": "contemporary",
+      "activeEra": "Fourth Age (1453–1472 4A)"
+    },
+    {
+      "name": "Lanternbreaker",
+      "title": "",
+      "aliases": [
+        "The Lanternbreaker",
+        "anonymous grave-scholar"
+      ],
+      "description": "Anonymous author who circulates clandestine field guidance on recognizing and surviving encounters with restless dead; reportedly pursued by Crown-Faith authorities for disseminating prohibited or sensitive material concerning necromancy and undead countermeasures.",
+      "temporalStatus": "contemporary",
+      "activeEra": "Fourth Age (mid–late 15th century; active by 1460s–1470s)"
+    },
+    {
+      "name": "Pipras Pennyroyal",
+      "title": "",
+      "aliases": [
+        "Pip",
+        "Pip"
+      ],
+      "description": "Elf bard and traveling performer adopted into the Burrowfoot household; toured Muraii as an entertainer and later joined a 1472 4A expeditionary/adventuring crew operating in the Mistveil region, participating in rescues and fights against bandits and large monsters.",
+      "temporalStatus": "contemporary",
+      "activeEra": "Fourth Age (1430s–1472 4A)"
+    },
+    {
+      "name": "Matrimard Burrowfoot",
+      "title": "",
+      "aliases": [
+        "Matrim",
+        "Mat",
+        "Matrim"
+      ],
+      "description": "Halfling scout and mercenary adopted and raised by Retsinax Burrowfoot; organizes and negotiates contract work in 1472 4A (bounties, rescues, and investigations), including actions against bandits and a necromancer operating from ruins near Fogfen Cross.",
+      "temporalStatus": "contemporary",
+      "activeEra": "Fourth Age (1430s–1472 4A)"
+    },
+    {
+      "name": "Korr Brightblade",
+      "title": "",
+      "aliases": [
+        "Korr"
+      ],
+      "description": "Human veteran soldier whose career was shaped by the Blackfont massacre and subsequent convictions; imprisoned at Icehold and escaped in 1466 4A via industrial ventworks, later reappearing as part of a 1472 4A contract crew while pursuing a former commander connected to Blackfont.",
+      "temporalStatus": "contemporary",
+      "activeEra": "Fourth Age (1460s–1472 4A)"
+    },
+    {
+      "name": "Thora Rockwell",
+      "title": "",
+      "aliases": [
+        "Rockwell"
+      ],
+      "description": "Human soldier and shield-bearer associated with the fallout of the Blackfont massacre; later operates as part of an itinerant contract crew in 1472 4A, sustaining injuries during regional work and continuing despite lingering physical pain.",
+      "temporalStatus": "contemporary",
+      "activeEra": "Fourth Age (1464–1472 4A)"
+    },
+    {
+      "name": "Sefton",
+      "title": "",
+      "aliases": [],
+      "description": "Human scout and tracker formerly attached to military reconnaissance; implicated in the aftermath of Blackfont, later associated with both imprisonment-era accounts and a 1472 4A contract crew operating in the Mistveil region.",
+      "temporalStatus": "contemporary",
+      "activeEra": "Fourth Age (1463–1472 4A)"
+    },
+    {
+      "name": "Liam",
+      "title": "",
+      "aliases": [],
+      "description": "Human rogue-adept who escaped confinement at the Rimspire asylum and later joined a 1472 4A contract crew, participating in hazardous work that includes engagements with large hostile creatures.",
+      "temporalStatus": "contemporary",
+      "activeEra": "Fourth Age (1472 4A)"
+    },
+    {
+      "name": "Ashina Majere",
+      "title": "",
+      "aliases": [],
+      "description": "Human mercenary and bounty hunter from Rimspire, trained by a swordsage tradition; joined Matrimard Burrowfoot’s group during 1472 4A contracts around Fogfen Cross and onward travel.",
+      "temporalStatus": "contemporary",
+      "activeEra": "Fourth Age (1472 4A)"
+    },
+    {
+      "name": "Retsinax Burrowfoot",
+      "title": "",
+      "aliases": [],
+      "description": "Halfling retired ranger and former member of the Watcher Order; adoptive guardian of Matrimard Burrowfoot and Pipras Pennyroyal, later retiring after local defensive actions against goblin threats.",
+      "temporalStatus": "contemporary",
+      "activeEra": "Fourth Age (1420s–1472 4A)"
+    },
+    {
+      "name": "Eltanin Thornwhisper",
+      "title": "",
+      "aliases": [],
+      "description": "Elf ranger associated with Mistveil and its defenses; encountered by contract travelers in the Mistveil Moors and connected to ongoing reports of Wrath-spawn threats.",
+      "temporalStatus": "contemporary",
+      "activeEra": "Fourth Age (1440–1472 4A)"
+    },
+    {
+      "name": "Eldon Quickfoot",
+      "title": "Council Member",
+      "aliases": [],
+      "description": "Local civic official involved in provisioning and contracting; hired a crew to rescue Gaylen Mirador in 1472 4A amid concerns about banditry and necromancy operating out of nearby ruins.",
+      "temporalStatus": "contemporary",
+      "activeEra": "Fourth Age (1472 4A)"
+    },
+    {
+      "name": "Venecio",
+      "title": "",
+      "aliases": [],
+      "description": "Merchant and informant who interacts with itinerant contractors in 1472 4A; functions as a social and commercial contact during regional travel.",
+      "temporalStatus": "contemporary",
+      "activeEra": "Fourth Age (1472 4A)"
+    },
+    {
+      "name": "Gaylen Mirador",
+      "title": "",
+      "aliases": [],
+      "description": "Resident of the Fogfen Cross area abducted and held at a ruin site where a necromancer operated; recovered alive during a 1472 4A rescue.",
+      "temporalStatus": "contemporary",
+      "activeEra": "Fourth Age (1472 4A)"
+    },
+    {
+      "name": "Bernerd",
+      "title": "",
+      "aliases": [],
+      "description": "Associate of Gaylen Mirador who supported hired rescuers during a local backlash driven by rumor; an early ally when public sentiment turned against the contractors.",
+      "temporalStatus": "contemporary",
+      "activeEra": "Fourth Age (1472 4A)"
+    },
+    {
+      "name": "Richter",
+      "title": "Commander",
+      "aliases": [],
+      "description": "Former military commander connected to the Blackfont massacre’s contested narratives and subsequent convictions; sought by former subordinates and tracked in 1472 4A amid claims of an active camp and prepared ambushes.",
+      "temporalStatus": "contemporary",
+      "activeEra": "Fourth Age (1465–1472 4A)"
+    },
+    {
+      "name": "Bren",
+      "title": "",
+      "aliases": [],
+      "description": "Prisoner at Icehold during 1465–1466 4A who assisted Korr Brightblade with understanding vent routes and timing, while warning about perceived dangers in the prison’s lower works.",
+      "temporalStatus": "contemporary",
+      "activeEra": "Fourth Age (1465–1472 4A)"
+    },
+    {
+      "name": "Tembryk",
+      "title": "",
+      "aliases": [],
+      "description": "Icehold prison authority figure (guard or official) described in prisoner accounts as enforcing coercive and lethal discipline in routine resource distribution.",
+      "temporalStatus": "contemporary",
+      "activeEra": "Fourth Age (1465–1472 4A)"
+    },
+    {
+      "name": "Istra",
+      "title": "",
+      "aliases": [],
+      "description": "Escapee familiar with Icehold’s ventworks who accompanied Korr Brightblade during the 1466 4A escape, navigating routes to exposed exterior maintenance ledges.",
+      "temporalStatus": "contemporary",
+      "activeEra": "Fourth Age (1466–1472 4A)"
+    },
+    {
+      "name": "Harrick",
+      "title": "",
+      "aliases": [],
+      "description": "Dwarf journeyman tanner in Hearthhome who confronted two youths trespassing in a tannery yard in 1432 4A; later referenced as part of the incident’s local memory.",
+      "temporalStatus": "contemporary",
+      "activeEra": "Fourth Age (1432–1472 4A)"
+    }
+  ],
+  "places": [
+    {
+      "name": "Anslem",
+      "description": "The inhabited world and surface realm of civilization in a layered cosmology; it contains continents, kingdoms, and regions still shaped by past cataclysms and ongoing anomalies.",
+      "isSuitableStart": false,
+      "environment": {
+        "type": "exterior",
+        "hasWeather": true,
+        "temperature": {
+          "enabled": true,
+          "base": null,
+          "modifiersApply": true
+        },
+        "maxDarkness": null
+      },
+      "purpose": "planet",
+      "parentName": "Root"
+    },
+    {
+      "name": "Muraii",
+      "description": "A major continental landmass once unified under an empire; now politically fragmented and geographically altered by the Rift Mountains, the Eluscion Sea, and post-catastrophe disruption.",
+      "isSuitableStart": false,
+      "environment": {
+        "type": "exterior",
+        "hasWeather": true,
+        "temperature": {
+          "enabled": true,
+          "base": null,
+          "modifiersApply": true
+        },
+        "maxDarkness": null
+      },
+      "purpose": "planet",
+      "parentName": "Anslem"
+    },
+    {
+      "name": "Western Muraii",
+      "description": "The western portion of Muraii containing Gaardia and multiple coastal polities and frontier regions shaped by trade routes, ruins, and persistent security concerns.",
+      "isSuitableStart": false,
+      "environment": {
+        "type": "exterior",
+        "hasWeather": true,
+        "temperature": {
+          "enabled": true,
+          "base": null,
+          "modifiersApply": true
+        },
+        "maxDarkness": null
+      },
+      "purpose": "planet",
+      "parentName": "Muraii"
+    },
+    {
+      "name": "Gaardia",
+      "description": "A coastal kingdom on Western Muraii that rose as a successor power after continent-wide catastrophe; known for strong institutions, maritime trade and defense, and the binding authority of the Lex Gaardium amid recurring succession and factional conflicts.",
+      "isSuitableStart": false,
+      "environment": {
+        "type": "exterior",
+        "hasWeather": true,
+        "temperature": {
+          "enabled": true,
+          "base": null,
+          "modifiersApply": true
+        },
+        "maxDarkness": null
+      },
+      "purpose": "planet",
+      "parentName": "Western Muraii"
+    },
+    {
+      "name": "High Gaardia",
+      "description": "The fortified capital city of Gaardia (also referred to in some texts as Gaard), seat of the monarchy and major institutions including legal chambers and Crown-Faith authorities.",
+      "isSuitableStart": false,
+      "environment": {
+        "type": "exterior",
+        "hasWeather": true,
+        "temperature": {
+          "enabled": true,
+          "base": null,
+          "modifiersApply": true
+        },
+        "maxDarkness": null
+      },
+      "purpose": "city",
+      "parentName": "Gaardia"
+    },
+    {
+      "name": "Lantern Hall",
+      "description": "Major temple and administrative center of the Cult of Ahm in High Gaardia, associated with clerical authority, archives, and policy influence alongside royal institutions.",
+      "isSuitableStart": true,
+      "environment": {
+        "type": "interior",
+        "hasWeather": false,
+        "temperature": {
+          "enabled": true,
+          "base": 18,
+          "modifiersApply": false
+        },
+        "maxDarkness": 0.5
+      },
+      "purpose": "temple",
+      "parentName": "High Gaardia"
+    },
+    {
+      "name": "Lantern Hall Archives",
+      "description": "Archive rooms within Lantern Hall where licensed scribes and officials keep royal and clerical records, orders, and correspondence.",
+      "isSuitableStart": false,
+      "environment": {
+        "type": "interior",
+        "hasWeather": false,
+        "temperature": {
+          "enabled": true,
+          "base": 18,
+          "modifiersApply": false
+        },
+        "maxDarkness": 0.5
+      },
+      "purpose": "storage_room",
+      "parentName": "Lantern Hall"
+    },
+    {
+      "name": "Crown-Law Chamber",
+      "description": "Royal legal archive and interpretive chamber responsible for maintaining versions and amendments of the Lex Gaardium; workplace of crown archivists.",
+      "isSuitableStart": false,
+      "environment": {
+        "type": "interior",
+        "hasWeather": false,
+        "temperature": {
+          "enabled": true,
+          "base": 18,
+          "modifiersApply": false
+        },
+        "maxDarkness": 0.5
+      },
+      "purpose": "workshop",
+      "parentName": "High Gaardia"
+    },
+    {
+      "name": "Hall of Inkscribes",
+      "description": "A formal professional hall in High Gaardia where legal and archival officers convene and deliver addresses concerning the Lex Gaardium and its amendments.",
+      "isSuitableStart": true,
+      "environment": {
+        "type": "interior",
+        "hasWeather": false,
+        "temperature": {
+          "enabled": true,
+          "base": 18,
+          "modifiersApply": false
+        },
+        "maxDarkness": 0.5
+      },
+      "purpose": "temple",
+      "parentName": "High Gaardia"
+    },
+    {
+      "name": "High Gaardia Coastal Palace",
+      "description": "The royal palace complex in High Gaardia used for court ceremonies, feasts, and state ritual; central to narratives of succession and governance.",
+      "isSuitableStart": false,
+      "environment": {
+        "type": "interior",
+        "hasWeather": false,
+        "temperature": {
+          "enabled": true,
+          "base": 18,
+          "modifiersApply": false
+        },
+        "maxDarkness": 0.5
+      },
+      "purpose": "residence",
+      "parentName": "High Gaardia"
+    },
+    {
+      "name": "Hall of Salt",
+      "description": "Ceremonial feast hall within the Coastal Palace where King Ulric V died during a state feast, triggering a contested succession and later political disputes.",
+      "isSuitableStart": false,
+      "environment": {
+        "type": "interior",
+        "hasWeather": false,
+        "temperature": {
+          "enabled": true,
+          "base": 18,
+          "modifiersApply": false
+        },
+        "maxDarkness": 0.5
+      },
+      "purpose": "residence",
+      "parentName": "High Gaardia Coastal Palace"
+    },
+    {
+      "name": "River Stairs",
+      "description": "Riverside steps in the capital used for access, watch duties, and night patrols; cited in practical advice for staying alive during nocturnal danger.",
+      "isSuitableStart": true,
+      "environment": {
+        "type": "exterior",
+        "hasWeather": true,
+        "temperature": {
+          "enabled": true,
+          "base": null,
+          "modifiersApply": true
+        },
+        "maxDarkness": null
+      },
+      "purpose": "harbor",
+      "parentName": "High Gaardia"
+    },
+    {
+      "name": "Rimspire",
+      "description": "Gaardian city associated with scholarship, surveys, and disputed magical practice; built near the Crater region and connected to research into anomalies and sky-rites.",
+      "isSuitableStart": false,
+      "environment": {
+        "type": "exterior",
+        "hasWeather": true,
+        "temperature": {
+          "enabled": true,
+          "base": null,
+          "modifiersApply": true
+        },
+        "maxDarkness": null
+      },
+      "purpose": "city",
+      "parentName": "Gaardia"
+    },
+    {
+      "name": "Floating Spires of Rimspire",
+      "description": "Notable structures associated with Rimspire that are described as levitating or otherwise defying conventional engineering; commonly linked to disputed sky-rite practices and historical fragments of high craft.",
+      "isSuitableStart": false,
+      "environment": {
+        "type": "exterior",
+        "hasWeather": true,
+        "temperature": {
+          "enabled": true,
+          "base": null,
+          "modifiersApply": true
+        },
+        "maxDarkness": null
+      },
+      "purpose": "ruins",
+      "parentName": "Rimspire"
+    },
+    {
+      "name": "Duras",
+      "description": "Northern Gaardian port city and ducal center controlling significant salt and fish trade; frequently involved in disputes over internal tariffs, autonomy, and trade standoffs with the Crown.",
+      "isSuitableStart": false,
+      "environment": {
+        "type": "exterior",
+        "hasWeather": true,
+        "temperature": {
+          "enabled": true,
+          "base": null,
+          "modifiersApply": true
+        },
+        "maxDarkness": null
+      },
+      "purpose": "city",
+      "parentName": "Gaardia"
+    },
+    {
+      "name": "Veilstone",
+      "description": "Southern Gaardian settlement known for winter wheat and cold-forging traditions; a staging point for local contracts and rumor-driven politics affecting traveling crews.",
+      "isSuitableStart": false,
+      "environment": {
+        "type": "exterior",
+        "hasWeather": true,
+        "temperature": {
+          "enabled": true,
+          "base": null,
+          "modifiersApply": true
+        },
+        "maxDarkness": null
+      },
+      "purpose": "town",
+      "parentName": "Gaardia"
+    },
+    {
+      "name": "Whispering Wyvern Inn",
+      "description": "A lodging house and rumor hub in Veilstone used by traveling contractors for rest, celebration, and information gathering.",
+      "isSuitableStart": true,
+      "environment": {
+        "type": "interior",
+        "hasWeather": false,
+        "temperature": {
+          "enabled": true,
+          "base": 18,
+          "modifiersApply": false
+        },
+        "maxDarkness": 0.5
+      },
+      "purpose": "tavern",
+      "parentName": "Veilstone"
+    },
+    {
+      "name": "Kensir",
+      "description": "Coastal Gaardian city and surrounding blighted region associated with spectral threats and contested religious authority; also the focus of legal debate over undead inheritance and rumors of clandestine undead governance.",
+      "isSuitableStart": false,
+      "environment": {
+        "type": "exterior",
+        "hasWeather": true,
+        "temperature": {
+          "enabled": true,
+          "base": null,
+          "modifiersApply": true
+        },
+        "maxDarkness": null
+      },
+      "purpose": "city",
+      "parentName": "Gaardia"
+    },
+    {
+      "name": "Pale See",
+      "description": "Temple complex in Kensir associated with the Temple of Wilhelm and its institutional leadership; tolerated in practice while remaining controversial within broader Gaardian religious politics.",
+      "isSuitableStart": false,
+      "environment": {
+        "type": "interior",
+        "hasWeather": false,
+        "temperature": {
+          "enabled": true,
+          "base": 18,
+          "modifiersApply": false
+        },
+        "maxDarkness": 0.5
+      },
+      "purpose": "temple",
+      "parentName": "Kensir"
+    },
+    {
+      "name": "Crater",
+      "description": "Massive depression in western Gaardia created by a poorly understood catastrophe; treated as a hazardous zone and, in later law, an exceptional jurisdiction with limits on normal enforcement and bounty practice.",
+      "isSuitableStart": false,
+      "environment": {
+        "type": "exterior",
+        "hasWeather": true,
+        "temperature": {
+          "enabled": true,
+          "base": null,
+          "modifiersApply": true
+        },
+        "maxDarkness": null
+      },
+      "purpose": "ruins",
+      "parentName": "Gaardia"
+    },
+    {
+      "name": "Mistveil Moors",
+      "description": "Fogbound southern frontier region associated with scattered settlements, banditry, ruins, and recurrent reports of monsters and necromancy.",
+      "isSuitableStart": false,
+      "environment": {
+        "type": "exterior",
+        "hasWeather": true,
+        "temperature": {
+          "enabled": true,
+          "base": null,
+          "modifiersApply": true
+        },
+        "maxDarkness": null
+      },
+      "purpose": "planet",
+      "parentName": "Gaardia"
+    },
+    {
+      "name": "Fogfen Cross",
+      "description": "A Mistveil settlement with local council authority and contract practices; a hub for rumor, lodging-by-performance, gambling restrictions, and nearby threats including bandits and necromancy operating from ruins.",
+      "isSuitableStart": false,
+      "environment": {
+        "type": "exterior",
+        "hasWeather": true,
+        "temperature": {
+          "enabled": true,
+          "base": null,
+          "modifiersApply": true
+        },
+        "maxDarkness": null
+      },
+      "purpose": "town",
+      "parentName": "Mistveil Moors"
+    },
+    {
+      "name": "Moonmirror Lake",
+      "description": "A lake near the Mistveil settlements noted in traveler rumor as the site of local mysteries and potential contract work.",
+      "isSuitableStart": true,
+      "environment": {
+        "type": "exterior",
+        "hasWeather": true,
+        "temperature": {
+          "enabled": true,
+          "base": null,
+          "modifiersApply": true
+        },
+        "maxDarkness": null
+      },
+      "purpose": "lake",
+      "parentName": "Mistveil Moors"
+    },
+    {
+      "name": "Firelight",
+      "description": "Small Gaardian village associated with an unresolved mass disappearance and long-standing local suspicions tied to older ruins beneath or near the settlement.",
+      "isSuitableStart": true,
+      "environment": {
+        "type": "exterior",
+        "hasWeather": true,
+        "temperature": {
+          "enabled": true,
+          "base": null,
+          "modifiersApply": true
+        },
+        "maxDarkness": null
+      },
+      "purpose": "village",
+      "parentName": "Gaardia"
+    },
+    {
+      "name": "Thornroot Forest",
+      "description": "Major woodland region of Muraii containing concealed halfling burrow-communities and travel routes used by itinerant performers and rangers.",
+      "isSuitableStart": false,
+      "environment": {
+        "type": "exterior",
+        "hasWeather": true,
+        "temperature": {
+          "enabled": true,
+          "base": null,
+          "modifiersApply": true
+        },
+        "maxDarkness": null
+      },
+      "purpose": "forest",
+      "parentName": "Muraii"
+    },
+    {
+      "name": "Hearthroot Hollows",
+      "description": "Cluster of halfling burrow settlements within Thornroot Forest associated with agrarian life, hospitality customs, and periodic vulnerability to plague and raiding threats.",
+      "isSuitableStart": true,
+      "environment": {
+        "type": "exterior",
+        "hasWeather": true,
+        "temperature": {
+          "enabled": true,
+          "base": null,
+          "modifiersApply": true
+        },
+        "maxDarkness": null
+      },
+      "purpose": "village",
+      "parentName": "Thornroot Forest"
+    },
+    {
+      "name": "Hearthhome",
+      "description": "A trade town with active guild life, a watch, and craft districts including tanneries; remembered for a minor tannery-yard incident involving dye cakes and a rooftop escape.",
+      "isSuitableStart": false,
+      "environment": {
+        "type": "exterior",
+        "hasWeather": true,
+        "temperature": {
+          "enabled": true,
+          "base": null,
+          "modifiersApply": true
+        },
+        "maxDarkness": null
+      },
+      "purpose": "town",
+      "parentName": "Muraii"
+    },
+    {
+      "name": "Turquoise Tannery",
+      "description": "A tannery workshop in Hearthhome associated with the “Turquoise Tannery” incident; contains vats, rinse stations, scaffolding, and pigment storage used in local craft production.",
+      "isSuitableStart": true,
+      "environment": {
+        "type": "interior",
+        "hasWeather": false,
+        "temperature": {
+          "enabled": true,
+          "base": 18,
+          "modifiersApply": false
+        },
+        "maxDarkness": 0.5
+      },
+      "purpose": "workshop",
+      "parentName": "Hearthhome"
+    },
+    {
+      "name": "Blackfont",
+      "description": "Town associated with a massacre and contested official narratives that led to convictions and imprisonment of multiple soldiers; a continuing source of personal and political conflict.",
+      "isSuitableStart": false,
+      "environment": {
+        "type": "exterior",
+        "hasWeather": true,
+        "temperature": {
+          "enabled": true,
+          "base": null,
+          "modifiersApply": true
+        },
+        "maxDarkness": null
+      },
+      "purpose": "town",
+      "parentName": "Gaardia"
+    },
+    {
+      "name": "Eluscion Sea",
+      "description": "Large, dangerous sea or bay on Muraii known for shipwrecks, piracy, scattered isles, and turbulent currents that limit centralized naval control.",
+      "isSuitableStart": false,
+      "environment": {
+        "type": "exterior",
+        "hasWeather": true,
+        "temperature": {
+          "enabled": true,
+          "base": null,
+          "modifiersApply": true
+        },
+        "maxDarkness": null
+      },
+      "purpose": "lake",
+      "parentName": "Muraii"
+    },
+    {
+      "name": "Eluscion Rim",
+      "description": "Coastal rim region along the Eluscion Sea associated with depots, frontier logistics, and the glacier fortification of Icehold.",
+      "isSuitableStart": false,
+      "environment": {
+        "type": "exterior",
+        "hasWeather": true,
+        "temperature": {
+          "enabled": true,
+          "base": null,
+          "modifiersApply": true
+        },
+        "maxDarkness": null
+      },
+      "purpose": "planet",
+      "parentName": "Gaardia"
+    },
+    {
+      "name": "Icehold",
+      "description": "Fortification and prison-works complex carved into a tide-ground glacier above the Eluscion Sea; combines extraction (stone/ice, magnetite) and seasonal salt production with incarceration and Crown-Faith oversight under hazardous conditions and reported hauntings.",
+      "isSuitableStart": false,
+      "environment": {
+        "type": "interior",
+        "hasWeather": false,
+        "temperature": {
+          "enabled": true,
+          "base": 18,
+          "modifiersApply": false
+        },
+        "maxDarkness": 0.5
+      },
+      "purpose": "cave",
+      "parentName": "Eluscion Rim"
+    },
+    {
+      "name": "Upper Wards",
+      "description": "Upper section of Icehold occupying a natural bowl of blue ice and rock, forming the primary habitable and administrative area during operations.",
+      "isSuitableStart": false,
+      "environment": {
+        "type": "interior",
+        "hasWeather": false,
+        "temperature": {
+          "enabled": true,
+          "base": 18,
+          "modifiersApply": false
+        },
+        "maxDarkness": 0.5
+      },
+      "purpose": "cave",
+      "parentName": "Icehold"
+    },
+    {
+      "name": "Lower Works",
+      "description": "Deeper Icehold galleries descending into older vents and culverts where industrial steam systems, sealed zones, and wraith-signs are most frequently reported.",
+      "isSuitableStart": false,
+      "environment": {
+        "type": "interior",
+        "hasWeather": false,
+        "temperature": {
+          "enabled": true,
+          "base": 18,
+          "modifiersApply": false
+        },
+        "maxDarkness": 0.5
+      },
+      "purpose": "cave",
+      "parentName": "Icehold"
+    },
+    {
+      "name": "Hexhouse",
+      "description": "Guard-slang for the oldest deep chambers of Icehold, marked by soot glazing and minimal airflow; associated with long-term occupation and heightened concern about unrest in sealed levels.",
+      "isSuitableStart": false,
+      "environment": {
+        "type": "interior",
+        "hasWeather": false,
+        "temperature": {
+          "enabled": true,
+          "base": 18,
+          "modifiersApply": false
+        },
+        "maxDarkness": 0.5
+      },
+      "purpose": "cave",
+      "parentName": "Lower Works"
+    },
+    {
+      "name": "Seaward Hoist Landing",
+      "description": "Main approach area on Icehold’s seaward face served by a hoist and cliff access; used for transfers, supplies, and arrivals under hazardous weather.",
+      "isSuitableStart": true,
+      "environment": {
+        "type": "exterior",
+        "hasWeather": true,
+        "temperature": {
+          "enabled": true,
+          "base": null,
+          "modifiersApply": true
+        },
+        "maxDarkness": null
+      },
+      "purpose": "harbor",
+      "parentName": "Icehold"
+    },
+    {
+      "name": "Seura",
+      "description": "Independent coastal city-state known for maritime power and past freebooting; a recurring counterpart in Gaardian naval conflict and later treaty-making.",
+      "isSuitableStart": false,
+      "environment": {
+        "type": "exterior",
+        "hasWeather": true,
+        "temperature": {
+          "enabled": true,
+          "base": null,
+          "modifiersApply": true
+        },
+        "maxDarkness": null
+      },
+      "purpose": "city",
+      "parentName": "Western Muraii"
+    },
+    {
+      "name": "Farsreach",
+      "description": "Independent prosperous coastal city-state in Western Muraii, defined by major ruins nearby and frequent fiscal and diplomatic friction with neighboring powers.",
+      "isSuitableStart": false,
+      "environment": {
+        "type": "exterior",
+        "hasWeather": true,
+        "temperature": {
+          "enabled": true,
+          "base": null,
+          "modifiersApply": true
+        },
+        "maxDarkness": null
+      },
+      "purpose": "city",
+      "parentName": "Western Muraii"
+    },
+    {
+      "name": "Ghond",
+      "description": "Elven-associated polity connected to Gaardia by diplomacy and trade, reached by an overland route restored during Meliora’s reign.",
+      "isSuitableStart": false,
+      "environment": {
+        "type": "exterior",
+        "hasWeather": true,
+        "temperature": {
+          "enabled": true,
+          "base": null,
+          "modifiersApply": true
+        },
+        "maxDarkness": null
+      },
+      "purpose": "planet",
+      "parentName": "Muraii"
+    },
+    {
+      "name": "Rift Mountains",
+      "description": "Jagged mountain range dividing Muraii, associated with dwarven habitation and craft; widely linked to the fall/descent of Illuminus and later trade choke points.",
+      "isSuitableStart": false,
+      "environment": {
+        "type": "exterior",
+        "hasWeather": true,
+        "temperature": {
+          "enabled": true,
+          "base": null,
+          "modifiersApply": true
+        },
+        "maxDarkness": null
+      },
+      "purpose": "mountain",
+      "parentName": "Muraii"
+    },
+    {
+      "name": "Ahm’a",
+      "description": "Upper realm above the cloud line described as containing enormous floating landmasses (“floating continents”), usually imperceptible except during rare events such as Solbrand eclipses; associated with contested accounts of winged or luminous inhabitants.",
+      "isSuitableStart": false,
+      "environment": {
+        "type": "space",
+        "hasWeather": false,
+        "temperature": {
+          "enabled": false,
+          "base": null,
+          "modifiersApply": false
+        },
+        "maxDarkness": 0.6
+      },
+      "purpose": "planet",
+      "parentName": "Anslem"
+    },
+    {
+      "name": "Illuminus",
+      "description": "A floating city associated with Ahm’a in cosmological and historical traditions; its fall is linked to world-altering disruption and later material study of surviving shards and fragments.",
+      "isSuitableStart": false,
+      "environment": {
+        "type": "exterior",
+        "hasWeather": true,
+        "temperature": {
+          "enabled": true,
+          "base": null,
+          "modifiersApply": true
+        },
+        "maxDarkness": null
+      },
+      "purpose": "city",
+      "parentName": "Ahm’a"
+    },
+    {
+      "name": "Limbo",
+      "description": "Chaotic atmospheric interval beginning roughly three leagues above sea level, characterized by gravitational reversals, cyclonic voids, disorientation, and reports of anomalous fauna that threaten airships and climbers.",
+      "isSuitableStart": false,
+      "environment": {
+        "type": "exterior",
+        "hasWeather": true,
+        "temperature": {
+          "enabled": true,
+          "base": null,
+          "modifiersApply": true
+        },
+        "maxDarkness": null
+      },
+      "purpose": "planet",
+      "parentName": "Anslem"
+    },
+    {
+      "name": "Pandemonium",
+      "description": "Subterranean network beneath Anslem where exploration is unreliable due to reported temporal drift, loops, gravitational inversion, and shifting navigation routes.",
+      "isSuitableStart": false,
+      "environment": {
+        "type": "underwater",
+        "hasWeather": false,
+        "temperature": {
+          "enabled": false,
+          "base": null,
+          "modifiersApply": false
+        },
+        "maxDarkness": 0.4
+      },
+      "purpose": "cave",
+      "parentName": "Anslem"
+    },
+    {
+      "name": "Fire Deep",
+      "description": "Deeper under-realm below Pandemonium described as a domain of lava-rivers and burning fens, associated with reported fire entities and breaches tied to forbidden rites.",
+      "isSuitableStart": false,
+      "environment": {
+        "type": "exterior",
+        "hasWeather": true,
+        "temperature": {
+          "enabled": true,
+          "base": null,
+          "modifiersApply": true
+        },
+        "maxDarkness": null
+      },
+      "purpose": "planet",
+      "parentName": "Pandemonium"
+    }
+  ],
+  "lore": "Anslem is a world understood—by scholars, clerics, and travelers through competing models—as a layered reality. Above the surface lies Limbo, a perilous atmospheric interval where gravity and perception behave unpredictably, and beyond it Ahm’a, an upper realm said to hold floating landmasses visible only during rare portents such as Solbrand eclipses. Beneath the surface, explorers report Pandemonium, a shifting under-network where time and gravity may loop or invert, and deeper still the Fire Deep, associated with heat, breaches, and outlawed summoning rites.\n\nOn Muraii, the once-unified Muraiian imperial order collapsed across successive ages and culminated in continent-shaping catastrophes remembered as the Wrath and the fall/descent of Illuminus. In the long reconstruction that followed, Gaardia consolidated as a successor kingdom on Western Muraii’s coasts. Gaardia’s stability rests heavily on codified law—the Lex Gaardium—and on institutions that share and contest authority: the Crown, the Privy Synod, merchant guild courts, and the Crown-Faith’s tribunals and licensing systems.\n\nThe Lex Gaardium defines civic identity through the Five Graces (rights and obligations concerning shelter, legal contest, limits on compelled magical testimony, inheritance, and bread in famine or siege). It also regulates magic through writs and seals, structures maritime taxation and cargo registration, and provides mechanisms for emergency dominion in crisis. Yet legal order is challenged by frontier insecurity, duchy autonomy (especially in the salt economy), treaty pressures with neighboring city-states, and persistent supernatural threats—including necromancy and multiple forms of restless dead that interact with sanctity, light, and unresolved wrongdoing.\n\nBy 1472 4A, Gaardia’s institutions still bear the imprint of past crises (Crater exceptionalism, plague-era decrees, and naval accords), while local communities in the Mistveil region and along the Eluscion Rim rely on contract labor, watch systems, and improvised survival to manage bandits, monsters, and illicit magic in the shadows of older ruins.",
+  "rules": [
+    "The Fourth Age dating system is commonly used in Gaardia and much of Muraii, with 0 4A tied to continent-shaping catastrophe in public memory and recordkeeping.",
+    "The Lex Gaardium is treated as binding law in Gaardia; it structures courts, criminal penalties, noble appeal mechanisms, and civic rights framed as the Five Graces.",
+    "Sovereignty is generally inherited but treated as requiring lawful ratification and recognition by counsel/institutions; succession disputes may be adjudicated under Lex principles (e.g., the Grace of Inheritance).",
+    "The Crown is ordinarily bound by the Lex but may invoke emergency dominion (the Clause of Ash) to act outside normal constraints under defined crisis logic.",
+    "The Privy Synod has authority to challenge or constrain edicts that contradict foundational rights established in the Lex’s charter tradition.",
+    "Commercial disputes can be routed through recognized Guild-Courts, reflecting formal legal jurisdiction for mercantile conflict.",
+    "Courtroom magic is regulated: spellwork in court is restricted to authorized practitioners under Crown licensing, commonly involving seals/writs; specific exceptions exist in certain necromancy-related matters.",
+    "Certain areas (notably the Crater) are treated as legally exceptional; some enforcement tools (such as bounty law) may not apply there by edict.",
+    "Necromancy-related crimes (corpse-binding, soul-traffic, and related rites) are prohibited and investigated by Crown-Faith institutions, including tribunals operating alongside secular authority.",
+    "Restless dead follow consistent practical constraints in field lore: daylight weakens wraiths; sunlight is severely damaging to vampires; zombies are compelled bodies responsive to a controlling will and can be hindered by fire, obstacles, and distance.",
+    "Some sanctified countermeasures depend on conviction: relics or sacred objects are described as more effective when borne with genuine belief rather than as mere symbols.",
+    "Wraith manifestations are anchored to a site, object, or unresolved wrongdoing/oath; resolving the anchoring cause can end a haunting.",
+    "Liches persist by securing their identity/name in a separate vessel; destroying a body alone is insufficient if the vessel remains intact.",
+    "Limbo begins roughly three leagues above sea level and presents hazards to flight and ascent: gravitational reversals, cyclonic air voids, and disorientation/hallucination effects.",
+    "Pandemonium navigation is unreliable due to reported temporal drift and shifting routes; expeditions treat maps as provisional and timekeeping as suspect.",
+    "Bloodfire rites are outlawed in Gaardian law; they are associated in some traditions with manifestations from the Fire Deep."
+  ],
+  "tone": "grounded dark fantasy with strong institutional detail (chronicle and legal voices) and intermittent frontier-horror and adventure reportage",
+  "overview": "A post-catastrophe world centered on Anslem and the continent of Muraii, where the successor kingdom of Gaardia preserves stability through the Lex Gaardium and a web of Crown, Synod, and Crown-Faith institutions. The setting combines maritime politics, legal conflict, religious fragmentation, and persistent supernatural dangers (necromancy, restless dead), set against a broader cosmology of layered realms (Ahm’a, Limbo, Pandemonium, Fire Deep) whose anomalies bleed into geography and scholarship.",
+  "keyConflicts": [
+    "Crown authority vs institutional constraint: the monarchy’s need for decisive action (including emergency powers) conflicts with the Lex Gaardium’s protections and the Privy Synod’s capacity to challenge edicts.",
+    "Salt and port power: merchant guilds, port officials, and ducal houses (notably Duras) contest taxation, internal tariffs, and maritime control, framing trade as both prosperity and leverage.",
+    "Orthodoxy vs pluralism: licensed Crown-Faith practice and major cult institutions compete with tolerated rivals, rural unregistered cults, and accusations of heresy tied to politics and scholarship.",
+    "Suppression vs survival knowledge: Crown-Faith tribunals prosecute necromancy and restrict certain information, while clandestine authors circulate practical anti-undead guidance to workers, watchmen, and frontier communities.",
+    "Forbidden research vs public order: Rimspire-associated sky-rites and anomaly scholarship attract scrutiny; proponents cite discovery and defense, while opponents cite legal prohibitions and social destabilization.",
+    "Borderlands and exceptional zones: the Crater’s hazards and legal non-jurisdiction status create disputes about enforcement, exile, and accountability.",
+    "Frontier insecurity: the Mistveil region and Eluscion Rim face banditry, monsters, ruins, and necromancy, driving reliance on mercenaries and ad hoc councils with reputational politics.",
+    "Military accountability: the Blackfont massacre and competing narratives continue to generate pursuit, vendettas, and distrust of official claims."
+  ],
+  "atmosphere": "salt-stung coasts and fogbound moors; marble-domed capitals and archive halls; cold procedural frontier fortifications; ruins where law thins and superstition becomes field practice; a sky and underworld whose anomalies remain only partly understood",
+  "narrativePresent": "11.05.1472 4A",
+  "historicalLore": "Across the early Ages, Muraii was unified under an imperial tradition associated with Tharian Ghondalore and later fractured through succession failure and regional power struggles. Protective orders arose around sacred and arcane sites (including the Watcher Order), while major religious institutions such as the Temple of Isha accumulated and guarded arcana. Over time, large-scale upheavals—civil wars, empire decline, and a sequence of catastrophic events—reshaped both geography and belief.\n\nNear the end of the Third Age, a destructive event created the Crater in western Gaardia. Around the transition into the Fourth Age, the fall/descent of Illuminus and the Wrath Event are remembered as world-altering shocks that broke imperial cohesion, devastated cities and temples, drove famine and plague, and produced lasting anomalies (including the Rift Mountains and unstable zones). In the aftermath, Gaardia consolidated under early Fourth Age monarchs, grounding legitimacy in lineage claims and public ritual while rebuilding roads, fortifications, and ports.\n\nGaardia’s later centuries were defined by institutionalization: the Lex Gaardium was codified under King Deremond II with stewardship attributed to Myrrin Haar, merging older edicts and local traditions into a binding civic code. Subsequent reigns expanded charters and surveys (including Iridelle IV’s legal chartering of the Five Graces and commissions for anomaly study). Later crises—insurrections, exile practices tied to the Crater, maritime accords, plague decrees, and renewed debate over undead legal status—produced amendments that shaped Gaardia into a state where law, faith, and trade remain intertwined.\n\nIn the 14th century 4A, Ulric V’s death and Meliora’s accession intensified succession politics and ducal resistance, while foreign diplomacy and internal crackdowns on dissident cults and forbidden arts continued. By the mid–late 15th century 4A, frontier infrastructure such as Icehold was recommissioned under Crown-Faith oversight, reflecting both economic pressure and persistent fear of necromancy and restless dead in marginal regions.",
+  "historicalEvents": [
+    {
+      "fact": "Tharian Ghondalore is credited in imperial tradition with unifying Muraii under an early imperial crown and spreading a standardized civic calendar.",
+      "eventType": "founding",
+      "scope": "regional",
+      "significance": "major",
+      "approximateDate": "0 1st Age",
+      "relevantPlaces": [
+        "Muraii"
+      ]
+    },
+    {
+      "fact": "The death of the last Muraiian Emperor fractured imperial authority into successor powers, accelerating regional political fragmentation.",
+      "eventType": "ruler_change",
+      "scope": "regional",
+      "significance": "major",
+      "approximateDate": "0 2nd Age",
+      "relevantPlaces": [
+        "Muraii"
+      ]
+    },
+    {
+      "fact": "The Watcher Order formed to protect sacred sites and their associated arcane holdings amid growing instability and conflict.",
+      "eventType": "founding",
+      "scope": "regional",
+      "significance": "moderate",
+      "approximateDate": "10 2nd Age",
+      "relevantPlaces": [
+        "Anslem",
+        "Muraii"
+      ]
+    },
+    {
+      "fact": "A civil war cycle affected western regions late in the Third Age, contributing to weakening central structures before later catastrophes.",
+      "eventType": "war",
+      "scope": "regional",
+      "significance": "moderate",
+      "approximateDate": "Late 3rd Age (e.g., ~1520 3A in some chronologies)",
+      "relevantPlaces": [
+        "Gaardia"
+      ]
+    },
+    {
+      "fact": "A major catastrophe created the Crater in western Gaardia; explanations vary across scholarship and local tradition, and later reports associate the region with anomalous effects on magic and law.",
+      "eventType": "catastrophe",
+      "scope": "regional",
+      "significance": "major",
+      "approximateDate": "Late 3rd Age (pre-0 4A)",
+      "relevantPlaces": [
+        "Gaardia",
+        "Crater"
+      ]
+    },
+    {
+      "fact": "The fall/descent of Illuminus is remembered as a world-altering event associated with the formation of the Rift Mountains and broad disruption of trade and belief; sources differ on whether it marks the start of the Third Age or the transition into the Fourth.",
+      "eventType": "catastrophe",
+      "scope": "global",
+      "significance": "major",
+      "approximateDate": "Age transition (often dated 0 4A in Gaardian Fourth Age reckoning)",
+      "relevantPlaces": [
+        "Illuminus",
+        "Rift Mountains",
+        "Muraii",
+        "Anslem"
+      ]
+    },
+    {
+      "fact": "The Wrath Event struck as a continent-spanning cataclysm described as a destructive wave causing fires, collapses, and sea surges inland; it was followed by famine, plague, and breakdown of centralized order.",
+      "eventType": "catastrophe",
+      "scope": "global",
+      "significance": "major",
+      "approximateDate": "0 4A",
+      "relevantPlaces": [
+        "Muraii",
+        "Gaardia"
+      ]
+    },
+    {
+      "fact": "In the post-Wrath chaos, Gaardia consolidated as a successor kingdom on Muraii’s western shore, rebuilding civic institutions and fortifications around the capital.",
+      "eventType": "founding",
+      "scope": "regional",
+      "significance": "major",
+      "approximateDate": "Early 4A (post-0 4A)",
+      "relevantPlaces": [
+        "Gaardia",
+        "High Gaardia"
+      ]
+    },
+    {
+      "fact": "King Deremond II led campaigns against Seuran corsair activity, strengthening Gaardian maritime control and commemorative naval identity.",
+      "eventType": "war",
+      "scope": "regional",
+      "significance": "moderate",
+      "approximateDate": "215–237 4A",
+      "relevantPlaces": [
+        "Gaardia",
+        "Seura"
+      ]
+    },
+    {
+      "fact": "The Lex Gaardium was codified under Deremond II, with compilation attributed to Myrrin Haar, integrating older edicts, noble compacts, dwarven arbitration traditions, and regional court oaths into a binding legal framework.",
+      "eventType": "discovery",
+      "scope": "regional",
+      "significance": "major",
+      "approximateDate": "215–237 4A",
+      "relevantPlaces": [
+        "Gaardia",
+        "High Gaardia",
+        "Duras"
+      ]
+    },
+    {
+      "fact": "The Duras Insurrection prompted substantial amendments to the Lex Gaardium, shaping later trade privileges and center–duchy relations.",
+      "eventType": "war",
+      "scope": "regional",
+      "significance": "major",
+      "approximateDate": "312 4A",
+      "relevantPlaces": [
+        "Duras",
+        "Gaardia"
+      ]
+    },
+    {
+      "fact": "The Crater Exile Crisis led to major revisions of punishment and order practices connected to exile, enforcement, and the Crater’s role in state security.",
+      "eventType": "catastrophe",
+      "scope": "regional",
+      "significance": "major",
+      "approximateDate": "678 4A",
+      "relevantPlaces": [
+        "Crater",
+        "Gaardia"
+      ]
+    },
+    {
+      "fact": "Queen Iridelle IV’s reign included prolonged peace, formal chartering of foundational rights (the Five Graces), and support for scholarship, including a Great Survey associated with Rimspire and the Crater region’s anomalies.",
+      "eventType": "discovery",
+      "scope": "regional",
+      "significance": "moderate",
+      "approximateDate": "871–913 4A",
+      "relevantPlaces": [
+        "Gaardia",
+        "Rimspire",
+        "Crater"
+      ]
+    },
+    {
+      "fact": "A mass disappearance at Firelight became an enduring unresolved local incident and a reference point for frontier anxieties about ruins and the unseen.",
+      "eventType": "catastrophe",
+      "scope": "local",
+      "significance": "moderate",
+      "approximateDate": "1289 4A",
+      "relevantPlaces": [
+        "Firelight"
+      ]
+    },
+    {
+      "fact": "King Ulric V died by poisoning during a palace feast; an official proclamation blamed corrupted wine from Seura while later accounts note ongoing speculation about internal conspiracy.",
+      "eventType": "ruler_change",
+      "scope": "regional",
+      "significance": "major",
+      "approximateDate": "1312 4A",
+      "relevantPlaces": [
+        "Hall of Salt",
+        "High Gaardia Coastal Palace",
+        "High Gaardia",
+        "Seura"
+      ]
+    },
+    {
+      "fact": "Gaardia and Duras entered a prolonged trade standoff (the Quiet Salt War) that ended through the Salt Revels Concord, while leaving persistent tensions over autonomy and tariffs.",
+      "eventType": "treaty",
+      "scope": "regional",
+      "significance": "moderate",
+      "approximateDate": "1327–1331 4A",
+      "relevantPlaces": [
+        "Gaardia",
+        "Duras"
+      ]
+    },
+    {
+      "fact": "The Seuran Maritime Accords were concluded and later cited as a major driver for amendments to maritime enforcement and trade provisions in the Lex Gaardium.",
+      "eventType": "treaty",
+      "scope": "regional",
+      "significance": "major",
+      "approximateDate": "1411 4A",
+      "relevantPlaces": [
+        "Seura",
+        "Gaardia"
+      ]
+    },
+    {
+      "fact": "The Crater Border Edict declared the Crater a legal non-jurisdiction where bounty law does not apply, formalizing exceptional enforcement boundaries.",
+      "eventType": "treaty",
+      "scope": "regional",
+      "significance": "moderate",
+      "approximateDate": "1448 4A",
+      "relevantPlaces": [
+        "Crater",
+        "Gaardia"
+      ]
+    },
+    {
+      "fact": "The Blackfont massacre occurred, followed by convictions and imprisonment of multiple soldiers; competing narratives about responsibility continued to circulate afterward, shaping later pursuits and vendettas.",
+      "eventType": "war",
+      "scope": "regional",
+      "significance": "major",
+      "approximateDate": "1465–1466 4A",
+      "relevantPlaces": [
+        "Blackfont"
+      ]
+    },
+    {
+      "fact": "Icehold was recommissioned on the Eluscion Rim as a combined prison and works site, and during maintenance a prisoner escape occurred via ventworks leading to exposed exterior ledges, later used as a training caution in warden schools.",
+      "eventType": "historical",
+      "scope": "local",
+      "significance": "moderate",
+      "approximateDate": "1466 4A",
+      "relevantPlaces": [
+        "Icehold",
+        "Seaward Hoist Landing",
+        "Lower Works"
+      ]
+    }
+  ]
+}

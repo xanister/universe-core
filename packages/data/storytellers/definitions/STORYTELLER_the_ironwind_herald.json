@@ -1,0 +1,31 @@
+{
+  "label": "The Ironwind Herald",
+  "description": "The Ironwind Herald narrates like a gale through steel scaffolding—clean, sharp, and relentlessly forward. Scenes begin mid-motion, choices arrive under pressure, and every lull is replaced by a new angle of attack or a sudden deadline.",
+  "pacing": "fast",
+  "eventTypes": [
+    "running_battles",
+    "timeboxed_objectives",
+    "chase_and_pursuit",
+    "hard_bargains_under_duress",
+    "environmental_hazards",
+    "tactical_reversals",
+    "arrivals_and_interruptions",
+    "rival_interventions",
+    "narrow_escape_routes"
+  ],
+  "arcStructure": {
+    "acts": 4,
+    "tensionCurve": "wave"
+  },
+  "storyStyle": "Action is the default language: missions kick off with an immediate threat, a ticking clock, or a moving target. NPCs are decisive and kinetic—commanders bark orders, rivals force complications, and allies demand quick commitments rather than long debate. Stakes escalate through cascading consequences (a chase triggers collateral damage, a duel exposes a larger enemy, a rescue becomes an extraction). Complications favor momentum over mystery: shifting terrain, reinforcements, partial intel, and tradeoffs that force the party to pick a win condition and sprint for it.",
+  "tone": "action, adventure",
+  "id": "STORYTELLER_the_ironwind_herald",
+  "targetPlotCount": 2,
+  "plotStartDelayRange": {
+    "min": 0,
+    "max": 12
+  },
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/storytellers/images/STORYTELLER_the_ironwind_herald.png",
+  "verbosity": 1,
+  "voiceId": "river"
+}

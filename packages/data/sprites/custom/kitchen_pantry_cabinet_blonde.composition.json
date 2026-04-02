@@ -1,0 +1,51 @@
+{
+  "spriteId": "kitchen_pantry_cabinet_blonde",
+  "gridWidth": 2,
+  "gridHeight": 3,
+  "tileSize": 32,
+  "tiles": [
+    {
+      "tilesetId": "furniture-blonde",
+      "srcX": 96,
+      "srcY": 64,
+      "col": 0,
+      "row": 0
+    },
+    {
+      "tilesetId": "furniture-blonde",
+      "srcX": 128,
+      "srcY": 64,
+      "col": 1,
+      "row": 0
+    },
+    {
+      "tilesetId": "furniture-blonde",
+      "srcX": 96,
+      "srcY": 96,
+      "col": 0,
+      "row": 1
+    },
+    {
+      "tilesetId": "furniture-blonde",
+      "srcX": 128,
+      "srcY": 96,
+      "col": 1,
+      "row": 1
+    },
+    {
+      "tilesetId": "furniture-blonde",
+      "srcX": 96,
+      "srcY": 128,
+      "col": 0,
+      "row": 2
+    },
+    {
+      "tilesetId": "furniture-blonde",
+      "srcX": 128,
+      "srcY": 128,
+      "col": 1,
+      "row": 2
+    }
+  ],
+  "updatedAt": "2026-03-02T18:00:57.765Z"
+}

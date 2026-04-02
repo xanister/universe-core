@@ -1,0 +1,21 @@
+{
+  "id": "shelf_low_dark",
+  "name": "Low Display Shelf",
+  "description": "A wide low shelf with horizontal display slats for showing goods.",
+  "purposes": [
+    "storage"
+  ],
+  "tags": [
+    "common",
+    "furniture",
+    "display",
+    "shop"
+  ],
+  "solid": true,
+  "layer": "default",
+  "spriteId": "shelf_low_dark",
+  "materials": [
+    "wood"
+  ],
+  "tintable": false
+}

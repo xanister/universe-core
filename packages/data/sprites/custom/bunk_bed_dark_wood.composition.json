@@ -1,0 +1,93 @@
+{
+  "spriteId": "bunk_bed_dark_wood",
+  "gridWidth": 4,
+  "gridHeight": 3,
+  "tileSize": 32,
+  "tiles": [
+    {
+      "tilesetId": "furniture-dark",
+      "srcX": 160,
+      "srcY": 608,
+      "col": 0,
+      "row": 0
+    },
+    {
+      "tilesetId": "furniture-dark",
+      "srcX": 192,
+      "srcY": 608,
+      "col": 1,
+      "row": 0
+    },
+    {
+      "tilesetId": "furniture-dark",
+      "srcX": 224,
+      "srcY": 608,
+      "col": 2,
+      "row": 0
+    },
+    {
+      "tilesetId": "furniture-dark",
+      "srcX": 256,
+      "srcY": 608,
+      "col": 3,
+      "row": 0
+    },
+    {
+      "tilesetId": "furniture-dark",
+      "srcX": 160,
+      "srcY": 640,
+      "col": 0,
+      "row": 1
+    },
+    {
+      "tilesetId": "furniture-dark",
+      "srcX": 192,
+      "srcY": 640,
+      "col": 1,
+      "row": 1
+    },
+    {
+      "tilesetId": "furniture-dark",
+      "srcX": 224,
+      "srcY": 640,
+      "col": 2,
+      "row": 1
+    },
+    {
+      "tilesetId": "furniture-dark",
+      "srcX": 256,
+      "srcY": 640,
+      "col": 3,
+      "row": 1
+    },
+    {
+      "tilesetId": "furniture-dark",
+      "srcX": 160,
+      "srcY": 672,
+      "col": 0,
+      "row": 2
+    },
+    {
+      "tilesetId": "furniture-dark",
+      "srcX": 192,
+      "srcY": 672,
+      "col": 1,
+      "row": 2
+    },
+    {
+      "tilesetId": "furniture-dark",
+      "srcX": 224,
+      "srcY": 672,
+      "col": 2,
+      "row": 2
+    },
+    {
+      "tilesetId": "furniture-dark",
+      "srcX": 256,
+      "srcY": 672,
+      "col": 3,
+      "row": 2
+    }
+  ],
+  "updatedAt": "2026-03-02T19:24:04.589Z"
+}

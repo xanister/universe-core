@@ -1,0 +1,56 @@
+{
+  "id": "PLACE_nullglow_storage_vault",
+  "label": "Nullglow Storage Vault",
+  "description": "Nullglow Storage Vault is a narrow, slagcrete-lined room recessed into the hab’s interlocked structure, its black vitrified stone facing sealed with gasketed seams against ash grit and electrostatic surge. Overhead conduit cages and shielded vents run the length of the ceiling, keeping the chamber in a constant low-glare gloom beneath slit-lamp housings. Bolted shelving, ration canisters, and standardized lockbins are fixed directly to the wall ribs, their corners strapped and bracketed to resist the Bastion’s persistent vibration. The doorframe is overplated with scavenged wreck-plate, matching the Servitorium’s broader practice of improvised shielding against vox-tainted interference.",
+  "short_description": "shielded storage room",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "storage_room",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.9
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "door_wooden",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 336,
+    "y": 160,
+    "width": 32,
+    "height": 32,
+    "parent": "PLACE_nullglow_servitorium"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": null,
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

@@ -1,0 +1,61 @@
+{
+  "id": "PLACE_the_ironband_passage",
+  "label": "The Ironband Passage",
+  "description": "The Ironband Passage forms the principal internal corridor of The Ashen Lateen, its bulkheads faced in weathered timber strapped with riveted iron bands to resist impact and rot. Overhead, canvas-and-leather baffling hangs in tight folds to keep ashfall grit from sifting below, leaving the air dry and faintly metallic. Shuttered lantern boxes set at regular intervals cast a cold, veiled light that preserves night-vision and minimizes glare beneath Cyrenth Vale’s bruise-hued aurorae. Devotional carvings and warning glyphs are cut into the jambs at each companionway, formalizing the corridor as a sanctioned route through a siege-minded vessel.",
+  "short_description": "iron-banded ship corridor",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "ship_corridor",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "ship_hatch",
+      "facing": "south",
+      "layer": "floor"
+    },
+    "allowPlayerStart": false,
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/battles/PLACE_the_ironband_passage.png?v=1771816972491",
+    "inheritedRequiredTags": [
+      "ship"
+    ]
+  },
+  "position": {
+    "x": 784,
+    "y": 672,
+    "width": 96,
+    "height": 96,
+    "parent": "PLACE_the_ashen_lateen",
+    "innerWidth": 512,
+    "innerHeight": 512
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/places/PLACE_the_ironband_passage.png?v=1771817022938",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

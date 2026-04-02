@@ -1,0 +1,235 @@
+{
+  "id": "gaardia",
+  "name": "Gaardia",
+  "version": "1.0.0",
+  "description": "Gaardia is a successor kingdom on Western Muraii, rebuilding after continent-scale catastrophes remembered as the Wrath and the fall/descent of Illuminus. Its stability rests on the Lex Gaardium and a tense balance between the Crown, the Privy Synod, merchant guild courts, and Crown-Faith tribunals that license practice and prosecute forbidden rites. Beyond marble-domed institutions in High Gaardia, fogbound frontier regions like the Mistveil Moors and the Eluscion Rim strain under banditry, ruins, and the persistent threat of necromancy and restless dead. Anslem’s layered cosmology—Limbo above and Pandemonium and the Fire Deep below—remains only partly understood, with anomalies bleeding into scholarship, law, and hazardous exploration.",
+  "custom": {},
+  "rules": "Fourth Age dating is standard (0 4A tied to the remembered continent-shaping catastrophe). The Lex Gaardium is binding law in Gaardia and defines civic identity through the Five Graces, regulates courts and inheritance, structures maritime taxation and cargo registration, and restricts courtroom magic to licensed practice under writs and seals. Sovereignty is inherited but requires lawful ratification and recognition by counsel and institutions; succession disputes may be adjudicated under Lex principles. The Crown is ordinarily bound by the Lex but may invoke emergency dominion (the Clause of Ash) under defined crisis logic, while the Privy Synod can challenge edicts that contradict foundational Lex rights. Commercial disputes may be heard in recognized Guild-Courts. Necromancy (corpse-binding, soul-traffic, and related rites) is prohibited and investigated by Crown-Faith tribunals operating alongside secular authority, and certain information about monsters and countermeasures is suppressed. Restless dead follow consistent field constraints: daylight weakens wraiths; sunlight is severely damaging to vampires; zombies are compelled bodies responsive to a controlling will and can be hindered by fire, obstacles, and distance; wraiths are anchored to a site, object, or unresolved wrongdoing/oath; liches persist via a separate vessel securing their identity/name; sanctified countermeasures depend on genuine conviction. The Crater is a hazardous exceptional jurisdiction with limits on normal enforcement tools such as bounty law. Limbo begins roughly three leagues above sea level with gravitational reversals and disorientation; Pandemonium navigation is unreliable with temporal drift; Bloodfire rites tied to the Fire Deep are outlawed.",
+  "tone": "grounded dark fantasy with strong institutional detail (chronicle and legal voices) and intermittent frontier-horror and adventure reportage",
+  "style": "gritty dark fantasy realism: fogbound coasts, cold stone fortifications, archive halls and lantern-lit courts, harsh frontier mud and ruins",
+  "mapStyle": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/gaardia/images/cover.png",
+  "date": "12.01.11 4A 03:58",
+  "calendar": {
+    "name": "Gaardian Civil Calendar",
+    "calendarType": "standard",
+    "months": [
+      {
+        "name": "Firstmonth",
+        "days": 30
+      },
+      {
+        "name": "Secondmonth",
+        "days": 30
+      },
+      {
+        "name": "Thirdmonth",
+        "days": 30
+      },
+      {
+        "name": "Fourthmonth",
+        "days": 30
+      },
+      {
+        "name": "Fifthmonth",
+        "days": 30
+      },
+      {
+        "name": "Sixthmonth",
+        "days": 30
+      },
+      {
+        "name": "Seventhmonth",
+        "days": 30
+      },
+      {
+        "name": "Eighthmonth",
+        "days": 30
+      },
+      {
+        "name": "Ninthmonth",
+        "days": 30
+      },
+      {
+        "name": "Tenthmonth",
+        "days": 30
+      },
+      {
+        "name": "Eleventhmonth",
+        "days": 30
+      },
+      {
+        "name": "Twelfthmonth",
+        "days": 30
+      }
+    ],
+    "time": {
+      "hoursPerDay": 24,
+      "minutesPerHour": 60
+    },
+    "eras": [
+      {
+        "id": 1,
+        "name": "First Age",
+        "shortName": "1A",
+        "backwards": false,
+        "transitionEra": 2
+      },
+      {
+        "id": 2,
+        "name": "Second Age",
+        "shortName": "2A",
+        "backwards": false,
+        "transitionEra": 3
+      },
+      {
+        "id": 3,
+        "name": "Third Age",
+        "shortName": "3A",
+        "backwards": false,
+        "transitionEra": 4
+      },
+      {
+        "id": 4,
+        "name": "Fourth Age",
+        "shortName": "4A",
+        "backwards": false,
+        "transitionEra": 5
+      }
+    ],
+    "defaultEra": 4,
+    "seasons": null,
+    "format": {
+      "dateSeparator": ".",
+      "timeSeparator": ":",
+      "eraPosition": "suffix",
+      "monthDisplay": "number",
+      "yearFirst": false,
+      "use24Hour": false,
+      "yearOnlyTemplate": "${day}.${month}.${year} ${era}",
+      "millenniumPrefix": "M"
+    }
+  },
+  "weather": "clear",
+  "weatherSeverity": null,
+  "climate": null,
+  "music": null,
+  "races": [
+    {
+      "id": "human",
+      "label": "Human",
+      "description": "Humans dominate Gaardian institutions of Crown, law, trade, and frontier soldiery, and are deeply shaped by the Lex Gaardium and Crown-Faith authority.",
+      "rarity": "common",
+      "spriteHints": {
+        "humanoidBody": true,
+        "spriteArchetype": "human",
+        "defaultSkinColor": "light",
+        "allowedSkinColors": [
+          "light",
+          "olive",
+          "bronze",
+          "brown",
+          "taupe"
+        ],
+        "allowedEyeColors": null,
+        "allowedHairColors": null,
+        "featureLayers": null
+      }
+    },
+    {
+      "id": "elf",
+      "label": "Elf",
+      "description": "Elves appear in Gaardian affairs as travelers, performers, and rangers, with diplomacy and trade linked to Ghond and the wider politics of Muraii.",
+      "rarity": "uncommon",
+      "spriteHints": {
+        "humanoidBody": true,
+        "spriteArchetype": "elf",
+        "defaultSkinColor": "light",
+        "allowedSkinColors": [
+          "light",
+          "bronze",
+          "taupe",
+          "pale_green"
+        ],
+        "allowedEyeColors": null,
+        "allowedHairColors": null,
+        "featureLayers": null
+      }
+    },
+    {
+      "id": "halfling",
+      "label": "Halfling",
+      "description": "Halflings are closely associated with burrow-communities in Thornroot Forest and the Hearthroot Hollows, and are also found among rangers, scouts, and contract crews.",
+      "rarity": "uncommon",
+      "spriteHints": {
+        "humanoidBody": true,
+        "spriteArchetype": "human",
+        "defaultSkinColor": "light",
+        "allowedSkinColors": [
+          "light",
+          "olive",
+          "bronze",
+          "brown",
+          "taupe"
+        ],
+        "allowedEyeColors": null,
+        "allowedHairColors": null,
+        "featureLayers": null
+      }
+    },
+    {
+      "id": "dwarf",
+      "label": "Dwarf",
+      "description": "Dwarves are linked to habitation and craft along the Rift Mountains and appear in Muraii’s trade towns and guild life, including skilled journeymen in places like Hearthhome.",
+      "rarity": "uncommon",
+      "spriteHints": {
+        "humanoidBody": true,
+        "spriteArchetype": "human",
+        "defaultSkinColor": "bronze",
+        "allowedSkinColors": [
+          "bronze",
+          "light",
+          "olive",
+          "brown",
+          "taupe"
+        ],
+        "allowedEyeColors": null,
+        "allowedHairColors": null,
+        "featureLayers": null
+      }
+    },
+    {
+      "id": "goblin",
+      "label": "Goblin",
+      "description": "Goblins are a feared threat on the margins—raiding, harrying travel routes, and preying on vulnerable communities when watch systems fail.",
+      "rarity": "rare",
+      "spriteHints": {
+        "humanoidBody": true,
+        "spriteArchetype": "orc",
+        "defaultSkinColor": "green",
+        "allowedSkinColors": [
+          "green",
+          "dark_green",
+          "bright_green"
+        ],
+        "allowedEyeColors": [
+          "yellow",
+          "orange",
+          "red",
+          "brown"
+        ],
+        "allowedHairColors": null,
+        "featureLayers": null
+      }
+    }
+  ],
+  "rootPlaceId": "PLACE_anslem",
+  "rulesetId": null,
+  "defaultStartPlaceId": null,
+  "stagingSpriteTheme": "fantasy",
+  "hungerFatigueEnabled": false,
+  "characters": [],
+  "places": [],
+  "objects": [],
+  "events": []
+}

@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_registry_stores",
+  "label": "Registry Stores",
+  "description": "Registry Stores forms the secured storage chamber behind The Writbound Ledger’s copy-floor, built into the city’s older stonework and faced with later blackened brick. Riveted iron shelving carries sealed charter-tubes, bundled folios, and waxed packets, each tagged with standardized oath-hall forms and license tabs. The air remains dry from lime-plaster and soot-darkened vents, and the floor is scored with haul-marks from contract chests moved to and from the fireproof alcove. A narrow wall section is set with iron rings and padlock staples for quarantine-held parcels under posted interdiction excerpts.",
+  "short_description": "secure archive storage",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "storage_room",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.9
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "door_wooden",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/gaardia/images/battles/PLACE_registry_stores.png?v=1772218086727",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 560,
+    "y": 800,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_the_writbound_ledger",
+    "innerWidth": 448,
+    "innerHeight": 608
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": null,
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

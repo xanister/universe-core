@@ -1,0 +1,18 @@
+{
+  "id": "EVENT_visited_the_cinder_cantina_1771972615594",
+  "date": "999.M1 08:38",
+  "placeId": "PLACE_the_cinder_cantina",
+  "important": false,
+  "importanceScore": null,
+  "scope": null,
+  "relevantPlaceIds": null,
+  "eventType": "location_visited",
+  "category": "world",
+  "subject": "The Cinder Cantina",
+  "subjectId": "PLACE_the_cinder_cantina",
+  "fact": "Visited The Cinder Cantina",
+  "significance": "minor",
+  "witnessIds": [
+    "CHAR_alaric_morn"
+  ]
+}

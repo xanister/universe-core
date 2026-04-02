@@ -1,0 +1,18 @@
+{
+  "id": "pie",
+  "name": "Pie",
+  "description": "A freshly baked lattice-topped pie in a round pan.",
+  "purposes": [
+    "decoration"
+  ],
+  "tags": [
+    "common",
+    "food",
+    "tavern"
+  ],
+  "solid": false,
+  "layer": "default",
+  "spriteId": "pie",
+  "materials": [],
+  "tintable": false
+}

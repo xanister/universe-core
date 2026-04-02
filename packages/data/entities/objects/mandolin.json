@@ -1,0 +1,20 @@
+{
+  "id": "mandolin",
+  "name": "Mandolin",
+  "description": "A rounded stringed instrument with a wide body.",
+  "purposes": [
+    "decoration"
+  ],
+  "tags": [
+    "common",
+    "entertainment",
+    "tavern"
+  ],
+  "solid": false,
+  "layer": "default",
+  "spriteId": "mandolin",
+  "materials": [
+    "wood"
+  ],
+  "tintable": false
+}

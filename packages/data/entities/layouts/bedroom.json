@@ -1,0 +1,229 @@
+{
+  "id": "bedroom",
+  "name": "Bedroom",
+  "description": "A sleeping chamber",
+  "purposes": [
+    "bedroom"
+  ],
+  "spriteId": "door_wooden",
+  "variants": [
+    {
+      "id": "A",
+      "scale": "feet",
+      "environment": {
+        "type": "interior",
+        "hasWeather": false,
+        "temperature": {
+          "enabled": true,
+          "base": 18,
+          "modifiersApply": false
+        },
+        "maxDarkness": 0.5
+      },
+      "slots": [
+        {
+          "positionAlgorithm": "in_wall",
+          "min": 0,
+          "max": 1,
+          "nearPurpose": null,
+          "inheritableTags": null,
+          "distribution": "even",
+          "forbiddenTags": null,
+          "purpose": "exit",
+          "slotSize": null,
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "preferDistrict": null,
+          "distributionGroup": null,
+          "requiredTags": null
+        },
+        {
+          "positionAlgorithm": "against_wall",
+          "min": 1,
+          "max": 1,
+          "nearPurpose": null,
+          "inheritableTags": null,
+          "distribution": "even",
+          "forbiddenTags": null,
+          "purpose": "sleeping",
+          "slotSize": null,
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "preferDistrict": null,
+          "distributionGroup": null,
+          "requiredTags": null
+        },
+        {
+          "positionAlgorithm": "against_wall",
+          "max": 2,
+          "nearPurpose": null,
+          "inheritableTags": null,
+          "distribution": "even",
+          "forbiddenTags": null,
+          "requiredTags": null,
+          "purpose": "storage",
+          "min": 0,
+          "slotSize": null,
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "preferDistrict": null,
+          "distributionGroup": null
+        },
+        {
+          "positionAlgorithm": "in_wall",
+          "requiredTags": null,
+          "inheritableTags": null,
+          "min": null,
+          "max": 2,
+          "nearPurpose": null,
+          "distribution": "even",
+          "purpose": "decoration",
+          "slotSize": null,
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "preferDistrict": null,
+          "distributionGroup": null
+        },
+        {
+          "positionAlgorithm": "under",
+          "requiredTags": null,
+          "inheritableTags": null,
+          "min": null,
+          "max": 1,
+          "nearPurpose": null,
+          "distribution": "random",
+          "purpose": "floor_covering",
+          "slotSize": null,
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "preferDistrict": null,
+          "distributionGroup": null
+        },
+        {
+          "positionAlgorithm": "against_wall",
+          "requiredTags": null,
+          "inheritableTags": null,
+          "min": 0,
+          "max": 2,
+          "nearPurpose": "sleeping",
+          "distribution": "even",
+          "forbiddenTags": null,
+          "purpose": "lighting",
+          "slotSize": null,
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "preferDistrict": null,
+          "distributionGroup": null
+        },
+        {
+          "positionAlgorithm": "random_valid",
+          "requiredTags": null,
+          "inheritableTags": null,
+          "min": 1,
+          "max": 2,
+          "nearPurpose": null,
+          "distribution": "random",
+          "purpose": "item",
+          "slotSize": null,
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "preferDistrict": null,
+          "distributionGroup": null
+        }
+      ],
+      "description": "A private sleeping quarters",
+      "weight": 3,
+      "width": {
+        "min": 16,
+        "max": 20
+      },
+      "height": {
+        "min": 16,
+        "max": 20
+      },
+      "terrainLayers": [
+        {
+          "id": "room",
+          "tilesetId": "ship-hull",
+          "renderOrder": 0,
+          "blocking": "unblocks",
+          "terrain": "land",
+          "procedural": false,
+          "fill": [
+            487,
+            488,
+            519,
+            520,
+            551,
+            552,
+            583,
+            584
+          ],
+          "type": "l_shape",
+          "minArmWidth": 6
+        },
+        {
+          "id": "walls",
+          "type": "wall",
+          "tilesetId": "wall-interior",
+          "renderOrder": 2000,
+          "blocking": null,
+          "terrain": "wall",
+          "fill": [
+            647,
+            648
+          ],
+          "procedural": false,
+          "inheritable": false,
+          "wallStyle": "brick_brown"
+        },
+        {
+          "id": "wall_faces",
+          "type": "wall_face",
+          "tilesetId": "wall-interior",
+          "renderOrder": 1,
+          "blocking": null,
+          "terrain": "wall",
+          "fill": [],
+          "procedural": false,
+          "inheritable": false,
+          "wallLayerId": "walls",
+          "roomLayerId": "room",
+          "wallStyle": "wood_espresso_3"
+        }
+      ],
+      "defaultBlocked": true
+    }
+  ],
+  "characterScale": 1,
+  "timeScale": 1,
+  "interactionZone": null
+}

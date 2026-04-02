@@ -1,0 +1,22 @@
+{
+  "id": "gangplank",
+  "name": "Gangplank",
+  "description": "A boarding ramp for vessel docking",
+  "purposes": [
+    "gangplank"
+  ],
+  "tags": [
+    "ship",
+    "vessel",
+    "exit",
+    "wall"
+  ],
+  "solid": true,
+  "layer": "default",
+  "spriteId": "stool",
+  "materials": [
+    "wood"
+  ],
+  "tintable": false,
+  "lightSource": null
+}

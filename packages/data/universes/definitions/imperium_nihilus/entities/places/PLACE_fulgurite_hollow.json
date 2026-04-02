@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_fulgurite_hollow",
+  "label": "Fulgurite Hollow",
+  "description": "Fulgurite Hollow is a basalt cave cut into the ash-glazed ribs of the Vespera Tertius Ashmantle Range, its walls fused into glassy drips by repeated lightning strikes. Needle-like fulgurite seams web the interior, catching the bruise-colored auroral glow that filters through narrow cracks in the rock. The floor lies under a crust of black scree and vitrified cinder that grinds to powder under contact. Auspex and vox reception collapse into dense static within the hollow, amplified by mineral density and electrostatic residue.",
+  "short_description": "glass-veined basalt cave",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "cave",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.9
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "stone_arch_ruins",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/battles/PLACE_fulgurite_hollow.png?v=1772072762909",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 6336,
+    "y": 2144,
+    "width": 48,
+    "height": 48,
+    "parent": "PLACE_vespera_tertius_ashmantle_range",
+    "innerWidth": 4704,
+    "innerHeight": 2144
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/places/PLACE_fulgurite_hollow.png?v=1772072816164",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_the_refractors_loft",
+  "label": "The Refractor's Loft",
+  "description": "The Refractor's Loft occupies a narrow upper bay above The Prismwright Arcade, enclosed by faceted vitrified panels ribbed to scatter Lacrymara’s copper-white twilight into measured bands. A built-in sleeping alcove is set behind a slatted mirror screen, while grounded gutters run along the floorline to bleed off charge from glass-dust fallouts carried up from the shop. One wall is given to a fixed calibration shelf and lens-cradle recesses, arranged with the same metrological discipline as the sales plinths below. The air holds a persistent mineral brightness from dust-slick surfaces, and every plane is cut to preserve the city’s seam-line geometry in miniature.",
+  "short_description": "facet-walled loft bedroom",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "bedroom",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "door_wooden",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/hushlight_expanse/images/battles/PLACE_the_refractors_loft.png?v=1772313936748",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 400,
+    "y": 160,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_the_prismwright_arcade",
+    "innerWidth": 640,
+    "innerHeight": 544
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/hushlight_expanse/images/places/PLACE_the_refractors_loft.png?v=1772314008565",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

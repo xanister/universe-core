@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_reliquary_stock_vault",
+  "label": "Reliquary Stock Vault",
+  "description": "Reliquary Stock Vault serves as the secured storage chamber behind The Pallid Reliquary’s blast-rated frontage, enclosed by ribbed ferrocrete and a single pressure-sealed access point. Ration-tin shelving rises to the ceiling in regimented bays, while pressure-clamped crates and cog-marked bins are strapped to wall rails for rapid lock-down. Stenciled inventory codes and hazard sigils cover the shelving uprights, aligning stockkeeping with the enclave’s siege protocols. Recessed lumen strips cast an unwavering, cold light over machine-oil residue and preservative salt dust ground into the deck plating.",
+  "short_description": "sealed stockroom vault",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "storage_room",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.9
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "door_wooden",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/battles/PLACE_reliquary_stock_vault.png?v=1771996361054",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 144,
+    "y": 512,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_the_pallid_reliquary",
+    "innerWidth": 512,
+    "innerHeight": 672
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/places/PLACE_reliquary_stock_vault.png?v=1771996413717",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

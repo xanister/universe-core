@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_shuttered_berth",
+  "label": "Shuttered Berth",
+  "description": "Shuttered Berth functions as a compact sleeping chamber partitioned from The Glareward Canteen by insulated bulkhead panels that preserve the station’s strict air discipline. Ribbed hull plating remains exposed under a low amber striplight filtered through narrow light-baffles, keeping the space in the canteen’s glare-tempered palette. A wall-bolted bunk and fold-down desk sit beneath a gasketed locker face, their edges rounded to match orbital safety standards. A small acoustic grille and odor-trap vent tie the room into the Anchorage’s sealed circulation without admitting concourse noise or cargo tang.",
+  "short_description": "compact amber berth",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "bedroom",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "door_wooden",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/the_brine_lattice/images/battles/PLACE_shuttered_berth.png?v=1772314043450",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 912,
+    "y": 160,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_the_glareward_canteen",
+    "innerWidth": 576,
+    "innerHeight": 512
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/the_brine_lattice/images/places/PLACE_shuttered_berth.png?v=1772314092544",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

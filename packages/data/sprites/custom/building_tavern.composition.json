@@ -1,0 +1,289 @@
+{
+  "spriteId": "building_tavern",
+  "gridWidth": 5,
+  "gridHeight": 8,
+  "tileSize": 32,
+  "tiles": [
+    {
+      "tilesetId": "building-shop",
+      "srcX": 0,
+      "srcY": 0,
+      "col": 0,
+      "row": 0
+    },
+    {
+      "tilesetId": "building-shop",
+      "srcX": 32,
+      "srcY": 0,
+      "col": 1,
+      "row": 0
+    },
+    {
+      "tilesetId": "building-shop",
+      "srcX": 64,
+      "srcY": 0,
+      "col": 2,
+      "row": 0
+    },
+    {
+      "tilesetId": "building-shop",
+      "srcX": 96,
+      "srcY": 0,
+      "col": 3,
+      "row": 0
+    },
+    {
+      "tilesetId": "building-shop",
+      "srcX": 128,
+      "srcY": 0,
+      "col": 4,
+      "row": 0
+    },
+    {
+      "tilesetId": "building-shop",
+      "srcX": 0,
+      "srcY": 32,
+      "col": 0,
+      "row": 1
+    },
+    {
+      "tilesetId": "building-shop",
+      "srcX": 32,
+      "srcY": 32,
+      "col": 1,
+      "row": 1
+    },
+    {
+      "tilesetId": "building-shop",
+      "srcX": 64,
+      "srcY": 32,
+      "col": 2,
+      "row": 1
+    },
+    {
+      "tilesetId": "building-shop",
+      "srcX": 96,
+      "srcY": 32,
+      "col": 3,
+      "row": 1
+    },
+    {
+      "tilesetId": "building-shop",
+      "srcX": 128,
+      "srcY": 32,
+      "col": 4,
+      "row": 1
+    },
+    {
+      "tilesetId": "building-shop",
+      "srcX": 0,
+      "srcY": 64,
+      "col": 0,
+      "row": 2
+    },
+    {
+      "tilesetId": "building-shop",
+      "srcX": 32,
+      "srcY": 64,
+      "col": 1,
+      "row": 2
+    },
+    {
+      "tilesetId": "building-shop",
+      "srcX": 64,
+      "srcY": 64,
+      "col": 2,
+      "row": 2
+    },
+    {
+      "tilesetId": "building-shop",
+      "srcX": 96,
+      "srcY": 64,
+      "col": 3,
+      "row": 2
+    },
+    {
+      "tilesetId": "building-shop",
+      "srcX": 128,
+      "srcY": 64,
+      "col": 4,
+      "row": 2
+    },
+    {
+      "tilesetId": "building-shop",
+      "srcX": 0,
+      "srcY": 96,
+      "col": 0,
+      "row": 3
+    },
+    {
+      "tilesetId": "building-shop",
+      "srcX": 32,
+      "srcY": 96,
+      "col": 1,
+      "row": 3
+    },
+    {
+      "tilesetId": "building-shop",
+      "srcX": 64,
+      "srcY": 96,
+      "col": 2,
+      "row": 3
+    },
+    {
+      "tilesetId": "building-shop",
+      "srcX": 96,
+      "srcY": 96,
+      "col": 3,
+      "row": 3
+    },
+    {
+      "tilesetId": "building-shop",
+      "srcX": 128,
+      "srcY": 96,
+      "col": 4,
+      "row": 3
+    },
+    {
+      "tilesetId": "building-shop",
+      "srcX": 0,
+      "srcY": 128,
+      "col": 0,
+      "row": 4
+    },
+    {
+      "tilesetId": "building-shop",
+      "srcX": 32,
+      "srcY": 128,
+      "col": 1,
+      "row": 4
+    },
+    {
+      "tilesetId": "building-shop",
+      "srcX": 64,
+      "srcY": 128,
+      "col": 2,
+      "row": 4
+    },
+    {
+      "tilesetId": "building-shop",
+      "srcX": 96,
+      "srcY": 128,
+      "col": 3,
+      "row": 4
+    },
+    {
+      "tilesetId": "building-shop",
+      "srcX": 128,
+      "srcY": 128,
+      "col": 4,
+      "row": 4
+    },
+    {
+      "tilesetId": "building-shop",
+      "srcX": 0,
+      "srcY": 160,
+      "col": 0,
+      "row": 5
+    },
+    {
+      "tilesetId": "building-shop",
+      "srcX": 32,
+      "srcY": 160,
+      "col": 1,
+      "row": 5
+    },
+    {
+      "tilesetId": "building-shop",
+      "srcX": 64,
+      "srcY": 160,
+      "col": 2,
+      "row": 5
+    },
+    {
+      "tilesetId": "building-shop",
+      "srcX": 96,
+      "srcY": 160,
+      "col": 3,
+      "row": 5
+    },
+    {
+      "tilesetId": "building-shop",
+      "srcX": 128,
+      "srcY": 160,
+      "col": 4,
+      "row": 5
+    },
+    {
+      "tilesetId": "building-shop",
+      "srcX": 0,
+      "srcY": 192,
+      "col": 0,
+      "row": 6
+    },
+    {
+      "tilesetId": "building-shop",
+      "srcX": 32,
+      "srcY": 192,
+      "col": 1,
+      "row": 6
+    },
+    {
+      "tilesetId": "building-shop",
+      "srcX": 64,
+      "srcY": 192,
+      "col": 2,
+      "row": 6
+    },
+    {
+      "tilesetId": "building-shop",
+      "srcX": 96,
+      "srcY": 192,
+      "col": 3,
+      "row": 6
+    },
+    {
+      "tilesetId": "building-shop",
+      "srcX": 128,
+      "srcY": 192,
+      "col": 4,
+      "row": 6
+    },
+    {
+      "tilesetId": "building-shop",
+      "srcX": 0,
+      "srcY": 224,
+      "col": 0,
+      "row": 7
+    },
+    {
+      "tilesetId": "building-shop",
+      "srcX": 32,
+      "srcY": 224,
+      "col": 1,
+      "row": 7
+    },
+    {
+      "tilesetId": "building-shop",
+      "srcX": 64,
+      "srcY": 224,
+      "col": 2,
+      "row": 7
+    },
+    {
+      "tilesetId": "building-shop",
+      "srcX": 96,
+      "srcY": 224,
+      "col": 3,
+      "row": 7
+    },
+    {
+      "tilesetId": "building-shop",
+      "srcX": 128,
+      "srcY": 224,
+      "col": 4,
+      "row": 7
+    }
+  ],
+  "updatedAt": "2026-02-24T17:05:47.496Z"
+}

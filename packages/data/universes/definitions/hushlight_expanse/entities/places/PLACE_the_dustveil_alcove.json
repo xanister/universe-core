@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_the_dustveil_alcove",
+  "label": "The Dustveil Alcove",
+  "description": "The Dustveil Alcove is a narrow sleeping cell cut into The Lumen Sump’s recessed pressure-well, its matte composite walls scored with fine decontamination grooves and shallow navigation hashmarks. A low berth is bolted to the docking-frame geometry, paired with a sealed locker bank and a fold-down wash niche built for rapid particulate-radiance dust abatement. Recessed guidance lamps project a slow ceiling flow-map in muted bands, keeping illumination legible without glare. Sound-deadening baffles and vibration isolators preserve the tavern’s enforced quiet, reducing the port’s ring-structure tremor to a faint, regular thrum.",
+  "short_description": "hushlit berth alcove",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "bedroom",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "door_wooden",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/hushlight_expanse/images/battles/PLACE_the_dustveil_alcove.png?v=1772313936031",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 720,
+    "y": 160,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_the_lumen_sump",
+    "innerWidth": 640,
+    "innerHeight": 512
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/hushlight_expanse/images/places/PLACE_the_dustveil_alcove.png?v=1772314028275",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

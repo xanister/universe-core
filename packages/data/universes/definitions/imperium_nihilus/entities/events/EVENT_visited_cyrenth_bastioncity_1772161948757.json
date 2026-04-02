@@ -1,0 +1,18 @@
+{
+  "id": "EVENT_visited_cyrenth_bastioncity_1772161948757",
+  "date": "999.M1 13:16",
+  "placeId": "PLACE_cyrenth_bastioncity",
+  "important": false,
+  "importanceScore": null,
+  "scope": null,
+  "relevantPlaceIds": null,
+  "eventType": "location_visited",
+  "category": "world",
+  "subject": "Cyrenth Bastion-City",
+  "subjectId": "PLACE_cyrenth_bastioncity",
+  "fact": "Visited Cyrenth Bastion-City",
+  "significance": "minor",
+  "witnessIds": [
+    "CHAR_severin_ashcombe"
+  ]
+}

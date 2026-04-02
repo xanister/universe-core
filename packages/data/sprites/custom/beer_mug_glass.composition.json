@@ -1,0 +1,16 @@
+{
+  "spriteId": "beer_mug_glass",
+  "gridWidth": 1,
+  "gridHeight": 1,
+  "tileSize": 32,
+  "tiles": [
+    {
+      "tilesetId": "decor-tavern",
+      "srcX": 64,
+      "srcY": 544,
+      "col": 0,
+      "row": 0
+    }
+  ],
+  "updatedAt": "2026-03-01T19:55:05.031Z"
+}

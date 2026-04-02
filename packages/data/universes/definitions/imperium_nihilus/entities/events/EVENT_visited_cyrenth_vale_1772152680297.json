@@ -1,0 +1,18 @@
+{
+  "id": "EVENT_visited_cyrenth_vale_1772152680297",
+  "date": "999.M1 15:09",
+  "placeId": "PLACE_cyrenth_vale",
+  "important": false,
+  "importanceScore": null,
+  "scope": null,
+  "relevantPlaceIds": null,
+  "eventType": "location_visited",
+  "category": "world",
+  "subject": "Cyrenth Vale",
+  "subjectId": "PLACE_cyrenth_vale",
+  "fact": "Visited Cyrenth Vale",
+  "significance": "minor",
+  "witnessIds": [
+    "CHAR_severin_ashcombe"
+  ]
+}

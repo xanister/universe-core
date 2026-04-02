@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_the_index_vault",
+  "label": "The Index Vault",
+  "description": "The Index Vault serves as the Meridian Lapidary’s storage chamber, sealed behind a thick glass diaphragm cut to the workshop’s rectilinear grid. Shelving takes the form of stacked prismatic cells, each facet-etched with calibration marks that sort blanks, cullet, and finished lenses by angle, density, and resonance response. A ceiling of fixed baffles admits only a narrow meridian band of glare, laying a permanent stripe of light across the aisles while the remainder holds absolute shadow for stable preservation. The floor is dark crystalline strata scored with tensile-line rails that lock crates and racks into immovable, repeatable positions.",
+  "short_description": "prismatic calibrated vault",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "storage_room",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.9
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "door_wooden",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/the_hollow_lattice/images/battles/PLACE_the_index_vault.png?v=1772314228287",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 624,
+    "y": 1696,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_the_meridian_lapidary",
+    "innerWidth": 512,
+    "innerHeight": 736
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/the_hollow_lattice/images/places/PLACE_the_index_vault.png?v=1772314279701",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

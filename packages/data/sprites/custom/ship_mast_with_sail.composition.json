@@ -1,0 +1,33 @@
+{
+  "spriteId": "ship_mast_with_sail",
+  "gridWidth": 6,
+  "gridHeight": 8,
+  "tileSize": 32,
+  "tiles": [
+    { "tilesetId": "ship-rigging", "srcX": 64, "srcY": 0, "col": 1, "row": 0 },
+    { "tilesetId": "ship-rigging", "srcX": 96, "srcY": 0, "col": 2, "row": 0 },
+    { "tilesetId": "ship-rigging", "srcX": 128, "srcY": 0, "col": 3, "row": 0 },
+    { "tilesetId": "ship-rigging", "srcX": 160, "srcY": 0, "col": 4, "row": 0 },
+    { "tilesetId": "ship-rigging", "srcX": 32, "srcY": 32, "col": 0, "row": 1 },
+    { "tilesetId": "ship-rigging", "srcX": 64, "srcY": 32, "col": 1, "row": 1 },
+    { "tilesetId": "ship-rigging", "srcX": 96, "srcY": 32, "col": 2, "row": 1 },
+    { "tilesetId": "ship-rigging", "srcX": 128, "srcY": 32, "col": 3, "row": 1 },
+    { "tilesetId": "ship-rigging", "srcX": 160, "srcY": 32, "col": 4, "row": 1 },
+    { "tilesetId": "ship-rigging", "srcX": 192, "srcY": 32, "col": 5, "row": 1 },
+    { "tilesetId": "ship-rigging", "srcX": 32, "srcY": 64, "col": 0, "row": 2 },
+    { "tilesetId": "ship-rigging", "srcX": 64, "srcY": 64, "col": 1, "row": 2 },
+    { "tilesetId": "ship-rigging", "srcX": 96, "srcY": 64, "col": 2, "row": 2 },
+    { "tilesetId": "ship-rigging", "srcX": 128, "srcY": 64, "col": 3, "row": 2 },
+    { "tilesetId": "ship-rigging", "srcX": 160, "srcY": 64, "col": 4, "row": 2 },
+    { "tilesetId": "ship-rigging", "srcX": 192, "srcY": 64, "col": 5, "row": 2 },
+    { "tilesetId": "ship-rigging", "srcX": 64, "srcY": 96, "col": 1, "row": 3 },
+    { "tilesetId": "ship-rigging", "srcX": 96, "srcY": 96, "col": 2, "row": 3 },
+    { "tilesetId": "ship-rigging", "srcX": 128, "srcY": 96, "col": 3, "row": 3 },
+    { "tilesetId": "ship-rigging", "srcX": 160, "srcY": 96, "col": 4, "row": 3 },
+    { "tilesetId": "ship-rigging", "srcX": 992, "srcY": 128, "col": 3, "row": 4 },
+    { "tilesetId": "ship-rigging", "srcX": 992, "srcY": 160, "col": 3, "row": 5 },
+    { "tilesetId": "ship-rigging", "srcX": 992, "srcY": 192, "col": 3, "row": 6 },
+    { "tilesetId": "ship-rigging", "srcX": 992, "srcY": 224, "col": 3, "row": 7 }
+  ],
+  "updatedAt": "2026-02-13T21:00:00.000Z"
+}

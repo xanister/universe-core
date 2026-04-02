@@ -1,0 +1,31 @@
+{
+  "label": "The Candlewisp Keeper",
+  "description": "The Candlewisp Keeper tells stories like a corridor of flickering light: each answer reveals a deeper shadow and each quiet moment threatens a sudden, intimate shock. Clues arrive in fragments—half-heard confessions, wrong footprints, teeth marks in fruit—forcing players to choose between certainty and survival.",
+  "pacing": "moderate",
+  "eventTypes": [
+    "jump-scare interruptions",
+    "locked-room discoveries",
+    "whodunnit interrogations",
+    "false-alibi reveals",
+    "evidence contamination setbacks",
+    "NPC vanishings/abductions",
+    "ominous sensory omens (sounds, smells, drafts)",
+    "moral-choice compromises (save someone vs secure proof)",
+    "final-act confrontation/trap reveal"
+  ],
+  "arcStructure": {
+    "acts": 4,
+    "tensionCurve": "wave"
+  },
+  "storyStyle": "Events alternate between tense investigation and abrupt intrusions of violence or the uncanny, with jump scares used to punish complacency rather than to replace clues. NPCs are brittle under pressure: they lie to protect someone, contradict themselves when cornered, and often carry guilt unrelated to the central crime. Stakes escalate from social ruin and paranoia to immediate physical peril as the culprit closes distance and evidence begins to disappear or turn against the party. Complications favor misdirection and contamination—witnesses die, scenes are staged, and the most helpful clue may implicate an innocent person.",
+  "tone": "horror, suspense",
+  "id": "STORYTELLER_the_candlewisp_keeper",
+  "targetPlotCount": 2,
+  "plotStartDelayRange": {
+    "min": 0,
+    "max": 12
+  },
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/storytellers/images/STORYTELLER_the_candlewisp_keeper.png",
+  "verbosity": 1,
+  "voiceId": "callum"
+}

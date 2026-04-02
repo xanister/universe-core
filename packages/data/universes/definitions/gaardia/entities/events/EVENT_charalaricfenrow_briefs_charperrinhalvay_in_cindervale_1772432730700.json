@@ -1,0 +1,20 @@
+{
+  "id": "EVENT_charalaricfenrow_briefs_charperrinhalvay_in_cindervale_1772432730700",
+  "date": "07.01.11 4A 14:37",
+  "placeId": "PLACE_cindervale",
+  "eventType": "turning_point",
+  "category": "world",
+  "subject": "Cindervale",
+  "subjectId": "PLACE_cindervale",
+  "fact": "CHAR_alaric_fenrow briefs CHAR_perrin_halvay in Cindervale that registered cargo vanished from PLACE_charterbreak_quay despite interdiction notices; CHAR_perrin_halvay observes evidence of legally recut/tampered berth assignment/registration marks.",
+  "significance": "major",
+  "witnessIds": [
+    "CHAR_perrin_halvay"
+  ],
+  "important": true,
+  "importanceScore": null,
+  "scope": "local",
+  "relevantPlaceIds": [
+    "PLACE_cindervale"
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_quarantine_stores",
+  "label": "Quarantine Stores",
+  "description": "Quarantine Stores forms a narrow, soot-dark chamber set into Ashlar Tenement’s re-faced ancient masonry, its fractured stonework banded with blackened brick and riveted iron braces. Built-in shelving and stacked crate-bays rise to the smoke-scored rafters, with floor channels and a raised threshold arranged to keep damp and runoff from spoiling provisions. The door lintel bears stamped rental tallies and copied quarantine notices, tying the room’s contents to Cindervale’s licensing ordinances and contamination controls. Air vents cut as slit apertures admit minimal light while limiting drafts, preserving a still, ash-scented interior suited to siege storage and rationing discipline.",
+  "short_description": "soot-dark ration store",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "storage_room",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.9
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "door_wooden",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/gaardia/images/battles/PLACE_quarantine_stores.png?v=1772218171827",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 912,
+    "y": 160,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_ashlar_tenement",
+    "innerWidth": 480,
+    "innerHeight": 672
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": null,
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_the_ironwrit_lodgings",
+  "label": "The Ironwrit Lodgings",
+  "description": "The Ironwrit Lodgings occupies a narrow brick tenement stitched into a section of salvaged ashlar near Varric Holdfast’s courts, its façade scored with old toolmarks and later repair seams. Inside, steep stairs rise past a communal landing where posted notices, copied ordinances, and licensing seals are fixed beneath glass to deter tampering. The rooms are compact and deliberately spare, furnished with built-in bedsteads and iron-hasped cupboards suited to a city where records and goods remain subject to inspection. Sound carries through the mortar-thin walls, and every threshold bears the disciplined wear of tenants accustomed to curfews, audits, and hazard proclamations from the interdiction posts beyond the gates.",
+  "short_description": "spare legalist lodgings",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "residence",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "building_residence",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/gaardia/images/battles/PLACE_the_ironwrit_lodgings.png?v=1772208828606",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 3216,
+    "y": 448,
+    "width": 160,
+    "height": 256,
+    "parent": "PLACE_varric_holdfast",
+    "innerWidth": 1216,
+    "innerHeight": 1248
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/gaardia/images/places/PLACE_the_ironwrit_lodgings.png?v=1772208878831",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

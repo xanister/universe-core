@@ -1,0 +1,20 @@
+{
+  "id": "EVENT_charalaricmorn_was_interrupted_while_waiting_1772062079323",
+  "date": "999.M1 11:20",
+  "placeId": "PLACE_the_riftward_canteen",
+  "eventType": "turning_point",
+  "category": "world",
+  "subject": "The Riftward Canteen",
+  "subjectId": "PLACE_the_riftward_canteen",
+  "fact": "CHAR_alaric_morn was interrupted while waiting at The Riftward Canteen by Lucian Greve (new messenger) delivering warning: crew death tied to sealed Imperial order and escalating unnatural interference aboard the Cinderwake; warding relic must be secured before docking.",
+  "significance": "major",
+  "witnessIds": [
+    "CHAR_alaric_morn"
+  ],
+  "important": true,
+  "importanceScore": null,
+  "scope": "local",
+  "relevantPlaceIds": [
+    "PLACE_the_riftward_canteen"
+  ]
+}

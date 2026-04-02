@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_writkeepers_bedroom",
+  "label": "Writkeeper's Bedroom",
+  "description": "This compact chamber in The Ironwrit Lodgings is laid out for regulated living, with a built-in bedstave set into the brickwork and a narrow desk fixed beneath a high, barred window. An iron-hasped cupboard and a wall niche for sealed papers reflect the building’s proximity to Varric Holdfast’s courts and its culture of inspection. Limewashed walls bear neat lines of patchwork where older ashlar meets later repair, and the floorboards are planed thin by constant use. A slate hazard placard and copied curfew notice are mounted by the lintel under glass, standardizing the room to the city’s ordinances and interdiction regime.",
+  "short_description": "spare audited bedroom",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "bedroom",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "door_wooden",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/gaardia/images/battles/PLACE_writkeepers_bedroom.png?v=1772208889494",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 400,
+    "y": 160,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_the_ironwrit_lodgings",
+    "innerWidth": 512,
+    "innerHeight": 448
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/gaardia/images/places/PLACE_writkeepers_bedroom.png?v=1772208940148",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

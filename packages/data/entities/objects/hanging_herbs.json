@@ -1,0 +1,18 @@
+{
+  "id": "hanging_herbs",
+  "name": "Hanging Herbs",
+  "description": "A bundle of dried herbs tied and hanging.",
+  "purposes": [
+    "decoration"
+  ],
+  "tags": [
+    "common",
+    "food",
+    "tavern"
+  ],
+  "solid": false,
+  "layer": "overhead",
+  "spriteId": "hanging_herbs",
+  "materials": [],
+  "tintable": false
+}

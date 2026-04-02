@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_prismshard_asteroid",
+  "label": "Prismshard Asteroid",
+  "description": "Prismshard Asteroid is a metal-rich, irregular body suspended within the Saltglass System’s charged dust haze, where prismatic ringlight fractures into hard-edged bands across its surface. Ancient impact basins cut deep into its crust, exposing fused nickel-iron ribs and glassed seams that catch and scatter the system’s pale auroral curtains. Its slow tumble imposes stark thermal gradients, leaving one hemisphere blistered and vitrified while the opposing face carries a rime of electrostatically clung particulate. The surrounding microdebris field forms a thin, resonant drift that maintains consistent approach vectors during conjunction seasons.",
+  "short_description": "prismatic metal asteroid",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "asteroid",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "asteroid",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/brine_lantern/images/battles/PLACE_prismshard_asteroid.png?v=1772314678861",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 2960,
+    "y": 3840,
+    "width": 32,
+    "height": 32,
+    "parent": "PLACE_the_saltglass_system",
+    "innerWidth": 1760,
+    "innerHeight": 1600
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": null,
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

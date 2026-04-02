@@ -1,0 +1,16 @@
+{
+  "id": "EVENT_visited_riftglass_hollow_1771913931368",
+  "date": "999.M1 08:26",
+  "placeId": "PLACE_riftglass_hollow",
+  "important": false,
+  "importanceScore": null,
+  "scope": null,
+  "relevantPlaceIds": null,
+  "eventType": "location_visited",
+  "category": "world",
+  "subject": "Riftglass Hollow",
+  "subjectId": "PLACE_riftglass_hollow",
+  "fact": "Visited Riftglass Hollow",
+  "significance": "minor",
+  "witnessIds": null
+}

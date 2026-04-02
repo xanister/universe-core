@@ -1,0 +1,288 @@
+{
+  "id": "CHAR_sevrin_palk",
+  "label": "Sevrin Palk",
+  "description": "This individual is a broad-shouldered human adult with brown eyes set beneath heavy brows and a straight, work-worn nose. Black hair is kept in a short, practical cut, and the face carries a trimmed mustache that frames a firm mouth. Bronze skin shows the faint pitting and small healed nicks consistent with years of close work around glass, grit, and crowded counters. The hands are notably thick-fingered and callused, a permanent mark of steady service behind a bar.",
+  "short_description": "male tavern bartender",
+  "tags": [],
+  "entityType": "character",
+  "info": {
+    "purpose": "bartender",
+    "aliases": [
+      "Sev",
+      "The Lantern Pour"
+    ],
+    "birthdate": "998.M41",
+    "deathdate": null,
+    "title": null,
+    "birthPlace": "Imperium Nihilus",
+    "eyeColor": "brown",
+    "gender": "male",
+    "hairColor": "black",
+    "hairStyle": "parted",
+    "beardStyle": "mustache",
+    "headType": "human_male",
+    "skinTone": "bronze",
+    "personality": "A disciplined, observant bartender who keeps strict measure in both drink and conversation. He maintains order through quiet authority, remembers patrons by habit and preference, and treats the bar as a place of regulated refuge rather than indulgence.",
+    "race": "human",
+    "messages": [],
+    "journal": [],
+    "sketches": [],
+    "verbosity": 3,
+    "conversationContext": null,
+    "storytellerState": null,
+    "isPlayer": false,
+    "storyComplete": false,
+    "routine": {
+      "schedule": {
+        "dawn": "home",
+        "morning": "work",
+        "afternoon": "work",
+        "evening": "work",
+        "night": "home"
+      },
+      "home": {
+        "placeId": "PLACE_lantern_bunkroom",
+        "description": "Quarters near The Pallid Lantern",
+        "areaHint": null
+      },
+      "work": {
+        "placeId": "PLACE_the_pallid_lantern",
+        "description": "The Pallid Lantern",
+        "areaHint": null
+      },
+      "leisure": null,
+      "variance": 0.2,
+      "activities": {
+        "work": "tavern_work"
+      }
+    },
+    "vesselRoutes": null,
+    "abstractLocation": null,
+    "npcBehavior": null,
+    "physicalState": null,
+    "pendingDeparture": null,
+    "pendingArrival": null,
+    "lastRoutineCheckPeriod": null,
+    "startingNarrative": null,
+    "startingCharacterState": null,
+    "clothing": [
+      {
+        "slot": "torso_under",
+        "itemId": "formal_shirt",
+        "color": "#f5f0e8",
+        "contents": null
+      },
+      {
+        "slot": "torso_over",
+        "itemId": "apron",
+        "color": "#3a3a3a",
+        "contents": null
+      },
+      {
+        "slot": "legs",
+        "itemId": "formal_pants",
+        "color": "#1a1a1a",
+        "contents": null
+      },
+      {
+        "slot": "feet",
+        "itemId": "shoes",
+        "color": "#8b4513",
+        "contents": null
+      },
+      {
+        "slot": "belt",
+        "itemId": "leather_belt",
+        "color": "#8b4513",
+        "contents": [
+          {
+            "id": "ci_1772038099741_lmujt8",
+            "itemId": "unarmed",
+            "name": "unarmed",
+            "description": null,
+            "type": "weapon",
+            "quantity": 1,
+            "color": null,
+            "equipSlot": "weapon",
+            "plotId": null
+          }
+        ]
+      }
+    ],
+    "enabledOverlayLayers": [
+      "eyes",
+      "facial"
+    ],
+    "helmingVesselId": null,
+    "storytellerDisabled": false,
+    "rulesetState": {
+      "stats": {
+        "physical": 50,
+        "mental": 50,
+        "social": 50,
+        "poise": 50,
+        "max_poise": 50,
+        "bloodloss": 0,
+        "anxiety": 0,
+        "fatigue": 0,
+        "hunger": 0
+      },
+      "conditions": [],
+      "statUsage": {},
+      "incapacitation": null,
+      "incapacitatedSince": null
+    },
+    "voiceId": "eric",
+    "spriteConfig": {
+      "bodyType": "male",
+      "layers": [
+        {
+          "type": "body",
+          "optionId": "body_base",
+          "tint": 11373408
+        },
+        {
+          "type": "body",
+          "optionId": "body_universal",
+          "tint": 11373408
+        },
+        {
+          "type": "eyes",
+          "optionId": "eyes_eyes",
+          "tint": 7029286
+        },
+        {
+          "type": "facial",
+          "optionId": "facial_mustache",
+          "tint": 1710618
+        },
+        {
+          "type": "hair",
+          "optionId": "hair_parted",
+          "tint": 1710618
+        },
+        {
+          "type": "torso",
+          "optionId": "torso_formal_shirt_male",
+          "tint": 16117992
+        },
+        {
+          "type": "torso",
+          "optionId": "torso_white_apron_male",
+          "tint": 3815994
+        },
+        {
+          "type": "legs",
+          "optionId": "legs_formal_pants_male",
+          "tint": 1710618
+        },
+        {
+          "type": "feet",
+          "optionId": "feet_white_shoes_male",
+          "tint": 9127187
+        },
+        {
+          "type": "belt",
+          "optionId": "belt_leather_male",
+          "tint": 9127187
+        }
+      ],
+      "spriteHash": "6b0293b2466eda8f",
+      "spriteUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/sprites/generated/6b0293b2466eda8f.png",
+      "spriteScale": 1
+    }
+  },
+  "position": {
+    "x": 368,
+    "y": 400,
+    "width": 32,
+    "height": 48,
+    "parent": "PLACE_lantern_bunkroom"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/characters/CHAR_sevrin_palk.png?v=1772038160660",
+  "faceAnchorY": 0.17,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "talk"
+  },
+  "relationships": [
+    {
+      "targetId": "CHAR_corvin_rake",
+      "type": "acquaintance",
+      "disposition": 0,
+      "familiarity": 40,
+      "context": "Both are disciplined, observant bartenders from Imperium Nihilus; likely know of each other through trade/supply chatter between venues.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_orris_malk",
+      "type": "acquaintance",
+      "disposition": 0,
+      "familiarity": 40,
+      "context": "Shared profession and similar bar-ethic; plausible cross-venue familiarity via patrons or supply routes.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_savin_corl",
+      "type": "acquaintance",
+      "disposition": 0,
+      "familiarity": 40,
+      "context": "Another Imperium Nihilus bartender running a controlled house; likely at least a known peer in the local service network.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_silan_jett",
+      "type": "acquaintance",
+      "disposition": 0,
+      "familiarity": 40,
+      "context": "Similar rule-focused bartender profile and shared origin; plausible professional awareness or occasional contact between establishments.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_soren_halbrecht",
+      "type": "acquaintance",
+      "disposition": 0,
+      "familiarity": 40,
+      "context": "Shared background and role; likely knows him as a counterpart who also enforces strict house routines.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_tamsin_corrow",
+      "type": "acquaintance",
+      "disposition": 0,
+      "familiarity": 40,
+      "context": "Both keep tight control behind the bar and share Imperium Nihilus origins; plausible peer-level familiarity across canteens.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_tamsin_rowe",
+      "type": "acquaintance",
+      "disposition": 0,
+      "familiarity": 40,
+      "context": "Same line of work and shared birthplace; likely has at least casual recognition through patrons, suppliers, or staff talk.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_edrin_fallow",
+      "type": "acquaintance",
+      "disposition": 0,
+      "familiarity": 40,
+      "context": "Edrin’s counter/house-rules role overlaps with Sevrin’s profession; shared origin makes casual familiarity plausible despite different locations.",
+      "pendingGeneration": false
+    },
+    {
+      "targetId": "CHAR_tomas_avenro",
+      "type": "acquaintance",
+      "disposition": 0,
+      "familiarity": 40,
+      "context": "Both are exacting, measured service types from the same birthplace; plausible to know each other by reputation or occasional contact.",
+      "pendingGeneration": false
+    }
+  ],
+  "important": false
+}

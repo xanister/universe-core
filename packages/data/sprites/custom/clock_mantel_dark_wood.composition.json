@@ -1,0 +1,23 @@
+{
+  "spriteId": "clock_mantel_dark_wood",
+  "gridWidth": 1,
+  "gridHeight": 2,
+  "tileSize": 32,
+  "tiles": [
+    {
+      "tilesetId": "furniture-dark",
+      "srcX": 192,
+      "srcY": 608,
+      "col": 0,
+      "row": 0
+    },
+    {
+      "tilesetId": "furniture-dark",
+      "srcX": 192,
+      "srcY": 640,
+      "col": 0,
+      "row": 1
+    }
+  ],
+  "updatedAt": "2026-03-02T19:24:07.842Z"
+}

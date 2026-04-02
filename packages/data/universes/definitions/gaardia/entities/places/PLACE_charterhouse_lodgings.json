@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_charterhouse_lodgings",
+  "label": "Charterhouse Lodgings",
+  "description": "Charterhouse Lodgings occupies a narrow, two-storey rowhouse of blackened brick pinned with riveted iron straps, its ground floor set behind a barred vestibule and a licensable threshold-stone. The interior is divided into small chambers with soot-stained plaster, built-in cupboards, and a single hearth whose flue is threaded through older, broken masonry from the city’s refounding. A wall niche holds an iron-bound document coffer and a recessed shelf for seal-wax and cord, reflecting Cindervale’s culture of charters, tolls, and sworn record. Shuttered slit-windows and a steep stairwell emphasize defensibility and privacy in a city governed by quarantine ordinances and interdiction law.",
+  "short_description": "spare fortified lodgings",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "residence",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "building_residence",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/gaardia/images/battles/PLACE_charterhouse_lodgings.png?v=1772208423988",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 400,
+    "y": 416,
+    "width": 160,
+    "height": 256,
+    "parent": "PLACE_cindervale",
+    "innerWidth": 768,
+    "innerHeight": 1024
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/gaardia/images/places/PLACE_charterhouse_lodgings.png?v=1772208470327",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

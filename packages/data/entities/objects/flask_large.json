@@ -1,0 +1,20 @@
+{
+  "id": "flask_large",
+  "name": "Large Flask",
+  "description": "A large round-bodied flask with a short neck and cork.",
+  "purposes": [
+    "decoration"
+  ],
+  "tags": [
+    "common",
+    "drinkware",
+    "tavern"
+  ],
+  "solid": false,
+  "layer": "default",
+  "spriteId": "flask_large",
+  "materials": [
+    "glass"
+  ],
+  "tintable": false
+}

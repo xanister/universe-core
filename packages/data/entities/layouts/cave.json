@@ -1,0 +1,187 @@
+{
+  "id": "cave",
+  "name": "Cave",
+  "description": "An underground natural formation",
+  "purposes": [
+    "cave"
+  ],
+  "spriteId": "stone_arch_ruins",
+  "variants": [
+    {
+      "id": "A",
+      "scale": "feet",
+      "environment": {
+        "type": "interior",
+        "hasWeather": false,
+        "temperature": {
+          "enabled": true,
+          "base": 18,
+          "modifiersApply": false
+        },
+        "maxDarkness": 0.9
+      },
+      "slots": [
+        {
+          "positionAlgorithm": "random",
+          "min": 0,
+          "max": 1,
+          "nearPurpose": null,
+          "inheritableTags": null,
+          "distribution": "even",
+          "forbiddenTags": null,
+          "purpose": "exit",
+          "slotSize": null,
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "preferDistrict": null,
+          "distributionGroup": null,
+          "requiredTags": null
+        },
+        {
+          "purpose": "undead",
+          "positionAlgorithm": "random_valid",
+          "distribution": "even",
+          "requiredTags": null,
+          "forbiddenTags": null,
+          "inheritableTags": null,
+          "min": 2,
+          "max": 6,
+          "nearPurpose": null,
+          "slotSize": null,
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "preferDistrict": null,
+          "distributionGroup": null
+        },
+        {
+          "purpose": "rat",
+          "positionAlgorithm": "random_valid",
+          "distribution": "even",
+          "requiredTags": null,
+          "forbiddenTags": null,
+          "inheritableTags": null,
+          "min": 2,
+          "max": 5,
+          "nearPurpose": null,
+          "slotSize": null,
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "preferDistrict": null,
+          "distributionGroup": null
+        },
+        {
+          "purpose": "lighting",
+          "positionAlgorithm": "along_cave",
+          "distribution": "even",
+          "requiredTags": [
+            "cave"
+          ],
+          "forbiddenTags": null,
+          "inheritableTags": null,
+          "min": 3,
+          "max": 8,
+          "nearPurpose": null,
+          "slotSize": null,
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "preferDistrict": null,
+          "distributionGroup": null
+        }
+      ],
+      "description": "An underground natural formation",
+      "weight": 1,
+      "width": {
+        "min": 40,
+        "max": 150
+      },
+      "height": {
+        "min": 35,
+        "max": 130
+      },
+      "terrainLayers": [
+        {
+          "id": "layer_0",
+          "tilesetId": "terrain-cobble-brown-dark",
+          "renderOrder": 0,
+          "blocking": null,
+          "terrain": "land",
+          "procedural": false,
+          "fill": [
+            46,
+            47,
+            48
+          ],
+          "type": "fill",
+          "inheritable": true
+        },
+        {
+          "id": "layer_cave",
+          "tilesetId": "terrain-cobble-slate",
+          "renderOrder": 1,
+          "blocking": "blocks",
+          "terrain": "void",
+          "procedural": false,
+          "fill": [],
+          "type": "cave",
+          "tunnelWidth": 2,
+          "branchCount": 3,
+          "curvature": 0.3,
+          "autotilePreset": "canonical",
+          "autotileAgainst": [],
+          "altCenterCount": 0,
+          "inheritable": false
+        },
+        {
+          "id": "layer_moss",
+          "tilesetId": "terrain-moss-teal",
+          "renderOrder": 2,
+          "blocking": null,
+          "terrain": "land",
+          "procedural": false,
+          "fill": [],
+          "type": "noise_patch",
+          "shapePreset": "patches",
+          "autotileAgainst": [],
+          "withinTerrain": "layer_0",
+          "autotilePreset": "canonical",
+          "inheritable": false
+        },
+        {
+          "id": "layer_puddles",
+          "tilesetId": "terrain-water-purple",
+          "renderOrder": 3,
+          "blocking": null,
+          "terrain": "water",
+          "procedural": false,
+          "fill": [],
+          "type": "noise_patch",
+          "shapePreset": "scattered",
+          "autotileAgainst": [],
+          "withinTerrain": "layer_0",
+          "autotilePreset": "canonical",
+          "inheritable": false
+        }
+      ],
+      "defaultBlocked": false
+    }
+  ],
+  "characterScale": 1,
+  "timeScale": 1,
+  "interactionZone": null
+}

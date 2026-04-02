@@ -1,0 +1,21 @@
+{
+  "id": "pew_carved_white",
+  "name": "Carved Church Pew (White)",
+  "description": "A white wood pew with a decorative carved back panel.",
+  "purposes": [
+    "seating"
+  ],
+  "tags": [
+    "common",
+    "furniture",
+    "seating",
+    "temple"
+  ],
+  "solid": true,
+  "layer": "default",
+  "spriteId": "pew_carved_white",
+  "materials": [
+    "wood"
+  ],
+  "tintable": false
+}

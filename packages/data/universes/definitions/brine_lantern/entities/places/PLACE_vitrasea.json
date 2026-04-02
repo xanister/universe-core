@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_vitrasea",
+  "label": "Vitrasea",
+  "description": "Vitrasea is a mid-orbit planet of the Saltglass System, defined by a shallow global ocean saturated with silicate salts that freeze into glassy rafts along the temperate margins. Its atmosphere remains thin and alkaline, tinting the horizon in opaline bands where the system’s prismatic rings scatter across persistent high haze. Broad impact basins form terraced littoral shelves, their rims plated in iridescent evaporite crusts that fracture into regular polygon fields. Night on Vitrasea is dominated by steady auroral curtains that travel with the planet’s magnetized crustal arcs and the system’s charged dust.",
+  "short_description": "glass-salted ocean world",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "planet",
+    "environment": {
+      "type": "exterior",
+      "hasWeather": true,
+      "temperature": {
+        "enabled": true,
+        "base": null,
+        "modifiersApply": true
+      },
+      "maxDarkness": null
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "planet_terran",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/brine_lantern/images/battles/PLACE_vitrasea.png?v=1772314672995",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 3888,
+    "y": 4352,
+    "width": 32,
+    "height": 32,
+    "parent": "PLACE_the_saltglass_system",
+    "innerWidth": 3456,
+    "innerHeight": 3072
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": null,
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

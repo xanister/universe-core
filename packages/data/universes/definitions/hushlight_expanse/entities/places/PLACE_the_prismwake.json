@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_the_prismwake",
+  "label": "The Prismwake",
+  "description": "The Prismwake is a lateen-rigged sailing vessel adapted to Lacrymara’s glass-dusted twilight seas, its hull sheathed in dull black resin to suppress glare from the planet’s reflective particulates. A lattice of refractive vanes rises above the mainmast, sorting copper-white radiance into narrow bands that mark heading against the planet’s seam-lined horizons. The deck fittings are low and sealed, with covered scuppers and gasketed lockers designed to exclude electrostatically charged glass dust. Along the rails, grounded conductor-strips bleed accumulated charge into the sea, keeping the rigging stable under the planet’s faint auroral girdle.",
+  "short_description": "glass-dusted twilight ship",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "sailing_ship",
+    "environment": {
+      "type": "exterior",
+      "hasWeather": true,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": null
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "sailing_ship_sloop",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/hushlight_expanse/images/battles/PLACE_the_prismwake.png?v=1772313840688",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 2800,
+    "y": 64,
+    "width": 64,
+    "height": 64,
+    "parent": "PLACE_lacrymara",
+    "innerWidth": 1280,
+    "innerHeight": 1280
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/hushlight_expanse/images/places/PLACE_the_prismwake.png?v=1772313931683",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

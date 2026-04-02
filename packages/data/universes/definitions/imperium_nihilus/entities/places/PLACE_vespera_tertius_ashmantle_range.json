@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_vespera_tertius_ashmantle_range",
+  "label": "Vespera Tertius Ashmantle Range",
+  "description": "Vespera Tertius Ashmantle Range is a basaltic mountain spine rising from ash-choked basins into the planet’s bruise-lit auroral haze. Its slopes are glazed with vitrified cinder and impact glass, forming jagged ribs that shed black scree into wind-carved gullies. Electrostatic storms rake the ridgelines with violet lightning, leaving fulgurite seams and a persistent metallic tang in the air. Vox and auspex returns fracture against the range’s mineral density and constant atmospheric interference, rendering distant landmarks indistinct and unreliable.",
+  "short_description": "ash-glazed basalt peaks",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "mountain",
+    "environment": {
+      "type": "exterior",
+      "hasWeather": true,
+      "temperature": {
+        "enabled": true,
+        "base": null,
+        "modifiersApply": true
+      },
+      "maxDarkness": null
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "world_map_mountain",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/battles/PLACE_vespera_tertius_ashmantle_range.png?v=1772072706349",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 1712,
+    "y": 672,
+    "width": 96,
+    "height": 96,
+    "parent": "PLACE_vespera_tertius",
+    "innerWidth": 9504,
+    "innerHeight": 3904
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/places/PLACE_vespera_tertius_ashmantle_range.png?v=1772072757458",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

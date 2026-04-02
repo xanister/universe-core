@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_heliopause_parlor",
+  "label": "Heliopause Parlor",
+  "description": "Heliopause Parlor serves as a private residence set into Seamline Concord’s basalt-glass terracework, its rooms oriented along the city’s calibrated sightlines to the auroral girdle. Interior walls are paneled in dark vitrified stone, with mirror-slag filigree that repeats Lacrymara’s seam-line bands in thin, copper-white traces. Electrostatic baffles at the thresholds hold the ever-present glass dust in disciplined drifts, preserving sharply defined surfaces and softening sound into the Expanse’s characteristic hush. A narrow cistern niche along the inner hall maintains a reflective basin used for light-measure and household navigation within twilight gradients.",
+  "short_description": "basalt-glass parlor",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "residence",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "building_residence",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/hushlight_expanse/images/battles/PLACE_heliopause_parlor.png?v=1772314404568",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 2064,
+    "y": 224,
+    "width": 160,
+    "height": 256,
+    "parent": "PLACE_seamline_concord",
+    "innerWidth": 1184,
+    "innerHeight": 992
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": null,
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

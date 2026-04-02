@@ -1,0 +1,20 @@
+{
+  "id": "EVENT_charkorrbrightblade_overheard_runner_deliver_sealed_1772229534088",
+  "date": "02.01.11 4A 08:53",
+  "placeId": "PLACE_the_quenched_pike_stockroom",
+  "eventType": "turning_point",
+  "category": "world",
+  "subject": "The Quenched Pike Stockroom",
+  "subjectId": "PLACE_the_quenched_pike_stockroom",
+  "fact": "CHAR_korr_brightblade overheard runner deliver sealed tribunal writ compelling appearance at PLACE_ashlar_registry_house; runner reported Dockwarden Hask Rell challenging cargo registry vs Crown records and a dead dockhand found with a guild-crest token tied to registry work.",
+  "significance": "major",
+  "witnessIds": [
+    "CHAR_korr_brightblade"
+  ],
+  "important": true,
+  "importanceScore": null,
+  "scope": "local",
+  "relevantPlaceIds": [
+    "PLACE_the_quenched_pike_stockroom"
+  ]
+}

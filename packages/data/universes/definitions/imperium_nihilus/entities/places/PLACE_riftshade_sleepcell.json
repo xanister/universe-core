@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_riftshade_sleepcell",
+  "label": "Riftshade Sleepcell",
+  "description": "Riftshade Sleepcell is a narrow sleeping alcove partitioned from Riftshade Hearthroom by soot-dark composite panels set into the slagcrete shell of the hab-tier. A low, lock-fixed cot platform and built-in storage niches occupy the length of one wall, their edges sealed with ash-gaskets to preserve the bastion’s controlled air. Armored view-slits admit a restrained bruise-colored auroral sheen that catches on stenciled devotional strips and the matte grit of stormborne residue. Overhead, shielded conduit spines and a compact vox-dampening baffle reinforce the Nocturnis Bastion doctrine of redundant, interference-hardened domestic space.",
+  "short_description": "narrow ash-sealed cell",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "bedroom",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "door_wooden",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/battles/PLACE_riftshade_sleepcell.png?v=1772146162453",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 80,
+    "y": 160,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_riftshade_hearthroom",
+    "innerWidth": 512,
+    "innerHeight": 448
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/places/PLACE_riftshade_sleepcell.png?v=1772146211072",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

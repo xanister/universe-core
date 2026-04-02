@@ -1,0 +1,16 @@
+{
+  "spriteId": "parchment",
+  "gridWidth": 1,
+  "gridHeight": 1,
+  "tileSize": 32,
+  "tiles": [
+    {
+      "tilesetId": "decor-tavern",
+      "srcX": 224,
+      "srcY": 0,
+      "col": 0,
+      "row": 0
+    }
+  ],
+  "updatedAt": "2026-03-01T20:26:42.424Z"
+}

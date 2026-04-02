@@ -1,0 +1,20 @@
+{
+  "id": "EVENT_charalaricmorn_waiting_in_vespera_tertius_1772175614628",
+  "date": "999.M1 09:57",
+  "placeId": "PLACE_vespera_tertius_nocturnis_bastion",
+  "eventType": "turning_point",
+  "category": "world",
+  "subject": "Vespera Tertius Nocturnis Bastion",
+  "subjectId": "PLACE_vespera_tertius_nocturnis_bastion",
+  "fact": "CHAR_alaric_morn waiting in Vespera Tertius Nocturnis Bastion interrupted when CHAR_a_fatigued_deckhand_messenger collapses bleeding and drops a wax-sealed packet; CHAR_iscar_venn and CHAR_kaelen_vos move to seize packet under quarantine procedure",
+  "significance": "major",
+  "witnessIds": [
+    "CHAR_alaric_morn"
+  ],
+  "important": true,
+  "importanceScore": null,
+  "scope": "local",
+  "relevantPlaceIds": [
+    "PLACE_vespera_tertius_nocturnis_bastion"
+  ]
+}

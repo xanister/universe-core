@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_vespera_tertius_shard_basilica",
+  "label": "Vespera Tertius Shard Basilica",
+  "description": "Vespera Tertius Shard Basilica is a shattered ecclesiastic ruin of black basalt and fused rift-glass, its broken nave split by an impact-scored transept and exposed to the ash-laden sky. Cyclopean buttresses stand half-melted into vitrified ribs, while collapsed vaulting forms jagged aisles choked with slag-dust and fallen icon-stone. The auroral bruise-light of the nightside stains the fractured mosaics and scorched altar-dais, preserving outlines in heat-glazed pigment. Electrostatic grit drifts through roofless apertures, and vox noise persists as a constant hiss within the hollowed sanctuary.",
+  "short_description": "shattered basalt basilica",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "ruins",
+    "environment": {
+      "type": "exterior",
+      "hasWeather": true,
+      "temperature": {
+        "enabled": true,
+        "base": null,
+        "modifiersApply": true
+      },
+      "maxDarkness": null
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "stone_arch_ruins",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/battles/PLACE_vespera_tertius_shard_basilica.png?v=1771874311105",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 288,
+    "y": 768,
+    "width": 48,
+    "height": 48,
+    "parent": "PLACE_vespera_tertius",
+    "innerWidth": 2336,
+    "innerHeight": 4288
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/places/PLACE_vespera_tertius_shard_basilica.png?v=1771874360465",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

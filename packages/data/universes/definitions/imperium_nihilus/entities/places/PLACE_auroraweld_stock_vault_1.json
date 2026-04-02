@@ -1,0 +1,56 @@
+{
+  "id": "PLACE_auroraweld_stock_vault_1",
+  "label": "Auroraweld Stock Vault",
+  "description": "Auroraweld Stock Vault serves as the atelier’s secured store for plate offcuts, salvaged wreck-metal, and sealed flux canisters, set behind a gasketed bulkhead within the vitrified stone superstructure. Racked bays of slagcrete and riveted steel rise to the crane-rail height, their aisles laid with scored decking to catch filings and ash grit. Grounded mesh sheathing and insulated conduit runs continue through the space, keeping static discharge from spoiling sensitive stock amid the bastion’s persistent electrostatic conditions. The air remains dry and metallic, filtered through particulate baffles that preserve tools and materials against the city’s abrasive stormfall.",
+  "short_description": "secured metal stockroom",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "storage_room",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.9
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "door_wooden",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 1008,
+    "y": 320,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_auroraweld_atelier"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": null,
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

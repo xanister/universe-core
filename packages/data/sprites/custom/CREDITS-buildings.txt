@@ -1,0 +1,40 @@
+Building Exterior Sprites (building_tavern.png, building_shop.png, building_residence.png)
+=========================================================================================
+
+These building sprites are composed from tiles extracted from the following
+LPC (Liberated Pixel Cup) tilesets. All source tilesets are licensed under
+CC-BY-SA 3.0 and/or GPL 3.0.
+
+Source Tilesets
+---------------
+
+1. [LPC] City Outside
+   URL: https://opengameart.org/content/lpc-city-outside
+   License: CC-BY-SA 3.0 / GPL 3.0
+   Artists: Tuomo Untinen, Lanea Zimmerman (Sharm), Guido Bos, Hyptosis,
+            Johann C, Johannes Sjölund, Xenodora, William Thompson,
+            Daniel Eddeland, caeles, bluecarrot16
+   Used in: building_tavern.png (slate roof, brick walls),
+            building_shop.png (red-brown roof, brick/stone walls)
+
+2. [LPC] Windows & Doors (v2)
+   URL: https://opengameart.org/content/lpc-windows-doors
+   License: CC-BY-SA 3.0 / GPL 3.0+
+   Artist: bluecarrot16
+   Used in: All three buildings (windows and doors)
+
+3. [LPC] Thatched-Roof Cottage
+   URL: https://opengameart.org/content/lpc-thatched-roof-cottage
+   License: CC-BY-SA 3.0 / GPL 3.0
+   Artist: bluecarrot16
+   Used in: building_residence.png (thatched roof, timber-frame walls)
+
+Composition
+-----------
+
+These sprites were programmatically composed by extracting individual 32x32
+tiles from the above tilesets and arranging them into building facades.
+No original pixel art was created; all pixels originate from the credited
+tilesets above.
+
+License: CC-BY-SA 3.0 (most restrictive common license of all sources)

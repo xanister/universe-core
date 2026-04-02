@@ -1,0 +1,196 @@
+{
+  "id": "sailing_ship_corridor_below_deck",
+  "name": "Below-Deck Ship Corridor",
+  "description": "A narrow corridor below deck connecting cabins, storage, and work spaces on a sailing ship.",
+  "purposes": [
+    "ship_corridor"
+  ],
+  "spriteId": "ship_hatch",
+  "variants": [
+    {
+      "id": "A",
+      "scale": "feet",
+      "environment": {
+        "type": "interior",
+        "hasWeather": false,
+        "temperature": {
+          "enabled": true,
+          "base": 18,
+          "modifiersApply": false
+        },
+        "maxDarkness": 0.5
+      },
+      "width": {
+        "min": 14,
+        "max": 16
+      },
+      "height": {
+        "min": 14,
+        "max": 16
+      },
+      "description": "A tight, utilitarian corridor with a few cabin doors and storage alcoves.",
+      "weight": 3,
+      "terrainLayers": [
+        {
+          "id": "corridor_floor",
+          "tilesetId": "ship-hull",
+          "renderOrder": 0,
+          "blocking": "unblocks",
+          "terrain": "land",
+          "procedural": false,
+          "fill": [
+            487,
+            488,
+            519,
+            520,
+            551,
+            552,
+            583,
+            584
+          ],
+          "type": "l_shape",
+          "minArmWidth": 6
+        },
+        {
+          "id": "bulkhead_walls",
+          "type": "wall",
+          "tilesetId": "wall-interior",
+          "renderOrder": 2000,
+          "blocking": null,
+          "terrain": "wall",
+          "fill": [
+            428,
+            648
+          ],
+          "procedural": false,
+          "inheritable": false,
+          "wallStyle": "brick_brown"
+        },
+        {
+          "id": "wall_faces",
+          "type": "wall_face",
+          "tilesetId": "wall-interior",
+          "renderOrder": 1,
+          "blocking": null,
+          "terrain": "wall",
+          "fill": [],
+          "procedural": false,
+          "inheritable": false,
+          "wallLayerId": "bulkhead_walls",
+          "roomLayerId": "corridor_floor",
+          "wallStyle": "wood_espresso_3"
+        }
+      ],
+      "slots": [
+        {
+          "positionAlgorithm": "in_wall",
+          "chance": null,
+          "min": 0,
+          "max": 1,
+          "nearPurpose": null,
+          "inheritableTags": null,
+          "requiredTags": null,
+          "distribution": "even",
+          "forbiddenTags": null,
+          "purpose": "exit",
+          "slotSize": null,
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "preferDistrict": null,
+          "distributionGroup": null
+        },
+        {
+          "positionAlgorithm": "in_wall",
+          "requiredTags": null,
+          "min": 1,
+          "max": 1,
+          "nearPurpose": null,
+          "inheritableTags": [
+            "ship"
+          ],
+          "distribution": "even",
+          "forbiddenTags": null,
+          "purpose": "storage_room",
+          "slotSize": null,
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "preferDistrict": null,
+          "distributionGroup": null
+        },
+        {
+          "positionAlgorithm": "in_wall",
+          "requiredTags": null,
+          "min": 1,
+          "max": 1,
+          "nearPurpose": null,
+          "inheritableTags": [
+            "ship"
+          ],
+          "distribution": "even",
+          "forbiddenTags": null,
+          "purpose": "bedroom",
+          "slotSize": null,
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "preferDistrict": null,
+          "distributionGroup": null
+        },
+        {
+          "positionAlgorithm": "against_wall",
+          "requiredTags": null,
+          "inheritableTags": null,
+          "min": 1,
+          "max": 3,
+          "nearPurpose": null,
+          "distribution": "even",
+          "forbiddenTags": null,
+          "purpose": "storage",
+          "slotSize": null,
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "preferDistrict": null,
+          "distributionGroup": null
+        },
+        {
+          "positionAlgorithm": "in_wall",
+          "requiredTags": null,
+          "inheritableTags": null,
+          "min": null,
+          "max": 3,
+          "nearPurpose": null,
+          "distribution": "even",
+          "purpose": "decoration",
+          "slotSize": null,
+          "flags": {
+            "isStructural": false,
+            "facesAnchor": false,
+            "useLlmSelection": false
+          },
+          "visualClearanceAbove": null,
+          "preferDistrict": null,
+          "distributionGroup": null
+        }
+      ],
+      "defaultBlocked": true
+    }
+  ],
+  "characterScale": 1,
+  "timeScale": 1,
+  "interactionZone": null
+}

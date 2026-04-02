@@ -1,0 +1,18 @@
+{
+  "id": "EVENT_name_revealed_jorren_talwick_cassian_rowe_1772325910207",
+  "date": "04.01.11 4A 07:30",
+  "placeId": null,
+  "important": false,
+  "importanceScore": null,
+  "scope": null,
+  "relevantPlaceIds": null,
+  "eventType": "name_revealed",
+  "category": "knowledge",
+  "subject": "Cassian Rowe",
+  "subjectId": "CHAR_cassian_rowe",
+  "fact": "Learned the name \"Cassian Rowe\"",
+  "significance": "minor",
+  "witnessIds": [
+    "CHAR_jorren_talwick"
+  ]
+}

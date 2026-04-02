@@ -1,0 +1,20 @@
+{
+  "id": "EVENT_charseverinashcombe_waited_in_placecyrenthbastioncity_running_1772172378490",
+  "date": "999.M1 13:17",
+  "placeId": "PLACE_the_gloam_lantern",
+  "eventType": "turning_point",
+  "category": "world",
+  "subject": "The Gloam Lantern",
+  "subjectId": "PLACE_the_gloam_lantern",
+  "fact": "CHAR_severin_ashcombe waited in PLACE_cyrenth_bastioncity; running battle and patrol sweep passed The Gloam Lantern as CHAR_a_fatigued_deckhand_messenger revealed he carries sealed audit dispatch for \"Ashfall Ledgerhouse\" and fears patrols searching messengers",
+  "significance": "major",
+  "witnessIds": [
+    "CHAR_severin_ashcombe"
+  ],
+  "important": true,
+  "importanceScore": null,
+  "scope": "local",
+  "relevantPlaceIds": [
+    "PLACE_the_gloam_lantern"
+  ]
+}

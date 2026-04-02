@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_cinderprism_asteroid",
+  "label": "Cinderprism Asteroid",
+  "description": "Cinderprism Asteroid is a jagged, glass-skinned body suspended along one of Vesper Node’s fixed polyhedral arcs, its silhouette cut into strict facets by repeated fracture planes. The surface bears fused vitreous ridges and matte carbon seams that track the local tensile lines, forming orderly bands of luster and absolute black. Shallow cleft-basins expose stratified interior layers like cut stone, each lamina aligned to the system’s disciplined planes of radiance and lightless interval. Around it, the lattice-horizon resolves into hard angles that render drift and approach as measured, geometric vectors rather than free fall.",
+  "short_description": "faceted glassy asteroid",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "asteroid",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "asteroid",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/the_hollow_lattice/images/battles/PLACE_cinderprism_asteroid.png?v=1772313834796",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 3152,
+    "y": 1984,
+    "width": 32,
+    "height": 32,
+    "parent": "PLACE_vesper_node",
+    "innerWidth": 1440,
+    "innerHeight": 1920
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/the_hollow_lattice/images/places/PLACE_cinderprism_asteroid.png?v=1772314023109",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

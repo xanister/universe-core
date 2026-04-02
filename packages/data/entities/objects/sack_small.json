@@ -1,0 +1,21 @@
+{
+  "id": "sack_small",
+  "name": "Small Sack",
+  "description": "A small tied burlap sack.",
+  "purposes": [
+    "storage"
+  ],
+  "tags": [
+    "common",
+    "container",
+    "storage",
+    "small"
+  ],
+  "solid": false,
+  "layer": "default",
+  "spriteId": "sack_small",
+  "materials": [
+    "wood"
+  ],
+  "tintable": false
+}

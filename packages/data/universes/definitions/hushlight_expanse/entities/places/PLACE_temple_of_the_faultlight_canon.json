@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_temple_of_the_faultlight_canon",
+  "label": "Temple of the Faultlight Canon",
+  "description": "Temple of the Faultlight Canon serves as Seamglass Meridian’s principal sanctuary for rites timed to the city’s calibrated twilight bands. Its interior is formed from faceted, dust-slick vitrified tile, with grounded gutters and lensing cisterns drawn inward to create a central basin of shallow reflective water. Mirror-slat clerestories admit the copper-white spectrum as narrow, measurable beams that cross the nave like ruled lines. The sanctuary’s floor follows the fault-limned seam geometry in inlaid glass, fixing devotion to the city’s navigational order and the hushlit lattice beyond.",
+  "short_description": "glasslit faultline temple",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "temple",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "world_map_temple",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/hushlight_expanse/images/battles/PLACE_temple_of_the_faultlight_canon.png?v=1772314076293",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 2512,
+    "y": 1984,
+    "width": 96,
+    "height": 96,
+    "parent": "PLACE_seamglass_meridian",
+    "innerWidth": 1568,
+    "innerHeight": 4288
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/hushlight_expanse/images/places/PLACE_temple_of_the_faultlight_canon.png?v=1772314124175",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

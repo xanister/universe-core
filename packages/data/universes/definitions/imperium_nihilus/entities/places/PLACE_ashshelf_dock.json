@@ -1,0 +1,59 @@
+{
+  "id": "PLACE_ashshelf_dock",
+  "label": "Ashshelf Dock",
+  "description": "Ashshelf Dock is a low, riveted platform of blackened ferrocrete and salvage-plating set onto the lake’s stone shelves, its edges crusted with pale ash lines left by repeated scour. Mooring rings and cleat posts stand in disciplined intervals, their metal furred with corrosion from the water’s persistent oil-sheen iridescence. A row of half-buried flood-control pylons brackets the approach, their stenciled numerals faded beneath soot and salt. The bruise-hued aurorae of Cyrenth Vale glaze the surface in cold light, turning the basin into a glassy field broken by wind-ruffled, metallic chop.",
+  "short_description": "ash-lit corroded dock",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "harbor",
+    "environment": {
+      "type": "exterior",
+      "hasWeather": true,
+      "temperature": {
+        "enabled": true,
+        "base": null,
+        "modifiersApply": true
+      },
+      "maxDarkness": null
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "world_map_dock",
+      "facing": "south",
+      "layer": "default"
+    },
+    "allowPlayerStart": true,
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/battles/PLACE_ashshelf_dock.png?v=1771817371126",
+    "inheritedRequiredTags": null,
+    "timeScale": 1
+  },
+  "position": {
+    "x": 8224,
+    "y": 4576,
+    "width": 96,
+    "height": 48,
+    "parent": "PLACE_bruiseglass_lake",
+    "innerWidth": 1728,
+    "innerHeight": 1184
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/places/PLACE_ashshelf_dock.png?v=1771817422227",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

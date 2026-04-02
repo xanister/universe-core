@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_keepers_sleep_niche_1",
+  "label": "Keeper's Sleep Niche",
+  "description": "Keeper's Sleep Niche forms the inner sleeping recess of Ashlight Keeper's Quarters, partitioned by a riveted sheet-metal half-wall and a hanging gasketed curtain to conserve heat. A narrow cot is bolted to the basalt-set floor beside built-in lockers, all surfaces finished in soot-dark timber and scuffed metal made for washdown. Violet-glass light leaks through a slitted sconce, staining the enclosure in bruise-colored hues that echo Vespera Tertius’ auroral glare. Copper grounding straps and ceiling chains continue through the niche, terminating at a grated sump that channels both moisture and static to the canteen’s foundations.",
+  "short_description": "gasketed sleep recess",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "bedroom",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "door_wooden",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/battles/PLACE_keepers_sleep_niche_1.png?v=1772051639392",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 272,
+    "y": 160,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_ashlight_keepers_quarters",
+    "innerWidth": 480,
+    "innerHeight": 512
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/places/PLACE_keepers_sleep_niche_1.png?v=1772051690735",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

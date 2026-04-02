@@ -1,0 +1,54 @@
+{
+  "id": "OBJ_meridian_sleeper_chamber_golden_key_0877",
+  "label": "Golden Key",
+  "description": "An ornate key with a sun-shaped head",
+  "important": false,
+  "short_description": "golden key",
+  "tags": [
+    "item",
+    "common",
+    "ship"
+  ],
+  "entityType": "object",
+  "info": {
+    "purpose": "item",
+    "solid": false,
+    "layer": "default",
+    "isStructural": false,
+    "material": null,
+    "tint": 16766720,
+    "spriteConfig": {
+      "spriteId": "golden_key",
+      "frame": null,
+      "animationKey": null,
+      "animated": false,
+      "facing": "south"
+    },
+    "hp": null,
+    "maxHp": null,
+    "state": null,
+    "contents": null,
+    "lightSource": null,
+    "itemId": "golden_key",
+    "plotId": null
+  },
+  "position": {
+    "x": 240,
+    "y": 320,
+    "width": 32,
+    "height": 32,
+    "parent": "PLACE_meridian_sleeper_chamber"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "relationships": [],
+  "image": null,
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "pickup"
+  }
+}

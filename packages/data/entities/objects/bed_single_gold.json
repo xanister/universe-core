@@ -1,0 +1,21 @@
+{
+  "id": "bed_single_gold",
+  "name": "Single Bed (Gold)",
+  "description": "A single bed with a blue-white pillow and gold coverlet.",
+  "purposes": [
+    "sleeping"
+  ],
+  "tags": [
+    "common",
+    "furniture",
+    "bedroom"
+  ],
+  "solid": true,
+  "layer": "default",
+  "spriteId": "bed_single_gold",
+  "materials": [
+    "wood",
+    "fabric"
+  ],
+  "tintable": false
+}

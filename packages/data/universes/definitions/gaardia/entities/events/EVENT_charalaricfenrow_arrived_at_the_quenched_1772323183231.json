@@ -1,0 +1,20 @@
+{
+  "id": "EVENT_charalaricfenrow_arrived_at_the_quenched_1772323183231",
+  "date": "04.01.11 4A 10:56",
+  "placeId": "PLACE_the_quenched_pike",
+  "eventType": "turning_point",
+  "category": "world",
+  "subject": "The Quenched Pike",
+  "subjectId": "PLACE_the_quenched_pike",
+  "fact": "CHAR_alaric_fenrow arrived at The Quenched Pike during CHAR_korr_brightblade's flute performance and declared enforcement of harbor ordinance due to a registry dispute at PLACE_charterbreak_quay",
+  "significance": "major",
+  "witnessIds": [
+    "CHAR_korr_brightblade"
+  ],
+  "important": true,
+  "importanceScore": null,
+  "scope": "local",
+  "relevantPlaceIds": [
+    "PLACE_the_quenched_pike"
+  ]
+}

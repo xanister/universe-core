@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_the_ironbound_loft",
+  "label": "The Ironbound Loft",
+  "description": "The Ironbound Loft forms a narrow guest room under the Black Ledger’s low rafters, its soot-blackened beams cinched with riveted iron straps to match the tavern’s buttressed construction. A rope-lashed cot and a bolted trunk sit on worn planks, while a chain-hung lamp burns behind smoke-stained glass to keep light subdued. One slit window is fitted with an interior grate and oiled canvas shutter, reflecting Cindervale’s quarantine ordinances and interdiction nights. A small plaque of house rules and licensing notices is nailed beside the latch, treating the room as a space governed by written law rather than custom.",
+  "short_description": "iron-banded loft room",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "bedroom",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "door_wooden",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/gaardia/images/battles/PLACE_the_ironbound_loft.png?v=1772208507298",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 880,
+    "y": 160,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_the_black_ledger",
+    "innerWidth": 512,
+    "innerHeight": 512
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/gaardia/images/places/PLACE_the_ironbound_loft.png?v=1772208557511",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

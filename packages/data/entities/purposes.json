@@ -1,0 +1,823 @@
+{
+  "version": "1.0.0",
+  "purposes": [
+    {
+      "id": "seating",
+      "label": "Seating",
+      "description": "Chair, stool, bench, throne",
+      "category": "object",
+      "interactionTypeId": null,
+      "defaultActivityId": null,
+      "defaultSchedule": null,
+      "system": false,
+      "portraitPoolSize": null
+    },
+    {
+      "id": "sleeping",
+      "label": "Sleeping",
+      "description": "Bed, cot, hammock",
+      "category": "object",
+      "interactionTypeId": null,
+      "defaultActivityId": null,
+      "defaultSchedule": null,
+      "system": true,
+      "portraitPoolSize": null
+    },
+    {
+      "id": "storage",
+      "label": "Storage",
+      "description": "Chest, barrel, shelf, wardrobe",
+      "category": "object",
+      "interactionTypeId": "search",
+      "defaultActivityId": null,
+      "defaultSchedule": null,
+      "system": false,
+      "portraitPoolSize": null
+    },
+    {
+      "id": "table",
+      "label": "Table",
+      "description": "Table, counter surface",
+      "category": "object",
+      "interactionTypeId": null,
+      "defaultActivityId": null,
+      "defaultSchedule": null,
+      "system": false,
+      "portraitPoolSize": null
+    },
+    {
+      "id": "decoration",
+      "label": "Decoration",
+      "description": "Paintings, statues, ornamental objects",
+      "category": "object",
+      "interactionTypeId": null,
+      "defaultActivityId": null,
+      "defaultSchedule": null,
+      "system": true,
+      "portraitPoolSize": null
+    },
+    {
+      "id": "floor_covering",
+      "label": "Floor Covering",
+      "description": "Rugs, mats, carpets — rendered below furniture",
+      "category": "object",
+      "interactionTypeId": null,
+      "defaultActivityId": null,
+      "defaultSchedule": null,
+      "system": false,
+      "portraitPoolSize": null
+    },
+    {
+      "id": "surface_item",
+      "label": "Surface Item",
+      "description": "Small decorative objects placed on furniture surfaces: cups, candles, plates, books",
+      "category": "object",
+      "interactionTypeId": null,
+      "defaultActivityId": null,
+      "defaultSchedule": null,
+      "system": false,
+      "portraitPoolSize": null
+    },
+    {
+      "id": "workspace",
+      "label": "Workspace",
+      "description": "Desk, workbench",
+      "category": "object",
+      "interactionTypeId": null,
+      "defaultActivityId": null,
+      "defaultSchedule": null,
+      "system": false,
+      "portraitPoolSize": null
+    },
+    {
+      "id": "cooking",
+      "label": "Cooking",
+      "description": "Stove, oven, cauldron, cooking station",
+      "category": "object",
+      "interactionTypeId": null,
+      "defaultActivityId": null,
+      "defaultSchedule": null,
+      "system": false,
+      "portraitPoolSize": null
+    },
+    {
+      "id": "anchor",
+      "label": "Anchor",
+      "description": "Focal points like fireplace, altar",
+      "category": "object",
+      "interactionTypeId": null,
+      "defaultActivityId": null,
+      "defaultSchedule": null,
+      "system": false,
+      "portraitPoolSize": null
+    },
+    {
+      "id": "exit",
+      "label": "Exit",
+      "description": "Door, teleporter, stairs - exit to another place",
+      "category": "object",
+      "interactionTypeId": "enter",
+      "defaultActivityId": null,
+      "defaultSchedule": null,
+      "system": true,
+      "portraitPoolSize": null
+    },
+    {
+      "id": "cosmos",
+      "label": "Cosmos",
+      "description": "Top-level cosmic space",
+      "category": "place",
+      "interactionTypeId": null,
+      "defaultActivityId": null,
+      "defaultSchedule": null,
+      "system": true,
+      "portraitPoolSize": null
+    },
+    {
+      "id": "star_system",
+      "label": "Star System",
+      "description": "A star and its orbiting bodies",
+      "category": "place",
+      "interactionTypeId": null,
+      "defaultActivityId": null,
+      "defaultSchedule": null,
+      "system": false,
+      "portraitPoolSize": null
+    },
+    {
+      "id": "planet",
+      "label": "Planet",
+      "description": "A planetary body",
+      "category": "place",
+      "interactionTypeId": null,
+      "defaultActivityId": null,
+      "defaultSchedule": null,
+      "system": true,
+      "portraitPoolSize": null
+    },
+    {
+      "id": "asteroid",
+      "label": "Asteroid",
+      "description": "A rocky body in space",
+      "category": "place",
+      "interactionTypeId": null,
+      "defaultActivityId": null,
+      "defaultSchedule": null,
+      "system": false,
+      "portraitPoolSize": null
+    },
+    {
+      "id": "city",
+      "label": "City",
+      "description": "A settlement with buildings, shops, and residents",
+      "category": "place",
+      "interactionTypeId": null,
+      "defaultActivityId": null,
+      "defaultSchedule": null,
+      "system": false,
+      "portraitPoolSize": null
+    },
+    {
+      "id": "tavern",
+      "label": "Tavern",
+      "description": "A drinking establishment",
+      "category": "place",
+      "interactionTypeId": null,
+      "defaultActivityId": null,
+      "defaultSchedule": null,
+      "system": false,
+      "portraitPoolSize": null
+    },
+    {
+      "id": "shop",
+      "label": "Shop",
+      "description": "General goods store",
+      "category": "place",
+      "interactionTypeId": null,
+      "defaultActivityId": null,
+      "defaultSchedule": null,
+      "system": false,
+      "portraitPoolSize": null
+    },
+    {
+      "id": "weapon_shop",
+      "label": "Weapon Shop",
+      "description": "Arms and armor dealer",
+      "category": "place",
+      "interactionTypeId": null,
+      "defaultActivityId": null,
+      "defaultSchedule": null,
+      "system": false,
+      "portraitPoolSize": null
+    },
+    {
+      "id": "temple",
+      "label": "Temple",
+      "description": "Place of worship",
+      "category": "place",
+      "interactionTypeId": null,
+      "defaultActivityId": null,
+      "defaultSchedule": null,
+      "system": false,
+      "portraitPoolSize": null
+    },
+    {
+      "id": "harbor",
+      "label": "Harbor",
+      "description": "Harbor, pier, landing pad",
+      "category": "place",
+      "interactionTypeId": null,
+      "defaultActivityId": null,
+      "defaultSchedule": null,
+      "system": false,
+      "portraitPoolSize": null
+    },
+    {
+      "id": "station",
+      "label": "Station",
+      "description": "Space station, waypoint",
+      "category": "place",
+      "interactionTypeId": null,
+      "defaultActivityId": null,
+      "defaultSchedule": null,
+      "system": false,
+      "portraitPoolSize": null
+    },
+    {
+      "id": "spaceport",
+      "label": "Spaceport",
+      "description": "Spacecraft landing and departure facility",
+      "category": "place",
+      "interactionTypeId": null,
+      "defaultActivityId": null,
+      "defaultSchedule": null,
+      "system": false,
+      "portraitPoolSize": null
+    },
+    {
+      "id": "residence",
+      "label": "Residence",
+      "description": "Home, apartment, quarters",
+      "category": "place",
+      "interactionTypeId": null,
+      "defaultActivityId": null,
+      "defaultSchedule": null,
+      "system": false,
+      "portraitPoolSize": null
+    },
+    {
+      "id": "workshop",
+      "label": "Workshop",
+      "description": "Crafting or repair facility",
+      "category": "place",
+      "interactionTypeId": null,
+      "defaultActivityId": null,
+      "defaultSchedule": null,
+      "system": false,
+      "portraitPoolSize": null
+    },
+    {
+      "id": "warehouse",
+      "label": "Warehouse",
+      "description": "Large storage facility",
+      "category": "place",
+      "interactionTypeId": null,
+      "defaultActivityId": null,
+      "defaultSchedule": null,
+      "system": false,
+      "portraitPoolSize": null
+    },
+    {
+      "id": "forest",
+      "label": "Forest",
+      "description": "Wooded wilderness area",
+      "category": "place",
+      "interactionTypeId": null,
+      "defaultActivityId": null,
+      "defaultSchedule": null,
+      "system": false,
+      "portraitPoolSize": null
+    },
+    {
+      "id": "mountain",
+      "label": "Mountain",
+      "description": "Highland terrain",
+      "category": "place",
+      "interactionTypeId": null,
+      "defaultActivityId": null,
+      "defaultSchedule": null,
+      "system": false,
+      "portraitPoolSize": null
+    },
+    {
+      "id": "cave",
+      "label": "Cave",
+      "description": "Underground cavern or tunnel",
+      "category": "place",
+      "interactionTypeId": null,
+      "defaultActivityId": null,
+      "defaultSchedule": null,
+      "system": false,
+      "portraitPoolSize": null
+    },
+    {
+      "id": "lake",
+      "label": "Lake",
+      "description": "Body of fresh water",
+      "category": "place",
+      "interactionTypeId": null,
+      "defaultActivityId": null,
+      "defaultSchedule": null,
+      "system": false,
+      "portraitPoolSize": null
+    },
+    {
+      "id": "ruins",
+      "label": "Ruins",
+      "description": "Remnants of a former structure",
+      "category": "place",
+      "interactionTypeId": null,
+      "defaultActivityId": null,
+      "defaultSchedule": null,
+      "system": false,
+      "portraitPoolSize": null
+    },
+    {
+      "id": "bedroom",
+      "label": "Bedroom",
+      "description": "Sleeping quarters",
+      "category": "place",
+      "interactionTypeId": null,
+      "defaultActivityId": null,
+      "defaultSchedule": null,
+      "system": false,
+      "portraitPoolSize": null
+    },
+    {
+      "id": "kitchen",
+      "label": "Kitchen",
+      "description": "Food preparation area",
+      "category": "place",
+      "interactionTypeId": null,
+      "defaultActivityId": null,
+      "defaultSchedule": null,
+      "system": false,
+      "portraitPoolSize": null
+    },
+    {
+      "id": "storage_room",
+      "label": "Storage Room",
+      "description": "Room for storing goods",
+      "category": "place",
+      "interactionTypeId": null,
+      "defaultActivityId": null,
+      "defaultSchedule": null,
+      "system": false,
+      "portraitPoolSize": null
+    },
+    {
+      "id": "cabin",
+      "label": "Cabin",
+      "description": "Small quarters on a vessel",
+      "category": "place",
+      "interactionTypeId": null,
+      "defaultActivityId": null,
+      "defaultSchedule": null,
+      "system": false,
+      "portraitPoolSize": null
+    },
+    {
+      "id": "cargo_hold",
+      "label": "Cargo Hold",
+      "description": "Ship storage area",
+      "category": "place",
+      "interactionTypeId": null,
+      "defaultActivityId": null,
+      "defaultSchedule": null,
+      "system": false,
+      "portraitPoolSize": null
+    },
+    {
+      "id": "vessel_helm",
+      "label": "Vessel Helm",
+      "description": "Control station for a vessel",
+      "category": "object",
+      "interactionTypeId": "helm",
+      "defaultActivityId": null,
+      "defaultSchedule": null,
+      "system": true,
+      "portraitPoolSize": null
+    },
+    {
+      "id": "spaceship",
+      "label": "Spaceship",
+      "description": "A generic spaceship",
+      "category": "place",
+      "interactionTypeId": null,
+      "defaultActivityId": null,
+      "defaultSchedule": null,
+      "system": false,
+      "portraitPoolSize": null
+    },
+    {
+      "id": "sailing_ship",
+      "label": "Ship",
+      "description": "A generic sailing ship",
+      "category": "place",
+      "interactionTypeId": null,
+      "defaultActivityId": null,
+      "defaultSchedule": null,
+      "system": false,
+      "portraitPoolSize": null
+    },
+    {
+      "id": "airlock",
+      "label": "Airlock",
+      "description": "Pressurized hatch for vessel docking",
+      "category": "object",
+      "interactionTypeId": "dock_enter",
+      "defaultActivityId": null,
+      "defaultSchedule": null,
+      "system": true,
+      "portraitPoolSize": null
+    },
+    {
+      "id": "gangplank",
+      "label": "Gangplank",
+      "description": "Boarding ramp for vessel docking",
+      "category": "object",
+      "interactionTypeId": "dock_enter",
+      "defaultActivityId": null,
+      "defaultSchedule": null,
+      "system": true,
+      "portraitPoolSize": null
+    },
+    {
+      "id": "player",
+      "label": "Player",
+      "description": "Player character",
+      "category": "character",
+      "interactionTypeId": null,
+      "defaultActivityId": null,
+      "defaultSchedule": null,
+      "system": true,
+      "portraitPoolSize": null
+    },
+    {
+      "id": "bartender",
+      "label": "Bartender",
+      "description": "Serves drinks and manages a tavern or bar",
+      "category": "character",
+      "interactionTypeId": "talk",
+      "defaultActivityId": "tavern_work",
+      "defaultSchedule": {
+        "dawn": "home",
+        "morning": "work",
+        "afternoon": "work",
+        "evening": "work",
+        "night": "home"
+      },
+      "system": false,
+      "portraitPoolSize": null,
+      "preferOnSiteQuarters": true,
+      "defaultLeisureTagIds": [
+        "TAG_workplace_tavern"
+      ],
+      "defaultWorkspacePurpose": "workspace"
+    },
+    {
+      "id": "guard",
+      "label": "Guard",
+      "description": "Patrols and protects an area",
+      "category": "character",
+      "interactionTypeId": "talk",
+      "defaultActivityId": "guard_duty",
+      "defaultSchedule": {
+        "dawn": "work",
+        "morning": "work",
+        "afternoon": "work",
+        "evening": "leisure",
+        "night": "home"
+      },
+      "system": false,
+      "portraitPoolSize": null,
+      "defaultLeisureTagIds": [
+        "TAG_workplace_tavern"
+      ],
+      "defaultWorkspacePurpose": "exit"
+    },
+    {
+      "id": "merchant",
+      "label": "Merchant",
+      "description": "Buys and sells goods",
+      "category": "character",
+      "interactionTypeId": "talk",
+      "defaultActivityId": "shopkeeping",
+      "defaultSchedule": {
+        "dawn": "home",
+        "morning": "work",
+        "afternoon": "work",
+        "evening": "leisure",
+        "night": "home"
+      },
+      "system": false,
+      "portraitPoolSize": null,
+      "preferOnSiteQuarters": true,
+      "defaultLeisureTagIds": [
+        "TAG_workplace_tavern"
+      ],
+      "defaultWorkspacePurpose": "workspace"
+    },
+    {
+      "id": "captain",
+      "label": "Captain",
+      "description": "Commands a vessel and oversees crew",
+      "category": "character",
+      "interactionTypeId": "talk",
+      "defaultActivityId": "vessel_work",
+      "defaultSchedule": {
+        "dawn": "work",
+        "morning": "work",
+        "afternoon": "leisure",
+        "evening": "home",
+        "night": "home"
+      },
+      "system": true,
+      "portraitPoolSize": null,
+      "defaultLeisureTagIds": [
+        "TAG_workplace_tavern"
+      ]
+    },
+    {
+      "id": "helmsman",
+      "label": "Helmsman",
+      "description": "Steers and navigates a vessel",
+      "category": "character",
+      "interactionTypeId": "talk",
+      "defaultActivityId": "vessel_work",
+      "defaultSchedule": {
+        "dawn": "home",
+        "morning": "home",
+        "afternoon": "work",
+        "evening": "work",
+        "night": "work"
+      },
+      "system": true,
+      "portraitPoolSize": null,
+      "defaultLeisureTagIds": [
+        "TAG_workplace_tavern"
+      ]
+    },
+    {
+      "id": "priest",
+      "label": "Priest",
+      "description": "Leads worship and tends to a temple or shrine",
+      "category": "character",
+      "interactionTypeId": "talk",
+      "defaultActivityId": "worship_lead",
+      "defaultSchedule": {
+        "dawn": "work",
+        "morning": "work",
+        "afternoon": "work",
+        "evening": "leisure",
+        "night": "home"
+      },
+      "system": false,
+      "portraitPoolSize": null,
+      "preferOnSiteQuarters": true,
+      "defaultLeisureTagIds": [
+        "TAG_workplace_tavern"
+      ],
+      "defaultWorkspacePurpose": "workspace"
+    },
+    {
+      "id": "laborer",
+      "label": "Laborer",
+      "description": "Performs manual work in workshops and warehouses",
+      "category": "character",
+      "interactionTypeId": "talk",
+      "defaultActivityId": "work_general",
+      "defaultSchedule": {
+        "dawn": "work",
+        "morning": "work",
+        "afternoon": "work",
+        "evening": "leisure",
+        "night": "home"
+      },
+      "system": false,
+      "portraitPoolSize": null,
+      "defaultLeisureTagIds": [
+        "TAG_workplace_tavern"
+      ],
+      "defaultWorkspacePurpose": "workspace"
+    },
+    {
+      "id": "clerk",
+      "label": "Clerk",
+      "description": "Manages inventory and records in warehouses and shops",
+      "category": "character",
+      "interactionTypeId": "talk",
+      "defaultActivityId": "shopkeeping",
+      "defaultSchedule": {
+        "dawn": "home",
+        "morning": "work",
+        "afternoon": "work",
+        "evening": "leisure",
+        "night": "home"
+      },
+      "system": false,
+      "portraitPoolSize": null,
+      "defaultLeisureTagIds": [
+        "TAG_workplace_tavern"
+      ],
+      "defaultWorkspacePurpose": "workspace"
+    },
+    {
+      "id": "staging_hire",
+      "label": "Now Hiring",
+      "description": "Staging marker for active character slot population. Appears while a replacement character is being generated.",
+      "category": "object",
+      "interactionTypeId": null,
+      "defaultActivityId": null,
+      "defaultSchedule": null,
+      "system": true,
+      "portraitPoolSize": null
+    },
+    {
+      "id": "staging_construction",
+      "label": "Under Construction",
+      "description": "Staging marker for active place generation. Appears at the build site while a new place is being generated.",
+      "category": "object",
+      "interactionTypeId": null,
+      "defaultActivityId": null,
+      "defaultSchedule": null,
+      "system": true,
+      "portraitPoolSize": null
+    },
+    {
+      "id": "staging_construction_door",
+      "label": "Under Construction",
+      "description": "Staging marker for active place generation. Appears at the entry point to a place being built.",
+      "category": "object",
+      "interactionTypeId": null,
+      "defaultActivityId": null,
+      "defaultSchedule": null,
+      "system": true,
+      "portraitPoolSize": null
+    },
+    {
+      "id": "ship_mast",
+      "label": "Ship Mast",
+      "description": "Mast and rigging on a vessel deck",
+      "category": "object",
+      "interactionTypeId": null,
+      "defaultActivityId": null,
+      "defaultSchedule": null,
+      "system": false,
+      "portraitPoolSize": null
+    },
+    {
+      "id": "ship_deck_decoration",
+      "label": "Ship Deck Decoration",
+      "description": "Maritime objects that sit on an open deck: rope coils, barrels, crates",
+      "category": "object",
+      "interactionTypeId": null,
+      "defaultActivityId": null,
+      "defaultSchedule": null,
+      "system": false,
+      "portraitPoolSize": null
+    },
+    {
+      "id": "ship_hull_decoration",
+      "label": "Ship Hull Decoration",
+      "description": "Objects attached to or near the hull edge: anchors, mooring hardware",
+      "category": "object",
+      "interactionTypeId": null,
+      "defaultActivityId": null,
+      "defaultSchedule": null,
+      "system": false,
+      "portraitPoolSize": null
+    },
+    {
+      "id": "ship_corridor",
+      "label": "Ship corridor",
+      "description": "Ship corridor",
+      "category": "place",
+      "interactionTypeId": null,
+      "defaultActivityId": null,
+      "defaultSchedule": null,
+      "system": false,
+      "portraitPoolSize": null
+    },
+    {
+      "id": "lighting",
+      "label": "Lighting",
+      "description": "Torch, lantern, campfire, lamp, sconce — objects that emit light",
+      "category": "object",
+      "interactionTypeId": null,
+      "defaultActivityId": null,
+      "defaultSchedule": null,
+      "system": false,
+      "portraitPoolSize": null
+    },
+    {
+      "id": "tree",
+      "label": "Tree",
+      "description": "Placeable tree object for outdoor environments. Oak, pine, deciduous, or dead variants.",
+      "category": "object",
+      "interactionTypeId": null,
+      "defaultActivityId": null,
+      "defaultSchedule": null,
+      "system": false,
+      "portraitPoolSize": null
+    },
+    {
+      "id": "item",
+      "label": "Item",
+      "description": "Pickupable world item — keys, potions, scrolls, gems, letters",
+      "category": "object",
+      "interactionTypeId": "pickup",
+      "defaultActivityId": null,
+      "defaultSchedule": null,
+      "system": false,
+      "portraitPoolSize": null
+    },
+    {
+      "id": "player_start",
+      "label": "Player Start",
+      "description": "Spawn point marker — defines where the player appears when starting a scenario in this place",
+      "category": "object",
+      "interactionTypeId": null,
+      "defaultActivityId": null,
+      "defaultSchedule": null,
+      "system": true,
+      "portraitPoolSize": null
+    },
+    {
+      "id": "rat",
+      "label": "Rat",
+      "description": "Small vermin creature. Flees on approach; corners and attacks when trapped.",
+      "category": "character",
+      "interactionTypeId": null,
+      "defaultActivityId": "rat_wander",
+      "defaultSchedule": null,
+      "system": false,
+      "portraitPoolSize": null,
+      "proximityReactions": [
+        {
+          "detectionRange": 5,
+          "reaction": "flee",
+          "clearRange": 8
+        }
+      ],
+      "socialWalkEnabled": false
+    },
+    {
+      "id": "undead",
+      "label": "Undead",
+      "description": "Animated dead — skeletons, zombies, wraiths. Hostile to living characters on sight.",
+      "category": "character",
+      "interactionTypeId": null,
+      "defaultActivityId": "undead_patrol",
+      "defaultSchedule": {
+        "dawn": "work",
+        "morning": "work",
+        "afternoon": "work",
+        "evening": "work",
+        "night": "work"
+      },
+      "system": false,
+      "portraitPoolSize": 5,
+      "proximityReactions": [
+        {
+          "detectionRange": 6,
+          "reaction": "hostile",
+          "clearRange": 10
+        }
+      ],
+      "socialWalkEnabled": false
+    },
+    {
+      "id": "village",
+      "label": "Village",
+      "description": "Village",
+      "category": "place",
+      "interactionTypeId": null,
+      "defaultActivityId": null,
+      "defaultSchedule": null,
+      "system": false,
+      "portraitPoolSize": null
+    },
+    {
+      "id": "town",
+      "label": "Town",
+      "description": "A mid-sized settlement with cobblestone streets, a market district, and varied buildings",
+      "category": "place",
+      "interactionTypeId": null,
+      "defaultActivityId": null,
+      "defaultSchedule": null,
+      "system": false,
+      "portraitPoolSize": null
+    }
+  ]
+}

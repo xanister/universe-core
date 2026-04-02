@@ -1,0 +1,21 @@
+{
+  "id": "EVENT_charkorrbrightblade_greeted_chargarronmavek_at_placethequenchedpikestockroom_1772231595605",
+  "date": "02.01.11 4A 08:55",
+  "placeId": "PLACE_the_quenched_pike_stockroom",
+  "eventType": null,
+  "category": "relationship",
+  "subject": "Garron Mavek",
+  "subjectId": "CHAR_garron_mavek",
+  "fact": "CHAR_korr_brightblade greeted CHAR_garron_mavek at PLACE_the_quenched_pike_stockroom",
+  "significance": "moderate",
+  "witnessIds": [
+    "CHAR_korr_brightblade",
+    "CHAR_garron_mavek"
+  ],
+  "important": false,
+  "importanceScore": null,
+  "scope": "local",
+  "relevantPlaceIds": [
+    "PLACE_the_quenched_pike_stockroom"
+  ]
+}

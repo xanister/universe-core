@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_the_halocline_grotto",
+  "label": "The Halocline Grotto",
+  "description": "The Halocline Grotto forms a deep cavity cut through Brineshade’s dark basalt, its walls glazed with salt efflorescence laid down by mineral-laden seepage. A low, persistent brine pool occupies the central basin, leaving stark white tide lines that band the rock like stratigraphic rings. The ceiling breaks into narrow fissures that admit thin shafts of hard, white light when the planet’s high-contrast terminator passes overhead. Air within the chamber carries a permanent metallic tang, and salt grit carpets the floor in drifts shaped by faint, steady drafts.",
+  "short_description": "salt-crusted basalt cave",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "cave",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.9
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "stone_arch_ruins",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/the_brine_lattice/images/battles/PLACE_the_halocline_grotto.png?v=1772314047657",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 2208,
+    "y": 2400,
+    "width": 48,
+    "height": 48,
+    "parent": "PLACE_brineshade",
+    "innerWidth": 3520,
+    "innerHeight": 1504
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/the_brine_lattice/images/places/PLACE_the_halocline_grotto.png?v=1772314097147",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

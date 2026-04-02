@@ -1,0 +1,59 @@
+{
+  "id": "PLACE_cyrenth_vale",
+  "label": "Cyrenth Vale",
+  "description": "Cyrenth Vale is a temperate fortress-world of the Gloamreach System, its continents segmented by rift-scarred escarpments and broad ash plains laid down by centuries of atmospheric fallout. The upper sky remains perpetually stained by bruise-hued aurorae cast from the system’s empyrean glare, reducing daylight to a cold, veiled luminance. Orbital space carries a thin halo of wreckage and abandoned infrastructure, whose intermittent augur emissions and tumbling silhouettes mark the planet’s approaches. Surface settlements concentrate within bastioned enclaves linked by sealed transit corridors, reflecting an economy and culture organized around isolation and siege endurance.",
+  "short_description": "rift-shadowed fortress world",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "planet",
+    "environment": {
+      "type": "exterior",
+      "hasWeather": true,
+      "temperature": {
+        "enabled": true,
+        "base": null,
+        "modifiersApply": true
+      },
+      "maxDarkness": null
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "planet_terran",
+      "facing": "south",
+      "layer": "default"
+    },
+    "allowPlayerStart": false,
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/battles/PLACE_cyrenth_vale.png?v=1771816838630",
+    "inheritedRequiredTags": null,
+    "timeScale": 1
+  },
+  "position": {
+    "x": 258.3,
+    "y": 955.3,
+    "width": 32,
+    "height": 32,
+    "parent": "PLACE_gloamreach_system",
+    "innerWidth": 4160,
+    "innerHeight": 2624
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/places/PLACE_cyrenth_vale.png?v=1771816887939",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

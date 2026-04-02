@@ -1,0 +1,30 @@
+{
+  "id": "candle_melted",
+  "name": "Melted Candle",
+  "description": "A candle melting in a pool of wax.",
+  "purposes": [
+    "lighting",
+    "surface_item"
+  ],
+  "tags": [
+    "common",
+    "lighting",
+    "tavern"
+  ],
+  "solid": false,
+  "layer": "default",
+  "spriteId": "candle_melted",
+  "materials": [],
+  "tintable": false,
+  "animated": true,
+  "lightSource": {
+    "radius": 48,
+    "color": 16755268,
+    "intensity": 0.3,
+    "flicker": true,
+    "flickerSpeed": 200,
+    "flickerRange": 0.15,
+    "offsetX": 0,
+    "offsetY": -8
+  }
+}

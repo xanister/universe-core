@@ -1,0 +1,18 @@
+{
+  "id": "EVENT_visited_cinderwake_cableway_1772073104299",
+  "date": "999.M1 21:23",
+  "placeId": "PLACE_cinderwake_cableway",
+  "important": false,
+  "importanceScore": null,
+  "scope": null,
+  "relevantPlaceIds": null,
+  "eventType": "location_visited",
+  "category": "world",
+  "subject": "Cinderwake Cableway",
+  "subjectId": "PLACE_cinderwake_cableway",
+  "fact": "Visited Cinderwake Cableway",
+  "significance": "minor",
+  "witnessIds": [
+    "CHAR_sevrin_caldor"
+  ]
+}

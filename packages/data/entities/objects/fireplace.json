@@ -1,0 +1,19 @@
+{
+  "id": "fireplace",
+  "purposes": [
+    "decoration"
+  ],
+  "spriteId": "fireplace",
+  "name": "Fireplace",
+  "description": "A Fireplace",
+  "tags": [
+    "common",
+    "fixture",
+    "heating"
+  ],
+  "materials": [],
+  "solid": true,
+  "layer": "default",
+  "tintable": false,
+  "animated": true
+}

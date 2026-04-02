@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_gloam_reliquary",
+  "label": "Gloam Reliquary",
+  "description": "Gloam Reliquary is a compact trade-shop sealed behind thick, gasketed doors to keep storm-ash from its aisles, its walls faced in black vitrified stone matching Nocturnis Bastion’s terraces. Racks of scavenged void-plate, insulated cabling, and sanctified machine parts line narrow lanes beneath lumen strips caged in wire to blunt power surges from auroral interference. A screened counter of slagcrete and armored glass dominates the rear, backed by lock-niches and lead-lined bins for volatile or suspect salvage. The air carries the dry tang of basalt dust and machine oils, and the floor plating bears deep grooves from dragged scrap and heavy crates.",
+  "short_description": "ash-sealed salvage shop",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "shop",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "building_shop",
+      "facing": "west",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/battles/PLACE_gloam_reliquary.png?v=1771950273757",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 2960,
+    "y": 256,
+    "width": 160,
+    "height": 256,
+    "parent": "PLACE_vespera_tertius_nocturnis_bastion",
+    "innerWidth": 1632,
+    "innerHeight": 736
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/imperium_nihilus/images/places/PLACE_gloam_reliquary.png?v=1771950323729",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

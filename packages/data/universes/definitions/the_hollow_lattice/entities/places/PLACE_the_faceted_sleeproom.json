@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_the_faceted_sleeproom",
+  "label": "The Faceted Sleeproom",
+  "description": "The Faceted Sleeproom forms a tight, six-walled chamber inset behind the prismatic alcove of The Sixfold Cask, its geometry aligned to the filament-cage order of Vesper Node. A recessed berth is cut into dark composite ribwork, with voidstone edging that damps vibration transmitted from the port’s mooring spines. Prismatic glass slits admit the port’s disciplined radiance as slow, angular bands that traverse the floor’s inlaid luminous script. Built-in lockers follow strict polyhedral seams, their faces flush to preserve the room’s measured hush.",
+  "short_description": "prismatic sleeper chamber",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "bedroom",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.5
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "door_wooden",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/the_hollow_lattice/images/battles/PLACE_the_faceted_sleeproom.png?v=1772314102743",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 240,
+    "y": 160,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_the_sixfold_cask",
+    "innerWidth": 512,
+    "innerHeight": 640
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/the_hollow_lattice/images/places/PLACE_the_faceted_sleeproom.png?v=1772314157630",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

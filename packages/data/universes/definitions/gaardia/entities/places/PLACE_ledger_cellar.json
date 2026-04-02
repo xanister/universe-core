@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_ledger_cellar",
+  "label": "Ledger Cellar",
+  "description": "Ledger Cellar forms the tavern’s secured store, walled in soot-dark brick and cinched with riveted iron straps that mirror Cindervale’s fortified craft. Heavy shelving of tarred oak holds casked drink, dried staples, and bundled linens under a ceiling webbed with chain-hung lamps dulled behind smoke-stained glass. A posted slate of stamped inventory marks and licensing tallies turns the space into an extension of the house’s lawbound character. The floor is laid in worn tile that drains toward a grated channel, reflecting quarantine-minded upkeep in a city of interdiction nights.",
+  "short_description": "locked tavern storeroom",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "storage_room",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.9
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "door_wooden",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/gaardia/images/battles/PLACE_ledger_cellar.png?v=1772218246420",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 656,
+    "y": 160,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_the_black_ledger",
+    "innerWidth": 480,
+    "innerHeight": 608
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": null,
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

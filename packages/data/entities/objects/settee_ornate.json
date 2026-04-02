@@ -1,0 +1,23 @@
+{
+  "id": "settee_ornate",
+  "name": "Settee (Ornate)",
+  "description": "A Victorian-style ornate two-seat settee with carved wood back and gold upholstery.",
+  "purposes": [
+    "seating",
+    "decoration"
+  ],
+  "tags": [
+    "common",
+    "furniture",
+    "bedroom",
+    "residence"
+  ],
+  "solid": true,
+  "layer": "default",
+  "spriteId": "settee_ornate",
+  "materials": [
+    "wood",
+    "fabric"
+  ],
+  "tintable": false
+}

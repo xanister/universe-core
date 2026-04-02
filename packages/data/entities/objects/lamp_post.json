@@ -1,0 +1,30 @@
+{
+  "id": "lamp_post",
+  "name": "Lamp Post",
+  "description": "Tall ornate iron street lamp on a round base.",
+  "purposes": [
+    "lighting"
+  ],
+  "tags": [
+    "outdoor",
+    "lighting",
+    "iron",
+    "street"
+  ],
+  "solid": false,
+  "layer": "default",
+  "spriteId": "lamp_post",
+  "materials": [
+    "iron"
+  ],
+  "lightSource": {
+    "radius": 120,
+    "color": 16767744,
+    "intensity": 0.4,
+    "flicker": true,
+    "flickerSpeed": 300,
+    "flickerRange": 0.1,
+    "offsetX": 0,
+    "offsetY": -52
+  }
+}

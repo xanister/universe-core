@@ -1,0 +1,54 @@
+{
+  "id": "OBJ_the_surveyors_loft_bottle_crate_tall_0013",
+  "label": "Tall Bottle Crate",
+  "description": "A tall wooden crate with bottles stacked inside.",
+  "important": false,
+  "short_description": "tall bottle crate",
+  "tags": [
+    "common",
+    "storage",
+    "tavern"
+  ],
+  "entityType": "object",
+  "info": {
+    "purpose": "storage",
+    "solid": true,
+    "layer": "default",
+    "isStructural": false,
+    "material": null,
+    "tint": null,
+    "spriteConfig": {
+      "spriteId": "bottle_crate_tall",
+      "frame": null,
+      "animationKey": null,
+      "animated": false,
+      "facing": "south"
+    },
+    "hp": null,
+    "maxHp": null,
+    "state": null,
+    "contents": null,
+    "lightSource": null,
+    "itemId": null,
+    "plotId": null
+  },
+  "position": {
+    "x": 400,
+    "y": 928,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_the_surveyors_loft"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "relationships": [],
+  "image": null,
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "search"
+  }
+}

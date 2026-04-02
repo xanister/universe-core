@@ -1,0 +1,16 @@
+{
+  "id": "EVENT_visited_the_saltwrit_grotto_1772437949392",
+  "date": "07.01.11 4A 15:25",
+  "placeId": "PLACE_the_saltwrit_grotto",
+  "important": false,
+  "importanceScore": null,
+  "scope": null,
+  "relevantPlaceIds": null,
+  "eventType": "location_visited",
+  "category": "world",
+  "subject": "The Saltwrit Grotto",
+  "subjectId": "PLACE_the_saltwrit_grotto",
+  "fact": "Visited The Saltwrit Grotto",
+  "significance": "minor",
+  "witnessIds": null
+}

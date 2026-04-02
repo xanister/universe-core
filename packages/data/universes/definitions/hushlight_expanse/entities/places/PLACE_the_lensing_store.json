@@ -1,0 +1,58 @@
+{
+  "id": "PLACE_the_lensing_store",
+  "label": "The Lensing Store",
+  "description": "The Lensing Store serves as the Prismatic Draught’s controlled repository for kegs, casks, and sealed dry goods, laid out on fused-silicate racks raised above the open grounding gutters. Its walls are faced with matte vitrified tiles to blunt stray refraction, while a single cistern panel admits the tavern’s copper-white twilight in a narrow, calibrated band for inventory reading. Overhead mirror slats repeat the auroral alignment in a subdued grid, keeping the room uniformly lit without glare. The floor is scored metalwork set to shed abrasive glass dust into a shallow settling channel that runs the room’s length.",
+  "short_description": "calibrated store room",
+  "tags": [],
+  "entityType": "place",
+  "info": {
+    "purpose": "storage_room",
+    "environment": {
+      "type": "interior",
+      "hasWeather": false,
+      "temperature": {
+        "enabled": true,
+        "base": 18,
+        "modifiersApply": false
+      },
+      "maxDarkness": 0.9
+    },
+    "scale": "feet",
+    "spriteConfig": {
+      "spriteId": "door_wooden",
+      "facing": "south",
+      "layer": "default"
+    },
+    "music": null,
+    "musicHints": null,
+    "commonKnowledge": null,
+    "secrets": null,
+    "isTemporary": false,
+    "dockedAtPlaceId": null,
+    "timeScale": 1,
+    "battleBackgroundUrl": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/hushlight_expanse/images/battles/PLACE_the_lensing_store.png?v=1772313872670",
+    "inheritedRequiredTags": null
+  },
+  "position": {
+    "x": 656,
+    "y": 160,
+    "width": 32,
+    "height": 64,
+    "parent": "PLACE_the_prismatic_draught",
+    "innerWidth": 480,
+    "innerHeight": 544
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "image": "https://dmnpc-media.s3.us-east-1.amazonaws.com/universes/hushlight_expanse/images/places/PLACE_the_lensing_store.png?v=1772313948819",
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": {
+    "typeId": "enter"
+  },
+  "relationships": [],
+  "important": false
+}

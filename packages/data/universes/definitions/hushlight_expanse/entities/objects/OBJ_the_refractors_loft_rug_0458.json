@@ -1,0 +1,53 @@
+{
+  "id": "OBJ_the_refractors_loft_rug_0458",
+  "label": "Rug",
+  "description": "A Rug",
+  "important": false,
+  "short_description": "rug",
+  "tags": [
+    "common",
+    "decoration",
+    "floor",
+    "ship"
+  ],
+  "entityType": "object",
+  "info": {
+    "purpose": "floor_covering",
+    "solid": false,
+    "layer": "floor",
+    "isStructural": false,
+    "material": null,
+    "tint": null,
+    "spriteConfig": {
+      "spriteId": "rug",
+      "frame": null,
+      "animationKey": null,
+      "animated": false,
+      "facing": "south"
+    },
+    "hp": null,
+    "maxHp": null,
+    "state": null,
+    "contents": null,
+    "lightSource": null,
+    "itemId": null,
+    "plotId": null
+  },
+  "position": {
+    "x": 208,
+    "y": 416,
+    "width": 96,
+    "height": 96,
+    "parent": "PLACE_the_refractors_loft"
+  },
+  "destinationPlaceId": null,
+  "travelPath": null,
+  "travelSegmentIndex": null,
+  "relationships": [],
+  "image": null,
+  "faceAnchorY": null,
+  "omitFromPlot": false,
+  "aliases": null,
+  "displayName": null,
+  "interaction": null
+}

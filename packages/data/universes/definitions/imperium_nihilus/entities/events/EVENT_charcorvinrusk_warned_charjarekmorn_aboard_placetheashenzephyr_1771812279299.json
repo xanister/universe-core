@@ -1,0 +1,18 @@
+{
+  "id": "EVENT_charcorvinrusk_warned_charjarekmorn_aboard_placetheashenzephyr_1771812279299",
+  "date": "999.M1 19:55",
+  "placeId": "PLACE_the_ashen_zephyr",
+  "eventType": "turning_point",
+  "category": "world",
+  "subject": "The Ashen Zephyr",
+  "subjectId": "PLACE_the_ashen_zephyr",
+  "fact": "CHAR_corvin_rusk warned CHAR_jarek_morn aboard PLACE_the_ashen_zephyr that an official mission packet exists and must be secured before it disappears; a ship’s purser reported mismatched ledger/key implying internal sabotage/misdirection.",
+  "significance": "major",
+  "witnessIds": null,
+  "important": true,
+  "importanceScore": null,
+  "scope": "local",
+  "relevantPlaceIds": [
+    "PLACE_the_ashen_zephyr"
+  ]
+}

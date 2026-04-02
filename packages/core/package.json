@@ -1,0 +1,588 @@
+{
+  "name": "@dmnpc/core",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "DMNPC core infrastructure, utilities, and shared services",
+  "exports": {
+    "./clarification/clarification-registry.js": {
+      "@dmnpc-source": "./src/clarification/clarification-registry.ts",
+      "types": "./dist/clarification/clarification-registry.d.ts",
+      "import": "./dist/clarification/clarification-registry.js",
+      "default": "./dist/clarification/clarification-registry.js"
+    },
+    "./clarification/clarification-registry": {
+      "@dmnpc-source": "./src/clarification/clarification-registry.ts",
+      "types": "./dist/clarification/clarification-registry.d.ts",
+      "import": "./dist/clarification/clarification-registry.js",
+      "default": "./dist/clarification/clarification-registry.js"
+    },
+    "./clarification/clarification-store.js": {
+      "@dmnpc-source": "./src/clarification/clarification-store.ts",
+      "types": "./dist/clarification/clarification-store.d.ts",
+      "import": "./dist/clarification/clarification-store.js",
+      "default": "./dist/clarification/clarification-store.js"
+    },
+    "./clarification/clarification-store": {
+      "@dmnpc-source": "./src/clarification/clarification-store.ts",
+      "types": "./dist/clarification/clarification-store.d.ts",
+      "import": "./dist/clarification/clarification-store.js",
+      "default": "./dist/clarification/clarification-store.js"
+    },
+    "./clarification/clarification-types.js": {
+      "@dmnpc-source": "./src/clarification/clarification-types.ts",
+      "types": "./dist/clarification/clarification-types.d.ts",
+      "import": "./dist/clarification/clarification-types.js",
+      "default": "./dist/clarification/clarification-types.js"
+    },
+    "./clarification/clarification-types": {
+      "@dmnpc-source": "./src/clarification/clarification-types.ts",
+      "types": "./dist/clarification/clarification-types.d.ts",
+      "import": "./dist/clarification/clarification-types.js",
+      "default": "./dist/clarification/clarification-types.js"
+    },
+    "./clarification/plot-clarification-store.js": {
+      "@dmnpc-source": "./src/clarification/plot-clarification-store.ts",
+      "types": "./dist/clarification/plot-clarification-store.d.ts",
+      "import": "./dist/clarification/plot-clarification-store.js",
+      "default": "./dist/clarification/plot-clarification-store.js"
+    },
+    "./clarification/plot-clarification-store": {
+      "@dmnpc-source": "./src/clarification/plot-clarification-store.ts",
+      "types": "./dist/clarification/plot-clarification-store.d.ts",
+      "import": "./dist/clarification/plot-clarification-store.js",
+      "default": "./dist/clarification/plot-clarification-store.js"
+    },
+    "./clients/claude-client.js": {
+      "@dmnpc-source": "./src/clients/claude-client.ts",
+      "types": "./dist/clients/claude-client.d.ts",
+      "import": "./dist/clients/claude-client.js",
+      "default": "./dist/clients/claude-client.js"
+    },
+    "./clients/claude-client": {
+      "@dmnpc-source": "./src/clients/claude-client.ts",
+      "types": "./dist/clients/claude-client.d.ts",
+      "import": "./dist/clients/claude-client.js",
+      "default": "./dist/clients/claude-client.js"
+    },
+    "./clients/elevenlabs-client.js": {
+      "@dmnpc-source": "./src/clients/elevenlabs-client.ts",
+      "types": "./dist/clients/elevenlabs-client.d.ts",
+      "import": "./dist/clients/elevenlabs-client.js",
+      "default": "./dist/clients/elevenlabs-client.js"
+    },
+    "./clients/elevenlabs-client": {
+      "@dmnpc-source": "./src/clients/elevenlabs-client.ts",
+      "types": "./dist/clients/elevenlabs-client.d.ts",
+      "import": "./dist/clients/elevenlabs-client.js",
+      "default": "./dist/clients/elevenlabs-client.js"
+    },
+    "./clients/openai-client.js": {
+      "@dmnpc-source": "./src/clients/openai-client.ts",
+      "types": "./dist/clients/openai-client.d.ts",
+      "import": "./dist/clients/openai-client.js",
+      "default": "./dist/clients/openai-client.js"
+    },
+    "./clients/openai-client": {
+      "@dmnpc-source": "./src/clients/openai-client.ts",
+      "types": "./dist/clients/openai-client.d.ts",
+      "import": "./dist/clients/openai-client.js",
+      "default": "./dist/clients/openai-client.js"
+    },
+    "./clients/storage-admin.js": {
+      "@dmnpc-source": "./src/clients/storage-admin.ts",
+      "types": "./dist/clients/storage-admin.d.ts",
+      "import": "./dist/clients/storage-admin.js",
+      "default": "./dist/clients/storage-admin.js"
+    },
+    "./clients/storage-admin": {
+      "@dmnpc-source": "./src/clients/storage-admin.ts",
+      "types": "./dist/clients/storage-admin.d.ts",
+      "import": "./dist/clients/storage-admin.js",
+      "default": "./dist/clients/storage-admin.js"
+    },
+    "./clients/storage-service.js": {
+      "@dmnpc-source": "./src/clients/storage-service.ts",
+      "types": "./dist/clients/storage-service.d.ts",
+      "import": "./dist/clients/storage-service.js",
+      "default": "./dist/clients/storage-service.js"
+    },
+    "./clients/storage-service": {
+      "@dmnpc-source": "./src/clients/storage-service.ts",
+      "types": "./dist/clients/storage-service.d.ts",
+      "import": "./dist/clients/storage-service.js",
+      "default": "./dist/clients/storage-service.js"
+    },
+    "./entities/allowed-tags.js": {
+      "@dmnpc-source": "./src/entities/allowed-tags.ts",
+      "types": "./dist/entities/allowed-tags.d.ts",
+      "import": "./dist/entities/allowed-tags.js",
+      "default": "./dist/entities/allowed-tags.js"
+    },
+    "./entities/allowed-tags": {
+      "@dmnpc-source": "./src/entities/allowed-tags.ts",
+      "types": "./dist/entities/allowed-tags.d.ts",
+      "import": "./dist/entities/allowed-tags.js",
+      "default": "./dist/entities/allowed-tags.js"
+    },
+    "./entities/entity-utils.js": {
+      "@dmnpc-source": "./src/entities/entity-utils.ts",
+      "types": "./dist/entities/entity-utils.d.ts",
+      "import": "./dist/entities/entity-utils.js",
+      "default": "./dist/entities/entity-utils.js"
+    },
+    "./entities/entity-utils": {
+      "@dmnpc-source": "./src/entities/entity-utils.ts",
+      "types": "./dist/entities/entity-utils.d.ts",
+      "import": "./dist/entities/entity-utils.js",
+      "default": "./dist/entities/entity-utils.js"
+    },
+    "./entities/id-utils.js": {
+      "@dmnpc-source": "./src/entities/id-utils.ts",
+      "types": "./dist/entities/id-utils.d.ts",
+      "import": "./dist/entities/id-utils.js",
+      "default": "./dist/entities/id-utils.js"
+    },
+    "./entities/id-utils": {
+      "@dmnpc-source": "./src/entities/id-utils.ts",
+      "types": "./dist/entities/id-utils.d.ts",
+      "import": "./dist/entities/id-utils.js",
+      "default": "./dist/entities/id-utils.js"
+    },
+    "./entities/entity-deletion.js": {
+      "@dmnpc-source": "./src/entities/entity-deletion.ts",
+      "types": "./dist/entities/entity-deletion.d.ts",
+      "import": "./dist/entities/entity-deletion.js",
+      "default": "./dist/entities/entity-deletion.js"
+    },
+    "./entities/entity-deletion": {
+      "@dmnpc-source": "./src/entities/entity-deletion.ts",
+      "types": "./dist/entities/entity-deletion.d.ts",
+      "import": "./dist/entities/entity-deletion.js",
+      "default": "./dist/entities/entity-deletion.js"
+    },
+    "./entities/nested-access.js": {
+      "@dmnpc-source": "./src/entities/nested-access.ts",
+      "types": "./dist/entities/nested-access.d.ts",
+      "import": "./dist/entities/nested-access.js",
+      "default": "./dist/entities/nested-access.js"
+    },
+    "./entities/nested-access": {
+      "@dmnpc-source": "./src/entities/nested-access.ts",
+      "types": "./dist/entities/nested-access.d.ts",
+      "import": "./dist/entities/nested-access.js",
+      "default": "./dist/entities/nested-access.js"
+    },
+    "./entities/place-validation.js": {
+      "@dmnpc-source": "./src/entities/place-validation.ts",
+      "types": "./dist/entities/place-validation.d.ts",
+      "import": "./dist/entities/place-validation.js",
+      "default": "./dist/entities/place-validation.js"
+    },
+    "./entities/place-validation": {
+      "@dmnpc-source": "./src/entities/place-validation.ts",
+      "types": "./dist/entities/place-validation.d.ts",
+      "import": "./dist/entities/place-validation.js",
+      "default": "./dist/entities/place-validation.js"
+    },
+    "./entities/position-utils.js": {
+      "@dmnpc-source": "./src/entities/position-utils.ts",
+      "types": "./dist/entities/position-utils.d.ts",
+      "import": "./dist/entities/position-utils.js",
+      "default": "./dist/entities/position-utils.js"
+    },
+    "./entities/position-utils": {
+      "@dmnpc-source": "./src/entities/position-utils.ts",
+      "types": "./dist/entities/position-utils.d.ts",
+      "import": "./dist/entities/position-utils.js",
+      "default": "./dist/entities/position-utils.js"
+    },
+    "./entities/tag-manager.js": {
+      "@dmnpc-source": "./src/entities/tag-manager.ts",
+      "types": "./dist/entities/tag-manager.d.ts",
+      "import": "./dist/entities/tag-manager.js",
+      "default": "./dist/entities/tag-manager.js"
+    },
+    "./entities/tag-manager": {
+      "@dmnpc-source": "./src/entities/tag-manager.ts",
+      "types": "./dist/entities/tag-manager.d.ts",
+      "import": "./dist/entities/tag-manager.js",
+      "default": "./dist/entities/tag-manager.js"
+    },
+    "./entities/type-guards.js": {
+      "@dmnpc-source": "./src/entities/type-guards.ts",
+      "types": "./dist/entities/type-guards.d.ts",
+      "import": "./dist/entities/type-guards.js",
+      "default": "./dist/entities/type-guards.js"
+    },
+    "./entities/type-guards": {
+      "@dmnpc-source": "./src/entities/type-guards.ts",
+      "types": "./dist/entities/type-guards.d.ts",
+      "import": "./dist/entities/type-guards.js",
+      "default": "./dist/entities/type-guards.js"
+    },
+    "./entities/vessel-utils.js": {
+      "@dmnpc-source": "./src/entities/vessel-utils.ts",
+      "types": "./dist/entities/vessel-utils.d.ts",
+      "import": "./dist/entities/vessel-utils.js",
+      "default": "./dist/entities/vessel-utils.js"
+    },
+    "./entities/vessel-utils": {
+      "@dmnpc-source": "./src/entities/vessel-utils.ts",
+      "types": "./dist/entities/vessel-utils.d.ts",
+      "import": "./dist/entities/vessel-utils.js",
+      "default": "./dist/entities/vessel-utils.js"
+    },
+    "./game-time/calendars.js": {
+      "@dmnpc-source": "./src/game-time/calendars.ts",
+      "types": "./dist/game-time/calendars.d.ts",
+      "import": "./dist/game-time/calendars.js",
+      "default": "./dist/game-time/calendars.js"
+    },
+    "./game-time/calendars": {
+      "@dmnpc-source": "./src/game-time/calendars.ts",
+      "types": "./dist/game-time/calendars.d.ts",
+      "import": "./dist/game-time/calendars.js",
+      "default": "./dist/game-time/calendars.js"
+    },
+    "./game-time/game-date.js": {
+      "@dmnpc-source": "./src/game-time/game-date.ts",
+      "types": "./dist/game-time/game-date.d.ts",
+      "import": "./dist/game-time/game-date.js",
+      "default": "./dist/game-time/game-date.js"
+    },
+    "./game-time/game-date": {
+      "@dmnpc-source": "./src/game-time/game-date.ts",
+      "types": "./dist/game-time/game-date.d.ts",
+      "import": "./dist/game-time/game-date.js",
+      "default": "./dist/game-time/game-date.js"
+    },
+    "./infra/concurrency.js": {
+      "@dmnpc-source": "./src/infra/concurrency.ts",
+      "types": "./dist/infra/concurrency.d.ts",
+      "import": "./dist/infra/concurrency.js",
+      "default": "./dist/infra/concurrency.js"
+    },
+    "./infra/concurrency": {
+      "@dmnpc-source": "./src/infra/concurrency.ts",
+      "types": "./dist/infra/concurrency.d.ts",
+      "import": "./dist/infra/concurrency.js",
+      "default": "./dist/infra/concurrency.js"
+    },
+    "./infra/config.js": {
+      "@dmnpc-source": "./src/infra/config.ts",
+      "types": "./dist/infra/config.d.ts",
+      "import": "./dist/infra/config.js",
+      "default": "./dist/infra/config.js"
+    },
+    "./infra/config": {
+      "@dmnpc-source": "./src/infra/config.ts",
+      "types": "./dist/infra/config.d.ts",
+      "import": "./dist/infra/config.js",
+      "default": "./dist/infra/config.js"
+    },
+    "./infra/logger.js": {
+      "@dmnpc-source": "./src/infra/logger.ts",
+      "types": "./dist/infra/logger.d.ts",
+      "import": "./dist/infra/logger.js",
+      "default": "./dist/infra/logger.js"
+    },
+    "./infra/logger": {
+      "@dmnpc-source": "./src/infra/logger.ts",
+      "types": "./dist/infra/logger.d.ts",
+      "import": "./dist/infra/logger.js",
+      "default": "./dist/infra/logger.js"
+    },
+    "./infra/models.js": {
+      "@dmnpc-source": "./src/infra/models.ts",
+      "types": "./dist/infra/models.d.ts",
+      "import": "./dist/infra/models.js",
+      "default": "./dist/infra/models.js"
+    },
+    "./infra/models": {
+      "@dmnpc-source": "./src/infra/models.ts",
+      "types": "./dist/infra/models.d.ts",
+      "import": "./dist/infra/models.js",
+      "default": "./dist/infra/models.js"
+    },
+    "./infra/random-utils.js": {
+      "@dmnpc-source": "./src/infra/random-utils.ts",
+      "types": "./dist/infra/random-utils.d.ts",
+      "import": "./dist/infra/random-utils.js",
+      "default": "./dist/infra/random-utils.js"
+    },
+    "./infra/random-utils": {
+      "@dmnpc-source": "./src/infra/random-utils.ts",
+      "types": "./dist/infra/random-utils.d.ts",
+      "import": "./dist/infra/random-utils.js",
+      "default": "./dist/infra/random-utils.js"
+    },
+    "./infra/read-json-file.js": {
+      "@dmnpc-source": "./src/infra/read-json-file.ts",
+      "types": "./dist/infra/read-json-file.d.ts",
+      "import": "./dist/infra/read-json-file.js",
+      "default": "./dist/infra/read-json-file.js"
+    },
+    "./infra/read-json-file": {
+      "@dmnpc-source": "./src/infra/read-json-file.ts",
+      "types": "./dist/infra/read-json-file.d.ts",
+      "import": "./dist/infra/read-json-file.js",
+      "default": "./dist/infra/read-json-file.js"
+    },
+    "./plot-quality-heuristics.js": {
+      "@dmnpc-source": "./src/plot-quality-heuristics.ts",
+      "types": "./dist/plot-quality-heuristics.d.ts",
+      "import": "./dist/plot-quality-heuristics.js",
+      "default": "./dist/plot-quality-heuristics.js"
+    },
+    "./plot-quality-heuristics": {
+      "@dmnpc-source": "./src/plot-quality-heuristics.ts",
+      "types": "./dist/plot-quality-heuristics.d.ts",
+      "import": "./dist/plot-quality-heuristics.js",
+      "default": "./dist/plot-quality-heuristics.js"
+    },
+    "./prompts/fact-formatter.js": {
+      "@dmnpc-source": "./src/prompts/fact-formatter.ts",
+      "types": "./dist/prompts/fact-formatter.d.ts",
+      "import": "./dist/prompts/fact-formatter.js",
+      "default": "./dist/prompts/fact-formatter.js"
+    },
+    "./prompts/fact-formatter": {
+      "@dmnpc-source": "./src/prompts/fact-formatter.ts",
+      "types": "./dist/prompts/fact-formatter.d.ts",
+      "import": "./dist/prompts/fact-formatter.js",
+      "default": "./dist/prompts/fact-formatter.js"
+    },
+    "./prompts/prompt-constants.js": {
+      "@dmnpc-source": "./src/prompts/prompt-constants.ts",
+      "types": "./dist/prompts/prompt-constants.d.ts",
+      "import": "./dist/prompts/prompt-constants.js",
+      "default": "./dist/prompts/prompt-constants.js"
+    },
+    "./prompts/prompt-constants": {
+      "@dmnpc-source": "./src/prompts/prompt-constants.ts",
+      "types": "./dist/prompts/prompt-constants.d.ts",
+      "import": "./dist/prompts/prompt-constants.js",
+      "default": "./dist/prompts/prompt-constants.js"
+    },
+    "./prompts/transcript-builder.js": {
+      "@dmnpc-source": "./src/prompts/transcript-builder.ts",
+      "types": "./dist/prompts/transcript-builder.d.ts",
+      "import": "./dist/prompts/transcript-builder.js",
+      "default": "./dist/prompts/transcript-builder.js"
+    },
+    "./prompts/transcript-builder": {
+      "@dmnpc-source": "./src/prompts/transcript-builder.ts",
+      "types": "./dist/prompts/transcript-builder.d.ts",
+      "import": "./dist/prompts/transcript-builder.js",
+      "default": "./dist/prompts/transcript-builder.js"
+    },
+    "./prompts/verbosity-utils.js": {
+      "@dmnpc-source": "./src/prompts/verbosity-utils.ts",
+      "types": "./dist/prompts/verbosity-utils.d.ts",
+      "import": "./dist/prompts/verbosity-utils.js",
+      "default": "./dist/prompts/verbosity-utils.js"
+    },
+    "./prompts/verbosity-utils": {
+      "@dmnpc-source": "./src/prompts/verbosity-utils.ts",
+      "types": "./dist/prompts/verbosity-utils.d.ts",
+      "import": "./dist/prompts/verbosity-utils.js",
+      "default": "./dist/prompts/verbosity-utils.js"
+    },
+    "./stores/plot-store.js": {
+      "@dmnpc-source": "./src/stores/plot-store.ts",
+      "types": "./dist/stores/plot-store.d.ts",
+      "import": "./dist/stores/plot-store.js",
+      "default": "./dist/stores/plot-store.js"
+    },
+    "./stores/plot-store": {
+      "@dmnpc-source": "./src/stores/plot-store.ts",
+      "types": "./dist/stores/plot-store.d.ts",
+      "import": "./dist/stores/plot-store.js",
+      "default": "./dist/stores/plot-store.js"
+    },
+    "./stores/plot-utils.js": {
+      "@dmnpc-source": "./src/stores/plot-utils.ts",
+      "types": "./dist/stores/plot-utils.d.ts",
+      "import": "./dist/stores/plot-utils.js",
+      "default": "./dist/stores/plot-utils.js"
+    },
+    "./stores/plot-utils": {
+      "@dmnpc-source": "./src/stores/plot-utils.ts",
+      "types": "./dist/stores/plot-utils.d.ts",
+      "import": "./dist/stores/plot-utils.js",
+      "default": "./dist/stores/plot-utils.js"
+    },
+    "./stores/storyteller-store.js": {
+      "@dmnpc-source": "./src/stores/storyteller-store.ts",
+      "types": "./dist/stores/storyteller-store.d.ts",
+      "import": "./dist/stores/storyteller-store.js",
+      "default": "./dist/stores/storyteller-store.js"
+    },
+    "./stores/storyteller-store": {
+      "@dmnpc-source": "./src/stores/storyteller-store.ts",
+      "types": "./dist/stores/storyteller-store.d.ts",
+      "import": "./dist/stores/storyteller-store.js",
+      "default": "./dist/stores/storyteller-store.js"
+    },
+    "./stores/template-character-store.js": {
+      "@dmnpc-source": "./src/stores/template-character-store.ts",
+      "types": "./dist/stores/template-character-store.d.ts",
+      "import": "./dist/stores/template-character-store.js",
+      "default": "./dist/stores/template-character-store.js"
+    },
+    "./stores/template-character-store": {
+      "@dmnpc-source": "./src/stores/template-character-store.ts",
+      "types": "./dist/stores/template-character-store.d.ts",
+      "import": "./dist/stores/template-character-store.js",
+      "default": "./dist/stores/template-character-store.js"
+    },
+    "./stores/world-bible-store.js": {
+      "@dmnpc-source": "./src/stores/world-bible-store.ts",
+      "types": "./dist/stores/world-bible-store.d.ts",
+      "import": "./dist/stores/world-bible-store.js",
+      "default": "./dist/stores/world-bible-store.js"
+    },
+    "./stores/world-bible-store": {
+      "@dmnpc-source": "./src/stores/world-bible-store.ts",
+      "types": "./dist/stores/world-bible-store.d.ts",
+      "import": "./dist/stores/world-bible-store.js",
+      "default": "./dist/stores/world-bible-store.js"
+    },
+    "./test-helpers/fixtures.js": {
+      "@dmnpc-source": "./src/test-helpers/fixtures.ts",
+      "types": "./dist/test-helpers/fixtures.d.ts",
+      "import": "./dist/test-helpers/fixtures.js",
+      "default": "./dist/test-helpers/fixtures.js"
+    },
+    "./test-helpers/fixtures": {
+      "@dmnpc-source": "./src/test-helpers/fixtures.ts",
+      "types": "./dist/test-helpers/fixtures.d.ts",
+      "import": "./dist/test-helpers/fixtures.js",
+      "default": "./dist/test-helpers/fixtures.js"
+    },
+    "./test-helpers/index.js": {
+      "@dmnpc-source": "./src/test-helpers/index.ts",
+      "types": "./dist/test-helpers/index.d.ts",
+      "import": "./dist/test-helpers/index.js",
+      "default": "./dist/test-helpers/index.js"
+    },
+    "./test-helpers/index": {
+      "@dmnpc-source": "./src/test-helpers/index.ts",
+      "types": "./dist/test-helpers/index.d.ts",
+      "import": "./dist/test-helpers/index.js",
+      "default": "./dist/test-helpers/index.js"
+    },
+    "./test-helpers/mock-context.js": {
+      "@dmnpc-source": "./src/test-helpers/mock-context.ts",
+      "types": "./dist/test-helpers/mock-context.d.ts",
+      "import": "./dist/test-helpers/mock-context.js",
+      "default": "./dist/test-helpers/mock-context.js"
+    },
+    "./test-helpers/mock-context": {
+      "@dmnpc-source": "./src/test-helpers/mock-context.ts",
+      "types": "./dist/test-helpers/mock-context.d.ts",
+      "import": "./dist/test-helpers/mock-context.js",
+      "default": "./dist/test-helpers/mock-context.js"
+    },
+    "./test-helpers/mock-openai.js": {
+      "@dmnpc-source": "./src/test-helpers/mock-openai.ts",
+      "types": "./dist/test-helpers/mock-openai.d.ts",
+      "import": "./dist/test-helpers/mock-openai.js",
+      "default": "./dist/test-helpers/mock-openai.js"
+    },
+    "./test-helpers/mock-openai": {
+      "@dmnpc-source": "./src/test-helpers/mock-openai.ts",
+      "types": "./dist/test-helpers/mock-openai.d.ts",
+      "import": "./dist/test-helpers/mock-openai.js",
+      "default": "./dist/test-helpers/mock-openai.js"
+    },
+    "./universe/universe-context.js": {
+      "@dmnpc-source": "./src/universe/universe-context.ts",
+      "types": "./dist/universe/universe-context.d.ts",
+      "import": "./dist/universe/universe-context.js",
+      "default": "./dist/universe/universe-context.js"
+    },
+    "./universe/universe-context": {
+      "@dmnpc-source": "./src/universe/universe-context.ts",
+      "types": "./dist/universe/universe-context.d.ts",
+      "import": "./dist/universe/universe-context.js",
+      "default": "./dist/universe/universe-context.js"
+    },
+    "./universe/universe-lock.js": {
+      "@dmnpc-source": "./src/universe/universe-lock.ts",
+      "types": "./dist/universe/universe-lock.d.ts",
+      "import": "./dist/universe/universe-lock.js",
+      "default": "./dist/universe/universe-lock.js"
+    },
+    "./universe/universe-lock": {
+      "@dmnpc-source": "./src/universe/universe-lock.ts",
+      "types": "./dist/universe/universe-lock.d.ts",
+      "import": "./dist/universe/universe-lock.js",
+      "default": "./dist/universe/universe-lock.js"
+    },
+    "./universe/universe-store.js": {
+      "@dmnpc-source": "./src/universe/universe-store.ts",
+      "types": "./dist/universe/universe-store.d.ts",
+      "import": "./dist/universe/universe-store.js",
+      "default": "./dist/universe/universe-store.js"
+    },
+    "./universe/universe-store": {
+      "@dmnpc-source": "./src/universe/universe-store.ts",
+      "types": "./dist/universe/universe-store.d.ts",
+      "import": "./dist/universe/universe-store.js",
+      "default": "./dist/universe/universe-store.js"
+    },
+    "./universe/universe-transaction.js": {
+      "@dmnpc-source": "./src/universe/universe-transaction.ts",
+      "types": "./dist/universe/universe-transaction.d.ts",
+      "import": "./dist/universe/universe-transaction.js",
+      "default": "./dist/universe/universe-transaction.js"
+    },
+    "./universe/universe-transaction": {
+      "@dmnpc-source": "./src/universe/universe-transaction.ts",
+      "types": "./dist/universe/universe-transaction.d.ts",
+      "import": "./dist/universe/universe-transaction.js",
+      "default": "./dist/universe/universe-transaction.js"
+    }
+  },
+  "files": [
+    "src",
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint src",
+    "lint:fix": "eslint src --fix",
+    "format": "prettier --write src",
+    "format:check": "prettier --check src",
+    "test": "vitest run",
+    "test:coverage": "vitest run --coverage",
+    "test:unit": "vitest run .unit.",
+    "test:integration": "vitest run .integration.",
+    "test:watch": "vitest",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.78.0",
+    "@aws-sdk/client-s3": "^3.700.0",
+    "@dmnpc/data": "workspace:*",
+    "@dmnpc/types": "workspace:*",
+    "dotenv": "^16.3.1",
+    "http-errors": "^2.0.1",
+    "openai": "^6.16.0",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.2",
+    "@types/http-errors": "^2.0.5",
+    "@types/node": "^25.0.3",
+    "@vitest/coverage-v8": "^3.2.4",
+    "eslint": "^9.39.2",
+    "eslint-config-prettier": "^10.1.8",
+    "prettier": "^3.7.4",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.52.0",
+    "vite-tsconfig-paths": "^5.1.4",
+    "vitest": "^3.2.4"
+  }
+}

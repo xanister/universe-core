@@ -1,0 +1,21 @@
+{
+  "id": "throne",
+  "purposes": [
+    "decoration"
+  ],
+  "spriteId": "throne",
+  "name": "Throne",
+  "description": "A Throne",
+  "tags": [
+    "common",
+    "furniture",
+    "seating",
+    "royal"
+  ],
+  "materials": [
+    "wood"
+  ],
+  "solid": true,
+  "layer": "default",
+  "tintable": true
+}
