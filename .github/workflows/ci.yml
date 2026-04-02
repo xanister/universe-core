@@ -20,6 +20,14 @@ jobs:
           node-version: "22"
           cache: "pnpm"
 
+      - name: Configure git credentials for private deps
+        run: |
+          if [ -z "${{ secrets.FORGE_ACCESS_TOKEN }}" ]; then
+            echo "::error::FORGE_ACCESS_TOKEN is not set."
+            exit 1
+          fi
+          git config --global url."https://${{ secrets.FORGE_ACCESS_TOKEN }}@github.com/".insteadOf "https://github.com/"
+
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
